@@ -1,8 +1,8 @@
-built: Apr 10 2025 at 09:58:30
-changelist: 4108343
+built: Apr 11 2025 at 08:04:14
+changelist: 4109245
 machine-name: <redacted>
-active-menu: menu/page-options-v3
-service-display-name: elamigos
+active-menu: menu/message-box-yes-no_noback
+service-display-name: RUNE
 service-account-id: 76561197960271872
 service-type: Steam
 username: 
@@ -11,13 +11,13 @@ branchname: t2r-pc-1.1.0
 build-config: t2r-pc-1.1.0-t2r-x64-final
 debug-feature-used: 0
 command-line: <no arguments>
-active-jobs: Thread Idle, Thread Idle, DeformerBufferAllocatorAllocateDeformerBuffersJob, Thread Idle, Thread Idle, Thread Idle, Thread Idle, GameLoopUpdate, Thread Idle, Thread Idle, Thread Idle, Thread Idle
-active-tasks: main-menu-menu
+active-jobs: RenderFrameJob, Thread Idle, Thread Idle, Thread Idle, GameLoopUpdate, Thread Idle, Thread Idle, Thread Idle, Thread Idle, Thread Idle, Thread Idle, Thread Idle
+active-tasks: seattle-arrival-sea-qz-wall-gate
 script-call-stacks: <empty-array>
 dynamic-encounters: <empty-array>
-time-since-game-start-seconds: 23.552420
+time-since-game-start-seconds: 186.970306
 time-since-game-start-hours: 0
-time-since-game-start-bucket: startup
+time-since-game-start-bucket: early
 gpu-name: NVIDIA GeForce RTX 4090
 gpu-driver-version: 572.83
 cpu-info: AuthenticAMD AMD Ryzen 5 7600X
@@ -29,44 +29,44 @@ windows-version: Win11
 pso-percent: -1
 last-gpu-crash-hresult-code: 0x887a002b
 last-gpu-crash-hresult-string: DXGI_ERROR_ACCESS_DENIED
-memory-used-percent: 42
+memory-used-percent: 70
 memory-physical-total-bytes: 33458536448
-memory-physical-available-bytes: 19348176896
+memory-physical-available-bytes: 9949900800
 memory-virtual-total-bytes: 140737488224256
-memory-virtual-available-bytes: 140099256709120
+memory-virtual-available-bytes: 140095711887360
 memory-page-file-total-bytes: 94661820416
-memory-page-file-available-bytes: 52879966208
-memory-commit-total-bytes: 41781854208
+memory-page-file-available-bytes: 52306456576
+memory-commit-total-bytes: 42355363840
 memory-commit-limit-bytes: 94661820416
 memory-page-size-bytes: 4096
-vram-free-bytes: 17578946560
-vram-used-bytes: 5988888576
+vram-free-bytes: 15955279872
+vram-used-bytes: 8141791232
 vram-budget-bytes: 24509415424
 vram-over-budget: false
-vram-buffers-used-bytes: 41636608
+vram-buffers-used-bytes: 630905600
 vram-buffers-budget-bytes: 1275068416
-vram-shaders-used-bytes: 36367104
+vram-shaders-used-bytes: 134607872
 vram-shaders-budget-bytes: 507510784
-vram-ndgi-used-bytes: 47155256
+vram-ndgi-used-bytes: 47162432
 vram-ndgi-budget-bytes: 136314880
 vram-ndgi-over-budget: false
-vram-ndrg-used-bytes: 11236624
+vram-ndrg-used-bytes: 11240144
 vram-ndrg-budget-bytes: 15728640
-vram-render-pool-used-bytes: 113613840
+vram-render-pool-used-bytes: 124241104
 vram-render-pool-budget-bytes: 167772160
 vram-render-globals-used-bytes: 16195888
 vram-render-globals-budget-bytes: 25165824
-shared-mem-used-bytes: 1773219840
+shared-mem-used-bytes: 1868845056
 shared-mem-budget-bytes: 15923961856
 drive-c-total-bytes: 249031553024
-drive-c-free-bytes: 65322606592
+drive-c-free-bytes: 76099162112
 drive-d-total-bytes: 2000381014016
-drive-d-free-bytes: 248722092032
+drive-d-free-bytes: 248027369472
 drive-e-total-bytes: 1000187359232
-drive-e-free-bytes: 486982377472
+drive-e-free-bytes: 486582411264
 drive-f-total-bytes: 1000186310656
-drive-f-free-bytes: 199953297408
+drive-f-free-bytes: 200160923648
 drive-g-total-bytes: 2048390066176
-drive-g-free-bytes: 1450179731456
+drive-g-free-bytes: 1450178420736
 gpu-diagnostics: None
 gpu-removed-reason: 0x887a002b
