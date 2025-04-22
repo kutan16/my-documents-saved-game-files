@@ -1,23 +1,23 @@
-built: Apr 11 2025 at 08:04:14
-changelist: 4109245
+built: Apr 16 2025 at 06:13:19
+changelist: 4112958
 machine-name: <redacted>
-active-menu: menu/message-box-yes-no_noback
-service-display-name: RUNE
+active-menu: (none)
+service-display-name: elamigos
 service-account-id: 76561197960271872
 service-type: Steam
 username: 
 gamename: t2r
-branchname: t2r-pc-1.1.0
-build-config: t2r-pc-1.1.0-t2r-x64-final
+branchname: t2r-pc-1.2.0
+build-config: t2r-pc-1.2.0-t2r-x64-final
 debug-feature-used: 0
 command-line: <no arguments>
-active-jobs: RenderFrameJob, Thread Idle, Thread Idle, Thread Idle, GameLoopUpdate, Thread Idle, Thread Idle, Thread Idle, Thread Idle, Thread Idle, Thread Idle, Thread Idle
-active-tasks: seattle-arrival-sea-qz-wall-gate
+active-jobs: Thread Idle, Thread Idle, PreProcessUpdate, DeformerBufferAllocatorAllocateDeformerBuffersJob, Thread Idle, Thread Idle, Thread Idle, Thread Idle, Thread Idle, Thread Idle, Thread Idle, Thread Idle
+active-tasks: santa-barbara-san-infected-wilds-ascent
 script-call-stacks: <empty-array>
 dynamic-encounters: <empty-array>
-time-since-game-start-seconds: 186.970306
+time-since-game-start-seconds: 1151.433838
 time-since-game-start-hours: 0
-time-since-game-start-bucket: early
+time-since-game-start-bucket: first-hour
 gpu-name: NVIDIA GeForce RTX 4090
 gpu-driver-version: 572.83
 cpu-info: AuthenticAMD AMD Ryzen 5 7600X
@@ -27,46 +27,46 @@ display-resolution-height: 1440
 os-version: Windows 10.0.22631
 windows-version: Win11
 pso-percent: -1
-last-gpu-crash-hresult-code: 0x887a002b
-last-gpu-crash-hresult-string: DXGI_ERROR_ACCESS_DENIED
-memory-used-percent: 70
+last-gpu-crash-hresult-code: 0x887a0007
+last-gpu-crash-hresult-string: DXGI_ERROR_DEVICE_RESET
+memory-used-percent: 52
 memory-physical-total-bytes: 33458536448
-memory-physical-available-bytes: 9949900800
+memory-physical-available-bytes: 16030801920
 memory-virtual-total-bytes: 140737488224256
-memory-virtual-available-bytes: 140095711887360
-memory-page-file-total-bytes: 94661820416
-memory-page-file-available-bytes: 52306456576
-memory-commit-total-bytes: 42355363840
-memory-commit-limit-bytes: 94661820416
+memory-virtual-available-bytes: 140093618331648
+memory-page-file-total-bytes: 95735562240
+memory-page-file-available-bytes: 51027197952
+memory-commit-total-bytes: 44708364288
+memory-commit-limit-bytes: 95735562240
 memory-page-size-bytes: 4096
-vram-free-bytes: 15955279872
-vram-used-bytes: 8141791232
+vram-free-bytes: 14661586944
+vram-used-bytes: 9589927936
 vram-budget-bytes: 24509415424
 vram-over-budget: false
-vram-buffers-used-bytes: 630905600
+vram-buffers-used-bytes: 541899264
 vram-buffers-budget-bytes: 1275068416
-vram-shaders-used-bytes: 134607872
+vram-shaders-used-bytes: 170407680
 vram-shaders-budget-bytes: 507510784
-vram-ndgi-used-bytes: 47162432
+vram-ndgi-used-bytes: 47163536
 vram-ndgi-budget-bytes: 136314880
 vram-ndgi-over-budget: false
-vram-ndrg-used-bytes: 11240144
+vram-ndrg-used-bytes: 11534512
 vram-ndrg-budget-bytes: 15728640
-vram-render-pool-used-bytes: 124241104
+vram-render-pool-used-bytes: 126891888
 vram-render-pool-budget-bytes: 167772160
-vram-render-globals-used-bytes: 16195888
+vram-render-globals-used-bytes: 16196272
 vram-render-globals-budget-bytes: 25165824
-shared-mem-used-bytes: 1868845056
+shared-mem-used-bytes: 1863790592
 shared-mem-budget-bytes: 15923961856
 drive-c-total-bytes: 249031553024
-drive-c-free-bytes: 76099162112
+drive-c-free-bytes: 97108672512
 drive-d-total-bytes: 2000381014016
-drive-d-free-bytes: 248027369472
+drive-d-free-bytes: 245161168896
 drive-e-total-bytes: 1000187359232
-drive-e-free-bytes: 486582411264
+drive-e-free-bytes: 319125880832
 drive-f-total-bytes: 1000186310656
-drive-f-free-bytes: 200160923648
+drive-f-free-bytes: 199922860032
 drive-g-total-bytes: 2048390066176
-drive-g-free-bytes: 1450178420736
+drive-g-free-bytes: 1449939091456
 gpu-diagnostics: None
-gpu-removed-reason: 0x887a002b
+gpu-removed-reason: 0x887a0007
