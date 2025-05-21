@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>BF2E82F24C8135FDCD8D1CB02683B59A</ExecutionGuid>
+		<CrashGUID>UECC-Windows-874FCDCC4C2FF5DDC149D09EF95CDAE8_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>GPUCrash</CrashType>
+		<ErrorMessage>GPU Crash dump Triggered</ErrorMessage>
+		<CrashReporterMessage />
+		<AttendedStatus>Attended</AttendedStatus>
+		<ProcessId>73084</ProcessId>
+		<SecondsSinceStart>362</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsWithDebugInfo>true</IsWithDebugInfo>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-Oblivion Remastered</GameName>
+		<ExecutableName>OblivionRemastered-Win64-Shipping</ExecutableName>
+		<BuildConfiguration>Shipping</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformFullName>Win64 [Windows 11 (24H2) [10.0.26100.4061]  64b]</PlatformFullName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.3.2-233194+Test</EngineVersion>
+		<EngineCompatibleVersion>5.3.2-233194+Test</EngineCompatibleVersion>
+		<CommandLine>OblivionRemastered</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en-IN</AppDefaultLocale>
+		<BuildVersion>0.411.140.0</BuildVersion>
+		<Symbols>0.411.140.0-Win64-Shipping</Symbols>
+		<IsUERelease>true</IsUERelease>
+		<BranchName>Test</BranchName>
+		<bi_session_id>1242505729160609986</bi_session_id>
+		<correlation_id>bae49138-8721-4ab3-9ff3-797cf4e999c0</correlation_id>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>D:/Installed Games/The Elder Scrolls IV Oblivion Remastered/OblivionRemastered/Binaries/Win64/</BaseDir>
+		<RootDir>D:/Installed Games/The Elder Scrolls IV Oblivion Remastered/</RootDir>
+		<MachineId>FC7CA17D49668F1191355E9EE3E20277</MachineId>
+		<LoginId>fc7ca17d49668f1191355e9ee3e20277</LoginId>
+		<EpicAccountId />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>6</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+		<Misc.CPUBrand>AMD Ryzen 5 7600X 6-Core Processor</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 4090</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 11 (24H2) [10.0.26100.4061]</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>33458536448</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>97883045888</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>15949537280</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>60590678016</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>7693467648</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>8044953600</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>15036583936</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>16095694848</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>2</NumMinidumpFramesToIgnore>
+		<CallStack>OblivionRemastered_Win64_Shipping
+OblivionRemastered_Win64_Shipping
+OblivionRemastered_Win64_Shipping
+OblivionRemastered_Win64_Shipping
+OblivionRemastered_Win64_Shipping
+OblivionRemastered_Win64_Shipping
+OblivionRemastered_Win64_Shipping
+OblivionRemastered_Win64_Shipping
+kernel32
+ntdll</CallStack>
+		<PCallStack>OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 2571eca OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 2572c05 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 2545833 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 25510c9 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 2554bd0 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 255aabf OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</PCallStack>
+		<PCallStackHash>95FEF4CF3441B1711247B29C82F8BA7A2C4DB298</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 26c8b41 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 26d4f20 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 391581c OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 391cc3c OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 391ccba OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 391dcdc OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 3925ff4 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 6c17cb2 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>75096</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e211df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + de0c5b OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 2554c97 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 2534f9e OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 2306740 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 2304309 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 2303a95 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + deac1b OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc2c47 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc5ec3 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dcb61e OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dbd9d3 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + de1606 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc5b20 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e43884 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>61168</ThreadID>
+				<ThreadName>Foreground Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + ddfa90 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + de1796 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc5b20 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e43884 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>26044</ThreadID>
+				<ThreadName>Foreground Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + ddfa90 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + de1796 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc5b20 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e43884 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>69112</ThreadID>
+				<ThreadName>Foreground Worker #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + ddfa90 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + de1796 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc5b20 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e43884 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>76156</ThreadID>
+				<ThreadName>Background Worker #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + ddfa90 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + de1796 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc5b20 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e43884 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>70508</ThreadID>
+				<ThreadName>Background Worker #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + ddfa90 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + de1796 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc5b20 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e43884 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>75836</ThreadID>
+				<ThreadName>Background Worker #5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + ddfa90 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + de1796 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc5b20 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e43884 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>63556</ThreadID>
+				<ThreadName>Background Worker #6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + ddfa90 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + de1796 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc5b20 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e43884 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>75788</ThreadID>
+				<ThreadName>Background Worker #7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + ddfa90 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + de1796 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc5b20 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e43884 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>76460</ThreadID>
+				<ThreadName>Background Worker #8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + ddfa90 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + de1796 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc5b20 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e43884 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>23884</ThreadID>
+				<ThreadName>Background Worker #9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e4368e OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>75480</ThreadID>
+				<ThreadName>BackgroundThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e4368e OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>76960</ThreadID>
+				<ThreadName>BackgroundThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc250d OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e43884 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>79848</ThreadID>
+				<ThreadName>Reserve Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc250d OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e43884 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>54432</ThreadID>
+				<ThreadName>Reserve Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc250d OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e43884 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>53580</ThreadID>
+				<ThreadName>Reserve Worker #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc250d OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e43884 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>71288</ThreadID>
+				<ThreadName>Reserve Worker #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc250d OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e43884 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>79304</ThreadID>
+				<ThreadName>Reserve Worker #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc250d OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e43884 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>79812</ThreadID>
+				<ThreadName>Reserve Worker #5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc250d OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e43884 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>77168</ThreadID>
+				<ThreadName>Reserve Worker #6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dddd5b OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc9fb2 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dbcc81 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc5924 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc255e OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e43884 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>79128</ThreadID>
+				<ThreadName>Reserve Worker #7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc250d OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e43884 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>70988</ThreadID>
+				<ThreadName>Reserve Worker #8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dc250d OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e43884 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>76228</ThreadID>
+				<ThreadName>Reserve Worker #9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 2c9fa7c OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>47892</ThreadID>
+				<ThreadName>FMediaTicker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 1625f4 ntdll 0x00007fffa32e0000 + daeb4 KERNELBASE 0x00007fffa0800000 + 7a481 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dad40d OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>68208</ThreadID>
+				<ThreadName>HttpManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 40c6766 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>76212</ThreadID>
+				<ThreadName>OnlineAsyncTaskThreadSteam DefaultInstance</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 165bc4 ntdll 0x00007fffa32e0000 + 63513 KERNELBASE 0x00007fffa0800000 + e5748 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + ee3c7c OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + de0661 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + de049c OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f04536 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e43884 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>76112</ThreadID>
+				<ThreadName>OutputDeviceRedirector</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e4368e OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>76204</ThreadID>
+				<ThreadName>IOThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e4368e OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>76100</ThreadID>
+				<ThreadName>IOThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e4368e OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>76232</ThreadID>
+				<ThreadName>IOThreadPool #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e4368e OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>76196</ThreadID>
+				<ThreadName>IOThreadPool #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 1caa6f2 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>33188</ThreadID>
+				<ThreadName>IoService</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e84782 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>76096</ThreadID>
+				<ThreadName>IoDispatcher</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f5d8dc OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 6c3d8ee VCRUNTIME140 0x00007fff84170000 + e7bf ntdll 0x00007fffa32e0000 + 1666af ntdll 0x00007fffa32e0000 + 89cd7 ntdll 0x00007fffa32e0000 + 88b66 KERNELBASE 0x00007fffa0800000 + c9f0a OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f5ed33 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 2571eca OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 2572c05 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 2545833 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 25510c9 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 2554bd0 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 255aabf OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>78280</ThreadID>
+				<ThreadName>RHIInterruptThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 255aad7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>76852</ThreadID>
+				<ThreadName>RHISubmissionThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + e211df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + de0c5b OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 2554c97 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 2572d54 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 256edab OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 26615da OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 265d01f OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + deac1b OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dd93ae OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 26d0ceb OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>50280</ThreadID>
+				<ThreadName>RHIThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dd938b OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + de09dd OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 22f71d6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 2320bc1 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 2307623 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 1d67717 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 22e6021 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 22dbd37 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + dd93ae OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 26cf261 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 26d0d47 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9864</ThreadID>
+				<ThreadName>RenderThread 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 1625f4 ntdll 0x00007fffa32e0000 + daeb4 KERNELBASE 0x00007fffa0800000 + 7a481 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f68ede OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 26d0de7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>76008</ThreadID>
+				<ThreadName>RTHeartBeat 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f67726 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 45be8a8 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 45be9af OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 65fc821 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 49aee4d OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>81188</ThreadID>
+				<ThreadName>OblivionThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 1016fe1 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 1016ebe OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + ff9533 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>80812</ThreadID>
+				<ThreadName>FAsyncLoadingThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 1625f4 ntdll 0x00007fffa32e0000 + daeb4 KERNELBASE 0x00007fffa0800000 + 7a481 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f68ede OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 3804c21 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>80820</ThreadID>
+				<ThreadName>ScreenSaverInhibitor</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 1b634e7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>80860</ThreadID>
+				<ThreadName>AudioMixerNullCallbackThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 1b63707 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 1b6363e OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>80904</ThreadID>
+				<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 40c6766 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>81036</ThreadID>
+				<ThreadName>OnlineAsyncTaskThreadBethesdaNet DefaultInstance</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa32e0000 + 161ff4 KERNELBASE 0x00007fffa0800000 + 4d1df OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f69ff6 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + 1076cb2 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f688d7 OblivionRemastered-Win64-Shipping 0x00007ff7861d0000 + f65e61 KERNEL32 0x00007fffa2a80000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>81124</ThreadID>
+				<ThreadName>FAsyncPurge</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638834519179830000</TimeOfCrash>
+		<bAllowToBeContacted>0</bAllowToBeContacted>
+		<CPUBrand>AMD Ryzen 5 7600X 6-Core Processor</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>D:\Installed Games\The Elder Scrolls IV Oblivion Remastered\OblivionRemastered\Binaries\Win64\OblivionRemastered-Win64-Shipping.exe
+D:\Installed Games\The Elder Scrolls IV Oblivion Remastered\Engine\Plugins\Marketplace\XeSS\Binaries\ThirdParty\Win64\libxess.dll
+D:\Installed Games\The Elder Scrolls IV Oblivion Remastered\Engine\Binaries\ThirdParty\CEF3\Win64\libcef.dll
+D:\Installed Games\The Elder Scrolls IV Oblivion Remastered\Engine\Binaries\ThirdParty\CEF3\Win64\libGLESv2.dll
+D:\Installed Games\The Elder Scrolls IV Oblivion Remastered\Engine\Plugins\Marketplace\nvidia\DLSS\DLSS\Binaries\ThirdParty\Win64\nvngx_dlss.dll
+D:\Installed Games\The Elder Scrolls IV Oblivion Remastered\Engine\Plugins\Marketplace\nvidia\DLSS\Streamline\Binaries\ThirdParty\Win64\nvngx_deepdvc.dll
+D:\Installed Games\The Elder Scrolls IV Oblivion Remastered\Engine\Plugins\Marketplace\nvidia\DLSS\Streamline\Binaries\ThirdParty\Win64\nvngx_dlssg.dll
+D:\Installed Games\The Elder Scrolls IV Oblivion Remastered\Engine\Binaries\ThirdParty\CEF3\Win64\d3dcompiler_47.dll
+D:\Installed Games\The Elder Scrolls IV Oblivion Remastered\OblivionRemastered\Binaries\Win64\amd_fidelityfx_dx12.dll
+D:\Installed Games\The Elder Scrolls IV Oblivion Remastered\Engine\Binaries\Win64\EOSSDK-Win64-Shipping.dll
+D:\Installed Games\The Elder Scrolls IV Oblivion Remastered\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbis_64.dll
+D:\Installed Games\The Elder Scrolls IV Oblivion Remastered\Engine\Binaries\ThirdParty\Windows\XAudio2_9\x64\xaudio2_9redist.dll
+D:\Installed Games\The Elder Scrolls IV Oblivion Remastered\Engine\Binaries\ThirdParty\CEF3\Win64\chrome_elf.dll
+D:\Installed Games\The Elder Scrolls IV Oblivion Remastered\Engine\Binaries\ThirdParty\Steamworks\Steamv153\Win64\steam_api64.dll
+D:\Installed Games\The Elder Scrolls IV Oblivion Remastered\Engine\Binaries\ThirdParty\NVIDIA\NVaftermath\Win64\GFSDK_Aftermath_Lib.x64.dll
+D:\Installed Games\The Elder Scrolls IV Oblivion Remastered\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+D:\Installed Games\The Elder Scrolls IV Oblivion Remastered\Engine\Binaries\ThirdParty\CEF3\Win64\libEGL.dll
+D:\Installed Games\The Elder Scrolls IV Oblivion Remastered\Engine\Plugins\Marketplace\nvidia\DLSS\Streamline\Binaries\ThirdParty\Win64\sl.interposer.dll
+D:\Installed Games\The Elder Scrolls IV Oblivion Remastered\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015\libogg_64.dll
+D:\Installed Games\The Elder Scrolls IV Oblivion Remastered\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbisfile_64.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>false</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+		<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+		<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+		<RHI.D3DDebug>false</RHI.D3DDebug>
+		<RHI.Breadcrumbs>false</RHI.Breadcrumbs>
+		<RHI.DRED>false</RHI.DRED>
+		<RHI.DREDMarkersOnly>true</RHI.DREDMarkersOnly>
+		<RHI.DREDContext>false</RHI.DREDContext>
+		<RHI.Aftermath>false</RHI.Aftermath>
+		<RHI.RHIName>D3D12</RHI.RHIName>
+		<RHI.AdapterName>NVIDIA GeForce RTX 4090</RHI.AdapterName>
+		<RHI.UserDriverVersion>572.83</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>32.0.15.7283</RHI.InternalDriverVersion>
+		<RHI.DriverDate>3-14-2025</RHI.DriverDate>
+		<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+		<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+		<RHI.DeviceId>2684</RHI.DeviceId>
+		<DeviceProfile.Name>Windows</DeviceProfile.Name>
+		<Platform.AppHasFocus>true</Platform.AppHasFocus>
+		<LevelName>L_ImperialDungeon03</LevelName>
+		<SaveName>Hidden</SaveName>
+		<PlayerLocation>X=4017.667 Y=-14503.406 Z=-1962.656</PlayerLocation>
+		<WasConsoleCommandUsed>False</WasConsoleCommandUsed>
+		<Player_GUID>D9410ACD4B4011602143BFB2A7ABE443</Player_GUID>
+		<Character_GUID>D9410ACD4B4011602143BFB2A7ABE443</Character_GUID>
+		<Save_GUID>462C88C3414A077657A5D4B55C80DD60</Save_GUID>
+		<RHI.DREDHasBreadcrumbData>true</RHI.DREDHasBreadcrumbData>
+		<RHI.DREDHasPageFaultData>false</RHI.DREDHasPageFaultData>
+		<UI.Layer.GameMenuUntinted.WBP_ModernMenu_Dialog_C>Not Visible</UI.Layer.GameMenuUntinted.WBP_ModernMenu_Dialog_C>
+		<UI.Layer.GameMenuUntinted.WBP_ModernMenu_DialogList_C>Not Visible</UI.Layer.GameMenuUntinted.WBP_ModernMenu_DialogList_C>
+		<UsedPhysicalMemory>7693479936</UsedPhysicalMemory>
+	</EngineData>
+	<GameData>
+		<WindowsGameData>Window Mode: WindowedFullscreen, Resolution: 3440x1440, SecondsSinceLoadingScreen: 130, VRAM Total: 0 MB, Used: 0 MB, Upscaling Method: DLSS, Is FG Enabled: true, Graphics Quality : Resolution: 100.00, View Distance: 3, Anti-Aliasing Method: 0, Anti-Aliasing: 0, Shadow: 3, Global Illumination: 3, Reflection: 3, Post-Process: 3, Texture: 3, Effects: 3, Foliage: 3, Hair: 3</WindowsGameData>
+	</GameData>
+</FGenericCrashContext>
