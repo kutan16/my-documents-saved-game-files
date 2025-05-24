@@ -1,949 +1,731 @@
-18:01:41:651 (00140884) > [Startup] The Last of Us™ Part II
-18:01:41:651 (00140884) > [Startup] ==============
-18:01:41:651 (00140884) > [Startup] 
-18:01:41:651 (00140884) > [Startup] Build: v1.2.10416.0553
-18:01:41:651 (00140884) > [Startup] Windows 11.0 (build 26100.4061)
-18:01:41:651 (00140884) > [Startup] Distribution platform: Steam
-18:01:41:651 (00140884) > [Startup] Game directory: C:\Users\<username>\Documents\The Last of Us Part II\
-18:01:41:651 (00140884) > [Startup] Working directory: D:\Installed Games\The.Last.of.Us.Part.II.Remastered-InsaneRamZes
-18:01:41:651 (00140884) > [Startup] Run ID: D500-23D2-1323-0B83
-18:01:41:651 (00140884) > [Startup] 
-18:01:41:651 (00140884) > [Startup] Memory statistics:
-18:01:41:651 (00140884) > [Startup]   Total RAM = 31.2 GB (31908 MB)
-18:01:41:651 (00140884) > [Startup]   Avail RAM = 19.9 GB (20403 MB)
-18:01:41:651 (00140884) > [Startup]   Total virtual memory = 131072.0 GB (134217727 MB)
-18:01:41:651 (00140884) > [Startup]   Avail virtual memory = 130554.6 GB (133687940 MB)
-18:01:41:651 (00140884) > [Startup]   Total page file = 91.2 GB (93348 MB)
-18:01:41:651 (00140884) > [Startup]   Avail page file = 56.0 GB (57304 MB)
-18:01:41:651 (00140884) > [Startup] 
+00:52:29:848 (00259876) > [Startup] The Last of Us™ Part II
+00:52:29:848 (00259876) > [Startup] ==============
+00:52:29:848 (00259876) > [Startup] 
+00:52:29:848 (00259876) > [Startup] Build: v1.2.10416.0553
+00:52:29:848 (00259876) > [Startup] Windows 11.0 (build 26100.4061)
+00:52:29:848 (00259876) > [Startup] Distribution platform: Steam
+00:52:29:849 (00259876) > [Startup] Game directory: C:\Users\<username>\Documents\The Last of Us Part II\
+00:52:29:849 (00259876) > [Startup] Working directory: D:\Installed Games\The.Last.of.Us.Part.II.Remastered-InsaneRamZes
+00:52:29:849 (00259876) > [Startup] Run ID: 5F60-30F2-32AC-1488
+00:52:29:849 (00259876) > [Startup] 
+00:52:29:849 (00259876) > [Startup] Memory statistics:
+00:52:29:849 (00259876) > [Startup]   Total RAM = 31.2 GB (31908 MB)
+00:52:29:849 (00259876) > [Startup]   Avail RAM = 18.9 GB (19319 MB)
+00:52:29:849 (00259876) > [Startup]   Total virtual memory = 131072.0 GB (134217727 MB)
+00:52:29:849 (00259876) > [Startup]   Avail virtual memory = 130554.6 GB (133687940 MB)
+00:52:29:849 (00259876) > [Startup]   Total page file = 91.2 GB (93348 MB)
+00:52:29:849 (00259876) > [Startup]   Avail page file = 55.0 GB (56351 MB)
+00:52:29:849 (00259876) > [Startup] 
 
-18:01:41:840 (00140884) > [Steam] Initializing.
-18:01:41:840 (00140884) > [Steam] Successfully initialized.
-18:01:41:840 (00140884) > [Steam] Currently connected to 0 remote sessions
-18:01:41:840 (00140884) > [NxSteam] End previously existing file batch, did the game quit abnormally while saving?
-18:01:41:840 (00140884) > [Steam] Steam beta branch: unknown
-18:01:41:941 (00140884) > [NxApp] PreInit
-18:01:41:941 (00140884) > [NxProcessorInfo] Processor info:
-18:01:41:942 (00140884) > [NxProcessorInfo] 	Description:             	AMD Ryzen 5 7600X 6-Core Processor             
-18:01:41:942 (00140884) > [NxProcessorInfo] 	NumaNode Count:    	0
-18:01:41:942 (00140884) > [NxProcessorInfo] 	Group Count:       	1
-18:01:41:942 (00140884) > [NxProcessorInfo] 	Physical Core:     	6
-18:01:41:942 (00140884) > [NxProcessorInfo] 	Logical  Core:     	12
-18:01:41:942 (00140884) > [NxProcessorInfo] 	Distinct L3 Cache: 	1
-18:01:41:942 (00140884) > [NxProcessorInfo] 	Family:            	25
-18:01:41:942 (00140884) > [NxProcessorInfo] 	Model:             	97
-18:01:41:942 (00140884) > [NxProcessorInfo] 	Name:              	AMD Ryzen 5 7600X 6-Core Processor             
-18:01:41:942 (00140884) > [NxProcessorInfo] 	AVX:               	1
-18:01:41:942 (00140884) > [NxProcessorInfo] 	F16C:              	1
-18:01:41:942 (00140884) > [NxProcessorInfo] 	AVX2:              	1
-18:01:41:942 (00140884) > [NxProcessorInfo] 	NormalAffinity(auto)
-18:01:41:942 (00140884) > [SwapChain] Initializing...
-18:01:41:942 (00140884) > [DXGI] Initializing...
-18:01:43:614 (00140884) > [NxApp] Streamline was successfully initialized.
-18:01:43:614 (00140884) > [DXGI] Successfully initialized.
-18:01:43:614 (00140884) > [Render] Enumerating adapters:
-18:01:43:614 (00140884) > [Render] 	Adapter 0:
-18:01:43:614 (00140884) > [Monitor] 		Description             : NVIDIA GeForce RTX 4090
-18:01:43:615 (00140884) > [Monitor] 		Vendor                  : nVidia (10de)
-18:01:43:615 (00140884) > [Monitor] 		Device                  : 2684
-18:01:43:615 (00140884) > [Monitor] 		Sub system              : 165b10de
-18:01:43:615 (00140884) > [Monitor] 		Revision                : 161
-18:01:43:615 (00140884) > [Monitor] 		Dedicated Video Memory  : 24142 MB
-18:01:43:615 (00140884) > [Monitor] 		Dedicated System Memory : 0000 MB
-18:01:43:615 (00140884) > [Monitor] 		Shared System Memory    : 15954 MB
-18:01:43:615 (00140884) > [Monitor] 
-18:01:43:615 (00140884) > [Render] Loading NVAPI...
-18:01:43:615 (00140884) > [Render] Done loading NVAPI
-18:01:43:615 (00140884) > [Render] 	Adapter 1:
-18:01:43:615 (00140884) > [Monitor] 		Description             : AMD Radeon(TM) Graphics
-18:01:43:615 (00140884) > [Monitor] 		Vendor                  : AMD (1002)
-18:01:43:615 (00140884) > [Monitor] 		Device                  : 164e
-18:01:43:615 (00140884) > [Monitor] 		Sub system              : 88771043
-18:01:43:615 (00140884) > [Monitor] 		Revision                : 199
-18:01:43:615 (00140884) > [Monitor] 		Dedicated Video Memory  : 0485 MB
-18:01:43:615 (00140884) > [Monitor] 		Dedicated System Memory : 0000 MB
-18:01:43:615 (00140884) > [Monitor] 		Shared System Memory    : 15954 MB
-18:01:43:615 (00140884) > [Monitor] 
-18:01:43:616 (00140884) > [Render] Loading ADL...
-18:01:43:634 (00140884) > [Render] AGS init succeeded
-18:01:43:634 (00140884) > [Render] AGS Radeon Software Version: 24.10.16
-18:01:43:634 (00140884) > [Render] Done loading ADL and AGS
-18:01:43:634 (00140884) > [Render] Loading ADLX...
-18:01:43:684 (00140884) > [Render] 	Adapter 2:
-18:01:43:684 (00140884) > [Monitor] 		Description             : Microsoft Basic Render Driver
-18:01:43:684 (00140884) > [Monitor] 		Vendor                  : Unknown (1414)
-18:01:43:684 (00140884) > [Monitor] 		Device                  : 8c
-18:01:43:684 (00140884) > [Monitor] 		Sub system              : 0
-18:01:43:684 (00140884) > [Monitor] 		Revision                : 0
-18:01:43:684 (00140884) > [Monitor] 		Dedicated Video Memory  : 0000 MB
-18:01:43:684 (00140884) > [Monitor] 		Dedicated System Memory : 0000 MB
-18:01:43:684 (00140884) > [Monitor] 		Shared System Memory    : 15954 MB
-18:01:43:684 (00140884) > [Monitor] 
-18:01:43:684 (00140884) > [Render] Enumerating monitors:
-18:01:43:684 (00140884) > [Render] 	Monitor 0: handle = 0000000008d705c5, aspect = 2.39, rounded aspect = 2.39
-18:01:43:684 (00140884) > [Render] 	Monitor 1: handle = 0000000000080291, aspect = 2.40, rounded aspect = 2.40
-18:01:43:684 (00140884) > [Render] 
-18:01:43:686 (00140884) > [Render] 	Monitor handle = 0000000008d705c5, pixel aspect ratio = 1.00
-18:01:43:688 (00140884) > [Render] 	Monitor handle = 0000000000080291, pixel aspect ratio = 1.00
-18:01:43:688 (00140884) > [SwapChain] Successfully initialized.
-18:01:43:688 (00140884) > [Render] Enumerating Display Modes:
-18:01:43:689 (00140884) > [Render] Querying ADL for Eyefinity modes
-18:01:43:690 (00140884) > [Render] Querying NVAPI for Surround modes
-18:01:43:803 (00140884) > [Render] NvAPI_Mosaic_GetDisplayViewportsByResolution() - no surround modes detected
-18:01:43:804 (00140884) > [Render] Querying ADL for Eyefinity modes
-18:01:43:804 (00140884) > [Render] Querying NVAPI for Surround modes
-18:01:43:929 (00140884) > [Render] NvAPI_Mosaic_GetDisplayViewportsByResolution() - no surround modes detected
-18:01:43:929 (00140884) > [Render] 	Monitor '1 (NVIDIA GeForce RTX 4090(1))' (0000000008d705c5): rect(0 3440 0 1440)
-18:01:43:929 (00140884) > [Render] 		- Mode  0 :  800 x  600 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode  1 :  800 x  600 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode  2 :  800 x  600 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode  3 :  800 x  600 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode  4 :  800 x  600 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode  5 :  800 x  600 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode  6 :  800 x  600 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode  7 :  800 x  600 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode  8 :  800 x  600 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode  9 :  800 x  600 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 10 :  800 x  600 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 11 :  800 x  600 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 12 : 1024 x  768 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 13 : 1024 x  768 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 14 : 1024 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 15 : 1024 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 16 : 1024 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 17 : 1024 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 18 : 1024 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 19 : 1024 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 20 : 1024 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 21 : 1024 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 22 : 1024 x  768 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 23 : 1024 x  768 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 24 : 1152 x  864 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 25 : 1152 x  864 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 26 : 1152 x  864 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 27 : 1152 x  864 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 28 : 1152 x  864 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 29 : 1152 x  864 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 30 : 1152 x  864 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 31 : 1152 x  864 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 32 : 1152 x  864 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 33 : 1152 x  864 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 34 : 1152 x  864 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 35 : 1152 x  864 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 36 : 1280 x  720 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 37 : 1280 x  720 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 38 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 39 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 40 : 1280 x  720 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 41 : 1280 x  720 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 42 : 1280 x  720 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 43 : 1280 x  720 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 44 : 1280 x  720 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 45 : 1280 x  720 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 46 : 1280 x  720 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 47 : 1280 x  720 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 48 : 1280 x  768 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 49 : 1280 x  768 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 50 : 1280 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 51 : 1280 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 52 : 1280 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 53 : 1280 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 54 : 1280 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 55 : 1280 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 56 : 1280 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 57 : 1280 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 58 : 1280 x  768 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 59 : 1280 x  768 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 60 : 1280 x  800 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 61 : 1280 x  800 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 62 : 1280 x  800 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 63 : 1280 x  800 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 64 : 1280 x  800 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 65 : 1280 x  800 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 66 : 1280 x  800 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 67 : 1280 x  800 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 68 : 1280 x  800 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 69 : 1280 x  800 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 70 : 1280 x  800 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 71 : 1280 x  800 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 72 : 1280 x  960 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 73 : 1280 x  960 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 74 : 1280 x  960 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 75 : 1280 x  960 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 76 : 1280 x  960 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 77 : 1280 x  960 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 78 : 1280 x  960 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 79 : 1280 x  960 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 80 : 1280 x  960 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 81 : 1280 x  960 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 82 : 1280 x  960 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 83 : 1280 x  960 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 84 : 1280 x 1024 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 85 : 1280 x 1024 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 86 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 87 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 88 : 1280 x 1024 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 89 : 1280 x 1024 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 90 : 1280 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 91 : 1280 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 92 : 1280 x 1024 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 93 : 1280 x 1024 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 94 : 1280 x 1024 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 95 : 1280 x 1024 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 96 : 1360 x  768 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 97 : 1360 x  768 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 98 : 1360 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 99 : 1360 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 100 : 1360 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 101 : 1360 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 102 : 1360 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 103 : 1360 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 104 : 1360 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 105 : 1360 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 106 : 1360 x  768 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 107 : 1360 x  768 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 108 : 1366 x  768 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 109 : 1366 x  768 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 110 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 111 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 112 : 1366 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 113 : 1366 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 114 : 1366 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 115 : 1366 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:929 (00140884) > [Render] 		- Mode 116 : 1366 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 117 : 1366 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 118 : 1366 x  768 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 119 : 1366 x  768 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 120 : 1440 x 1080 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 121 : 1440 x 1080 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 122 : 1440 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 123 : 1440 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 124 : 1440 x 1080 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 125 : 1440 x 1080 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 126 : 1440 x 1080 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 127 : 1440 x 1080 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 128 : 1440 x 1080 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 129 : 1440 x 1080 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 130 : 1440 x 1080 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 131 : 1440 x 1080 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 132 : 1600 x  900 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 133 : 1600 x  900 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 134 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 135 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 136 : 1600 x  900 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 137 : 1600 x  900 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 138 : 1600 x  900 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 139 : 1600 x  900 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 140 : 1600 x  900 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 141 : 1600 x  900 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 142 : 1600 x  900 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 143 : 1600 x  900 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 144 : 1600 x 1024 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 145 : 1600 x 1024 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 146 : 1600 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 147 : 1600 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 148 : 1600 x 1024 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 149 : 1600 x 1024 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 150 : 1600 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 151 : 1600 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 152 : 1600 x 1024 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 153 : 1600 x 1024 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 154 : 1600 x 1024 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 155 : 1600 x 1024 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 156 : 1600 x 1200 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 157 : 1600 x 1200 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 158 : 1600 x 1200 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 159 : 1600 x 1200 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 160 : 1600 x 1200 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 161 : 1600 x 1200 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 162 : 1600 x 1200 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 163 : 1600 x 1200 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 164 : 1600 x 1200 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 165 : 1600 x 1200 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 166 : 1600 x 1200 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 167 : 1600 x 1200 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 168 : 1680 x 1050 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 169 : 1680 x 1050 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 170 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 171 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 172 : 1680 x 1050 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 173 : 1680 x 1050 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 174 : 1680 x 1050 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 175 : 1680 x 1050 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 176 : 1680 x 1050 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 177 : 1680 x 1050 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 178 : 1680 x 1050 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 179 : 1680 x 1050 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 180 : 1920 x 1080 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 181 : 1920 x 1080 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 182 : 1920 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 183 : 1920 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 184 : 1920 x 1080 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 185 : 1920 x 1080 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 186 : 1920 x 1080 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 187 : 1920 x 1080 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 188 : 1920 x 1080 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 189 : 1920 x 1080 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 190 : 1920 x 1080 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 191 : 1920 x 1080 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 192 : 1920 x 1200 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 193 : 1920 x 1200 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 194 : 1920 x 1200 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 195 : 1920 x 1200 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 196 : 1920 x 1200 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 197 : 1920 x 1200 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 198 : 1920 x 1200 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 199 : 1920 x 1200 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 200 : 1920 x 1200 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 201 : 1920 x 1200 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 202 : 1920 x 1200 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 203 : 1920 x 1200 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 204 : 1920 x 1440 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 205 : 1920 x 1440 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 206 : 1920 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 207 : 1920 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 208 : 1920 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 209 : 1920 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 210 : 1920 x 1440 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 211 : 1920 x 1440 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 212 : 1920 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 213 : 1920 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 214 : 1920 x 1440 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 215 : 1920 x 1440 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 216 : 2560 x 1440 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 217 : 2560 x 1440 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 218 : 2560 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 219 : 2560 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 220 : 2560 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 221 : 2560 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 222 : 2560 x 1440 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 223 : 2560 x 1440 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 224 : 2560 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 225 : 2560 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 226 : 2560 x 1440 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 227 : 2560 x 1440 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 228 : 3440 x 1440 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 229 : 3440 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 230 : 3440 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 231 : 3440 x 1440 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 232 : 3440 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 233 : 3440 x 1440 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 234 :  800 x  600 @  50 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 235 :  800 x  600 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 236 :  800 x  600 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 237 :  800 x  600 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 238 :  800 x  600 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 239 :  800 x  600 @ 240 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 240 : 1024 x  768 @  50 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 241 : 1024 x  768 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 242 : 1024 x  768 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 243 : 1024 x  768 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 244 : 1024 x  768 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 245 : 1024 x  768 @ 240 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 246 : 1152 x  864 @  50 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 247 : 1152 x  864 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 248 : 1152 x  864 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 249 : 1152 x  864 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 250 : 1152 x  864 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 251 : 1152 x  864 @ 240 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 252 : 1280 x  720 @  50 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 253 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 254 : 1280 x  720 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 255 : 1280 x  720 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 256 : 1280 x  720 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 257 : 1280 x  720 @ 240 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 258 : 1280 x  768 @  50 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 259 : 1280 x  768 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 260 : 1280 x  768 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 261 : 1280 x  768 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 262 : 1280 x  768 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 263 : 1280 x  768 @ 240 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 264 : 1280 x  800 @  50 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 265 : 1280 x  800 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 266 : 1280 x  800 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 267 : 1280 x  800 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 268 : 1280 x  800 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 269 : 1280 x  800 @ 240 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 270 : 1280 x  960 @  50 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 271 : 1280 x  960 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 272 : 1280 x  960 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 273 : 1280 x  960 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 274 : 1280 x  960 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 275 : 1280 x  960 @ 240 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 276 : 1280 x 1024 @  50 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 277 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 278 : 1280 x 1024 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 279 : 1280 x 1024 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 280 : 1280 x 1024 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 281 : 1280 x 1024 @ 240 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 282 : 1360 x  768 @  50 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 283 : 1360 x  768 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 284 : 1360 x  768 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 285 : 1360 x  768 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 286 : 1360 x  768 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 287 : 1360 x  768 @ 240 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 288 : 1366 x  768 @  50 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 289 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 290 : 1366 x  768 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 291 : 1366 x  768 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 292 : 1366 x  768 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 293 : 1366 x  768 @ 240 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 294 : 1440 x 1080 @  50 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 295 : 1440 x 1080 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 296 : 1440 x 1080 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 297 : 1440 x 1080 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 298 : 1440 x 1080 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 299 : 1440 x 1080 @ 240 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 300 : 1600 x  900 @  50 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 301 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 302 : 1600 x  900 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 303 : 1600 x  900 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 304 : 1600 x  900 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 305 : 1600 x  900 @ 240 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 306 : 1600 x 1024 @  50 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 307 : 1600 x 1024 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 308 : 1600 x 1024 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 309 : 1600 x 1024 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 310 : 1600 x 1024 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 311 : 1600 x 1024 @ 240 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 312 : 1600 x 1200 @  50 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 313 : 1600 x 1200 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 314 : 1600 x 1200 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 315 : 1600 x 1200 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 316 : 1600 x 1200 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 317 : 1600 x 1200 @ 240 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 318 : 1680 x 1050 @  50 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 319 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 320 : 1680 x 1050 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 321 : 1680 x 1050 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 322 : 1680 x 1050 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 323 : 1680 x 1050 @ 240 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 324 : 1920 x 1080 @  50 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 325 : 1920 x 1080 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 326 : 1920 x 1080 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 327 : 1920 x 1080 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 328 : 1920 x 1080 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 329 : 1920 x 1080 @ 240 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 330 : 1920 x 1200 @  50 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 331 : 1920 x 1200 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 332 : 1920 x 1200 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 333 : 1920 x 1200 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 334 : 1920 x 1200 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 335 : 1920 x 1200 @ 240 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 336 : 1920 x 1440 @  50 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 337 : 1920 x 1440 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 338 : 1920 x 1440 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 339 : 1920 x 1440 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 340 : 1920 x 1440 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 341 : 1920 x 1440 @ 240 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 342 : 2560 x 1440 @  50 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 343 : 2560 x 1440 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 344 : 2560 x 1440 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 345 : 2560 x 1440 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 346 : 2560 x 1440 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 347 : 2560 x 1440 @ 240 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 348 : 3440 x 1440 @  50 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 349 : 3440 x 1440 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 350 : 3440 x 1440 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 351 : 3440 x 1440 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 352 : 3440 x 1440 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] 		- Mode 353 : 3440 x 1440 @ 240 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:930 (00140884) > [Render] ***** Additional Monitor Output Info *****
-18:01:43:930 (00140884) > [Render] 		BitsPerColor: 10
-18:01:43:930 (00140884) > [Render] 		Primaries: R=0.6768;0.3213  G=0.2520;0.6807  B=0.1465;0.0566  White-Point=0.3135;0.3291
-18:01:43:930 (00140884) > [Render] 		HDR: Yes (Color Space: DXGI_COLOR_SPACE_RGB_FULL_G2084_NONE_P2020)
-18:01:43:930 (00140884) > [Render] 		Luminance: Min=0.0000 Max=603.0000 MaxFullFrame=276.0000
-18:01:43:930 (00140884) > [Render] ******************************************
-18:01:43:931 (00140884) > [Render] 	Monitor '2 (NVIDIA GeForce RTX 4090(1))' (0000000000080291): rect(-3440 0 0 1440)
-18:01:43:931 (00140884) > [Render] 		- Mode  0 :  800 x  600 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode  1 :  800 x  600 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode  2 :  800 x  600 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode  3 :  800 x  600 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode  4 :  800 x  600 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode  5 :  800 x  600 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode  6 :  800 x  600 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode  7 :  800 x  600 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode  8 :  800 x  600 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode  9 :  800 x  600 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 10 :  800 x  600 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 11 : 1024 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 12 : 1024 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 13 : 1024 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 14 : 1024 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 15 : 1024 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 16 : 1024 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 17 : 1024 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 18 : 1024 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 19 : 1024 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 20 : 1024 x  768 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 21 : 1024 x  768 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 22 : 1152 x  864 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 23 : 1152 x  864 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 24 : 1152 x  864 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 25 : 1152 x  864 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 26 : 1152 x  864 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 27 : 1152 x  864 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 28 : 1152 x  864 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 29 : 1152 x  864 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 30 : 1152 x  864 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 31 : 1152 x  864 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 32 : 1152 x  864 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 33 : 1152 x  864 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 34 : 1152 x  864 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 35 : 1152 x  864 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 36 : 1176 x  664 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 37 : 1176 x  664 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 38 : 1176 x  664 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 39 : 1176 x  664 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 40 : 1176 x  664 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 41 : 1176 x  664 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 42 : 1176 x  664 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 43 : 1176 x  664 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 44 : 1176 x  664 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 45 : 1176 x  664 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 46 : 1176 x  664 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 47 : 1176 x  664 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 48 : 1176 x  664 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 49 : 1176 x  664 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 50 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 51 : 1280 x  720 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 52 : 1280 x  720 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 53 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 54 : 1280 x  720 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 55 : 1280 x  720 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 56 : 1280 x  720 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 57 : 1280 x  720 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 58 : 1280 x  720 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 59 : 1280 x  720 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 60 : 1280 x  720 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 61 : 1280 x  720 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 62 : 1280 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 63 : 1280 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 64 : 1280 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 65 : 1280 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 66 : 1280 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 67 : 1280 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 68 : 1280 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 69 : 1280 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 70 : 1280 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 71 : 1280 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 72 : 1280 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 73 : 1280 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 74 : 1280 x  768 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 75 : 1280 x  768 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 76 : 1280 x  800 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 77 : 1280 x  800 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 78 : 1280 x  800 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 79 : 1280 x  800 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 80 : 1280 x  800 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 81 : 1280 x  800 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 82 : 1280 x  800 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 83 : 1280 x  800 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 84 : 1280 x  800 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 85 : 1280 x  800 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 86 : 1280 x  800 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 87 : 1280 x  800 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 88 : 1280 x  800 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 89 : 1280 x  800 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 90 : 1280 x  960 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 91 : 1280 x  960 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 92 : 1280 x  960 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 93 : 1280 x  960 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 94 : 1280 x  960 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 95 : 1280 x  960 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 96 : 1280 x  960 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 97 : 1280 x  960 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 98 : 1280 x  960 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 99 : 1280 x  960 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 100 : 1280 x  960 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 101 : 1280 x  960 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 102 : 1280 x  960 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 103 : 1280 x  960 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 104 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 105 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 106 : 1280 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 107 : 1280 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 108 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 109 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 110 : 1280 x 1024 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 111 : 1280 x 1024 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 112 : 1280 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 113 : 1280 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 114 : 1280 x 1024 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 115 : 1280 x 1024 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 116 : 1280 x 1024 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 117 : 1280 x 1024 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 118 : 1360 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 119 : 1360 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 120 : 1360 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 121 : 1360 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 122 : 1360 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 123 : 1360 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 124 : 1360 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 125 : 1360 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 126 : 1360 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 127 : 1360 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 128 : 1360 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 129 : 1360 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 130 : 1360 x  768 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 131 : 1360 x  768 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 132 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 133 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 134 : 1366 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 135 : 1366 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 136 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 137 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 138 : 1366 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 139 : 1366 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 140 : 1366 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 141 : 1366 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 142 : 1366 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 143 : 1366 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 144 : 1366 x  768 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 145 : 1366 x  768 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 146 : 1440 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 147 : 1440 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 148 : 1440 x 1080 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 149 : 1440 x 1080 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 150 : 1440 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 151 : 1440 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 152 : 1440 x 1080 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 153 : 1440 x 1080 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 154 : 1440 x 1080 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 155 : 1440 x 1080 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 156 : 1440 x 1080 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 157 : 1440 x 1080 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 158 : 1440 x 1080 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 159 : 1440 x 1080 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 160 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 161 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 162 : 1600 x  900 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 163 : 1600 x  900 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 164 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 165 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 166 : 1600 x  900 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 167 : 1600 x  900 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 168 : 1600 x  900 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 169 : 1600 x  900 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 170 : 1600 x  900 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 171 : 1600 x  900 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 172 : 1600 x  900 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 173 : 1600 x  900 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 174 : 1600 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 175 : 1600 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 176 : 1600 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 177 : 1600 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 178 : 1600 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 179 : 1600 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 180 : 1600 x 1024 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 181 : 1600 x 1024 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 182 : 1600 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 183 : 1600 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 184 : 1600 x 1024 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 185 : 1600 x 1024 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 186 : 1600 x 1024 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 187 : 1600 x 1024 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 188 : 1600 x 1200 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 189 : 1600 x 1200 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 190 : 1600 x 1200 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 191 : 1600 x 1200 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 192 : 1600 x 1200 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 193 : 1600 x 1200 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 194 : 1600 x 1200 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 195 : 1600 x 1200 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 196 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 197 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 198 : 1680 x 1050 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 199 : 1680 x 1050 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 200 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 201 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 202 : 1680 x 1050 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 203 : 1680 x 1050 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 204 : 1680 x 1050 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 205 : 1680 x 1050 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 206 : 1680 x 1050 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 207 : 1680 x 1050 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 208 : 1680 x 1050 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 209 : 1680 x 1050 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 210 : 1720 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 211 : 1720 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 212 : 1720 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 213 : 1720 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 214 : 1720 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 215 : 1720 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 216 : 1720 x 1440 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 217 : 1720 x 1440 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 218 : 1920 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 219 : 1920 x 1080 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 220 : 1920 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 221 : 1920 x 1080 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 222 : 1920 x 1080 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 223 : 1920 x 1080 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 224 : 1920 x 1080 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 225 : 1920 x 1080 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 226 : 1920 x 1080 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 227 : 1920 x 1080 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 228 : 1920 x 1200 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 229 : 1920 x 1200 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 230 : 1920 x 1200 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 231 : 1920 x 1200 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 232 : 1920 x 1200 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 233 : 1920 x 1200 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 234 : 1920 x 1200 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 235 : 1920 x 1200 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 236 : 1920 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 237 : 1920 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 238 : 1920 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 239 : 1920 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 240 : 1920 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 241 : 1920 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 242 : 1920 x 1440 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 243 : 1920 x 1440 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 244 : 2560 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 245 : 2560 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 246 : 2560 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 247 : 2560 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 248 : 2560 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 249 : 2560 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 250 : 2560 x 1440 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:931 (00140884) > [Render] 		- Mode 251 : 2560 x 1440 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 252 : 3440 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 253 : 3440 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 254 : 3440 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 255 : 3440 x 1440 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 256 :  800 x  600 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 257 :  800 x  600 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 258 :  800 x  600 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 259 :  800 x  600 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 260 :  800 x  600 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 261 : 1024 x  768 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 262 : 1024 x  768 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 263 : 1024 x  768 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 264 : 1024 x  768 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 265 : 1024 x  768 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 266 : 1152 x  864 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 267 : 1152 x  864 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 268 : 1152 x  864 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 269 : 1152 x  864 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 270 : 1152 x  864 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 271 : 1176 x  664 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 272 : 1176 x  664 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 273 : 1176 x  664 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 274 : 1176 x  664 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 275 : 1176 x  664 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 276 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 277 : 1280 x  720 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 278 : 1280 x  720 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 279 : 1280 x  720 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 280 : 1280 x  720 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 281 : 1280 x  768 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 282 : 1280 x  768 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 283 : 1280 x  768 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 284 : 1280 x  768 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 285 : 1280 x  768 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 286 : 1280 x  800 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 287 : 1280 x  800 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 288 : 1280 x  800 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 289 : 1280 x  800 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 290 : 1280 x  800 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 291 : 1280 x  960 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 292 : 1280 x  960 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 293 : 1280 x  960 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 294 : 1280 x  960 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 295 : 1280 x  960 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 296 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 297 : 1280 x 1024 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 298 : 1280 x 1024 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 299 : 1280 x 1024 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 300 : 1280 x 1024 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 301 : 1360 x  768 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 302 : 1360 x  768 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 303 : 1360 x  768 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 304 : 1360 x  768 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 305 : 1360 x  768 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 306 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 307 : 1366 x  768 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 308 : 1366 x  768 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 309 : 1366 x  768 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 310 : 1366 x  768 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 311 : 1440 x 1080 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 312 : 1440 x 1080 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 313 : 1440 x 1080 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 314 : 1440 x 1080 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 315 : 1440 x 1080 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 316 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 317 : 1600 x  900 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 318 : 1600 x  900 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 319 : 1600 x  900 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 320 : 1600 x  900 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 321 : 1600 x 1024 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 322 : 1600 x 1024 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 323 : 1600 x 1024 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 324 : 1600 x 1024 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 325 : 1600 x 1024 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 326 : 1600 x 1200 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 327 : 1600 x 1200 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 328 : 1600 x 1200 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 329 : 1600 x 1200 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 330 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 331 : 1680 x 1050 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 332 : 1680 x 1050 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 333 : 1680 x 1050 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 334 : 1680 x 1050 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 335 : 1720 x 1440 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 336 : 1720 x 1440 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 337 : 1720 x 1440 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 338 : 1720 x 1440 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 339 : 1920 x 1080 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 340 : 1920 x 1080 @ 120 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 341 : 1920 x 1080 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 342 : 1920 x 1080 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 343 : 1920 x 1080 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 344 : 1920 x 1200 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 345 : 1920 x 1200 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 346 : 1920 x 1200 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 347 : 1920 x 1200 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 348 : 1920 x 1440 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 349 : 1920 x 1440 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 350 : 1920 x 1440 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 351 : 1920 x 1440 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 352 : 2560 x 1440 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 353 : 2560 x 1440 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 354 : 2560 x 1440 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 355 : 2560 x 1440 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 356 : 3440 x 1440 @  60 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 357 : 3440 x 1440 @ 100 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 358 : 3440 x 1440 @ 144 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] 		- Mode 359 : 3440 x 1440 @ 160 Hz, stereo = 0, hdr = 1 exclusive = 0
-18:01:43:932 (00140884) > [Render] ***** Additional Monitor Output Info *****
-18:01:43:932 (00140884) > [Render] 		BitsPerColor: 8
-18:01:43:932 (00140884) > [Render] 		Primaries: R=0.6504;0.3252  G=0.3037;0.6211  B=0.1455;0.0605  White-Point=0.3135;0.3291
-18:01:43:932 (00140884) > [Render] 		HDR: Yes (Color Space: DXGI_COLOR_SPACE_RGB_FULL_G2084_NONE_P2020)
-18:01:43:932 (00140884) > [Render] 		Luminance: Min=0.0979 Max=301.8492 MaxFullFrame=301.8492
-18:01:43:932 (00140884) > [Render] ******************************************
-18:01:43:932 (00140884) > [Render] 
-18:01:46:059 (00140884) > [NxReflex] Reflex support result:Result::eOk
-18:01:46:059 (00140884) > [NxReflex] Reflex GetState result:Result::eErrorNotInitialized
-18:01:46:059 (00140884) > [NxReflex] DLSSG support result:Result::eOk
-18:01:46:059 (00140884) > [NxApp] Querying GPU Driver Info...
-18:01:46:059 (00140884) > [NxApp] Enumerating available display adapters:
-18:01:46:115 (00140884) > [NxApp] 		AMD Radeon(TM) Graphics
-18:01:46:115 (00140884) > [NxApp] 		NVIDIA GeForce RTX 4090 (active)
-18:01:46:115 (00140884) > [NxApp] Successfully found GPU Driver Info
-18:01:46:115 (00140884) > [D3D] Max supported feature level: 11.0
-18:01:46:115 (00140884) > [Render] Disabled D3D12 experimentals
-18:01:46:509 (00140884) > [Render] VMEM Budget: 23374 MB
-18:01:46:509 (00140884) > [Render] VMEM Available: 23367 MB
-18:01:47:520 (00140884) > [Render] GPU node count: 1
-18:01:47:550 (00140884) > [NxFfx] Anti-Lag2 not supported. Error code (-2147024809)
-18:01:47:550 (00140884) > [NxReflex] Reflex support result:Result::eOk
-18:01:47:550 (00140884) > [NxReflex] Reflex GetState result:Result::eOk
-18:01:47:550 (00140884) > [NxApp] PreInit successful.
-18:01:47:551 (00140884) > [NxStorage] Detected device at 'D:/Installed Games/The.Last.of.Us.Part.II.Remastered-InsaneRamZes/build/pc/main', name 'WD Blue SN580 2TB', SSD: Yes, NVMe : Yes
-18:01:48:159 (00140884) > [NxStorage] DirectStorage initialization succeeded
-18:01:48:160 (00140884) > [NxUpscaler] SL DLSS support: Result::eOk
-18:01:48:216 (00140884) > [NxUpscaler] XeSS init, code = 0
-18:01:48:223 (00140884) > [Input] Keyboard language: "English (United Kingdom)" (id: 2057)
-18:01:48:223 (00140884) > [Input] Keyboard physical layout: "India" (id: 00004009)
-18:01:48:223 (00140884) > [Input] Joystick            ""   product 12550 vendor 11720 version 0 usage 5 usagePage 1 xinput yes
-18:01:48:223 (00140884) > [Input] Keyboard            ""   type 81 subType 0 mode 1 function 12 indicators 3 total 160
-18:01:48:223 (00140884) > [Input] Mouse               ""   id 256 buttons 5 sampleRate 0 horizontalWheel no
-18:01:48:223 (00140884) > [Input] Keyboard            ""   type 81 subType 0 mode 1 function 12 indicators 3 total 264
-18:01:48:223 (00140884) > [Input] Human Input Device  ""   product 640 vendor 13364 version 0 usage 1 usagePage 12
-18:01:48:223 (00140884) > [Input] Joystick            ""   product 50495 vendor 1133 version 17409 usage 136 usagePage 65468 xinput no
-18:01:48:223 (00140884) > [Input] Joystick            ""   product 2675 vendor 6940 version 0 usage 1 usagePage 65368 xinput no
-18:01:48:223 (00140884) > [Input] Joystick            ""   product 50495 vendor 1133 version 17409 usage 1 usagePage 12 xinput no
-18:01:48:223 (00140884) > [Input] Joystick            ""   product 2675 vendor 6940 version 0 usage 2 usagePage 65346 xinput no
-18:01:48:223 (00140884) > [Input] Joystick            ""   product 2675 vendor 6940 version 0 usage 1 usagePage 65346 xinput no
-18:01:48:223 (00140884) > [Input] Joystick            ""   product 2675 vendor 6940 version 0 usage 1 usagePage 12 xinput no
-18:01:48:223 (00140884) > [Input] Joystick            ""   product 2675 vendor 6940 version 0 usage 2 usagePage 65345 xinput no
-18:01:48:223 (00140884) > [Input] Joystick            ""   product 2675 vendor 6940 version 0 usage 1 usagePage 12 xinput no
-18:01:48:223 (00140884) > [Input] Joystick            ""   product 2675 vendor 6940 version 0 usage 6 usagePage 65344 xinput no
-18:01:48:223 (00140884) > [Input] Joystick            ""   product 50495 vendor 1133 version 17409 usage 4 usagePage 65280 xinput no
-18:01:48:223 (00140884) > [Input] Joystick            ""   product 50495 vendor 1133 version 17409 usage 2 usagePage 65280 xinput no
-18:01:48:223 (00140884) > [Input] Joystick            ""   product 50495 vendor 1133 version 17409 usage 1 usagePage 65280 xinput no
-18:01:48:223 (00140884) > [Input] Joystick            ""   product 6575 vendor 2821 version 256 usage 161 usagePage 65394 xinput no
-18:01:48:223 (00140884) > [Input] Keyboard            "HID Keyboard Device"   type 81 subType 0 mode 1 function 12 indicators 3 total 173
-18:01:48:224 (00140884) > [Input] Mouse               "HID-compliant mouse"   id 256 buttons 16 sampleRate 0 horizontalWheel no
-18:01:48:229 (00140884) > [Input] Trying to load libScePad from C:\ProgramData\Sony Interactive Entertainment Inc\PSPC_SDK\S22\3.50.00.11\libScePad.dll
-18:01:48:231 (00140884) > [Input] Using LibScePad
-18:01:48:232 (00140884) > [Input] Gamepads connected: 0 -> 1
-18:01:48:232 (00140884) > [Input] Gamepad for main player: 8
-18:01:48:233 (00140884) > [XInput] Enumerating available xusb hid devices:
+00:52:30:038 (00259876) > [Steam] Initializing.
+00:52:30:038 (00259876) > [Steam] Successfully initialized.
+00:52:30:038 (00259876) > [Steam] Currently connected to 0 remote sessions
+00:52:30:038 (00259876) > [NxSteam] End previously existing file batch, did the game quit abnormally while saving?
+00:52:30:038 (00259876) > [Steam] Steam beta branch: unknown
+00:52:30:137 (00259876) > [NxApp] PreInit
+00:52:30:137 (00259876) > [NxProcessorInfo] Processor info:
+00:52:30:137 (00259876) > [NxProcessorInfo] 	Description:             	AMD Ryzen 5 7600X 6-Core Processor             
+00:52:30:137 (00259876) > [NxProcessorInfo] 	NumaNode Count:    	0
+00:52:30:137 (00259876) > [NxProcessorInfo] 	Group Count:       	1
+00:52:30:137 (00259876) > [NxProcessorInfo] 	Physical Core:     	6
+00:52:30:137 (00259876) > [NxProcessorInfo] 	Logical  Core:     	12
+00:52:30:137 (00259876) > [NxProcessorInfo] 	Distinct L3 Cache: 	1
+00:52:30:137 (00259876) > [NxProcessorInfo] 	Family:            	25
+00:52:30:137 (00259876) > [NxProcessorInfo] 	Model:             	97
+00:52:30:137 (00259876) > [NxProcessorInfo] 	Name:              	AMD Ryzen 5 7600X 6-Core Processor             
+00:52:30:137 (00259876) > [NxProcessorInfo] 	AVX:               	1
+00:52:30:137 (00259876) > [NxProcessorInfo] 	F16C:              	1
+00:52:30:137 (00259876) > [NxProcessorInfo] 	AVX2:              	1
+00:52:30:137 (00259876) > [NxProcessorInfo] 	NormalAffinity(auto)
+00:52:30:137 (00259876) > [SwapChain] Initializing...
+00:52:30:137 (00259876) > [DXGI] Initializing...
+00:52:31:302 (00259876) > [NxApp] Streamline was successfully initialized.
+00:52:31:302 (00259876) > [DXGI] Successfully initialized.
+00:52:31:303 (00259876) > [Render] Enumerating adapters:
+00:52:31:303 (00259876) > [Render] 	Adapter 0:
+00:52:31:303 (00259876) > [Monitor] 		Description             : NVIDIA GeForce RTX 4090
+00:52:31:303 (00259876) > [Monitor] 		Vendor                  : nVidia (10de)
+00:52:31:303 (00259876) > [Monitor] 		Device                  : 2684
+00:52:31:303 (00259876) > [Monitor] 		Sub system              : 165b10de
+00:52:31:303 (00259876) > [Monitor] 		Revision                : 161
+00:52:31:303 (00259876) > [Monitor] 		Dedicated Video Memory  : 24142 MB
+00:52:31:303 (00259876) > [Monitor] 		Dedicated System Memory : 0000 MB
+00:52:31:303 (00259876) > [Monitor] 		Shared System Memory    : 15954 MB
+00:52:31:303 (00259876) > [Monitor] 
+00:52:31:303 (00259876) > [Render] Loading NVAPI...
+00:52:31:303 (00259876) > [Render] Done loading NVAPI
+00:52:31:303 (00259876) > [Render] 	Adapter 1:
+00:52:31:303 (00259876) > [Monitor] 		Description             : AMD Radeon(TM) Graphics
+00:52:31:303 (00259876) > [Monitor] 		Vendor                  : AMD (1002)
+00:52:31:303 (00259876) > [Monitor] 		Device                  : 164e
+00:52:31:303 (00259876) > [Monitor] 		Sub system              : 88771043
+00:52:31:303 (00259876) > [Monitor] 		Revision                : 199
+00:52:31:303 (00259876) > [Monitor] 		Dedicated Video Memory  : 0485 MB
+00:52:31:303 (00259876) > [Monitor] 		Dedicated System Memory : 0000 MB
+00:52:31:303 (00259876) > [Monitor] 		Shared System Memory    : 15954 MB
+00:52:31:303 (00259876) > [Monitor] 
+00:52:31:303 (00259876) > [Render] Loading ADL...
+00:52:31:325 (00259876) > [Render] AGS init succeeded
+00:52:31:325 (00259876) > [Render] AGS Radeon Software Version: 24.10.16
+00:52:31:325 (00259876) > [Render] Done loading ADL and AGS
+00:52:31:325 (00259876) > [Render] Loading ADLX...
+00:52:31:376 (00259876) > [Render] 	Adapter 2:
+00:52:31:376 (00259876) > [Monitor] 		Description             : Microsoft Basic Render Driver
+00:52:31:376 (00259876) > [Monitor] 		Vendor                  : Unknown (1414)
+00:52:31:376 (00259876) > [Monitor] 		Device                  : 8c
+00:52:31:376 (00259876) > [Monitor] 		Sub system              : 0
+00:52:31:376 (00259876) > [Monitor] 		Revision                : 0
+00:52:31:376 (00259876) > [Monitor] 		Dedicated Video Memory  : 0000 MB
+00:52:31:376 (00259876) > [Monitor] 		Dedicated System Memory : 0000 MB
+00:52:31:376 (00259876) > [Monitor] 		Shared System Memory    : 15954 MB
+00:52:31:376 (00259876) > [Monitor] 
+00:52:31:376 (00259876) > [Render] Enumerating monitors:
+00:52:31:376 (00259876) > [Render] 	Monitor 0: handle = 0000000000af06b1, aspect = 2.39, rounded aspect = 2.39
+00:52:31:376 (00259876) > [Render] 	Monitor 1: handle = 00000000003c013d, aspect = 2.40, rounded aspect = 2.40
+00:52:31:376 (00259876) > [Render] 
+00:52:31:378 (00259876) > [Render] 	Monitor handle = 0000000000af06b1, pixel aspect ratio = 1.00
+00:52:31:380 (00259876) > [Render] 	Monitor handle = 00000000003c013d, pixel aspect ratio = 1.00
+00:52:31:380 (00259876) > [SwapChain] Successfully initialized.
+00:52:31:380 (00259876) > [Render] Enumerating Display Modes:
+00:52:31:383 (00259876) > [Render] Querying ADL for Eyefinity modes
+00:52:31:383 (00259876) > [Render] Querying NVAPI for Surround modes
+00:52:31:501 (00259876) > [Render] NvAPI_Mosaic_GetDisplayViewportsByResolution() - no surround modes detected
+00:52:31:502 (00259876) > [Render] Querying ADL for Eyefinity modes
+00:52:31:502 (00259876) > [Render] Querying NVAPI for Surround modes
+00:52:31:614 (00259876) > [Render] NvAPI_Mosaic_GetDisplayViewportsByResolution() - no surround modes detected
+00:52:31:614 (00259876) > [Render] 	Monitor '1 (NVIDIA GeForce RTX 4090(1))' (0000000000af06b1): rect(0 3440 0 1440)
+00:52:31:614 (00259876) > [Render] 		- Mode  0 :  800 x  600 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode  1 :  800 x  600 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode  2 :  800 x  600 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode  3 :  800 x  600 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode  4 :  800 x  600 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode  5 :  800 x  600 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode  6 :  800 x  600 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode  7 :  800 x  600 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode  8 :  800 x  600 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode  9 :  800 x  600 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 10 :  800 x  600 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 11 :  800 x  600 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 12 : 1024 x  768 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 13 : 1024 x  768 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 14 : 1024 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 15 : 1024 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 16 : 1024 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 17 : 1024 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 18 : 1024 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 19 : 1024 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 20 : 1024 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 21 : 1024 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 22 : 1024 x  768 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 23 : 1024 x  768 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 24 : 1152 x  864 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 25 : 1152 x  864 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 26 : 1152 x  864 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 27 : 1152 x  864 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 28 : 1152 x  864 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 29 : 1152 x  864 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 30 : 1152 x  864 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 31 : 1152 x  864 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 32 : 1152 x  864 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 33 : 1152 x  864 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 34 : 1152 x  864 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 35 : 1152 x  864 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 36 : 1280 x  720 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 37 : 1280 x  720 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 38 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 39 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 40 : 1280 x  720 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 41 : 1280 x  720 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 42 : 1280 x  720 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 43 : 1280 x  720 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 44 : 1280 x  720 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 45 : 1280 x  720 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 46 : 1280 x  720 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 47 : 1280 x  720 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 48 : 1280 x  768 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 49 : 1280 x  768 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 50 : 1280 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 51 : 1280 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 52 : 1280 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 53 : 1280 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 54 : 1280 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 55 : 1280 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 56 : 1280 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 57 : 1280 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 58 : 1280 x  768 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 59 : 1280 x  768 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 60 : 1280 x  800 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 61 : 1280 x  800 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 62 : 1280 x  800 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 63 : 1280 x  800 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 64 : 1280 x  800 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 65 : 1280 x  800 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 66 : 1280 x  800 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 67 : 1280 x  800 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 68 : 1280 x  800 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 69 : 1280 x  800 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 70 : 1280 x  800 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 71 : 1280 x  800 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 72 : 1280 x  960 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 73 : 1280 x  960 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 74 : 1280 x  960 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 75 : 1280 x  960 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 76 : 1280 x  960 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 77 : 1280 x  960 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 78 : 1280 x  960 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 79 : 1280 x  960 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 80 : 1280 x  960 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 81 : 1280 x  960 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 82 : 1280 x  960 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 83 : 1280 x  960 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 84 : 1280 x 1024 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 85 : 1280 x 1024 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 86 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 87 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 88 : 1280 x 1024 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 89 : 1280 x 1024 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 90 : 1280 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 91 : 1280 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 92 : 1280 x 1024 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 93 : 1280 x 1024 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 94 : 1280 x 1024 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 95 : 1280 x 1024 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 96 : 1360 x  768 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 97 : 1360 x  768 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 98 : 1360 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 99 : 1360 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 100 : 1360 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 101 : 1360 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 102 : 1360 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 103 : 1360 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 104 : 1360 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 105 : 1360 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 106 : 1360 x  768 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 107 : 1360 x  768 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 108 : 1366 x  768 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 109 : 1366 x  768 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 110 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 111 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 112 : 1366 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 113 : 1366 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 114 : 1366 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 115 : 1366 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 116 : 1366 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 117 : 1366 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 118 : 1366 x  768 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 119 : 1366 x  768 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 120 : 1440 x 1080 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 121 : 1440 x 1080 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 122 : 1440 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 123 : 1440 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 124 : 1440 x 1080 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 125 : 1440 x 1080 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 126 : 1440 x 1080 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 127 : 1440 x 1080 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 128 : 1440 x 1080 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 129 : 1440 x 1080 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 130 : 1440 x 1080 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 131 : 1440 x 1080 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 132 : 1600 x  900 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 133 : 1600 x  900 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 134 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 135 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 136 : 1600 x  900 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 137 : 1600 x  900 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 138 : 1600 x  900 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 139 : 1600 x  900 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 140 : 1600 x  900 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 141 : 1600 x  900 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 142 : 1600 x  900 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 143 : 1600 x  900 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 144 : 1600 x 1024 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 145 : 1600 x 1024 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 146 : 1600 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 147 : 1600 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 148 : 1600 x 1024 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 149 : 1600 x 1024 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 150 : 1600 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 151 : 1600 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 152 : 1600 x 1024 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 153 : 1600 x 1024 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 154 : 1600 x 1024 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 155 : 1600 x 1024 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 156 : 1600 x 1200 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 157 : 1600 x 1200 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 158 : 1600 x 1200 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 159 : 1600 x 1200 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 160 : 1600 x 1200 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 161 : 1600 x 1200 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 162 : 1600 x 1200 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 163 : 1600 x 1200 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 164 : 1600 x 1200 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 165 : 1600 x 1200 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 166 : 1600 x 1200 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 167 : 1600 x 1200 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 168 : 1680 x 1050 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 169 : 1680 x 1050 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 170 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 171 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 172 : 1680 x 1050 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 173 : 1680 x 1050 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 174 : 1680 x 1050 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 175 : 1680 x 1050 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 176 : 1680 x 1050 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 177 : 1680 x 1050 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 178 : 1680 x 1050 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 179 : 1680 x 1050 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 180 : 1920 x 1080 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 181 : 1920 x 1080 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 182 : 1920 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 183 : 1920 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 184 : 1920 x 1080 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 185 : 1920 x 1080 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 186 : 1920 x 1080 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 187 : 1920 x 1080 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 188 : 1920 x 1080 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 189 : 1920 x 1080 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 190 : 1920 x 1080 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 191 : 1920 x 1080 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 192 : 1920 x 1200 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 193 : 1920 x 1200 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 194 : 1920 x 1200 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 195 : 1920 x 1200 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 196 : 1920 x 1200 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 197 : 1920 x 1200 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 198 : 1920 x 1200 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 199 : 1920 x 1200 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 200 : 1920 x 1200 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 201 : 1920 x 1200 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 202 : 1920 x 1200 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 203 : 1920 x 1200 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 204 : 1920 x 1440 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 205 : 1920 x 1440 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 206 : 1920 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 207 : 1920 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 208 : 1920 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 209 : 1920 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 210 : 1920 x 1440 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 211 : 1920 x 1440 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 212 : 1920 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 213 : 1920 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 214 : 1920 x 1440 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 215 : 1920 x 1440 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 216 : 2560 x 1440 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 217 : 2560 x 1440 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 218 : 2560 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 219 : 2560 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 220 : 2560 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 221 : 2560 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 222 : 2560 x 1440 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 223 : 2560 x 1440 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 224 : 2560 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 225 : 2560 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 226 : 2560 x 1440 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 227 : 2560 x 1440 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 228 : 3440 x 1440 @  50 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 229 : 3440 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 230 : 3440 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 231 : 3440 x 1440 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 232 : 3440 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 233 : 3440 x 1440 @ 240 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] ***** Additional Monitor Output Info *****
+00:52:31:614 (00259876) > [Render] 		BitsPerColor: 10
+00:52:31:614 (00259876) > [Render] 		Primaries: R=0.6768;0.3213  G=0.2520;0.6807  B=0.1465;0.0566  White-Point=0.3135;0.3291
+00:52:31:614 (00259876) > [Render] 		HDR: No (Color Space: DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709)
+00:52:31:614 (00259876) > [Render] 		Luminance: Min=0.0000 Max=603.0000 MaxFullFrame=276.0000
+00:52:31:614 (00259876) > [Render] ******************************************
+00:52:31:614 (00259876) > [Render] 	Monitor '2 (NVIDIA GeForce RTX 4090(1))' (00000000003c013d): rect(-3440 0 0 1440)
+00:52:31:614 (00259876) > [Render] 		- Mode  0 :  800 x  600 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode  1 :  800 x  600 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode  2 :  800 x  600 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode  3 :  800 x  600 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode  4 :  800 x  600 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode  5 :  800 x  600 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode  6 :  800 x  600 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode  7 :  800 x  600 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode  8 :  800 x  600 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode  9 :  800 x  600 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 10 :  800 x  600 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 11 : 1024 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 12 : 1024 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 13 : 1024 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 14 : 1024 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 15 : 1024 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 16 : 1024 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 17 : 1024 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 18 : 1024 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 19 : 1024 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 20 : 1024 x  768 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 21 : 1024 x  768 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 22 : 1152 x  864 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 23 : 1152 x  864 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 24 : 1152 x  864 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 25 : 1152 x  864 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 26 : 1152 x  864 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 27 : 1152 x  864 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 28 : 1152 x  864 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 29 : 1152 x  864 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 30 : 1152 x  864 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 31 : 1152 x  864 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 32 : 1152 x  864 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 33 : 1152 x  864 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 34 : 1152 x  864 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 35 : 1152 x  864 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 36 : 1176 x  664 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 37 : 1176 x  664 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 38 : 1176 x  664 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 39 : 1176 x  664 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 40 : 1176 x  664 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 41 : 1176 x  664 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 42 : 1176 x  664 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 43 : 1176 x  664 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 44 : 1176 x  664 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 45 : 1176 x  664 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 46 : 1176 x  664 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 47 : 1176 x  664 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 48 : 1176 x  664 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 49 : 1176 x  664 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 50 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:614 (00259876) > [Render] 		- Mode 51 : 1280 x  720 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 52 : 1280 x  720 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 53 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 54 : 1280 x  720 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 55 : 1280 x  720 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 56 : 1280 x  720 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 57 : 1280 x  720 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 58 : 1280 x  720 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 59 : 1280 x  720 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 60 : 1280 x  720 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 61 : 1280 x  720 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 62 : 1280 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 63 : 1280 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 64 : 1280 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 65 : 1280 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 66 : 1280 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 67 : 1280 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 68 : 1280 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 69 : 1280 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 70 : 1280 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 71 : 1280 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 72 : 1280 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 73 : 1280 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 74 : 1280 x  768 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 75 : 1280 x  768 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 76 : 1280 x  800 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 77 : 1280 x  800 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 78 : 1280 x  800 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 79 : 1280 x  800 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 80 : 1280 x  800 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 81 : 1280 x  800 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 82 : 1280 x  800 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 83 : 1280 x  800 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 84 : 1280 x  800 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 85 : 1280 x  800 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 86 : 1280 x  800 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 87 : 1280 x  800 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 88 : 1280 x  800 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 89 : 1280 x  800 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 90 : 1280 x  960 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 91 : 1280 x  960 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 92 : 1280 x  960 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 93 : 1280 x  960 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 94 : 1280 x  960 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 95 : 1280 x  960 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 96 : 1280 x  960 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 97 : 1280 x  960 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 98 : 1280 x  960 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 99 : 1280 x  960 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 100 : 1280 x  960 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 101 : 1280 x  960 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 102 : 1280 x  960 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 103 : 1280 x  960 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 104 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 105 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 106 : 1280 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 107 : 1280 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 108 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 109 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 110 : 1280 x 1024 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 111 : 1280 x 1024 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 112 : 1280 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 113 : 1280 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 114 : 1280 x 1024 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 115 : 1280 x 1024 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 116 : 1280 x 1024 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 117 : 1280 x 1024 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 118 : 1360 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 119 : 1360 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 120 : 1360 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 121 : 1360 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 122 : 1360 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 123 : 1360 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 124 : 1360 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 125 : 1360 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 126 : 1360 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 127 : 1360 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 128 : 1360 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 129 : 1360 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 130 : 1360 x  768 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 131 : 1360 x  768 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 132 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 133 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 134 : 1366 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 135 : 1366 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 136 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 137 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 138 : 1366 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 139 : 1366 x  768 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 140 : 1366 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 141 : 1366 x  768 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 142 : 1366 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 143 : 1366 x  768 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 144 : 1366 x  768 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 145 : 1366 x  768 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 146 : 1440 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 147 : 1440 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 148 : 1440 x 1080 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 149 : 1440 x 1080 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 150 : 1440 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 151 : 1440 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 152 : 1440 x 1080 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 153 : 1440 x 1080 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 154 : 1440 x 1080 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 155 : 1440 x 1080 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 156 : 1440 x 1080 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 157 : 1440 x 1080 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 158 : 1440 x 1080 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 159 : 1440 x 1080 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 160 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 161 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 162 : 1600 x  900 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 163 : 1600 x  900 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 164 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 165 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 166 : 1600 x  900 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 167 : 1600 x  900 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 168 : 1600 x  900 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 169 : 1600 x  900 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 170 : 1600 x  900 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 171 : 1600 x  900 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 172 : 1600 x  900 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 173 : 1600 x  900 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 174 : 1600 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 175 : 1600 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 176 : 1600 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 177 : 1600 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 178 : 1600 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 179 : 1600 x 1024 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 180 : 1600 x 1024 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 181 : 1600 x 1024 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 182 : 1600 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 183 : 1600 x 1024 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 184 : 1600 x 1024 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 185 : 1600 x 1024 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 186 : 1600 x 1024 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 187 : 1600 x 1024 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 188 : 1600 x 1200 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 189 : 1600 x 1200 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 190 : 1600 x 1200 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 191 : 1600 x 1200 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 192 : 1600 x 1200 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 193 : 1600 x 1200 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 194 : 1600 x 1200 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 195 : 1600 x 1200 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 196 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 197 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 198 : 1680 x 1050 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 199 : 1680 x 1050 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 200 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 201 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 202 : 1680 x 1050 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 203 : 1680 x 1050 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 204 : 1680 x 1050 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 205 : 1680 x 1050 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 206 : 1680 x 1050 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 207 : 1680 x 1050 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 208 : 1680 x 1050 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 209 : 1680 x 1050 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 210 : 1720 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 211 : 1720 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 212 : 1720 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 213 : 1720 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 214 : 1720 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 215 : 1720 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 216 : 1720 x 1440 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 217 : 1720 x 1440 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 218 : 1920 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 219 : 1920 x 1080 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 220 : 1920 x 1080 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 221 : 1920 x 1080 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 222 : 1920 x 1080 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 223 : 1920 x 1080 @ 120 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 224 : 1920 x 1080 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 225 : 1920 x 1080 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 226 : 1920 x 1080 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 227 : 1920 x 1080 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 228 : 1920 x 1200 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 229 : 1920 x 1200 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 230 : 1920 x 1200 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 231 : 1920 x 1200 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 232 : 1920 x 1200 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 233 : 1920 x 1200 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 234 : 1920 x 1200 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 235 : 1920 x 1200 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 236 : 1920 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 237 : 1920 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 238 : 1920 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 239 : 1920 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 240 : 1920 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 241 : 1920 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 242 : 1920 x 1440 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 243 : 1920 x 1440 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 244 : 2560 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 245 : 2560 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 246 : 2560 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 247 : 2560 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 248 : 2560 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 249 : 2560 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 250 : 2560 x 1440 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 251 : 2560 x 1440 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 252 : 3440 x 1440 @  60 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 253 : 3440 x 1440 @ 100 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 254 : 3440 x 1440 @ 144 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] 		- Mode 255 : 3440 x 1440 @ 160 Hz, stereo = 0, hdr = 0 exclusive = 0
+00:52:31:615 (00259876) > [Render] ***** Additional Monitor Output Info *****
+00:52:31:615 (00259876) > [Render] 		BitsPerColor: 8
+00:52:31:615 (00259876) > [Render] 		Primaries: R=0.6504;0.3252  G=0.3037;0.6211  B=0.1455;0.0605  White-Point=0.3135;0.3291
+00:52:31:615 (00259876) > [Render] 		HDR: No (Color Space: DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709)
+00:52:31:615 (00259876) > [Render] 		Luminance: Min=0.0979 Max=301.8492 MaxFullFrame=301.8492
+00:52:31:615 (00259876) > [Render] ******************************************
+00:52:31:615 (00259876) > [Render] 
+00:52:31:794 (00259876) > [NxReflex] Reflex support result:Result::eOk
+00:52:31:794 (00259876) > [NxReflex] Reflex GetState result:Result::eErrorNotInitialized
+00:52:31:794 (00259876) > [NxReflex] DLSSG support result:Result::eOk
+00:52:31:794 (00259876) > [NxApp] Querying GPU Driver Info...
+00:52:31:794 (00259876) > [NxApp] Enumerating available display adapters:
+00:52:31:812 (00259876) > [NxApp] 		AMD Radeon(TM) Graphics
+00:52:31:812 (00259876) > [NxApp] 		NVIDIA GeForce RTX 4090 (active)
+00:52:31:812 (00259876) > [NxApp] Successfully found GPU Driver Info
+00:52:31:812 (00259876) > [D3D] Max supported feature level: 11.0
+00:52:31:812 (00259876) > [Render] Disabled D3D12 experimentals
+00:52:31:926 (00259876) > [Render] VMEM Budget: 23374 MB
+00:52:31:926 (00259876) > [Render] VMEM Available: 23367 MB
+00:52:33:001 (00259876) > [Render] GPU node count: 1
+00:52:33:027 (00259876) > [NxFfx] Anti-Lag2 not supported. Error code (-2147024809)
+00:52:33:029 (00259876) > [NxReflex] Reflex support result:Result::eOk
+00:52:33:029 (00259876) > [NxReflex] Reflex GetState result:Result::eOk
+00:52:33:029 (00259876) > [NxApp] PreInit successful.
+00:52:33:030 (00259876) > [NxStorage] Detected device at 'D:/Installed Games/The.Last.of.Us.Part.II.Remastered-InsaneRamZes/build/pc/main', name 'WD Blue SN580 2TB', SSD: Yes, NVMe : Yes
+00:52:33:632 (00259876) > [NxStorage] DirectStorage initialization succeeded
+00:52:33:633 (00259876) > [NxUpscaler] SL DLSS support: Result::eOk
+00:52:33:683 (00259876) > [NxUpscaler] XeSS init, code = 0
+00:52:33:683 (00259876) > [Validate Settings] HDR output has been disabled because the current monitor does not support HDR.
+00:52:33:698 (00259876) > [Input] Keyboard language: "English (United Kingdom)" (id: 2057)
+00:52:33:698 (00259876) > [Input] Keyboard physical layout: "India" (id: 00004009)
+00:52:33:698 (00259876) > [Input] Joystick            ""   product 12553 vendor 11720 version 512 usage 1 usagePage 140 xinput no
+00:52:33:698 (00259876) > [Input] Keyboard            ""   type 81 subType 0 mode 1 function 12 indicators 3 total 160
+00:52:33:698 (00259876) > [Input] Mouse               ""   id 256 buttons 5 sampleRate 0 horizontalWheel no
+00:52:33:698 (00259876) > [Input] Keyboard            ""   type 81 subType 0 mode 1 function 12 indicators 3 total 264
+00:52:33:698 (00259876) > [Input] Human Input Device  ""   product 640 vendor 13364 version 0 usage 1 usagePage 12
+00:52:33:698 (00259876) > [Input] Joystick            ""   product 50495 vendor 1133 version 17409 usage 4 usagePage 65280 xinput no
+00:52:33:698 (00259876) > [Input] Joystick            ""   product 50495 vendor 1133 version 17409 usage 2 usagePage 65280 xinput no
+00:52:33:698 (00259876) > [Input] Joystick            ""   product 50495 vendor 1133 version 17409 usage 1 usagePage 65280 xinput no
+00:52:33:698 (00259876) > [Input] Mouse               "HID-compliant mouse"   id 256 buttons 16 sampleRate 0 horizontalWheel no
+00:52:33:698 (00259876) > [Input] Keyboard            "HID Keyboard Device"   type 81 subType 0 mode 1 function 12 indicators 3 total 173
+00:52:33:698 (00259876) > [Input] Joystick            ""   product 50495 vendor 1133 version 17409 usage 136 usagePage 65468 xinput no
+00:52:33:698 (00259876) > [Input] Joystick            ""   product 50495 vendor 1133 version 17409 usage 1 usagePage 12 xinput no
+00:52:33:698 (00259876) > [Input] Joystick            ""   product 2675 vendor 6940 version 0 usage 1 usagePage 65368 xinput no
+00:52:33:698 (00259876) > [Input] Joystick            ""   product 2675 vendor 6940 version 0 usage 2 usagePage 65346 xinput no
+00:52:33:698 (00259876) > [Input] Joystick            ""   product 2675 vendor 6940 version 0 usage 1 usagePage 65346 xinput no
+00:52:33:698 (00259876) > [Input] Joystick            ""   product 2675 vendor 6940 version 0 usage 1 usagePage 12 xinput no
+00:52:33:698 (00259876) > [Input] Joystick            ""   product 2675 vendor 6940 version 0 usage 2 usagePage 65345 xinput no
+00:52:33:698 (00259876) > [Input] Joystick            ""   product 2675 vendor 6940 version 0 usage 1 usagePage 12 xinput no
+00:52:33:698 (00259876) > [Input] Joystick            ""   product 2675 vendor 6940 version 0 usage 6 usagePage 65344 xinput no
+00:52:33:698 (00259876) > [Input] Joystick            ""   product 6575 vendor 2821 version 256 usage 161 usagePage 65394 xinput no
+00:52:33:703 (00259876) > [Input] Trying to load libScePad from C:\ProgramData\Sony Interactive Entertainment Inc\PSPC_SDK\S22\3.50.00.11\libScePad.dll
+00:52:33:705 (00259876) > [Input] Using LibScePad
+00:52:33:706 (00259876) > [XInput] Enumerating available xusb hid devices:
 
-18:01:48:246 (00142104) > [Input] new Windows.Gaming.Input raw-controller found 2dc8 3106 {wgi/nrid/hacI-Rj_E-^2bT3mZVD^-2h<LW-VdC\T=-5GZ} Xbox 360 Controller for Windows
+00:52:52:631 (00259960) > [Input] new Windows.Gaming.Input raw-controller found 54c ce6 {wgi/nrid/RLJ@B-A9LjG[N-141-Y7jm-?9M@Z-Q[W1-ZNaZ} HID-compliant game controller
 
-18:01:49:274 (00140884) > [NxReflex] Reflex support result:Result::eOk
-18:01:49:274 (00140884) > [NxReflex] Reflex GetState result:Result::eOk
-18:01:49:274 (00140884) > [NxReflex] DLSSG support result:Result::eOk
-18:01:49:275 (00140884) > [NxApp] Driver Desc: NVIDIA GeForce RTX 4090
-18:01:49:275 (00140884) > [NxApp] Driver Version: 572.83
-18:01:49:275 (00140884) > [**************************************************Display + Graphics Settings**************************************************] 
-18:01:49:275 (00140884) > [Settings] DirectX Version: 12
-18:01:49:275 (00140884) > [Settings] Window mode: Fullscreen
-18:01:49:275 (00140884) > [Settings] Fullscreen display mode:
-18:01:49:275 (00140884) > [Settings] 	Displaying on monitor: 0
-18:01:49:275 (00140884) > [Settings] 	Resolution: 3440x1440
-18:01:49:275 (00140884) > [Settings] 	Forced Aspect Ratio: Auto
-18:01:49:275 (00140884) > [Settings] 	HDR: On
-18:01:49:275 (00140884) > [Settings] 	HDR max luminance :603.000000 nits
-18:01:49:275 (00140884) > [Settings] 	HDR paper white :200.000000 nits
-18:01:49:275 (00140884) > [Settings] 	Contrast: 0.520000
-18:01:49:275 (00140884) > [Settings] 	OS reported Refresh rate: 240
-18:01:49:275 (00140884) > [Settings] 	VSync: Off
-18:01:49:275 (00140884) > [Settings] 	Reflex: Off with latency markers
-18:01:49:275 (00140884) > [Settings] 	Anti-Lag2: Off
-18:01:49:275 (00140884) > [Settings] 	Frame generation: None
-18:01:49:275 (00140884) > [Settings] 	Dynamic resolution FPS target: 0
-18:01:49:275 (00140884) > [Settings] Anti aliasing: DLAA
-18:01:49:275 (00140884) > [Settings] Upscale method: None
-18:01:49:275 (00140884) > [Settings] Upscale quality: Quality
-18:01:49:275 (00140884) > [Settings] Upscale sharpen: 0.001000
-18:01:49:275 (00140884) > [Settings] Graphics Options:
-18:01:49:275 (00140884) > [Settings] 	Dynamic Objects Texture Quality: Ultra
-18:01:49:275 (00140884) > [Settings] 	Character Texture Quality: Ultra
-18:01:49:275 (00140884) > [Settings] 	Environment Texture Quality: Ultra
-18:01:49:275 (00140884) > [Settings] 	Visual Effects Texture Quality: Ultra
-18:01:49:275 (00140884) > [Settings] 	Texture Filtering: Anisotropic16x
-18:01:49:275 (00140884) > [Settings] 	Shadow Spotlight Resolution: Ultra
-18:01:49:275 (00140884) > [Settings] 	Shadow Pointlight Resolution: Ultra
-18:01:49:275 (00140884) > [Settings] 	Ambient Shadow Quality: Ultra
-18:01:49:275 (00140884) > [Settings] 	Directional Shadow Resolution: Ultra
-18:01:49:275 (00140884) > [Settings] 	Directional Shadow Distance: Ultra
-18:01:49:275 (00140884) > [Settings] 	Depth of Field: Ultra
-18:01:49:275 (00140884) > [Settings] 	Foreground Level of Detail: Ultra
-18:01:49:275 (00140884) > [Settings] 	Character Level of Detail: Ultra
-18:01:49:275 (00140884) > [Settings] 	Background Level of Detail: Ultra
-18:01:49:275 (00140884) > [Settings] 	Terrain Detail: High
-18:01:49:275 (00140884) > [Settings] 	Ambient Occlusion: SSAO Quality
-18:01:49:275 (00140884) > [Settings] 	Screen space contact shadows: Ultra
-18:01:49:275 (00140884) > [Settings] 	Screen Space Reflections: High
-18:01:49:275 (00140884) > [Settings] 	Screen Space Accuracy: High
-18:01:49:275 (00140884) > [Settings] 	Screen Space Distance: High
-18:01:49:275 (00140884) > [Settings] 	Real-Time Reflections: Ultra
-18:01:49:275 (00140884) > [Settings] 	Refraction Quality: Ultra
-18:01:49:275 (00140884) > [Settings] 	Screen Space Shadows: Ultra
-18:01:49:275 (00140884) > [Settings] 	Depth of Field Mode: Always On
-18:01:49:275 (00140884) > [Settings] 	Motion Blur Quality: Ultra
-18:01:49:275 (00140884) > [Settings] 	Particle Density: Ultra
-18:01:49:275 (00140884) > [Settings] 	Volumetric Fog: Ultra
-18:01:49:275 (00140884) > [Settings] 	SS Sub-Surface Scattering: Always On
-18:01:49:275 (00140884) > [Settings] 	Bloom: On
-18:01:49:275 (00140884) > [Settings] 	Vignette: On
-18:01:49:275 (00140884) > [Settings] 	Caustics: On
-18:01:49:275 (00140884) > [Settings] 	Image Based Lighting: 0.000000
-18:01:49:275 (00140884) > [Settings] 	Bounced Lighting: 0.000000
-18:01:49:275 (00140884) > [Settings] 	Dynamic Screen Space Shadows: 0.000000
-18:01:49:275 (00140884) > [Settings] 	RT Cloud reflections: On
-18:01:49:275 (00140884) > [Settings] 	Motion Blur: 0.000000
-18:01:49:275 (00140884) > [Settings] 	Framerate Cap: 360.000000
-18:01:49:275 (00140884) > [Settings] 	FOV Correction: 1.000000
-18:01:49:275 (00140884) > [Settings] 	Camera Shake: 1.000000
-18:01:49:275 (00140884) > [Settings] 	Chromatic Abberation: 0.000000
-18:01:49:275 (00140884) > [Settings] 	Lens Dirt: 1.000000
-18:01:49:275 (00140884) > [Settings] 	Film Grain Strength: 0.000000
-18:01:49:275 (00140884) > [Settings] 	Cinematic Pillarboxes: Off
-18:01:49:275 (00140884) > [**************************************************Display + Graphics Settings**************************************************] 
+00:52:55:195 (00259876) > [Input] Windows.Gaming.Input controller connected. index: 0
+00:52:55:195 (00259876) > [Input] Sce controller connected. handle: 257
+00:52:55:215 (00259876) > [Input] Sce-Controller version: 520  Jun 24 202411:16:21
+00:52:55:228 (00259876) > [Audio] Sce-Controller HID\{00001124-0000-1000-8000-00805f9b34fb}_VID&0002054c_PID&0ce6 with handle 257 doesn't support audio
+00:52:55:228 (00259876) > [Input] Gamepads connected: 0 -> 2
+00:52:55:228 (00259876) > [Input] Gamepad for main player: 0
+00:52:55:306 (00259876) > [Input] Windows.Gaming.Input controller disconnected, ignoring PS4 controller. index: 0
+00:52:55:306 (00259876) > [Input] Gamepads connected: 2 -> 1
+00:52:55:306 (00259876) > [Input] Gamepad for main player: 12
+00:52:55:445 (00259876) > [NxReflex] Reflex support result:Result::eOk
+00:52:55:445 (00259876) > [NxReflex] Reflex GetState result:Result::eOk
+00:52:55:445 (00259876) > [NxReflex] DLSSG support result:Result::eOk
+00:52:55:445 (00259876) > [NxApp] Driver Desc: NVIDIA GeForce RTX 4090
+00:52:55:445 (00259876) > [NxApp] Driver Version: 576.52
+00:52:55:445 (00259876) > [**************************************************Display + Graphics Settings**************************************************] 
+00:52:55:445 (00259876) > [Settings] DirectX Version: 12
+00:52:55:445 (00259876) > [Settings] Window mode: Fullscreen
+00:52:55:445 (00259876) > [Settings] Fullscreen display mode:
+00:52:55:445 (00259876) > [Settings] 	Displaying on monitor: 0
+00:52:55:445 (00259876) > [Settings] 	Resolution: 3440x1440
+00:52:55:445 (00259876) > [Settings] 	Forced Aspect Ratio: Auto
+00:52:55:445 (00259876) > [Settings] 	HDR: Off
+00:52:55:445 (00259876) > [Settings] 	Contrast: 0.520000
+00:52:55:445 (00259876) > [Settings] 	OS reported Refresh rate: 240
+00:52:55:445 (00259876) > [Settings] 	VSync: Off
+00:52:55:445 (00259876) > [Settings] 	Reflex: Off with latency markers
+00:52:55:445 (00259876) > [Settings] 	Anti-Lag2: Off
+00:52:55:445 (00259876) > [Settings] 	Frame generation: None
+00:52:55:445 (00259876) > [Settings] 	Dynamic resolution FPS target: 0
+00:52:55:445 (00259876) > [Settings] Anti aliasing: DLAA
+00:52:55:445 (00259876) > [Settings] Upscale method: None
+00:52:55:445 (00259876) > [Settings] Upscale quality: Quality
+00:52:55:445 (00259876) > [Settings] Upscale sharpen: 0.001000
+00:52:55:445 (00259876) > [Settings] Graphics Options:
+00:52:55:445 (00259876) > [Settings] 	Dynamic Objects Texture Quality: Ultra
+00:52:55:445 (00259876) > [Settings] 	Character Texture Quality: Ultra
+00:52:55:445 (00259876) > [Settings] 	Environment Texture Quality: Ultra
+00:52:55:445 (00259876) > [Settings] 	Visual Effects Texture Quality: Ultra
+00:52:55:445 (00259876) > [Settings] 	Texture Filtering: Anisotropic16x
+00:52:55:445 (00259876) > [Settings] 	Shadow Spotlight Resolution: Ultra
+00:52:55:445 (00259876) > [Settings] 	Shadow Pointlight Resolution: Ultra
+00:52:55:445 (00259876) > [Settings] 	Ambient Shadow Quality: Ultra
+00:52:55:445 (00259876) > [Settings] 	Directional Shadow Resolution: Ultra
+00:52:55:445 (00259876) > [Settings] 	Directional Shadow Distance: Ultra
+00:52:55:445 (00259876) > [Settings] 	Depth of Field: Ultra
+00:52:55:445 (00259876) > [Settings] 	Foreground Level of Detail: Ultra
+00:52:55:445 (00259876) > [Settings] 	Character Level of Detail: Ultra
+00:52:55:445 (00259876) > [Settings] 	Background Level of Detail: Ultra
+00:52:55:445 (00259876) > [Settings] 	Terrain Detail: High
+00:52:55:445 (00259876) > [Settings] 	Ambient Occlusion: SSAO Quality
+00:52:55:445 (00259876) > [Settings] 	Screen space contact shadows: Ultra
+00:52:55:445 (00259876) > [Settings] 	Screen Space Reflections: High
+00:52:55:445 (00259876) > [Settings] 	Screen Space Accuracy: High
+00:52:55:445 (00259876) > [Settings] 	Screen Space Distance: High
+00:52:55:445 (00259876) > [Settings] 	Real-Time Reflections: Ultra
+00:52:55:445 (00259876) > [Settings] 	Refraction Quality: Ultra
+00:52:55:445 (00259876) > [Settings] 	Screen Space Shadows: Ultra
+00:52:55:445 (00259876) > [Settings] 	Depth of Field Mode: Always On
+00:52:55:445 (00259876) > [Settings] 	Motion Blur Quality: Ultra
+00:52:55:445 (00259876) > [Settings] 	Particle Density: Ultra
+00:52:55:445 (00259876) > [Settings] 	Volumetric Fog: Ultra
+00:52:55:445 (00259876) > [Settings] 	SS Sub-Surface Scattering: Always On
+00:52:55:445 (00259876) > [Settings] 	Bloom: On
+00:52:55:445 (00259876) > [Settings] 	Vignette: On
+00:52:55:445 (00259876) > [Settings] 	Caustics: On
+00:52:55:445 (00259876) > [Settings] 	Image Based Lighting: 0.000000
+00:52:55:445 (00259876) > [Settings] 	Bounced Lighting: 0.000000
+00:52:55:445 (00259876) > [Settings] 	Dynamic Screen Space Shadows: 0.000000
+00:52:55:445 (00259876) > [Settings] 	RT Cloud reflections: On
+00:52:55:445 (00259876) > [Settings] 	Motion Blur: 0.000000
+00:52:55:445 (00259876) > [Settings] 	Framerate Cap: 360.000000
+00:52:55:445 (00259876) > [Settings] 	FOV Correction: 1.000000
+00:52:55:445 (00259876) > [Settings] 	Camera Shake: 1.000000
+00:52:55:445 (00259876) > [Settings] 	Chromatic Abberation: 0.000000
+00:52:55:445 (00259876) > [Settings] 	Lens Dirt: 1.000000
+00:52:55:445 (00259876) > [Settings] 	Film Grain Strength: 0.000000
+00:52:55:445 (00259876) > [Settings] 	Cinematic Pillarboxes: Off
+00:52:55:445 (00259876) > [**************************************************Display + Graphics Settings**************************************************] 
 -[ GPU Adapter Info ]------------------------------------------------
     Number of Adapters          : 2
     Number of Supported Adapters: 2
@@ -1053,148 +835,99 @@
           + Shader Model              - 6_7      [require 6_6     ]
 ---------------------------------------------------------------------
 -[ NVIDIA Driver Info ]----------------------------------------------
-	Version       : 572.83
-	Branch        : r572_77
+	Version       : 576.52
+	Branch        : r576_41
 ---------------------------------------------------------------------
-18:01:49:317 (00140884) > [NxApp] Creating window...
-18:01:49:322 (00137416) > [GameWindow] UpdateState bVisible true
-18:01:49:344 (00140884) > [NxApp] Window created.
-18:01:49:344 (00140884) > [NxApp] Initializing swapchain...
-18:01:49:344 (00141316) > [SwapChain] Creating...
-18:01:49:344 (00141316) > [NxSwapChainImpl] Swapchain native backbuffer (windows) resolution: 3440x1440
-18:01:49:344 (00141316) > [Upscaler] ConvertScreenToRenderRes: wxh = 3440x1440 | min = 1720x720 | max =  3440x1440
-18:01:49:366 (00141316) > [DXGI] Created swapchain.
-18:01:49:384 (00141316) > [SwapChain] Gamma correction is enabled.
-18:01:49:384 (00141316) > [SwapChain] Successfully created.
-18:01:49:384 (00141316) > [NxSwapChainImpl] Swapchain native backbuffer (windows) resolution: 3440x1440
-18:01:49:384 (00141316) > [Upscaler] ConvertScreenToRenderRes: wxh = 3440x1440 | min = 1720x720 | max =  3440x1440
-18:01:49:384 (00140884) > [NxApp] Swapchain initialized
-18:01:49:384 (00140884) > [NxApp] Initializing renderer...
-18:01:49:385 (00140884) > [NxApp] Renderer initialized
-18:01:49:385 (00140884) > [SteamController] "ingame" is not a valid action set!
-18:01:49:385 (00140884) > [SteamController] "menu" is not a valid action set!
-18:01:50:312 (00140884) > [Render] Pipeline cache default.pso read succesfully, added 103684 pipelines. Found 0 duplicates.
-18:01:50:322 (00140884) > [Render] Pipeline cache C:\Users\<username>\AppData\Roaming\Naughty Dog\The Last of Us Part II\user.pso read succesfully, added 922 pipelines. Found 2243 duplicates.
-18:01:55:049 (00141240) > [Steam] Stats received: 2
-18:01:55:049 (00141240) > [Input] Windows.Gaming.Input controller connected. index: 0
-18:01:55:050 (00141240) > [Input] Gamepads connected: 1 -> 2
-18:01:55:050 (00141240) > [Input] Gamepad for main player: 0
-18:01:55:052 (00141212) > [Input] XInput disabled, disconnecting controller. index: 0
-18:01:55:052 (00141212) > [Input] Gamepads connected: 2 -> 1
-18:01:55:052 (00141212) > [Input] Gamepad for main player: 0
-18:02:41:637 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:02:41:637 (00140940) > [Render] Working set: 6249MB Page file: 20236MB Video Budget: 23374MB Video Usage: 6288MB Sys Budget: 15186MB Sys Usage: 1713MB Demoted: 0MB fps: 88.1
-18:03:41:639 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:03:41:639 (00140940) > [Render] Working set: 6306MB Page file: 21824MB Video Budget: 23374MB Video Usage: 7809MB Sys Budget: 15186MB Sys Usage: 1718MB Demoted: 0MB fps: 113.8
-18:04:41:638 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:04:41:638 (00140940) > [Render] Working set: 6311MB Page file: 21824MB Video Budget: 23374MB Video Usage: 7809MB Sys Budget: 15186MB Sys Usage: 1718MB Demoted: 0MB fps: 114.0
-18:05:41:653 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:05:41:653 (00140940) > [Render] Working set: 6322MB Page file: 21840MB Video Budget: 23374MB Video Usage: 7816MB Sys Budget: 15186MB Sys Usage: 1721MB Demoted: 0MB fps: 61.6
-18:06:24:609 (00141240) > [Render] Resizing heap 1 from 256.00 MiB to 260.00 MiB
-18:06:41:654 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:06:41:654 (00140940) > [Render] Working set: 8344MB Page file: 22943MB Video Budget: 23374MB Video Usage: 8015MB Sys Budget: 15186MB Sys Usage: 1725MB Demoted: 0MB fps: 103.3
-18:07:41:658 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:07:41:658 (00140940) > [Render] Working set: 8418MB Page file: 23892MB Video Budget: 23374MB Video Usage: 8925MB Sys Budget: 15186MB Sys Usage: 1735MB Demoted: 0MB fps: 113.6
-18:08:41:658 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:08:41:658 (00140940) > [Render] Working set: 8441MB Page file: 23917MB Video Budget: 23374MB Video Usage: 8940MB Sys Budget: 15186MB Sys Usage: 1741MB Demoted: 0MB fps: 114.0
-18:09:41:652 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:09:41:652 (00140940) > [Render] Working set: 8448MB Page file: 23917MB Video Budget: 23374MB Video Usage: 8938MB Sys Budget: 15186MB Sys Usage: 1741MB Demoted: 0MB fps: 113.9
-18:09:56:896 (00141216) > [Render] Resizing heap 1 from 260.00 MiB to 268.00 MiB
-18:10:41:656 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:10:41:657 (00140940) > [Render] Working set: 8455MB Page file: 23931MB Video Budget: 23374MB Video Usage: 8948MB Sys Budget: 15186MB Sys Usage: 1742MB Demoted: 0MB fps: 114.0
-18:11:41:656 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:11:41:656 (00140940) > [Render] Working set: 8461MB Page file: 23935MB Video Budget: 23374MB Video Usage: 8952MB Sys Budget: 15186MB Sys Usage: 1743MB Demoted: 0MB fps: 114.0
-18:12:41:661 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:12:41:663 (00140940) > [Render] Working set: 8464MB Page file: 24165MB Video Budget: 23374MB Video Usage: 9179MB Sys Budget: 15186MB Sys Usage: 1743MB Demoted: 0MB fps: 114.0
-18:13:41:657 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:13:41:657 (00140940) > [Render] Working set: 7961MB Page file: 22642MB Video Budget: 23374MB Video Usage: 8044MB Sys Budget: 15186MB Sys Usage: 1743MB Demoted: 0MB fps: 113.8
-18:14:41:655 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:14:41:657 (00140940) > [Render] Working set: 7965MB Page file: 22323MB Video Budget: 23374MB Video Usage: 7844MB Sys Budget: 15186MB Sys Usage: 1743MB Demoted: 0MB fps: 114.0
-18:15:41:654 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:15:41:654 (00140940) > [Render] Working set: 8673MB Page file: 23631MB Video Budget: 23374MB Video Usage: 8522MB Sys Budget: 15186MB Sys Usage: 1745MB Demoted: 0MB fps: 113.2
-18:16:41:656 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:16:41:657 (00140940) > [Render] Working set: 8691MB Page file: 23639MB Video Budget: 23374MB Video Usage: 8528MB Sys Budget: 15186MB Sys Usage: 1747MB Demoted: 0MB fps: 113.8
-18:17:41:655 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:17:41:656 (00140940) > [Render] Working set: 8696MB Page file: 23877MB Video Budget: 23374MB Video Usage: 8759MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 109.0
-18:18:41:660 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:18:41:661 (00140940) > [Render] Working set: 8698MB Page file: 23877MB Video Budget: 23374MB Video Usage: 8759MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 105.3
-18:19:41:656 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:19:41:659 (00140940) > [Render] Working set: 8698MB Page file: 23878MB Video Budget: 23374MB Video Usage: 8759MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 105.4
-18:20:41:653 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:20:41:653 (00140940) > [Render] Working set: 8166MB Page file: 22738MB Video Budget: 23374MB Video Usage: 8157MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 111.2
-18:21:41:652 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:21:41:653 (00140940) > [Render] Working set: 8166MB Page file: 22531MB Video Budget: 23374MB Video Usage: 7951MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 114.0
-18:22:41:651 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:22:41:651 (00140940) > [Render] Working set: 8167MB Page file: 22531MB Video Budget: 23374MB Video Usage: 7951MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 114.0
-18:23:41:654 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:23:41:655 (00140940) > [Render] Working set: 8167MB Page file: 22740MB Video Budget: 23374MB Video Usage: 8157MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 114.0
-18:24:41:659 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:24:41:660 (00140940) > [Render] Working set: 8167MB Page file: 22740MB Video Budget: 23374MB Video Usage: 8157MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 114.0
-18:25:41:651 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:25:41:652 (00140940) > [Render] Working set: 8167MB Page file: 22740MB Video Budget: 23374MB Video Usage: 8157MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 113.9
-18:26:41:656 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:26:41:656 (00140940) > [Render] Working set: 8167MB Page file: 22740MB Video Budget: 23374MB Video Usage: 8157MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 114.0
-18:27:41:658 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:27:41:659 (00140940) > [Render] Working set: 8167MB Page file: 22740MB Video Budget: 23374MB Video Usage: 8157MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 114.0
-18:28:41:652 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:28:41:654 (00140940) > [Render] Working set: 8167MB Page file: 22740MB Video Budget: 23374MB Video Usage: 8157MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 114.0
-18:29:41:654 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:29:41:654 (00140940) > [Render] Working set: 6975MB Page file: 22740MB Video Budget: 23374MB Video Usage: 8157MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 114.0
-18:30:41:656 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:30:41:657 (00140940) > [Render] Working set: 6975MB Page file: 22740MB Video Budget: 23374MB Video Usage: 8157MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 114.0
-18:31:41:653 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:31:41:653 (00140940) > [Render] Working set: 6975MB Page file: 22740MB Video Budget: 23374MB Video Usage: 8157MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 114.0
-18:32:41:654 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:32:41:654 (00140940) > [Render] Working set: 6975MB Page file: 22740MB Video Budget: 23374MB Video Usage: 8157MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 114.0
-18:33:41:653 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:33:41:653 (00140940) > [Render] Working set: 7348MB Page file: 24035MB Video Budget: 23374MB Video Usage: 9061MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 113.6
-18:34:41:659 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:34:41:659 (00140940) > [Render] Working set: 5415MB Page file: 24017MB Video Budget: 23374MB Video Usage: 9046MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 114.0
-18:35:41:659 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:35:41:660 (00140940) > [Render] Working set: 5419MB Page file: 23997MB Video Budget: 23374MB Video Usage: 9027MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 114.0
-18:35:57:213 (00141204) > [Render] Resizing heap 1 from 268.00 MiB to 276.00 MiB
-18:36:41:652 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:36:41:652 (00140940) > [Render] Working set: 5434MB Page file: 24034MB Video Budget: 23374MB Video Usage: 9063MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 114.0
-18:37:41:651 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:37:41:652 (00140940) > [Render] Working set: 5438MB Page file: 24000MB Video Budget: 23374MB Video Usage: 9032MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 114.0
-18:38:41:651 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:38:41:652 (00140940) > [Render] Working set: 5440MB Page file: 24002MB Video Budget: 23374MB Video Usage: 9037MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 114.0
-18:39:41:651 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:39:41:651 (00140940) > [Render] Working set: 4973MB Page file: 24004MB Video Budget: 23374MB Video Usage: 9037MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 114.0
-18:40:41:651 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:40:41:651 (00140940) > [Render] Working set: 4724MB Page file: 23064MB Video Budget: 23374MB Video Usage: 8383MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 113.8
-18:41:41:658 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:41:41:659 (00140940) > [Render] Working set: 4725MB Page file: 22790MB Video Budget: 23374MB Video Usage: 8115MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 114.0
-18:42:41:657 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:42:41:657 (00140940) > [Render] Working set: 4728MB Page file: 22592MB Video Budget: 23374MB Video Usage: 7918MB Sys Budget: 15186MB Sys Usage: 1748MB Demoted: 0MB fps: 114.0
-18:43:41:660 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:43:41:664 (00140940) > [Render] Working set: 4957MB Page file: 23950MB Video Budget: 23374MB Video Usage: 8861MB Sys Budget: 15186MB Sys Usage: 1760MB Demoted: 0MB fps: 111.9
-18:44:38:584 (00141232) > [Render] Resizing heap 1 from 276.00 MiB to 287.00 MiB
-18:44:41:653 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:44:41:654 (00140940) > [Render] Working set: 4791MB Page file: 23210MB Video Budget: 23374MB Video Usage: 8371MB Sys Budget: 15186MB Sys Usage: 1765MB Demoted: 0MB fps: 102.8
-18:45:41:659 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:45:41:660 (00140940) > [Render] Working set: 4797MB Page file: 23211MB Video Budget: 23374MB Video Usage: 8374MB Sys Budget: 15186MB Sys Usage: 1765MB Demoted: 0MB fps: 100.8
-18:46:41:654 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:46:41:654 (00140940) > [Render] Working set: 4802MB Page file: 23266MB Video Budget: 23374MB Video Usage: 8330MB Sys Budget: 15186MB Sys Usage: 1765MB Demoted: 0MB fps: 110.1
-18:47:41:656 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:47:41:659 (00140940) > [Render] Working set: 4650MB Page file: 22601MB Video Budget: 23374MB Video Usage: 7947MB Sys Budget: 15186MB Sys Usage: 1765MB Demoted: 0MB fps: 113.9
-18:48:41:658 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:48:41:658 (00140940) > [Render] Working set: 4877MB Page file: 23880MB Video Budget: 23374MB Video Usage: 9011MB Sys Budget: 15186MB Sys Usage: 1765MB Demoted: 0MB fps: 113.7
-18:49:41:652 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:49:41:654 (00140940) > [Render] Working set: 4663MB Page file: 23885MB Video Budget: 23374MB Video Usage: 9023MB Sys Budget: 15186MB Sys Usage: 1765MB Demoted: 0MB fps: 114.0
-18:50:41:651 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:50:41:651 (00140940) > [Render] Working set: 4678MB Page file: 23878MB Video Budget: 23374MB Video Usage: 9019MB Sys Budget: 15186MB Sys Usage: 1765MB Demoted: 0MB fps: 113.9
-18:51:41:656 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:51:41:657 (00140940) > [Render] Working set: 4532MB Page file: 22870MB Video Budget: 23374MB Video Usage: 7969MB Sys Budget: 15186MB Sys Usage: 1765MB Demoted: 0MB fps: 113.8
-18:52:41:654 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:52:41:654 (00140940) > [Render] Working set: 4536MB Page file: 22880MB Video Budget: 23374MB Video Usage: 7974MB Sys Budget: 15186MB Sys Usage: 1765MB Demoted: 0MB fps: 114.0
-18:53:41:657 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:53:41:657 (00140940) > [Render] Working set: 4799MB Page file: 24116MB Video Budget: 23374MB Video Usage: 9119MB Sys Budget: 15186MB Sys Usage: 1766MB Demoted: 0MB fps: 113.7
-18:54:41:654 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:54:41:655 (00140940) > [Render] Working set: 4720MB Page file: 24004MB Video Budget: 23374MB Video Usage: 9116MB Sys Budget: 15186MB Sys Usage: 1766MB Demoted: 0MB fps: 114.0
-18:55:41:652 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:55:41:653 (00140940) > [Render] Working set: 4736MB Page file: 24005MB Video Budget: 23374MB Video Usage: 9117MB Sys Budget: 15186MB Sys Usage: 1766MB Demoted: 0MB fps: 114.0
-18:56:41:657 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:56:41:658 (00140940) > [Render] Working set: 4740MB Page file: 24003MB Video Budget: 23374MB Video Usage: 9115MB Sys Budget: 15186MB Sys Usage: 1766MB Demoted: 0MB fps: 114.0
-18:57:41:652 (00140940) > [Render] Quering NVAPI for GPU temperature
-18:57:41:652 (00140940) > [Render] Working set: 4688MB Page file: 22886MB Video Budget: 23374MB Video Usage: 8155MB Sys Budget: 15186MB Sys Usage: 1766MB Demoted: 0MB fps: 113.8
+00:52:55:489 (00259876) > [NxApp] Creating window...
+00:52:55:495 (00262092) > [GameWindow] UpdateState bVisible true
+00:52:55:515 (00259876) > [NxApp] Window created.
+00:52:55:515 (00259876) > [NxApp] Initializing swapchain...
+00:52:55:516 (00262124) > [SwapChain] Creating...
+00:52:55:516 (00262124) > [NxSwapChainImpl] Swapchain native backbuffer (windows) resolution: 3440x1440
+00:52:55:516 (00262124) > [Upscaler] ConvertScreenToRenderRes: wxh = 3440x1440 | min = 1720x720 | max =  3440x1440
+00:52:55:541 (00262124) > [DXGI] Created swapchain.
+00:52:55:573 (00262124) > [SwapChain] Gamma correction is enabled.
+00:52:55:573 (00262124) > [SwapChain] Successfully created.
+00:52:55:573 (00262124) > [NxSwapChainImpl] Swapchain native backbuffer (windows) resolution: 3440x1440
+00:52:55:573 (00262124) > [Upscaler] ConvertScreenToRenderRes: wxh = 3440x1440 | min = 1720x720 | max =  3440x1440
+00:52:55:573 (00259876) > [NxApp] Swapchain initialized
+00:52:55:573 (00259876) > [NxApp] Initializing renderer...
+00:52:55:574 (00259876) > [NxApp] Renderer initialized
+00:52:55:574 (00259876) > [SteamController] "ingame" is not a valid action set!
+00:52:55:574 (00259876) > [SteamController] "menu" is not a valid action set!
+00:52:55:929 (00259876) > [Render] Pipeline cache default.pso read succesfully, added 103684 pipelines. Found 0 duplicates.
+00:52:55:939 (00259876) > [Render] Pipeline cache C:\Users\<username>\AppData\Roaming\Naughty Dog\The Last of Us Part II\user.pso read succesfully, added 922 pipelines. Found 2273 duplicates.
+00:53:00:757 (00259908) > [Steam] Stats received: 2
+00:53:29:838 (00259988) > [Render] Quering NVAPI for GPU temperature
+00:53:29:839 (00259988) > [Render] Working set: 4242MB Page file: 20427MB Video Budget: 23374MB Video Usage: 7175MB Sys Budget: 15186MB Sys Usage: 1714MB Demoted: 0MB fps: 35.5
+00:54:29:839 (00259988) > [Render] Quering NVAPI for GPU temperature
+00:54:29:839 (00259988) > [Render] Working set: 5322MB Page file: 21333MB Video Budget: 23374MB Video Usage: 7451MB Sys Budget: 15186MB Sys Usage: 1721MB Demoted: 0MB fps: 103.0
+00:55:26:098 (00259828) > [Render] Resizing heap 1 from 256.00 MiB to 265.00 MiB
+00:55:29:840 (00259988) > [Render] Quering NVAPI for GPU temperature
+00:55:29:841 (00259988) > [Render] Working set: 6912MB Page file: 22807MB Video Budget: 23374MB Video Usage: 8273MB Sys Budget: 15186MB Sys Usage: 1725MB Demoted: 0MB fps: 92.6
+00:55:57:089 (00259904) > [Render] Resizing heap 1 from 265.00 MiB to 276.00 MiB
+00:56:29:838 (00259988) > [Render] Quering NVAPI for GPU temperature
+00:56:29:839 (00259988) > [Render] Working set: 6965MB Page file: 22812MB Video Budget: 23374MB Video Usage: 8275MB Sys Budget: 15186MB Sys Usage: 1727MB Demoted: 0MB fps: 113.8
+00:57:29:839 (00259988) > [Render] Quering NVAPI for GPU temperature
+00:57:29:839 (00259988) > [Render] Working set: 6997MB Page file: 23041MB Video Budget: 23374MB Video Usage: 8500MB Sys Budget: 15186MB Sys Usage: 1727MB Demoted: 0MB fps: 114.0
+00:58:29:842 (00259988) > [Render] Quering NVAPI for GPU temperature
+00:58:29:842 (00259988) > [Render] Working set: 6695MB Page file: 21779MB Video Budget: 23374MB Video Usage: 7310MB Sys Budget: 15186MB Sys Usage: 1727MB Demoted: 0MB fps: 113.7
+00:59:29:838 (00259988) > [Render] Quering NVAPI for GPU temperature
+00:59:29:838 (00259988) > [Render] Working set: 7157MB Page file: 23140MB Video Budget: 23374MB Video Usage: 8667MB Sys Budget: 15186MB Sys Usage: 1727MB Demoted: 0MB fps: 112.6
+00:59:38:597 (00260104) > [Render] Resizing heap 1 from 276.00 MiB to 287.00 MiB
+01:00:10:217 (00260104) > [Render] Resizing heap 1 from 287.00 MiB to 298.00 MiB
+01:00:29:838 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:00:29:838 (00259988) > [Render] Working set: 7237MB Page file: 23363MB Video Budget: 23374MB Video Usage: 8839MB Sys Budget: 15186MB Sys Usage: 1749MB Demoted: 0MB fps: 112.4
+01:01:29:842 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:01:29:842 (00259988) > [Render] Working set: 7232MB Page file: 23351MB Video Budget: 23374MB Video Usage: 8840MB Sys Budget: 15186MB Sys Usage: 1749MB Demoted: 0MB fps: 114.0
+01:02:29:840 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:02:29:840 (00259988) > [Render] Working set: 7117MB Page file: 21970MB Video Budget: 23374MB Video Usage: 7352MB Sys Budget: 15186MB Sys Usage: 1750MB Demoted: 0MB fps: 113.8
+01:03:29:835 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:03:29:835 (00259988) > [Render] Working set: 7142MB Page file: 21805MB Video Budget: 23374MB Video Usage: 7192MB Sys Budget: 15186MB Sys Usage: 1750MB Demoted: 0MB fps: 114.0
+01:04:29:834 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:04:29:834 (00259988) > [Render] Working set: 7060MB Page file: 22365MB Video Budget: 23374MB Video Usage: 7893MB Sys Budget: 15186MB Sys Usage: 1750MB Demoted: 0MB fps: 112.1
+01:05:29:838 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:05:29:840 (00259988) > [Render] Working set: 7064MB Page file: 22346MB Video Budget: 23374MB Video Usage: 7874MB Sys Budget: 15186MB Sys Usage: 1750MB Demoted: 0MB fps: 114.0
+01:06:29:839 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:06:29:839 (00259988) > [Render] Working set: 7065MB Page file: 22416MB Video Budget: 23374MB Video Usage: 7712MB Sys Budget: 15186MB Sys Usage: 1750MB Demoted: 0MB fps: 114.0
+01:07:29:842 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:07:29:843 (00259988) > [Render] Working set: 6944MB Page file: 21713MB Video Budget: 23374MB Video Usage: 7363MB Sys Budget: 15186MB Sys Usage: 1751MB Demoted: 0MB fps: 113.8
+01:08:29:840 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:08:29:840 (00259988) > [Render] Working set: 7611MB Page file: 23795MB Video Budget: 23374MB Video Usage: 8955MB Sys Budget: 15186MB Sys Usage: 1752MB Demoted: 0MB fps: 108.6
+01:09:29:835 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:09:29:836 (00259988) > [Render] Working set: 7609MB Page file: 23442MB Video Budget: 23374MB Video Usage: 8714MB Sys Budget: 15186MB Sys Usage: 1753MB Demoted: 0MB fps: 113.9
+01:10:29:842 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:10:29:842 (00259988) > [Render] Working set: 7619MB Page file: 23455MB Video Budget: 23374MB Video Usage: 8720MB Sys Budget: 15186MB Sys Usage: 1754MB Demoted: 0MB fps: 114.0
+01:11:29:842 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:11:29:843 (00259988) > [Render] Working set: 7374MB Page file: 21919MB Video Budget: 23374MB Video Usage: 7351MB Sys Budget: 15186MB Sys Usage: 1754MB Demoted: 0MB fps: 113.8
+01:12:29:835 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:12:29:835 (00259988) > [Render] Working set: 7374MB Page file: 21828MB Video Budget: 23374MB Video Usage: 7370MB Sys Budget: 15186MB Sys Usage: 1754MB Demoted: 0MB fps: 114.0
+01:13:29:888 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:13:29:888 (00259988) > [Render] Working set: 7702MB Page file: 23803MB Video Budget: 23374MB Video Usage: 9073MB Sys Budget: 15186MB Sys Usage: 1754MB Demoted: 0MB fps: 113.1
+01:14:29:839 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:14:29:840 (00259988) > [Render] Working set: 7803MB Page file: 23916MB Video Budget: 23374MB Video Usage: 9108MB Sys Budget: 15186MB Sys Usage: 1762MB Demoted: 0MB fps: 111.2
+01:15:28:779 (00259824) > [Render] Resizing heap 1 from 298.00 MiB to 301.00 MiB
+01:15:29:838 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:15:29:838 (00259988) > [Render] Working set: 7809MB Page file: 23909MB Video Budget: 23374MB Video Usage: 9105MB Sys Budget: 15186MB Sys Usage: 1765MB Demoted: 0MB fps: 113.9
+01:16:29:834 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:16:29:834 (00259988) > [Render] Working set: 7812MB Page file: 23925MB Video Budget: 23374MB Video Usage: 9121MB Sys Budget: 15186MB Sys Usage: 1766MB Demoted: 0MB fps: 113.4
+01:17:29:843 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:17:29:844 (00259988) > [Render] Working set: 7817MB Page file: 23934MB Video Budget: 23374MB Video Usage: 9127MB Sys Budget: 15186MB Sys Usage: 1767MB Demoted: 0MB fps: 112.7
+01:18:29:838 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:18:29:838 (00259988) > [Render] Working set: 7822MB Page file: 23949MB Video Budget: 23374MB Video Usage: 9133MB Sys Budget: 15186MB Sys Usage: 1770MB Demoted: 0MB fps: 112.7
+01:19:29:836 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:19:29:837 (00259988) > [Render] Working set: 7583MB Page file: 22283MB Video Budget: 23374MB Video Usage: 7518MB Sys Budget: 15186MB Sys Usage: 1771MB Demoted: 0MB fps: 111.7
+01:20:29:843 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:20:29:843 (00259988) > [Render] Working set: 7583MB Page file: 22323MB Video Budget: 23374MB Video Usage: 7759MB Sys Budget: 15186MB Sys Usage: 1771MB Demoted: 0MB fps: 114.0
+01:21:29:842 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:21:29:842 (00259988) > [Render] Working set: 7584MB Page file: 22389MB Video Budget: 23374MB Video Usage: 7761MB Sys Budget: 15186MB Sys Usage: 1771MB Demoted: 0MB fps: 114.0
+01:22:29:839 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:22:29:840 (00259988) > [Render] Working set: 7628MB Page file: 23989MB Video Budget: 23374MB Video Usage: 9197MB Sys Budget: 15186MB Sys Usage: 1771MB Demoted: 0MB fps: 112.5
+01:23:29:842 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:23:29:842 (00259988) > [Render] Working set: 7629MB Page file: 23955MB Video Budget: 23374MB Video Usage: 9198MB Sys Budget: 15186MB Sys Usage: 1771MB Demoted: 0MB fps: 114.0
+01:24:29:834 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:24:29:836 (00259988) > [Render] Working set: 7629MB Page file: 23954MB Video Budget: 23374MB Video Usage: 9197MB Sys Budget: 15186MB Sys Usage: 1771MB Demoted: 0MB fps: 114.0
+01:25:29:841 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:25:29:842 (00259988) > [Render] Working set: 7630MB Page file: 23929MB Video Budget: 23374MB Video Usage: 9171MB Sys Budget: 15186MB Sys Usage: 1771MB Demoted: 0MB fps: 114.0
+01:26:29:842 (00259988) > [Render] Quering NVAPI for GPU temperature
+01:26:29:842 (00259988) > [Render] Working set: 7192MB Page file: 20806MB Video Budget: 23374MB Video Usage: 6608MB Sys Budget: 15186MB Sys Usage: 1771MB Demoted: 0MB fps: 113.7
