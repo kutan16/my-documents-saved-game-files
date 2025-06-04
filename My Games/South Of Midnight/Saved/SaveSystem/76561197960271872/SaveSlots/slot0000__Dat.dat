@@ -4,14 +4,14 @@
 	{
 		"_Self":
 		{
-			"_Name": "CmxSaveData_2147462465",
+			"_Name": "CmxSaveData_2147442462",
 			"_Type": "CmxSaveData",
 			"RestoreURL":
 			{
-				"Portal": "CmxCheckpoint.ZoneB2_Base.120_Village_PatternStain01_Exit",
+				"Portal": "CmxCheckpoint.ZoneC_01_Base.010_CatfishRideAlong_Cine_Exit",
 				"Op": [],
 				"RedirectURL": "",
-				"Map": "/Game/Maps/ZoneB/ZoneB2/ZoneB2_Base",
+				"Map": "/Game/Maps/ZoneC/ZoneC_01/ZoneC_01_Base",
 				"Valid": 1,
 				"Port": 7777,
 				"Host": "",
@@ -49,11 +49,11 @@
 										{
 											"_Name": "ActiveCheckpoints",
 											"_Type": "None",
-											"ECmxCheckpointType::Ordered": "CmxCheckpoint.ZoneB2_Base.120_Village_PatternStain01_Exit",
+											"ECmxCheckpointType::Ordered": "CmxCheckpoint.ZoneC_01_Base.010_CatfishRideAlong_Cine_Exit",
 											"ECmxCheckpointType::GroupedChild": "None",
 											"ECmxCheckpointType::GroupParent": "None",
 											"ECmxCheckpointType::Unordered": "None",
-											"MRUActiveCheckpointTag": "CmxCheckpoint.ZoneB2_Base.120_Village_PatternStain01_Exit",
+											"MRUActiveCheckpointTag": "CmxCheckpoint.ZoneC_01_Base.010_CatfishRideAlong_Cine_Exit",
 											"_Records":
 											{
 											}
@@ -1043,7 +1043,7 @@
 										{
 											"_Name": "None",
 											"_Type": "None",
-											"Status": 1,
+											"Status": 2,
 											"_Records":
 											{
 											}
@@ -1052,7 +1052,7 @@
 										{
 											"_Name": "None",
 											"_Type": "None",
-											"Status": 0,
+											"Status": 2,
 											"_Records":
 											{
 											}
@@ -1061,7 +1061,7 @@
 										{
 											"_Name": "None",
 											"_Type": "None",
-											"Status": 0,
+											"Status": 2,
 											"_Records":
 											{
 											}
@@ -1070,7 +1070,7 @@
 										{
 											"_Name": "None",
 											"_Type": "None",
-											"Status": 0,
+											"Status": 2,
 											"_Records":
 											{
 											}
@@ -1079,7 +1079,7 @@
 										{
 											"_Name": "None",
 											"_Type": "None",
-											"Status": 0,
+											"Status": 2,
 											"_Records":
 											{
 											}
@@ -1088,7 +1088,7 @@
 										{
 											"_Name": "None",
 											"_Type": "None",
-											"Status": 0,
+											"Status": 2,
 											"_Records":
 											{
 											}
@@ -1097,7 +1097,7 @@
 										{
 											"_Name": "None",
 											"_Type": "None",
-											"Status": 0,
+											"Status": 2,
 											"_Records":
 											{
 											}
@@ -1106,7 +1106,7 @@
 										{
 											"_Name": "None",
 											"_Type": "None",
-											"Status": 0,
+											"Status": 2,
 											"_Records":
 											{
 											}
@@ -1115,7 +1115,7 @@
 										{
 											"_Name": "None",
 											"_Type": "None",
-											"Status": 0,
+											"Status": 2,
 											"_Records":
 											{
 											}
@@ -1124,7 +1124,7 @@
 										{
 											"_Name": "None",
 											"_Type": "None",
-											"Status": 0,
+											"Status": 2,
 											"_Records":
 											{
 											}
@@ -1133,7 +1133,7 @@
 										{
 											"_Name": "None",
 											"_Type": "None",
-											"Status": 0,
+											"Status": 2,
 											"_Records":
 											{
 											}
@@ -1142,7 +1142,7 @@
 										{
 											"_Name": "None",
 											"_Type": "None",
-											"Status": 0,
+											"Status": 2,
 											"_Records":
 											{
 											}
@@ -1151,7 +1151,7 @@
 										{
 											"_Name": "None",
 											"_Type": "None",
-											"Status": 0,
+											"Status": 2,
 											"_Records":
 											{
 											}
@@ -1160,7 +1160,7 @@
 										{
 											"_Name": "None",
 											"_Type": "None",
-											"Status": 0,
+											"Status": 2,
 											"_Records":
 											{
 											}
@@ -1169,7 +1169,7 @@
 										{
 											"_Name": "None",
 											"_Type": "None",
-											"Status": 0,
+											"Status": 2,
 											"_Records":
 											{
 											}
@@ -1178,7 +1178,7 @@
 										{
 											"_Name": "None",
 											"_Type": "None",
-											"Status": 0,
+											"Status": 2,
 											"_Records":
 											{
 											}
@@ -1187,7 +1187,7 @@
 										{
 											"_Name": "None",
 											"_Type": "None",
-											"Status": 0,
+											"Status": 2,
 											"_Records":
 											{
 											}
@@ -1196,7 +1196,7 @@
 										{
 											"_Name": "None",
 											"_Type": "None",
-											"Status": 0,
+											"Status": 2,
 											"_Records":
 											{
 											}
@@ -1205,7 +1205,7 @@
 										{
 											"_Name": "None",
 											"_Type": "None",
-											"Status": 0,
+											"Status": 1,
 											"_Records":
 											{
 											}
@@ -4959,10 +4959,10 @@
 								{
 									"_Name": "MnxCollectablesManager",
 									"_Type": "MnxCollectablesManager",
-									"MaxChapterCompletedIndex": 2,
-									"TotalFloofCollected": 235,
+									"MaxChapterCompletedIndex": 3,
+									"TotalFloofCollected": 330,
 									"TotalHealthUpgradeCollected": 1,
-									"TotalTinFlipsCollected": 3,
+									"TotalTinFlipsCollected": 4,
 									"_Records":
 									{
 										"1":
@@ -5213,11 +5213,11 @@
 											"_Type": "None",
 											"ChapterNumber": 3,
 											"ChapterLevelPath": "../../../Midnight/Content/Maps/ZoneB/ZoneB2/ZoneB2_Base.umap",
-											"NumFloofsCollected": 135,
+											"NumFloofsCollected": 230,
 											"NumTotalFloofs": 385,
 											"NumHealthUpgradesCollected": 1,
 											"NumTotalHealthUpgrades": 1,
-											"NumTinFlipsCollected": 1,
+											"NumTinFlipsCollected": 2,
 											"NumTotalTinFlips": 4,
 											"_Records":
 											{
@@ -5430,6 +5430,171 @@
 													"_Records":
 													{
 													}
+												},
+												"[ActorLevelName]:/Game/Maps/ZoneB/ZoneB2/Base/ZoneB2_Design|[ActorIdName]:BP_ContainerFloof23":
+												{
+													"_Name": "None",
+													"_Type": "None",
+													"ActorLevelName": "/Game/Maps/ZoneB/ZoneB2/Base/ZoneB2_Design",
+													"ActorIdName": "BP_ContainerFloof23",
+													"CollectedTimestamp": "2025.06.04-18.30.53",
+													"SaveGameCheckpointTagWhenCollected": "CmxCheckpoint.ZoneB2_Base.120_Village_PatternStain01_Exit",
+													"FloofProviderType": 1,
+													"TypeTag": "Pickup.Floof",
+													"Amount": 10,
+													"_Records":
+													{
+													}
+												},
+												"[ActorLevelName]:/Game/Maps/ZoneB/ZoneB2/Level03/ZoneB2_L3_Design|[ActorIdName]:BP_TinFlip4_9":
+												{
+													"_Name": "None",
+													"_Type": "None",
+													"ActorLevelName": "/Game/Maps/ZoneB/ZoneB2/Level03/ZoneB2_L3_Design",
+													"ActorIdName": "BP_TinFlip4_9",
+													"CollectedTimestamp": "2025.06.04-18.31.14",
+													"SaveGameCheckpointTagWhenCollected": "CmxCheckpoint.ZoneB2_Base.120_Village_PatternStain01_Exit",
+													"FloofProviderType": 3,
+													"TypeTag": "Pickup.Floof",
+													"Amount": 5,
+													"_Records":
+													{
+													}
+												},
+												"[ActorLevelName]:/Game/Maps/ZoneB/ZoneB2/Base/ZoneB2_Design|[ActorIdName]:BP_CorruptionStain_PatternStain02":
+												{
+													"_Name": "None",
+													"_Type": "None",
+													"ActorLevelName": "/Game/Maps/ZoneB/ZoneB2/Base/ZoneB2_Design",
+													"ActorIdName": "BP_CorruptionStain_PatternStain02",
+													"CollectedTimestamp": "2025.06.04-18.34.19",
+													"SaveGameCheckpointTagWhenCollected": "CmxCheckpoint.ZoneB2_Base.140_Village_PatternStain02_Exit",
+													"FloofProviderType": 4,
+													"TypeTag": "Pickup.Floof",
+													"Amount": 5,
+													"_Records":
+													{
+													}
+												},
+												"[ActorLevelName]:/Game/Maps/ZoneB/ZoneB2/Base/ZoneB2_Design|[ActorIdName]:BP_ContainerFloof25":
+												{
+													"_Name": "None",
+													"_Type": "None",
+													"ActorLevelName": "/Game/Maps/ZoneB/ZoneB2/Base/ZoneB2_Design",
+													"ActorIdName": "BP_ContainerFloof25",
+													"CollectedTimestamp": "2025.06.04-18.34.50",
+													"SaveGameCheckpointTagWhenCollected": "CmxCheckpoint.ZoneB2_Base.140_Village_PatternStain02_Exit",
+													"FloofProviderType": 1,
+													"TypeTag": "Pickup.Floof",
+													"Amount": 20,
+													"_Records":
+													{
+													}
+												},
+												"[ActorLevelName]:/Game/Maps/ZoneB/ZoneB2/Base/ZoneB2_Design|[ActorIdName]:BP_ContainerFloof26":
+												{
+													"_Name": "None",
+													"_Type": "None",
+													"ActorLevelName": "/Game/Maps/ZoneB/ZoneB2/Base/ZoneB2_Design",
+													"ActorIdName": "BP_ContainerFloof26",
+													"CollectedTimestamp": "2025.06.04-18.35.47",
+													"SaveGameCheckpointTagWhenCollected": "CmxCheckpoint.ZoneB2_Base.140_Village_PatternStain02_Exit",
+													"FloofProviderType": 1,
+													"TypeTag": "Pickup.Floof",
+													"Amount": 10,
+													"_Records":
+													{
+													}
+												},
+												"[ActorLevelName]:/Game/Maps/ZoneB/ZoneB2/Base/ZoneB2_Design|[ActorIdName]:BP_CorruptionStain_PatternStain03_0":
+												{
+													"_Name": "None",
+													"_Type": "None",
+													"ActorLevelName": "/Game/Maps/ZoneB/ZoneB2/Base/ZoneB2_Design",
+													"ActorIdName": "BP_CorruptionStain_PatternStain03_0",
+													"CollectedTimestamp": "2025.06.04-18.38.45",
+													"SaveGameCheckpointTagWhenCollected": "CmxCheckpoint.ZoneB2_Base.160_Village_PatternStain03_Exit",
+													"FloofProviderType": 4,
+													"TypeTag": "Pickup.Floof",
+													"Amount": 5,
+													"_Records":
+													{
+													}
+												},
+												"[ActorLevelName]:/Game/Maps/ZoneB/ZoneB2/Base/ZoneB2_Design|[ActorIdName]:BP_ContainerFloof34":
+												{
+													"_Name": "None",
+													"_Type": "None",
+													"ActorLevelName": "/Game/Maps/ZoneB/ZoneB2/Base/ZoneB2_Design",
+													"ActorIdName": "BP_ContainerFloof34",
+													"CollectedTimestamp": "2025.06.04-18.41.02",
+													"SaveGameCheckpointTagWhenCollected": "CmxCheckpoint.ZoneB2_Base.170_Village_Wallrun",
+													"FloofProviderType": 1,
+													"TypeTag": "Pickup.Floof",
+													"Amount": 10,
+													"_Records":
+													{
+													}
+												},
+												"[ActorLevelName]:/Game/Maps/ZoneB/ZoneB2/Base/ZoneB2_Design|[ActorIdName]:BP_ContainerFloof39":
+												{
+													"_Name": "None",
+													"_Type": "None",
+													"ActorLevelName": "/Game/Maps/ZoneB/ZoneB2/Base/ZoneB2_Design",
+													"ActorIdName": "BP_ContainerFloof39",
+													"CollectedTimestamp": "2025.06.04-18.42.26",
+													"SaveGameCheckpointTagWhenCollected": "CmxCheckpoint.ZoneB2_Base.170_Village_Wallrun",
+													"FloofProviderType": 1,
+													"TypeTag": "Pickup.Floof",
+													"Amount": 10,
+													"_Records":
+													{
+													}
+												},
+												"[ActorLevelName]:/Game/Maps/ZoneB/ZoneB2/Base/ZoneB2_Design|[ActorIdName]:BP_CorruptionStain_PatternStain04":
+												{
+													"_Name": "None",
+													"_Type": "None",
+													"ActorLevelName": "/Game/Maps/ZoneB/ZoneB2/Base/ZoneB2_Design",
+													"ActorIdName": "BP_CorruptionStain_PatternStain04",
+													"CollectedTimestamp": "2025.06.04-18.45.37",
+													"SaveGameCheckpointTagWhenCollected": "CmxCheckpoint.ZoneB2_Base.200_Village_PatternStain04_Entry",
+													"FloofProviderType": 4,
+													"TypeTag": "Pickup.Floof",
+													"Amount": 5,
+													"_Records":
+													{
+													}
+												},
+												"[ActorLevelName]:/Game/Maps/ZoneB/ZoneB2/Base/ZoneB2_Design|[ActorIdName]:BP_ContainerFloof10":
+												{
+													"_Name": "None",
+													"_Type": "None",
+													"ActorLevelName": "/Game/Maps/ZoneB/ZoneB2/Base/ZoneB2_Design",
+													"ActorIdName": "BP_ContainerFloof10",
+													"CollectedTimestamp": "2025.06.04-18.52.41",
+													"SaveGameCheckpointTagWhenCollected": "CmxCheckpoint.ZoneB2_Base.240_Benji_ClimbStart",
+													"FloofProviderType": 1,
+													"TypeTag": "Pickup.Floof",
+													"Amount": 5,
+													"_Records":
+													{
+													}
+												},
+												"[ActorLevelName]:/Game/Maps/ZoneB/ZoneB2/Base/ZoneB2_Design|[ActorIdName]:BP_ContainerFloof9":
+												{
+													"_Name": "None",
+													"_Type": "None",
+													"ActorLevelName": "/Game/Maps/ZoneB/ZoneB2/Base/ZoneB2_Design",
+													"ActorIdName": "BP_ContainerFloof9",
+													"CollectedTimestamp": "2025.06.04-18.53.09",
+													"SaveGameCheckpointTagWhenCollected": "CmxCheckpoint.ZoneB2_Base.240_Benji_ClimbStart",
+													"FloofProviderType": 1,
+													"TypeTag": "Pickup.Floof",
+													"Amount": 10,
+													"_Records":
+													{
+													}
 												}
 											}
 										},
@@ -5624,7 +5789,7 @@
 								{
 									"_Name": "MnxPlayerProgressionManager",
 									"_Type": "MnxPlayerProgressionManager",
-									"CurrentFloof": 180,
+									"CurrentFloof": 35,
 									"CurrentHealthFilament": 1,
 									"_Records":
 									{
@@ -5634,8 +5799,8 @@
 											"_Type": "MnxPlayerUpgradeTree",
 											"dodge_attack": 1,
 											"jump_attack": 1,
-											"charged_attack": 0,
-											"improved_unravel": 0,
+											"charged_attack": 1,
+											"improved_unravel": 1,
 											"ultimate_attack": 0,
 											"fast_dodge": 0,
 											"strand_blast_upgrade": 0,
@@ -5649,7 +5814,7 @@
 										{
 											"_Name": "Weave",
 											"_Type": "MnxPlayerUpgradeTree",
-											"weave_weaken": 0,
+											"weave_weaken": 1,
 											"weave_life_pinata": 0,
 											"weave_duration": 0,
 											"_Records":
@@ -5809,7 +5974,7 @@
 										{
 											"_Name": "Readable.ZoneB2.MayorLetter",
 											"_Type": "FMnxReadableState",
-											"ReadableTag": 0,
+											"ReadableTag": 1,
 											"_Records":
 											{
 											}
@@ -5818,7 +5983,7 @@
 										{
 											"_Name": "Readable.ZoneB2.TalentShowLetter",
 											"_Type": "FMnxReadableState",
-											"ReadableTag": 0,
+											"ReadableTag": 1,
 											"_Records":
 											{
 											}
@@ -6825,7 +6990,7 @@
 										{
 											"_Name": "Tutorial.MagicAndSkills.WallRun",
 											"_Type": "FMnxTutorialState",
-											"TutorialTag": 0,
+											"TutorialTag": 1,
 											"_Records":
 											{
 											}
@@ -7122,7 +7287,7 @@
 										{
 											"_Name": "Lexicon.Creature.RangeHaint",
 											"_Type": "FMnxTutorialState",
-											"TutorialTag": 0,
+											"TutorialTag": 1,
 											"_Records":
 											{
 											}
@@ -7176,7 +7341,7 @@
 										{
 											"_Name": "Lexicon.Creature.BenjyTree",
 											"_Type": "FMnxTutorialState",
-											"TutorialTag": 0,
+											"TutorialTag": 1,
 											"_Records":
 											{
 											}
@@ -7698,7 +7863,7 @@
 										{
 											"_Name": "Lexicon.Cosmology.StrandedWall",
 											"_Type": "FMnxTutorialState",
-											"TutorialTag": 0,
+											"TutorialTag": 1,
 											"_Records":
 											{
 											}
@@ -7707,7 +7872,7 @@
 										{
 											"_Name": "Lexicon.Cosmology.Tangle",
 											"_Type": "FMnxTutorialState",
-											"TutorialTag": 0,
+											"TutorialTag": 1,
 											"_Records":
 											{
 											}
@@ -7716,7 +7881,7 @@
 										{
 											"_Name": "Lexicon.Cosmology.Wound",
 											"_Type": "FMnxTutorialState",
-											"TutorialTag": 0,
+											"TutorialTag": 1,
 											"_Records":
 											{
 											}
@@ -7725,7 +7890,7 @@
 										{
 											"_Name": "Lexicon.Cosmology.HealingCreatures",
 											"_Type": "FMnxTutorialState",
-											"TutorialTag": 0,
+											"TutorialTag": 1,
 											"_Records":
 											{
 											}
@@ -7773,7 +7938,7 @@
 									"_Name": "MnxChapterSubsystem",
 									"_Type": "MnxChapterSubsystem",
 									"CurrentSubChapter": "None",
-									"CurrentChapterNumber": 3,
+									"CurrentChapterNumber": 4,
 									"_Records":
 									{
 									}
@@ -7782,8 +7947,8 @@
 								{
 									"_Name": "MnxObjectiveManager",
 									"_Type": "MnxObjectiveManager",
-									"CurrentObjectivesSequenceObject": "Objective.ZoneB2.ObjectiveSequence",
-									"CurrentObjectivesSequenceIndex": 5,
+									"CurrentObjectivesSequenceObject": "Objective.ZoneC1.ObjectiveSequence",
+									"CurrentObjectivesSequenceIndex": 0,
 									"_Records":
 									{
 										"UIDescriptorRecord":
@@ -7792,108 +7957,27 @@
 											"_Type": "None",
 											"_Records":
 											{
-												"DA_ZB2_Obj_01":
+												"DA_ZC1_Obj_10":
 												{
-													"_Name": "DA_ZB2_Obj_01",
-													"_Type": "FMnxObjectiveUIDescriptor",
-													"Status": 2,
-													"_Records":
-													{
-													}
-												},
-												"DA_ZB2_Obj_02":
-												{
-													"_Name": "DA_ZB2_Obj_02",
-													"_Type": "FMnxObjectiveUIDescriptor",
-													"Status": 2,
-													"_Records":
-													{
-													}
-												},
-												"DA_ZB2_Obj_04":
-												{
-													"_Name": "DA_ZB2_Obj_04",
-													"_Type": "FMnxObjectiveUIDescriptor",
-													"Status": 2,
-													"_Records":
-													{
-													}
-												},
-												"DA_ZB2_Obj_06":
-												{
-													"_Name": "DA_ZB2_Obj_06",
-													"_Type": "FMnxObjectiveUIDescriptor",
-													"Status": 2,
-													"_Records":
-													{
-													}
-												},
-												"DA_ZB2_Obj_07":
-												{
-													"_Name": "DA_ZB2_Obj_07",
-													"_Type": "FMnxObjectiveUIDescriptor",
-													"Status": 2,
-													"_Records":
-													{
-													}
-												},
-												"DA_ZB2_Obj_08":
-												{
-													"_Name": "DA_ZB2_Obj_08",
+													"_Name": "DA_ZC1_Obj_10",
 													"_Type": "FMnxObjectiveUIDescriptor",
 													"Status": 1,
 													"_Records":
 													{
 													}
 												},
-												"DA_ZB2_Obj_10A":
+												"DA_ZC1_Obj_20":
 												{
-													"_Name": "DA_ZB2_Obj_10A",
+													"_Name": "DA_ZC1_Obj_20",
 													"_Type": "FMnxObjectiveUIDescriptor",
 													"Status": 0,
 													"_Records":
 													{
 													}
 												},
-												"DA_ZB2_Obj_11":
+												"DA_ZC1_Obj_30":
 												{
-													"_Name": "DA_ZB2_Obj_11",
-													"_Type": "FMnxObjectiveUIDescriptor",
-													"Status": 0,
-													"_Records":
-													{
-													}
-												},
-												"DA_ZB2_Obj_12":
-												{
-													"_Name": "DA_ZB2_Obj_12",
-													"_Type": "FMnxObjectiveUIDescriptor",
-													"Status": 0,
-													"_Records":
-													{
-													}
-												},
-												"DA_ZB2_Obj_14":
-												{
-													"_Name": "DA_ZB2_Obj_14",
-													"_Type": "FMnxObjectiveUIDescriptor",
-													"Status": 0,
-													"_Records":
-													{
-													}
-												},
-												"DA_ZB2_Obj_15":
-												{
-													"_Name": "DA_ZB2_Obj_15",
-													"_Type": "FMnxObjectiveUIDescriptor",
-													"Status": 0,
-													"_Records":
-													{
-													}
-												},
-												"DA_ZB2_Obj_16":
-												{
-													"_Name": "DA_ZB2_Obj_16",
+													"_Name": "DA_ZC1_Obj_30",
 													"_Type": "FMnxObjectiveUIDescriptor",
 													"Status": 0,
 													"_Records":
@@ -7908,108 +7992,27 @@
 											"_Type": "None",
 											"_Records":
 											{
-												"DA_ZB2_Obj_01":
+												"DA_ZC1_Obj_10":
 												{
-													"_Name": "DA_ZB2_Obj_01",
-													"_Type": "FMnxWorldObjectiveEntry",
-													"Status": 2,
-													"_Records":
-													{
-													}
-												},
-												"DA_ZB2_Obj_02":
-												{
-													"_Name": "DA_ZB2_Obj_02",
-													"_Type": "FMnxWorldObjectiveEntry",
-													"Status": 2,
-													"_Records":
-													{
-													}
-												},
-												"DA_ZB2_Obj_04":
-												{
-													"_Name": "DA_ZB2_Obj_04",
-													"_Type": "FMnxWorldObjectiveEntry",
-													"Status": 2,
-													"_Records":
-													{
-													}
-												},
-												"DA_ZB2_Obj_06":
-												{
-													"_Name": "DA_ZB2_Obj_06",
-													"_Type": "FMnxWorldObjectiveEntry",
-													"Status": 2,
-													"_Records":
-													{
-													}
-												},
-												"DA_ZB2_Obj_07":
-												{
-													"_Name": "DA_ZB2_Obj_07",
-													"_Type": "FMnxWorldObjectiveEntry",
-													"Status": 2,
-													"_Records":
-													{
-													}
-												},
-												"DA_ZB2_Obj_08":
-												{
-													"_Name": "DA_ZB2_Obj_08",
+													"_Name": "DA_ZC1_Obj_10",
 													"_Type": "FMnxWorldObjectiveEntry",
 													"Status": 0,
 													"_Records":
 													{
 													}
 												},
-												"DA_ZB2_Obj_10A":
+												"DA_ZC1_Obj_20":
 												{
-													"_Name": "DA_ZB2_Obj_10A",
+													"_Name": "DA_ZC1_Obj_20",
 													"_Type": "FMnxWorldObjectiveEntry",
 													"Status": 0,
 													"_Records":
 													{
 													}
 												},
-												"DA_ZB2_Obj_11":
+												"DA_ZC1_Obj_30":
 												{
-													"_Name": "DA_ZB2_Obj_11",
-													"_Type": "FMnxWorldObjectiveEntry",
-													"Status": 0,
-													"_Records":
-													{
-													}
-												},
-												"DA_ZB2_Obj_12":
-												{
-													"_Name": "DA_ZB2_Obj_12",
-													"_Type": "FMnxWorldObjectiveEntry",
-													"Status": 0,
-													"_Records":
-													{
-													}
-												},
-												"DA_ZB2_Obj_14":
-												{
-													"_Name": "DA_ZB2_Obj_14",
-													"_Type": "FMnxWorldObjectiveEntry",
-													"Status": 0,
-													"_Records":
-													{
-													}
-												},
-												"DA_ZB2_Obj_15":
-												{
-													"_Name": "DA_ZB2_Obj_15",
-													"_Type": "FMnxWorldObjectiveEntry",
-													"Status": 0,
-													"_Records":
-													{
-													}
-												},
-												"DA_ZB2_Obj_16":
-												{
-													"_Name": "DA_ZB2_Obj_16",
+													"_Name": "DA_ZC1_Obj_30",
 													"_Type": "FMnxWorldObjectiveEntry",
 													"Status": 0,
 													"_Records":
@@ -8071,7 +8074,7 @@
 									"_Name": "Story_Chapter3",
 									"_Type": "None",
 									"Tag": "Achievement.Story.Chapter3",
-									"NumberOfStepsCompleted": 0,
+									"NumberOfStepsCompleted": 1,
 									"_Records":
 									{
 									}
@@ -8311,7 +8314,7 @@
 									"_Name": "Combat_NoMelee",
 									"_Type": "None",
 									"Tag": "Achievement.Combat.NoMelee",
-									"NumberOfStepsCompleted": 2,
+									"NumberOfStepsCompleted": 4,
 									"_Records":
 									{
 									}
@@ -8584,7 +8587,7 @@
 								{
 									"_Name": "WallRun",
 									"_Type": "MnxInventoryItemAsset",
-									"Inventory.Nav.WallRun": 0,
+									"Inventory.Nav.WallRun": 2,
 									"_Records":
 									{
 									}
@@ -8620,7 +8623,7 @@
 								{
 									"_Name": "Pattern_B2_Benji",
 									"_Type": "MnxInventoryItemAsset",
-									"Inventory.Pattern.B2_Benji": 0,
+									"Inventory.Pattern.B2_Benji": 2,
 									"_Records":
 									{
 									}
@@ -8737,7 +8740,7 @@
 								{
 									"_Name": "Storybook_C1",
 									"_Type": "MnxInventoryItemAsset",
-									"Inventory.Storybook.ZoneC1": 0,
+									"Inventory.Storybook.ZoneC1": 1,
 									"_Records":
 									{
 									}
