@@ -1,0 +1,27 @@
+main.cpp(47): [info] Loaded YASTM v3.0.0-AE2
+main.cpp(61): [info] Installing patch "ChargeItemFix"...
+chargeitemfix.cpp(170): [info] [CHARGE] Patch size: 34
+trampoline.hpp(15): [info] Allocating trampoline with size: 100B
+main.cpp(61): [info] Installing patch "EnchantItemFix"...
+enchantitemfix.cpp(149): [info] [ENCHANT] Patch size: 34
+main.cpp(61): [info] Installing patch "SoulTrapFix"...
+YASTMConfig.cpp(319): [warning] Scaleform Translation Plus Plus not active. Some strings may not be translated correctly and will use the English fallback.
+trapsoulfix.cpp(113): [info] [TRAPSOUL] Installing Actor::TrapSoul() hijack jump...
+main.cpp(61): [info] Installing patch "YASTMFSUtils"...
+main.cpp(61): [info] Installing patch "YASTMUtils"...
+PapyrusFunctionRegistry.hpp(27): [info] Registering function: YASTMFSUtils.FileExists()
+PapyrusFunctionRegistry.hpp(27): [info] Registering function: YASTMFSUtils.RemoveFile()
+PapyrusFunctionRegistry.hpp(27): [info] Registering function: YASTMFSUtils.CreateConfig()
+PapyrusFunctionRegistry.hpp(27): [info] Registering function: YASTMFSUtils.OpenConfig()
+PapyrusFunctionRegistry.hpp(27): [info] Registering function: YASTMFSUtils.SaveConfig()
+PapyrusFunctionRegistry.hpp(27): [info] Registering function: YASTMFSUtils.CloseConfig()
+PapyrusFunctionRegistry.hpp(27): [info] Registering function: YASTMFSUtils.HasEntry()
+PapyrusFunctionRegistry.hpp(27): [info] Registering function: YASTMFSUtils.GetInt()
+PapyrusFunctionRegistry.hpp(27): [info] Registering function: YASTMFSUtils.GetFloat()
+PapyrusFunctionRegistry.hpp(27): [info] Registering function: YASTMFSUtils.SetInt()
+PapyrusFunctionRegistry.hpp(27): [info] Registering function: YASTMFSUtils.SetFloat()
+PapyrusFunctionRegistry.hpp(27): [info] Registering function: YASTMFSUtils.GetConfigCount()
+PapyrusFunctionRegistry.hpp(27): [info] Registering function: YASTMFSUtils.GetLargestHandle()
+PapyrusFunctionRegistry.hpp(27): [info] Registering function: YASTMFSUtils.GetNextHandle()
+PapyrusFunctionRegistry.hpp(27): [info] Registering function: YASTMFSUtils.CloseAllConfigs()
+PapyrusFunctionRegistry.hpp(27): [info] Registering function: YASTMUtils.TrapSoulAndGetCaster()

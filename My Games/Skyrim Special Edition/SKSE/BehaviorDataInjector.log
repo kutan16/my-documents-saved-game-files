@@ -1,0 +1,34 @@
+[08/01/25 16:40:06][info](Logger.hpp:148) Logger init - Skyrim Special Edition 1-6-1170-0
+[08/01/25 16:40:06][info](main.cpp:36) BehaviorDataInjector v0.1.3.0 loaded
+[08/01/25 16:40:08][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\EASSE_BDI.json"
+[08/01/25 16:40:08][info](DataHandler.cpp:41) Stored a BDI event: name: "EasUnequipAnimObj0", type: "kEvent", projectPath: "ACTORS".
+[08/01/25 16:40:08][info](DataHandler.cpp:41) Stored a BDI event: name: "EasUnequipAnimObj1", type: "kEvent", projectPath: "ACTORS".
+[08/01/25 16:40:08][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\LHEO_BDI.json"
+[08/01/25 16:40:08][info](DataHandler.cpp:41) Stored a BDI event: name: "Reverse_On", type: "kEvent", projectPath: "ACTORS".
+[08/01/25 16:40:08][info](DataHandler.cpp:41) Stored a BDI event: name: "Reverse_Off", type: "kEvent", projectPath: "ACTORS".
+[08/01/25 16:40:08][info](DataHandler.cpp:41) Stored a BDI event: name: "Adjustment_On", type: "kEvent", projectPath: "ACTORS".
+[08/01/25 16:40:08][info](DataHandler.cpp:41) Stored a BDI event: name: "Adjustment_Off", type: "kEvent", projectPath: "ACTORS".
+[08/01/25 16:40:08][info](DataHandler.cpp:41) Stored a BDI event: name: "DisableShieldAdjustment", type: "kEvent", projectPath: "ACTORS".
+[08/01/25 16:40:08][info](DataHandler.cpp:41) Stored a BDI event: name: "EnableShieldAdjustment", type: "kEvent", projectPath: "ACTORS".
+[08/01/25 16:40:08][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\Precision_BDI.json"
+[08/01/25 16:40:08][info](DataHandler.cpp:41) Stored a BDI event: name: "Collision_AttackStart", type: "kEvent", projectPath: "ACTORS".
+[08/01/25 16:40:08][info](DataHandler.cpp:41) Stored a BDI event: name: "Collision_Start", type: "kEvent", projectPath: "ACTORS".
+[08/01/25 16:40:08][info](DataHandler.cpp:41) Stored a BDI event: name: "Collision_Add", type: "kEvent", projectPath: "ACTORS".
+[08/01/25 16:40:08][info](DataHandler.cpp:41) Stored a BDI event: name: "Collision_Remove", type: "kEvent", projectPath: "ACTORS".
+[08/01/25 16:40:08][info](DataHandler.cpp:41) Stored a BDI event: name: "Collision_ClearTargets", type: "kEvent", projectPath: "ACTORS".
+[08/01/25 16:40:08][info](DataHandler.cpp:41) Stored a BDI event: name: "Collision_AttackEnd", type: "kEvent", projectPath: "ACTORS".
+[08/01/25 16:40:08][info](DataHandler.cpp:41) Stored a BDI event: name: "Collision_Cancel", type: "kEvent", projectPath: "ACTORS".
+[08/01/25 16:40:08][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\SkyParkour_BDI.json"
+[08/01/25 16:40:08][info](DataHandler.cpp:35) Stored a BDI variable: name: "SkyParkourLedge", type: "kInt", projectPath: "ACTORS\CHARACTER".
+[08/01/25 16:40:08][info](DataHandler.cpp:35) Stored a BDI variable: name: "SkyParkourStepLeg", type: "kInt", projectPath: "ACTORS\CHARACTER".
+[08/01/25 16:40:08][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\TPoseFix_BDI.json"
+[08/01/25 16:40:08][info](DataHandler.cpp:41) Stored a BDI event: name: "PIE", type: "kEvent", projectPath: "ACTORS\CANINE".
+[08/01/25 16:40:08][info](DataHandler.cpp:35) Stored a BDI variable: name: "bTPoseFixApplied", type: "kBool", projectPath: "ACTORS\CANINE".
+[08/01/25 16:40:08][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\Test_BDI.json"
+[08/01/25 16:40:08][info](DataHandler.cpp:35) Stored a BDI variable: name: "MaxsuTestInt", type: "kInt", projectPath: "ACTORS".
+[08/01/25 16:40:08][info](DataHandler.cpp:35) Stored a BDI variable: name: "MaxsuTestBool", type: "kBool", projectPath: "ACTORS\CHARACTER".
+[08/01/25 16:40:08][info](DataHandler.cpp:35) Stored a BDI variable: name: "MaxsuTestFloat", type: "kFloat", projectPath: "ACTORS\HORSE".
+[08/01/25 16:40:08][info](DataHandler.cpp:41) Stored a BDI event: name: "MaxsuTestEvent", type: "kEvent", projectPath: "ACTORS".
+[08/01/25 16:40:08][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\Vanilla Eating Animation Fix_BDI.json"
+[08/01/25 16:40:08][info](DataHandler.cpp:35) Stored a BDI variable: name: "NPCC_Chew", type: "kInt", projectPath: "ACTORS\CHARACTER".
+[08/01/25 16:40:08][info](Hook.h:19) BDI::CreateSymbolIdMapHook::InstallHook Done!
