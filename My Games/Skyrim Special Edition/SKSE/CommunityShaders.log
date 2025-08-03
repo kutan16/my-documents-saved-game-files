@@ -1,0 +1,142 @@
+[03:04:16.069] [53776] [I] CommunityShaders v1-2-1-0
+[03:04:16.072] [53776] [I] Attempting to open config file: Data\SKSE\Plugins\CommunityShaders\SettingsUser.json
+[03:04:16.073] [53776] [I] Loading 'Menu' settings
+[03:04:16.073] [53776] [I] Loading 'Advanced' settings
+[03:04:16.073] [53776] [I] Loading 'General' settings
+[03:04:16.073] [53776] [I] Loading 'Replace Original Shaders' settings
+[03:04:16.073] [53776] [I] Loading 'Disable at Boot' settings
+[03:04:16.073] [53776] [I] Loading Upscaling settings
+[03:04:16.073] [53776] [I] Loading Feature: 'GrassLighting'
+[03:04:16.073] [53776] [I] Loading Grass Lighting settings
+[03:04:16.074] [53776] [I] GrassLighting.ini 2-0-0 successfully loaded
+[03:04:16.074] [53776] [I] Loading Feature: 'GrassCollision'
+[03:04:16.074] [53776] [I] Loading Grass Collision settings
+[03:04:16.074] [53776] [I] GrassCollision.ini 2-0-1 successfully loaded
+[03:04:16.074] [53776] [I] Loading Feature: 'ScreenSpaceShadows'
+[03:04:16.074] [53776] [I] Loading Screen Space Shadows settings
+[03:04:16.075] [53776] [I] ScreenSpaceShadows.ini 1-2-1 successfully loaded
+[03:04:16.075] [53776] [I] Loading Feature: 'ExtendedMaterials'
+[03:04:16.075] [53776] [I] Loading Extended Materials settings
+[03:04:16.075] [53776] [I] ExtendedMaterials.ini 1-0-1 successfully loaded
+[03:04:16.075] [53776] [I] Loading Feature: 'WetnessEffects'
+[03:04:16.075] [53776] [I] Loading Wetness Effects settings
+[03:04:16.075] [53776] [I] WetnessEffects.ini 2-0-1 successfully loaded
+[03:04:16.075] [53776] [I] Loading Feature: 'LightLimitFix'
+[03:04:16.075] [53776] [I] Loading Light Limit Fix settings
+[03:04:16.076] [53776] [I] LightLimitFix.ini 2-0-1 successfully loaded
+[03:04:16.076] [53776] [I] Loading Feature: 'DynamicCubemaps'
+[03:04:16.076] [53776] [I] Loading Dynamic Cubemaps settings
+[03:04:16.076] [53776] [I] DynamicCubemaps.ini 2-1-0 successfully loaded
+[03:04:16.076] [53776] [I] Loading Feature: 'CloudShadows'
+[03:04:16.076] [53776] [I] Loading Cloud Shadows settings
+[03:04:16.076] [53776] [W] CloudShadows.ini missing version info; not successfully loaded
+[03:04:16.076] [53776] [I] Loading Feature: 'WaterEffects'
+[03:04:16.076] [53776] [I] WaterEffects.ini 1-0-1 successfully loaded
+[03:04:16.076] [53776] [I] Loading Feature: 'SubsurfaceScattering'
+[03:04:16.076] [53776] [I] Loading Subsurface Scattering settings
+[03:04:16.076] [53776] [I] SubsurfaceScattering.ini 2-0-2 successfully loaded
+[03:04:16.076] [53776] [I] Loading Feature: 'TerrainShadows'
+[03:04:16.076] [53776] [I] Loading Terrain Shadows settings
+[03:04:16.076] [53776] [W] TerrainShadows.ini missing version info; not successfully loaded
+[03:04:16.076] [53776] [I] Loading Feature: 'ScreenSpaceGI'
+[03:04:16.076] [53776] [I] Loading Screen Space GI settings
+[03:04:16.077] [53776] [I] ScreenSpaceGI.ini 3-0-5 successfully loaded
+[03:04:16.077] [53776] [I] Loading Feature: 'Skylighting'
+[03:04:16.077] [53776] [I] Loading Skylighting settings
+[03:04:16.077] [53776] [I] Skylighting.ini 1-1-0 successfully loaded
+[03:04:16.077] [53776] [I] Loading Feature: 'TerrainBlending'
+[03:04:16.077] [53776] [W] TerrainBlending.ini missing version info; not successfully loaded
+[03:04:16.077] [53776] [I] Loading Feature: 'VolumetricLighting'
+[03:04:16.077] [53776] [I] Loading Volumetric Lighting settings
+[03:04:16.077] [53776] [I] VolumetricLighting.ini 1-0-0 successfully loaded
+[03:04:16.077] [53776] [I] Loading Feature: 'LODBlending'
+[03:04:16.077] [53776] [I] Loading LOD Blending settings
+[03:04:16.077] [53776] [I] LODBlending.ini 1-0-0 successfully loaded
+[03:04:16.077] [53776] [I] Loading Settings Complete
+[03:04:37.139] [53776] [I] Skyrim Upscaler not detected
+[03:04:37.139] [53776] [I] [Deferred] Installed hooks
+[03:04:37.140] [53776] [I] Hooking BGSTextureSet
+[03:04:37.141] [53776] [I] Hooking BSLightingShaderProperty
+[03:04:37.141] [53776] [I] Hooking BSLightingShader
+[03:04:37.141] [53776] [I] Hooking TESObjectLAND
+[03:04:37.141] [53776] [I] Hooking TESLandTexture
+[03:04:37.141] [53776] [I] Hooking SetPerFrameBuffers
+[03:04:37.141] [53776] [I] Hooking BSTempEffectSimpleDecal
+[03:04:37.141] [53776] [I] Hooking BSTempEffectGeometryDecal
+[03:04:37.141] [53776] [I] Hooking BSGrassShaderProperty::ctor
+[03:04:37.141] [53776] [I] Hooking BSGrassShaderProperty
+[03:04:37.141] [53776] [I] Hooking BSGrassShader
+[03:04:37.141] [53776] [I] Hooking TESObjectSTAT
+[03:04:37.141] [53776] [I] [Upscaling] Installed hooks
+[03:04:37.141] [53776] [I] Hooking BSInputDeviceManager::PollInputDevices
+[03:04:37.141] [53776] [I] Hooking BSShader::LoadShaders
+[03:04:37.141] [53776] [I] Hooking BSShader::BeginTechnique
+[03:04:37.142] [53776] [I] Hooking BSGraphics::SetDirtyStates
+[03:04:37.142] [53776] [I] Hooking BSGraphics::Renderer::InitD3D
+[03:04:37.142] [53776] [I] Hooking WndProcHandler
+[03:04:37.142] [53776] [I] Hooking BSShaderRenderTargets::Create
+[03:04:37.142] [53776] [I] Hooking BSShaderRenderTargets::Create::CreateRenderTarget(s)
+[03:04:37.142] [53776] [I] Hooking BSImagespaceShader
+[03:04:37.142] [53776] [I] Hooking BSComputeShader
+[03:04:37.142] [53776] [I] Hooking Renderer::DispatchCSShader
+[03:04:37.142] [53776] [I] Hooking TESWaterReflections::Update_Actor::GetLOSPosition for Sky Reflection Fix
+[03:04:37.142] [53776] [I] Hooking BSEffectShader
+[03:04:37.143] [53776] [I] Validating Grass Lighting
+[03:04:37.143] [53776] [I] Installed version and cached version match.
+[03:04:37.143] [53776] [I] Cached feature is valid
+[03:04:37.143] [53776] [I] Validating Grass Collision
+[03:04:37.143] [53776] [I] Installed version and cached version match.
+[03:04:37.143] [53776] [I] Cached feature is valid
+[03:04:37.143] [53776] [I] Validating Screen Space Shadows
+[03:04:37.143] [53776] [I] Installed version and cached version match.
+[03:04:37.143] [53776] [I] Cached feature is valid
+[03:04:37.143] [53776] [I] Validating Extended Materials
+[03:04:37.143] [53776] [I] Installed version and cached version match.
+[03:04:37.143] [53776] [I] Cached feature is valid
+[03:04:37.143] [53776] [I] Validating Wetness Effects
+[03:04:37.143] [53776] [I] Installed version and cached version match.
+[03:04:37.143] [53776] [I] Cached feature is valid
+[03:04:37.143] [53776] [I] Validating Light Limit Fix
+[03:04:37.143] [53776] [I] Installed version and cached version match.
+[03:04:37.143] [53776] [I] Cached feature is valid
+[03:04:37.143] [53776] [I] Validating Dynamic Cubemaps
+[03:04:37.143] [53776] [I] Installed version and cached version match.
+[03:04:37.143] [53776] [I] Cached feature is valid
+[03:04:37.143] [53776] [I] Validating Cloud Shadows
+[03:04:37.143] [53776] [I] Cached feature is valid
+[03:04:37.143] [53776] [I] Validating Water Effects
+[03:04:37.143] [53776] [I] Installed version and cached version match.
+[03:04:37.143] [53776] [I] Cached feature is valid
+[03:04:37.143] [53776] [I] Validating Subsurface Scattering
+[03:04:37.143] [53776] [I] Installed version and cached version match.
+[03:04:37.143] [53776] [I] Cached feature is valid
+[03:04:37.143] [53776] [I] Validating Terrain Shadows
+[03:04:37.143] [53776] [I] Cached feature is valid
+[03:04:37.143] [53776] [I] Validating Screen Space GI
+[03:04:37.143] [53776] [I] Installed version and cached version match.
+[03:04:37.143] [53776] [I] Cached feature is valid
+[03:04:37.143] [53776] [I] Validating Skylighting
+[03:04:37.143] [53776] [I] Installed version and cached version match.
+[03:04:37.143] [53776] [I] Cached feature is valid
+[03:04:37.143] [53776] [I] Validating Terrain Blending
+[03:04:37.143] [53776] [I] Cached feature is valid
+[03:04:37.143] [53776] [I] Validating Volumetric Lighting
+[03:04:37.143] [53776] [I] Installed version and cached version match.
+[03:04:37.143] [53776] [I] Cached feature is valid
+[03:04:37.143] [53776] [I] Validating LOD Blending
+[03:04:37.143] [53776] [I] Installed version and cached version match.
+[03:04:37.143] [53776] [I] Cached feature is valid
+[03:04:37.143] [53776] [I] Using disk cache
+[03:04:37.143] [53776] [I] [GRASS COLLISION] Installed hooks
+[03:04:37.143] [53776] [I] [LLF] Loading particle lights configs
+[03:04:37.144] [53776] [I] [LLF] 6 matching inis found
+[03:04:37.144] [53776] [I] [LLF] loading ini : Data\ParticleLights\ENBLightEffect.ini
+[03:04:37.144] [53776] [I] [LLF] loading ini : Data\ParticleLights\enblightglow.ini
+[03:04:37.144] [53776] [I] [LLF] loading ini : Data\ParticleLights\fxevgnnsmpglow.ini
+[03:04:37.144] [53776] [I] [LLF] loading ini : Data\ParticleLights\fxglowenb.ini
+[03:04:37.144] [53776] [I] [LLF] loading ini : Data\ParticleLights\glowsoft01_enbl.ini
+[03:04:37.144] [53776] [I] [LLF] loading ini : Data\ParticleLights\po3_fullalpha.ini
+[03:04:37.145] [53776] [I] [LLF] Installed hooks
+[03:04:37.145] [53776] [I] [SSS] Installed hooks
+[03:04:37.145] [53776] [I] [SKYLIGHTING] Hooking BSLightingShaderProperty::GetPrecipitationOcclusionMapRenderPassesImp
+[03:04:37.145] [53776] [I] Registered class Skylighting::MenuOpenCloseEventHandler

@@ -1,0 +1,115 @@
+[03:04:17.063] po3_LightPlacer v3.0.2.1
+[03:04:17.063] Game version : 1-6-1170-0
+[03:04:17.064] *******************CONFIG FILES*******************
+[03:04:17.064] Reading Data\LightPlacer\CS Light\CS Light - Aetherium Shards.json...
+[03:04:17.065] 	7 entries
+[03:04:17.065] Reading Data\LightPlacer\CS Light\CS Light - All Maker Stones.json...
+[03:04:17.066] 	7 entries
+[03:04:17.066] Reading Data\LightPlacer\CS Light\CS Light - Apocrypha.json...
+[03:04:17.066] 	32 entries
+[03:04:17.066] Reading Data\LightPlacer\CS Light\CS Light - Ayleid Ruins.json...
+[03:04:17.067] 	22 entries
+[03:04:17.067] Reading Data\LightPlacer\CS Light\CS Light - Blackreach.json...
+[03:04:17.068] 	19 entries
+[03:04:17.068] Reading Data\LightPlacer\CS Light\CS Light - Candles.json...
+[03:04:17.068] 	13 entries
+[03:04:17.068] Reading Data\LightPlacer\CS Light\CS Light - Caveworms.json...
+[03:04:17.068] 	3 entries
+[03:04:17.068] Reading Data\LightPlacer\CS Light\CS Light - Chandeliers.json...
+[03:04:17.069] 	2 entries
+[03:04:17.069] Reading Data\LightPlacer\CS Light\CS Light - College.json...
+[03:04:17.069] 	3 entries
+[03:04:17.069] Reading Data\LightPlacer\CS Light\CS Light - Dark Elf Lanterns.json...
+[03:04:17.070] 	12 entries
+[03:04:17.070] Reading Data\LightPlacer\CS Light\CS Light - Dwemer.json...
+[03:04:17.070] 	37 entries
+[03:04:17.071] Reading Data\LightPlacer\CS Light\CS Light - Ebonmere.json...
+[03:04:17.071] 	2 entries
+[03:04:17.071] Reading Data\LightPlacer\CS Light\CS Light - Fire traps.json...
+[03:04:17.071] 	2 entries
+[03:04:17.071] Reading Data\LightPlacer\CS Light\CS Light - Fires.json...
+[03:04:17.072] 	6 entries
+[03:04:17.072] Reading Data\LightPlacer\CS Light\CS Light - Furniture.json...
+[03:04:17.072] 	9 entries
+[03:04:17.072] Reading Data\LightPlacer\CS Light\CS Light - Ghosts of the Tribunal.json...
+[03:04:17.072] 	4 entries
+[03:04:17.072] Reading Data\LightPlacer\CS Light\CS Light - Glowing Mushrooms.json...
+[03:04:17.073] 	3 entries
+[03:04:17.073] Reading Data\LightPlacer\CS Light\CS Light - Lanterns.json...
+[03:04:17.073] 	5 entries
+[03:04:17.073] Reading Data\LightPlacer\CS Light\CS Light - Magic FX.json...
+[03:04:17.073] 	error:index 0: no_read_input
+[03:04:17.073] Reading Data\LightPlacer\CS Light\CS Light - Meridias Shrine.json...
+[03:04:17.074] 	6 entries
+[03:04:17.074] Reading Data\LightPlacer\CS Light\CS Light - Misc Effects.json...
+[03:04:17.074] 	19 entries
+[03:04:17.074] Reading Data\LightPlacer\CS Light\CS Light - Misc Lights.json...
+[03:04:17.075] 	5 entries
+[03:04:17.075] Reading Data\LightPlacer\CS Light\CS Light - Moon Crests.json...
+[03:04:17.075] 	7 entries
+[03:04:17.075] Reading Data\LightPlacer\CS Light\CS Light - Nordic Halls.json...
+[03:04:17.076] 	12 entries
+[03:04:17.076] Reading Data\LightPlacer\CS Light\CS Light - Paragon Gems.json...
+[03:04:17.076] 	6 entries
+[03:04:17.076] Reading Data\LightPlacer\CS Light\CS Light - Potions Default.json...
+[03:04:17.076] 	80 entries
+[03:04:17.077] Reading Data\LightPlacer\CS Light\CS Light - Rieklings.json...
+[03:04:17.077] 	13 entries
+[03:04:17.077] Reading Data\LightPlacer\CS Light\CS Light - Solstheim.json...
+[03:04:17.077] 	6 entries
+[03:04:17.077] Reading Data\LightPlacer\CS Light\CS Light - Spiders of Solstheim.json...
+[03:04:17.078] 	54 entries
+[03:04:17.078] Reading Data\LightPlacer\CS Light\CS Light - Torches.json...
+[03:04:17.078] 	1 entries
+[03:04:17.078] Reading Data\LightPlacer\CS Light\CS Light - Wyrmstooth.json...
+[03:04:17.079] 	3 entries
+[03:04:17.079] *********************SETTINGS*********************
+[03:04:17.079] Reading Data\SKSE\Plugins\po3_LightPlacer.ini...
+[03:04:17.079] 
+[03:04:17.079] bShowMarkers : false
+[03:04:17.079] bDisableAllGameLights : false
+[03:04:17.079] LightBlackList : 0 entries
+[03:04:17.079] LightWhiteList : 0 entries
+[03:04:17.079] **********************HOOKS***********************
+[03:04:17.079] Hooked class RE::BGSMovableStatic::Clone3D
+[03:04:17.079] Hooked class RE::BGSProjectile::Clone3D
+[03:04:17.079] Hooked class RE::BGSExplosion::Clone3D
+[03:04:17.079] Hooked class RE::BGSHazard::Clone3D
+[03:04:17.079] Hooked class RE::TESFurniture::Clone3D
+[03:04:17.079] Hooked class RE::TESObjectDOOR::Clone3D
+[03:04:17.079] Hooked class RE::TESObjectMISC::Clone3D
+[03:04:17.079] Hooked class RE::TESObjectSTAT::Clone3D
+[03:04:17.079] Hooked class RE::TESObjectCONT::Clone3D
+[03:04:17.079] Hooked class RE::TESSoulGem::Clone3D
+[03:04:17.079] Hooked class RE::TESObjectACTI::Clone3D
+[03:04:17.079] Hooked class RE::TESObjectBOOK::Clone3D
+[03:04:17.080] Hooked class RE::TESObjectWEAP::Clone3D
+[03:04:17.080] Hooked class RE::TESObjectARMO::Clone3D
+[03:04:17.080] Hooked class RE::AlchemyItem::Clone3D
+[03:04:17.080] Hooked class RE::IngredientItem::Clone3D
+[03:04:17.080] Hooked class RE::TESFlora::Clone3D
+[03:04:17.080] Hooked class RE::TESObjectTREE::Clone3D
+[03:04:17.080] Hooked class RE::ShaderReferenceEffect::Init
+[03:04:17.080] Hooked class RE::ModelReferenceEffect::Init
+[03:04:17.080] Hooked ActorMagicCaster::AttachEnchantmentVisuals
+[03:04:17.080] Hooked BipedAnim::AddAddonNodes
+[03:04:17.080] Hooked TESObjectREFR::AttachLight
+[03:04:17.080] Hooked Actor::ReAddCasterLights
+[03:04:17.080] Hooked ShaderReferenceEffect::Resume
+[03:04:17.080] Hooked TESObjectREFR::RemoveLight
+[03:04:17.080] Hooked ExtraDataList::GetLightData
+[03:04:17.080] Hooked BipedAnim::RunBiped3DDetach
+[03:04:17.080] Hooked class RE::ShaderReferenceEffect::DetachImpl
+[03:04:17.080] Hooked class RE::ModelReferenceEffect::DetachImpl
+[03:04:17.080] Hooked ShaderReferenceEffect::Suspend
+[03:04:17.080] Patched TESObjectREFR::CheckUsesExternalEmittance
+[03:04:17.080] Hooked TESObjectCELL::UpdateActivateParents
+[03:04:17.080] Hooked TESObjectCELL::UpdateManagedNodes
+[03:04:17.080] Hooked class RE::ShaderReferenceEffect::UpdatePosition
+[03:04:17.080] Hooked class RE::ModelReferenceEffect::UpdatePosition
+[03:04:17.080] Hooked ActorMagicCaster::Update
+[03:04:17.080] Hooked NiSwitchNode::UpdateDownwardsPass
+[03:04:17.080] Hooked TESObjectCELL::RemoveExternalEmittance
+[03:04:37.153] **********************MERGES**********************
+[03:04:37.153] Failed to dispatch message to MergeMapper
+[03:04:37.153] MergeMapper not detected
