@@ -1,0 +1,124 @@
+main.cpp(116): [info] PayloadInterpreter v1-0-0-0
+PayloadInterpreter.cpp(10): [info] Loading predefined payload instructions...
+PayloadInterpreter.cpp(14): [info] Loading from Data/SKSE/PayloadInterpreter/Config\BanishedKnight.ini
+PayloadInterpreter.cpp(58): [info] @CAST|0X0BA41|EldenSkyrim_RimSkills.esp|200|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(58): [info] @CAST|0X0BA43|EldenSkyrim_RimSkills.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $BanishedKnightFastHealing
+PayloadInterpreter.cpp(58): [info] @CAST|0X0BA46|EldenSkyrim_RimSkills.esp|500|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(58): [info] @CAST|0X0BA43|EldenSkyrim_RimSkills.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $BanishedKnightFireIntensify
+PayloadInterpreter.cpp(58): [info] @CAST|0X0BA19|EldenSkyrim_RimSkills.esp||1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $RS_BanishedKnight
+PayloadInterpreter.cpp(14): [info] Loading from Data/SKSE/PayloadInterpreter/Config\DivineSmite.ini
+PayloadInterpreter.cpp(58): [info] @CAST|0X805|Divine Smite.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $DSench
+PayloadInterpreter.cpp(58): [info] @CAST|0X810|Divine Smite.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $DSexp
+PayloadInterpreter.cpp(58): [info] @APPLYSPELL|0X80A|Divine Smite.esp
+PayloadInterpreter.cpp(58): [info] ![0.5]@UNAPPLYSPELL|0X80A|Divine Smite.esp
+PayloadInterpreter.cpp(61): [info] mapping loaded for $DSlight
+PayloadInterpreter.cpp(58): [info] @APPLYSPELL|0X80C|Divine Smite.esp
+PayloadInterpreter.cpp(58): [info] ![1.5]@UNAPPLYSPELL|0X80C|Divine Smite.esp
+PayloadInterpreter.cpp(61): [info] mapping loaded for $DSrune
+PayloadInterpreter.cpp(14): [info] Loading from Data/SKSE/PayloadInterpreter/Config\EAaS.ini
+PayloadInterpreter.cpp(58): [info] @SGVB|bEasTwoHandCycle|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $disableEasTHAV
+PayloadInterpreter.cpp(58): [info] @SGVB|bEasTwoHandCycle|1
+PayloadInterpreter.cpp(61): [info] mapping loaded for $enableEasTHAV
+PayloadInterpreter.cpp(58): [info] @PLAYPARTICLE|TaberuMono/FlourSmoke01.nif|3|5|0|4U|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $FlourSmoke1
+PayloadInterpreter.cpp(58): [info] @PLAYPARTICLE|TaberuMono/FlourSmoke02.nif|3|5|0|4U|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $FlourSmoke2
+PayloadInterpreter.cpp(58): [info] @CAST|0x345406|TaberuAnimation.esp|0|0|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $EasDebugMessage
+PayloadInterpreter.cpp(14): [info] Loading from Data/SKSE/PayloadInterpreter/Config\EldritchBlast.ini
+PayloadInterpreter.cpp(58): [info] @APPLYSPELL|0X80A|Eldritch Blast.esp
+PayloadInterpreter.cpp(58): [info] ![0.4]@UNAPPLYSPELL|0X80A|Eldritch Blast.esp
+PayloadInterpreter.cpp(61): [info] mapping loaded for $EBeffect1
+PayloadInterpreter.cpp(58): [info] @APPLYSPELL|0X811|Eldritch Blast.esp
+PayloadInterpreter.cpp(58): [info] ![1]@UNAPPLYSPELL|0X811|Eldritch Blast.esp
+PayloadInterpreter.cpp(61): [info] mapping loaded for $EBeffect2
+PayloadInterpreter.cpp(58): [info] @APPLYSPELL|0X814|Eldritch Blast.esp
+PayloadInterpreter.cpp(58): [info] ![0.5]@UNAPPLYSPELL|0X814|Eldritch Blast.esp
+PayloadInterpreter.cpp(61): [info] mapping loaded for $EBeffect3
+PayloadInterpreter.cpp(58): [info] @CAST|0X807|Eldritch Blast.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(58): [info] @CAST|0X820|Eldritch Blast.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $EBpro1
+PayloadInterpreter.cpp(58): [info] @CAST|0X815|Eldritch Blast.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(58): [info] @CAST|0X820|Eldritch Blast.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(58): [info] @CAST|0X821|Eldritch Blast.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $EBpro2
+PayloadInterpreter.cpp(58): [info] @CAST|0X81A|Eldritch Blast.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(58): [info] @CAST|0X820|Eldritch Blast.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(58): [info] @CAST|0X822|Eldritch Blast.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(58): [info] @CAST|0X823|Eldritch Blast.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $EBpro3
+PayloadInterpreter.cpp(14): [info] Loading from Data/SKSE/PayloadInterpreter/Config\Frenzy.ini
+PayloadInterpreter.cpp(58): [info] @APPLYSPELL|0X815|Frenzy.esp
+PayloadInterpreter.cpp(58): [info] ![2]@UNAPPLYSPELL|0X815|Frenzy.esp
+PayloadInterpreter.cpp(61): [info] mapping loaded for $FZblast
+PayloadInterpreter.cpp(58): [info] @APPLYSPELL|0X805|Frenzy.esp
+PayloadInterpreter.cpp(58): [info] ![4]@UNAPPLYSPELL|0X805|Frenzy.esp
+PayloadInterpreter.cpp(58): [info] @APPLYSPELL|0X808|Frenzy.esp
+PayloadInterpreter.cpp(58): [info] ![4]@UNAPPLYSPELL|0X808|Frenzy.esp
+PayloadInterpreter.cpp(58): [info] ![2]@APPLYSPELL|0X813|Frenzy.esp
+PayloadInterpreter.cpp(58): [info] ![5]@UNAPPLYSPELL|0X813|Frenzy.esp
+PayloadInterpreter.cpp(58): [info] @CAST|0X822|Frenzy.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(58): [info] @CAST|0X80A|Frenzy.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(58): [info] @CAST|0X824|Frenzy.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $FZrune
+PayloadInterpreter.cpp(58): [info] @CAST|0X817|Frenzy.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(58): [info] ![0.5]@CAST|0X817|Frenzy.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(58): [info] ![1]@CAST|0X817|Frenzy.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(58): [info] @APPLYSPELL|0X81A|Frenzy.esp
+PayloadInterpreter.cpp(58): [info] ![1.8]@UNAPPLYSPELL|0X81A|Frenzy.esp
+PayloadInterpreter.cpp(61): [info] mapping loaded for $FZshout
+PayloadInterpreter.cpp(14): [info] Loading from Data/SKSE/PayloadInterpreter/Config\fs.ini
+PayloadInterpreter.cpp(58): [info] @CAST|0X80B|FlamingStrike.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(58): [info] ![0.2]@CAST|0X806|FlamingStrike.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(58): [info] ![0.4]@CAST|0XB900|EldenSkyrim.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $FlamingStrike
+PayloadInterpreter.cpp(58): [info] @CAST|0X80D|FlamingStrike.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $FlamingStrikeSword
+PayloadInterpreter.cpp(14): [info] Loading from Data/SKSE/PayloadInterpreter/Config\gujian3.ini
+PayloadInterpreter.cpp(58): [info] @CAST|0x0038B9|OLDFIRE_GUJIAN3.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $gujian1
+PayloadInterpreter.cpp(58): [info] @CAST|0x017122|Skyrim.esm|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $wuaiydoup11
+PayloadInterpreter.cpp(14): [info] Loading from Data/SKSE/PayloadInterpreter/Config\Penetrator.ini
+PayloadInterpreter.cpp(58): [info] @CAST|0X000D8C|ThePenetratorBoss.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $Drive
+PayloadInterpreter.cpp(58): [info] @CAST|0X000D80|ThePenetratorBoss.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $Slash_Right
+PayloadInterpreter.cpp(58): [info] @CAST|0X000D81|ThePenetratorBoss.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $Slash_Left
+PayloadInterpreter.cpp(58): [info] @CAST|0X000D87|ThePenetratorBoss.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $Thrust_Forw
+PayloadInterpreter.cpp(14): [info] Loading from Data/SKSE/PayloadInterpreter/Config\Smooth idle.ini
+PayloadInterpreter.cpp(58): [info] @CAST|0X814|Smooth Animation.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $ChargeD_1
+PayloadInterpreter.cpp(58): [info] @CAST|0X81A|Smooth Animation.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $ChargeD_2
+PayloadInterpreter.cpp(58): [info] @CAST|0XDFA|Nolvus Awakening Stances Perk System.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $ChargeD_3
+PayloadInterpreter.cpp(58): [info] @CAST|0X813|Smooth Animation.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $ChargeE_1
+PayloadInterpreter.cpp(58): [info] @CAST|0X81B|Smooth Animation.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $ChargeE_2
+PayloadInterpreter.cpp(58): [info] @CAST|0X81D|Smooth Animation.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $ChargeE_3
+PayloadInterpreter.cpp(58): [info] @CAST|0X810|Smooth Animation.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $DustE_1
+PayloadInterpreter.cpp(58): [info] @CAST|0X80A|Smooth Animation.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $Phase_1
+PayloadInterpreter.cpp(58): [info] @CAST|0X81C|Smooth Animation.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $S_ragdoll
+PayloadInterpreter.cpp(58): [info] @CAST|0X801|Smooth Animation.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $Smooth_C
+PayloadInterpreter.cpp(58): [info] @CAST|0X807|Smooth Animation.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $Smooth_N
+PayloadInterpreter.cpp(58): [info] @CAST|0X805|Smooth Animation.esp|1|1|0|0|0|0|0|0|0
+PayloadInterpreter.cpp(61): [info] mapping loaded for $Smooth_P
+PayloadInterpreter.cpp(20): [info] Predefined instructions loaded.
+hooks.h(12): [info] Installing animation event hook...
+hooks.h(18): [info] ...animation event hook installed

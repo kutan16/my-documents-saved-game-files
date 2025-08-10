@@ -1,2 +1,182 @@
-[03:04:17:100] po3_SeasonsOfSkyrim v1.8.6.1
-[03:04:17:100] Game version : 1-6-1170-0
+[14:13:16:390] po3_SeasonsOfSkyrim v1.7.5
+[14:13:16:390] Game version : 1-5-97-0
+[14:13:18:250] *********DEPENDENCIES*********
+[14:13:18:250] powerofthree's Tweaks (po3_tweaks) detected : true
+[14:13:18:250] ***********SETTINGS***********
+[14:13:18:250] season type is 5
+[14:13:18:250] Winter
+[14:13:18:260]  Terrain LOD files found
+[14:13:18:264]  Object LOD files found
+[14:13:18:264]  Tree LOD files found
+[14:13:18:264] Spring
+[14:13:18:559]  Terrain LOD files not found! Default LOD will be used instead
+[14:13:18:678]  Object LOD files not found! Default LOD will be used instead
+[14:13:18:678]  Tree LOD files not found! Default LOD will be used instead
+[14:13:18:678] Summer
+[14:13:18:971]  Terrain LOD files not found! Default LOD will be used instead
+[14:13:19:092]  Object LOD files not found! Default LOD will be used instead
+[14:13:19:092]  Tree LOD files not found! Default LOD will be used instead
+[14:13:19:092] Autumn
+[14:13:19:102]  Terrain LOD files found
+[14:13:19:105]  Object LOD files found
+[14:13:19:105]  Tree LOD files found
+[14:13:19:106] ************HOOKS*************
+[14:13:19:106] Installed interior-exterior detection
+[14:13:19:106] Installed form swapper
+[14:13:19:106] Installed dynamic snow manager
+[14:13:19:431] ************MERGES************
+[14:13:19:431] Failed to dispatch message to MergeMapper
+[14:13:19:431] MergeMapper not detected
+[14:14:39:228] **********FUNCTIONS***********
+[14:14:39:228] Registered season functions
+[14:15:47:612] ************CONFIG************
+[14:15:47:616] 2 matching inis found
+[14:15:47:616] 	INI : Data\Seasons\Seasons of Nolvus_NOSNOW.ini
+[14:15:47:616] 	Reading [Blacklist]
+[14:15:47:616] 		failed to process 0xac46~ElysiumEstate.esp [0] (formID not found)
+[14:15:47:616] 		failed to process 0x3e0d0~The Great Town of Ivarstead.esp [0] (formID not found)
+[14:15:47:617] 		failed to process 0x3e0cf~The Great Town of Ivarstead.esp [0] (formID not found)
+[14:15:47:617] 		failed to process 0x3e0d2~The Great Town of Ivarstead.esp [0] (formID not found)
+[14:15:47:617] 		failed to process 0x3e0d3~The Great Town of Ivarstead.esp [0] (formID not found)
+[14:15:47:617] 		failed to process 0x3e0d4~The Great Town of Ivarstead.esp [0] (formID not found)
+[14:15:47:617] 		failed to process 0x806~Dynamic Things Alternative.esp [0] (formID not found)
+[14:15:47:617] 	INI : Data\Seasons\SoS_Seasonspatch_NOSNOW.ini
+[14:15:47:617] 	Reading [Blacklist]
+[14:15:47:618] 		failed to process 0x054CA9~Skyrim.esm` [0] (formID not found)
+[14:15:47:618] Loading main WIN formswap settings
+[14:15:47:625] 	[LandTextures] read 815 variants
+[14:15:47:630] 	[Activators] read 455 variants
+[14:15:47:630] 	[Furniture] read 68 variants
+[14:15:47:630] 	[MovableStatics] read 83 variants
+[14:15:47:631] 	[Statics] read 8116 variants
+[14:15:47:670] 	[Trees] skipping...
+[14:15:47:675] 25 matching inis found
+[14:15:47:675] 	INI : Data\Seasons\BentPines_SOS_WIN.ini
+[14:15:47:675] 	[Trees] read 1 variants
+[14:15:47:675] 	INI : Data\Seasons\DynDOLOD_WIN.ini
+[14:15:47:675] 	[MovableStatics] read 29 variants
+[14:15:47:675] 	[Statics] read 497 variants
+[14:15:47:678] 	[Trees] read 47 variants
+[14:15:47:678] 	INI : Data\Seasons\Gildergreen is Really Thicc_WIN.ini
+[14:15:47:678] 	[Trees] read 2 variants
+[14:15:47:678] 		failed to process WRTempleTree02|WRTempleTree02Winter [0|0] (BASE formID not found)
+[14:15:47:678] 		failed to process WRTempleTreeSapling01|WRTempleTreeSapling01Winter [0|0] (BASE formID not found)
+[14:15:47:678] 	INI : Data\Seasons\Nolvus Awakening Markarth Seasons Patch_WIN.ini
+[14:15:47:678] 	[Statics] read 2 variants
+[14:15:47:678] 	[Trees] read 3 variants
+[14:15:47:678] 	INI : Data\Seasons\Nolvus Awakening Riften Seasons Patch_WIN.ini
+[14:15:47:679] 	[Statics] read 7 variants
+[14:15:47:679] 	INI : Data\Seasons\Nolvus Awakening Seasonal Grass Mashup - Fall Forest_WIN.ini
+[14:15:47:679] 	[LandTextures] read 5 variants
+[14:15:47:679] 	INI : Data\Seasons\Nolvus Awakening Seasonal Grass Mashup - Pine Forest_WIN.ini
+[14:15:47:679] 	[LandTextures] read 7 variants
+[14:15:47:679] 	INI : Data\Seasons\Nolvus Awakening Seasonal Grass Mashup - Reach_WIN.ini
+[14:15:47:679] 	[LandTextures] read 6 variants
+[14:15:47:680] 	INI : Data\Seasons\Nolvus Awakening Seasonal Grass Mashup - Tundra_WIN.ini
+[14:15:47:680] 	[LandTextures] read 7 variants
+[14:15:47:680] 	INI : Data\Seasons\Nolvus Awakening Seasonal Plant Mashup_WIN.ini
+[14:15:47:680] 	[Statics] read 26 variants
+[14:15:47:681] 	[Trees] read 55 variants
+[14:15:47:683] 	INI : Data\Seasons\Nolvus Awakening Seasonal Tree Mashup - Fall Forest_WIN.ini
+[14:15:47:683] 	[Trees] read 30 variants
+[14:15:47:684] 	INI : Data\Seasons\Nolvus Awakening Seasonal Tree Mashup - Pine Forest_WIN.ini
+[14:15:47:685] 	[Trees] read 18 variants
+[14:15:47:686] 	INI : Data\Seasons\Nolvus Awakening Seasonal Tree Mashup - Reach_WIN.ini
+[14:15:47:686] 	[Trees] read 4 variants
+[14:15:47:686] 	INI : Data\Seasons\Nolvus Awakening Solitude Seasons Patch_WIN.ini
+[14:15:47:686] 	[Statics] read 21 variants
+[14:15:47:686] 		failed to process 0x977~SR Exterior Cities.esp|0x803~Nolvus Awakening Solitude Seasons Patch.esp [0|FED3F803] (BASE formID not found)
+[14:15:47:687] 	INI : Data\Seasons\Nolvus Awakening Whiterun Seasons Patch_WIN.ini
+[14:15:47:687] 	[Statics] read 28 variants
+[14:15:47:688] 	INI : Data\Seasons\Nolvus Northern Roads Patch_WIN.ini
+[14:15:47:688] 	[LandTextures] read 15 variants
+[14:15:47:689] 	INI : Data\Seasons\NorthernRoads_WIN.ini
+[14:15:47:689] 	[LandTextures] read 17 variants
+[14:15:47:690] 	INI : Data\Seasons\Seasons of Nolvus_WIN.ini
+[14:15:47:690] 	[Statics] read 5 variants
+[14:15:47:690] 	INI : Data\Seasons\ShrubberySymphony_WIN.ini
+[14:15:47:690] 	[Trees] read 56 variants
+[14:15:47:690] 	INI : Data\Seasons\SoS_Seasonspatch_Markarth_WIN.ini
+[14:15:47:690] 	[Statics] read 203 variants
+[14:15:47:691] 	INI : Data\Seasons\SoS_Seasonspatch_Riften_WIN.ini
+[14:15:47:691] 	[Statics] read 137 variants
+[14:15:47:692] 	INI : Data\Seasons\SoS_Seasonspatch_Solitude_WIN.ini
+[14:15:47:692] 	[Statics] read 127 variants
+[14:15:47:693] 	INI : Data\Seasons\SoS_Seasonspatch_WIN.ini
+[14:15:47:693] 	[Statics] read 244 variants
+[14:15:47:694] 		failed to process 0x03925E~Skyrim|0x0B6266~Skyrim.esm [0|B6266] (BASE formID not found)
+[14:15:47:694] 	INI : Data\Seasons\Unique Flowers & Plants_WIN.ini
+[14:15:47:694] 	[Trees] read 23 variants
+[14:15:47:694] 	INI : Data\Seasons\xASHLEY - Seasonal Witcher in Whiterun_WIN.ini
+[14:15:47:694] 	[Trees] read 9 variants
+[14:15:47:694] 		failed to process HedgeBox|HedgeBowWIN [FE3B1804|0] (SWAP formID not found)
+[14:15:47:697] 6 matching inis found
+[14:15:47:697] 	INI : Data\Seasons\Gildergreen is Really Thicc_SPR.ini
+[14:15:47:697] 	[Trees] read 2 variants
+[14:15:47:697] 		failed to process WRTempleTree02|WRTempleTree02Spring [0|0] (BASE formID not found)
+[14:15:47:697] 		failed to process WRTempleTreeSapling01|WRTempleTreeSapling01Spring [0|0] (BASE formID not found)
+[14:15:47:697] 	INI : Data\Seasons\Nolvus Awakening Seasonal Grass Mashup - Fall Forest_SPR.ini
+[14:15:47:698] 	[LandTextures] read 5 variants
+[14:15:47:698] 	INI : Data\Seasons\Nolvus Awakening Seasonal Grass Mashup - Pine Forest_SPR.ini
+[14:15:47:698] 	[LandTextures] read 7 variants
+[14:15:47:698] 	INI : Data\Seasons\Nolvus Awakening Seasonal Grass Mashup - Reach_SPR.ini
+[14:15:47:698] 	[LandTextures] read 6 variants
+[14:15:47:699] 	INI : Data\Seasons\Nolvus Awakening Seasonal Grass Mashup - Tundra_SPR.ini
+[14:15:47:699] 	[LandTextures] read 7 variants
+[14:15:47:699] 	INI : Data\Seasons\ShrubberySymphony_SPR.ini
+[14:15:47:699] 	[Trees] read 133 variants
+[14:15:47:704] 6 matching inis found
+[14:15:47:704] 	INI : Data\Seasons\Gildergreen is Really Thicc_SUM.ini
+[14:15:47:704] 	[Trees] read 2 variants
+[14:15:47:704] 		failed to process WRTempleTree02|WRTempleTree02Summer [0|0] (BASE formID not found)
+[14:15:47:704] 		failed to process WRTempleTreeSapling01|WRTempleTreeSapling01Summer [0|0] (BASE formID not found)
+[14:15:47:704] 	INI : Data\Seasons\Nolvus Awakening Seasonal Grass Mashup - Fall Forest_SUM.ini
+[14:15:47:704] 	[LandTextures] read 5 variants
+[14:15:47:704] 	INI : Data\Seasons\Nolvus Awakening Seasonal Grass Mashup - Pine Forest_SUM.ini
+[14:15:47:704] 	[LandTextures] read 7 variants
+[14:15:47:705] 	INI : Data\Seasons\Nolvus Awakening Seasonal Grass Mashup - Reach_SUM.ini
+[14:15:47:705] 	[LandTextures] read 6 variants
+[14:15:47:705] 	INI : Data\Seasons\Nolvus Awakening Seasonal Grass Mashup - Tundra_SUM.ini
+[14:15:47:705] 	[LandTextures] read 7 variants
+[14:15:47:705] 	INI : Data\Seasons\ShrubberySymphony_SUM.ini
+[14:15:47:705] 	[Trees] read 133 variants
+[14:15:47:709] 14 matching inis found
+[14:15:47:709] 	INI : Data\Seasons\DynDOLOD_AUT.ini
+[14:15:47:709] 	[Statics] read 4 variants
+[14:15:47:709] 	[Trees] read 33 variants
+[14:15:47:709] 	INI : Data\Seasons\Gildergreen is Really Thicc_AUT.ini
+[14:15:47:709] 	[Trees] read 2 variants
+[14:15:47:709] 		failed to process WRTempleTree02|WRTempleTree02Autumn [0|0] (BASE formID not found)
+[14:15:47:709] 		failed to process WRTempleTreeSapling01|WRTempleTreeSapling01Autumn [0|0] (BASE formID not found)
+[14:15:47:709] 	INI : Data\Seasons\Nolvus Awakening Seasonal Grass Mashup - Fall Forest_AUT.ini
+[14:15:47:709] 	[LandTextures] read 5 variants
+[14:15:47:710] 	INI : Data\Seasons\Nolvus Awakening Seasonal Grass Mashup - Pine Forest_AUT.ini
+[14:15:47:710] 	[LandTextures] read 7 variants
+[14:15:47:710] 	INI : Data\Seasons\Nolvus Awakening Seasonal Grass Mashup - Reach_AUT.ini
+[14:15:47:710] 	[LandTextures] read 6 variants
+[14:15:47:710] 	INI : Data\Seasons\Nolvus Awakening Seasonal Grass Mashup - Tundra_AUT.ini
+[14:15:47:710] 	[LandTextures] read 7 variants
+[14:15:47:711] 	INI : Data\Seasons\Nolvus Awakening Seasonal Ground_AUT.ini
+[14:15:47:711] 	[LandTextures] read 4 variants
+[14:15:47:711] 	[Statics] read 91 variants
+[14:15:47:711] 	INI : Data\Seasons\Nolvus Awakening Seasonal Plant Mashup_AUT.ini
+[14:15:47:711] 	[Statics] read 32 variants
+[14:15:47:712] 	[Trees] read 24 variants
+[14:15:47:712] 	INI : Data\Seasons\Nolvus Awakening Seasonal Tree Mashup - Fall Forest_AUT.ini
+[14:15:47:713] 	[Trees] read 30 variants
+[14:15:47:714] 	INI : Data\Seasons\Nolvus Awakening Seasonal Tree Mashup - Pine Forest_AUT.ini
+[14:15:47:715] 	[Trees] read 18 variants
+[14:15:47:716] 	INI : Data\Seasons\Nolvus Awakening Whiterun Seasons Patch_AUT.ini
+[14:15:47:716] 	[Statics] read 12 variants
+[14:15:47:716] 	INI : Data\Seasons\ShrubberySymphony_AUT.ini
+[14:15:47:716] 	[Trees] read 133 variants
+[14:15:47:717] 		failed to process Silver Lady Fern Cluster06|Silver Lady Fern Cluster06_autumn [FE0FC896|0] (SWAP formID not found)
+[14:15:47:717] 	INI : Data\Seasons\Unique Flowers & Plants_AUT.ini
+[14:15:47:717] 	[Trees] read 16 variants
+[14:15:47:717] 	INI : Data\Seasons\xASHLEY - Seasonal Witcher in Whiterun_AUT.ini
+[14:15:47:717] 	[Trees] read 9 variants
+[14:15:47:717] 		failed to process HedgeBox|HedgeBowAUT [FE3B1804|0] (SWAP formID not found)
+[14:15:47:717] ************EVENTS************
+[14:15:47:717] Registered struct RE::TESActivateEvent
+[14:15:47:717] ************SAVES*************
+[14:15:47:717] Save directory is C:\Users\Kutan\Documents\My Games\Skyrim Special Edition\__MO_Saves\

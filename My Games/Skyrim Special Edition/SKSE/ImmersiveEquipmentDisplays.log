@@ -1,4 +1,4 @@
-Immersive Equipment Displays 1.7.4 [28a13212-master] [runtime 1.6.1170.0]
+Immersive Equipment Displays 1.7.4 [3f014c3e-master] [runtime 1.5.97.0]
 boost 1.83.0, JsonCpp 1.9.5, ImGui 1.90.1 WIP (19002)
 Querying SKSE interfaces..
 [Init] Loading INI..
@@ -12,42 +12,75 @@ Querying SKSE interfaces..
 [Init] Installing engine extensions..
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_RemoveAllBipedParts(void)] Writing..
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_RemoveAllBipedParts(void)] OK
-[EngineExtensions] [IED::EngineExtensions::Install_REFR_GarbageCollector] Installed @0x7FF7E7C4B19A
-[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_Resurrect(void)] Detoured Character::Resurrect @0x7FF7E8EB5558:0xAB
-[EngineExtensions] [IED::EngineExtensions::Install_Actor_Resurrect] Installed reanimate hook @0x7FF7E7CD6E3F
-[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_3DEvents(void)] Detoured Actor::Release3D @0x7FF7E8EAD870:0x6B
-[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_3DEvents(void)] Detoured Character::Release3D @0x7FF7E8EB5558:0x6B
-[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_3DEvents(void)] Detoured PlayerCharacter::Release3D @0x7FF7E8EBB9C0:0x6B
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Actor>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::SetBaseActorValue @0x7FF7E8EAE2F0:0x4
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Actor>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::ModActorValue @0x7FF7E8EAE2F0:0x5
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Actor>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::RestoreActorValue @0x7FF7E8EAE2F0:0x6
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Character>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::SetBaseActorValue @0x7FF7E8EB5FE8:0x4
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Character>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::ModActorValue @0x7FF7E8EB5FE8:0x5
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Character>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::RestoreActorValue @0x7FF7E8EB5FE8:0x6
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class PlayerCharacter>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::SetBaseActorValue @0x7FF7E8EBC478:0x4
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class PlayerCharacter>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::ModActorValue @0x7FF7E8EBC478:0x5
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class PlayerCharacter>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::RestoreActorValue @0x7FF7E8EBC478:0x6
-[EngineExtensions] [IED::EngineExtensions::Install_Armor_Update] Installed @0x7FF7E79CBC0F
+[EngineExtensions] [IED::EngineExtensions::Install_REFR_GarbageCollector] Installed @0x7FF652C3A0C5
+[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_Resurrect(void)] Detoured Character::Resurrect @0x7FF653CEDA40:0xAB
+[EngineExtensions] [IED::EngineExtensions::Install_Actor_Resurrect] Installed reanimate hook @0x7FF652CC4C2F
+[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_3DEvents(void)] Detoured Actor::Release3D @0x7FF653CE5640:0x6B
+[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_3DEvents(void)] Detoured Character::Release3D @0x7FF653CEDA40:0x6B
+[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_3DEvents(void)] Detoured PlayerCharacter::Release3D @0x7FF653CF35E0:0x6B
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Actor>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::SetBaseActorValue @0x7FF653CE60C0:0x4
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Actor>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::ModActorValue @0x7FF653CE60C0:0x5
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Actor>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::RestoreActorValue @0x7FF653CE60C0:0x6
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Character>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::SetBaseActorValue @0x7FF653CEE4D0:0x4
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Character>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::ModActorValue @0x7FF653CEE4D0:0x5
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Character>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::RestoreActorValue @0x7FF653CEE4D0:0x6
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class PlayerCharacter>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::SetBaseActorValue @0x7FF653CF4098:0x4
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class PlayerCharacter>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::ModActorValue @0x7FF653CF4098:0x5
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class PlayerCharacter>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::RestoreActorValue @0x7FF653CF4098:0x6
+[EngineExtensions] [IED::EngineExtensions::Install_Armor_Update] Installed @0x7FF6529F4301
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_CreateWeaponNodes(void)] Writing..
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_CreateWeaponNodes(void)] OK
-[EngineExtensions] [IED::EngineExtensions::Install_PostLoad3DHooks] Installed reference clone 3D hook @0x7FF7E78F3B41
-[EngineExtensions] [IED::EngineExtensions::Install_PostLoad3DHooks] Installed player load 3D hook @0x7FF7E7D44A8D
+[EngineExtensions] [IED::EngineExtensions::Install_PostLoad3DHooks] Installed reference clone 3D hook @0x7FF65291FD62
+[EngineExtensions] [IED::EngineExtensions::Install_PostLoad3DHooks] Installed player load 3D hook @0x7FF652D3015E
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_SetWeapAdjAnimVar(void) const] Writing..
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_SetWeapAdjAnimVar(void) const] OK
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_WeaponAdjustDisable(void)] Writing..
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_WeaponAdjustDisable(void)] OK
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_UpdateReferenceBehaviorGraphs(void) const] Writing..
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_UpdateReferenceBehaviorGraphs(void) const] OK
-[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF7E78E2339 [TESObjectCELL_unk_178]
-[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF7E7D5C7C5 [PlayerCharacter_unk_205]
-[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF7E7D5245C [PlayerCharacter_RefreshLights]
-[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF7E7C7834B [Actor_Update]
-[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Lighting(void)] Detoured PlayerCharacter::UpdateRefLight @0x7FF7E8EBB9C0:0x55
+[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF65290EA99 [TESObjectCELL_unk_178]
+[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF652D475A5 [PlayerCharacter_unk_205]
+[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF652D3DADC [PlayerCharacter_RefreshLights]
+[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF652C6761B [Actor_Update]
+[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Lighting(void)] Detoured PlayerCharacter::UpdateRefLight @0x7FF653CF35E0:0x55
 [Init] Initializing render driver..
 [Init] Installing priority input hook..
 [Init] Initializing UI driver..
 [Init] Graphical user interface enabled
 [Init] Initializing controller input handlers..
 [Init] Early initialization done
-Loaded, trampolines: branch:[230/336] codegen:[136/384] IAL:[14 ms]
+Loaded, trampolines: branch:[236/336] codegen:[130/384] IAL:[27 ms]
 [Controller] Found SDS interface [SimpleDualSheath 1.5.7, interface ver: 2]
+[Render] IED::Drivers::Render::InitializeD3D: Sending event
+[StyleProfileManager] Loaded 14 profile(s)
+[UI] ImGui initialized
+[NodeOverrideData] IED::NodeOverrideData::LoadEntryList: loaded 'Data\SKSE\Plugins\IED\SkeletonExtensions\ExtraGearNodes\00200_VanillaGear.json' [10]
+[NodeOverrideData] IED::NodeOverrideData::LoadEntryList: loaded 'Data\SKSE\Plugins\IED\SkeletonExtensions\ExtraGearNodes\00203_VanillaGearExtra.json' [32]
+[NodeOverrideData] IED::NodeOverrideData::LoadEntryList: loaded 'Data\SKSE\Plugins\IED\SkeletonExtensions\ExtraGearNodes\00205_2HLeft.json' [2]
+[NodeOverrideData] IED::NodeOverrideData::LoadEntryList: loaded 'Data\SKSE\Plugins\IED\SkeletonExtensions\ExtraGearNodes\00205_DaggerBack.json' [2]
+[NodeOverrideData] IED::NodeOverrideData::LoadEntryList: loaded 'Data\SKSE\Plugins\IED\SkeletonExtensions\ExtraGearNodes\00215_Instruments.json' [2]
+[NodeOverrideData] IED::NodeOverrideData::LoadEntryList: loaded 'Data\SKSE\Plugins\IED\SkeletonExtensions\ExtraGearNodes\00215_MiscItems.json' [3]
+[NodeOverrideData] IED::NodeOverrideData::LoadEntryList: loaded 'Data\SKSE\Plugins\IED\SkeletonExtensions\ConvertNodes2\Vanilla1p.json' [1]
+[NodeOverrideData] IED::NodeOverrideData::LoadEntryList: loaded 'Data\SKSE\Plugins\IED\SkeletonExtensions\ConvertNodes2\VanillaFemale.json' [1]
+[NodeOverrideData] IED::NodeOverrideData::LoadEntryList: loaded 'Data\SKSE\Plugins\IED\SkeletonExtensions\ConvertNodes2\VanillaMale.json' [1]
+[NodeOverrideData] IED::NodeOverrideData::LoadEntryList: loaded 'Data\SKSE\Plugins\IED\NodeMonitor\Default.json' [5]
+[NodeOverrideData] IED::NodeOverrideData::LoadEntryList: loaded 'Data\SKSE\Plugins\IED\NodeMonitor\HelmetToggle.json' [1]
+[NodeOverrideData] IED::NodeOverrideData::LoadEntryList: loaded 'Data\SKSE\Plugins\IED\NodeMonitor\ImmersiveHunting.json' [1]
+[NodeOverrideData] IED::NodeOverrideData::LoadEntryList: loaded 'Data\SKSE\Plugins\IED\AdditionalCMENodes\Default.json' [1]
+[Init] Detected language: 'ENGLISH'
+[LocalizationDataManager] Loaded string table: 'English' [1204]
+[LocalizationDataManager] 1 string table(s) loaded
+[ProfileManagerSlot] Loaded 2 profile(s)
+[ProfileManagerCustom] Loaded 11 profile(s)
+[ProfileManagerNodeOverride] Loaded 2 profile(s)
+[ProfileManagerFormFilter] Loaded 1 profile(s)
+[ProfileManagerVariables] Loaded 1 profile(s)
+[ModelDataManager] Loaded 1 profile(s)
+[ProfileManagerKeybind] Loaded 0 profile(s)
+[Init] Loaded plugins: 231, light: 3537 [3768 total]
+<ERROR> [Controller] Couldn't extract animation info: Data\Scripts\FNIS_aa2.pex: unknown error
+[Controller] ODB: background load: 1
+[Controller] OM: background clone (player/npc): 2 / 2
+[Controller] Data loaded, entered running state
+[Controller] Reverting..
+[Controller] ISerializationBase::ReadRecord [IEDD]: 4 record(s), 0.002512s [15287/279971]

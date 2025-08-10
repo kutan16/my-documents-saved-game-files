@@ -1,3 +1,87 @@
-[2025-08-03 03:04:16.574] [log] [info] [Main.cpp:44] EquipmentDurabilitySystemNG 1.0.0.0 is loading...
-[2025-08-03 03:04:16.575] [log] [debug] [Trampoline.cpp:114] Default Trampoline => 0B / 42B (00.00%)
-[2025-08-03 03:04:16.575] [log] [info] [Main.cpp:56] EquipmentDurabilitySystemNG has finished loading.
+[2025-08-10 14:13:14.816] [log] [info] [Main.cpp:44] EquipmentDurabilitySystemNG 1.0.0.0 is loading...
+[2025-08-10 14:13:14.817] [log] [debug] [Trampoline.cpp:114] Default Trampoline => 0B / 42B (00.00%)
+[2025-08-10 14:13:14.817] [log] [info] [Main.cpp:56] EquipmentDurabilitySystemNG has finished loading.
+[2025-08-10 14:15:22.962] [log] [info] [FormLoader.cpp:4] Loading all forms.
+[2025-08-10 14:15:22.962] [log] [info] [FormLoader.cpp:9] All forms are loaded.
+[2025-08-10 14:15:22.962] [log] [info] [FormLoader.cpp:12] All menu names are loaded.
+[2025-08-10 14:15:22.963] [log] [info] [Settings.cpp:430] 3 matching files found
+[2025-08-10 14:15:22.963] [log] [info] [Settings.cpp:432] Enchant File : Data/SKSE/Plugins/EquipmentDurability/Base_ENCH.ini
+[2025-08-10 14:15:22.964] [log] [info] [Settings.cpp:432] Enchant File : Data/SKSE/Plugins/EquipmentDurability/Summermyst_ENCH.ini
+[2025-08-10 14:15:22.964] [log] [info] [Settings.cpp:432] Enchant File : Data/SKSE/Plugins/EquipmentDurability/Thaumaturgy_ENCH.ini
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:758] Degradation
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:760]    disabledegradation = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:760]    increasedurability = 1
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:760]    nobreakmagicdisallowenchanting = 1
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:760]    onlyplayer = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:760]    equipmenthealththreshold = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:760]    materialmultiplier = 1
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:763] DegradationRate
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:765]    weaponsword = 2
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:765]    weaponbow = 1
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:765]    weapongreatsword = 2
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:765]    npcmultiplier = 1
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:765]    heavyarmor = 2
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:765]    weaponwaraxe = 1.5
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:765]    weapondagger = 2
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:765]    weaponhammer = 1
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:765]    weaponmace = 1
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:765]    defaultarmor = 3
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:765]    weaponbattleaxe = 1
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:765]    weaponcrossbow = 1
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:765]    lightarmor = 3
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:765]    clothing = 3
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:765]    powerattackmultiplier = 2
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:765]    followermultiplier = 1
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:768] BreakChance
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:770]    weaponsword = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:770]    weaponbow = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:770]    weapongreatsword = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:770]    npcmultiplier = 1
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:770]    heavyarmor = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:770]    weaponwaraxe = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:770]    weapondagger = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:770]    weaponhammer = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:770]    weaponmace = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:770]    defaultarmor = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:770]    weaponbattleaxe = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:770]    weaponcrossbow = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:770]    lightarmor = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:770]    clothing = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:770]    powerattackmultiplier = 2
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:770]    followermultiplier = 1
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:773] DynamicTemper
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:775]    bosstemperchance = 90
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:775]    disabledynamictemper = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:775]    temperchance = 20
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:775]    vendortemperchance = 60
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:778] DynamicEnchant
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:780]    bossenchantchance = 15
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:780]    disabledynamicenchant = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:780]    enchantchance = 1
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:780]    vendorenchantchance = 5
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:783] Widget
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:785]    disablewidget = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:785]    positionx = 2
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:785]    scale = 118
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:785]    togglekeycode = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:785]    positiony = 84
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:785]    unbreakablecolor = 16777215
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:785]    breakablecolor = 7417382
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:785]    hidewithweaponssheathed = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:785]    hidepoisonname = 1
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:785]    toggleduration = 0
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:785]    flags = 14
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:788] Material
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:789]    Loaded 62 Material Keywords
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:791] Enchantments
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:792]    Loaded 73 weapon enchantments
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:793]    Loaded 59 head enchantments
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:794]    Loaded 72 body enchantments
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:795]    Loaded 79 hand enchantments
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:796]    Loaded 59 foot enchantments
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:797]    Loaded 36 shield enchantments
+[2025-08-10 14:15:22.964] [log] [debug] [Settings.cpp:623] Vendor Containers Found: 522
+[2025-08-10 14:15:22.964] [log] [debug] [Trampoline.cpp:114] Default Trampoline => 14B / 42B (33.33%)
+[2025-08-10 14:15:22.964] [log] [info] [Events.cpp:467] Installed update hook
+[2025-08-10 14:16:43.427] [log] [debug] [DurabilityMenu.cpp:405] loaded Interface - DurabilityMenu.swf
+[2025-08-10 14:16:43.427] [log] [debug] [DurabilityMenu.cpp:541] Set root of loaded movie

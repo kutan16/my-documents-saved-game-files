@@ -1,0 +1,179 @@
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\main.cpp(86): [info] Engine Fixes v5.9.1
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\main.cpp(89): [info] loaded config successfully
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 0B / 2048B (00.00%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 14B / 2048B (00.68%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 28B / 2048B (01.37%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\main.cpp(132): [info] enabling verbose logging
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\main.cpp(137): [info] beginning pre-load patches
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\miscpatches.cpp(198): [trace] - enable achievements with mods -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\miscpatches.cpp(213): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\formcaching.cpp(106): [trace] - form caching -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\formcaching.cpp(111): [trace] sse fixes is installed and enabled. aborting form cache patch.
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\miscpatches.cpp(154): [trace] - max stdio -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\miscpatches.cpp(170): [trace] max stdio set to 8192
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\miscpatches.cpp(187): [trace] - regular quicksaves -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\miscpatches.cpp(190): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(111): [trace] - save added sound categories -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(120): [trace] hooking vtbls
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(123): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\miscpatches.cpp(299): [trace] - sleep wait time -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 57B / 2048B (02.78%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 65B / 2048B (03.17%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\miscpatches.cpp(331): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\miscpatches.cpp(27): [trace] - waterflow timer -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\miscpatches.cpp(29): [trace] hooking new timer to the game update loop...
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 118B / 2048B (05.76%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 126B / 2048B (06.15%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\miscpatches.cpp(79): [trace] replacing water flow timer with our timer...
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 166B / 2048B (08.11%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 174B / 2048B (08.50%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\miscpatches.cpp(114): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\miscpatches.cpp(341): [trace] - save game max size -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\miscpatches.cpp(347): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(18): [trace] - animation load signed crash fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(22): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(55): [trace] - archery downward aiming fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 188B / 2048B (09.18%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(59): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(115): [trace] - bethesda.net crash fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(119): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(182): [trace] - BSLightingAmbientSpecular fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(128): [trace] nopping SetupMaterial case
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(140): [trace] Adding SetupGeometry case
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 260B / 2048B (12.70%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 274B / 2048B (13.38%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(186): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\shaderfixes.cpp(61): [trace] - BSLightingShader Force Alpha Testing -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 298B / 2048B (14.55%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 306B / 2048B (14.94%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\shaderfixes.cpp(87): [trace] patched
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\shaderfixes.cpp(95): [trace] - BSLightingShader SetupGeometry - Parallax Bug -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 336B / 2048B (16.41%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 344B / 2048B (16.80%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\shaderfixes.cpp(123): [trace] patched
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(192): [trace] - BSTempEffect NiRTTI fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(198): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(246): [trace] - calendar skipping fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 358B / 2048B (17.48%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(250): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(284): [trace] - cell init fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 372B / 2048B (18.16%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(288): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1629): [trace] -- climate load patch --
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 386B / 2048B (18.85%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 400B / 2048B (19.53%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1631): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(296): [trace] - CreateArmorNode subfunction crash fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(333): [trace] Located second block at offset 0x606
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(348): [trace] Code confirmed broken; installing fix
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 435B / 2048B (21.24%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 449B / 2048B (21.92%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(383): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(416): [trace] - enchantment absorption on staff summons fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(420): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\doubleperkapply.cpp(114): [trace] - double perk apply -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\doubleperkapply.cpp(116): [trace] patching vtables
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\doubleperkapply.cpp(122): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(484): [trace] - equip shout event spam fix - 
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 498B / 2048B (24.32%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 512B / 2048B (25.00%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(488): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1394): [trace] - fix for crash in FaceGenMorphDataHead -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1485): [trace] installing fix
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 559B / 2048B (27.29%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 573B / 2048B (27.98%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1508): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(564): [trace] - broken GetKeywordItemCount condition function fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(568): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(589): [trace] - GHeap leak detection crash fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(593): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\globaltime.cpp(5): [trace] - global time fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\globaltime.cpp(20): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1537): [trace] - fix for crash in HitData::InitializeHitData -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1571): [trace] installing fix
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 608B / 2048B (29.69%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 622B / 2048B (30.37%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1580): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(619): [trace] - lip sync bug fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(623): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(744): [trace] - memory access errors fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(640): [trace] patching BSLightingShader::SetupMaterial snow material case
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 698B / 2048B (34.08%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 706B / 2048B (34.47%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(693): [trace] patching BGSShaderParticleGeometryData limit
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(701): [trace] patching BSShadowDirectionalLight use after free
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(748): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(764): [trace] - music overlap fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(768): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(787): [trace] - MO5S Typo fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(791): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(829): [trace] - null process crash fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 720B / 2048B (35.16%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 734B / 2048B (35.84%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(833): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(856): [trace] - perk fragment IsRunning fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 748B / 2048B (36.52%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(860): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(899): [trace] - removed spell book fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(903): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1331): [trace] - workaround for crash in ShadowSceneNode::unk_12BACA0 -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1381): [trace] installing fix
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 788B / 2048B (38.48%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 802B / 2048B (39.16%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1386): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(932): [trace] - slow time camera movement fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(912): [trace] patching camera movement to use frame timer that ignores slow time
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(936): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(990): [trace] - torch landscape fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 819B / 2048B (39.99%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 833B / 2048B (40.67%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(994): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1230): [trace] - vertical look sensitivity fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1077): [trace] patching third person state...
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 887B / 2048B (43.31%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 895B / 2048B (43.70%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1122): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1127): [trace] patching dragon camera state...
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 949B / 2048B (46.34%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 957B / 2048B (46.73%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1172): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1177): [trace] patching horse camera state...
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 1011B / 2048B (49.37%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\external\CommonLibSSE\src\SKSE\Trampoline.cpp(114): [info] Default Trampoline => 1019B / 2048B (49.76%)
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1222): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1234): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1316): [trace] - weapon block scaling fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1320): [trace] success
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\main.cpp(143): [info] pre-load patches complete
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(70): [trace] SNCT save: data handler not ready, not saving sound categories for this call
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(70): [trace] SNCT save: data handler not ready, not saving sound categories for this call
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\main.cpp(13): [info] beginning post-load patches
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\savescreenshots.cpp(23): [trace] - save game screenshot fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\savescreenshots.cpp(27): [trace] you have TAA enabled, those fixes are uneeded
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(78): [trace] game has loaded, setting volumes
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid 00000F72
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid 000172A1
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid 000F5FFC
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid 0001A0BD
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid 000876BD
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid 0007F80B
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid 00071E64
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid 00064451
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid 3B00AA6E
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid 3B065871
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid 3C34924A
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid 3C181700
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid 45003328
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid 45003329
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid FE0F8808
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid FE0F8809
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid FE102803
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid FE183811
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid FE2DA8D1
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid FE74A90B
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid FE74A90C
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\patches\saveaddedsoundcategories.cpp(101): [trace] setting volume for formid FE7B0985
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1059): [trace] - blocky tree reflections fix -
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\fixes\miscfixes.cpp(1007): [trace] enb detected - disabling fix, please use ENB's tree reflection fix instead
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\main.cpp(30): [trace] clearing node map
+F:\skyrim-dev\repos\EngineFixesSkyrim64\src\main.cpp(33): [info] post-load patches complete

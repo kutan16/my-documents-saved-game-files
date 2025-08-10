@@ -1,0 +1,2062 @@
+main.cpp(177): [info] ValhallaCombat v1-0-0-0
+Papyrus.cpp(24): [info] Registered papyrus functions
+main.cpp(53): [info] Initializing API fetch...
+main.cpp(17): [info] Obtained TruehudAPI - 7ff80654a878
+main.cpp(29): [info] Obtained PrecisionAPI - 7ff82c5d6890
+main.cpp(33): [info] Collision prehit callback successfully registered.
+main.cpp(56): [info] ...done
+Papyrus.cpp(16): [info] Registered ValhallaCombat MCM class
+Hooks.h(240): [info] Installing hooks...
+Hooks.h(20): [info] hook:OnGetAttackStaminaCost
+Hooks.h(53): [info] hook:OnRestoresActorValue
+Hooks.h(69): [info] hook:OnMeleeHit
+Hooks.h(169): [info] hook:OnPlayerUpdate
+Hooks.h(191): [info] hook:OnProjectileCollision
+Hooks.h(212): [info] hook:OnMeleeCollision
+Hooks.h(228): [info] hook:OnAttackAction
+Hooks.h(152): [info] hook:AttackBlockHandler_OnProcessButton
+Hooks.h(251): [info] ...done
+settings.cpp(63): [info] Initilize settings...
+Utils.h(520): [info] Loading from plugin ValhallaCombat.esp...
+Utils.h(525): [info] Loaded 4 forms from ValhallaCombat.esp
+settings.cpp(70): [info] ...done
+settings.cpp(98): [info] Read ini settings...
+Utils.h(601): [info] Loaded 17 settings from Data\MCM\Settings\ValhallaCombat.ini
+settings.cpp(177): [info] ...done
+settings.cpp(179): [info] Apply game settings...
+ValhallaCombat.hpp(82): [info] Requesting trueHUD API special bar control...
+ValhallaCombat.hpp(94): [info] ...Success
+settings.cpp(73): [info] Update globals...
+settings.cpp(91): [info] ...done
+settings.cpp(194): [info] ...done
+events.h(9): [info] Installing animation event hook...
+data.cpp(7): [info] Loading data from game...
+data.cpp(55): [info] Loading block FX...
+Utils.h(520): [info] Loading from plugin ValhallaCombat.esp...
+Utils.h(525): [info] Loaded 4 forms from ValhallaCombat.esp
+data.cpp(62): [info] ...done
+data.cpp(32): [info] Loading sound descriptors...
+Utils.h(520): [info] Loading from plugin ValhallaCombat.esp...
+Utils.h(525): [info] Loaded 8 forms from ValhallaCombat.esp
+data.cpp(43): [info] ...done
+data.cpp(47): [info] Loading perk...
+Utils.h(520): [info] Loading from plugin ValhallaCombat.esp...
+Utils.h(525): [info] Loaded 1 forms from ValhallaCombat.esp
+data.cpp(51): [info] ...done
+data.cpp(111): [info] Loading idle...
+data.cpp(105): [info] Loaded 4 idles from section Humanoid-Unarmed.
+data.cpp(105): [info] Loaded 15 idles from section Humanoid-Dagger.
+data.cpp(105): [info] Loaded 14 idles from section Humanoid-Sword.
+data.cpp(105): [info] Loaded 10 idles from section Humanoid-Axe.
+data.cpp(105): [info] Loaded 10 idles from section Humanoid-Mace.
+data.cpp(105): [info] Loaded 6 idles from section Humanoid-GreatSword.
+data.cpp(105): [info] Loaded 5 idles from section Humanoid-2HW.
+data.cpp(105): [info] Loaded 5 idles from section Humanoid-DW.
+data.cpp(105): [info] Loaded 1 idles from section Humanoid-1HM-Back.
+data.cpp(105): [info] Loaded 1 idles from section Humanoid-2HM-Back.
+data.cpp(105): [info] Loaded 1 idles from section Humanoid-2HW-Back.
+data.cpp(105): [info] Loaded 1 idles from section Humanoid-Unarmed-Back.
+data.cpp(105): [info] Loaded 4 idles from section Undead-1HM.
+data.cpp(105): [info] Loaded 1 idles from section Undead-2HM.
+data.cpp(105): [info] Loaded 1 idles from section Undead-2HW.
+data.cpp(105): [info] Loaded 3 idles from section Falmer-1HM.
+data.cpp(105): [info] Loaded 2 idles from section Falmer-2HM.
+data.cpp(105): [info] Loaded 1 idles from section Falmer-2HW.
+data.cpp(105): [info] Loaded 2 idles from section Spider-1HM.
+data.cpp(105): [info] Loaded 1 idles from section Spider-2HM.
+data.cpp(105): [info] Loaded 1 idles from section Spider-2HW.
+data.cpp(105): [info] Loaded 2 idles from section Gargoyle-1HM.
+data.cpp(105): [info] Loaded 1 idles from section Gargoyle-2HM.
+data.cpp(105): [info] Loaded 1 idles from section Gargoyle-2HW.
+data.cpp(105): [info] Loaded 3 idles from section Giant-1HM.
+data.cpp(105): [info] Loaded 1 idles from section Giant-2HM.
+data.cpp(105): [info] Loaded 1 idles from section Ginat-2HW.
+data.cpp(105): [info] Loaded 2 idles from section Bear-1HM.
+data.cpp(105): [info] Loaded 2 idles from section Bear-2HM.
+data.cpp(105): [info] Loaded 1 idles from section Bear-2HW.
+data.cpp(105): [info] Loaded 3 idles from section SabreCat-1HM.
+data.cpp(105): [info] Loaded 2 idles from section SabreCat-2HM.
+data.cpp(105): [info] Loaded 1 idles from section SabreCat-2HW.
+data.cpp(105): [info] Loaded 2 idles from section Wolf-1HM.
+data.cpp(105): [info] Loaded 2 idles from section Wolf-2HM.
+data.cpp(105): [info] Loaded 1 idles from section Wolf-2HW.
+data.cpp(105): [info] Loaded 2 idles from section Troll-1HM.
+data.cpp(105): [info] Loaded 2 idles from section Troll-2HM.
+data.cpp(105): [info] Loaded 1 idles from section Troll-2HW.
+data.cpp(105): [info] Loaded 2 idles from section Hagraven-1HM.
+data.cpp(105): [info] Loaded 1 idles from section Hagraven-2HM.
+data.cpp(105): [info] Loaded 1 idles from section Hagraven-2HW.
+data.cpp(105): [info] Loaded 2 idles from section Spriggan-1HM.
+data.cpp(105): [info] Loaded 1 idles from section Spriggan-2HM.
+data.cpp(105): [info] Loaded 1 idles from section Spriggan-2HW.
+data.cpp(105): [info] Loaded 2 idles from section Boar-1HM.
+data.cpp(105): [info] Loaded 1 idles from section Boar-2HM.
+data.cpp(105): [info] Loaded 1 idles from section Boar-2HW.
+data.cpp(105): [info] Loaded 2 idles from section Riekling-1HM.
+data.cpp(105): [info] Loaded 1 idles from section Riekling-2HM.
+data.cpp(105): [info] Loaded 1 idles from section Riekling-2HW.
+data.cpp(105): [info] Loaded 2 idles from section AshHopper-1HM.
+data.cpp(105): [info] Loaded 1 idles from section AshHopper-2HM.
+data.cpp(105): [info] Loaded 1 idles from section AshHopper-2HW.
+data.cpp(105): [info] Loaded 1 idles from section DwarvenBallista-1HM.
+data.cpp(105): [info] Loaded 1 idles from section DwarvenBallista-2HM.
+data.cpp(105): [info] Loaded 1 idles from section DwarvenBallista-2HW.
+data.cpp(105): [info] Loaded 2 idles from section SteamCenturion-1HM.
+data.cpp(105): [info] Loaded 1 idles from section SteamCenturion-2HM.
+data.cpp(105): [info] Loaded 1 idles from section SteamCenturion-2HW.
+data.cpp(105): [info] Loaded 2 idles from section ChaurusFlyer-1HM.
+data.cpp(105): [info] Loaded 1 idles from section ChaurusFlyer-2HM.
+data.cpp(105): [info] Loaded 1 idles from section ChaurusFlyer-2HW.
+data.cpp(105): [info] Loaded 1 idles from section Lurker-1HM.
+data.cpp(105): [info] Loaded 1 idles from section Lurker-2HM.
+data.cpp(105): [info] Loaded 1 idles from section Lurker-2HW.
+data.cpp(105): [info] Loaded 2 idles from section Dragon-1HM.
+data.cpp(105): [info] Loaded 1 idles from section Dragon-2HM.
+data.cpp(105): [info] Loaded 2 idles from section Dragon-2HW.
+data.cpp(207): [info] Idle loaded.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\3DNPC.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 2 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 1 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 1 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 1 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\AKSU.ini
+data.cpp(244): [info] Failed to load race. FormID: 11961532, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 12710614, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 15331879, plugin: AKSkyrimUnderground.esm
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(244): [info] Failed to load race. FormID: 6049806, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 11815907, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 7922827, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 9004949, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 6321133, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 1249894, plugin: AKSkyrimUnderground.esm
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(244): [info] Failed to load race. FormID: 6778967, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 4460389, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 3980954, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 3814283, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 13564462, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 13585248, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 13585249, plugin: AKSkyrimUnderground.esm
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(244): [info] Failed to load race. FormID: 1603466, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 813139, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 189315, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 189316, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 13543681, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 4460281, plugin: AKSkyrimUnderground.esm
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(244): [info] Failed to load race. FormID: 2523348, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 16227213, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 5862506, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 5528005, plugin: AKSkyrimUnderground.esm
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(244): [info] Failed to load race. FormID: 12710605, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 5044306, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 10670348, plugin: AKSkyrimUnderground.esm
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(244): [info] Failed to load race. FormID: 3397801, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 5044305, plugin: AKSkyrimUnderground.esm
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(244): [info] Failed to load race. FormID: 6737318, plugin: AKSkyrimUnderground.esm
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(244): [info] Failed to load race. FormID: 1000186, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 13085474, plugin: AKSkyrimUnderground.esm
+data.cpp(244): [info] Failed to load race. FormID: 15748101, plugin: AKSkyrimUnderground.esm
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\AKSUadd.ini
+data.cpp(244): [info] Failed to load race. FormID: 875408, plugin: AKSkyrimUnderground_AddOn.esp
+data.cpp(244): [info] Failed to load race. FormID: 396324, plugin: AKSkyrimUnderground_AddOn.esp
+data.cpp(244): [info] Failed to load race. FormID: 105828, plugin: AKSkyrimUnderground_AddOn.esp
+data.cpp(244): [info] Failed to load race. FormID: 230297, plugin: AKSkyrimUnderground_AddOn.esp
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(244): [info] Failed to load race. FormID: 85037, plugin: AKSkyrimUnderground_AddOn.esp
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\AKSUesp.ini
+data.cpp(244): [info] Failed to load race. FormID: 11961532, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 12710614, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 15331879, plugin: AKSkyrimUnderground.esp
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(244): [info] Failed to load race. FormID: 6049806, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 11815907, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 7922827, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 9004949, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 6321133, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 1249894, plugin: AKSkyrimUnderground.esp
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(244): [info] Failed to load race. FormID: 6778967, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 4460389, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 3980954, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 3814283, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 13564462, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 13585248, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 13585249, plugin: AKSkyrimUnderground.esp
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(244): [info] Failed to load race. FormID: 1603466, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 813139, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 189315, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 189316, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 13543681, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 4460281, plugin: AKSkyrimUnderground.esp
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(244): [info] Failed to load race. FormID: 2523348, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 16227213, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 5862506, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 5528005, plugin: AKSkyrimUnderground.esp
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(244): [info] Failed to load race. FormID: 12710605, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 5044306, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 10670348, plugin: AKSkyrimUnderground.esp
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(244): [info] Failed to load race. FormID: 3397801, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 5044305, plugin: AKSkyrimUnderground.esp
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(244): [info] Failed to load race. FormID: 6737318, plugin: AKSkyrimUnderground.esp
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(244): [info] Failed to load race. FormID: 1000186, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 13085474, plugin: AKSkyrimUnderground.esp
+data.cpp(244): [info] Failed to load race. FormID: 15748101, plugin: AKSkyrimUnderground.esp
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\Animallica.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(244): [info] Failed to load race. FormID: 166384, plugin: Animallica.esp
+data.cpp(244): [info] Failed to load race. FormID: 21965, plugin: Animallica.esp
+data.cpp(244): [info] Failed to load race. FormID: 124873, plugin: Animallica.esp
+data.cpp(244): [info] Failed to load race. FormID: 4832, plugin: Animallica.esp
+data.cpp(244): [info] Failed to load race. FormID: 3428, plugin: Animallica.esp
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(244): [info] Failed to load race. FormID: 21954, plugin: Animallica.esp
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\arnima.ini
+data.cpp(248): [info] Loaded 3 races from section Humanoid.
+data.cpp(248): [info] Loaded 2 races from section Undead.
+data.cpp(248): [info] Loaded 1 races from section Falmer.
+data.cpp(248): [info] Loaded 2 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 1 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 1 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 1 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 3 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\AttackoDaedra2.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 2 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 1 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 1 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\BeyondReach.ini
+data.cpp(248): [info] Loaded 3 races from section Humanoid.
+data.cpp(248): [info] Loaded 2 races from section Undead.
+data.cpp(248): [info] Loaded 1 races from section Falmer.
+data.cpp(248): [info] Loaded 1 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 1 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 1 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 1 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 3 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\Bruma.ini
+data.cpp(248): [info] Loaded 7 races from section Humanoid.
+data.cpp(248): [info] Loaded 11 races from section Undead.
+data.cpp(248): [info] Loaded 2 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 2 races from section Giant.
+data.cpp(248): [info] Loaded 2 races from section Bear.
+data.cpp(248): [info] Loaded 1 races from section SabreCat.
+data.cpp(248): [info] Loaded 1 races from section Wolf.
+data.cpp(248): [info] Loaded 2 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 3 races from section Spriggan.
+data.cpp(248): [info] Loaded 1 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\BSAssets.ini
+data.cpp(248): [info] Loaded 7 races from section Humanoid.
+data.cpp(248): [info] Loaded 6 races from section Undead.
+data.cpp(248): [info] Loaded 1 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 1 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 3 races from section Spriggan.
+data.cpp(248): [info] Loaded 1 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\BSHeartland.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 3 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 2 races from section Bear.
+data.cpp(248): [info] Loaded 1 races from section SabreCat.
+data.cpp(248): [info] Loaded 1 races from section Wolf.
+data.cpp(248): [info] Loaded 2 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\CarvedBrink.ini
+data.cpp(248): [info] Loaded 2 races from section Humanoid.
+data.cpp(248): [info] Loaded 2 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 1 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 1 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\ccaf001.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 1 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\ccbg003.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 1 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\ccbg018.ini
+data.cpp(248): [info] Loaded 5 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\ccbg025.ini
+data.cpp(248): [info] Loaded 2 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 2 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 2 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\ccbg036.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 1 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\ccbg040.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(244): [info] Failed to load race. FormID: 2048, plugin: ccbgssse040-advogobs.esl
+data.cpp(244): [info] Failed to load race. FormID: 2055, plugin: ccbgssse040-advogobs.esl
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\ccbg067.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 1 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\ccbg069.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 1 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\ccvs002.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 1 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\ccvs003.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 1 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 1 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\customraces.ini0
+data.cpp(237): [critical] Error: wrong formID
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\Darkend.ini
+data.cpp(248): [info] Loaded 4 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 1 races from section Gargoyle.
+data.cpp(248): [info] Loaded 2 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 1 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\DEAD.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 2 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\DragonCultDraugr.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(244): [info] Failed to load race. FormID: 2511, plugin: ogCannibalDraugr.esp
+data.cpp(244): [info] Failed to load race. FormID: 2512, plugin: ogCannibalDraugr.esp
+data.cpp(244): [info] Failed to load race. FormID: 2513, plugin: ogCannibalDraugr.esp
+data.cpp(244): [info] Failed to load race. FormID: 3693741, plugin: DragonCultDraugr.esp
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\DraugrMCO.ini
+data.cpp(248): [info] Loaded 1 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\DUI.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(244): [info] Failed to load race. FormID: 5718719, plugin: Draugr Upgrades and Improvements.esp
+data.cpp(244): [info] Failed to load race. FormID: 6299643, plugin: Draugr Upgrades and Improvements.esp
+data.cpp(244): [info] Failed to load race. FormID: 6320385, plugin: Draugr Upgrades and Improvements.esp
+data.cpp(244): [info] Failed to load race. FormID: 6320386, plugin: Draugr Upgrades and Improvements.esp
+data.cpp(244): [info] Failed to load race. FormID: 1508146, plugin: Draugr Upgrades and Improvements.esp
+data.cpp(244): [info] Failed to load race. FormID: 429425, plugin: Draugr Upgrades and Improvements.esp
+data.cpp(244): [info] Failed to load race. FormID: 429426, plugin: Draugr Upgrades and Improvements.esp
+data.cpp(244): [info] Failed to load race. FormID: 927331, plugin: Draugr Upgrades and Improvements.esp
+data.cpp(244): [info] Failed to load race. FormID: 1985207, plugin: Draugr Upgrades and Improvements.esp
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(244): [info] Failed to load race. FormID: 2337940, plugin: Draugr Upgrades and Improvements.esp
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(244): [info] Failed to load race. FormID: 2337941, plugin: Draugr Upgrades and Improvements.esp
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(244): [info] Failed to load race. FormID: 2317201, plugin: Draugr Upgrades and Improvements.esp
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(244): [info] Failed to load race. FormID: 2337942, plugin: Draugr Upgrades and Improvements.esp
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\Dwemer Spectres.ini
+data.cpp(248): [info] Loaded 1 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 1 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\Elin.ini
+data.cpp(244): [info] Failed to load race. FormID: 4096, plugin: TeraElinRace.esm
+data.cpp(244): [info] Failed to load race. FormID: 4097, plugin: TeraElinRace.esm
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\ExtendedCutSaintsSeducers .ini
+data.cpp(244): [info] Failed to load race. FormID: 10240, plugin: Skyrim Extended Cut - Saints and Seducers.esp
+data.cpp(244): [info] Failed to load race. FormID: 630065, plugin: Skyrim Extended Cut - Saints and Seducers.esp
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(244): [info] Failed to load race. FormID: 337062, plugin: Skyrim Extended Cut - Saints and Seducers.esp
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(244): [info] Failed to load race. FormID: 337093, plugin: Skyrim Extended Cut - Saints and Seducers.esp
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(244): [info] Failed to load race. FormID: 483235, plugin: Skyrim Extended Cut - Saints and Seducers.esp
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(244): [info] Failed to load race. FormID: 295455, plugin: Skyrim Extended Cut - Saints and Seducers.esp
+data.cpp(244): [info] Failed to load race. FormID: 295454, plugin: Skyrim Extended Cut - Saints and Seducers.esp
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(244): [info] Failed to load race. FormID: 1384784, plugin: Skyrim Extended Cut - Saints and Seducers.esp
+data.cpp(244): [info] Failed to load race. FormID: 1384785, plugin: Skyrim Extended Cut - Saints and Seducers.esp
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\ForgottenCity.ini
+data.cpp(248): [info] Loaded 3 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\Humanoid Dragon Priest.ini
+data.cpp(244): [info] Failed to load race. FormID: 2136, plugin: Humanoid Dragon Priest.esp
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\Inigo.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 1 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\JKJESL.ini
+data.cpp(248): [info] Loaded 10 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\Legacy of the Dragonborn.ini
+data.cpp(248): [info] Loaded 1 races from section Humanoid.
+data.cpp(248): [info] Loaded 1 races from section Undead.
+data.cpp(248): [info] Loaded 1 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 2 races from section Bear.
+data.cpp(248): [info] Loaded 1 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\Lucien.ini
+data.cpp(248): [info] Loaded 1 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 1 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 1 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MidwoodIsle.ini
+data.cpp(248): [info] Loaded 4 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 1 races from section Spider.
+data.cpp(248): [info] Loaded 2 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 1 races from section SabreCat.
+data.cpp(248): [info] Loaded 2 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 1 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 1 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 2 races from section Lurker.
+data.cpp(248): [info] Loaded 1 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\mihail.ini
+data.cpp(244): [info] Failed to load race. FormID: 2056, plugin: mihailminotaurs.esp
+data.cpp(244): [info] Failed to load race. FormID: 2103, plugin: mihailoldgod.esp
+data.cpp(244): [info] Failed to load race. FormID: 2103, plugin: mihailminotaurs.esp
+data.cpp(244): [info] Failed to load race. FormID: 2160, plugin: mihailminotaurs.esp
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(244): [info] Failed to load race. FormID: 2051, plugin: mihailundeadsnowelf.esp
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(244): [info] Failed to load race. FormID: 2053, plugin: mihailoldgod.esp
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(244): [info] Failed to load race. FormID: 2052, plugin: mihailoldgod.esp
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(244): [info] Failed to load race. FormID: 2127, plugin: mihailoldgod.esp
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\mihail1.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(244): [info] Failed to load race. FormID: 501029, plugin: mihail-Part1.esp
+data.cpp(244): [info] Failed to load race. FormID: 500969, plugin: mihail-Part1.esp
+data.cpp(244): [info] Failed to load race. FormID: 43556, plugin: mihail-Part1.esp
+data.cpp(244): [info] Failed to load race. FormID: 43541, plugin: mihail-Part1.esp
+data.cpp(244): [info] Failed to load race. FormID: 147285, plugin: mihail-Part1.esp
+data.cpp(244): [info] Failed to load race. FormID: 416859, plugin: mihail-Part1.esp
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(244): [info] Failed to load race. FormID: 500961, plugin: mihail-Part1.esp
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(244): [info] Failed to load race. FormID: 3426, plugin: mihail-Part1.esp
+data.cpp(244): [info] Failed to load race. FormID: 10347, plugin: mihail-Part1.esp
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(244): [info] Failed to load race. FormID: 43530, plugin: mihail-Part1.esp
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(244): [info] Failed to load race. FormID: 500976, plugin: mihail-Part1.esp
+data.cpp(244): [info] Failed to load race. FormID: 43526, plugin: mihail-Part1.esp
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(244): [info] Failed to load race. FormID: 147234, plugin: mihail-Part1.esp
+data.cpp(244): [info] Failed to load race. FormID: 230177, plugin: mihail-Part1.esp
+data.cpp(244): [info] Failed to load race. FormID: 292391, plugin: mihail-Part1.esp
+data.cpp(244): [info] Failed to load race. FormID: 333875, plugin: mihail-Part1.esp
+data.cpp(244): [info] Failed to load race. FormID: 396117, plugin: mihail-Part1.esp
+data.cpp(244): [info] Failed to load race. FormID: 313134, plugin: mihail-Part1.esp
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(244): [info] Failed to load race. FormID: 501041, plugin: mihail-Part1.esp
+data.cpp(244): [info] Failed to load race. FormID: 22785, plugin: mihail-Part1.esp
+data.cpp(244): [info] Failed to load race. FormID: 105777, plugin: mihail-Part1.esp
+data.cpp(244): [info] Failed to load race. FormID: 22810, plugin: mihail-Part1.esp
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(244): [info] Failed to load race. FormID: 501034, plugin: mihail-Part1.esp
+data.cpp(244): [info] Failed to load race. FormID: 354616, plugin: mihail-Part1.esp
+data.cpp(244): [info] Failed to load race. FormID: 375359, plugin: mihail-Part1.esp
+data.cpp(244): [info] Failed to load race. FormID: 12186, plugin: mihail-Part1.esp
+data.cpp(244): [info] Failed to load race. FormID: 396102, plugin: mihail-Part1.esp
+data.cpp(244): [info] Failed to load race. FormID: 501047, plugin: mihail-Part1.esp
+data.cpp(244): [info] Failed to load race. FormID: 500966, plugin: mihail-Part1.esp
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailAegisOfTheSigil.ini
+data.cpp(248): [info] Loaded 1 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailAncientNordicSentinel.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 1 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailAshGolem.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(244): [info] Failed to load race. FormID: 2048, plugin: mihailashgolem.esp
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailBanekin.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 2 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 2 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailDoomsdayOfBlades.ini
+data.cpp(248): [info] Loaded 1 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailDraugrPatrol.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(244): [info] Failed to load race. FormID: 2081, plugin: mihaildraugrpatrols.esp
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailDwarvenColossus.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 1 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailFiendrothBeetle.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 1 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailFogling.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 1 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailGiantess.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 2 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailGoblinRiekr.ini
+data.cpp(248): [info] Loaded 2 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailGravelord.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(244): [info] Failed to load race. FormID: 2048, plugin: mihailmmasithis.esp
+data.cpp(244): [info] Failed to load race. FormID: 2079, plugin: mihailmmasithis.esp
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailGrummite.ini
+data.cpp(248): [info] Loaded 1 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailHavocrelRuinach.ini
+data.cpp(248): [info] Loaded 2 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailHighMinotaur.ini
+data.cpp(248): [info] Loaded 2 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailOgreEttin.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 4 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailOgrim.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 1 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailPossessedDaedricArmors.ini
+data.cpp(248): [info] Loaded 2 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailScamp.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 2 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 2 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailSeaGiantIceTitan.ini
+data.cpp(248): [info] Loaded 1 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 3 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 1 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailStormGolem.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 1 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailVampireBeast.ini
+data.cpp(248): [info] Loaded 2 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailWaterHag.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 1 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MihailWraith.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(244): [info] Failed to load race. FormID: 2048, plugin: mihailwraiths.esp
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\Moon and Star.ini
+data.cpp(248): [info] Loaded 1 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\MoonAndStar.ini
+data.cpp(248): [info] Loaded 1 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\Mysticism.ini
+data.cpp(248): [info] Loaded 1 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\Project AHO.ini
+data.cpp(248): [info] Loaded 2 races from section Humanoid.
+data.cpp(248): [info] Loaded 3 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 7 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 1 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 1 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 1 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\Remiel.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 1 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\SaintsSeducers.ini
+data.cpp(248): [info] Loaded 2 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 2 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\SC.ini
+data.cpp(244): [info] Failed to load race. FormID: 4812, plugin: SC_TW3_Ciri.esp
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\SIC.ini
+data.cpp(244): [info] Failed to load race. FormID: 1342285, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 7389959, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 1109006, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 8076095, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 8117628, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 1271271, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(244): [info] Failed to load race. FormID: 1545143, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 1545136, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 631758, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 6837007, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 631757, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 578319, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 3729737, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 174840, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 1727839, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 672438, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 299207, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(244): [info] Failed to load race. FormID: 4948820, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 4948821, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 4948822, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 4948823, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 4948824, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 1463984, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(244): [info] Failed to load race. FormID: 6217772, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 6217773, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 6217774, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 794408, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 794406, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 8159160, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 1068434, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(244): [info] Failed to load race. FormID: 8075957, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 4338741, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 5974263, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 5994547, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(244): [info] Failed to load race. FormID: 1882050, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 3557161, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 52808, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 337179, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 337180, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 7110801, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 8138390, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(244): [info] Failed to load race. FormID: 8221410, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 8221411, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 8221413, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 8179923, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 8200660, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(244): [info] Failed to load race. FormID: 8075969, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 8096851, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 8076033, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 8076034, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(244): [info] Failed to load race. FormID: 8076037, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 8159158, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 8076035, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 12203, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(244): [info] Failed to load race. FormID: 3428, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 8138391, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 863491, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(244): [info] Failed to load race. FormID: 8076014, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(244): [info] Failed to load race. FormID: 3567343, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 711233, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 7223656, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 1943301, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 1943289, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 1943282, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(244): [info] Failed to load race. FormID: 7223665, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 7223666, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(244): [info] Failed to load race. FormID: 8075995, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 8075996, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 8075997, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(244): [info] Failed to load race. FormID: 7223667, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(244): [info] Failed to load race. FormID: 7389960, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(244): [info] Failed to load race. FormID: 7223658, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(244): [info] Failed to load race. FormID: 711240, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 3922697, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 3922694, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(244): [info] Failed to load race. FormID: 3922695, plugin: Skyrim Immersive Creatures Special Edition.esp
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\TheRestlessDead.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 12 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 1 races from section Bear.
+data.cpp(248): [info] Loaded 1 races from section SabreCat.
+data.cpp(248): [info] Loaded 1 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 1 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\Tools of Kagrenac.ini
+data.cpp(248): [info] Loaded 10 races from section Humanoid.
+data.cpp(248): [info] Loaded 2 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 1 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\Unbidden.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(244): [info] Failed to load race. FormID: 624484, plugin: Unbidden.esp
+data.cpp(244): [info] Failed to load race. FormID: 1288457, plugin: Unbidden.esp
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\Unslaad.ini
+data.cpp(248): [info] Loaded 9 races from section Humanoid.
+data.cpp(248): [info] Loaded 2 races from section Undead.
+data.cpp(248): [info] Loaded 1 races from section Falmer.
+data.cpp(248): [info] Loaded 1 races from section Spider.
+data.cpp(248): [info] Loaded 3 races from section Gargoyle.
+data.cpp(248): [info] Loaded 3 races from section Giant.
+data.cpp(248): [info] Loaded 1 races from section Bear.
+data.cpp(244): [info] Failed to load race. FormID: 15673241, plugin: Unslaad.esm
+data.cpp(248): [info] Loaded 2 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 1 races from section Troll.
+data.cpp(248): [info] Loaded 1 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 1 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 2 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\Vanilla.ini
+data.cpp(248): [info] Loaded 33 races from section Humanoid.
+data.cpp(248): [info] Loaded 11 races from section Undead.
+data.cpp(248): [info] Loaded 1 races from section Falmer.
+data.cpp(248): [info] Loaded 5 races from section Spider.
+data.cpp(248): [info] Loaded 3 races from section Gargoyle.
+data.cpp(248): [info] Loaded 3 races from section Giant.
+data.cpp(248): [info] Loaded 3 races from section Bear.
+data.cpp(248): [info] Loaded 3 races from section SabreCat.
+data.cpp(248): [info] Loaded 3 races from section Wolf.
+data.cpp(248): [info] Loaded 4 races from section Troll.
+data.cpp(248): [info] Loaded 1 races from section Hagraven.
+data.cpp(248): [info] Loaded 4 races from section Spriggan.
+data.cpp(248): [info] Loaded 2 races from section Boar.
+data.cpp(248): [info] Loaded 2 races from section Riekling.
+data.cpp(248): [info] Loaded 1 races from section AshHopper.
+data.cpp(248): [info] Loaded 2 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 1 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 1 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 1 races from section Lurker.
+data.cpp(248): [info] Loaded 6 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\Vigilant.ini
+data.cpp(248): [info] Loaded 20 races from section Humanoid.
+data.cpp(248): [info] Loaded 1 races from section Undead.
+data.cpp(248): [info] Loaded 3 races from section Falmer.
+data.cpp(248): [info] Loaded 7 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 6 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 1 races from section SabreCat.
+data.cpp(248): [info] Loaded 1 races from section Wolf.
+data.cpp(248): [info] Loaded 4 races from section Troll.
+data.cpp(248): [info] Loaded 2 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 3 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 4 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\Wheels of Lull.ini
+data.cpp(248): [info] Loaded 15 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 1 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 1 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 1 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\Wyrmstooth.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 1 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(279): [info] Reading race config from Data/SKSE/Plugins/ValhallaCombat/RaceMapping\Zombie.ini
+data.cpp(248): [info] Loaded 0 races from section Humanoid.
+data.cpp(244): [info] Failed to load race. FormID: 2048, plugin: Zombie.esp
+data.cpp(244): [info] Failed to load race. FormID: 3427, plugin: Zombie.esp
+data.cpp(244): [info] Failed to load race. FormID: 4811, plugin: Zombie.esp
+data.cpp(248): [info] Loaded 0 races from section Undead.
+data.cpp(248): [info] Loaded 0 races from section Falmer.
+data.cpp(248): [info] Loaded 0 races from section Spider.
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
+data.cpp(248): [info] Loaded 0 races from section Giant.
+data.cpp(248): [info] Loaded 0 races from section Bear.
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
+data.cpp(248): [info] Loaded 0 races from section Wolf.
+data.cpp(248): [info] Loaded 0 races from section Troll.
+data.cpp(248): [info] Loaded 0 races from section Hagraven.
+data.cpp(248): [info] Loaded 0 races from section Spriggan.
+data.cpp(248): [info] Loaded 0 races from section Boar.
+data.cpp(248): [info] Loaded 0 races from section Riekling.
+data.cpp(248): [info] Loaded 0 races from section AshHopper.
+data.cpp(248): [info] Loaded 0 races from section SteamCenturion.
+data.cpp(248): [info] Loaded 0 races from section DwarvenBallista.
+data.cpp(248): [info] Loaded 0 races from section ChaurusFlyer.
+data.cpp(248): [info] Loaded 0 races from section Lurker.
+data.cpp(248): [info] Loaded 0 races from section Dragon.
+data.cpp(288): [info] Loading difficulty settings...
+data.cpp(304): [info] ...done
+data.cpp(27): [info] Data fetched.
+blockHandler.cpp(662): [info] Initializing Elden Counter compatibility
+blockHandler.cpp(665): [info] EldenCounter.esp not found
+settings.cpp(73): [info] Update globals...
+settings.cpp(91): [info] ...done
