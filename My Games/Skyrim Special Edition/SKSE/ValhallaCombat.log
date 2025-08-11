@@ -1,8 +1,8 @@
 main.cpp(177): [info] ValhallaCombat v1-0-0-0
 Papyrus.cpp(24): [info] Registered papyrus functions
 main.cpp(53): [info] Initializing API fetch...
-main.cpp(17): [info] Obtained TruehudAPI - 7ff80654a878
-main.cpp(29): [info] Obtained PrecisionAPI - 7ff82c5d6890
+main.cpp(17): [info] Obtained TruehudAPI - 7ffa1a77a878
+main.cpp(29): [info] Obtained PrecisionAPI - 7ffa1bff6890
 main.cpp(33): [info] Collision prehit callback successfully registered.
 main.cpp(56): [info] ...done
 Papyrus.cpp(16): [info] Registered ValhallaCombat MCM class
@@ -326,12 +326,16 @@ data.cpp(248): [info] Loaded 0 races from section Humanoid.
 data.cpp(248): [info] Loaded 0 races from section Undead.
 data.cpp(248): [info] Loaded 0 races from section Falmer.
 data.cpp(248): [info] Loaded 0 races from section Spider.
-data.cpp(248): [info] Loaded 2 races from section Gargoyle.
+data.cpp(244): [info] Failed to load race. FormID: 87808, plugin: AttackoDaedra.esp
+data.cpp(244): [info] Failed to load race. FormID: 25559, plugin: AttackoDaedra.esp
+data.cpp(248): [info] Loaded 0 races from section Gargoyle.
 data.cpp(248): [info] Loaded 0 races from section Giant.
 data.cpp(248): [info] Loaded 0 races from section Bear.
-data.cpp(248): [info] Loaded 1 races from section SabreCat.
+data.cpp(244): [info] Failed to load race. FormID: 108562, plugin: AttackoDaedra.esp
+data.cpp(248): [info] Loaded 0 races from section SabreCat.
 data.cpp(248): [info] Loaded 0 races from section Wolf.
-data.cpp(248): [info] Loaded 1 races from section Troll.
+data.cpp(244): [info] Failed to load race. FormID: 108556, plugin: AttackoDaedra.esp
+data.cpp(248): [info] Loaded 0 races from section Troll.
 data.cpp(248): [info] Loaded 0 races from section Hagraven.
 data.cpp(248): [info] Loaded 0 races from section Spriggan.
 data.cpp(248): [info] Loaded 0 races from section Boar.
