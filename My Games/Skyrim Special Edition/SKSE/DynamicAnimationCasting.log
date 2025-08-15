@@ -1,0 +1,50 @@
+[2025-08-15 22:41:08.919] [Global] [info] [37028] [main.cpp:204] DynamicAnimationCasting 3.2.3.0 is loading...
+[2025-08-15 22:41:08.920] [Global] [info] [37028] [main.cpp:213] DynamicAnimationCasting has finished loading.
+[2025-08-15 22:43:58.466] [Global] [info] [43904] [Framework.cpp:278] Injecting Graph Event Sink Hooks
+[2025-08-15 22:43:58.467] [Global] [info] [43904] [Framework.cpp:257] Reading all .tomls in file...
+[2025-08-15 22:43:58.468] [Global] [info] [43904] [Framework.cpp:8] Reading Data/SKSE/Plugins/_DynamicAnimationCasting\DynamicSprint.toml...
+[2025-08-15 22:43:58.474] [Global] [info] [43904] [Framework.cpp:116] Start : Data/SKSE/Plugins/_DynamicAnimationCasting\DynamicSprint.toml
+[2025-08-15 22:43:58.474] [Global] [info] [43904] [Framework.cpp:129] - Cast Trigger [sSprintStart]
+[2025-08-15 22:43:58.474] [Global] [info] [43904] [Framework.cpp:223] Spell Sprint_Start_Start
+[2025-08-15 22:43:58.474] [Global] [info] [43904] [Framework.cpp:129] - Cast Trigger [sSprintOff]
+[2025-08-15 22:43:58.474] [Global] [info] [43904] [Framework.cpp:223] Spell Per_Sprint_off
+[2025-08-15 22:43:58.474] [Global] [info] [43904] [Framework.cpp:244] Complete : Data/SKSE/Plugins/_DynamicAnimationCasting\DynamicSprint.toml
+
+[2025-08-15 22:43:58.475] [Global] [info] [43904] [Framework.cpp:8] Reading Data/SKSE/Plugins/_DynamicAnimationCasting\FZmx - DAC - Vokriinator.toml...
+[2025-08-15 22:43:58.478] [Global] [info] [43904] [Framework.cpp:116] Start : Data/SKSE/Plugins/_DynamicAnimationCasting\FZmx - DAC - Vokriinator.toml
+[2025-08-15 22:43:58.479] [Global] [info] [43904] [Framework.cpp:129] - Cast Trigger [HitFrame]
+[2025-08-15 22:43:58.479] [Global] [info] [43904] [Framework.cpp:223] Spell Disarm
+[2025-08-15 22:43:58.479] [Global] [info] [43904] [Framework.cpp:223] Spell Spectral Warrior
+[2025-08-15 22:43:58.479] [Global] [info] [43904] [Framework.cpp:223] Spell Counterattack
+[2025-08-15 22:43:58.479] [Global] [info] [43904] [Framework.cpp:223] Spell Riposte
+[2025-08-15 22:43:58.479] [Global] [info] [43904] [Framework.cpp:223] Spell Retaliation
+[2025-08-15 22:43:58.479] [Global] [info] [43904] [Framework.cpp:129] - Cast Trigger [HitFrame]
+[2025-08-15 22:43:58.479] [Global] [error] [43904] [Framework.cpp:229] Invalid Spell FZmx - DAC - SPERG.esp
+[2025-08-15 22:43:58.479] [Global] [warning] [43904] [Framework.cpp:240] No spells on the trigger, ignored
+[2025-08-15 22:43:58.479] [Global] [info] [43904] [Framework.cpp:244] Complete : Data/SKSE/Plugins/_DynamicAnimationCasting\FZmx - DAC - Vokriinator.toml
+
+[2025-08-15 22:43:58.479] [Global] [info] [43904] [Framework.cpp:8] Reading Data/SKSE/Plugins/_DynamicAnimationCasting\SpellSword.toml...
+[2025-08-15 22:43:58.483] [Global] [info] [43904] [Framework.cpp:116] Start : Data/SKSE/Plugins/_DynamicAnimationCasting\SpellSword.toml
+[2025-08-15 22:43:58.483] [Global] [info] [43904] [Framework.cpp:129] - Cast Trigger [EquipIdle]
+[2025-08-15 22:43:58.483] [Global] [info] [43904] [Framework.cpp:223] Spell Equip_Idle
+[2025-08-15 22:43:58.483] [Global] [info] [43904] [Framework.cpp:129] - Cast Trigger [IdleEnd]
+[2025-08-15 22:43:58.483] [Global] [info] [43904] [Framework.cpp:223] Spell Idle_End
+[2025-08-15 22:43:58.483] [Global] [info] [43904] [Framework.cpp:129] - Cast Trigger [IdleNon]
+[2025-08-15 22:43:58.483] [Global] [info] [43904] [Framework.cpp:223] Spell Idle_Non
+[2025-08-15 22:43:58.483] [Global] [info] [43904] [Framework.cpp:244] Complete : Data/SKSE/Plugins/_DynamicAnimationCasting\SpellSword.toml
+
+[2025-08-15 22:43:58.483] [Global] [info] [43904] [Framework.cpp:8] Reading Data/SKSE/Plugins/_DynamicAnimationCasting\Taunt Your Enemies.toml...
+[2025-08-15 22:43:58.487] [Global] [info] [43904] [Framework.cpp:116] Start : Data/SKSE/Plugins/_DynamicAnimationCasting\Taunt Your Enemies.toml
+[2025-08-15 22:43:58.488] [Global] [info] [43904] [Framework.cpp:129] - Cast Trigger [SoundPlay.NPCHumanCombatIdleA]
+[2025-08-15 22:43:58.488] [Global] [info] [43904] [Framework.cpp:223] Spell Taunt Enemies
+[2025-08-15 22:43:58.488] [Global] [info] [43904] [Framework.cpp:129] - Cast Trigger [SoundPlay.NPCHumanCombatIdleB]
+[2025-08-15 22:43:58.488] [Global] [info] [43904] [Framework.cpp:223] Spell Taunt Enemies
+[2025-08-15 22:43:58.488] [Global] [info] [43904] [Framework.cpp:129] - Cast Trigger [SoundPlay.NPCHumanCombatIdleC]
+[2025-08-15 22:43:58.488] [Global] [info] [43904] [Framework.cpp:223] Spell Taunt Enemies
+[2025-08-15 22:43:58.488] [Global] [info] [43904] [Framework.cpp:129] - Cast Trigger [SoundPlay.NPCHumanCombatIdleShieldHit]
+[2025-08-15 22:43:58.488] [Global] [info] [43904] [Framework.cpp:223] Spell Taunt Enemies
+[2025-08-15 22:43:58.488] [Global] [info] [43904] [Framework.cpp:244] Complete : Data/SKSE/Plugins/_DynamicAnimationCasting\Taunt Your Enemies.toml
+
+[2025-08-15 22:43:58.488] [Global] [info] [43904] [Framework.cpp:8] Reading Data/SKSE/Plugins/_DynamicAnimationCasting\template.toml...
+[2025-08-15 22:43:58.493] [Global] [info] [43904] [Framework.cpp:116] Start : Data/SKSE/Plugins/_DynamicAnimationCasting\template.toml
+[2025-08-15 22:43:58.493] [Global] [info] [43904] [Framework.cpp:274] Successfully read all .tomls in file.

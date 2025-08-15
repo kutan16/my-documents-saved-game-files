@@ -1,0 +1,55 @@
+FloatingDamageV2
+FloatingDamageV2 Loaded
+Loaded database for SkyrimSE.exe version 1.5.97.0.
+Main
+   BlockFlags  =  1
+   CriticalFlags  =  6
+   DamageAnimation  =  4
+   DamageNonPlayerAlpha  =  50
+   DisplayPosition  =  0
+   DoTInterval  =  60
+   FirstPersonPosX  =  50
+   FirstPersonPosY  =  75
+   FontName  =  $EverywhereMediumFont
+   HealAnimation  =  2
+   HealNonPlayerAlpha  =  0
+   HideDamageAV  =  0
+   HideDistance  =  1200
+   HideNoLOS  =  1
+   SneakFlags  =  6
+Damage
+   EnemyColor  =  13748667
+   FollowerColor  =  13369344
+   Size  =  32
+   Text  =  *
+Miss
+   EnemyColor  =  10459014
+   FollowerColor  =  10040064
+   Size  =  32
+   Text  =  Miss
+DoT
+   EnemyColor  =  16774512
+   FollowerColor  =  16737792
+   Size  =  14
+   Text  =  *
+Critical
+   EnemyColor  =  15592681
+   FollowerColor  =  16711680
+   Size  =  48
+   Text  =  Crit
+Sneak
+   EnemyColor  =  16774512
+   FollowerColor  =  16737792
+   Size  =  20
+   Text  =  Sneak
+Block
+   EnemyColor  =  10459014
+   FollowerColor  =  10040064
+   Size  =  32
+   Text  =  Block
+Heal
+   EnemyColor  =  10223444
+   FollowerColor  =  3381504
+   Size  =  20
+   Text  =  *
+loaded Inteface/FloatingDamageV2.swf
