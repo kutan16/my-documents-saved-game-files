@@ -1,0 +1,23 @@
+[08/17/25 20:29:36][info](Logger.hpp:148) Logger init - Skyrim Special Edition 1-5-97-0
+[08/17/25 20:29:36][info](main.cpp:17) MaxsuDetectionMeter v1.0.7.0 loaded
+[08/17/25 20:29:36][info](Hook.h:11) Hook Actor Update!
+[08/17/25 20:31:10][info](Renderer.cpp:34) D3DInit Hooked!
+[08/17/25 20:31:10][info](Renderer.cpp:43) Getting swapchain...
+[08/17/25 20:31:10][info](Renderer.cpp:50) Getting swapchain desc...
+[08/17/25 20:31:10][info](Renderer.cpp:60) Initializing ImGui...
+[08/17/25 20:31:10][info](Renderer.cpp:70) ImGui initialized!
+[08/17/25 20:32:08][info](Renderer.cpp:345) Loaded Texture File "Data\SKSE\Plugins\MaxsuDetectionMeter\Meter_Frame.png"
+[08/17/25 20:32:08][info](Renderer.cpp:345) Loaded Texture File "Data\SKSE\Plugins\MaxsuDetectionMeter\Meter_NonHostile.png"
+[08/17/25 20:32:08][info](Renderer.cpp:345) Loaded Texture File "Data\SKSE\Plugins\MaxsuDetectionMeter\Meter_Hostile.png"
+[08/17/25 20:32:08][info](MeterSettings.h:14) Setting:"FadeSpeed" is 255
+[08/17/25 20:32:08][info](MeterSettings.h:14) Setting:"FlashSpeed" is 480
+[08/17/25 20:32:08][info](MeterSettings.h:14) Setting:"FlashScale" is 0.25
+[08/17/25 20:32:08][info](MeterSettings.h:14) Setting:"FlashShift" is 36
+[08/17/25 20:32:08][info](MeterSettings.h:14) Setting:"MinFillingSpeed" is 0.35
+[08/17/25 20:32:08][info](MeterSettings.h:14) Setting:"MaxFillingSpeed" is 0.95
+[08/17/25 20:32:08][info](MeterSettings.h:14) Setting:"MinTriggerLevel" is 25
+[08/17/25 20:32:08][info](MeterSettings.h:14) Setting:"RadiusX" is 305
+[08/17/25 20:32:08][info](MeterSettings.h:14) Setting:"RadiusY" is 305
+[08/17/25 20:32:08][info](MeterSettings.h:14) Setting:"CenterOffsetX" is 0
+[08/17/25 20:32:08][info](MeterSettings.h:14) Setting:"CenterOffsetY" is -48
+[08/17/25 20:32:08][info](ConsoleCommands.cpp:45) Registered console command: MaxsuDetectionMeter (MaxsuDM)
