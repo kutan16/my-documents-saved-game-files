@@ -12,44 +12,44 @@ Querying SKSE interfaces..
 [Init] Installing engine extensions..
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_RemoveAllBipedParts(void)] Writing..
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_RemoveAllBipedParts(void)] OK
-[EngineExtensions] [IED::EngineExtensions::Install_REFR_GarbageCollector] Installed @0x7FF6CA71A0C5
-[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_Resurrect(void)] Detoured Character::Resurrect @0x7FF6CB7CDA40:0xAB
-[EngineExtensions] [IED::EngineExtensions::Install_Actor_Resurrect] Installed reanimate hook @0x7FF6CA7A4C2F
-[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_3DEvents(void)] Detoured Actor::Release3D @0x7FF6CB7C5640:0x6B
-[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_3DEvents(void)] Detoured Character::Release3D @0x7FF6CB7CDA40:0x6B
-[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_3DEvents(void)] Detoured PlayerCharacter::Release3D @0x7FF6CB7D35E0:0x6B
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Actor>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::SetBaseActorValue @0x7FF6CB7C60C0:0x4
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Actor>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::ModActorValue @0x7FF6CB7C60C0:0x5
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Actor>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::RestoreActorValue @0x7FF6CB7C60C0:0x6
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Character>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::SetBaseActorValue @0x7FF6CB7CE4D0:0x4
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Character>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::ModActorValue @0x7FF6CB7CE4D0:0x5
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Character>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::RestoreActorValue @0x7FF6CB7CE4D0:0x6
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class PlayerCharacter>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::SetBaseActorValue @0x7FF6CB7D4098:0x4
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class PlayerCharacter>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::ModActorValue @0x7FF6CB7D4098:0x5
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class PlayerCharacter>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::RestoreActorValue @0x7FF6CB7D4098:0x6
-[EngineExtensions] [IED::EngineExtensions::Install_Armor_Update] Installed @0x7FF6CA4D4301
+[EngineExtensions] [IED::EngineExtensions::Install_REFR_GarbageCollector] Installed @0x7FF7B89AA0C5
+[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_Resurrect(void)] Detoured Character::Resurrect @0x7FF7B9A5DA40:0xAB
+[EngineExtensions] [IED::EngineExtensions::Install_Actor_Resurrect] Installed reanimate hook @0x7FF7B8A34C2F
+[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_3DEvents(void)] Detoured Actor::Release3D @0x7FF7B9A55640:0x6B
+[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_3DEvents(void)] Detoured Character::Release3D @0x7FF7B9A5DA40:0x6B
+[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_3DEvents(void)] Detoured PlayerCharacter::Release3D @0x7FF7B9A635E0:0x6B
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Actor>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::SetBaseActorValue @0x7FF7B9A560C0:0x4
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Actor>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::ModActorValue @0x7FF7B9A560C0:0x5
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Actor>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::RestoreActorValue @0x7FF7B9A560C0:0x6
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Character>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::SetBaseActorValue @0x7FF7B9A5E4D0:0x4
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Character>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::ModActorValue @0x7FF7B9A5E4D0:0x5
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Character>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::RestoreActorValue @0x7FF7B9A5E4D0:0x6
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class PlayerCharacter>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::SetBaseActorValue @0x7FF7B9A64098:0x4
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class PlayerCharacter>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::ModActorValue @0x7FF7B9A64098:0x5
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class PlayerCharacter>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::RestoreActorValue @0x7FF7B9A64098:0x6
+[EngineExtensions] [IED::EngineExtensions::Install_Armor_Update] Installed @0x7FF7B8764301
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_CreateWeaponNodes(void)] Writing..
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_CreateWeaponNodes(void)] OK
-[EngineExtensions] [IED::EngineExtensions::Install_PostLoad3DHooks] Installed reference clone 3D hook @0x7FF6CA3FFD62
-[EngineExtensions] [IED::EngineExtensions::Install_PostLoad3DHooks] Installed player load 3D hook @0x7FF6CA81015E
+[EngineExtensions] [IED::EngineExtensions::Install_PostLoad3DHooks] Installed reference clone 3D hook @0x7FF7B868FD62
+[EngineExtensions] [IED::EngineExtensions::Install_PostLoad3DHooks] Installed player load 3D hook @0x7FF7B8AA015E
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_SetWeapAdjAnimVar(void) const] Writing..
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_SetWeapAdjAnimVar(void) const] OK
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_WeaponAdjustDisable(void)] Writing..
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_WeaponAdjustDisable(void)] OK
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_UpdateReferenceBehaviorGraphs(void) const] Writing..
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_UpdateReferenceBehaviorGraphs(void) const] OK
-[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF6CA3EEA99 [TESObjectCELL_unk_178]
-[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF6CA8275A5 [PlayerCharacter_unk_205]
-[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF6CA81DADC [PlayerCharacter_RefreshLights]
-[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF6CA74761B [Actor_Update]
-[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Lighting(void)] Detoured PlayerCharacter::UpdateRefLight @0x7FF6CB7D35E0:0x55
+[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF7B867EA99 [TESObjectCELL_unk_178]
+[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF7B8AB75A5 [PlayerCharacter_unk_205]
+[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF7B8AADADC [PlayerCharacter_RefreshLights]
+[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF7B89D761B [Actor_Update]
+[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Lighting(void)] Detoured PlayerCharacter::UpdateRefLight @0x7FF7B9A635E0:0x55
 [Init] Initializing render driver..
 [Init] Installing priority input hook..
 [Init] Initializing UI driver..
 [Init] Graphical user interface enabled
 [Init] Initializing controller input handlers..
 [Init] Early initialization done
-Loaded, trampolines: branch:[236/336] codegen:[130/384] IAL:[25 ms]
+Loaded, trampolines: branch:[236/336] codegen:[130/384] IAL:[26 ms]
 [Controller] Found SDS interface [SimpleDualSheath 1.5.7, interface ver: 2]
 [Render] IED::Drivers::Render::InitializeD3D: Sending event
 [StyleProfileManager] Loaded 14 profile(s)
@@ -83,90 +83,44 @@ Loaded, trampolines: branch:[236/336] codegen:[130/384] IAL:[25 ms]
 [Controller] OM: background clone (player/npc): 2 / 2
 [Controller] Data loaded, entered running state
 [Controller] Reverting..
-[Controller] ISerializationBase::ReadRecord [IEDD]: 4 record(s), 0.013485s [63549/1544827]
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.014960s [68267/1713923 r:0.04]
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.014091s [69525/1744601 r:0.04]
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.014344s [69610/1744637 r:0.04]
+IED::Data::resolve_form: discarding deleted form FF0028E3 [62]
+IED::Data::resolve_form: discarding deleted form FF002503 [62]
+IED::Data::resolve_form: discarding deleted form FF0028EE [62]
+IED::Data::resolve_form: discarding deleted form FF0028EF [62]
+IED::Data::resolve_form: discarding deleted form FF0028E0 [62]
+IED::Data::resolve_form: discarding deleted form FF002893 [62]
+IED::Data::resolve_form: discarding deleted form FF00286F [62]
+IED::Data::resolve_form: discarding deleted form FF001408 [62]
+IED::Data::resolve_form: discarding deleted form FF0024EF [62]
+IED::Data::resolve_form: discarding deleted form FF00274D [62]
+IED::Data::resolve_form: discarding deleted form FF0028F1 [62]
+IED::Data::resolve_form: discarding deleted form FF00287C [62]
+IED::Data::resolve_form: discarding deleted form FF00267B [62]
+IED::Data::resolve_form: discarding deleted form FF00280C [62]
+IED::Data::resolve_form: discarding deleted form FF002885 [62]
+IED::Data::resolve_form: discarding deleted form FF0028F0 [62]
+IED::Data::resolve_form: discarding deleted form FF002864 [62]
+IED::Data::resolve_form: discarding deleted form FF002875 [62]
+IED::Data::resolve_form: discarding deleted form FF002800 [62]
+IED::Data::resolve_form: discarding deleted form FF00160A [62]
+IED::Data::resolve_form: discarding deleted form FF002862 [62]
+IED::Data::resolve_form: discarding deleted form FF0013EC [62]
+IED::Data::resolve_form: discarding deleted form FF0024F9 [62]
+IED::Data::resolve_form: discarding deleted form FF0028DD [62]
+IED::Data::resolve_form: discarding deleted form FF0028E6 [62]
+IED::Data::resolve_form: discarding deleted form FF00286E [62]
+IED::Data::resolve_form: discarding deleted form FF002872 [62]
+IED::Data::resolve_form: discarding deleted form FF002863 [62]
+IED::Data::resolve_form: discarding deleted form FF002889 [62]
+IED::Data::resolve_form: discarding deleted form FF002898 [62]
+[Controller] ISerializationBase::ReadRecord [IEDD]: 4 record(s), 0.020140s [93953/2362597]
+[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.019326s [92465/2326761 r:0.04]
 [Controller] Reverting..
-IED::Data::resolve_form: discarding deleted form FF002892 [62]
-IED::Data::resolve_form: discarding deleted form FF002540 [62]
-IED::Data::resolve_form: discarding deleted form FF0028D1 [62]
-IED::Data::resolve_form: discarding deleted form FF002802 [62]
-IED::Data::resolve_form: discarding deleted form FF0028DB [62]
-IED::Data::resolve_form: discarding deleted form FF0027B0 [62]
-IED::Data::resolve_form: discarding deleted form FF002431 [62]
-IED::Data::resolve_form: discarding deleted form FF00281A [62]
-[Controller] ISerializationBase::ReadRecord [IEDD]: 4 record(s), 0.013412s [69610/1744637]
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000BA4B3] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.017506s [83870/2141217 r:0.04]
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.020757s [86407/2204547 r:0.04]
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.018109s [86987/2208287 r:0.04]
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.020135s [87975/2230043 r:0.04]
-[Controller] [FE4BC95E] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [FE4BC95E] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [FE4BC95E] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [FE4BC95E] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [FE4BC95E] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [FE4BC95E] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
-[Controller] [FE4BC95E] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] ISerializationBase::ReadRecord [IEDD]: 4 record(s), 0.018464s [92465/2326761]
+[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.019978s [95177/2404347 r:0.04]
+[Controller] Reverting..
+IED::Data::resolve_form: discarding deleted form FF0024C8 [62]
+[Controller] ISerializationBase::ReadRecord [IEDD]: 4 record(s), 0.019242s [95177/2404347]
+[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.021193s [97704/2457165 r:0.04]
+[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.020241s [97710/2457165 r:0.04]
+[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.020558s [98480/2480583 r:0.04]

@@ -1,159 +1,86 @@
-[20:29:34][info] Experience 3-4-5-0 is loading...
-[20:31:17][info] Papyrus functions registered
-[20:32:05][info] Initializing skills at level 1
-[20:32:05][info] Updating skillcap data...
-[20:32:05][info] Applying racials for NordRace
-[20:32:05][info] None: 0
-[20:32:05][info] TwoHanded: 10
-[20:32:05][info] Block: 5
-[20:32:05][info] Smithing: 5
-[20:32:05][info] HeavyArmor: 5
-[20:32:05][info] LightArmor: 5
-[20:32:05][info] Speechcraft: 5
-[20:32:07][info] Parsing file: Default.ini
-[20:32:07][info] Directory 'Data/SKSE/Plugins/Experience/Actors' parsed in 8 ms
-[20:32:07][info] Parsing file: Default.ini
-[20:32:07][info] Parsing file: GeneratedExperiencePatch.ini
-[20:32:07][info] Directory 'Data/SKSE/Plugins/Experience/Races' parsed in 17 ms
-[20:32:07][info] Experience sources initialized
-[20:33:06][info] Finished reverting data
-[20:33:42][info] Finished loading data
-[20:37:28][info] [LocationDiscovery] Western Watchtower (kImperialTower)
-[20:38:24][info] [LocationDiscovery] Pillar of Kyne's Peace (kShrine)
-[20:38:24][info] [LocationDiscovery] Old Homestead (kShack)
-[20:39:50][info] [LocationDiscovery] Fort Greymoor (kImperialTower)
-[20:41:39][info] [ActorKill] Mudcrab (RefID:FE7E68EE)
-[20:41:42][info] [ActorKill] Mudcrab (RefID:FE7E68EF)
-[20:42:08][info] [ActorKill] Wolf (RefID:000DDDEA)
-[20:42:34][info] [LocationDiscovery] Barleydark Farm (kFarm)
-[20:43:11][info] [LocationDiscovery] Bloodied Box (kGrove)
-[20:43:56][info] [ActorKill] Wolf (RefID:000846CD)
-[20:43:58][info] [ActorKill] Wolf (RefID:000DC596)
-[20:44:12][info] [LocationDiscovery] Lucky Log (kGrove)
-[20:44:29][info] Finished saving data
-[20:44:50][info] [LocationDiscovery] North Brittleshin Pass (kPass)
-[20:45:24][info] Updating skillcap data...
-[20:45:24][info] Applying racials for BretonRace
-[20:45:24][info] None: 0
-[20:45:24][info] Alchemy: 5
-[20:45:24][info] Speechcraft: 5
-[20:45:24][info] Alteration: 10
-[20:45:24][info] Conjuration: 5
-[20:45:24][info] Illusion: 5
-[20:45:24][info] Restoration: 5
-[20:46:21][info] [ActorKill] Skeleton Fighter (RefID:FE32886C)
-[20:46:25][info] [ActorKill] Skeleton Raider (RefID:FE32886A)
-[20:46:31][info] [ActorKill] Skeleton Raider (RefID:FE32886B)
-[20:47:03][info] [ActorKill] Eminent Necromancer (RefID:0008226D)
-[20:47:03][info] [LocationCleared] Brittleshin Pass (kPass)
-[20:47:16][info] [ActorKill] Skeleton (RefID:00082331)
-[20:47:24][info] [ActorKill] Skeleton (RefID:0008227B)
-[20:49:37][info] Finished saving data
-[20:49:49][info] [ActorKill] Novice Necromancer (RefID:FE32886F)
-[20:49:58][info] [ActorKill] Apprentice Necromancer (RefID:FE32886E)
-[20:51:14][info] [ActorKill] Skeleton (RefID:00082279)
-[20:51:43][info] [ActorKill] Flesh Colossus (RefID:FE07680B)
-[20:53:04][info] [QuestCompleted] DialogueZora (kMiscellaneous)
-[20:53:04][info] [ObjectiveState] Investigate Brittleshin Pass (kCompleted)
-[21:03:21][info] Finished saving data
-[21:05:21][info] Finished reverting data
-[21:05:25][info] Finished loading data
-[21:06:35][info] [ActorKill] Skeleton (RefID:00082278)
-[21:07:28][info] [LocationDiscovery] South Brittleshin Pass (kPass)
-[21:08:43][info] [LocationDiscovery] Dragon Feeding Grounds (kDragonLair)
-[21:08:58][info] [ObjectiveState] Find and absorb the Skyshards in Skyrim. (1/108) (kDisplayed)
-[21:08:58][info] [ObjectiveState] Find and absorb the Skyshards in Skyrim. (1/108) (kDisplayed)
-[21:09:38][info] [LocationDiscovery] Sunken Barrow (kNordicDwelling)
-[21:10:44][info] Updating skillcap data...
-[21:10:44][info] Applying racials for BretonRace
-[21:10:44][info] None: 0
-[21:10:44][info] Alchemy: 5
-[21:10:44][info] Speechcraft: 5
-[21:10:44][info] Alteration: 10
-[21:10:44][info] Conjuration: 5
-[21:10:44][info] Illusion: 5
-[21:10:44][info] Restoration: 5
-[21:12:14][info] [ActorKill] Bonewolf (RefID:01003039)
-[21:12:46][info] [ActorKill] Slaughterfish (RefID:001060D4)
-[21:12:46][info] [LocationDiscovery] Oakwood (kTown)
-[21:13:16][info] [ActorKill] Slaughterfish (RefID:001060D5)
-[21:13:48][info] [ActorKill] Bonewolf (RefID:0100303A)
-[21:18:25][info] [ObjectiveState] Take Zora to the Sleeping Giant Inn (kDisplayed)
-[21:21:06][info] [LocationDiscovery] Temple of Arkay (kNordicDwelling)
-[21:21:31][info] [LocationDiscovery] Pillar of Dead's Grasp (kShrine)
-[21:21:48][info] [ActorKill] Crippled Skeleton Fighter (RefID:0004C28C)
-[21:21:50][info] [ActorKill] Skeleton Warrior (RefID:0004C287)
-[21:22:15][info] [LocationDiscovery] North Shriekwind Bastion (kNordicDwelling)
-[21:22:21][info] [ActorKill] Forest Fogling (RefID:FE7CD842)
-[21:22:29][info] [ActorKill] Forest Fogling (RefID:FE7CD841)
-[21:22:33][info] [ActorKill] Forest Fogling (RefID:FE7CD840)
-[21:22:41][info] [ActorKill] Forest Fogling (RefID:FE7CD83F)
-[21:24:25][info] [ActorKill] Assassin (RefID:FF0029AF)
-[21:28:10][info] [LocationDiscovery] Falkreath (kFalkreathCapitol)
-[21:28:43][info] [LocationDiscovery] Lod's Blacksmithing (kMine)
-[21:28:50][info] [LocationDiscovery] Dead Mans Drink (kSettlement)
-[21:29:04][info] [LocationDiscovery] Corpselight Farm (kFarm)
-[21:29:22][info] [LocationDiscovery] Jarls Longhouse (kFalkreathCastle)
-[21:39:41][info] [LocationDiscovery] Grave Concoctions (kSettlement)
-[21:40:09][info] [LocationDiscovery] Deadwood Lumber Mill (kWoodMill)
-[21:41:35][info] Finished saving data
-[21:41:46][info] [LocationDiscovery] Small Cave (kCave)
-[21:42:44][info] [ActorKill] Ogre (RefID:FE7D7869)
-[21:43:13][info] Updating skillcap data...
-[21:43:13][info] Applying racials for BretonRace
-[21:43:13][info] None: 0
-[21:43:13][info] Alchemy: 5
-[21:43:13][info] Speechcraft: 5
-[21:43:13][info] Alteration: 10
-[21:43:13][info] Conjuration: 5
-[21:43:13][info] Illusion: 5
-[21:43:13][info] Restoration: 5
-[21:43:25][info] [ObjectiveState] Investigate the body (kDisplayed)
-[21:46:02][info] [ObjectiveState] Head to Flying Fred's flight platform (kDisplayed)
-[21:46:02][info] [ObjectiveState] Investigate the body (kCompletedDisplayed)
-[21:46:36][info] [LocationDiscovery] Peak's Shade Tower (kNordicTower)
-[21:46:49][info] [ObjectiveState] Find and absorb the Skyshards in Skyrim. (2/108) (kDisplayed)
-[21:47:03][info] [ObjectiveState] Deliver Berit's Ashes to Runil (kFailed)
-[21:47:03][info] [ObjectiveState] Find Journal - Runil's inside Bloated Man's Grotto (kFailed)
-[21:47:03][info] [ObjectiveState] Return Journal - Runil's to Runil (kFailed)
-[21:47:03][info] [ObjectiveState] Kill the leader of Bannermist Tower (kFailed)
-[21:47:03][info] [ObjectiveState] Return to Siddgeir (kFailed)
-[21:47:03][info] [ObjectiveState] Return to Siddgeir (kFailed)
-[21:47:03][info] [ObjectiveState] Steal the Letter from Lod for Dengeir (kFailed)
-[21:47:03][info] [ObjectiveState] Bring the Letter from Lod to Dengeir (kFailed)
-[21:48:56][info] Finished saving data
-[21:49:06][info] [ActorKill] Goblin Archer (RefID:FE7DCBCF)
-[21:49:11][info] [LocationDiscovery] Cracked Tusk Keep (kFort)
-[21:49:12][info] [ActorKill] Goblin Shaman (RefID:FE7DCBCD)
-[21:49:22][info] [ActorKill] Orc Marauder (RefID:000C790B)
-[21:50:00][info] [ActorKill] Ogre Mercenary (RefID:FE7D784C)
-[21:50:22][info] [ActorKill] Goblin (RefID:FE7DCBD0)
-[21:50:26][info] [ActorKill] Goblin (RefID:FE7DCBCB)
-[21:50:26][info] [ActorKill] Ogre Mercenary (RefID:FE7D784B)
-[21:50:38][info] [ActorKill] Orc Hunter (RefID:252CEE3B)
-[21:50:47][info] [ActorKill] Goblin Skirmisher (RefID:FE7DC8A5)
-[21:50:54][info] [ActorKill] Bandit Battlemage (RefID:000E9369)
-[21:51:03][info] [ActorKill] Goblin Berserker (RefID:FE7DCBD2)
-[21:51:08][info] [ActorKill] Orc Hunter (RefID:000C790A)
-[21:51:18][info] [ObjectiveState] Deliver Berit's Ashes to Runil (kFailed)
-[21:51:18][info] [ObjectiveState] Steal the Letter from Lod for Dengeir (kFailed)
-[21:51:18][info] [ObjectiveState] Bring the Letter from Lod to Dengeir (kFailed)
-[21:51:18][info] [ObjectiveState] Find Journal - Runil's inside Bloated Man's Grotto (kFailed)
-[21:51:18][info] [ObjectiveState] Return Journal - Runil's to Runil (kFailed)
-[21:51:18][info] [ObjectiveState] Kill the leader of Embershard (kFailed)
-[21:51:18][info] [ObjectiveState] Return to Siddgeir (kFailed)
-[21:51:18][info] [ObjectiveState] Return to Siddgeir (kFailed)
-[21:51:53][info] [ActorKill] Orc Hunter (RefID:000C790C)
-[21:52:28][info] [ObjectiveState] Find and absorb the Skyshards in Skyrim. (3/108) (kDisplayed)
-[21:54:24][info] Finished saving data
-[21:54:55][info] [ActorKill] Orc Marauder (RefID:000C790E)
-[21:55:10][info] [ActorKill] Orc Hunter (RefID:000C790D)
-[21:56:40][info] [ActorKill] Ghunzul (RefID:00019835)
-[21:56:40][info] [LocationCleared] Cracked Tusk Keep (kFort)
-[21:59:56][info] [ActorKill] Deer (RefID:00084414)
-[22:00:38][info] Finished saving data
-[22:00:48][info] [ActorKill] Imp (RefID:FE08B839)
-[22:00:54][info] [ActorKill] Novice Necromancer (RefID:00099830)
-[22:00:58][info] [ActorKill] Undead Wolf (RefID:FE077867)
-[22:01:04][info] [ActorKill] Bonewolf (RefID:01003033)
-[22:01:09][info] [LocationDiscovery] Auri's Pod (kGrove)
+[21:07:01][info] Experience 3-4-5-0 is loading...
+[21:08:47][info] Papyrus functions registered
+[21:09:35][info] Initializing skills at level 1
+[21:09:35][info] Updating skillcap data...
+[21:09:35][info] Applying racials for NordRace
+[21:09:35][info] None: 0
+[21:09:35][info] TwoHanded: 10
+[21:09:35][info] Block: 5
+[21:09:35][info] Smithing: 5
+[21:09:35][info] HeavyArmor: 5
+[21:09:35][info] LightArmor: 5
+[21:09:35][info] Speechcraft: 5
+[21:09:36][info] Parsing file: Default.ini
+[21:09:36][info] Directory 'Data/SKSE/Plugins/Experience/Actors' parsed in 7 ms
+[21:09:36][info] Parsing file: Default.ini
+[21:09:36][info] Parsing file: GeneratedExperiencePatch.ini
+[21:09:36][info] Directory 'Data/SKSE/Plugins/Experience/Races' parsed in 16 ms
+[21:09:36][info] Experience sources initialized
+[21:10:24][info] Finished reverting data
+[21:10:58][info] Finished loading data
+[21:12:17][info] [ObjectiveState] Purchase a house in Whiterun (kFailed)
+[21:12:17][info] [ObjectiveState] Return to Balgruuf (kFailed)
+[21:12:17][info] [ObjectiveState] Talk to Mikael about Carlotta (kFailed)
+[21:12:17][info] [ObjectiveState] Tell Carlotta that Mikael is taken care of (kFailed)
+[21:12:17][info] [ObjectiveState] Find Amren's Family Sword inside Redoran's Retreat (kFailed)
+[21:12:17][info] [ObjectiveState] Return Amren's Family Sword to Amren (kFailed)
+[21:12:49][info] Finished saving data
+[21:13:11][info] Finished reverting data
+[21:13:14][info] Finished loading data
+[21:17:03][info] [ActorKill] Great Ashwidow (RefID:FE7C280F)
+[21:18:47][info] [ObjectiveState] Retrace steps to where you nearly died, around Fort Greymoor in Whiterun Hold (kDisplayed)
+[21:20:28][info] [ActorKill] Mudcrab (RefID:000DC549)
+[21:20:34][info] [ActorKill] Mudcrab (RefID:FE7E682B)
+[21:21:07][info] Updating skillcap data...
+[21:21:07][info] Applying racials for BretonRace
+[21:21:07][info] None: 0
+[21:21:07][info] Alchemy: 5
+[21:21:07][info] Speechcraft: 5
+[21:21:07][info] Alteration: 10
+[21:21:07][info] Conjuration: 5
+[21:21:07][info] Illusion: 5
+[21:21:07][info] Restoration: 5
+[21:21:28][info] [LocationDiscovery] The Lad of the Lake (kClearing)
+[21:21:59][info] Finished saving data
+[21:22:22][info] [ActorKill] Mudcrab (RefID:FE7E680A)
+[21:23:26][info] [ActorKill] Ogre (RefID:A0001907)
+[21:23:35][info] [ActorKill] Outlaw Warrior (RefID:FE4A49A2)
+[21:23:41][info] [ActorKill] Outlaw Vanguard (RefID:FE4A49A3)
+[21:24:22][info] [ActorKill] Bandit Mage (RefID:0005054A)
+[21:24:58][info] [ActorKill] Outlaw Berserker (RefID:00050549)
+[21:26:23][info] [ObjectiveState] Retrace steps to where you nearly died, around Fort Greymoor in Whiterun Hold (kDisplayed)
+[21:26:23][info] [ObjectiveState] Track down the Thug Archer who almost killed you (kDisplayed)
+[21:27:14][info] [LocationDiscovery] Redoran's Retreat (kCave)
+[21:28:49][info] [ActorKill] Mudcrab (RefID:000DC543)
+[21:29:12][info] [ActorKill] Mudcrab (RefID:FE7E6809)
+[21:29:40][info] [ObjectiveState] Retrace your steps to where you almost died (kCompleted)
+[21:29:40][info] [ObjectiveState] Return to where you were last defeated in [...] (kCompleted)
+[21:29:40][info] [ObjectiveState] Retrace steps to where you nearly died, somewhere around Fort Greymoor (kCompleted)
+[21:29:40][info] [ObjectiveState] Find the location where you almost perished, somewhere in Whiterun Hold (kCompleted)
+[21:29:41][info] [ObjectiveState] Return to [...] near Fort Greymoor, where you were defeated (kCompleted)
+[21:29:41][info] [ObjectiveState] Return to [...] in Whiterun Hold, where you were defeated (kCompleted)
+[21:29:41][info] [ObjectiveState] Retrace steps to where you nearly died, around Fort Greymoor in Whiterun Hold (kCompletedDisplayed)
+[21:29:41][info] [ObjectiveState] Return to place of your last defeat, [...], near Fort Greymoor in Whiterun Hold (kCompleted)
+[21:30:02][info] Finished reverting data
+[21:30:10][info] Finished loading data
+[21:30:23][info] [ActorKill] Mudcrab (RefID:000DC557)
+[21:30:24][info] [ActorKill] Mudcrab (RefID:000DC558)
+[21:31:09][info] [ActorKill] Mudcrab (RefID:FE7E6809)
+[21:31:23][info] [ActorKill] Mudcrab (RefID:FE7E680B)
+[21:31:52][info] [ActorKill] Sabre Cat (RefID:000DC556)
+[21:32:03][info] [ActorKill] Ogre (RefID:A0001907)
+[21:32:18][info] [ActorKill] Wolf (RefID:00084700)
+[21:32:29][info] [ActorKill] Sabre Cat (RefID:000DC55C)
+[21:32:54][info] [ActorKill] Bandit Berserker (RefID:00050549)
+[21:33:03][info] [ActorKill] Outlaw Warrior (RefID:FE4A49A2)
+[21:35:00][info] [ActorKill] Outlaw Warrior (RefID:FE4A49A9)
+[21:35:48][info] [ActorKill] Bandit Archer (RefID:0005054E)
+[21:36:09][info] [ActorKill] Outlaw Archer (RefID:FE4A49A8)
+[21:36:54][info] [ActorKill] Outlaw Warrior (RefID:FE4A49A3)
+[21:37:08][info] [ActorKill] Thug Archer (RefID:00050533)
+[21:37:42][info] [ActorKill] Outlaw Mage (RefID:0005054A)
+[21:38:12][info] Finished saving data
+[21:43:47][info] Finished saving data
+[21:44:25][info] [LocationDiscovery] Halted Stream Iron Mine (kSmelter)
+[21:44:43][info] [ActorKill] Bandit Archer (RefID:FE4A49AA)
+[21:44:49][info] Finished saving data
