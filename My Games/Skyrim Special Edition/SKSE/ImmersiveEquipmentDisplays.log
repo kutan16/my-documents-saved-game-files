@@ -49,7 +49,7 @@ Querying SKSE interfaces..
 [Init] Graphical user interface enabled
 [Init] Initializing controller input handlers..
 [Init] Early initialization done
-Loaded, trampolines: branch:[236/336] codegen:[130/384] IAL:[26 ms]
+Loaded, trampolines: branch:[236/336] codegen:[130/384] IAL:[25 ms]
 [Controller] Found SDS interface [SimpleDualSheath 1.5.7, interface ver: 2]
 [Render] IED::Drivers::Render::InitializeD3D: Sending event
 [StyleProfileManager] Loaded 14 profile(s)
@@ -83,44 +83,176 @@ Loaded, trampolines: branch:[236/336] codegen:[130/384] IAL:[26 ms]
 [Controller] OM: background clone (player/npc): 2 / 2
 [Controller] Data loaded, entered running state
 [Controller] Reverting..
-IED::Data::resolve_form: discarding deleted form FF0028E3 [62]
-IED::Data::resolve_form: discarding deleted form FF002503 [62]
-IED::Data::resolve_form: discarding deleted form FF0028EE [62]
-IED::Data::resolve_form: discarding deleted form FF0028EF [62]
-IED::Data::resolve_form: discarding deleted form FF0028E0 [62]
-IED::Data::resolve_form: discarding deleted form FF002893 [62]
-IED::Data::resolve_form: discarding deleted form FF00286F [62]
-IED::Data::resolve_form: discarding deleted form FF001408 [62]
-IED::Data::resolve_form: discarding deleted form FF0024EF [62]
-IED::Data::resolve_form: discarding deleted form FF00274D [62]
-IED::Data::resolve_form: discarding deleted form FF0028F1 [62]
-IED::Data::resolve_form: discarding deleted form FF00287C [62]
-IED::Data::resolve_form: discarding deleted form FF00267B [62]
-IED::Data::resolve_form: discarding deleted form FF00280C [62]
-IED::Data::resolve_form: discarding deleted form FF002885 [62]
-IED::Data::resolve_form: discarding deleted form FF0028F0 [62]
-IED::Data::resolve_form: discarding deleted form FF002864 [62]
-IED::Data::resolve_form: discarding deleted form FF002875 [62]
-IED::Data::resolve_form: discarding deleted form FF002800 [62]
-IED::Data::resolve_form: discarding deleted form FF00160A [62]
-IED::Data::resolve_form: discarding deleted form FF002862 [62]
-IED::Data::resolve_form: discarding deleted form FF0013EC [62]
-IED::Data::resolve_form: discarding deleted form FF0024F9 [62]
-IED::Data::resolve_form: discarding deleted form FF0028DD [62]
-IED::Data::resolve_form: discarding deleted form FF0028E6 [62]
-IED::Data::resolve_form: discarding deleted form FF00286E [62]
-IED::Data::resolve_form: discarding deleted form FF002872 [62]
-IED::Data::resolve_form: discarding deleted form FF002863 [62]
-IED::Data::resolve_form: discarding deleted form FF002889 [62]
-IED::Data::resolve_form: discarding deleted form FF002898 [62]
-[Controller] ISerializationBase::ReadRecord [IEDD]: 4 record(s), 0.020140s [93953/2362597]
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.019326s [92465/2326761 r:0.04]
-[Controller] Reverting..
-[Controller] ISerializationBase::ReadRecord [IEDD]: 4 record(s), 0.018464s [92465/2326761]
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.019978s [95177/2404347 r:0.04]
-[Controller] Reverting..
-IED::Data::resolve_form: discarding deleted form FF0024C8 [62]
-[Controller] ISerializationBase::ReadRecord [IEDD]: 4 record(s), 0.019242s [95177/2404347]
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.021193s [97704/2457165 r:0.04]
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.020241s [97710/2457165 r:0.04]
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.020558s [98480/2480583 r:0.04]
+IED::Data::resolve_form: discarding deleted form FF0028E9 [62]
+IED::Data::resolve_form: discarding deleted form FF002965 [62]
+IED::Data::resolve_form: discarding deleted form FF00298A [62]
+IED::Data::resolve_form: discarding deleted form FF00298D [62]
+IED::Data::resolve_form: discarding deleted form FF002990 [62]
+IED::Data::resolve_form: discarding deleted form FF002966 [62]
+[Controller] ISerializationBase::ReadRecord [IEDD]: 4 record(s), 0.020843s [98480/2480583]
+[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.019356s [98130/2469735 r:0.04]
+[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.018996s [98179/2469763 r:0.04]
+[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.020473s [101004/2527987 r:0.04]
+[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.020858s [101492/2531879 r:0.04]
+[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.020259s [101740/2532023 r:0.04]
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.021642s [105060/2624025 r:0.04]
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B5] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380B7] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000380BB] [race: 00000D53] [item: CA0041B3] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.021509s [105667/2627829 r:0.04]
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000383EC] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.022892s [105779/2627881 r:0.04]

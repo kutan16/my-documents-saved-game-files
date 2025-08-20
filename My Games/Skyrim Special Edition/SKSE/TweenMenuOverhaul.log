@@ -1,45 +1,66 @@
-[2025-08-19 21:07:06.693] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\customskills.json
-[2025-08-19 21:07:06.696] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"top","icon":"skills_alt","menuName":"CUSTOM SKILLS","priority":55,"skseName":"CustomSkills"}
-[2025-08-19 21:07:06.697] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\inventory.json
-[2025-08-19 21:07:06.699] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"left","icon":"inventory","menuName":"ITEMS","priority":10,"skseName":"InventoryMenu"}
-[2025-08-19 21:07:06.699] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\magic.json
-[2025-08-19 21:07:06.702] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"left","icon":"magic_alt","menuName":"MAGIC","priority":20,"skseName":"MagicMenu"}
-[2025-08-19 21:07:06.702] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\map.json
-[2025-08-19 21:07:06.705] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"bottom","icon":"map","menuName":"MAP","priority":40,"skseName":"MapMenu"}
-[2025-08-19 21:07:06.705] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\quests.json
-[2025-08-19 21:07:06.707] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"right","icon":"scroll","menuName":"QUESTS","priority":30,"skseName":"Journal Menu"}
-[2025-08-19 21:07:06.708] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\skills.json
-[2025-08-19 21:07:06.710] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"top","icon":"skills","menuName":"SKILLS","priority":50,"skseName":"StatsMenu"}
-[2025-08-19 21:07:06.710] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\wait.json
-[2025-08-19 21:07:06.713] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"bottom","icon":"hourglass","menuName":"WAIT","priority":100,"skseName":"Sleep/Wait Menu"}
-[2025-08-19 21:07:06.713] [log] [info] [Utility.cpp:82] All tween options data successfully loaded.
-[2025-08-19 21:07:06.715] [log] [info] [Utility.cpp:102] Parsing tween category names from file: DATA/interface/tweenoptions/categories/categories.json
-[2025-08-19 21:07:06.715] [log] [info] [Utility.cpp:109] Successfully loaded menu categories:
-[2025-08-19 21:07:06.715] [log] [info] [Utility.cpp:111] top: character
-[2025-08-19 21:07:06.715] [log] [info] [Utility.cpp:111] left: inventory
-[2025-08-19 21:07:06.715] [log] [info] [Utility.cpp:111] right: journal
-[2025-08-19 21:07:06.715] [log] [info] [Utility.cpp:111] bottom: world
-[2025-08-19 21:07:06.715] [log] [info] [main.cpp:44] Tween Menu is in... Player's pocket?
-[2025-08-19 21:07:10.723] [log] [info] [main.cpp:24] QuestJournalOverhaul.dll plugin not installed.
-[2025-08-19 21:10:59.380] [log] [info] [main.cpp:24] QuestJournalOverhaul.dll plugin not installed.
-[2025-08-19 21:13:14.799] [log] [info] [main.cpp:24] QuestJournalOverhaul.dll plugin not installed.
-[2025-08-19 21:13:30.515] [log] [info] [EventProcessor.cpp:60] Level up? false
-[2025-08-19 21:13:30.883] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
-[2025-08-19 21:17:47.860] [log] [info] [EventProcessor.cpp:60] Level up? true
-[2025-08-19 21:17:48.194] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
-[2025-08-19 21:20:43.371] [log] [info] [EventProcessor.cpp:60] Level up? true
-[2025-08-19 21:25:12.061] [log] [info] [EventProcessor.cpp:60] Level up? false
-[2025-08-19 21:25:12.456] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
-[2025-08-19 21:26:25.039] [log] [info] [EventProcessor.cpp:60] Level up? false
-[2025-08-19 21:26:25.396] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
-[2025-08-19 21:27:01.160] [log] [info] [EventProcessor.cpp:60] Level up? false
-[2025-08-19 21:27:01.545] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
-[2025-08-19 21:30:11.070] [log] [info] [main.cpp:24] QuestJournalOverhaul.dll plugin not installed.
-[2025-08-19 21:33:20.904] [log] [info] [EventProcessor.cpp:60] Level up? false
-[2025-08-19 21:33:21.239] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
-[2025-08-19 21:34:01.566] [log] [info] [EventProcessor.cpp:60] Level up? false
-[2025-08-19 21:34:01.911] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
-[2025-08-19 21:35:15.185] [log] [info] [EventProcessor.cpp:60] Level up? false
-[2025-08-19 21:35:16.573] [log] [info] [Utility.cpp:145] Player requested to open MagicMenu
-[2025-08-19 21:35:32.699] [log] [info] [EventProcessor.cpp:60] Level up? false
-[2025-08-19 21:35:33.012] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
+[2025-08-20 00:10:39.783] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\customskills.json
+[2025-08-20 00:10:39.784] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"top","icon":"skills_alt","menuName":"CUSTOM SKILLS","priority":55,"skseName":"CustomSkills"}
+[2025-08-20 00:10:39.784] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\inventory.json
+[2025-08-20 00:10:39.784] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"left","icon":"inventory","menuName":"ITEMS","priority":10,"skseName":"InventoryMenu"}
+[2025-08-20 00:10:39.784] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\magic.json
+[2025-08-20 00:10:39.784] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"left","icon":"magic_alt","menuName":"MAGIC","priority":20,"skseName":"MagicMenu"}
+[2025-08-20 00:10:39.784] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\map.json
+[2025-08-20 00:10:39.784] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"bottom","icon":"map","menuName":"MAP","priority":40,"skseName":"MapMenu"}
+[2025-08-20 00:10:39.784] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\quests.json
+[2025-08-20 00:10:39.784] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"right","icon":"scroll","menuName":"QUESTS","priority":30,"skseName":"Journal Menu"}
+[2025-08-20 00:10:39.784] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\skills.json
+[2025-08-20 00:10:39.784] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"top","icon":"skills","menuName":"SKILLS","priority":50,"skseName":"StatsMenu"}
+[2025-08-20 00:10:39.785] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\wait.json
+[2025-08-20 00:10:39.785] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"bottom","icon":"hourglass","menuName":"WAIT","priority":100,"skseName":"Sleep/Wait Menu"}
+[2025-08-20 00:10:39.785] [log] [info] [Utility.cpp:82] All tween options data successfully loaded.
+[2025-08-20 00:10:39.785] [log] [info] [Utility.cpp:102] Parsing tween category names from file: DATA/interface/tweenoptions/categories/categories.json
+[2025-08-20 00:10:39.785] [log] [info] [Utility.cpp:109] Successfully loaded menu categories:
+[2025-08-20 00:10:39.785] [log] [info] [Utility.cpp:111] top: character
+[2025-08-20 00:10:39.785] [log] [info] [Utility.cpp:111] left: inventory
+[2025-08-20 00:10:39.785] [log] [info] [Utility.cpp:111] right: journal
+[2025-08-20 00:10:39.785] [log] [info] [Utility.cpp:111] bottom: world
+[2025-08-20 00:10:39.785] [log] [info] [main.cpp:44] Tween Menu is in... Player's pocket?
+[2025-08-20 00:10:42.432] [log] [info] [main.cpp:24] QuestJournalOverhaul.dll plugin not installed.
+[2025-08-20 00:13:25.429] [log] [info] [main.cpp:24] QuestJournalOverhaul.dll plugin not installed.
+[2025-08-20 00:15:38.466] [log] [info] [EventProcessor.cpp:60] Level up? false
+[2025-08-20 00:16:26.077] [log] [info] [EventProcessor.cpp:60] Level up? true
+[2025-08-20 00:18:39.377] [log] [info] [EventProcessor.cpp:60] Level up? false
+[2025-08-20 00:18:40.360] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
+[2025-08-20 00:33:30.933] [log] [info] [EventProcessor.cpp:60] Level up? false
+[2025-08-20 00:33:31.557] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
+[2025-08-20 00:37:52.332] [log] [info] [EventProcessor.cpp:60] Level up? false
+[2025-08-20 00:37:52.694] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
+[2025-08-20 00:37:58.762] [log] [info] [EventProcessor.cpp:60] Level up? false
+[2025-08-20 00:37:59.088] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
+[2025-08-20 00:38:02.496] [log] [info] [EventProcessor.cpp:60] Level up? false
+[2025-08-20 00:38:02.770] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
+[2025-08-20 00:38:19.857] [log] [info] [EventProcessor.cpp:60] Level up? false
+[2025-08-20 00:38:20.237] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
+[2025-08-20 00:38:26.310] [log] [info] [EventProcessor.cpp:60] Level up? false
+[2025-08-20 00:38:26.584] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
+[2025-08-20 00:39:53.837] [log] [info] [EventProcessor.cpp:60] Level up? false
+[2025-08-20 00:39:54.224] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
+[2025-08-20 00:40:23.068] [log] [info] [EventProcessor.cpp:60] Level up? false
+[2025-08-20 00:40:23.377] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
+[2025-08-20 00:40:35.480] [log] [info] [EventProcessor.cpp:60] Level up? false
+[2025-08-20 00:40:36.074] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
+[2025-08-20 00:42:08.921] [log] [info] [EventProcessor.cpp:60] Level up? false
+[2025-08-20 00:42:37.313] [log] [info] [EventProcessor.cpp:60] Level up? false
+[2025-08-20 00:42:39.219] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
+[2025-08-20 00:43:24.306] [log] [info] [EventProcessor.cpp:60] Level up? false
+[2025-08-20 00:43:24.618] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
+[2025-08-20 00:44:21.573] [log] [info] [EventProcessor.cpp:60] Level up? false
+[2025-08-20 00:44:22.311] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
+[2025-08-20 00:44:28.752] [log] [info] [EventProcessor.cpp:60] Level up? false
+[2025-08-20 00:44:29.029] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
+[2025-08-20 00:51:32.088] [log] [info] [EventProcessor.cpp:60] Level up? false
+[2025-08-20 00:51:32.379] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
+[2025-08-20 00:53:49.491] [log] [info] [EventProcessor.cpp:60] Level up? true
+[2025-08-20 00:53:49.942] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
+[2025-08-20 00:54:01.734] [log] [info] [EventProcessor.cpp:60] Level up? true
+[2025-08-20 00:54:02.081] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
+[2025-08-20 00:54:10.681] [log] [info] [EventProcessor.cpp:60] Level up? true
+[2025-08-20 00:59:03.236] [log] [info] [EventProcessor.cpp:60] Level up? false
+[2025-08-20 00:59:03.704] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
+[2025-08-20 00:59:28.993] [log] [info] [EventProcessor.cpp:60] Level up? false
+[2025-08-20 00:59:29.297] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
