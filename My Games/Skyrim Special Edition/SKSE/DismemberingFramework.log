@@ -1,61 +1,41 @@
-[2025-08-20 00:10:37] [info] DismemberingFramework v1.0.6.0 by Seb263 : Loaded - Game version : 1.5.97.0
-[2025-08-20 00:10:37] [info] Successfully registered MessageHandler listener.
-[2025-08-20 00:10:37] [info] Successfully registered Papyrus functions.
-[2025-08-20 00:10:37] [info] Successfully registered API message listener.
-[2025-08-20 00:10:37] [info] ProcessHit hooked at address: 0x7FF7B8A26400
-[2025-08-20 00:10:37] [info] ResurrectHandler hooked at address: 0x7FF7B89D5290
-[2025-08-20 00:12:35] [info] Loading data...
-[2025-08-20 00:12:35] [info] Loading data: DONE
-[2025-08-20 00:12:35] [info] Processing Effect Settings...
-[2025-08-20 00:12:35] [info] Processing Effect Settings: DONE
-[2025-08-20 00:12:35] [info] Loading JSON files (asynchronous)...
-[2025-08-20 00:12:35] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\DismemberingFramework_BaseData_TEMPLATES.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Draugr_ActorAddonsData_TEMPLATES.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Draugr_BaseData_TEMPLATES.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Falmer_ActorAddonsData_TEMPLATES.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Falmer_BaseData_TEMPLATES.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Troll_ActorAddonsData_TEMPLATES.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Troll_BaseData_TEMPLATES.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Wolf_ActorAddonsData_TEMPLATES.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Wolf_BaseData_TEMPLATES.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\OfficialHumanoidPack_ActorAddonsData_TEMPLATES.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\OfficialHumanoidPack_BaseData_TEMPLATES.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Limbs In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Draugr_LIMBS.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Limbs In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Falmer_LIMBS.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Limbs In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Troll_LIMBS.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Limbs In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Wolf_LIMBS.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Limbs In "Data\SKSE\DismemberingFramework\OfficialHumanoidPack_DEFAULT_LIMBS.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Limbs In "Data\SKSE\DismemberingFramework\OfficialHumanoidPack_Skyrim_LIMBS.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Data In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Draugr_DATA.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Data In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Falmer_DATA.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Data In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Troll_DATA.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Data In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Wolf_DATA.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Data In "Data\SKSE\DismemberingFramework\OfficialHumanoidPack_DEFAULT_DATA.json"
-[2025-08-20 00:12:35] [info] Parsing JSON Data In "Data\SKSE\DismemberingFramework\OfficialHumanoidPack_Skyrim_DATA.json"
-[2025-08-20 00:12:35] [info] Loading JSON files (asynchronous): DONE after 0.1044843 seconds
-[2025-08-20 00:13:25] [info] Successfully registered Next-Gen Decapitations API.
-[2025-08-20 00:35:30] [info] Dismembered actor : <"Thug Warrior" [REF:0001EBA1] [BASE:FF00296F]> | Severed limb node : "NPC R Forearm [RLar]"
-[2025-08-20 00:35:30] [info] Dismembered actor : <"Thug Warrior" [REF:0001EBA1] [BASE:FF00296F]> | Severed limb node : "NPC L Forearm [LLar]"
-[2025-08-20 00:35:30] [info] Dismembered actor : <"Thug Warrior" [REF:0001EBA1] [BASE:FF00296F]> | Severed limb node : "NPC R Calf [RClf]"
-[2025-08-20 00:35:30] [info] Dismembered actor : <"Thug Warrior" [REF:0001EBA1] [BASE:FF00296F]> | Severed limb node : "NPC L Calf [LClf]"
-[2025-08-20 00:35:30] [info] Dismembered actor : <"Thug Warrior" [REF:0001EBA1] [BASE:FF00296F]> | Severed limb node : "NPC Neck [Neck]"
-[2025-08-20 00:43:22] [info] Dismembered actor : <"Outlaw Scout" [REF:00039FE4] [BASE:FF0024A7]> | Severed limb node : "NPC R Calf [RClf]"
-[2025-08-20 00:43:22] [info] Dismembered actor : <"Outlaw Scout" [REF:00039FE4] [BASE:FF0024A7]> | Severed limb node : "NPC L Calf [LClf]"
-[2025-08-20 00:43:22] [info] Dismembered actor : <"Outlaw Scout" [REF:00039FE4] [BASE:FF0024A7]> | Severed limb node : "NPC R Forearm [RLar]"
-[2025-08-20 00:43:22] [info] Dismembered actor : <"Outlaw Scout" [REF:00039FE4] [BASE:FF0024A7]> | Severed limb node : "NPC L Forearm [LLar]"
-[2025-08-20 00:43:22] [info] Dismembered actor : <"Outlaw Scout" [REF:00039FE4] [BASE:FF0024A7]> | Severed limb node : "NPC Neck [Neck]"
-[2025-08-20 00:55:50] [info] Dismembered actor : <"Draugr Churl" [REF:FE328C8A] [BASE:FF002A86]> | Severed limb node : "NPC L Calf [LClf]"
-[2025-08-20 00:55:50] [info] Dismembered actor : <"Draugr Churl" [REF:FE328C8A] [BASE:FF002A86]> | Severed limb node : "NPC L Forearm [LLar]"
-[2025-08-20 00:55:50] [info] Dismembered actor : <"Draugr Churl" [REF:FE328C8A] [BASE:FF002A86]> | Severed limb node : "NPC R Calf [RClf]"
-[2025-08-20 00:55:50] [info] Dismembered actor : <"Draugr Churl" [REF:FE328C8A] [BASE:FF002A86]> | Severed limb node : "NPC Neck [Neck]"
-[2025-08-20 00:55:50] [info] Dismembered actor : <"Draugr Churl" [REF:FE328C8A] [BASE:FF002A86]> | Severed limb node : "NPC R Forearm [RLar]"
-[2025-08-20 00:57:42] [info] Dismembered actor : <"Draugr Sentry" [REF:000380B5] [BASE:FF002A81]> | Severed limb node : "NPC L Calf [LClf]"
-[2025-08-20 00:57:42] [info] Dismembered actor : <"Draugr Sentry" [REF:000380B5] [BASE:FF002A81]> | Severed limb node : "NPC L Forearm [LLar]"
-[2025-08-20 00:57:42] [info] Dismembered actor : <"Draugr Sentry" [REF:000380B5] [BASE:FF002A81]> | Severed limb node : "NPC R Calf [RClf]"
-[2025-08-20 00:57:42] [info] Dismembered actor : <"Draugr Sentry" [REF:000380B5] [BASE:FF002A81]> | Severed limb node : "NPC Neck [Neck]"
-[2025-08-20 00:57:42] [info] Dismembered actor : <"Draugr Sentry" [REF:000380B5] [BASE:FF002A81]> | Severed limb node : "NPC R Forearm [RLar]"
-[2025-08-20 00:59:59] [info] Dismembered actor : <"Draugr Churl" [REF:000383F7] [BASE:CAA7FC7A]> | Severed limb node : "NPC L Forearm [LLar]"
-[2025-08-20 00:59:59] [info] Dismembered actor : <"Draugr Churl" [REF:000383F7] [BASE:CAA7FC7A]> | Severed limb node : "NPC L Calf [LClf]"
-[2025-08-20 00:59:59] [info] Dismembered actor : <"Draugr Churl" [REF:000383F7] [BASE:CAA7FC7A]> | Severed limb node : "NPC Neck [Neck]"
-[2025-08-20 00:59:59] [info] Dismembered actor : <"Draugr Churl" [REF:000383F7] [BASE:CAA7FC7A]> | Severed limb node : "NPC R Forearm [RLar]"
-[2025-08-20 00:59:59] [info] Dismembered actor : <"Draugr Churl" [REF:000383F7] [BASE:CAA7FC7A]> | Severed limb node : "NPC R Calf [RClf]"
+[2025-08-23 21:51:51] [info] DismemberingFramework v1.0.6.0 by Seb263 : Loaded - Game version : 1.5.97.0
+[2025-08-23 21:51:51] [info] Successfully registered MessageHandler listener.
+[2025-08-23 21:51:51] [info] Successfully registered Papyrus functions.
+[2025-08-23 21:51:51] [info] Successfully registered API message listener.
+[2025-08-23 21:51:51] [info] ProcessHit hooked at address: 0x7FF6A4D76400
+[2025-08-23 21:51:51] [info] ResurrectHandler hooked at address: 0x7FF6A4D25290
+[2025-08-23 21:53:54] [info] Loading data...
+[2025-08-23 21:53:54] [info] Loading data: DONE
+[2025-08-23 21:53:54] [info] Processing Effect Settings...
+[2025-08-23 21:53:54] [info] Processing Effect Settings: DONE
+[2025-08-23 21:53:54] [info] Loading JSON files (asynchronous)...
+[2025-08-23 21:53:54] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\DismemberingFramework_BaseData_TEMPLATES.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Draugr_ActorAddonsData_TEMPLATES.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Draugr_BaseData_TEMPLATES.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Falmer_ActorAddonsData_TEMPLATES.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Falmer_BaseData_TEMPLATES.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Troll_ActorAddonsData_TEMPLATES.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Troll_BaseData_TEMPLATES.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Wolf_ActorAddonsData_TEMPLATES.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Wolf_BaseData_TEMPLATES.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\OfficialHumanoidPack_ActorAddonsData_TEMPLATES.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Templates In "Data\SKSE\DismemberingFramework\OfficialHumanoidPack_BaseData_TEMPLATES.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Limbs In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Draugr_LIMBS.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Limbs In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Falmer_LIMBS.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Limbs In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Troll_LIMBS.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Limbs In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Wolf_LIMBS.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Limbs In "Data\SKSE\DismemberingFramework\OfficialHumanoidPack_DEFAULT_LIMBS.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Limbs In "Data\SKSE\DismemberingFramework\OfficialHumanoidPack_Skyrim_LIMBS.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Data In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Draugr_DATA.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Data In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Falmer_DATA.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Data In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Troll_DATA.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Data In "Data\SKSE\DismemberingFramework\OfficialCreaturePack_Wolf_DATA.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Data In "Data\SKSE\DismemberingFramework\OfficialHumanoidPack_DEFAULT_DATA.json"
+[2025-08-23 21:53:54] [info] Parsing JSON Data In "Data\SKSE\DismemberingFramework\OfficialHumanoidPack_Skyrim_DATA.json"
+[2025-08-23 21:53:54] [info] Loading JSON files (asynchronous): DONE after 0.107594 seconds
+[2025-08-23 21:54:50] [info] Successfully registered Next-Gen Decapitations API.
+[2025-08-23 21:56:24] [info] Dismembered actor : <"Draugr Pillager" [REF:FE328CB8] [BASE:FF001516]> | Severed limb node : "NPC L Forearm [LLar]"
+[2025-08-23 21:56:24] [info] Dismembered actor : <"Draugr Pillager" [REF:FE328CB8] [BASE:FF001516]> | Severed limb node : "NPC L Calf [LClf]"
+[2025-08-23 21:56:24] [info] Dismembered actor : <"Draugr Pillager" [REF:FE328CB8] [BASE:FF001516]> | Severed limb node : "NPC R Forearm [RLar]"
+[2025-08-23 21:56:24] [info] Dismembered actor : <"Draugr Pillager" [REF:FE328CB8] [BASE:FF001516]> | Severed limb node : "NPC Neck [Neck]"
+[2025-08-23 21:56:24] [info] Dismembered actor : <"Draugr Pillager" [REF:FE328CB8] [BASE:FF001516]> | Severed limb node : "NPC R Calf [RClf]"

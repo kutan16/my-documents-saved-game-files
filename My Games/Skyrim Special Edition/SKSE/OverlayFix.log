@@ -1,309 +1,68 @@
-[Aug 20 00:10:39.225] [info] [21128] 'OverlayFix 0.0.1' is loading, game version '1-5-97-0'...
-[Aug 20 00:10:39.225] [info] [21128] onLoad()
-[Aug 20 00:10:39.225] [info] [21128] OverlayFix has finished loading.
-[Aug 20 00:10:39.832] [info] [21128] onPostLoad()
-[Aug 20 00:10:42.435] [info] [21128] Got SKEE64 information
-[Aug 20 00:10:42.435] [info] [21128] SKEE64 1597 morphcache shrink workaround applying
-[Aug 20 00:10:42.435] [info] [21128] SKEE64 1597 morphcache shrink workaround applied
-[Aug 20 00:10:42.435] [info] [21128] SKEE64 1597 crash fix 1 applied
-[Aug 20 00:10:42.435] [info] [21128] SKEE64 1597 crash fix 2 applied
-[Aug 20 00:10:42.435] [info] [21128] SKEE64 0416 patched
-[Aug 20 00:10:42.435] [info] [21128] onPostPostLoad()
-[Aug 20 00:11:51.095] [info] [21128] onInputLoaded()
-[Aug 20 00:12:50.514] [info] [68684] onDataLoaded()
-[Aug 20 00:13:17.480] [info] [21128] onPreLoadGame()
-[Aug 20 00:13:22.948] [info] [21128] before culling fix: overlay Body [Ovl0] flags 144256481802326787 NiAVObjectFlags 14
-[Aug 20 00:13:22.948] [info] [21128] after culling fix: overlay Body [Ovl0] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:13:22.948] [info] [21128] before culling fix: overlay Body [Ovl1] flags 144256481802326787 NiAVObjectFlags 14
-[Aug 20 00:13:22.948] [info] [21128] after culling fix: overlay Body [Ovl1] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:13:22.948] [info] [21128] before culling fix: overlay Body [Ovl2] flags 144256481802326787 NiAVObjectFlags 14
-[Aug 20 00:13:22.948] [info] [21128] after culling fix: overlay Body [Ovl2] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:13:22.948] [info] [21128] before culling fix: overlay Body [Ovl3] flags 144256481802326787 NiAVObjectFlags 14
-[Aug 20 00:13:22.948] [info] [21128] after culling fix: overlay Body [Ovl3] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:13:22.948] [info] [21128] before culling fix: overlay Body [Ovl4] flags 144256481802326787 NiAVObjectFlags 14
-[Aug 20 00:13:22.948] [info] [21128] after culling fix: overlay Body [Ovl4] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:13:22.948] [info] [21128] before culling fix: overlay Body [Ovl5] flags 144256481802326787 NiAVObjectFlags 14
-[Aug 20 00:13:22.948] [info] [21128] after culling fix: overlay Body [Ovl5] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:13:22.948] [info] [21128] before culling fix: overlay Body [SOvl0] flags 144256481802326787 NiAVObjectFlags 14
-[Aug 20 00:13:22.948] [info] [21128] after culling fix: overlay Body [SOvl0] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:13:22.954] [info] [21128] before culling fix: overlay Body [Ovl0] flags 144256481802326787 NiAVObjectFlags 14
-[Aug 20 00:13:22.954] [info] [21128] after culling fix: overlay Body [Ovl0] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:13:22.954] [info] [21128] before culling fix: overlay Body [Ovl1] flags 144256481802326787 NiAVObjectFlags 14
-[Aug 20 00:13:22.954] [info] [21128] after culling fix: overlay Body [Ovl1] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:13:22.954] [info] [21128] before culling fix: overlay Body [Ovl2] flags 144256481802326787 NiAVObjectFlags 14
-[Aug 20 00:13:22.954] [info] [21128] after culling fix: overlay Body [Ovl2] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:13:22.954] [info] [21128] before culling fix: overlay Body [Ovl3] flags 144256481802326787 NiAVObjectFlags 14
-[Aug 20 00:13:22.954] [info] [21128] after culling fix: overlay Body [Ovl3] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:13:22.954] [info] [21128] before culling fix: overlay Body [Ovl4] flags 144256481802326787 NiAVObjectFlags 14
-[Aug 20 00:13:22.954] [info] [21128] after culling fix: overlay Body [Ovl4] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:13:22.954] [info] [21128] before culling fix: overlay Body [Ovl5] flags 144256481802326787 NiAVObjectFlags 14
-[Aug 20 00:13:22.954] [info] [21128] after culling fix: overlay Body [Ovl5] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:13:22.954] [info] [21128] before culling fix: overlay Body [SOvl0] flags 144256481802326787 NiAVObjectFlags 14
-[Aug 20 00:13:22.954] [info] [21128] after culling fix: overlay Body [SOvl0] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:13:25.417] [info] [21128] onPostLoadGame()
-[Aug 20 00:13:25.799] [info] [72856] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:13:25.799] [info] [72856] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:13:25.799] [info] [72856] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:13:25.799] [info] [72856] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:13:25.799] [info] [72856] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:13:25.799] [info] [72856] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:13:27.794] [info] [71304] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:13:27.794] [info] [71304] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:13:27.794] [info] [71304] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:13:27.794] [info] [71304] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:13:27.794] [info] [71304] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:13:27.794] [info] [71304] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:14:26.180] [info] [71304] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:14:26.180] [info] [71304] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:14:26.180] [info] [71304] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:14:26.180] [info] [71304] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:14:26.180] [info] [71304] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:14:26.180] [info] [71304] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:18:19.979] [info] [21128] onSaveGame()
-[Aug 20 00:19:41.708] [info] [66736] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:19:41.708] [info] [66736] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:19:41.708] [info] [66736] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:19:41.708] [info] [66736] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:19:41.708] [info] [66736] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:19:41.708] [info] [66736] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:20:47.108] [info] [71304] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:20:47.108] [info] [71304] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:20:47.108] [info] [71304] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:20:47.108] [info] [71304] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:20:47.108] [info] [71304] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:20:47.108] [info] [71304] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:21:53.932] [info] [21128] onSaveGame()
-[Aug 20 00:23:11.056] [info] [72712] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:23:11.056] [info] [72712] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:23:11.056] [info] [72712] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:23:11.056] [info] [72712] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:23:11.056] [info] [72712] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:23:11.056] [info] [72712] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:24:42.003] [info] [67232] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:24:42.003] [info] [67232] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:24:42.003] [info] [67232] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:24:42.003] [info] [67232] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:24:42.003] [info] [67232] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:24:42.003] [info] [67232] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:33:29.005] [info] [21128] onSaveGame()
-[Aug 20 00:34:06.151] [info] [21128] before culling fix: overlay Hands [Ovl0] flags 144256619241280259 NiAVObjectFlags 14
-[Aug 20 00:34:06.151] [info] [21128] after culling fix: overlay Hands [Ovl0] flags 144256619241280259 NiAVObjectFlags 2062
-[Aug 20 00:34:06.151] [info] [21128] before culling fix: overlay Hands [Ovl1] flags 144256619241280259 NiAVObjectFlags 14
-[Aug 20 00:34:06.151] [info] [21128] after culling fix: overlay Hands [Ovl1] flags 144256619241280259 NiAVObjectFlags 2062
-[Aug 20 00:34:06.151] [info] [21128] before culling fix: overlay Hands [Ovl2] flags 144256619241280259 NiAVObjectFlags 14
-[Aug 20 00:34:06.151] [info] [21128] after culling fix: overlay Hands [Ovl2] flags 144256619241280259 NiAVObjectFlags 2062
-[Aug 20 00:34:06.151] [info] [21128] before culling fix: overlay Hands [SOvl0] flags 144256619241280259 NiAVObjectFlags 14
-[Aug 20 00:34:06.151] [info] [21128] after culling fix: overlay Hands [SOvl0] flags 144256619241280259 NiAVObjectFlags 2062
-[Aug 20 00:34:06.152] [info] [21128] before culling fix: overlay Hands [Ovl0] flags 144256619241280259 NiAVObjectFlags 14
-[Aug 20 00:34:06.152] [info] [21128] after culling fix: overlay Hands [Ovl0] flags 144256619241280259 NiAVObjectFlags 2062
-[Aug 20 00:34:06.152] [info] [21128] before culling fix: overlay Hands [Ovl1] flags 144256619241280259 NiAVObjectFlags 14
-[Aug 20 00:34:06.152] [info] [21128] after culling fix: overlay Hands [Ovl1] flags 144256619241280259 NiAVObjectFlags 2062
-[Aug 20 00:34:06.152] [info] [21128] before culling fix: overlay Hands [Ovl2] flags 144256619241280259 NiAVObjectFlags 14
-[Aug 20 00:34:06.152] [info] [21128] after culling fix: overlay Hands [Ovl2] flags 144256619241280259 NiAVObjectFlags 2062
-[Aug 20 00:34:06.152] [info] [21128] before culling fix: overlay Hands [SOvl0] flags 144256619241280259 NiAVObjectFlags 14
-[Aug 20 00:34:06.152] [info] [21128] after culling fix: overlay Hands [SOvl0] flags 144256619241280259 NiAVObjectFlags 2062
-[Aug 20 00:35:13.216] [info] [54660] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:35:13.216] [info] [54660] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:35:13.216] [info] [54660] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:35:13.216] [info] [54660] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:35:13.216] [info] [54660] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:35:13.216] [info] [54660] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:35:33.915] [info] [21128] before culling fix: overlay Body [Ovl0] flags 144256481802326787 NiAVObjectFlags 14
-[Aug 20 00:35:33.915] [info] [21128] after culling fix: overlay Body [Ovl0] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:35:33.915] [info] [21128] before culling fix: overlay Body [Ovl1] flags 144256481802326787 NiAVObjectFlags 14
-[Aug 20 00:35:33.915] [info] [21128] after culling fix: overlay Body [Ovl1] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:35:33.915] [info] [21128] before culling fix: overlay Body [Ovl2] flags 144256481802326787 NiAVObjectFlags 14
-[Aug 20 00:35:33.915] [info] [21128] after culling fix: overlay Body [Ovl2] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:35:33.915] [info] [21128] before culling fix: overlay Body [Ovl3] flags 144256481802326787 NiAVObjectFlags 14
-[Aug 20 00:35:33.915] [info] [21128] after culling fix: overlay Body [Ovl3] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:35:33.915] [info] [21128] before culling fix: overlay Body [Ovl4] flags 144256481802326787 NiAVObjectFlags 14
-[Aug 20 00:35:33.915] [info] [21128] after culling fix: overlay Body [Ovl4] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:35:33.915] [info] [21128] before culling fix: overlay Body [Ovl5] flags 144256481802326787 NiAVObjectFlags 14
-[Aug 20 00:35:33.916] [info] [21128] after culling fix: overlay Body [Ovl5] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:35:33.916] [info] [21128] before culling fix: overlay Body [SOvl0] flags 144256481802326787 NiAVObjectFlags 14
-[Aug 20 00:35:33.916] [info] [21128] after culling fix: overlay Body [SOvl0] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:35:33.921] [info] [21128] before culling fix: overlay Body [Ovl0] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:35:33.921] [info] [21128] after culling fix: overlay Body [Ovl0] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:35:33.921] [info] [21128] before culling fix: overlay Body [Ovl1] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:35:33.921] [info] [21128] after culling fix: overlay Body [Ovl1] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:35:33.921] [info] [21128] before culling fix: overlay Body [Ovl2] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:35:33.921] [info] [21128] after culling fix: overlay Body [Ovl2] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:35:33.921] [info] [21128] before culling fix: overlay Body [Ovl3] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:35:33.921] [info] [21128] after culling fix: overlay Body [Ovl3] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:35:33.921] [info] [21128] before culling fix: overlay Body [Ovl4] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:35:33.921] [info] [21128] after culling fix: overlay Body [Ovl4] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:35:33.921] [info] [21128] before culling fix: overlay Body [Ovl5] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:35:33.921] [info] [21128] after culling fix: overlay Body [Ovl5] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:35:33.922] [info] [21128] before culling fix: overlay Body [SOvl0] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:35:33.922] [info] [21128] after culling fix: overlay Body [SOvl0] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:35:34.047] [info] [72712] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:35:34.048] [info] [72712] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:35:34.048] [info] [72712] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:35:34.048] [info] [72712] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:35:34.048] [info] [72712] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:35:34.048] [info] [72712] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:35:34.260] [info] [66736] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:35:34.260] [info] [66736] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:35:34.260] [info] [66736] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:35:34.260] [info] [66736] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:35:34.260] [info] [66736] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:35:34.260] [info] [66736] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:35:39.619] [info] [72712] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:35:39.619] [info] [72712] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:35:39.619] [info] [72712] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:35:39.619] [info] [72712] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:35:39.619] [info] [72712] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:35:39.619] [info] [72712] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:37:12.023] [info] [21128] onSaveGame()
-[Aug 20 00:37:27.982] [info] [67232] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:37:27.982] [info] [67232] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:37:27.982] [info] [67232] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:37:27.982] [info] [67232] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:37:27.982] [info] [67232] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:37:27.982] [info] [67232] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:40:18.911] [info] [21128] before culling fix: overlay Body [Ovl0] flags 144257581313954563 NiAVObjectFlags 67110926
-[Aug 20 00:40:18.911] [info] [21128] after culling fix: overlay Body [Ovl0] flags 144257581313954563 NiAVObjectFlags 67110926
-[Aug 20 00:40:18.911] [info] [21128] before culling fix: overlay Body [Ovl1] flags 144257581313954563 NiAVObjectFlags 67110926
-[Aug 20 00:40:18.911] [info] [21128] after culling fix: overlay Body [Ovl1] flags 144257581313954563 NiAVObjectFlags 67110926
-[Aug 20 00:40:18.911] [info] [21128] before culling fix: overlay Body [Ovl2] flags 144257581313954563 NiAVObjectFlags 67110926
-[Aug 20 00:40:18.911] [info] [21128] after culling fix: overlay Body [Ovl2] flags 144257581313954563 NiAVObjectFlags 67110926
-[Aug 20 00:40:18.911] [info] [21128] before culling fix: overlay Body [Ovl3] flags 144257581313954563 NiAVObjectFlags 67110926
-[Aug 20 00:40:18.911] [info] [21128] after culling fix: overlay Body [Ovl3] flags 144257581313954563 NiAVObjectFlags 67110926
-[Aug 20 00:40:18.911] [info] [21128] before culling fix: overlay Body [Ovl4] flags 144257581313954563 NiAVObjectFlags 67110926
-[Aug 20 00:40:18.911] [info] [21128] after culling fix: overlay Body [Ovl4] flags 144257581313954563 NiAVObjectFlags 67110926
-[Aug 20 00:40:18.912] [info] [21128] before culling fix: overlay Body [Ovl5] flags 144257581313954563 NiAVObjectFlags 67110926
-[Aug 20 00:40:18.912] [info] [21128] after culling fix: overlay Body [Ovl5] flags 144257581313954563 NiAVObjectFlags 67110926
-[Aug 20 00:40:18.912] [info] [21128] before culling fix: overlay Body [SOvl0] flags 144257581313954563 NiAVObjectFlags 67110926
-[Aug 20 00:40:18.912] [info] [21128] after culling fix: overlay Body [SOvl0] flags 144257581313954563 NiAVObjectFlags 67110926
-[Aug 20 00:40:18.968] [info] [21128] before culling fix: overlay Body [Ovl0] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:40:18.968] [info] [21128] after culling fix: overlay Body [Ovl0] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:40:18.968] [info] [21128] before culling fix: overlay Body [Ovl1] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:40:18.968] [info] [21128] after culling fix: overlay Body [Ovl1] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:40:18.968] [info] [21128] before culling fix: overlay Body [Ovl2] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:40:18.968] [info] [21128] after culling fix: overlay Body [Ovl2] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:40:18.968] [info] [21128] before culling fix: overlay Body [Ovl3] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:40:18.968] [info] [21128] after culling fix: overlay Body [Ovl3] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:40:18.968] [info] [21128] before culling fix: overlay Body [Ovl4] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:40:18.968] [info] [21128] after culling fix: overlay Body [Ovl4] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:40:18.968] [info] [21128] before culling fix: overlay Body [Ovl5] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:40:18.968] [info] [21128] after culling fix: overlay Body [Ovl5] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:40:18.968] [info] [21128] before culling fix: overlay Body [SOvl0] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:40:18.968] [info] [21128] after culling fix: overlay Body [SOvl0] flags 144256481802326787 NiAVObjectFlags 2062
-[Aug 20 00:40:41.504] [info] [72856] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:40:41.504] [info] [72856] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:40:41.505] [info] [72856] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:40:41.505] [info] [72856] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:40:41.505] [info] [72856] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:40:41.505] [info] [72856] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:41:18.904] [info] [21128] onSaveGame()
-[Aug 20 00:42:57.439] [info] [72856] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:42:57.439] [info] [72856] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:42:57.439] [info] [72856] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:42:57.440] [info] [72856] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:42:57.440] [info] [72856] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:42:57.440] [info] [72856] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:43:24.083] [info] [72712] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:43:24.083] [info] [72712] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:43:24.083] [info] [72712] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:43:24.083] [info] [72712] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:43:24.083] [info] [72712] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:43:24.083] [info] [72712] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:45:44.554] [info] [21128] onSaveGame()
-[Aug 20 00:50:25.326] [info] [72712] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:50:25.326] [info] [72712] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:50:25.326] [info] [72712] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:50:25.326] [info] [72712] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:50:25.326] [info] [72712] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:50:25.326] [info] [72712] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:50:30.740] [info] [72856] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:50:30.740] [info] [72856] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:50:30.740] [info] [72856] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:50:30.740] [info] [72856] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:50:30.740] [info] [72856] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:50:30.740] [info] [72856] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:51:44.274] [info] [66736] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:51:44.274] [info] [66736] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:51:44.274] [info] [66736] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:51:44.274] [info] [66736] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:51:44.274] [info] [66736] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:51:44.274] [info] [66736] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:52:05.675] [info] [72856] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:52:05.675] [info] [72856] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:52:05.675] [info] [72856] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:52:05.675] [info] [72856] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:52:05.675] [info] [72856] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:52:05.675] [info] [72856] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:52:59.195] [info] [71304] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:52:59.195] [info] [71304] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:52:59.195] [info] [71304] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:52:59.195] [info] [71304] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:52:59.196] [info] [71304] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:52:59.196] [info] [71304] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:53:10.003] [info] [67232] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:53:10.003] [info] [67232] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:53:10.003] [info] [67232] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:53:10.003] [info] [67232] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:53:10.003] [info] [67232] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:53:10.003] [info] [67232] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:53:47.543] [info] [66736] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:53:47.543] [info] [66736] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:53:47.543] [info] [66736] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:53:47.543] [info] [66736] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:53:47.543] [info] [66736] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:53:47.543] [info] [66736] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:55:54.571] [info] [72712] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:55:54.571] [info] [72712] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:55:54.571] [info] [72712] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:55:54.571] [info] [72712] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:55:54.571] [info] [72712] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:55:54.571] [info] [72712] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:56:00.048] [info] [67232] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:56:00.048] [info] [67232] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:56:00.048] [info] [67232] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:56:00.048] [info] [67232] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:56:00.048] [info] [67232] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:56:00.048] [info] [67232] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:56:37.562] [info] [54660] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:56:37.562] [info] [54660] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:56:37.562] [info] [54660] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:56:37.562] [info] [54660] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:56:37.562] [info] [54660] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:56:37.562] [info] [54660] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:56:43.051] [info] [71304] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:56:43.051] [info] [71304] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:56:43.051] [info] [71304] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:56:43.051] [info] [71304] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:56:43.051] [info] [71304] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:56:43.051] [info] [71304] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:57:47.213] [info] [71304] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:57:47.213] [info] [71304] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:57:47.213] [info] [71304] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:57:47.213] [info] [71304] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:57:47.213] [info] [71304] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:57:47.213] [info] [71304] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:57:58.100] [info] [72712] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:57:58.100] [info] [72712] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:57:58.100] [info] [72712] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:57:58.100] [info] [72712] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:57:58.100] [info] [72712] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:57:58.100] [info] [72712] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:58:46.194] [info] [72856] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:58:46.194] [info] [72856] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:58:46.194] [info] [72856] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:58:46.194] [info] [72856] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:58:46.194] [info] [72856] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:58:46.194] [info] [72856] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:59:08.750] [info] [21128] onSaveGame()
-[Aug 20 00:59:18.367] [info] [72712] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:59:18.367] [info] [72712] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:59:18.367] [info] [72712] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:59:18.367] [info] [72712] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 00:59:18.367] [info] [72712] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 00:59:18.367] [info] [72712] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 01:00:19.625] [info] [72712] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 01:00:19.625] [info] [72712] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 01:00:19.625] [info] [72712] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 01:00:19.625] [info] [72712] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 01:00:19.625] [info] [72712] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
-[Aug 20 01:00:19.625] [info] [72712] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
-[Aug 20 01:00:40.677] [info] [21128] onSaveGame()
+[Aug 23 21:51:52.548] [info] [147356] 'OverlayFix 0.0.1' is loading, game version '1-5-97-0'...
+[Aug 23 21:51:52.548] [info] [147356] onLoad()
+[Aug 23 21:51:52.548] [info] [147356] OverlayFix has finished loading.
+[Aug 23 21:51:53.199] [info] [147356] onPostLoad()
+[Aug 23 21:51:55.978] [info] [147356] Got SKEE64 information
+[Aug 23 21:51:55.978] [info] [147356] SKEE64 1597 morphcache shrink workaround applying
+[Aug 23 21:51:55.978] [info] [147356] SKEE64 1597 morphcache shrink workaround applied
+[Aug 23 21:51:55.978] [info] [147356] SKEE64 1597 crash fix 1 applied
+[Aug 23 21:51:55.978] [info] [147356] SKEE64 1597 crash fix 2 applied
+[Aug 23 21:51:55.978] [info] [147356] SKEE64 0416 patched
+[Aug 23 21:51:55.978] [info] [147356] onPostPostLoad()
+[Aug 23 21:53:09.266] [info] [147356] onInputLoaded()
+[Aug 23 21:54:11.227] [info] [157652] onDataLoaded()
+[Aug 23 21:54:43.293] [info] [147356] onPreLoadGame()
+[Aug 23 21:54:50.844] [info] [147356] onPostLoadGame()
+[Aug 23 21:54:51.179] [info] [146600] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 21:54:51.179] [info] [146600] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 21:54:51.179] [info] [146600] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 21:54:51.179] [info] [146600] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 21:54:51.180] [info] [146600] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 21:54:51.180] [info] [146600] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 21:54:53.230] [info] [153316] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 21:54:53.230] [info] [153316] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 21:54:53.230] [info] [153316] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 21:54:53.230] [info] [153316] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 21:54:53.230] [info] [153316] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 21:54:53.230] [info] [153316] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 21:54:55.105] [info] [154432] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 21:54:55.105] [info] [154432] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 21:54:55.105] [info] [154432] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 21:54:55.105] [info] [154432] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 21:54:55.105] [info] [154432] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 21:54:55.105] [info] [154432] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 21:55:17.244] [info] [154432] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 21:55:17.244] [info] [154432] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 21:55:17.244] [info] [154432] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 21:55:17.244] [info] [154432] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 21:55:17.244] [info] [154432] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 21:55:17.244] [info] [154432] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 21:55:56.198] [info] [153316] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 21:55:56.198] [info] [153316] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 21:55:56.198] [info] [153316] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 21:55:56.198] [info] [153316] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 21:55:56.198] [info] [153316] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 21:55:56.198] [info] [153316] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 21:56:18.408] [info] [153316] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 21:56:18.408] [info] [153316] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 21:56:18.408] [info] [153316] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 21:56:18.408] [info] [153316] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 21:56:18.408] [info] [153316] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 21:56:18.408] [info] [153316] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 21:56:29.362] [info] [153316] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 21:56:29.362] [info] [153316] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 21:56:29.362] [info] [153316] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 21:56:29.362] [info] [153316] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 21:56:29.362] [info] [153316] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 21:56:29.362] [info] [153316] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 21:56:57.624] [info] [147356] onSaveGame()
+[Aug 23 21:57:33.448] [info] [147356] onSaveGame()
+[Aug 23 22:00:42.993] [info] [147356] onSaveGame()
+[Aug 23 22:02:52.774] [info] [151008] before culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 22:02:52.774] [info] [151008] after culling fix: overlay Face [Ovl0] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 22:02:52.774] [info] [151008] before culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 22:02:52.774] [info] [151008] after culling fix: overlay Face [Ovl1] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 22:02:52.774] [info] [151008] before culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 14
+[Aug 23 22:02:52.774] [info] [151008] after culling fix: overlay Face [Ovl2] flags 144256481802327811 NiAVObjectFlags 2062
+[Aug 23 22:02:57.864] [info] [147356] onSaveGame()
+[Aug 23 22:06:47.423] [info] [147356] onSaveGame()
