@@ -49,7 +49,7 @@ Querying SKSE interfaces..
 [Init] Graphical user interface enabled
 [Init] Initializing controller input handlers..
 [Init] Early initialization done
-Loaded, trampolines: branch:[236/336] codegen:[130/384] IAL:[25 ms]
+Loaded, trampolines: branch:[236/336] codegen:[130/384] IAL:[27 ms]
 [Controller] Found SDS interface [SimpleDualSheath 1.5.7, interface ver: 2]
 [Render] IED::Drivers::Render::InitializeD3D: Sending event
 [StyleProfileManager] Loaded 14 profile(s)
@@ -83,10 +83,13 @@ Loaded, trampolines: branch:[236/336] codegen:[130/384] IAL:[25 ms]
 [Controller] OM: background clone (player/npc): 2 / 2
 [Controller] Data loaded, entered running state
 [Controller] Reverting..
-IED::Data::resolve_form: discarding deleted form FF002A9C [62]
-[Controller] ISerializationBase::ReadRecord [IEDD]: 4 record(s), 0.020820s [106497/2635261]
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.020935s [106689/2633443 r:0.04]
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.020329s [106682/2633471 r:0.04]
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.020048s [106751/2633487 r:0.04]
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.020695s [106791/2633535 r:0.04]
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.022725s [107288/2640943 r:0.04]
+[Controller] ISerializationBase::ReadRecord [IEDD]: 4 record(s), 0.021557s [107288/2640943]
+[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] [000A811D] [race: 00000D53] [item: CA0041B5] couldn't get target node: ShieldBack
+[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.021411s [108507/2663123 r:0.04]

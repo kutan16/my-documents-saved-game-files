@@ -1,248 +1,249 @@
-[21:51:53.105] [info] Initializing TheNewGentleman 4.2.3!
-[21:51:53.105] [info] Game version : 1-5-97-0
-[21:54:21.729] [info] Loading ini files...
-[21:54:21.729] [info] 	- Found [2] [CoveringRecord] entries in [Cold Foreigner_TNG.ini].
-[21:54:21.729] [info] 	- Found [2] [RevealingRecord] entries in [Cold Foreigner_TNG.ini].
-[21:54:21.729] [info] 	- Found [1] [ExcludeRacesInMod] entries in [Vigilant_TNG.ini].
-[21:54:21.729] [info] Loading TNG settings...
-[21:54:21.730] [info] 	TNG detected Racial Skin Variance and would force the player and NPCs to be reloaded
-[21:54:21.730] [info] TNG settings loaded.
-[21:54:21.730] [info] Loading the addons...
-[21:54:21.731] [info] Processing races...
-[21:54:21.731] [info] 	The race [0x13742: DarkElfRace] was recognized as a new primary group [DarkElfRace].
-[21:54:21.731] [info] 	The race [0x131f0: DremoraRace] was recognized as a member of existing group DarkElfRace.
-[21:54:21.731] [info] 	The race [0x2c564f3c: HPGThanosRace] was recognized as a member of existing group DarkElfRace.
-[21:54:21.731] [warning] 	The race [0x57277bb9: JRmihailimpracebossfire] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Lucien.esp].
-[21:54:21.731] [warning] 	The race [0x57277bba: JRmihailimpracebossshock] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Lucien.esp].
-[21:54:21.731] [warning] 	The race [0x57277bb6: JRmihailimprace] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Lucien.esp].
-[21:54:21.731] [warning] 	The race [0x57277bb7: JRmihailimpracechargedfire] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Lucien.esp].
-[21:54:21.731] [warning] 	The race [0x57277bb8: JRmihailimpracechargedshock] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Lucien.esp].
-[21:54:21.731] [info] 	The race [0x13743: HighElfRace] was recognized as a new primary group [HighElfRace].
-[21:54:21.731] [info] 	The race [0x88840: HighElfRaceVampire] was recognized as a new primary group [HighElfRaceVampire].
-[21:54:21.731] [warning] 	The race [0xfe68ba90: ksws03_angel_race] cannot have any genitals since their skin cannot be recognized!  It was last modified by [ksws03_quest.esp].
-[21:54:21.731] [info] 	The race [0x8883a: ArgonianRaceVampire] was recognized as a new primary group [ArgonianRaceVampire].
-[21:54:21.731] [info] 	The race [0x13740: ArgonianRace] was recognized as a new primary group [ArgonianRace].
-[21:54:21.731] [info] 	The race [0xfe010824: BGSSSE018_ArgonianRaceDoppelganger] was recognized as a member of existing group ArgonianRace.
-[21:54:21.731] [info] 	The race [0x4dab5377: TOK_RACE_PolymorphArgonianRace] was recognized as a member of existing group ArgonianRace.
-[21:54:21.731] [info] 	The race [0xde0df5aa: HRI_Alternate_Race_ArgonianRace] was recognized as a new secondary group [HRI_Alternate_Race_ArgonianRace].
-[21:54:21.731] [info] 	The race [0x223cdd29: zzzCrbBirdmanRace] was recognized as a new primary group [zzzCrbBirdmanRace].
-[21:54:21.731] [info] 	The race [Vigilant.esm: xx1e5405: zzzCHBlackHandRace] was ignored because an ini excludes it!
-[21:54:21.731] [info] 	The race [Vigilant.esm: xx2b8859: zzzCHBoneHumanBossRace] was ignored because an ini excludes it!
-[21:54:21.731] [info] 	The race [Vigilant.esm: xxb07e1: zzzCHBoneHumanRace] was ignored because an ini excludes it!
-[21:54:21.731] [info] 	The race [Vigilant.esm: xx4fe93f: zzzCHBoneHumanBossRacex015] was ignored because an ini excludes it!
-[21:54:21.731] [info] 	The race [Vigilant.esm: xx4fe93e: zzzCHBoneHumanBossRacex020] was ignored because an ini excludes it!
-[21:54:21.731] [info] 	The race [0x2231b016: zzzCrbBoneSmithRace] was recognized as a new primary group [zzzCrbBoneSmithRace].
-[21:54:21.731] [info] 	The race [0x88884: WoodElfRaceVampire] was recognized as a new primary group [WoodElfRaceVampire].
-[21:54:21.731] [info] 	The race [0x13749: WoodElfRace] was recognized as a new primary group [WoodElfRace].
-[21:54:21.731] [info] 	The race [0x97a3d: DA13AfflictedRace] was recognized as a new secondary group [DA13AfflictedRace].
-[21:54:21.731] [info] 	The race [0x110280b9: BretonRaceChildArnima] was recognized as a new primary group [BretonRaceChildArnima].
-[21:54:21.731] [info] 	The race [0x8883c: BretonRaceVampire] was recognized as a new primary group [BretonRaceVampire].
-[21:54:21.731] [info] 	The race [0x13741: BretonRace] was recognized as a new primary group [BretonRace].
-[21:54:21.731] [info] 	The race [0x4d438a28: TOK_RACE_PolymorphBretonRace] was recognized as a member of existing group BretonRace.
-[21:54:21.731] [info] 	The race [0xde0df5ab: HRI_Alternate_Race_BretonRace] was recognized as a new secondary group [HRI_Alternate_Race_BretonRace].
-[21:54:21.731] [info] 	The race [0x1f000810: _lull_ChronographerRace] was recognized as a member of existing group DarkElfRace.
-[21:54:21.731] [info] 	The race [0xb10bbee7: WB_ConjureCraftlord_Race] was recognized as a member of existing group HighElfRace.
-[21:54:21.731] [info] 	The race [0x1a5201c8: DwaSpDwemerologist02] was recognized as a member of existing group DarkElfRace.
-[21:54:21.731] [info] 	The race [0x4dab5378: TOK_RACE_PolymorphDarkElfRace] was recognized as a member of existing group DarkElfRace.
-[21:54:21.731] [info] 	The race [0x3601ab49: MASNerevarineRace] was recognized as a member of existing group DarkElfRace.
-[21:54:21.731] [info] 	The race [0x1a515f9d: DwaSpDwemerologist01] was recognized as a member of existing group DarkElfRace.
-[21:54:21.731] [info] 	The race [0x1f06779a: _Lull_FyrRace] was recognized as a member of existing group DarkElfRace.
-[21:54:21.731] [info] 	The race [0xde0df5ac: HRI_Alternate_Race_DarkElfRace] was recognized as a new secondary group [HRI_Alternate_Race_DarkElfRace].
-[21:54:21.731] [warning] 	The race [0xc000817: ccBGSSSE025_DarkSeducerRace] cannot have any genitals since their skin cannot be recognized!  It was last modified by [ccbgssse025-advdsgs.esm].
-[21:54:21.731] [info] 	The race [Vigilant.esm: xx2de6eb: zzzCHDraugrHumanBossRace] was ignored because an ini excludes it!
-[21:54:21.731] [info] 	The race [0x2920c315: DremoraRaceZahkris] was recognized as a new primary group [DremoraRaceZahkris].
-[21:54:21.731] [info] 	The race [0x1166fa88: ArnimaDremoraRace] was recognized as a member of existing group BretonRace.
-[21:54:21.731] [warning] 	The race [0xb3427952: MAG_DremoraRaceShield] cannot have any genitals since their skin cannot be recognized!  It was last modified by [MysticismMagic.esp].
-[21:54:21.731] [info] 	The race [0x4035538: DLC2DremoraRace] was recognized as a member of existing group DarkElfRace.
-[21:54:21.731] [info] 	The race [0x54003328: CoT_KrellykClothes] was recognized as a new secondary group [CoT_KrellykClothes].
-[21:54:21.731] [info] 	The race [0x223cdd38: zzzCrbDreughElfRace] was recognized as a new primary group [zzzCrbDreughElfRace].
-[21:54:21.731] [info] 	The race [0x8883d: DarkElfRaceVampire] was recognized as a new primary group [DarkElfRaceVampire].
-[21:54:21.731] [info] 	The race [0x1f0719a1: _lull_yagrum] was recognized as a member of existing group DarkElfRace.
-[21:54:21.731] [info] 	The race [0x1f06c8a0: _lull_dwemer] was recognized as a member of existing group HighElfRace.
-[21:54:21.731] [info] 	The race [0xa1000d6b: _DS_DwemerRace] was recognized as a member of existing group DarkElfRace.
-[21:54:21.732] [info] 	The race [0x2c3a8a63: HPGToadRace] was recognized as a new primary group [HPGToadRace].
-[21:54:21.732] [warning] 	The race [0x560ff210: IniGiantRace] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Inigo.esp].
-[21:54:21.732] [warning] 	The race [0x2e220ec9: CLWGildedRace] cannot have any genitals since their skin cannot be recognized!  It was last modified by [ClockworkBugFixes.esp].
-[21:54:21.732] [warning] 	The race [0xc000816: ccBGSSSE025_GoldenSaintRace] cannot have any genitals since their skin cannot be recognized!  It was last modified by [ccbgssse025-advdsgs.esm].
-[21:54:21.732] [info] 	The race [0x221dd5b1: zzzCrbGrayOwlRace] was recognized as a new primary group [zzzCrbGrayOwlRace].
-[21:54:21.732] [info] 	The race [0x220ce5ef: zzzCrbHalfDragonChildRace] was recognized as a new secondary group [zzzCrbHalfDragonChildRace].
-[21:54:21.732] [info] 	The race [0x220022f5: zzzCrbHalfDragonRace] was recognized as a new secondary group [zzzCrbHalfDragonRace].
-[21:54:21.732] [info] 	The race [0x1f000837: _Lull_SecariusRace] was recognized as a member of existing group HighElfRace.
-[21:54:21.732] [info] 	The race [0x1360201b: BSKSeaElfRace] was recognized as a new primary group [BSKSeaElfRace].
-[21:54:21.732] [info] 	The race [0x13601fcd: BSKWildElfRace] was recognized as a new primary group [BSKWildElfRace].
-[21:54:21.732] [warning] 	The race [0x320a7ad9: 000FCArbiterRace] cannot have any genitals since their skin cannot be recognized!  It was last modified by [ForgottenCity.esp].
-[21:54:21.732] [info] 	The race [0x1f005b18: _Lull_ThalmorMutant_NoHead] was recognized as a member of existing group HighElfRace.
-[21:54:21.732] [info] 	The race [0x4dab5379: TOK_RACE_PolymorphHighElfRace] was recognized as a member of existing group HighElfRace.
-[21:54:21.732] [info] 	The race [0x1f124402: _Lull_ThalmorMutant_BigHead] was recognized as a member of existing group HighElfRace.
-[21:54:21.732] [info] 	The race [0x1f129505: _Lull_ThalmorMutant_Long] was recognized as a member of existing group HighElfRace.
-[21:54:21.732] [info] 	The race [0x1f129507: _Lull_ThalmorMutant_Armed] was recognized as a member of existing group HighElfRace.
-[21:54:21.732] [info] 	The race [0x1f005b1a: _Lull_ThalmorMutant_Masscroft] was recognized as a member of existing group HighElfRace.
-[21:54:21.732] [info] 	The race [0x200377d: SnowElfRace] was recognized as a new primary group [SnowElfRace].
-[21:54:21.732] [info] 	The race [0xde0df5ad: HRI_Alternate_Race_HighElfRace] was recognized as a new secondary group [HRI_Alternate_Race_HighElfRace].
-[21:54:21.732] [info] 	The race [0x223f500f: zzzCrbHoholaughRace] was recognized as a new primary group [zzzCrbHoholaughRace].
-[21:54:21.732] [info] 	The race [Vigilant.esm: xx500dba: zzzCHImgaHumanRace] was ignored because an ini excludes it!
-[21:54:21.732] [info] 	The race [0x13744: ImperialRace] was recognized as a new primary group [ImperialRace].
-[21:54:21.732] [info] 	The race [0x4dab537a: TOK_RACE_PolymorphImperialRace] was recognized as a member of existing group ImperialRace.
-[21:54:21.732] [info] 	The race [0x88844: ImperialRaceVampire] was recognized as a new primary group [ImperialRaceVampire].
-[21:54:21.732] [info] 	The race [0xde0df5ae: HRI_Alternate_Race_ImperialRace] was recognized as a new secondary group [HRI_Alternate_Race_ImperialRace].
-[21:54:21.732] [warning] 	The race [0x71e6a: InvisibleRace] cannot have any genitals since they do not have a skin! It was last modified by [Skyrim.esm].
-[21:54:21.732] [warning] 	The race [0xc9e8ada5: HTZahkriisosEntityOfThunderRace] cannot have any genitals since they do not have a skin! It was last modified by [Fanatical Enemies.esp].
-[21:54:21.732] [warning] 	The race [0xc9ba1d1d: HTInvisibleRaceFieryOrb] cannot have any genitals since they do not have a skin! It was last modified by [Fanatical Enemies.esp].
-[21:54:21.732] [info] 	The race [0x5c12624d: AK69KatanaRace] was recognized as a new secondary group [AK69KatanaRace].
-[21:54:21.732] [info] 	The race [0x88845: KhajiitRaceVampire] was recognized as a new primary group [KhajiitRaceVampire].
-[21:54:21.732] [info] 	The race [0x13745: KhajiitRace] was recognized as a new primary group [KhajiitRace].
-[21:54:21.732] [info] 	The race [0xfe010828: BGSSSE018_KhajiitRaceDoppelganger] was recognized as a member of existing group KhajiitRace.
-[21:54:21.732] [info] 	The race [0x4d433920: TOK_RACE_PolymorphKhajiitRace] was recognized as a member of existing group KhajiitRace.
-[21:54:21.732] [info] 	The race [0xde0df5af: HRI_Alternate_Race_KhajiitRace] was recognized as a new secondary group [HRI_Alternate_Race_KhajiitRace].
-[21:54:21.732] [info] 	The race [JKJKhajiitAltCathayCatRace] is designed to be ignored by TNG. It was not modified.
-[21:54:21.732] [info] 	The race [JKJKhajiitCathayRahtAltLioness] is designed to be ignored by TNG. It was not modified.
-[21:54:21.732] [info] 	The race [JKJKhajiitCathayRaht] is designed to be ignored by TNG. It was not modified.
-[21:54:21.732] [info] 	The race [JKJKhajiitDagiRaht] is designed to be ignored by TNG. It was not modified.
-[21:54:21.732] [info] 	The race [JKJKhajiitOhmes] is designed to be ignored by TNG. It was not modified.
-[21:54:21.732] [info] 	The race [JKJKhajiitOhmesRahtRace] is designed to be ignored by TNG. It was not modified.
-[21:54:21.732] [info] 	The race [JKJKhajiitPahmarRaht] is designed to be ignored by TNG. It was not modified.
-[21:54:21.732] [info] 	The race [JKJKhajiitSuthayRahtAltTiger] is designed to be ignored by TNG. It was not modified.
-[21:54:21.732] [info] 	The race [JKJKhajiitSuthayRaht] is designed to be ignored by TNG. It was not modified.
-[21:54:21.732] [info] 	The race [JKJKhajiitTojay] is designed to be ignored by TNG. It was not modified.
-[21:54:21.732] [info] 	The race [Vigilant.esm: xx6592b: zzzCOChildRaceKillable] was ignored because an ini excludes it!
-[21:54:21.732] [info] 	The race [Vigilant.esm: xx53e71: zzzCOBuroRace] was ignored because an ini excludes it!
-[21:54:21.732] [info] 	The race [0x22350b98: zzzCrbManakinRace] was recognized as a new secondary group [zzzCrbManakinRace].
-[21:54:21.732] [info] 	The race [Vigilant.esm: xx50f8c8: zzzCHMntrRaceChild] was ignored because an ini excludes it!
-[21:54:21.732] [info] 	The race [Vigilant.esm: xx510ae2: zzzCHMntrRaceElder] was ignored because an ini excludes it!
-[21:54:21.732] [info] 	The race [Vigilant.esm: xx510ae1: zzzCHMntrRaceVampire] was ignored because an ini excludes it!
-[21:54:21.732] [info] 	The race [Vigilant.esm: xx50f8b8: zzzCHMntrRace] was ignored because an ini excludes it!
-[21:54:21.732] [info] 	The race [0x13746: NordRace] was recognized as a new primary group [NordRace].
-[21:54:21.732] [info] 	The race [0x571f33df: aaaLucDweWarriorRace] was recognized as a new primary group [aaaLucDweWarriorRace].
-[21:54:21.732] [info] 	The race [0x403ca97: DLC2MiraakRace] was recognized as a member of existing group NordRace.
-[21:54:21.732] [info] 	The race [0x10760a: ManakinRace] was recognized as a new primary group [ManakinRace].
-[21:54:21.732] [warning] 	The race [0xc9be3a61: HTNordRaceVampireLyrezi] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Fanatical Enemies.esp].
-[21:54:21.732] [warning] 	The race [0x2d2c9387: XJKGolemArmorRace] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Darkend.esp].
-[21:54:21.732] [info] 	The race [0xfe010829: BGSSSE018_NordRaceDoppelganger] was recognized as a member of existing group NordRace.
-[21:54:21.732] [warning] 	The race [0x2004d31: TestRace] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Dawnguard.esm].
-[21:54:21.732] [warning] 	The race [0x320a7ada: 000FCArbiterRace2] cannot have any genitals since their skin cannot be recognized!  It was last modified by [ForgottenCity.esp].
-[21:54:21.732] [info] 	The race [0x4d438a26: TOK_RACE_PolymorphNordRace] was recognized as a member of existing group NordRace.
-[21:54:21.732] [warning] 	The race [0x2d20560e: XJKNordRace] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Darkend.esp].
-[21:54:21.732] [info] 	The race [0xfe371d71: 00AelaRace] was recognized as a new secondary group [00AelaRace].
-[21:54:21.732] [info] 	The race [0x200e88a: DLC1NordRace] was recognized as a member of existing group NordRace.
-[21:54:21.732] [info] 	The race [0x88794: NordRaceVampire] was recognized as a new primary group [NordRaceVampire].
-[21:54:21.732] [warning] 	The race [0xc9b84c97: HTShadowmanRace] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Fanatical Enemies.esp].
-[21:54:21.732] [info] 	The race [0x7eaf3: NordRaceAstrid] was recognized as a new primary group [NordRaceAstrid].
-[21:54:21.732] [info] 	The race [0x2d461744: XJKSkelLordRace] was recognized as a new primary group [XJKSkelLordRace].
-[21:54:21.732] [info] 	The race [0xde0df5b0: HRI_Alternate_Race_NordRace] was recognized as a new secondary group [HRI_Alternate_Race_NordRace].
-[21:54:21.732] [info] 	The race [0x67cd8: ElderRace] was recognized as a new primary group [ElderRace].
-[21:54:21.732] [info] 	The race [0x1360270e: BSKRedguardElderRace] was recognized as a member of existing group ElderRace.
-[21:54:21.732] [info] 	The race [0x13602710: BSKImperialElderRace] was recognized as a member of existing group ElderRace.
-[21:54:21.732] [info] 	The race [0x13602707: BSKReachmanElderRace] was recognized as a member of existing group ElderRace.
-[21:54:21.732] [info] 	The race [0xa82ba: ElderRaceVampire] was recognized as a new primary group [ElderRaceVampire].
-[21:54:21.732] [info] 	The race [0x1360270f: BSKBretonElderRace] was recognized as a member of existing group ElderRace.
-[21:54:21.732] [info] 	The race [0x330a5beb: 000ElderRace] was recognized as a member of existing group ElderRace.
-[21:54:21.732] [info] 	The race [0x13747: OrcRace] was recognized as a new primary group [OrcRace].
-[21:54:21.732] [info] 	The race [0x4d438a22: TOK_RACE_PolymorphOrcRace] was recognized as a member of existing group OrcRace.
-[21:54:21.732] [info] 	The race [0xa82b9: OrcRaceVampire] was recognized as a new primary group [OrcRaceVampire].
-[21:54:21.732] [info] 	The race [0xfe01082a: BGSSSE018_OrcRaceDoppelganger] was recognized as a member of existing group OrcRace.
-[21:54:21.732] [info] 	The race [0xde0df5b1: HRI_Alternate_Race_OrcRace] was recognized as a new secondary group [HRI_Alternate_Race_OrcRace].
-[21:54:21.732] [warning] 	The race [0x3000e5aa: Sabretiger_race] cannot have any genitals since their skin cannot be recognized!  It was last modified by [moonpath.esp].
-[21:54:21.732] [warning] 	The race [0x1200e5aa: Sabretiger_race] cannot have any genitals since their skin cannot be recognized!  It was last modified by [LegacyoftheDragonborn.esm].
-[21:54:21.732] [info] 	The race [0x13748: RedguardRace] was recognized as a new primary group [RedguardRace].
-[21:54:21.732] [info] 	The race [0x4dab537b: TOK_RACE_PolymorphRedguardRace] was recognized as a member of existing group RedguardRace.
-[21:54:21.732] [info] 	The race [0x88846: RedguardRaceVampire] was recognized as a new primary group [RedguardRaceVampire].
-[21:54:21.732] [info] 	The race [0xde0df5b2: HRI_Alternate_Race_RedguardRace] was recognized as a new secondary group [HRI_Alternate_Race_RedguardRace].
-[21:54:21.732] [info] 	The race [0x2e0659d4: CLWShadowRace] was recognized as a new primary group [CLWShadowRace].
-[21:54:21.733] [info] 	The race [0x42002800: SkeletonCorpseRace] was recognized as a new secondary group [SkeletonCorpseRace].
-[21:54:21.733] [info] 	The race [0x13602091: BSKSnowElfRace] was recognized as a new primary group [BSKSnowElfRace].
-[21:54:21.733] [info] 	The race [0xcb0a19fd: BVNPCSnowElfRaceVampire] was recognized as a new primary group [BVNPCSnowElfRaceVampire].
-[21:54:21.733] [info] 	The race [0x29000d64: SunElfRaceVampire] was recognized as a member of existing group WoodElfRace.
-[21:54:21.733] [info] 	The race [0x29000d71: SunElfRace] was recognized as a member of existing group WoodElfRace.
-[21:54:21.733] [info] 	The race [0x2920a252: SunElfRaceZahkris] was recognized as a member of existing group WoodElfRace.
-[21:54:21.733] [info] 	The race [0x1f03881e: _Lull_MajerRace3] was recognized as a member of existing group WoodElfRace.
-[21:54:21.733] [info] 	The race [0x1f03881d: _Lull_MajerRace2] was recognized as a member of existing group WoodElfRace.
-[21:54:21.733] [info] 	The race [0xfe01082b: BGSSSE018_WoodElfRaceDoppelganger] was recognized as a member of existing group WoodElfRace.
-[21:54:21.733] [info] 	The race [0x1f00080f: _Lull_MajerRace1] was recognized as a member of existing group WoodElfRace.
-[21:54:21.733] [info] 	The race [0x4d438a25: TOK_RACE_PolymorphWoodElfRace] was recognized as a member of existing group WoodElfRace.
-[21:54:21.733] [info] 	The race [0x1f03881f: _Lull_MajerRace5] was recognized as a member of existing group WoodElfRace.
-[21:54:21.733] [info] 	The race [0xde0df5b3: HRI_Alternate_Race_WoodElfRace] was recognized as a new secondary group [HRI_Alternate_Race_WoodElfRace].
-[21:54:21.733] [info] 	The race [0x223f2788: zzzCrbYsgramorRace] was recognized as a new primary group [zzzCrbYsgramorRace].
-[21:54:21.733] [info] 	The race [0x32084640: 000FCZombieRace] was recognized as a new secondary group [000FCZombieRace].
-[21:54:21.733] [info] Processed [866] races: assigned genitalia to [95] races, preprocessed [13] races, found [0] races to be ready and ignored [758] races.
-[21:54:21.733] [info] Checking NPCs for custom skins...
-[21:54:21.736] [info] 		The skin [0xdb5d0] used does not have a body part. TNG ignores it.
-[21:54:21.736] [info] 		The skin [0xdb5d0] used does not have a body part. TNG ignores it.
-[21:54:21.736] [info] 		The skin [0xfe07e830] used does not have a body part. TNG ignores it.
-[21:54:21.737] [info] Finished checking NPCs for custom skins.
-[21:54:21.737] [info] 
+[01:00:46.491] [info] Initializing TheNewGentleman 4.2.3!
+[01:00:46.491] [info] Game version : 1-5-97-0
+[01:03:35.716] [info] Loading ini files...
+[01:03:35.722] [info] 	- Found [2] [CoveringRecord] entries in [Cold Foreigner_TNG.ini].
+[01:03:35.722] [info] 	- Found [2] [RevealingRecord] entries in [Cold Foreigner_TNG.ini].
+[01:03:35.725] [info] 	- Found [1] [ExcludeRacesInMod] entries in [Vigilant_TNG.ini].
+[01:03:35.725] [info] Loading TNG settings...
+[01:03:35.725] [info] 	TNG detected Racial Skin Variance and would force the player and NPCs to be reloaded
+[01:03:35.725] [info] TNG settings loaded.
+[01:03:35.725] [info] Loading the addons...
+[01:03:35.726] [info] Processing races...
+[01:03:35.726] [info] 	The race [0x13742: DarkElfRace] was recognized as a new primary group [DarkElfRace].
+[01:03:35.726] [info] 	The race [0x131f0: DremoraRace] was recognized as a member of existing group DarkElfRace.
+[01:03:35.726] [info] 	The race [0x2c564f3c: HPGThanosRace] was recognized as a member of existing group DarkElfRace.
+[01:03:35.726] [warning] 	The race [0x57277bb9: JRmihailimpracebossfire] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Lucien.esp].
+[01:03:35.726] [warning] 	The race [0x57277bba: JRmihailimpracebossshock] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Lucien.esp].
+[01:03:35.726] [warning] 	The race [0x57277bb6: JRmihailimprace] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Lucien.esp].
+[01:03:35.726] [warning] 	The race [0x57277bb7: JRmihailimpracechargedfire] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Lucien.esp].
+[01:03:35.726] [warning] 	The race [0x57277bb8: JRmihailimpracechargedshock] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Lucien.esp].
+[01:03:35.726] [info] 	The race [0x13743: HighElfRace] was recognized as a new primary group [HighElfRace].
+[01:03:35.726] [info] 	The race [0x88840: HighElfRaceVampire] was recognized as a new primary group [HighElfRaceVampire].
+[01:03:35.726] [warning] 	The race [0xfe68ba90: ksws03_angel_race] cannot have any genitals since their skin cannot be recognized!  It was last modified by [ksws03_quest.esp].
+[01:03:35.726] [info] 	The race [0x8883a: ArgonianRaceVampire] was recognized as a new primary group [ArgonianRaceVampire].
+[01:03:35.726] [info] 	The race [0x13740: ArgonianRace] was recognized as a new primary group [ArgonianRace].
+[01:03:35.726] [info] 	The race [0xfe010824: BGSSSE018_ArgonianRaceDoppelganger] was recognized as a member of existing group ArgonianRace.
+[01:03:35.726] [info] 	The race [0x4dab5377: TOK_RACE_PolymorphArgonianRace] was recognized as a member of existing group ArgonianRace.
+[01:03:35.726] [info] 	The race [0xde0df5aa: HRI_Alternate_Race_ArgonianRace] was recognized as a new secondary group [HRI_Alternate_Race_ArgonianRace].
+[01:03:35.726] [info] 	The race [0x223cdd29: zzzCrbBirdmanRace] was recognized as a new primary group [zzzCrbBirdmanRace].
+[01:03:35.726] [info] 	The race [Vigilant.esm: xx1e5405: zzzCHBlackHandRace] was ignored because an ini excludes it!
+[01:03:35.726] [info] 	The race [Vigilant.esm: xx2b8859: zzzCHBoneHumanBossRace] was ignored because an ini excludes it!
+[01:03:35.726] [info] 	The race [Vigilant.esm: xxb07e1: zzzCHBoneHumanRace] was ignored because an ini excludes it!
+[01:03:35.726] [info] 	The race [Vigilant.esm: xx4fe93f: zzzCHBoneHumanBossRacex015] was ignored because an ini excludes it!
+[01:03:35.726] [info] 	The race [Vigilant.esm: xx4fe93e: zzzCHBoneHumanBossRacex020] was ignored because an ini excludes it!
+[01:03:35.726] [info] 	The race [0x2231b016: zzzCrbBoneSmithRace] was recognized as a new primary group [zzzCrbBoneSmithRace].
+[01:03:35.726] [info] 	The race [0x88884: WoodElfRaceVampire] was recognized as a new primary group [WoodElfRaceVampire].
+[01:03:35.726] [info] 	The race [0x13749: WoodElfRace] was recognized as a new primary group [WoodElfRace].
+[01:03:35.726] [info] 	The race [0x97a3d: DA13AfflictedRace] was recognized as a new secondary group [DA13AfflictedRace].
+[01:03:35.726] [info] 	The race [0x110280b9: BretonRaceChildArnima] was recognized as a new primary group [BretonRaceChildArnima].
+[01:03:35.726] [info] 	The race [0x8883c: BretonRaceVampire] was recognized as a new primary group [BretonRaceVampire].
+[01:03:35.726] [info] 	The race [0x13741: BretonRace] was recognized as a new primary group [BretonRace].
+[01:03:35.726] [info] 	The race [0x4d438a28: TOK_RACE_PolymorphBretonRace] was recognized as a member of existing group BretonRace.
+[01:03:35.726] [info] 	The race [0xde0df5ab: HRI_Alternate_Race_BretonRace] was recognized as a new secondary group [HRI_Alternate_Race_BretonRace].
+[01:03:35.726] [info] 	The race [0x1f000810: _lull_ChronographerRace] was recognized as a member of existing group DarkElfRace.
+[01:03:35.726] [info] 	The race [0xb10bbee7: WB_ConjureCraftlord_Race] was recognized as a member of existing group HighElfRace.
+[01:03:35.726] [info] 	The race [0x1a5201c8: DwaSpDwemerologist02] was recognized as a member of existing group DarkElfRace.
+[01:03:35.726] [info] 	The race [0x4dab5378: TOK_RACE_PolymorphDarkElfRace] was recognized as a member of existing group DarkElfRace.
+[01:03:35.726] [info] 	The race [0x3601ab49: MASNerevarineRace] was recognized as a member of existing group DarkElfRace.
+[01:03:35.726] [info] 	The race [0x1a515f9d: DwaSpDwemerologist01] was recognized as a member of existing group DarkElfRace.
+[01:03:35.726] [info] 	The race [0x1f06779a: _Lull_FyrRace] was recognized as a member of existing group DarkElfRace.
+[01:03:35.726] [info] 	The race [0xde0df5ac: HRI_Alternate_Race_DarkElfRace] was recognized as a new secondary group [HRI_Alternate_Race_DarkElfRace].
+[01:03:35.726] [warning] 	The race [0xc000817: ccBGSSSE025_DarkSeducerRace] cannot have any genitals since their skin cannot be recognized!  It was last modified by [ccbgssse025-advdsgs.esm].
+[01:03:35.726] [info] 	The race [Vigilant.esm: xx2de6eb: zzzCHDraugrHumanBossRace] was ignored because an ini excludes it!
+[01:03:35.726] [info] 	The race [0x2920c315: DremoraRaceZahkris] was recognized as a new primary group [DremoraRaceZahkris].
+[01:03:35.726] [info] 	The race [0x1166fa88: ArnimaDremoraRace] was recognized as a member of existing group BretonRace.
+[01:03:35.726] [warning] 	The race [0xb3427952: MAG_DremoraRaceShield] cannot have any genitals since their skin cannot be recognized!  It was last modified by [MysticismMagic.esp].
+[01:03:35.726] [info] 	The race [0x4035538: DLC2DremoraRace] was recognized as a member of existing group DarkElfRace.
+[01:03:35.726] [info] 	The race [0x54003328: CoT_KrellykClothes] was recognized as a new secondary group [CoT_KrellykClothes].
+[01:03:35.726] [info] 	The race [0x223cdd38: zzzCrbDreughElfRace] was recognized as a new primary group [zzzCrbDreughElfRace].
+[01:03:35.726] [info] 	The race [0x8883d: DarkElfRaceVampire] was recognized as a new primary group [DarkElfRaceVampire].
+[01:03:35.726] [info] 	The race [0x1f0719a1: _lull_yagrum] was recognized as a member of existing group DarkElfRace.
+[01:03:35.726] [info] 	The race [0x1f06c8a0: _lull_dwemer] was recognized as a member of existing group HighElfRace.
+[01:03:35.726] [info] 	The race [0xa1000d6b: _DS_DwemerRace] was recognized as a member of existing group DarkElfRace.
+[01:03:35.726] [info] 	The race [0x2c3a8a63: HPGToadRace] was recognized as a new primary group [HPGToadRace].
+[01:03:35.726] [warning] 	The race [0x560ff210: IniGiantRace] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Inigo.esp].
+[01:03:35.726] [warning] 	The race [0x2e220ec9: CLWGildedRace] cannot have any genitals since their skin cannot be recognized!  It was last modified by [ClockworkBugFixes.esp].
+[01:03:35.727] [warning] 	The race [0xc000816: ccBGSSSE025_GoldenSaintRace] cannot have any genitals since their skin cannot be recognized!  It was last modified by [ccbgssse025-advdsgs.esm].
+[01:03:35.727] [info] 	The race [0x221dd5b1: zzzCrbGrayOwlRace] was recognized as a new primary group [zzzCrbGrayOwlRace].
+[01:03:35.727] [info] 	The race [0x220ce5ef: zzzCrbHalfDragonChildRace] was recognized as a new secondary group [zzzCrbHalfDragonChildRace].
+[01:03:35.727] [info] 	The race [0x220022f5: zzzCrbHalfDragonRace] was recognized as a new secondary group [zzzCrbHalfDragonRace].
+[01:03:35.727] [info] 	The race [0x1f000837: _Lull_SecariusRace] was recognized as a member of existing group HighElfRace.
+[01:03:35.727] [info] 	The race [0x1360201b: BSKSeaElfRace] was recognized as a new primary group [BSKSeaElfRace].
+[01:03:35.727] [info] 	The race [0x13601fcd: BSKWildElfRace] was recognized as a new primary group [BSKWildElfRace].
+[01:03:35.727] [warning] 	The race [0x320a7ad9: 000FCArbiterRace] cannot have any genitals since their skin cannot be recognized!  It was last modified by [ForgottenCity.esp].
+[01:03:35.727] [info] 	The race [0x1f005b18: _Lull_ThalmorMutant_NoHead] was recognized as a member of existing group HighElfRace.
+[01:03:35.727] [info] 	The race [0x4dab5379: TOK_RACE_PolymorphHighElfRace] was recognized as a member of existing group HighElfRace.
+[01:03:35.727] [info] 	The race [0x1f124402: _Lull_ThalmorMutant_BigHead] was recognized as a member of existing group HighElfRace.
+[01:03:35.727] [info] 	The race [0x1f129505: _Lull_ThalmorMutant_Long] was recognized as a member of existing group HighElfRace.
+[01:03:35.727] [info] 	The race [0x1f129507: _Lull_ThalmorMutant_Armed] was recognized as a member of existing group HighElfRace.
+[01:03:35.727] [info] 	The race [0x1f005b1a: _Lull_ThalmorMutant_Masscroft] was recognized as a member of existing group HighElfRace.
+[01:03:35.727] [info] 	The race [0x200377d: SnowElfRace] was recognized as a new primary group [SnowElfRace].
+[01:03:35.727] [info] 	The race [0xde0df5ad: HRI_Alternate_Race_HighElfRace] was recognized as a new secondary group [HRI_Alternate_Race_HighElfRace].
+[01:03:35.727] [info] 	The race [0x223f500f: zzzCrbHoholaughRace] was recognized as a new primary group [zzzCrbHoholaughRace].
+[01:03:35.727] [info] 	The race [Vigilant.esm: xx500dba: zzzCHImgaHumanRace] was ignored because an ini excludes it!
+[01:03:35.727] [info] 	The race [0x13744: ImperialRace] was recognized as a new primary group [ImperialRace].
+[01:03:35.727] [info] 	The race [0x4dab537a: TOK_RACE_PolymorphImperialRace] was recognized as a member of existing group ImperialRace.
+[01:03:35.727] [info] 	The race [0x88844: ImperialRaceVampire] was recognized as a new primary group [ImperialRaceVampire].
+[01:03:35.727] [info] 	The race [0xde0df5ae: HRI_Alternate_Race_ImperialRace] was recognized as a new secondary group [HRI_Alternate_Race_ImperialRace].
+[01:03:35.727] [warning] 	The race [0x71e6a: InvisibleRace] cannot have any genitals since they do not have a skin! It was last modified by [Skyrim.esm].
+[01:03:35.727] [warning] 	The race [0xc9e8ada5: HTZahkriisosEntityOfThunderRace] cannot have any genitals since they do not have a skin! It was last modified by [Fanatical Enemies.esp].
+[01:03:35.727] [warning] 	The race [0xc9ba1d1d: HTInvisibleRaceFieryOrb] cannot have any genitals since they do not have a skin! It was last modified by [Fanatical Enemies.esp].
+[01:03:35.727] [info] 	The race [0x5c12624d: AK69KatanaRace] was recognized as a new secondary group [AK69KatanaRace].
+[01:03:35.727] [info] 	The race [0x88845: KhajiitRaceVampire] was recognized as a new primary group [KhajiitRaceVampire].
+[01:03:35.727] [info] 	The race [0x13745: KhajiitRace] was recognized as a new primary group [KhajiitRace].
+[01:03:35.727] [info] 	The race [0xfe010828: BGSSSE018_KhajiitRaceDoppelganger] was recognized as a member of existing group KhajiitRace.
+[01:03:35.727] [info] 	The race [0x4d433920: TOK_RACE_PolymorphKhajiitRace] was recognized as a member of existing group KhajiitRace.
+[01:03:35.727] [info] 	The race [0xde0df5af: HRI_Alternate_Race_KhajiitRace] was recognized as a new secondary group [HRI_Alternate_Race_KhajiitRace].
+[01:03:35.727] [info] 	The race [JKJKhajiitAltCathayCatRace] is designed to be ignored by TNG. It was not modified.
+[01:03:35.727] [info] 	The race [JKJKhajiitCathayRahtAltLioness] is designed to be ignored by TNG. It was not modified.
+[01:03:35.727] [info] 	The race [JKJKhajiitCathayRaht] is designed to be ignored by TNG. It was not modified.
+[01:03:35.727] [info] 	The race [JKJKhajiitDagiRaht] is designed to be ignored by TNG. It was not modified.
+[01:03:35.727] [info] 	The race [JKJKhajiitOhmes] is designed to be ignored by TNG. It was not modified.
+[01:03:35.727] [info] 	The race [JKJKhajiitOhmesRahtRace] is designed to be ignored by TNG. It was not modified.
+[01:03:35.727] [info] 	The race [JKJKhajiitPahmarRaht] is designed to be ignored by TNG. It was not modified.
+[01:03:35.727] [info] 	The race [JKJKhajiitSuthayRahtAltTiger] is designed to be ignored by TNG. It was not modified.
+[01:03:35.727] [info] 	The race [JKJKhajiitSuthayRaht] is designed to be ignored by TNG. It was not modified.
+[01:03:35.727] [info] 	The race [JKJKhajiitTojay] is designed to be ignored by TNG. It was not modified.
+[01:03:35.727] [info] 	The race [Vigilant.esm: xx6592b: zzzCOChildRaceKillable] was ignored because an ini excludes it!
+[01:03:35.727] [info] 	The race [Vigilant.esm: xx53e71: zzzCOBuroRace] was ignored because an ini excludes it!
+[01:03:35.727] [info] 	The race [0x22350b98: zzzCrbManakinRace] was recognized as a new secondary group [zzzCrbManakinRace].
+[01:03:35.727] [info] 	The race [Vigilant.esm: xx50f8c8: zzzCHMntrRaceChild] was ignored because an ini excludes it!
+[01:03:35.727] [info] 	The race [Vigilant.esm: xx510ae2: zzzCHMntrRaceElder] was ignored because an ini excludes it!
+[01:03:35.727] [info] 	The race [Vigilant.esm: xx510ae1: zzzCHMntrRaceVampire] was ignored because an ini excludes it!
+[01:03:35.727] [info] 	The race [Vigilant.esm: xx50f8b8: zzzCHMntrRace] was ignored because an ini excludes it!
+[01:03:35.727] [info] 	The race [0x13746: NordRace] was recognized as a new primary group [NordRace].
+[01:03:35.727] [info] 	The race [0x571f33df: aaaLucDweWarriorRace] was recognized as a new primary group [aaaLucDweWarriorRace].
+[01:03:35.727] [info] 	The race [0x403ca97: DLC2MiraakRace] was recognized as a member of existing group NordRace.
+[01:03:35.727] [info] 	The race [0x10760a: ManakinRace] was recognized as a new primary group [ManakinRace].
+[01:03:35.727] [warning] 	The race [0xc9be3a61: HTNordRaceVampireLyrezi] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Fanatical Enemies.esp].
+[01:03:35.727] [warning] 	The race [0x2d2c9387: XJKGolemArmorRace] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Darkend.esp].
+[01:03:35.727] [info] 	The race [0xfe010829: BGSSSE018_NordRaceDoppelganger] was recognized as a member of existing group NordRace.
+[01:03:35.727] [warning] 	The race [0x2004d31: TestRace] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Dawnguard.esm].
+[01:03:35.727] [warning] 	The race [0x320a7ada: 000FCArbiterRace2] cannot have any genitals since their skin cannot be recognized!  It was last modified by [ForgottenCity.esp].
+[01:03:35.727] [info] 	The race [0x4d438a26: TOK_RACE_PolymorphNordRace] was recognized as a member of existing group NordRace.
+[01:03:35.727] [warning] 	The race [0x2d20560e: XJKNordRace] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Darkend.esp].
+[01:03:35.727] [info] 	The race [0xfe371d71: 00AelaRace] was recognized as a new secondary group [00AelaRace].
+[01:03:35.727] [info] 	The race [0x200e88a: DLC1NordRace] was recognized as a member of existing group NordRace.
+[01:03:35.727] [info] 	The race [0x88794: NordRaceVampire] was recognized as a new primary group [NordRaceVampire].
+[01:03:35.727] [warning] 	The race [0xc9b84c97: HTShadowmanRace] cannot have any genitals since their skin cannot be recognized!  It was last modified by [Fanatical Enemies.esp].
+[01:03:35.727] [info] 	The race [0x7eaf3: NordRaceAstrid] was recognized as a new primary group [NordRaceAstrid].
+[01:03:35.727] [info] 	The race [0x2d461744: XJKSkelLordRace] was recognized as a new primary group [XJKSkelLordRace].
+[01:03:35.727] [info] 	The race [0xde0df5b0: HRI_Alternate_Race_NordRace] was recognized as a new secondary group [HRI_Alternate_Race_NordRace].
+[01:03:35.727] [info] 	The race [0x67cd8: ElderRace] was recognized as a new primary group [ElderRace].
+[01:03:35.727] [info] 	The race [0x1360270e: BSKRedguardElderRace] was recognized as a member of existing group ElderRace.
+[01:03:35.727] [info] 	The race [0x13602710: BSKImperialElderRace] was recognized as a member of existing group ElderRace.
+[01:03:35.727] [info] 	The race [0x13602707: BSKReachmanElderRace] was recognized as a member of existing group ElderRace.
+[01:03:35.727] [info] 	The race [0xa82ba: ElderRaceVampire] was recognized as a new primary group [ElderRaceVampire].
+[01:03:35.727] [info] 	The race [0x1360270f: BSKBretonElderRace] was recognized as a member of existing group ElderRace.
+[01:03:35.727] [info] 	The race [0x330a5beb: 000ElderRace] was recognized as a member of existing group ElderRace.
+[01:03:35.727] [info] 	The race [0x13747: OrcRace] was recognized as a new primary group [OrcRace].
+[01:03:35.727] [info] 	The race [0x4d438a22: TOK_RACE_PolymorphOrcRace] was recognized as a member of existing group OrcRace.
+[01:03:35.727] [info] 	The race [0xa82b9: OrcRaceVampire] was recognized as a new primary group [OrcRaceVampire].
+[01:03:35.727] [info] 	The race [0xfe01082a: BGSSSE018_OrcRaceDoppelganger] was recognized as a member of existing group OrcRace.
+[01:03:35.727] [info] 	The race [0xde0df5b1: HRI_Alternate_Race_OrcRace] was recognized as a new secondary group [HRI_Alternate_Race_OrcRace].
+[01:03:35.727] [warning] 	The race [0x3000e5aa: Sabretiger_race] cannot have any genitals since their skin cannot be recognized!  It was last modified by [moonpath.esp].
+[01:03:35.727] [warning] 	The race [0x1200e5aa: Sabretiger_race] cannot have any genitals since their skin cannot be recognized!  It was last modified by [LegacyoftheDragonborn.esm].
+[01:03:35.727] [info] 	The race [0x13748: RedguardRace] was recognized as a new primary group [RedguardRace].
+[01:03:35.727] [info] 	The race [0x4dab537b: TOK_RACE_PolymorphRedguardRace] was recognized as a member of existing group RedguardRace.
+[01:03:35.727] [info] 	The race [0x88846: RedguardRaceVampire] was recognized as a new primary group [RedguardRaceVampire].
+[01:03:35.727] [info] 	The race [0xde0df5b2: HRI_Alternate_Race_RedguardRace] was recognized as a new secondary group [HRI_Alternate_Race_RedguardRace].
+[01:03:35.727] [info] 	The race [0x2e0659d4: CLWShadowRace] was recognized as a new primary group [CLWShadowRace].
+[01:03:35.727] [info] 	The race [0x42002800: SkeletonCorpseRace] was recognized as a new secondary group [SkeletonCorpseRace].
+[01:03:35.727] [info] 	The race [0x13602091: BSKSnowElfRace] was recognized as a new primary group [BSKSnowElfRace].
+[01:03:35.727] [info] 	The race [0xcb0a19fd: BVNPCSnowElfRaceVampire] was recognized as a new primary group [BVNPCSnowElfRaceVampire].
+[01:03:35.727] [info] 	The race [0x29000d64: SunElfRaceVampire] was recognized as a member of existing group WoodElfRace.
+[01:03:35.727] [info] 	The race [0x29000d71: SunElfRace] was recognized as a member of existing group WoodElfRace.
+[01:03:35.727] [info] 	The race [0x2920a252: SunElfRaceZahkris] was recognized as a member of existing group WoodElfRace.
+[01:03:35.727] [info] 	The race [0x1f03881e: _Lull_MajerRace3] was recognized as a member of existing group WoodElfRace.
+[01:03:35.727] [info] 	The race [0x1f03881d: _Lull_MajerRace2] was recognized as a member of existing group WoodElfRace.
+[01:03:35.727] [info] 	The race [0xfe01082b: BGSSSE018_WoodElfRaceDoppelganger] was recognized as a member of existing group WoodElfRace.
+[01:03:35.727] [info] 	The race [0x1f00080f: _Lull_MajerRace1] was recognized as a member of existing group WoodElfRace.
+[01:03:35.727] [info] 	The race [0x4d438a25: TOK_RACE_PolymorphWoodElfRace] was recognized as a member of existing group WoodElfRace.
+[01:03:35.727] [info] 	The race [0x1f03881f: _Lull_MajerRace5] was recognized as a member of existing group WoodElfRace.
+[01:03:35.727] [info] 	The race [0xde0df5b3: HRI_Alternate_Race_WoodElfRace] was recognized as a new secondary group [HRI_Alternate_Race_WoodElfRace].
+[01:03:35.727] [info] 	The race [0x223f2788: zzzCrbYsgramorRace] was recognized as a new primary group [zzzCrbYsgramorRace].
+[01:03:35.727] [info] 	The race [0x32084640: 000FCZombieRace] was recognized as a new secondary group [000FCZombieRace].
+[01:03:35.728] [info] Processed [866] races: assigned genitalia to [95] races, preprocessed [13] races, found [0] races to be ready and ignored [758] races.
+[01:03:35.728] [info] Checking NPCs for custom skins...
+[01:03:35.729] [info] 		The skin [0xdb5d0] used does not have a body part. TNG ignores it.
+[01:03:35.729] [info] 		The skin [0xdb5d0] used does not have a body part. TNG ignores it.
+[01:03:35.729] [info] 		The skin [0xfe07e830] used does not have a body part. TNG ignores it.
+[01:03:35.730] [info] Finished checking NPCs for custom skins.
+[01:03:35.730] [info] 
 TNG would not show the following race groups in the MCM since there are either no genital available to them or there are very few NPCs which use them:
-[21:54:21.737] [info] 	Race group [HRI_Alternate_Race_ArgonianRace] with the following information: Main race: [Growl - Werebeasts of Skyrim.esp : HRI_Alternate_Race_ArgonianRace]; Armor race: [ArgonianRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [zzzCrbBirdmanRace] with the following information: Main race: [Unslaad.esm : zzzCrbBirdmanRace]; Armor race: [zzzCrbBirdmanRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [zzzCrbBoneSmithRace] with the following information: Main race: [Unslaad.esm : zzzCrbBoneSmithRace]; Armor race: [zzzCrbBoneSmithRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [BretonRaceChildArnima] with the following information: Main race: [arnima.esm : BretonRaceChildArnima]; Armor race: [BretonRaceChildArnima]; Additional races: [].
-[21:54:21.737] [info] 	Race group [HRI_Alternate_Race_BretonRace] with the following information: Main race: [Growl - Werebeasts of Skyrim.esp : HRI_Alternate_Race_BretonRace]; Armor race: [BretonRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [HRI_Alternate_Race_DarkElfRace] with the following information: Main race: [Growl - Werebeasts of Skyrim.esp : HRI_Alternate_Race_DarkElfRace]; Armor race: [DarkElfRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [DremoraRaceZahkris] with the following information: Main race: [Midwood Isle.esp : DremoraRaceZahkris]; Armor race: [DremoraRaceZahkris]; Additional races: [].
-[21:54:21.737] [info] 	Race group [CoT_KrellykClothes] with the following information: Main race: [CitizensComplete.esp : CoT_KrellykClothes]; Armor race: [DefaultRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [zzzCrbDreughElfRace] with the following information: Main race: [Unslaad.esm : zzzCrbDreughElfRace]; Armor race: [zzzCrbDreughElfRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [HPGToadRace] with the following information: Main race: [Haem Projects Goblands.esp : HPGToadRace]; Armor race: [HPGToadRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [zzzCrbGrayOwlRace] with the following information: Main race: [Unslaad.esm : zzzCrbGrayOwlRace]; Armor race: [zzzCrbGrayOwlRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [zzzCrbHalfDragonChildRace] with the following information: Main race: [Unslaad.esm : zzzCrbHalfDragonChildRace]; Armor race: [DefaultRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [BSKSeaElfRace] with the following information: Main race: [BSAssets.esm : BSKSeaElfRace]; Armor race: [BSKSeaElfRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [BSKWildElfRace] with the following information: Main race: [BSAssets.esm : BSKWildElfRace]; Armor race: [BSKWildElfRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [HRI_Alternate_Race_HighElfRace] with the following information: Main race: [Growl - Werebeasts of Skyrim.esp : HRI_Alternate_Race_HighElfRace]; Armor race: [HighElfRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [zzzCrbHoholaughRace] with the following information: Main race: [Unslaad.esm : zzzCrbHoholaughRace]; Armor race: [zzzCrbHoholaughRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [HRI_Alternate_Race_ImperialRace] with the following information: Main race: [Growl - Werebeasts of Skyrim.esp : HRI_Alternate_Race_ImperialRace]; Armor race: [ImperialRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [AK69KatanaRace] with the following information: Main race: [Katana.esp : AK69KatanaRace]; Armor race: [NordRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [HRI_Alternate_Race_KhajiitRace] with the following information: Main race: [Growl - Werebeasts of Skyrim.esp : HRI_Alternate_Race_KhajiitRace]; Armor race: [KhajiitRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [ManakinRace] with the following information: Main race: [Skyrim.esm : ManakinRace]; Armor race: [ManakinRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [00AelaRace] with the following information: Main race: [AelaStandalone.esp : 00AelaRace]; Armor race: [DefaultRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [NordRaceAstrid] with the following information: Main race: [Skyrim.esm : NordRaceAstrid]; Armor race: [NordRaceAstrid]; Additional races: [].
-[21:54:21.737] [info] 	Race group [XJKSkelLordRace] with the following information: Main race: [Darkend.esp : XJKSkelLordRace]; Armor race: [XJKSkelLordRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [HRI_Alternate_Race_NordRace] with the following information: Main race: [Growl - Werebeasts of Skyrim.esp : HRI_Alternate_Race_NordRace]; Armor race: [NordRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [HRI_Alternate_Race_OrcRace] with the following information: Main race: [Growl - Werebeasts of Skyrim.esp : HRI_Alternate_Race_OrcRace]; Armor race: [OrcRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [HRI_Alternate_Race_RedguardRace] with the following information: Main race: [Growl - Werebeasts of Skyrim.esp : HRI_Alternate_Race_RedguardRace]; Armor race: [RedguardRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [CLWShadowRace] with the following information: Main race: [Clockwork.esp : CLWShadowRace]; Armor race: [CLWShadowRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [SkeletonCorpseRace] with the following information: Main race: [Weapons Armor Clothing & Clutter Fixes.esp : SkeletonCorpseRace]; Armor race: [ManakinRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [BSKSnowElfRace] with the following information: Main race: [BSAssets.esm : BSKSnowElfRace]; Armor race: [BSKSnowElfRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [HRI_Alternate_Race_WoodElfRace] with the following information: Main race: [Growl - Werebeasts of Skyrim.esp : HRI_Alternate_Race_WoodElfRace]; Armor race: [WoodElfRace]; Additional races: [].
-[21:54:21.737] [info] 	Race group [zzzCrbYsgramorRace] with the following information: Main race: [Unslaad.esm : zzzCrbYsgramorRace]; Armor race: [zzzCrbYsgramorRace]; Additional races: [].
-[21:54:21.737] [info] Checking ARMO records...
-[21:54:21.743] [info] 		The armor [0xfe5e4813] would cover genitals!
-[21:54:21.743] [info] 		The armor [0xfe5e4852] would cover genitals!
-[21:54:21.744] [info] 		The armor [0xfe644811] would cover genitals!
-[21:54:21.744] [info] 		The armor [0xfe64981e] would cover genitals!
-[21:54:21.744] [info] 		The armor [0xfe64981f] would cover genitals!
-[21:54:21.744] [info] 		The armor [0xfe64ad75] would cover genitals!
-[21:54:21.744] [info] 		The armor [0xfe678802] would cover genitals!
-[21:54:21.745] [info] 		The armor [0xfe686d6b] would cover genitals!
-[21:54:21.745] [info] 		The armor [0xfe6b4d70] would cover genitals!
-[21:54:21.745] [info] 		The armor [0xfe6b4d93] would cover genitals!
-[21:54:21.745] [info] 		The armor [0xfe6b7801] would cover genitals!
-[21:54:21.745] [info] 		The armor [0xfe6b7825] would cover genitals!
-[21:54:21.745] [info] 		The armor [0xfe6c6807] would cover genitals!
-[21:54:21.745] [info] 		The armor [0xfe6c681e] would cover genitals!
-[21:54:21.745] [info] 		The armor [0xfe6c6836] would cover genitals!
-[21:54:21.745] [info] 		The armor [0xfe6c8830] would cover genitals!
-[21:54:21.745] [info] 		The armor [0xfe6cc801: Cold Foreigner Cuirass] was marked with [TNG_Revealing] keyword.
-[21:54:21.745] [info] 		The armor [0xfe6cc80f: Cold Foreigner Trousers] was marked with [TNG_Covering] keyword.
-[21:54:21.745] [info] 		The armor [0xfe6cc812: Cold Foreigner Unarmored Outfit] was marked with [TNG_Revealing] keyword.
-[21:54:21.745] [info] 		The armor [0xfe6cc814: Cold Foreigner Unarmored Trousers] was marked with [TNG_Covering] keyword.
-[21:54:21.745] [info] 		The armor [0xfe6dc801] would cover genitals!
-[21:54:21.745] [info] 		The armor [0xfe6dc83a] would cover genitals!
-[21:54:21.745] [info] 		The armor [0xfe6dc83b] would cover genitals!
-[21:54:21.745] [info] 		The armor [0xfe6dc83f] would cover genitals!
-[21:54:21.745] [info] 		The armor [0xfe6dc842] would cover genitals!
-[21:54:21.745] [info] 		The armor [0xfe6dc843] would cover genitals!
-[21:54:21.745] [info] 		The armor [0xfe6de86f] would cover genitals!
-[21:54:21.745] [info] 		The armor [0xfe6de870] would cover genitals!
-[21:54:21.745] [info] 		The armor [0xfe6dedf5] would cover genitals!
-[21:54:21.745] [info] 		The armor [0xfe6dedf6] would cover genitals!
-[21:54:21.750] [info] 	Processed [20104] armor pieces:
-[21:54:21.750] [info] 		[137]: were already marked with TNG keywords.
-[21:54:21.750] [info] 		[28]: are covering due to ini-files, having slot 52, or previous user input.
-[21:54:21.750] [info] 		[2]: are revealing, due to ini-files, having SOS_Revealing, or previous user input.
-[21:54:21.750] [info] 		[4278]: were recognized to be covering.
-[21:54:21.750] [info] 		The rest [15659] are not relevant and are ignored!
-[21:54:21.750] [info] Finished checking ARMO records.
-[21:54:21.750] [info] Registered for necessary events.
-[21:54:21.750] [info] Installed Load3D hook.
-[21:54:21.750] [info] TheNewGentleman finished initialization.
-[21:57:13.373] [info] The skin [0xfe2f3818] was updated accordingly
-[21:57:14.997] [info] The skin [0xfe2f3ddd] was updated accordingly
-[22:06:22.752] [info] The skin [0xfe2f3dde] was updated accordingly
+[01:03:35.730] [info] 	Race group [HRI_Alternate_Race_ArgonianRace] with the following information: Main race: [Growl - Werebeasts of Skyrim.esp : HRI_Alternate_Race_ArgonianRace]; Armor race: [ArgonianRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [zzzCrbBirdmanRace] with the following information: Main race: [Unslaad.esm : zzzCrbBirdmanRace]; Armor race: [zzzCrbBirdmanRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [zzzCrbBoneSmithRace] with the following information: Main race: [Unslaad.esm : zzzCrbBoneSmithRace]; Armor race: [zzzCrbBoneSmithRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [BretonRaceChildArnima] with the following information: Main race: [arnima.esm : BretonRaceChildArnima]; Armor race: [BretonRaceChildArnima]; Additional races: [].
+[01:03:35.730] [info] 	Race group [HRI_Alternate_Race_BretonRace] with the following information: Main race: [Growl - Werebeasts of Skyrim.esp : HRI_Alternate_Race_BretonRace]; Armor race: [BretonRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [HRI_Alternate_Race_DarkElfRace] with the following information: Main race: [Growl - Werebeasts of Skyrim.esp : HRI_Alternate_Race_DarkElfRace]; Armor race: [DarkElfRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [DremoraRaceZahkris] with the following information: Main race: [Midwood Isle.esp : DremoraRaceZahkris]; Armor race: [DremoraRaceZahkris]; Additional races: [].
+[01:03:35.730] [info] 	Race group [CoT_KrellykClothes] with the following information: Main race: [CitizensComplete.esp : CoT_KrellykClothes]; Armor race: [DefaultRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [zzzCrbDreughElfRace] with the following information: Main race: [Unslaad.esm : zzzCrbDreughElfRace]; Armor race: [zzzCrbDreughElfRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [HPGToadRace] with the following information: Main race: [Haem Projects Goblands.esp : HPGToadRace]; Armor race: [HPGToadRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [zzzCrbGrayOwlRace] with the following information: Main race: [Unslaad.esm : zzzCrbGrayOwlRace]; Armor race: [zzzCrbGrayOwlRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [zzzCrbHalfDragonChildRace] with the following information: Main race: [Unslaad.esm : zzzCrbHalfDragonChildRace]; Armor race: [DefaultRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [BSKSeaElfRace] with the following information: Main race: [BSAssets.esm : BSKSeaElfRace]; Armor race: [BSKSeaElfRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [BSKWildElfRace] with the following information: Main race: [BSAssets.esm : BSKWildElfRace]; Armor race: [BSKWildElfRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [HRI_Alternate_Race_HighElfRace] with the following information: Main race: [Growl - Werebeasts of Skyrim.esp : HRI_Alternate_Race_HighElfRace]; Armor race: [HighElfRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [zzzCrbHoholaughRace] with the following information: Main race: [Unslaad.esm : zzzCrbHoholaughRace]; Armor race: [zzzCrbHoholaughRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [HRI_Alternate_Race_ImperialRace] with the following information: Main race: [Growl - Werebeasts of Skyrim.esp : HRI_Alternate_Race_ImperialRace]; Armor race: [ImperialRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [AK69KatanaRace] with the following information: Main race: [Katana.esp : AK69KatanaRace]; Armor race: [NordRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [HRI_Alternate_Race_KhajiitRace] with the following information: Main race: [Growl - Werebeasts of Skyrim.esp : HRI_Alternate_Race_KhajiitRace]; Armor race: [KhajiitRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [ManakinRace] with the following information: Main race: [Skyrim.esm : ManakinRace]; Armor race: [ManakinRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [00AelaRace] with the following information: Main race: [AelaStandalone.esp : 00AelaRace]; Armor race: [DefaultRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [NordRaceAstrid] with the following information: Main race: [Skyrim.esm : NordRaceAstrid]; Armor race: [NordRaceAstrid]; Additional races: [].
+[01:03:35.730] [info] 	Race group [XJKSkelLordRace] with the following information: Main race: [Darkend.esp : XJKSkelLordRace]; Armor race: [XJKSkelLordRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [HRI_Alternate_Race_NordRace] with the following information: Main race: [Growl - Werebeasts of Skyrim.esp : HRI_Alternate_Race_NordRace]; Armor race: [NordRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [HRI_Alternate_Race_OrcRace] with the following information: Main race: [Growl - Werebeasts of Skyrim.esp : HRI_Alternate_Race_OrcRace]; Armor race: [OrcRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [HRI_Alternate_Race_RedguardRace] with the following information: Main race: [Growl - Werebeasts of Skyrim.esp : HRI_Alternate_Race_RedguardRace]; Armor race: [RedguardRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [CLWShadowRace] with the following information: Main race: [Clockwork.esp : CLWShadowRace]; Armor race: [CLWShadowRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [SkeletonCorpseRace] with the following information: Main race: [Weapons Armor Clothing & Clutter Fixes.esp : SkeletonCorpseRace]; Armor race: [ManakinRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [BSKSnowElfRace] with the following information: Main race: [BSAssets.esm : BSKSnowElfRace]; Armor race: [BSKSnowElfRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [HRI_Alternate_Race_WoodElfRace] with the following information: Main race: [Growl - Werebeasts of Skyrim.esp : HRI_Alternate_Race_WoodElfRace]; Armor race: [WoodElfRace]; Additional races: [].
+[01:03:35.730] [info] 	Race group [zzzCrbYsgramorRace] with the following information: Main race: [Unslaad.esm : zzzCrbYsgramorRace]; Armor race: [zzzCrbYsgramorRace]; Additional races: [].
+[01:03:35.730] [info] Checking ARMO records...
+[01:03:35.734] [info] 		The armor [0xfe5e4813] would cover genitals!
+[01:03:35.734] [info] 		The armor [0xfe5e4852] would cover genitals!
+[01:03:35.734] [info] 		The armor [0xfe644811] would cover genitals!
+[01:03:35.734] [info] 		The armor [0xfe64981e] would cover genitals!
+[01:03:35.734] [info] 		The armor [0xfe64981f] would cover genitals!
+[01:03:35.734] [info] 		The armor [0xfe64ad75] would cover genitals!
+[01:03:35.735] [info] 		The armor [0xfe678802] would cover genitals!
+[01:03:35.735] [info] 		The armor [0xfe686d6b] would cover genitals!
+[01:03:35.735] [info] 		The armor [0xfe6b4d70] would cover genitals!
+[01:03:35.735] [info] 		The armor [0xfe6b4d93] would cover genitals!
+[01:03:35.735] [info] 		The armor [0xfe6b7801] would cover genitals!
+[01:03:35.735] [info] 		The armor [0xfe6b7825] would cover genitals!
+[01:03:35.735] [info] 		The armor [0xfe6c6807] would cover genitals!
+[01:03:35.735] [info] 		The armor [0xfe6c681e] would cover genitals!
+[01:03:35.735] [info] 		The armor [0xfe6c6836] would cover genitals!
+[01:03:35.735] [info] 		The armor [0xfe6c8830] would cover genitals!
+[01:03:35.735] [info] 		The armor [0xfe6cc801: Cold Foreigner Cuirass] was marked with [TNG_Revealing] keyword.
+[01:03:35.735] [info] 		The armor [0xfe6cc80f: Cold Foreigner Trousers] was marked with [TNG_Covering] keyword.
+[01:03:35.735] [info] 		The armor [0xfe6cc812: Cold Foreigner Unarmored Outfit] was marked with [TNG_Revealing] keyword.
+[01:03:35.735] [info] 		The armor [0xfe6cc814: Cold Foreigner Unarmored Trousers] was marked with [TNG_Covering] keyword.
+[01:03:35.735] [info] 		The armor [0xfe6dc801] would cover genitals!
+[01:03:35.735] [info] 		The armor [0xfe6dc83a] would cover genitals!
+[01:03:35.735] [info] 		The armor [0xfe6dc83b] would cover genitals!
+[01:03:35.735] [info] 		The armor [0xfe6dc83f] would cover genitals!
+[01:03:35.735] [info] 		The armor [0xfe6dc842] would cover genitals!
+[01:03:35.735] [info] 		The armor [0xfe6dc843] would cover genitals!
+[01:03:35.735] [info] 		The armor [0xfe6de86f] would cover genitals!
+[01:03:35.735] [info] 		The armor [0xfe6de870] would cover genitals!
+[01:03:35.735] [info] 		The armor [0xfe6dedf5] would cover genitals!
+[01:03:35.735] [info] 		The armor [0xfe6dedf6] would cover genitals!
+[01:03:35.738] [info] 	Processed [20104] armor pieces:
+[01:03:35.738] [info] 		[137]: were already marked with TNG keywords.
+[01:03:35.738] [info] 		[28]: are covering due to ini-files, having slot 52, or previous user input.
+[01:03:35.738] [info] 		[2]: are revealing, due to ini-files, having SOS_Revealing, or previous user input.
+[01:03:35.738] [info] 		[4278]: were recognized to be covering.
+[01:03:35.738] [info] 		The rest [15659] are not relevant and are ignored!
+[01:03:35.738] [info] Finished checking ARMO records.
+[01:03:35.738] [info] Registered for necessary events.
+[01:03:35.738] [info] Installed Load3D hook.
+[01:03:35.738] [info] TheNewGentleman finished initialization.
+[01:04:27.095] [info] The skin [0xfe2f3818] was updated accordingly
+[01:04:27.551] [info] The skin [0xfe2f3ddd] was updated accordingly
+[01:04:27.714] [info] The skin [0xfe2f3dde] was updated accordingly
+[01:26:11.313] [info] The skin [0xfe2f3de0] was updated accordingly

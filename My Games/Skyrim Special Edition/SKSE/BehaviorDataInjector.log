@@ -1,427 +1,432 @@
-[08/23/25 21:51:49][info](Logger.hpp:148) Logger init - Skyrim Special Edition 1-5-97-0
-[08/23/25 21:51:49][info](main.cpp:36) BehaviorDataInjector v0.1.3.0 loaded
-[08/23/25 21:51:53][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\DynamicDodgeShot_BDI.json"
-[08/23/25 21:51:53][info](DataHandler.cpp:41) Stored a BDI event: name: "SoundPlay.WPNBowPullLPM", type: "kEvent", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:41) Stored a BDI event: name: "SoundStop.WPNBowPullLPM", type: "kEvent", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:41) Stored a BDI event: name: "SoundPlay.WPNBowFire", type: "kEvent", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\DynamicSprint_BDI.json"
-[08/23/25 21:51:53][info](DataHandler.cpp:41) Stored a BDI event: name: "sSprintStart", type: "kEvent", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:41) Stored a BDI event: name: "sSprintOff", type: "kEvent", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\KSDO2_BDI.json"
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "iDragon_Breath", type: "kInt", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "iUDMelee_Attack", type: "kInt", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "iDragon_Voice", type: "kInt", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "iCurrent_Rank", type: "kInt", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "iCurrent_Nature", type: "kInt", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "iFlyStart_State", type: "kInt", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "iFlyStop_State", type: "kInt", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "iKillMove_State", type: "kInt", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "iKillMoveFlight_State", type: "kInt", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "iExcludeDragon_Type", type: "kInt", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "iDeathWait_State", type: "kInt", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "iTailForce_Counter", type: "kInt", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "iStampForce_Counter", type: "kInt", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "iCombatData_Style", type: "kInt", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "iCurrent_Element", type: "kInt", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "iPower_State", type: "kInt", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "iGrounding_State", type: "kInt", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "iDragonrend_Count", type: "kInt", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "iBreakState", type: "kInt", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "fStagger_Chance", type: "kFloat", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "fTalonAttackGrab_Chance", type: "kFloat", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "fTalonAttackGround_Chance", type: "kFloat", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "fHoverAttack_Chance", type: "kFloat", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "fPerchAttack_Chance", type: "kFloat", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "fGroundAttack_Chance", type: "kFloat", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "fDurationSOG_Normal", type: "kFloat", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "fDurationSOG_Dragonrend", type: "kFloat", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "fDurationSOG_Injured", type: "kFloat", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "bPreventForce_Animation", type: "kBool", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "bPreventPS_Update", type: "kBool", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "bIsChanging", type: "kBool", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsDragonrending", type: "kBool", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsImmuneStaggerN", type: "kBool", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsImmuneStaggerT", type: "kBool", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsHoldAI_Main", type: "kBool", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsHoldAI_Secondary", type: "kBool", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsHoldAI_Storm", type: "kBool", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsTailForce_Active", type: "kBool", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsStampForce_Active", type: "kBool", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsPhysicalEffect_Active", type: "kBool", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsDisarmed", type: "kBool", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsResetFlyingRequest", type: "kBool", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsBreakRunning", type: "kBool", projectPath: "ACTORS\DRAGON".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsStaggering_Hard", type: "kBool", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\MaxsuCPR_BDI.json"
-[08/23/25 21:51:53][info](DataHandler.cpp:41) Stored a BDI event: name: "CPR", type: "kEvent", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_InterruptAction", type: "kBool", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_EnableAdvanceRadius", type: "kBool", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_InnerRadiusMin", type: "kFloat", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_InnerRadiusMid", type: "kFloat", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_InnerRadiusMax", type: "kFloat", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_OuterRadiusMin", type: "kFloat", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_OuterRadiusMid", type: "kFloat", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_OuterRadiusMax", type: "kFloat", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_EnableBackoff", type: "kBool", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_BackoffMinDistMult", type: "kFloat", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_BackoffChance", type: "kFloat", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_EnableCircling", type: "kBool", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_CirclingDistMin", type: "kFloat", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_CirclingDistMax", type: "kFloat", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_CirclingAngleMin", type: "kFloat", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_CirclingAngleMax", type: "kFloat", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_CirclingViewConeAngle", type: "kFloat", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_EnableFallback", type: "kBool", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_FallbackDistMin", type: "kFloat", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_FallbackDistMax", type: "kFloat", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_FallbackWaitTimeMin", type: "kFloat", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_FallbackWaitTimeMax", type: "kFloat", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\Precision_BDI.json"
-[08/23/25 21:51:53][info](DataHandler.cpp:41) Stored a BDI event: name: "Collision_AttackStart", type: "kEvent", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:41) Stored a BDI event: name: "Collision_Start", type: "kEvent", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:41) Stored a BDI event: name: "Collision_Add", type: "kEvent", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:41) Stored a BDI event: name: "Collision_Remove", type: "kEvent", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:41) Stored a BDI event: name: "Collision_ClearTargets", type: "kEvent", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:41) Stored a BDI event: name: "Collision_AttackEnd", type: "kEvent", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:41) Stored a BDI event: name: "Collision_Cancel", type: "kEvent", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\SpellSword_BDI.json"
-[08/23/25 21:51:53][info](DataHandler.cpp:41) Stored a BDI event: name: "EquipIdle", type: "kEvent", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:41) Stored a BDI event: name: "IdleEnd", type: "kEvent", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:41) Stored a BDI event: name: "IdleNon", type: "kEvent", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\Test_BDI.json"
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "MaxsuTestInt", type: "kInt", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "MaxsuTestBool", type: "kBool", projectPath: "ACTORS\CHARACTER".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "MaxsuTestFloat", type: "kFloat", projectPath: "ACTORS\HORSE".
-[08/23/25 21:51:53][info](DataHandler.cpp:41) Stored a BDI event: name: "MaxsuTestEvent", type: "kEvent", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\UNDCheck_BDI.json"
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "bUND_IsDodgeRoll", type: "kBool", projectPath: "ACTORS\CHARACTER".
-[08/23/25 21:51:53][info](DataHandler.cpp:35) Stored a BDI variable: name: "bUND_InCombatFoundEnemy", type: "kBool", projectPath: "ACTORS".
-[08/23/25 21:51:53][info](Hook.h:19) BDI::CreateSymbolIdMapHook::InstallHook Done!
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "0_Master.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "0_Master.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "0_Master.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "0_Master.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "0_Master.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "0_Master.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "0_Master.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Cancel" to graph "0_Master.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowPullLPM" to graph "HorseBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "HorseBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowFire" to graph "HorseBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "HorseBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "HorseBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "HorseBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "HorseBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "HorseBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "HorseBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MT_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MT_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MT_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MT_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MT_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MT_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "Shout_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "Shout_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "Shout_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "Shout_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "Shout_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "Shout_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "SprintBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "SprintBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "SprintBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "SprintBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "SprintBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "SprintBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "IdleBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "IdleBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "IdleBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "IdleBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "IdleBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "IdleBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "WeapEquip.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "WeapEquip.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "WeapEquip.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "WeapEquip.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "WeapEquip.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "WeapEquip.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "1HM_Locomotion.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "1HM_Locomotion.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "1HM_Locomotion.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "1HM_Locomotion.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "1HM_Locomotion.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "1HM_Locomotion.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowPullLPM" to graph "1HM_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "1HM_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowFire" to graph "1HM_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "1HM_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "1HM_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "1HM_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "1HM_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "1HM_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "1HM_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Cancel" to graph "1HM_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "BashBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "BashBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "BashBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "BashBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "BashBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "BashBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "BlockBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "BlockBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "BlockBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "BlockBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "BlockBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "BlockBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_SprintAttackBehavior"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_SprintAttackBehavior"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_SprintAttackBehavior"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_SprintAttackBehavior"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_SprintAttackBehavior"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_SprintAttackBehavior"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_SprintAttackBehavior"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_SprintAttackBehavior"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_SprintAttackBehavior"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_SprintAttackBehavior"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_SprintAttackBehavior"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_SprintAttackBehavior"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_SprintAttackBehavior"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_SprintAttackBehavior"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "CrossBow_Direction_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "CrossBow_Direction_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "CrossBow_Direction_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "CrossBow_Direction_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "CrossBow_Direction_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "CrossBow_Direction_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MagicBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MagicBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MagicBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MagicBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MagicBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MagicBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Cancel" to graph "MagicBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_WeaponArtBehavior"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_WeaponArtBehavior"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_WeaponArtBehavior"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_WeaponArtBehavior"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_WeaponArtBehavior"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_WeaponArtBehavior"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_WeaponArtBehavior"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_PowerAttack.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_PowerAttack.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_PowerAttack.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_PowerAttack.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_PowerAttack.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_PowerAttack.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_PowerAttack.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowPullLPM" to graph "MCO_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowFire" to graph "MCO_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionPower1ToNormal"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "Bow_Direction_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "Bow_Direction_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "Bow_Direction_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "Bow_Direction_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "Bow_Direction_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "Bow_Direction_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_Attack.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_Attack.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_Attack.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_Attack.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_Attack.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_Attack.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_Attack.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowPullLPM" to graph "MCO_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowFire" to graph "MCO_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionNormal1ToPower"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "ShoutMounted_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "ShoutMounted_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "ShoutMounted_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "ShoutMounted_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "ShoutMounted_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "ShoutMounted_Behavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MagicMountedBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MagicMountedBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MagicMountedBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MagicMountedBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MagicMountedBehavior.hkb"
-[08/23/25 21:54:08][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MagicMountedBehavior.hkb"
-[08/23/25 21:54:47][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "DraugrBehavior.hkb"
-[08/23/25 21:54:47][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowFire" to graph "DraugrBehavior.hkb"
-[08/23/25 21:54:47][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "DraugrBehavior.hkb"
-[08/23/25 21:54:47][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "DraugrBehavior.hkb"
-[08/23/25 21:54:47][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "DraugrBehavior.hkb"
-[08/23/25 21:54:47][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "DraugrBehavior.hkb"
-[08/23/25 21:54:47][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "DraugrBehavior.hkb"
-[08/23/25 21:54:47][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "DraugrBehavior.hkb"
-[08/23/25 21:54:47][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Cancel" to graph "DraugrBehavior.hkb"
-[08/23/25 21:54:47][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "0_Master.hkb"
-[08/23/25 21:54:47][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowPullLPM" to graph "1HM_Behavior.hkb"
-[08/23/25 21:54:47][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "1HM_Behavior.hkb"
-[08/23/25 21:54:47][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowFire" to graph "1HM_Behavior.hkb"
-[08/23/25 21:54:47][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowPullLPM" to graph "HorseBehavior.hkb"
-[08/23/25 21:54:47][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "HorseBehavior.hkb"
-[08/23/25 21:54:47][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowFire" to graph "HorseBehavior.hkb"
-[08/23/25 22:02:46][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "DraugrBehavior.hkb"
-[08/23/25 22:02:46][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowFire" to graph "DraugrBehavior.hkb"
-[08/23/25 22:02:46][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "DraugrBehavior.hkb"
-[08/23/25 22:02:46][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "DraugrBehavior.hkb"
-[08/23/25 22:02:46][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "DraugrBehavior.hkb"
-[08/23/25 22:02:46][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "DraugrBehavior.hkb"
-[08/23/25 22:02:46][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "DraugrBehavior.hkb"
-[08/23/25 22:02:46][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "DraugrBehavior.hkb"
-[08/23/25 22:02:46][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Cancel" to graph "DraugrBehavior.hkb"
-[08/23/25 22:06:11][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "DraugrBehavior.hkb"
-[08/23/25 22:06:11][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowFire" to graph "DraugrBehavior.hkb"
-[08/23/25 22:06:11][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "DraugrBehavior.hkb"
-[08/23/25 22:06:11][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "DraugrBehavior.hkb"
-[08/23/25 22:06:11][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "DraugrBehavior.hkb"
-[08/23/25 22:06:11][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "DraugrBehavior.hkb"
-[08/23/25 22:06:11][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "DraugrBehavior.hkb"
-[08/23/25 22:06:11][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "DraugrBehavior.hkb"
-[08/23/25 22:06:11][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Cancel" to graph "DraugrBehavior.hkb"
-[08/23/25 22:06:11][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "DragonBehavior.hkb"
-[08/23/25 22:06:11][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "DragonBehavior.hkb"
-[08/23/25 22:06:11][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "DragonBehavior.hkb"
-[08/23/25 22:06:11][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "DragonBehavior.hkb"
-[08/23/25 22:06:11][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "DragonBehavior.hkb"
-[08/23/25 22:06:11][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "DragonBehavior.hkb"
-[08/23/25 22:06:11][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Cancel" to graph "DragonBehavior.hkb"
+[08/24/25 01:00:38][info](Logger.hpp:148) Logger init - Skyrim Special Edition 1-5-97-0
+[08/24/25 01:00:38][info](main.cpp:36) BehaviorDataInjector v0.1.3.0 loaded
+[08/24/25 01:00:46][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\DynamicDodgeShot_BDI.json"
+[08/24/25 01:00:46][info](DataHandler.cpp:41) Stored a BDI event: name: "SoundPlay.WPNBowPullLPM", type: "kEvent", projectPath: "ACTORS".
+[08/24/25 01:00:46][info](DataHandler.cpp:41) Stored a BDI event: name: "SoundStop.WPNBowPullLPM", type: "kEvent", projectPath: "ACTORS".
+[08/24/25 01:00:46][info](DataHandler.cpp:41) Stored a BDI event: name: "SoundPlay.WPNBowFire", type: "kEvent", projectPath: "ACTORS".
+[08/24/25 01:00:46][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\DynamicSprint_BDI.json"
+[08/24/25 01:00:46][info](DataHandler.cpp:41) Stored a BDI event: name: "sSprintStart", type: "kEvent", projectPath: "ACTORS".
+[08/24/25 01:00:46][info](DataHandler.cpp:41) Stored a BDI event: name: "sSprintOff", type: "kEvent", projectPath: "ACTORS".
+[08/24/25 01:00:46][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\KSDO2_BDI.json"
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "iDragon_Breath", type: "kInt", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "iUDMelee_Attack", type: "kInt", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "iDragon_Voice", type: "kInt", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "iCurrent_Rank", type: "kInt", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "iCurrent_Nature", type: "kInt", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "iFlyStart_State", type: "kInt", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "iFlyStop_State", type: "kInt", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "iKillMove_State", type: "kInt", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "iKillMoveFlight_State", type: "kInt", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "iExcludeDragon_Type", type: "kInt", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "iDeathWait_State", type: "kInt", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "iTailForce_Counter", type: "kInt", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "iStampForce_Counter", type: "kInt", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "iCombatData_Style", type: "kInt", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "iCurrent_Element", type: "kInt", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "iPower_State", type: "kInt", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "iGrounding_State", type: "kInt", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "iDragonrend_Count", type: "kInt", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "iBreakState", type: "kInt", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "fStagger_Chance", type: "kFloat", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "fTalonAttackGrab_Chance", type: "kFloat", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "fTalonAttackGround_Chance", type: "kFloat", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "fHoverAttack_Chance", type: "kFloat", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "fPerchAttack_Chance", type: "kFloat", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "fGroundAttack_Chance", type: "kFloat", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "fDurationSOG_Normal", type: "kFloat", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "fDurationSOG_Dragonrend", type: "kFloat", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "fDurationSOG_Injured", type: "kFloat", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "bPreventForce_Animation", type: "kBool", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "bPreventPS_Update", type: "kBool", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "bIsChanging", type: "kBool", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsDragonrending", type: "kBool", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsImmuneStaggerN", type: "kBool", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsImmuneStaggerT", type: "kBool", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsHoldAI_Main", type: "kBool", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsHoldAI_Secondary", type: "kBool", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsHoldAI_Storm", type: "kBool", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsTailForce_Active", type: "kBool", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsStampForce_Active", type: "kBool", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsPhysicalEffect_Active", type: "kBool", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsDisarmed", type: "kBool", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsResetFlyingRequest", type: "kBool", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsBreakRunning", type: "kBool", projectPath: "ACTORS\DRAGON".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "IsStaggering_Hard", type: "kBool", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\MaxsuCPR_BDI.json"
+[08/24/25 01:00:47][info](DataHandler.cpp:41) Stored a BDI event: name: "CPR", type: "kEvent", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_InterruptAction", type: "kBool", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_EnableAdvanceRadius", type: "kBool", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_InnerRadiusMin", type: "kFloat", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_InnerRadiusMid", type: "kFloat", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_InnerRadiusMax", type: "kFloat", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_OuterRadiusMin", type: "kFloat", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_OuterRadiusMid", type: "kFloat", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_OuterRadiusMax", type: "kFloat", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_EnableBackoff", type: "kBool", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_BackoffMinDistMult", type: "kFloat", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_BackoffChance", type: "kFloat", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_EnableCircling", type: "kBool", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_CirclingDistMin", type: "kFloat", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_CirclingDistMax", type: "kFloat", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_CirclingAngleMin", type: "kFloat", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_CirclingAngleMax", type: "kFloat", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_CirclingViewConeAngle", type: "kFloat", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_EnableFallback", type: "kBool", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_FallbackDistMin", type: "kFloat", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_FallbackDistMax", type: "kFloat", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_FallbackWaitTimeMin", type: "kFloat", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "CPR_FallbackWaitTimeMax", type: "kFloat", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\Precision_BDI.json"
+[08/24/25 01:00:47][info](DataHandler.cpp:41) Stored a BDI event: name: "Collision_AttackStart", type: "kEvent", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:41) Stored a BDI event: name: "Collision_Start", type: "kEvent", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:41) Stored a BDI event: name: "Collision_Add", type: "kEvent", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:41) Stored a BDI event: name: "Collision_Remove", type: "kEvent", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:41) Stored a BDI event: name: "Collision_ClearTargets", type: "kEvent", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:41) Stored a BDI event: name: "Collision_AttackEnd", type: "kEvent", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:41) Stored a BDI event: name: "Collision_Cancel", type: "kEvent", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\SpellSword_BDI.json"
+[08/24/25 01:00:47][info](DataHandler.cpp:41) Stored a BDI event: name: "EquipIdle", type: "kEvent", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:41) Stored a BDI event: name: "IdleEnd", type: "kEvent", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:41) Stored a BDI event: name: "IdleNon", type: "kEvent", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\Test_BDI.json"
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "MaxsuTestInt", type: "kInt", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "MaxsuTestBool", type: "kBool", projectPath: "ACTORS\CHARACTER".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "MaxsuTestFloat", type: "kFloat", projectPath: "ACTORS\HORSE".
+[08/24/25 01:00:47][info](DataHandler.cpp:41) Stored a BDI event: name: "MaxsuTestEvent", type: "kEvent", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](DataHandler.cpp:14) Parsing BDI Data In "Data\SKSE\Plugins\BehaviorDataInjector\UNDCheck_BDI.json"
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "bUND_IsDodgeRoll", type: "kBool", projectPath: "ACTORS\CHARACTER".
+[08/24/25 01:00:47][info](DataHandler.cpp:35) Stored a BDI variable: name: "bUND_InCombatFoundEnemy", type: "kBool", projectPath: "ACTORS".
+[08/24/25 01:00:47][info](Hook.h:19) BDI::CreateSymbolIdMapHook::InstallHook Done!
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "0_Master.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "0_Master.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "0_Master.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "0_Master.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "0_Master.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "0_Master.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "0_Master.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Cancel" to graph "0_Master.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowPullLPM" to graph "HorseBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "HorseBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowFire" to graph "HorseBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "HorseBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "HorseBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "HorseBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "HorseBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "HorseBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "HorseBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MT_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MT_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MT_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MT_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MT_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MT_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "Shout_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "Shout_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "Shout_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "Shout_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "Shout_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "Shout_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "SprintBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "SprintBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "SprintBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "SprintBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "SprintBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "SprintBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "IdleBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "IdleBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "IdleBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "IdleBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "IdleBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "IdleBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "WeapEquip.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "WeapEquip.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "WeapEquip.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "WeapEquip.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "WeapEquip.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "WeapEquip.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "1HM_Locomotion.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "1HM_Locomotion.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "1HM_Locomotion.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "1HM_Locomotion.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "1HM_Locomotion.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "1HM_Locomotion.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowPullLPM" to graph "1HM_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "1HM_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowFire" to graph "1HM_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "1HM_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "1HM_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "1HM_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "1HM_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "1HM_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "1HM_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Cancel" to graph "1HM_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "BashBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "BashBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "BashBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "BashBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "BashBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "BashBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "BlockBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "BlockBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "BlockBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "BlockBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "BlockBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "BlockBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_SprintAttackBehavior"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_SprintAttackBehavior"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_SprintAttackBehavior"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_SprintAttackBehavior"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_SprintAttackBehavior"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_SprintAttackBehavior"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_SprintAttackBehavior"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_SprintAttackBehavior"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_SprintAttackBehavior"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_SprintAttackBehavior"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_SprintAttackBehavior"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_SprintAttackBehavior"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_SprintAttackBehavior"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_SprintAttackBehavior"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "CrossBow_Direction_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "CrossBow_Direction_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "CrossBow_Direction_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "CrossBow_Direction_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "CrossBow_Direction_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "CrossBow_Direction_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MagicBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MagicBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MagicBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MagicBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MagicBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MagicBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Cancel" to graph "MagicBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_WeaponArtBehavior"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_WeaponArtBehavior"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_WeaponArtBehavior"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_WeaponArtBehavior"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_WeaponArtBehavior"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_WeaponArtBehavior"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_WeaponArtBehavior"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_PowerAttack.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_PowerAttack.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_PowerAttack.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_PowerAttack.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_PowerAttack.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_PowerAttack.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_PowerAttack.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowPullLPM" to graph "MCO_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowFire" to graph "MCO_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionPower1ToNormal"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "Bow_Direction_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "Bow_Direction_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "Bow_Direction_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "Bow_Direction_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "Bow_Direction_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "Bow_Direction_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_Attack.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_Attack.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_Attack.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_Attack.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_Attack.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_Attack.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_Attack.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowPullLPM" to graph "MCO_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowFire" to graph "MCO_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MCO_TransitionNormal1ToPower"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "ShoutMounted_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "ShoutMounted_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "ShoutMounted_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "ShoutMounted_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "ShoutMounted_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "ShoutMounted_Behavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "MagicMountedBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "MagicMountedBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "MagicMountedBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "MagicMountedBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "MagicMountedBehavior.hkb"
+[08/24/25 01:03:18][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "MagicMountedBehavior.hkb"
+[08/24/25 01:04:26][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "DraugrBehavior.hkb"
+[08/24/25 01:04:26][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowFire" to graph "DraugrBehavior.hkb"
+[08/24/25 01:04:26][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "DraugrBehavior.hkb"
+[08/24/25 01:04:26][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "DraugrBehavior.hkb"
+[08/24/25 01:04:26][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "DraugrBehavior.hkb"
+[08/24/25 01:04:26][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "DraugrBehavior.hkb"
+[08/24/25 01:04:26][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "DraugrBehavior.hkb"
+[08/24/25 01:04:26][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "DraugrBehavior.hkb"
+[08/24/25 01:04:26][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Cancel" to graph "DraugrBehavior.hkb"
+[08/24/25 01:04:26][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "DragonBehavior.hkb"
+[08/24/25 01:04:26][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "DragonBehavior.hkb"
+[08/24/25 01:04:26][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "DragonBehavior.hkb"
+[08/24/25 01:04:26][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "DragonBehavior.hkb"
+[08/24/25 01:04:26][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "DragonBehavior.hkb"
+[08/24/25 01:04:26][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "DragonBehavior.hkb"
+[08/24/25 01:04:26][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Cancel" to graph "DragonBehavior.hkb"
+[08/24/25 01:04:27][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "0_Master.hkb"
+[08/24/25 01:04:27][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowPullLPM" to graph "1HM_Behavior.hkb"
+[08/24/25 01:04:27][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "1HM_Behavior.hkb"
+[08/24/25 01:04:27][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowFire" to graph "1HM_Behavior.hkb"
+[08/24/25 01:04:27][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowPullLPM" to graph "HorseBehavior.hkb"
+[08/24/25 01:04:27][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "HorseBehavior.hkb"
+[08/24/25 01:04:27][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowFire" to graph "HorseBehavior.hkb"
+[08/24/25 01:13:47][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "DragonBehavior.hkb"
+[08/24/25 01:13:47][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "DragonBehavior.hkb"
+[08/24/25 01:13:47][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "DragonBehavior.hkb"
+[08/24/25 01:13:47][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "DragonBehavior.hkb"
+[08/24/25 01:13:47][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "DragonBehavior.hkb"
+[08/24/25 01:13:47][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "DragonBehavior.hkb"
+[08/24/25 01:13:47][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Cancel" to graph "DragonBehavior.hkb"
+[08/24/25 01:17:44][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "DragonBehavior.hkb"
+[08/24/25 01:17:44][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "DragonBehavior.hkb"
+[08/24/25 01:17:44][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "DragonBehavior.hkb"
+[08/24/25 01:17:44][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "DragonBehavior.hkb"
+[08/24/25 01:17:44][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "DragonBehavior.hkb"
+[08/24/25 01:17:44][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "DragonBehavior.hkb"
+[08/24/25 01:17:44][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Cancel" to graph "DragonBehavior.hkb"
+[08/24/25 01:26:07][warning](DataHandler.cpp:91) Fail to Inject a event "SoundStop.WPNBowPullLPM" to graph "DraugrBehavior.hkb"
+[08/24/25 01:26:07][warning](DataHandler.cpp:91) Fail to Inject a event "SoundPlay.WPNBowFire" to graph "DraugrBehavior.hkb"
+[08/24/25 01:26:07][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackStart" to graph "DraugrBehavior.hkb"
+[08/24/25 01:26:07][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Start" to graph "DraugrBehavior.hkb"
+[08/24/25 01:26:07][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Add" to graph "DraugrBehavior.hkb"
+[08/24/25 01:26:07][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Remove" to graph "DraugrBehavior.hkb"
+[08/24/25 01:26:07][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_ClearTargets" to graph "DraugrBehavior.hkb"
+[08/24/25 01:26:07][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_AttackEnd" to graph "DraugrBehavior.hkb"
+[08/24/25 01:26:07][warning](DataHandler.cpp:91) Fail to Inject a event "Collision_Cancel" to graph "DraugrBehavior.hkb"
