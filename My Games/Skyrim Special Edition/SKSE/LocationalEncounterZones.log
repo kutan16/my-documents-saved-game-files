@@ -2047,7 +2047,7 @@ Actor Skeleton (FEB4A8A8)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Skeleton (FEB4ADDC)
+Actor Skeever (FEB4ADF1)
 	Has location Imperial Military Camp
 		Could not find encounter zone for location
 Returning nothing
@@ -2057,17 +2057,17 @@ Actor Skeever (FEB4ADF2)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Skeever (FEB4ADF1)
+Actor Skeever (FEB4ADF0)
+	Has location Imperial Military Camp
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Skeleton (FEB4ADDC)
 	Has location Imperial Military Camp
 		Could not find encounter zone for location
 Returning nothing
 
 Actor Black Bear (FEB4ADE3)
-	Has location Imperial Military Camp
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Skeever (FEB4ADF0)
 	Has location Imperial Military Camp
 		Could not find encounter zone for location
 Returning nothing
@@ -2087,11 +2087,11 @@ Actor Skeleton (FEB4AD9C)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Skeever (EF616)
+Actor Skeever (EF614)
 	Has no location
 Returning nothing
 
-Actor Skeever (EF611)
+Actor Skeever (EF616)
 	Has no location
 Returning nothing
 
@@ -2099,7 +2099,7 @@ Actor Skeever (EF615)
 	Has no location
 Returning nothing
 
-Actor Skeever (EF614)
+Actor Skeever (EF611)
 	Has no location
 Returning nothing
 
@@ -2113,18 +2113,13 @@ Actor Frost Troll (6481A)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Black Fell Pony (FEB4ADBA)
-	Has location Imperial Military Camp
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Exmoor Pony (FEB4ADB8)
 	Has location Imperial Military Camp
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Skeleton (FEB4A82F)
-	Has location Sons of Skyrim Military Camp
+Actor Black Fell Pony (FEB4ADBA)
+	Has location Imperial Military Camp
 		Could not find encounter zone for location
 Returning nothing
 
@@ -2139,6 +2134,11 @@ Actor Skeleton (FEB4A82E)
 Returning nothing
 
 Actor Skeever (FEB4A838)
+	Has location Sons of Skyrim Military Camp
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Skeleton (FEB4A82F)
 	Has location Sons of Skyrim Military Camp
 		Could not find encounter zone for location
 Returning nothing
@@ -2161,22 +2161,22 @@ Actor Frost Troll (64819)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Palomino Horse (FEB4AE8E)
-	Has location Imperial Military Camp
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Skeleton (FEB4AEAA)
 	Has location Imperial Military Camp
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Ice Wolf (FEB4AE90)
+Actor Palomino Horse (FEB4AE8E)
 	Has location Imperial Military Camp
 		Could not find encounter zone for location
 Returning nothing
 
 Actor Ice Wolf (FEB4AE8F)
+	Has location Imperial Military Camp
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Ice Wolf (FEB4AE90)
 	Has location Imperial Military Camp
 		Could not find encounter zone for location
 Returning nothing
@@ -2200,17 +2200,12 @@ Actor Skeever (FEB4AE26)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Skeever (FEB4AE15)
-	Has location Imperial Military Camp
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Skeleton (FEB4AE17)
 	Has location Imperial Military Camp
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Skeleton (FEB4A872)
+Actor Skeever (FEB4AE15)
 	Has location Imperial Military Camp
 		Could not find encounter zone for location
 Returning nothing
@@ -2220,6 +2215,86 @@ Actor Skeleton (FEB4A871)
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Skeleton (FEB4A872)
+	Has location Imperial Military Camp
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Deer (25293690)
+	Has no location
+Returning nothing
+
+Actor Deer (50187)
+	Has location Narzulbur
+		Found encounter zone for location, returning
+
+Actor Deer (EEF89)
+	Has no location
+Returning nothing
+
+Actor Elk (2524E528)
+	Has no location
+Returning nothing
+
+Actor Hunter (25157065)
+	Has no location
+Returning nothing
+
+Actor Frostbite Spider (848E6)
+	Has no location
+Returning nothing
+
+Actor Bandit Scout (25217473)
+	Has no location
+Returning nothing
+
+Actor Imperial Soldier (2006BBB)
+	Has no location
+Returning nothing
+
+Actor Frost Troll (12125B2D)
+	Has location Steepfall Burrow
+		Found encounter zone for location, returning
+
+Actor Stormcloak Soldier (17195)
+	Has location Whiterun
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Imperial Soldier (6108E5B)
+	Has no location
+Returning nothing
+
+Actor Whiterun Guard (10FF42)
+	Has location Whiterun
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Skeleton (FE019ABA)
+	Has no location
+Returning nothing
+
+Actor Skeleton (FE019AB9)
+	Has no location
+Returning nothing
+
+Actor Cow (6487E)
+	Has location Eldersblood Peak
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Necromage (FE00188C)
+	Has no location
+Returning nothing
+
+Actor Fisherman (B3279)
+	Has location Winter War
+		Found encounter zone for location, returning
+
+Actor Storm Mage (FE003EA8)
+	Has location Shrine of Boethiah
+		Found encounter zone for location, returning
+
 Actor Vampire (2006BB8)
 	Has no location
 Returning nothing
@@ -2228,79 +2303,9 @@ Actor Seviur (60F482A)
 	Has no location
 Returning nothing
 
-Actor Imperial Soldier (6108E5B)
-	Has no location
-Returning nothing
-
-Actor Deer (25293690)
-	Has no location
-Returning nothing
-
-Actor Necromage (FE00188C)
-	Has no location
-Returning nothing
-
-Actor Frost Troll (12125B2D)
-	Has location Steepfall Burrow
-		Found encounter zone for location, returning
-
-Actor Frostbite Spider (848E6)
-	Has no location
-Returning nothing
-
-Actor Storm Mage (FE003EA8)
-	Has location Shrine of Boethiah
-		Found encounter zone for location, returning
-
-Actor Hunter (25157065)
-	Has no location
-Returning nothing
-
-Actor Elk (2524E528)
-	Has no location
-Returning nothing
-
-Actor Imperial Soldier (2006BBB)
-	Has no location
-Returning nothing
-
-Actor Skeleton (FE019AB9)
-	Has no location
-Returning nothing
-
-Actor Stormcloak Soldier (17195)
+Actor Silver Hand Warrior (B8D42)
 	Has location Whiterun
 		Could not find encounter zone for location
-Returning nothing
-
-Actor Whiterun Guard (10FF42)
-	Has location Whiterun
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Deer (50187)
-	Has location Narzulbur
-		Found encounter zone for location, returning
-
-Actor Cow (6487E)
-	Has location Eldersblood Peak
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Fisherman (B3279)
-	Has location Winter War
-		Found encounter zone for location, returning
-
-Actor Skeleton (FE019ABA)
-	Has no location
-Returning nothing
-
-Actor Deer (EEF89)
-	Has no location
-Returning nothing
-
-Actor Bandit Scout (25217473)
-	Has no location
 Returning nothing
 
 Actor Silver Hand Warrior (B8DB6)
@@ -2308,14 +2313,14 @@ Actor Silver Hand Warrior (B8DB6)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Silver Hand Warrior (B8D42)
-	Has location Whiterun
+Actor Redoran Guard (40292A4)
+	Has location Ashfallow Citadel
+		Found encounter zone for location, returning
+
+Actor Betty Netch (FE02988F)
+	Has location Solstheim
 		Could not find encounter zone for location
 Returning nothing
-
-Actor Hugin Ice-Shaper (FE014837)
-	Has location Earth Stone
-		Found encounter zone for location, returning
 
 Actor Redoran Guard (40292A5)
 	Has location Ashfallow Citadel
@@ -2326,38 +2331,21 @@ Actor Bandit Scout (318107FF)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Betty Netch (FE02988F)
-	Has location Solstheim
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Redoran Guard (40292A4)
-	Has location Ashfallow Citadel
+Actor Hugin Ice-Shaper (FE014837)
+	Has location Earth Stone
 		Found encounter zone for location, returning
-
-Actor Witch (1108D5D8)
-	Has location Kingdom of Evermore
-		Could not find encounter zone for location
-Returning nothing
 
 Actor Proselytized Peasant (112F1307)
 	Has location Kingdom of Evermore
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Proselytized Peasant (1101DCE6)
-	Has location Arnima
-		Found encounter zone for location, returning
+Actor Witch (1108D5D8)
+	Has location Kingdom of Evermore
+		Could not find encounter zone for location
+Returning nothing
 
-Actor Proselytized Peasant (1101DD4D)
-	Has location Arnima
-		Found encounter zone for location, returning
-
-Actor Witch (1101DD4E)
-	Has location Arnima
-		Found encounter zone for location, returning
-
-Actor Beggar (112B252E)
+Actor Town Dweller (112B252C)
 	Has location Arnima
 		Found encounter zone for location, returning
 
@@ -2365,11 +2353,23 @@ Actor Beggar (112B2531)
 	Has location Arnima
 		Found encounter zone for location, returning
 
-Actor Divide Guard (112B2533)
+Actor Beggar (112B252E)
 	Has location Arnima
 		Found encounter zone for location, returning
 
-Actor Town Dweller (112B252C)
+Actor Witch (1101DD4E)
+	Has location Arnima
+		Found encounter zone for location, returning
+
+Actor Proselytized Peasant (1101DD4D)
+	Has location Arnima
+		Found encounter zone for location, returning
+
+Actor Proselytized Peasant (1101DCE6)
+	Has location Arnima
+		Found encounter zone for location, returning
+
+Actor Divide Guard (112B2533)
 	Has location Arnima
 		Found encounter zone for location, returning
 
@@ -2388,19 +2388,19 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Dark Elf (2517D13D)
-In interior cell
-	Has location New Gnisis Cornerclub
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Dark Elf (2517D141)
 In interior cell
 	Has location New Gnisis Cornerclub
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Bandit Scout (40912)
+Actor Dark Elf (2517D13D)
+In interior cell
+	Has location New Gnisis Cornerclub
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Bandit Scout (40863)
 In interior cell
 	Has location Jorrvaskr
 		Could not find encounter zone for location
@@ -2412,31 +2412,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Bandit Scout (40912)
+In interior cell
+	Has location Jorrvaskr
+		Could not find encounter zone for location
+Returning nothing
+
 Actor Bandit Scout (40913)
-In interior cell
-	Has location Jorrvaskr
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Silver Hand Warrior (82A68BA6)
-In interior cell
-	Has location Jorrvaskr
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Silver Hand Warrior (82A68BA5)
-In interior cell
-	Has location Jorrvaskr
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Silver Hand Warrior (82A68BA7)
-In interior cell
-	Has location Jorrvaskr
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Bandit Scout (40863)
 In interior cell
 	Has location Jorrvaskr
 		Could not find encounter zone for location
@@ -2448,17 +2430,35 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Silver Hand Warrior (82A68BA7)
+In interior cell
+	Has location Jorrvaskr
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Silver Hand Warrior (82A68BA5)
+In interior cell
+	Has location Jorrvaskr
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Silver Hand Warrior (82A68BA6)
+In interior cell
+	Has location Jorrvaskr
+		Could not find encounter zone for location
+Returning nothing
+
 Actor Bandit Scout (12120EFE)
 In interior cell
 	Has no location
 Returning nothing
 
-Actor Guard (252E240A)
+Actor Guard (252E2411)
 In interior cell
 	Has no location
 Returning nothing
 
-Actor Guard (252E2411)
+Actor Guard (252E240A)
 In interior cell
 	Has no location
 Returning nothing
@@ -2469,17 +2469,17 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Guard (252E35F8)
+In interior cell
+	Has no location
+Returning nothing
+
 Actor Guard (252E35FA)
 In interior cell
 	Has no location
 Returning nothing
 
 Actor Guard (252E35F9)
-In interior cell
-	Has no location
-Returning nothing
-
-Actor Guard (252E35F8)
 In interior cell
 	Has no location
 Returning nothing
@@ -2509,11 +2509,11 @@ Actor Bogmort (FE7E7923)
 	Has no location
 Returning nothing
 
-Actor Draugr Scoundrel (FE4BCC70)
+Actor Draugr Huntress (FE4BCC70)
 	Has no location
 Returning nothing
 
-Actor Draugr Cutthroat (FD616)
+Actor Fledgling Draugr Sorcerer (FD616)
 	Has location Arcwind Point
 		Found encounter zone for location, returning
 
@@ -2580,12 +2580,7 @@ Actor Winterhold Guard (724F1AAA)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Windhelm Guard (FE3EFCEB)
-	Has location Windhelm
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Windhelm Guard (FE3EFCEC)
+Actor Windhelm Guard (FE3EFC63)
 	Has location Windhelm
 		Could not find encounter zone for location
 Returning nothing
@@ -2595,7 +2590,12 @@ Actor Windhelm Guard (FE3EFC64)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Windhelm Guard (FE3EFC63)
+Actor Windhelm Guard (FE3EFCEC)
+	Has location Windhelm
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Windhelm Guard (FE3EFCEB)
 	Has location Windhelm
 		Could not find encounter zone for location
 Returning nothing
@@ -2624,112 +2624,7 @@ Actor Ivarstead Guard (2123C)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Riften Guard (4582A)
-	Has location Riften
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Riften Guard (4582D)
-	Has location Riften
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Riften Guard (4582C)
-	Has location Riften
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Riften Guard (4584B)
-	Has location Riften
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Riften Guard (45840)
-	Has location Riften
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Riften Guard (4581D)
-	Has location Riften
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Riften Guard (40045EA2)
-	Has location Riften
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Riften Guard (BA2AB)
-	Has location Riften
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Riften Guard (45841)
-	Has location Riften
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Riften Guard (45822)
-	Has location Riften
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Riften Guard (40045EA3)
-	Has location Riften
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Riften Guard (4583C)
-	Has location Riften
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Riften Guard (F1AA4)
-	Has location Riften
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Riften Guard (45851)
-	Has location Riften
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Riften Guard (4584F)
-	Has location Riften
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Riften Guard (4584E)
-	Has location Riften
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Riften Guard (4584D)
-	Has location Riften
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Riften Guard (4584C)
-	Has location Riften
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Riften Guard (4583F)
-	Has location Riften
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Riften Guard (4583D)
-	Has location Riften
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Riften Guard (4583A)
-	Has location Riften
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Riften Guard (45829)
 	Has location Riften
 		Could not find encounter zone for location
 Returning nothing
@@ -2739,12 +2634,22 @@ Actor Riften Guard (45827)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Riften Guard (4581B)
+Actor Riften Guard (BA2AB)
 	Has location Riften
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Riften Guard (45839)
+Actor Riften Guard (4583F)
+	Has location Riften
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Riften Guard (40045EA2)
+	Has location Riften
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Riften Guard (4584C)
 	Has location Riften
 		Could not find encounter zone for location
 Returning nothing
@@ -2754,7 +2659,102 @@ Actor Riften Guard (45823)
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Riften Guard (45829)
+	Has location Riften
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Riften Guard (F1AA4)
+	Has location Riften
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Riften Guard (40045EA3)
+	Has location Riften
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Riften Guard (45822)
+	Has location Riften
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Riften Guard (4583A)
+	Has location Riften
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Riften Guard (4582C)
+	Has location Riften
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Riften Guard (4584F)
+	Has location Riften
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Riften Guard (4584D)
+	Has location Riften
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Riften Guard (4584B)
+	Has location Riften
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Riften Guard (45841)
+	Has location Riften
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Riften Guard (45840)
+	Has location Riften
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Riften Guard (4583D)
+	Has location Riften
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Riften Guard (45839)
+	Has location Riften
+		Could not find encounter zone for location
+Returning nothing
+
 Actor Riften Guard (4582E)
+	Has location Riften
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Riften Guard (4581D)
+	Has location Riften
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Riften Guard (4581B)
+	Has location Riften
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Riften Guard (4583C)
+	Has location Riften
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Riften Guard (4584E)
+	Has location Riften
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Riften Guard (45851)
+	Has location Riften
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Riften Guard (4582A)
 	Has location Riften
 		Could not find encounter zone for location
 Returning nothing
@@ -2764,22 +2764,22 @@ Actor Young Desert Elephant (FE28AC00)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Hammerfell Horse (FE28AB35)
-	Has location Alik'r Desert
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Hammerfell Horse (FE28AB7A)
 	Has location Alik'r Desert
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Hammerfell Horse (FE28AB36)
+Actor Hammerfell Horse (FE28AB35)
 	Has location Alik'r Desert
 		Could not find encounter zone for location
 Returning nothing
 
 Actor Hammerfell Horse (FE28AB37)
+	Has location Alik'r Desert
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Hammerfell Horse (FE28AB36)
 	Has location Alik'r Desert
 		Could not find encounter zone for location
 Returning nothing
@@ -2823,6 +2823,12 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Torom (661A4)
+In interior cell
+	Has location Daighre's House
+		Could not find encounter zone for location
+Returning nothing
+
 Actor Daighre (199B3)
 In interior cell
 	Has location Daighre's House
@@ -2830,12 +2836,6 @@ In interior cell
 Returning nothing
 
 Actor Erith (199B4)
-In interior cell
-	Has location Daighre's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Torom (661A4)
 In interior cell
 	Has location Daighre's House
 		Could not find encounter zone for location
@@ -2865,13 +2865,7 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Nils (1B11A)
-In interior cell
-	Has location Candlehearth Hall
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Sofie (3004031)
+Actor Rolff Stone-Fist (3EFED)
 In interior cell
 	Has location Candlehearth Hall
 		Could not find encounter zone for location
@@ -2883,13 +2877,19 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Sofie (3004031)
+In interior cell
+	Has location Candlehearth Hall
+		Could not find encounter zone for location
+Returning nothing
+
 Actor Terynne (2537E8C4)
 In interior cell
 	Has location Candlehearth Hall
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Rolff Stone-Fist (3EFED)
+Actor Nils (1B11A)
 In interior cell
 	Has location Candlehearth Hall
 		Could not find encounter zone for location
@@ -2913,13 +2913,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Hod (1348A)
+Actor Gerdur (13489)
 In interior cell
 	Has location Hod and Gerdur's House
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Gerdur (13489)
+Actor Hod (1348A)
 In interior cell
 	Has location Hod and Gerdur's House
 		Could not find encounter zone for location
@@ -2943,13 +2943,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Grosta (19E0F)
+Actor Gralnach (19E10)
 In interior cell
 	Has location Heartwood Mill
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Gralnach (19E10)
+Actor Grosta (19E0F)
 In interior cell
 	Has location Heartwood Mill
 		Could not find encounter zone for location
@@ -2967,13 +2967,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Torvar (1A6DC)
+Actor Athis (1A6D6)
 In interior cell
 	Has location Jorrvaskr
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Athis (1A6D6)
+Actor Torvar (1A6DC)
 In interior cell
 	Has location Jorrvaskr
 		Could not find encounter zone for location
@@ -2997,7 +2997,7 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Sigrid (13483)
+Actor Dorthe (13484)
 In interior cell
 	Has location Alvor and Sigrid's House
 		Could not find encounter zone for location
@@ -3009,7 +3009,7 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Dorthe (13484)
+Actor Sigrid (13483)
 In interior cell
 	Has location Alvor and Sigrid's House
 		Could not find encounter zone for location
@@ -3045,7 +3045,7 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Saffir (1A66C)
+Actor Amren (1A66A)
 In interior cell
 	Has location Amren's House
 		Could not find encounter zone for location
@@ -3057,7 +3057,7 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Amren (1A66A)
+Actor Saffir (1A66C)
 In interior cell
 	Has location Amren's House
 		Could not find encounter zone for location
@@ -3075,15 +3075,15 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Verner Rock-Chucker (1B093)
+Actor Dog (25061E72)
 In interior cell
-	Has location Verner's House
+	Has location Sarethi Farm Interior
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Cosnach (198FA)
+Actor Verner Rock-Chucker (1B093)
 In interior cell
-	Has location The Warrens
+	Has location Verner's House
 		Could not find encounter zone for location
 Returning nothing
 
@@ -3105,12 +3105,6 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Chief Burguk (19928)
-In interior cell
-	Has location Burguk's Longhouse
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Ghorbash the Iron Hand (19930)
 In interior cell
 	Has location Burguk's Longhouse
@@ -3123,13 +3117,19 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Shel (1992C)
+In interior cell
+	Has location Burguk's Longhouse
+		Could not find encounter zone for location
+Returning nothing
+
 Actor Arob (1992A)
 In interior cell
 	Has location Burguk's Longhouse
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Shel (1992C)
+Actor Chief Burguk (19928)
 In interior cell
 	Has location Burguk's Longhouse
 		Could not find encounter zone for location
@@ -3141,13 +3141,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Chief Mauhulakh (1B098)
+Actor Urog (1B096)
 In interior cell
 	Has location Mauhulakh's Longhouse
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Urog (1B096)
+Actor Chief Mauhulakh (1B098)
 In interior cell
 	Has location Mauhulakh's Longhouse
 		Could not find encounter zone for location
@@ -3201,13 +3201,19 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Jouane Manette (1A6A7)
+Actor Britte (1A6AC)
+In interior cell
+	Has location Lemkil's Farmhouse
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Rorik (1A6A6)
 In interior cell
 	Has location Rorik's Manor
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Rorik (1A6A6)
+Actor Jouane Manette (1A6A7)
 In interior cell
 	Has location Rorik's Manor
 		Could not find encounter zone for location
@@ -3273,7 +3279,7 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Lisette (198A2)
+Actor Sorex Vinius (198A3)
 In interior cell
 	Has location The Winking Skeever
 		Could not find encounter zone for location
@@ -3285,7 +3291,7 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Sorex Vinius (198A3)
+Actor Lisette (198A2)
 In interior cell
 	Has location The Winking Skeever
 		Could not find encounter zone for location
@@ -3297,13 +3303,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Reburrus Quintilius (198E4)
+Actor Yngvar the Singer (198E5)
 In interior cell
 	Has location Treasury House
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Yngvar the Singer (198E5)
+Actor Reburrus Quintilius (198E4)
 In interior cell
 	Has location Treasury House
 		Could not find encounter zone for location
@@ -3312,12 +3318,6 @@ Returning nothing
 Actor Irgnir (1A6BB)
 In interior cell
 	Has location Irgnir's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Atar (622E7)
-In interior cell
-	Has location Sanurach Mine
 		Could not find encounter zone for location
 Returning nothing
 
@@ -3334,6 +3334,12 @@ In interior cell
 Returning nothing
 
 Actor Silver-Blood Mercenary (622E4)
+In interior cell
+	Has location Sanurach Mine
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Atar (622E7)
 In interior cell
 	Has location Sanurach Mine
 		Could not find encounter zone for location
@@ -3405,21 +3411,15 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Brina Merilis (1A6B8)
-In interior cell
-	Has location Brina's House
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Horik Halfhand (1A6BA)
 In interior cell
 	Has location Brina's House
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Grimvar Cruel-Sea (1B12D)
+Actor Brina Merilis (1A6B8)
 In interior cell
-	Has location House of Clan Cruel-Sea
+	Has location Brina's House
 		Could not find encounter zone for location
 Returning nothing
 
@@ -3429,13 +3429,19 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Lash gra-Dushnikh (19932)
+Actor Grimvar Cruel-Sea (1B12D)
+In interior cell
+	Has location House of Clan Cruel-Sea
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Okapi (25023B73)
 In interior cell
 	Has location Karthwasten Miner's Barracks
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Okapi (25023B73)
+Actor Lash gra-Dushnikh (19932)
 In interior cell
 	Has location Karthwasten Miner's Barracks
 		Could not find encounter zone for location
@@ -3519,6 +3525,12 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Galdrus Hlervu (401828D)
+In interior cell
+	Has location Temple Location
+		Could not find encounter zone for location
+Returning nothing
+
 Actor Nikulas (4018FC3)
 In interior cell
 	Has location Skaal Village Edla's House
@@ -3561,12 +3573,6 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Bennadyl (1101639E)
-In interior cell
-	Has location Lonely Griffon's Retreat
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Todd (1101639C)
 In interior cell
 	Has location Lonely Griffon's Retreat
@@ -3574,6 +3580,12 @@ In interior cell
 Returning nothing
 
 Actor Imork (1101639D)
+In interior cell
+	Has location Lonely Griffon's Retreat
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Bennadyl (1101639E)
 In interior cell
 	Has location Lonely Griffon's Retreat
 		Could not find encounter zone for location
@@ -3608,13 +3620,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Entemon (110111E3)
+Actor Helga (1104B261)
 In interior cell
 	Has location Entemon's House
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Helga (1104B261)
+Actor Entemon (110111E3)
 In interior cell
 	Has location Entemon's House
 		Could not find encounter zone for location
@@ -3668,13 +3680,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Pelena Malumea (14001F23)
+Actor Aebond Malumea (14001F25)
 In interior cell
 	Has location Aebond and Pelena's House
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Aebond Malumea (14001F25)
+Actor Pelena Malumea (14001F23)
 In interior cell
 	Has location Aebond and Pelena's House
 		Could not find encounter zone for location
@@ -3701,12 +3713,6 @@ Returning nothing
 Actor Alammu Nethre (1407459C)
 In interior cell
 	Has location Jerall View Inn
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Hulgard (14001110)
-In interior cell
-	Has location Northern Arms
 		Could not find encounter zone for location
 Returning nothing
 
@@ -3752,13 +3758,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Bruma Guard (14079080)
+Actor Bruma Guard (1407907F)
 In interior cell
 	Has location Castle Bruma
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Bruma Guard (1407907F)
+Actor Bruma Guard (14079080)
 In interior cell
 	Has location Castle Bruma
 		Could not find encounter zone for location
@@ -3770,13 +3776,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Afer Famalius (14066B35)
+Actor Rona Famalius (14066B36)
 In interior cell
 	Has location Afer's House
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Rona Famalius (14066B36)
+Actor Afer Famalius (14066B35)
 In interior cell
 	Has location Afer's House
 		Could not find encounter zone for location
@@ -3884,25 +3890,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Valen Sarethi (1A6A86D6)
+Actor Dralys Tyravel (1A689F42)
 In interior cell
 	Has location Morag Tong Agency
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Suron Marys (1A6A86D1)
-In interior cell
-	Has location Morag Tong Agency
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Nysath Folvyn (1A6A3535)
-In interior cell
-	Has location Morag Tong Agency
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Felsa Morvayn (1A6A86DA)
+Actor Remesa Nalyn (1A699309)
 In interior cell
 	Has location Morag Tong Agency
 		Could not find encounter zone for location
@@ -3920,13 +3914,25 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Dralys Tyravel (1A689F42)
+Actor Nysath Folvyn (1A6A3535)
 In interior cell
 	Has location Morag Tong Agency
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Remesa Nalyn (1A699309)
+Actor Felsa Morvayn (1A6A86DA)
+In interior cell
+	Has location Morag Tong Agency
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Valen Sarethi (1A6A86D6)
+In interior cell
+	Has location Morag Tong Agency
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Suron Marys (1A6A86D1)
 In interior cell
 	Has location Morag Tong Agency
 		Could not find encounter zone for location
@@ -3962,13 +3968,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Gashnag (20220686)
+Actor Largahk (2022069A)
 In interior cell
 	Has location Kazmalgur
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Largahk (2022069A)
+Actor Gashnag (20220686)
 In interior cell
 	Has location Kazmalgur
 		Could not find encounter zone for location
@@ -3979,28 +3985,33 @@ In interior cell
 	Has no location
 Returning nothing
 
-Actor Mercenary Conjurer (55018830)
-In interior cell
-	Has no location
-Returning nothing
-
-Actor Mercenary Cryomancer (55018836)
-In interior cell
-	Has no location
-Returning nothing
-
 Actor Mercenary Warrior (5501883D)
 In interior cell
 	Has no location
 Returning nothing
 
-Actor Synie Springrun (2905B12E)
+Actor Mercenary Electromancer (55018838)
+In interior cell
+	Has no location
+Returning nothing
+
+Actor Mercenary Electromancer (55018837)
+In interior cell
+	Has no location
+Returning nothing
+
+Actor Mercenary Ranger (5501883B)
+In interior cell
+	Has no location
+Returning nothing
+
+Actor Thaer Springrun (2905B12F)
 In interior cell
 	Has location Thaer and Synie's House
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Thaer Springrun (2905B12F)
+Actor Synie Springrun (2905B12E)
 In interior cell
 	Has location Thaer and Synie's House
 		Could not find encounter zone for location
@@ -4048,13 +4059,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Thorond Acorngrass (290DF1B2)
+Actor Aryassa Riverthorn (290DF1B0)
 In interior cell
 	Has location Dragon Mead Inn
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Aryassa Riverthorn (290DF1B0)
+Actor Thorond Acorngrass (290DF1B2)
 In interior cell
 	Has location Dragon Mead Inn
 		Could not find encounter zone for location
@@ -4072,13 +4083,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Meldil Nightvale (29056904)
+Actor Cayia Nightvale (29056903)
 In interior cell
 	Has location Meldil and Cayia's House
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Cayia Nightvale (29056903)
+Actor Meldil Nightvale (29056904)
 In interior cell
 	Has location Meldil and Cayia's House
 		Could not find encounter zone for location
@@ -4102,13 +4113,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Samia Ivywood (29056925)
+Actor Garshasp Ivywood (29056924)
 In interior cell
 	Has location Garshasp and Samia's House
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Garshasp Ivywood (29056924)
+Actor Samia Ivywood (29056925)
 In interior cell
 	Has location Garshasp and Samia's House
 		Could not find encounter zone for location
@@ -4126,13 +4137,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Irwaen Elmpool (2905DE92)
+Actor Angal Elmpool (2905DE91)
 In interior cell
 	Has location Angal and Irwaen's House
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Angal Elmpool (2905DE91)
+Actor Irwaen Elmpool (2905DE92)
 In interior cell
 	Has location Angal and Irwaen's House
 		Could not find encounter zone for location
@@ -4150,13 +4161,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Nornas Wildbush (2905DEF2)
+Actor Elpelaen Wildbush (2905DEF1)
 In interior cell
 	Has location Nornas and Elpelaen's House
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Elpelaen Wildbush (2905DEF1)
+Actor Nornas Wildbush (2905DEF2)
 In interior cell
 	Has location Nornas and Elpelaen's House
 		Could not find encounter zone for location
@@ -4174,13 +4185,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Mecaius (2A1725A7)
+Actor Rangarr (2A1725A0)
 In interior cell
 	Has location Rangarr's House
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Rangarr (2A1725A0)
+Actor Mecaius (2A1725A7)
 In interior cell
 	Has location Rangarr's House
 		Could not find encounter zone for location
@@ -4240,7 +4251,7 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Brikdroong (2C199C44)
+Actor Rutveng (2C199C42)
 In interior cell
 	Has location Faceted Stones
 		Could not find encounter zone for location
@@ -4252,19 +4263,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Rutveng (2C199C42)
+Actor Brikdroong (2C199C44)
 In interior cell
 	Has location Faceted Stones
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Daak (2C1A3EBF)
-In interior cell
-	Has location Faceted Stones
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Skiish (2C1A3EC1)
+Actor Geshah (2C1A3EC2)
 In interior cell
 	Has location Faceted Stones
 		Could not find encounter zone for location
@@ -4276,7 +4281,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Geshah (2C1A3EC2)
+Actor Skiish (2C1A3EC1)
+In interior cell
+	Has location Faceted Stones
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Daak (2C1A3EBF)
 In interior cell
 	Has location Faceted Stones
 		Could not find encounter zone for location
@@ -4318,13 +4329,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Kheneg (2C1A3EBB)
+Actor Joon (2C1A3EBC)
 In interior cell
 	Has location Faceted Stones
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Joon (2C1A3EBC)
+Actor Kheneg (2C1A3EBB)
 In interior cell
 	Has location Faceted Stones
 		Could not find encounter zone for location
@@ -4372,13 +4383,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Kerzal (2C1A3EB1)
+Actor Draank (2C1A3EAF)
 In interior cell
 	Has location Faceted Stones
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Fradkhalkh (2C1A3EAE)
+Actor Yooz (2C1A3EB0)
 In interior cell
 	Has location Faceted Stones
 		Could not find encounter zone for location
@@ -4390,13 +4401,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Draank (2C1A3EAF)
+Actor Fradkhalkh (2C1A3EAE)
 In interior cell
 	Has location Faceted Stones
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Yooz (2C1A3EB0)
+Actor Kerzal (2C1A3EB1)
 In interior cell
 	Has location Faceted Stones
 		Could not find encounter zone for location
@@ -4456,12 +4467,12 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Jeer-Tai (6003569D)
+Actor Daynil (6003569C)
 In interior cell
 	Has no location
 Returning nothing
 
-Actor Daynil (6003569C)
+Actor Jeer-Tai (6003569D)
 In interior cell
 	Has no location
 Returning nothing
@@ -4483,12 +4494,6 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Oakwood Mercenary (7600B092)
-In interior cell
-	Has location Oakwood Watchtower
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Oakwood Mercenary (7600B095)
 In interior cell
 	Has location Oakwood Watchtower
@@ -4507,13 +4512,19 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Reich Corigate Guard (77048EC6)
+Actor Oakwood Mercenary (7600B092)
+In interior cell
+	Has location Oakwood Watchtower
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Reich Corigate Guard (77048EC4)
 In interior cell
 	Has location Guard Barracks
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Reich Corigate Guard (77048EC4)
+Actor Reich Corigate Guard (77048EC6)
 In interior cell
 	Has location Guard Barracks
 		Could not find encounter zone for location
@@ -4555,13 +4566,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Falkreath Mercenary (780054C1)
+Actor Falkreath Mercenary (780054C0)
 In interior cell
 	Has location Guard House
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Falkreath Mercenary (780054C0)
+Actor Falkreath Mercenary (780054C1)
 In interior cell
 	Has location Guard House
 		Could not find encounter zone for location
@@ -4597,310 +4608,54 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor  (CA827)
-	Has location Falkreath
-		Could not find encounter zone for location
+Actor  (107CE3)
+	Has no location
 Returning nothing
 
-Actor  (CA80F)
-	Has location Falkreath
-		Could not find encounter zone for location
+Actor  (107CC7)
+	Has no location
 Returning nothing
 
-Actor  (CA826)
-	Has location Falkreath
-		Could not find encounter zone for location
+Actor  (82231)
+	Has no location
 Returning nothing
 
-Actor  (CA822)
-	Has location Falkreath
-		Could not find encounter zone for location
+Actor  (10AA66)
+	Has no location
 Returning nothing
 
-Actor  (CA825)
-	Has location Falkreath
-		Could not find encounter zone for location
+Actor  (107CE4)
+	Has no location
 Returning nothing
 
-Actor  (CA828)
-	Has location Falkreath
-		Could not find encounter zone for location
+Actor  (107CC9)
+	Has no location
 Returning nothing
 
-Actor  (CA823)
-	Has location Falkreath
-		Could not find encounter zone for location
+Actor  (825A3)
+	Has no location
 Returning nothing
 
-Actor  (CA824)
-	Has location Falkreath
-		Could not find encounter zone for location
+Actor  (107CC8)
+	Has no location
 Returning nothing
 
-Actor  (CA835)
-	Has location Falkreath
-		Could not find encounter zone for location
+Actor  (107CC5)
+	Has no location
 Returning nothing
 
-Actor  (CA80E)
-	Has location Falkreath
-		Could not find encounter zone for location
+Actor  (8259A)
+	Has no location
 Returning nothing
 
-Actor Stormcloak Soldier (105CAB)
-	Has location Falkreath
-		Could not find encounter zone for location
+Actor  (107CE2)
+	Has no location
 Returning nothing
-
-Actor Falkreath Guard (105CA7)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (5565A)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (55659)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Falkreath Guard (5564B)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Falkreath Guard (5564E)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Falkreath Guard (5564F)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Falkreath Guard (55650)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Falkreath Guard (55651)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (55655)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (55656)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (55657)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (55658)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Falkreath Guard (105CA6)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Falkreath Guard (105CA8)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Stormcloak Soldier (105CAA)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Stormcloak Soldier (105CAC)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Falkreath Guard (5564D)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (CA82D)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (CA812)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (CA814)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (CA82E)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (CA82B)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (CA819)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (CA811)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (CA834)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (CA813)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (CA82A)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (CA81F)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (CA831)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (CA821)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (CA820)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (CA810)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (CA818)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (CA82C)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (CA829)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (CA81E)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (CA815)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor  (BA4B3)
-	Has location Shriekwind Bastion
-		Found encounter zone for location, returning
-
-Actor  (A811D)
-	Has location Shriekwind Bastion
-		Found encounter zone for location, returning
-
-Actor  (105A19)
-	Has location Shriekwind Bastion
-		Found encounter zone for location, returning
 
 Actor Froa (40041328)
 In interior cell
 	Has location Braidwood Inn
 		Could not find encounter zone for location
-Returning nothing
-
-Actor Fisherman (604D038)
-	Has no location
-Returning nothing
-
-Actor  (FE077868)
-	Has no location
-Returning nothing
-
-Actor  (FE077867)
-	Has no location
-Returning nothing
-
-Actor  (1003034)
-	Has no location
-Returning nothing
-
-Actor  (1003033)
-	Has no location
-Returning nothing
-
-Actor  (1003030)
-	Has no location
-Returning nothing
-
-Actor  (100302F)
-	Has no location
-Returning nothing
-
-Actor  (100303A)
-	Has no location
-Returning nothing
-
-Actor  (1003039)
-	Has no location
-Returning nothing
-
-Actor  (1003035)
-	Has no location
-Returning nothing
-
-Actor  (EC188)
-	Has no location
-Returning nothing
-
-Actor  (84415)
-	Has no location
 Returning nothing
 
 Actor  (1F0DA)
@@ -5126,17 +4881,32 @@ Actor Whiterun Guard (3704E)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor  (82231)
+Actor  (1003034)
 	Has no location
 Returning nothing
 
-Actor  (DC5B9)
+Actor  (1003033)
 	Has no location
 Returning nothing
 
-Actor  (EC187)
-	Has location Lakeview Manor
-		Could not find encounter zone for location
+Actor  (1003030)
+	Has no location
+Returning nothing
+
+Actor  (100302F)
+	Has no location
+Returning nothing
+
+Actor  (100303A)
+	Has no location
+Returning nothing
+
+Actor  (1003039)
+	Has no location
+Returning nothing
+
+Actor  (1003035)
+	Has no location
 Returning nothing
 
 Actor  (DC582)
@@ -5149,6 +4919,26 @@ Actor  (84714)
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Fisherman (604D038)
+	Has no location
+Returning nothing
+
+Actor Bandit Ringleader (1407AE6A)
+	Has location Plump Rat Camp
+		Found encounter zone for location, returning
+
+Actor  (EC188)
+	Has no location
+Returning nothing
+
+Actor  (84415)
+	Has no location
+Returning nothing
+
+Actor  (DC5B9)
+	Has no location
+Returning nothing
+
 Actor  (340EAC4A)
 	Has no location
 Returning nothing
@@ -5157,9 +4947,13 @@ Actor  (340EAC49)
 	Has no location
 Returning nothing
 
-Actor Bandit Ringleader (1407AE6A)
-	Has location Plump Rat Camp
-		Found encounter zone for location, returning
+Actor  (FE077868)
+	Has no location
+Returning nothing
+
+Actor  (FE077867)
+	Has no location
+Returning nothing
 
 Actor  (1059E4)
 	Has no location
@@ -5624,26 +5418,6 @@ Actor  (107D34)
 	Has no location
 Returning nothing
 
-Actor  (107CC8)
-	Has no location
-Returning nothing
-
-Actor  (8259A)
-	Has no location
-Returning nothing
-
-Actor  (107CC9)
-	Has no location
-Returning nothing
-
-Actor  (107CE4)
-	Has no location
-Returning nothing
-
-Actor  (107CE3)
-	Has no location
-Returning nothing
-
 Actor  (107CE7)
 	Has no location
 Returning nothing
@@ -5780,18 +5554,6 @@ Actor  (82244)
 	Has no location
 Returning nothing
 
-Actor  (107CC5)
-	Has no location
-Returning nothing
-
-Actor  (825A3)
-	Has no location
-Returning nothing
-
-Actor  (10AA66)
-	Has no location
-Returning nothing
-
 Actor  (107D03)
 	Has no location
 Returning nothing
@@ -5862,10 +5624,6 @@ Actor  (855D6)
 Returning nothing
 
 Actor  (107CE1)
-	Has no location
-Returning nothing
-
-Actor  (107CE2)
 	Has no location
 Returning nothing
 
@@ -5997,6 +5755,51 @@ Returning nothing
 
 Actor  (84412)
 	Has no location
+Returning nothing
+
+Actor Falkreath Guard (105CA8)
+	Has location Falkreath
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Falkreath Guard (105CA7)
+	Has location Falkreath
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Falkreath Guard (105CA6)
+	Has location Falkreath
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Falkreath Guard (55651)
+	Has location Falkreath
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Falkreath Guard (55650)
+	Has location Falkreath
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Falkreath Guard (5564F)
+	Has location Falkreath
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Falkreath Guard (5564E)
+	Has location Falkreath
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Falkreath Guard (5564D)
+	Has location Falkreath
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Falkreath Guard (5564B)
+	Has location Falkreath
+		Could not find encounter zone for location
 Returning nothing
 
 Actor  (105A0A)
@@ -6315,7 +6118,12 @@ Actor  (84565)
 	Has no location
 Returning nothing
 
-Actor Lucan Valerius (13487)
+Actor  (EC187)
+	Has location Lakeview Manor
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Camilla Valerius (13488)
 In interior cell
 	Has location Lucan's Dry Goods
 		Could not find encounter zone for location
@@ -6325,6 +6133,10 @@ Actor Frodnar (1348B)
 In interior cell
 	Has location Hod and Gerdur's House
 		Could not find encounter zone for location
+Returning nothing
+
+Actor Wisp (15A6E)
+	Has no location
 Returning nothing
 
 Actor Wisp (15A74)
@@ -6343,24 +6155,6 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Dengeir of Stuhn (1981B)
-In interior cell
-	Has location Dengeir's Hall
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Solaf (1981E)
-In interior cell
-	Has location Gray Pine Luxuries
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Runil (19820)
-In interior cell
-	Has location House of Arkay
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Kust (19821)
 In interior cell
 	Has location House of Arkay
@@ -6370,12 +6164,6 @@ Returning nothing
 Actor Erikur (198A9)
 In interior cell
 	Has location Erikur's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Kharag gro-Shurkul (198AB)
-In interior cell
-	Has location Solitude Sawmill
 		Could not find encounter zone for location
 Returning nothing
 
@@ -6403,19 +6191,7 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Sayma (198C9)
-In interior cell
-	Has location Bits and Pieces
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Geimund (198D5)
-In interior cell
-	Has location Solitude Stables
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Fridrika (198D6)
 In interior cell
 	Has location Solitude Stables
 		Could not find encounter zone for location
@@ -6439,9 +6215,9 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Ogmund (198F4)
+Actor Cosnach (198FA)
 In interior cell
-	Has location Ogmund's House
+	Has location The Warrens
 		Could not find encounter zone for location
 Returning nothing
 
@@ -6472,18 +6248,6 @@ Returning nothing
 Actor Anwen (19902)
 In interior cell
 	Has location Temple of Dibella
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Anton Virane (1990A)
-In interior cell
-	Has location Understone Keep
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Voada (1990C)
-In interior cell
-	Has location Understone Keep
 		Could not find encounter zone for location
 Returning nothing
 
@@ -6577,12 +6341,6 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Indaryn (19DCE)
-In interior cell
-	Has location Black-Briar Meadery
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Drifa (19DCF)
 In interior cell
 	Has location The Pawned Prawn
@@ -6595,27 +6353,9 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Maven Black-Briar (19DD1)
-In interior cell
-	Has location Black-Briar Manor
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Hemming Black-Briar (19DD2)
 In interior cell
 	Has location Black-Briar Manor
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Ingun Black-Briar (19DD4)
-In interior cell
-	Has location Black-Briar Manor
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Dinya Balu (19DD6)
-In interior cell
-	Has location Temple of Mara
 		Could not find encounter zone for location
 Returning nothing
 
@@ -6631,25 +6371,7 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Alessandra (19DD9)
-In interior cell
-	Has location Riften Hall of the Dead
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Haelga (19DDA)
-In interior cell
-	Has location Haelga's Bunkhouse
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Brand-Shei (19DDC)
-In interior cell
-	Has location Haelga's Bunkhouse
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Tythis Ulen (19DDE)
 In interior cell
 	Has location Haelga's Bunkhouse
 		Could not find encounter zone for location
@@ -6709,12 +6431,6 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Boti (19E05)
-In interior cell
-	Has location Ivarstead Fellstar Farm
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Fastred (19E06)
 In interior cell
 	Has location Ivarstead Fellstar Farm
@@ -6730,24 +6446,6 @@ Returning nothing
 Actor Filnjar (19E09)
 In interior cell
 	Has location Filnjar's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Avrusa Sarethi (19E11)
-In interior cell
-	Has location Sarethi Farm Interior
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Marise Aravel (19E14)
-In interior cell
-	Has location Marise Aravel's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Dravin Llanith (19E15)
-In interior cell
-	Has location Merryfair Farm
 		Could not find encounter zone for location
 Returning nothing
 
@@ -6771,12 +6469,6 @@ Returning nothing
 Actor Melaran (1A638)
 In interior cell
 	Has location Erikur's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Mikael (1A671)
-In interior cell
-	Has location The Bannered Mare
 		Could not find encounter zone for location
 Returning nothing
 
@@ -6864,6 +6556,18 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Danica Pure-Spring (1A69F)
+In interior cell
+	Has location Temple of Kynareth
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Vignar Gray-Mane (1A6A1)
+In interior cell
+	Has location Jorrvaskr
+		Could not find encounter zone for location
+Returning nothing
+
 Actor Nazeem (1A6A4)
 In interior cell
 	Has location Wintersand Manor
@@ -6873,18 +6577,6 @@ Returning nothing
 Actor Ahlam (1A6A5)
 In interior cell
 	Has location Wintersand Manor
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Reldith (1A6AB)
-In interior cell
-	Has location Cowflop Farmhouse
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Britte (1A6AC)
-In interior cell
-	Has location Lemkil's Farmhouse
 		Could not find encounter zone for location
 Returning nothing
 
@@ -6972,25 +6664,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Pactur (1AA58)
+Actor Teeba-Ei (1AA54)
 In interior cell
-	Has location Sorli's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Sirgar (1AA59)
-In interior cell
-	Has location Sorli's House
+	Has location Rockwallow Mine
 		Could not find encounter zone for location
 Returning nothing
 
 Actor Alva (1AA5C)
-In interior cell
-	Has location Alva's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Hroggar (1AA5D)
 In interior cell
 	Has location Alva's House
 		Could not find encounter zone for location
@@ -7005,12 +6685,6 @@ Returning nothing
 Actor Lami (1AA61)
 In interior cell
 	Has location Jorgen and Lami's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Lurbuk (1AA64)
-In interior cell
-	Has location Moorside Inn
 		Could not find encounter zone for location
 Returning nothing
 
@@ -7032,7 +6706,7 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Kjeld the Younger (1B087)
+Actor Iddra (1B085)
 In interior cell
 	Has location Braidwood Inn
 		Could not find encounter zone for location
@@ -7050,9 +6724,15 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Annekke Crag-Jumper (1B092)
+Actor Hrefna (1B08F)
 In interior cell
-	Has location Verner's House
+	Has location Goldenrock Mine
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Tormir (1B090)
+In interior cell
+	Has location Goldenrock Mine
 		Could not find encounter zone for location
 Returning nothing
 
@@ -7068,27 +6748,9 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Quintus Navale (1B116)
-In interior cell
-	Has location The White Phial
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Brunwulf Free-Winter (1B117)
 In interior cell
 	Has location Brunwulf Free-Winter's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Adonato Leotelli (1B119)
-In interior cell
-	Has location Candlehearth Hall
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Susanna the Wicked (1B11B)
-In interior cell
-	Has location Candlehearth Hall
 		Could not find encounter zone for location
 Returning nothing
 
@@ -7098,9 +6760,15 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Helgird (1B11E)
+Actor Calixto Corrium (1B11D)
 In interior cell
-	Has location Windhelm Hall of the Dead
+	Has location Calixto's House of Curiosities
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Jora (1B11F)
+In interior cell
+	Has location Temple of Talos
 		Could not find encounter zone for location
 Returning nothing
 
@@ -7200,6 +6868,12 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Arivanya (1B144)
+In interior cell
+	Has location Windhelm Stables
+		Could not find encounter zone for location
+Returning nothing
+
 Actor Ulundil (1B145)
 In interior cell
 	Has location Windhelm Stables
@@ -7239,36 +6913,6 @@ Returning nothing
 Actor Malur Seloth (1C192)
 In interior cell
 	Has location Jarl's Longhouse
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Onmund (1C1A2)
-In interior cell
-	Has location Dormitory
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Brelyna Maryon (1C1A4)
-In interior cell
-	Has location Dormitory
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Faralda (1C1A5)
-In interior cell
-	Has location Dormitory
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Drevis Neloren (1C1A6)
-In interior cell
-	Has location Dormitory
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Nirya (1C1A9)
-In interior cell
-	Has location Dormitory
 		Could not find encounter zone for location
 Returning nothing
 
@@ -7326,6 +6970,11 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Ivarstead Guard (2123E)
+	Has location Ivarstead
+		Could not find encounter zone for location
+Returning nothing
+
 Actor Haafingar Guard (212AF)
 	Has location Dragon Bridge
 		Could not find encounter zone for location
@@ -7333,11 +6982,6 @@ Returning nothing
 
 Actor Haafingar Guard (212B1)
 	Has location Dragon Bridge
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Winterhold Guard (24B13)
-	Has location Winterhold
 		Could not find encounter zone for location
 Returning nothing
 
@@ -7353,9 +6997,21 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Tulvur (29971)
+In interior cell
+	Has location Hollyfrost Farm
+		Could not find encounter zone for location
+Returning nothing
+
 Actor Brenuin (2C90F)
 In interior cell
 	Has location The Bannered Mare
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Severio Pelagia (2C927)
+In interior cell
+	Has location Severio Pelagias' House
 		Could not find encounter zone for location
 Returning nothing
 
@@ -7395,12 +7051,6 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Zaria (3A19B)
-In interior cell
-	Has location Grave Concoctions
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Lod (3A19F)
 In interior cell
 	Has location Lod's House
@@ -7424,15 +7074,11 @@ Actor Pale Hold Guard (43D1D)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Skeever (459B1)
+Actor Skeever (45A56)
 	Has no location
 Returning nothing
 
-Actor Sabre Cat (45A56)
-	Has no location
-Returning nothing
-
-Actor Skeever (45B38)
+Actor Wolf (45B38)
 	Has no location
 Returning nothing
 
@@ -7476,22 +7122,17 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Gwilin (65AB2)
-	Has location Ivarstead
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Temba Wide-Arm (65AB3)
 In interior cell
 	Has location Ivarstead Vilemyr Inn
 		Could not find encounter zone for location
 Returning nothing
 
-Actor  (6E279)
+Actor Rabbit (6E279)
 	Has no location
 Returning nothing
 
-Actor Rabbit (6E296)
+Actor  (6E296)
 	Has no location
 Returning nothing
 
@@ -7499,7 +7140,7 @@ Actor Rabbit (6E297)
 	Has no location
 Returning nothing
 
-Actor Wolf (7AAC1)
+Actor Wolf (78E3D)
 	Has no location
 Returning nothing
 
@@ -7507,7 +7148,7 @@ Actor Wolf (7AC55)
 	Has no location
 Returning nothing
 
-Actor Skeever (81CEF)
+Actor Wolf (81CEF)
 	Has no location
 Returning nothing
 
@@ -7515,7 +7156,15 @@ Actor Wolf (81CFE)
 	Has no location
 Returning nothing
 
+Actor Wolf (81D0D)
+	Has no location
+Returning nothing
+
 Actor Wolf (820B4)
+	Has no location
+Returning nothing
+
+Actor Wolf (8238E)
 	Has no location
 Returning nothing
 
@@ -7527,27 +7176,23 @@ Actor Wolf (82588)
 	Has no location
 Returning nothing
 
-Actor Wolf (82589)
-	Has no location
-Returning nothing
-
-Actor Goat (82597)
-	Has no location
-Returning nothing
-
-Actor Sabre Cat (82598)
-	Has no location
-Returning nothing
-
 Actor Wolf (82645)
 	Has no location
 Returning nothing
 
-Actor Wolf (82716)
+Actor Wolf (827FD)
 	Has no location
 Returning nothing
 
-Actor Wolf (82717)
+Actor Skeever (82804)
+	Has no location
+Returning nothing
+
+Actor Wolf (839C4)
+	Has no location
+Returning nothing
+
+Actor Wolf (839C9)
 	Has no location
 Returning nothing
 
@@ -7559,7 +7204,19 @@ Actor Wolf (83E88)
 	Has no location
 Returning nothing
 
+Actor Wolf (83EA8)
+	Has no location
+Returning nothing
+
+Actor Wolf (83EC4)
+	Has no location
+Returning nothing
+
 Actor Wolf (83EE7)
+	Has no location
+Returning nothing
+
+Actor Wolf (83F1D)
 	Has no location
 Returning nothing
 
@@ -7567,7 +7224,7 @@ Actor Wolf (841EC)
 	Has no location
 Returning nothing
 
-Actor Wolf (8433C)
+Actor Skeever (8433C)
 	Has no location
 Returning nothing
 
@@ -7579,7 +7236,7 @@ Actor Giant (84461)
 	Has no location
 Returning nothing
 
-Actor Skeever (84464)
+Actor Wolf (84464)
 	Has no location
 Returning nothing
 
@@ -7587,11 +7244,23 @@ Actor Skeever (84547)
 	Has no location
 Returning nothing
 
-Actor Wolf (846FF)
+Actor Mammoth (8456A)
 	Has no location
 Returning nothing
 
-Actor Sabre Cat (8478C)
+Actor Wolf (84574)
+	Has no location
+Returning nothing
+
+Actor Frostbite Spider (8461C)
+	Has no location
+Returning nothing
+
+Actor Skeever (846FD)
+	Has no location
+Returning nothing
+
+Actor Wolf (846FF)
 	Has no location
 Returning nothing
 
@@ -7608,15 +7277,6 @@ Actor Frostbite Spider (848E2)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Frostbite Spider (848E3)
-	Has location Dunpar Wall
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Frostbite Spider (848FD)
-	Has no location
-Returning nothing
-
 Actor Wolf (8493C)
 	Has no location
 Returning nothing
@@ -7626,15 +7286,23 @@ Actor Wolf (849AA)
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Wolf (85453)
+	Has no location
+Returning nothing
+
 Actor Elk (855B3)
 	Has no location
 Returning nothing
 
-Actor Wolf (858E8)
+Actor Sabre Cat (85ADA)
 	Has no location
 Returning nothing
 
-Actor Wolf (85AEF)
+Actor Skeever (85ADC)
+	Has no location
+Returning nothing
+
+Actor Skeever (85AEF)
 	Has no location
 Returning nothing
 
@@ -7642,15 +7310,19 @@ Actor Wolf (85B0A)
 	Has no location
 Returning nothing
 
-Actor Wolf (85CC2)
+Actor Skeever (85CC2)
 	Has no location
 Returning nothing
 
-Actor Wolf (85F9F)
+Actor Skeever (85F9F)
 	Has no location
 Returning nothing
 
-Actor Skeever (860D1)
+Actor Wolf (860D1)
+	Has no location
+Returning nothing
+
+Actor Wolf (860F8)
 	Has no location
 Returning nothing
 
@@ -7666,29 +7338,13 @@ Actor Wolf (865DB)
 	Has no location
 Returning nothing
 
-Actor Skeever (865E0)
-	Has no location
-Returning nothing
-
-Actor Skeever (8660C)
+Actor Wolf (865E0)
 	Has no location
 Returning nothing
 
 Actor Bodil (876DD)
 In interior cell
 	Has location Iron-Breaker Mine
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Edith (877B0)
-In interior cell
-	Has location Quicksilver Mine
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Borgny (877B3)
-In interior cell
-	Has location Quicksilver Mine
 		Could not find encounter zone for location
 Returning nothing
 
@@ -7710,12 +7366,6 @@ Returning nothing
 
 Actor Wolf (99CB0)
 	Has no location
-Returning nothing
-
-Actor Banning (9A7A9)
-In interior cell
-	Has location Markarth Stables
-		Could not find encounter zone for location
 Returning nothing
 
 Actor Vigilance (9A7AB)
@@ -7749,12 +7399,6 @@ Returning nothing
 Actor M'aiq the Liar (BA0CB)
 In interior cell
 	Has location 
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Synda Llanith (BB33C)
-In interior cell
-	Has location Merryfair Farm
 		Could not find encounter zone for location
 Returning nothing
 
@@ -7811,21 +7455,25 @@ Actor Deer (D2499)
 	Has no location
 Returning nothing
 
-Actor Cairine (D6702)
+Actor Aquillius Aeresius (D6AD9)
 In interior cell
-	Has location The Warrens
+	Has location Vittoria Vici's House
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Skeever (DC55C)
+Actor Wolf (DC550)
 	Has no location
 Returning nothing
 
-Actor Wolf (DC56A)
+Actor Sabre Cat (DC55C)
 	Has no location
 Returning nothing
 
-Actor Sabre Cat (DC583)
+Actor Skeever (DC56A)
+	Has no location
+Returning nothing
+
+Actor Wolf (DC583)
 	Has no location
 Returning nothing
 
@@ -7833,7 +7481,11 @@ Actor Skeever (DC58C)
 	Has no location
 Returning nothing
 
-Actor Skeever (DC59E)
+Actor Wolf (DC599)
+	Has no location
+Returning nothing
+
+Actor Wolf (DC59E)
 	Has no location
 Returning nothing
 
@@ -7841,12 +7493,12 @@ Actor Wolf (DC5AA)
 	Has no location
 Returning nothing
 
-Actor Deer (DDDE8)
+Actor Elk (DDDE8)
 	Has location Barleydark Farm
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Deer (DDDE9)
+Actor Elk (DDDE9)
 	Has location Barleydark Farm
 		Could not find encounter zone for location
 Returning nothing
@@ -7859,7 +7511,7 @@ Actor Mammoth (EA671)
 	Has no location
 Returning nothing
 
-Actor Skeever (EC186)
+Actor Wolf (EC186)
 	Has location Lakeview Manor
 		Could not find encounter zone for location
 Returning nothing
@@ -7872,7 +7524,7 @@ Actor Skeleton Fighter (FD664)
 	Has location Arcwind Point
 		Found encounter zone for location, returning
 
-Actor Headless Skeleton Fighter (FD665)
+Actor Skeleton Fighter (FD665)
 	Has location Arcwind Point
 		Found encounter zone for location, returning
 
@@ -7929,9 +7581,8 @@ Actor Slaughterfish (1060D8)
 	Has no location
 Returning nothing
 
-Actor Chicken (1066B0)
-	Has location Falkreath
-		Could not find encounter zone for location
+Actor Wisp (10C62D)
+	Has no location
 Returning nothing
 
 Actor Tasius Tragus (1931000)
@@ -7976,9 +7627,9 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Captain Veleth (40182AD)
+Actor Aphia Velothi (401827D)
 In interior cell
-	Has location The Retching Netch
+	Has location Caerellius House
 		Could not find encounter zone for location
 Returning nothing
 
@@ -8002,15 +7653,24 @@ Actor Redoran Guard (4033D0F)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Ice Wolf (403AA11)
+Actor Spriggan (4039F55)
 	Has location Solstheim
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Wolf (403AA4A)
+Actor Ice Wolf (403AA1B)
 	Has location Solstheim
 		Could not find encounter zone for location
 Returning nothing
+
+Actor Ice Wolf (403AA2C)
+	Has location Solstheim
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Bristleback (403D322)
+	Has location Water Stone
+		Found encounter zone for location, returning
 
 Actor Viriya (6000906)
 In interior cell
@@ -8028,19 +7688,6 @@ Actor Arnimain Guard (1100FA7E)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Sek (11011155)
-	Has location Arnima
-		Found encounter zone for location, returning
-
-Actor Mek (11011156)
-	Has location Arnima
-		Found encounter zone for location, returning
-
-Actor Fulgrid (110111D4)
-	Has location The Divide
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Divide Guard (11011D7B)
 	Has location The Divide
 		Could not find encounter zone for location
@@ -8055,13 +7702,14 @@ Actor Imperial Soldier (11016D86)
 	Has no location
 Returning nothing
 
-Actor Imperial Soldier (11016DA2)
+Actor Imperial Soldier (11016DA1)
 	Has location Embassy
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Imperial officer (11016DA3)
-	Has no location
+Actor Imperial Soldier (11016DA2)
+	Has location Embassy
+		Could not find encounter zone for location
 Returning nothing
 
 Actor Imperial soldier (11016DA4)
@@ -8163,7 +7811,16 @@ Actor Town Dweller (11257648)
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Town Dweller (11257649)
+	Has location Arnima
+		Found encounter zone for location, returning
+
 Actor Evermorin Conscript (11666EC4)
+	Has location Mosbane Quarry
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Horse (11666EC8)
 	Has location Mosbane Quarry
 		Could not find encounter zone for location
 Returning nothing
@@ -8180,18 +7837,6 @@ Returning nothing
 
 Actor Stormcloak Soldier (12020635)
 	Has location Pale Pass
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Cindaia Malumea (14001FD5)
-In interior cell
-	Has location Gergus and Cindaia's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Gergus Malumea (14001FD6)
-In interior cell
-	Has location Gergus and Cindaia's House
 		Could not find encounter zone for location
 Returning nothing
 
@@ -8237,18 +7882,6 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Galarynn (14003A4D)
-In interior cell
-	Has location Galarynn's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Botram the Hammer (14003A4E)
-In interior cell
-	Has location Botram the Hammer's House
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Wolf (1405EECA)
 	Has location Serpent's Trail
 		Found encounter zone for location, returning
@@ -8279,9 +7912,21 @@ Actor Reln-Tei (14065083)
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Felki Silver-Plow (1406517D)
+In interior cell
+	Has location Silver-Plow House
+		Could not find encounter zone for location
+Returning nothing
+
 Actor Razzada the Resplendent (140651A6)
 In interior cell
 	Has location The Restful Watchman
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Hunter (14067DB7)
+In interior cell
+	Has location Hunter's Shack
 		Could not find encounter zone for location
 Returning nothing
 
@@ -8302,12 +7947,6 @@ Actor Mucky Ovacca (1406F93E)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Elintius Rentilia (140700F2)
-In interior cell
-	Has location Bruma Synod Conclave
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Adius Vilius (14070121)
 In interior cell
 	Has location Castle Bruma
@@ -8319,7 +7958,7 @@ Actor Wolf (14070BF5)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Rat (14070BF6)
+Actor Wolf (14070BF6)
 	Has location 
 		Could not find encounter zone for location
 Returning nothing
@@ -8348,15 +7987,8 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Bruma Guard (1407905D)
-In interior cell
-	Has location Castle Bruma
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Encarnus (1407C9D5)
-In interior cell
-	Has location Frostcrag Spire
+Actor Cerendil (1407F00F)
+	Has location Bruma
 		Could not find encounter zone for location
 Returning nothing
 
@@ -8366,9 +7998,37 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Umog (140D264F)
+Actor Simund Gautierre (1408AE7E)
 In interior cell
-	Has location 
+	Has location Castle Bruma
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Sinja Strong-Mind (1408AE7F)
+In interior cell
+	Has location Castle Bruma
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Afanna Eddici (1408AE81)
+In interior cell
+	Has location Castle Bruma
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Novice Conjurer (1408C3DE)
+	Has location Fort Horunn
+		Found encounter zone for location, returning
+
+Actor Serer Orys (1A5399E0)
+In interior cell
+	Has location Chitin and Flin
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Zarona Orys (1A5399E1)
+In interior cell
+	Has location Chitin and Flin
 		Could not find encounter zone for location
 Returning nothing
 
@@ -8384,13 +8044,13 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Metilius Aretino (1D03E05D)
+Actor Livia (1D03E05C)
 In interior cell
 	Has location Livia and Metilius House
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Arriana (1D03E06B)
+Actor Adrian (1D03E06A)
 In interior cell
 	Has location Adrian and Arriana House
 		Could not find encounter zone for location
@@ -8403,12 +8063,6 @@ In interior cell
 Returning nothing
 
 Actor Arlowe (1D03E076)
-In interior cell
-	Has location Arlowe and Edda House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Edda (1D03E077)
 In interior cell
 	Has location Arlowe and Edda House
 		Could not find encounter zone for location
@@ -8453,39 +8107,8 @@ Actor Alessian Priest (1E0B9AA6)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Rose (2000A03B)
-In interior cell
-	Has location The Hermit Cellar
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Freezing Enbarr (2208E05D)
-	Has location Snowy Field
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Blade Undead (2208E05E)
-	Has location Snowy Field
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Blade Undead (2208E05F)
-	Has location Snowy Field
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Blade Undead (2208E066)
-	Has location Snowy Field
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Blade Undead (2208E067)
-	Has location Snowy Field
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Freezing Enbarr (2208E068)
-	Has location Snowy Field
+Actor Giant (200F9FAD)
+	Has location Wyrmstooth
 		Could not find encounter zone for location
 Returning nothing
 
@@ -8498,12 +8121,6 @@ Returning nothing
 Actor Dar'rakki (25002911)
 In interior cell
 	Has location Ivarstead Vilemyr Inn
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Sadrin Reloro (25006A48)
-In interior cell
-	Has location Haelga's Bunkhouse
 		Could not find encounter zone for location
 Returning nothing
 
@@ -8531,18 +8148,6 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Jerulith (25041F62)
-In interior cell
-	Has location Dead Man's Drink
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Fironet (2504C825)
-In interior cell
-	Has location The Winking Skeever
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Nitter (25050F2A)
 In interior cell
 	Has location Solitude Lighthouse
@@ -8561,15 +8166,15 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Orenius Scilus (25059F9C)
+Actor Wander-Lust (25058383)
 In interior cell
-	Has location Dragon Bridge Garrison
+	Has location Argonian Assemblage
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Dog (25061E72)
+Actor Orenius Scilus (25059F9C)
 In interior cell
-	Has location Sarethi Farm Interior
+	Has location Dragon Bridge Garrison
 		Could not find encounter zone for location
 Returning nothing
 
@@ -8579,9 +8184,9 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Veralene Ashwood (250A3D52)
+Actor Gnives (25088FEC)
 In interior cell
-	Has location The Winking Skeever
+	Has location The Ragged Flagon
 		Could not find encounter zone for location
 Returning nothing
 
@@ -8597,15 +8202,9 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Yushari (2511D461)
+Actor Marigoth (2514880E)
 In interior cell
-	Has location Temple of Mara
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Ange the Song-Bearer (251F2A56)
-In interior cell
-	Has location Nightgate Inn
+	Has location Falkreath Jail
 		Could not find encounter zone for location
 Returning nothing
 
@@ -8624,33 +8223,13 @@ Actor Nedhel (2903BB5D)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Florin Guard (290490CE)
-In interior cell
-	Has location Florin Barracks
+Actor Florin Guard (290490E6)
+	Has location Florin
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Florin Guard (29049104)
-In interior cell
-	Has location Florin Barracks
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Alverton Guard (29049D17)
-In interior cell
-	Has location Alverton Barracks
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Lundene Guard (29049D63)
-In interior cell
-	Has location Lundene Barracks
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Lundene Guard (29049D6A)
-In interior cell
-	Has location Lundene Barracks
+Actor Alverton Guard (29049D16)
+	Has location Florin District
 		Could not find encounter zone for location
 Returning nothing
 
@@ -8659,49 +8238,23 @@ Actor Lundene Guard (29049D82)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Lundene Guard (29049D87)
+Actor Marie Softstone (2904C7FC)
 In interior cell
-	Has location Lundene Barracks
+	Has location Florin General Store
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Lundene Guard (29049D8D)
-In interior cell
-	Has location Lundene Barracks
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Alverton Guard (29049D94)
-In interior cell
-	Has location Alverton Barracks
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Alverton Guard (29049D96)
-In interior cell
-	Has location Alverton Barracks
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Alverton Guard (29049D9C)
-In interior cell
-	Has location Alverton Barracks
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Florin Guard (2904AFC1)
-In interior cell
-	Has location Florin Barracks
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Florin Guard (2904AFCA)
-In interior cell
-	Has location Florin Barracks
+Actor Nesianna Swiftwind (2905364A)
+	Has location Florin
 		Could not find encounter zone for location
 Returning nothing
 
 Actor Anglalos (29055595)
+	Has location Florin
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Radret (290555A1)
 	Has location Florin
 		Could not find encounter zone for location
 Returning nothing
@@ -8718,25 +8271,26 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Falith (29059F67)
+In interior cell
+	Has location Councilor's Longhouse
+		Could not find encounter zone for location
+Returning nothing
+
 Actor Aysa (2905B120)
 	Has location Alverton
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Anrelri (2905D819)
-	Has location Alverton
+Actor Rokav (2905C0DB)
+In interior cell
+	Has location Councilor's Longhouse
 		Could not find encounter zone for location
 Returning nothing
 
 Actor Alvdras (2905DF04)
 In interior cell
 	Has location Alvdras' House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Tavian D'orgir (290DF1B1)
-In interior cell
-	Has location Dragon Mead Inn
 		Could not find encounter zone for location
 Returning nothing
 
@@ -8750,7 +8304,7 @@ Actor Wisp (2912545C)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Wisp (2912B8BA)
+Actor Wisp (2912B8BD)
 	Has location Twilight Glade
 		Could not find encounter zone for location
 Returning nothing
@@ -8760,8 +8314,8 @@ Actor Wisp (2917874E)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Wisp (29178750)
-	Has location Alverton District
+Actor Ayleid Skeleton (292D58CE)
+	Has location Lisindril
 		Could not find encounter zone for location
 Returning nothing
 
@@ -8790,17 +8344,6 @@ Actor Brother Thorlogh (2A033FCA)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Jalma (2A044D42)
-In interior cell
-	Has location Borvaldur Manor
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Audmund (2A11D099)
-	Has location Audmund's Farm
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Helena (2A11D09A)
 	Has location Audmund's Farm
 		Could not find encounter zone for location
@@ -8811,11 +8354,23 @@ Actor Wounded Guard (2A11D606)
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Brother Arnand (2A12BC30)
+In interior cell
+	Has location Bailun Priory
+		Could not find encounter zone for location
+Returning nothing
+
 Actor Mammoth (2A16A244)
 	Has location Broken Rock Lagoon
 		Found encounter zone for location, returning
 
-Actor Henrik (2A1725A3)
+Actor Freya (2A1725A4)
+In interior cell
+	Has location Water's Edge Trader
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Galen (2A1725A5)
 In interior cell
 	Has location Water's Edge Trader
 		Could not find encounter zone for location
@@ -8852,12 +8407,6 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Selyse Andrathil (3600C058)
-In interior cell
-	Has location Selyse's Tradehouse
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Belvadyr Rathvasi (3600C656)
 In interior cell
 	Has location Rathvasi "Canton"
@@ -8875,31 +8424,25 @@ Actor Grushnag (40001837)
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Steirod (400099F7)
+In interior cell
+	Has location Trilf's House
+		Could not find encounter zone for location
+Returning nothing
+
 Actor Mithorpa Nasyal (40012BB8)
 In interior cell
 	Has location Barleydark Farmhouse
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Iddli Iron-Blood (400238CE)
-In interior cell
-	Has location Frost River Meadery
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Hjaalmarch Guard (40026006)
+Actor Hjaalmarch Guard (400259EB)
 	Has no location
 Returning nothing
 
 Actor Traillus (4002EDA4)
 In interior cell
 	Has location Traillus' House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Fathenda (4002EE4B)
-In interior cell
-	Has location Fathenda's Formulas
 		Could not find encounter zone for location
 Returning nothing
 
@@ -8926,21 +8469,20 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Pale Hold Guard (4003FD6E)
+	Has location Heljarchen
+		Could not find encounter zone for location
+Returning nothing
+
 Actor Henrik (401A8B7F)
 In interior cell
 	Has location Henrik's House
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Deminia (401B7FB5)
+Actor Rogen (401A8B86)
 In interior cell
 	Has location Rogen's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Sarath (54223DC0)
-In interior cell
-	Has location Temple of Dibella
 		Could not find encounter zone for location
 Returning nothing
 
@@ -8989,6 +8531,11 @@ In interior cell
 	Has no location
 Returning nothing
 
+Actor Mercenary Conjurer (55018830)
+In interior cell
+	Has no location
+Returning nothing
+
 Actor Mercenary Conjurer (55018831)
 In interior cell
 	Has no location
@@ -9009,17 +8556,7 @@ In interior cell
 	Has no location
 Returning nothing
 
-Actor Mercenary Electromancer (55018837)
-In interior cell
-	Has no location
-Returning nothing
-
-Actor Mercenary Electromancer (55018838)
-In interior cell
-	Has no location
-Returning nothing
-
-Actor Mercenary Ranger (5501883B)
+Actor Mercenary Cryomancer (55018836)
 In interior cell
 	Has no location
 Returning nothing
@@ -9085,19 +8622,23 @@ Actor Masser (6004CD4C)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Eran (600F1BE2)
-	Has location Solitude
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Chicken (600F1EAA)
 	Has location Whiterun
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Casimir (600F1EF6)
+Actor Patron (610334CE)
 	Has location Whiterun
 		Could not find encounter zone for location
+Returning nothing
+
+Actor Patron (61051D8B)
+	Has location Whiterun
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Whiterun Guard (610E07ED)
+	Has no location
 Returning nothing
 
 Actor Whiterun Guard (610E07FC)
@@ -9116,6 +8657,21 @@ Actor Palomino Horse (61127A4D)
 Returning nothing
 
 Actor Cow (611883A5)
+	Has location Whiterun
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Willy (620013F1)
+	Has location Whiterun
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Topas (62004CA8)
+	Has location Whiterun
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Heroth (6200C418)
 	Has location Whiterun
 		Could not find encounter zone for location
 Returning nothing
@@ -9150,10 +8706,8 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Sorik (6A00E4B8)
-In interior cell
-	Has location Ivarstead
-		Could not find encounter zone for location
+Actor Isulf Sun-Bearer (68005A6D)
+	Has no location
 Returning nothing
 
 Actor Hermund (6A012B25)
@@ -9162,21 +8716,9 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Agdaz (6A012B29)
-In interior cell
-	Has location The Mountain's Anvil
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Ulrik (6B02321C)
 In interior cell
 	Has location Ulrik's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Ulf (6C085205)
-In interior cell
-	Has location Fallowstone Vault
 		Could not find encounter zone for location
 Returning nothing
 
@@ -9216,12 +8758,6 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Ragna (6D0E006D)
-In interior cell
-	Has location Herleif's and Ragna's Farm
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Folke (6D0E006E)
 In interior cell
 	Has location Herleif's and Ragna's Farm
@@ -9240,25 +8776,7 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Eskil (6D118194)
-In interior cell
-	Has location Hall of Kyne
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Sven (6D122399)
-In interior cell
-	Has location Gala's Stead
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Brand (6D12239B)
-In interior cell
-	Has location Gala's Stead
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Frigg (6D12239D)
 In interior cell
 	Has location Gala's Stead
 		Could not find encounter zone for location
@@ -9322,12 +8840,6 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Frida (72324829)
-In interior cell
-	Has location Frida's House
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Magna Frost-Vein (7232484A)
 In interior cell
 	Has location Magna's House
@@ -9367,36 +8879,6 @@ Returning nothing
 Actor Gerwig (7401E0D0)
 In interior cell
 	Has location Gerwig and Hertha's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Insa (7401E129)
-In interior cell
-	Has location Hartmann and Insa's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Hartmann (7401E12C)
-In interior cell
-	Has location Hartmann and Insa's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Alber (7600A515)
-In interior cell
-	Has location Alber and Bibi's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Bibi (7600A517)
-In interior cell
-	Has location Alber and Bibi's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Burgunde (7600A543)
-In interior cell
-	Has location Burgunde's House
 		Could not find encounter zone for location
 Returning nothing
 
@@ -9460,36 +8942,6 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Gambara Ereni (76047091)
-In interior cell
-	Has location Ereni Residence
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Otharius Ereni (76047092)
-In interior cell
-	Has location Ereni Residence
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Belistel (7604709A)
-In interior cell
-	Has location Ereni Residence
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Emma (7604709F)
-In interior cell
-	Has location Ereni Residence
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Comasco (760470A3)
-In interior cell
-	Has location Ereni Residence
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Fridela (7606FC9D)
 In interior cell
 	Has location Oakwood Monastery
@@ -9538,33 +8990,15 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Lugdunush (77052DCD)
-In interior cell
-	Has location Miner's Barracks
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Colm (77052DCF)
-In interior cell
-	Has location Miner's Barracks
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Herrad (77052DD1)
-In interior cell
-	Has location Miner's Barracks
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Codreanus Tarratius (770620CC)
-In interior cell
-	Has location Nibenese Nights Inn
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Mormiless (770648F3)
 In interior cell
 	Has location 
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Arganith (77073827)
+In interior cell
+	Has location Laurient and Arganith's House
 		Could not find encounter zone for location
 Returning nothing
 
@@ -9604,12 +9038,6 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Captain Tarratius (770A085F)
-In interior cell
-	Has location House of Clan Bright-Vein
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Lindala Bright-Vein (770A0878)
 In interior cell
 	Has location House of Clan Bright-Vein
@@ -9628,33 +9056,9 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Farold (78000C54)
+Actor Lambert (780054D6)
 In interior cell
-	Has location Farold and Llodi's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Llodi (78000C56)
-In interior cell
-	Has location Farold and Llodi's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Rukka (780054C8)
-In interior cell
-	Has location Rukka's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Abolind (78005A3A)
-In interior cell
-	Has location Arnemar and Abolind's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Arnemar (78005A3C)
-In interior cell
-	Has location Arnemar and Abolind's House
+	Has location Herbs in the Hills
 		Could not find encounter zone for location
 Returning nothing
 
@@ -9670,63 +9074,15 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Maeva (7804D8A9)
-In interior cell
-	Has location Quarry Barracks
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Ulor (7804D8AB)
-In interior cell
-	Has location Quarry Barracks
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Rogneda Crook-Antler (7903E987)
 In interior cell
 	Has location House of Clan Crook-Antler
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Audomar (79061FA4)
-In interior cell
-	Has location Miner's Barracks
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Arnim (791BFF0D)
-In interior cell
-	Has location Accouterments for Adventure
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Arwin (791BFF0F)
-In interior cell
-	Has location Accouterments for Adventure
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Ylvi (791BFF10)
 In interior cell
 	Has location Accouterments for Adventure
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Adelm (791DE75F)
-In interior cell
-	Has location Adelm and Dagny's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Deike (791DE762)
-In interior cell
-	Has location Adelm and Dagny's House
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Adda (791DE765)
-In interior cell
-	Has location Adelm and Dagny's House
 		Could not find encounter zone for location
 Returning nothing
 
@@ -9742,15 +9098,15 @@ In interior cell
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Barold (7A067EFC)
+Actor Rola (7A067EFA)
 In interior cell
 	Has location Barold and Rola's House
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Ludovica (7A067F12)
+Actor Barold (7A067EFC)
 In interior cell
-	Has location Ludovica's House
+	Has location Barold and Rola's House
 		Could not find encounter zone for location
 Returning nothing
 
@@ -9790,18 +9146,19 @@ Actor Stray Cat (9C00BA60)
 	Has location Riverwood
 		Found encounter zone for location, returning
 
-Actor Stray Cat (9C0147DC)
-	Has location Markarth
-		Could not find encounter zone for location
-Returning nothing
-
 Actor Tigger (9C01FBAA)
 	Has location Shor's Stone
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Malkin (9C020696)
-	Has location Morthal
+Actor Juju (9C020114)
+	Has location Snow-Shod Farm
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Obi (9C020123)
+In interior cell
+	Has location Hag's Cure
 		Could not find encounter zone for location
 Returning nothing
 
@@ -9831,12 +9188,6 @@ Returning nothing
 Actor Skeleton (A801012D)
 	Has location Mzuhlac
 		Found encounter zone for location, returning
-
-Actor Irine (FE01C979)
-In interior cell
-	Has location Windpeak Inn
-		Could not find encounter zone for location
-Returning nothing
 
 Actor Goblin (FE021D4D)
 	Has no location
@@ -9870,12 +9221,32 @@ Actor Imp (FE08B83F)
 	Has no location
 Returning nothing
 
+Actor Dromedary (FE28A9A1)
+	Has location Alik'r Desert
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Ben Erai City Guard (FE28AB4F)
+	Has location Alik'r Desert
+		Could not find encounter zone for location
+Returning nothing
+
 Actor Dromedary (FE28AB5A)
 	Has location Ben Erai
 		Could not find encounter zone for location
 Returning nothing
 
 Actor Ben Erai City Guard (FE28AB67)
+	Has location Alik'r Desert
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Ben Erai City Guard (FE28AB6A)
+	Has location Ben Erai
+		Could not find encounter zone for location
+Returning nothing
+
+Actor Bactrian camel (FE28AB71)
 	Has location Alik'r Desert
 		Could not find encounter zone for location
 Returning nothing
@@ -9925,10 +9296,15 @@ Actor Frost Troll (FE328854)
 Returning nothing
 
 Actor Ice Warg (FE328879)
-	Has no location
+	Has location Sons of Skyrim Military Camp
+		Could not find encounter zone for location
 Returning nothing
 
 Actor Skeleton Fighter (FE328B3A)
+	Has location Arcwind Point
+		Found encounter zone for location, returning
+
+Actor Skeleton Fighter (FE328B59)
 	Has location Arcwind Point
 		Found encounter zone for location, returning
 
@@ -9936,19 +9312,11 @@ Actor Skeleton Fighter (FE328B68)
 	Has location Arcwind Point
 		Found encounter zone for location, returning
 
-Actor Ice Warg (FE328C50)
-	Has no location
-Returning nothing
-
 Actor Red Warg (FE328C64)
 	Has no location
 Returning nothing
 
-Actor Ice Warg (FE328D7E)
-	Has no location
-Returning nothing
-
-Actor Haafingar Guard (FE3B9DB4)
+Actor Haafingar Guard (FE3B9DB6)
 	Has location Solitude
 		Could not find encounter zone for location
 Returning nothing
@@ -9968,6 +9336,11 @@ Actor Windhelm Guard (FE3EFC5F)
 		Could not find encounter zone for location
 Returning nothing
 
+Actor Windhelm Guard (FE3EFC60)
+	Has location Windhelm
+		Could not find encounter zone for location
+Returning nothing
+
 Actor Windhelm Guard (FE3EFCEF)
 	Has location Windhelm
 		Could not find encounter zone for location
@@ -9982,7 +9355,7 @@ Actor Riften Guard (FE481A3B)
 	Has no location
 Returning nothing
 
-Actor Vampire's Thrall (FE49D876)
+Actor Skeleton Fighter (FE49E86F)
 	Has no location
 Returning nothing
 
@@ -10097,6 +9470,11 @@ Actor Mudcrab (FE7E68EE)
 	Has no location
 Returning nothing
 
+Actor Brovar (FEB47806)
+	Has location Whiterun
+		Could not find encounter zone for location
+Returning nothing
+
 Actor  (FF000A0D)
 	Has no location
 Returning nothing
@@ -10162,6 +9540,10 @@ Actor  (FF001BC9)
 Returning nothing
 
 Actor  (FF002411)
+	Has no location
+Returning nothing
+
+Actor Afflicted Refugee (FF002413)
 	Has no location
 Returning nothing
 
@@ -10393,7 +9775,31 @@ Actor  (FF00293D)
 	Has no location
 Returning nothing
 
+Actor  (FF00293E)
+	Has no location
+Returning nothing
+
 Actor Bandit Chief (FF002941)
+	Has no location
+Returning nothing
+
+Actor  (FF002944)
+	Has no location
+Returning nothing
+
+Actor  (FF002948)
+	Has no location
+Returning nothing
+
+Actor  (FF00294C)
+	Has no location
+Returning nothing
+
+Actor  (FF00294F)
+	Has no location
+Returning nothing
+
+Actor  (FF002957)
 	Has no location
 Returning nothing
 
@@ -10465,6 +9871,10 @@ Actor Bouncer (FF0029EA)
 	Has no location
 Returning nothing
 
+Actor Afflicted Refugee (FF002A0B)
+	Has no location
+Returning nothing
+
 Actor Old Orc (FF002AA4)
 	Has no location
 Returning nothing
@@ -10525,21 +9935,6 @@ Actor Goblin Shaman (FE7DCBCD)
 	Has no location
 Returning nothing
 
-Actor Long Slain Adventurer (A51879D8)
-In interior cell
-	Has no location
-Returning nothing
-
-Actor Long Slain Adventurer (A51879DB)
-In interior cell
-	Has no location
-Returning nothing
-
-Actor Long Slain Adventurer (A51879D3)
-In interior cell
-	Has no location
-Returning nothing
-
 Actor Wolf (78E3B)
 	Has no location
 Returning nothing
@@ -10579,7 +9974,11 @@ Actor Skeleton (2A140B44)
 		Could not find encounter zone for location
 Returning nothing
 
-Actor Ogre (FE7D7869)
+Actor Rabbit (107CC4)
+	Has no location
+Returning nothing
+
+Actor Goblin Archer (FE7DC948)
 	Has no location
 Returning nothing
 
@@ -10591,198 +9990,20 @@ Actor Imp (FE08B83B)
 	Has no location
 Returning nothing
 
-Actor Goblin Archer (FE7DC948)
-	Has no location
-Returning nothing
-
-Actor Skeleton Fighter (FE328B59)
-	Has location Arcwind Point
-		Found encounter zone for location, returning
-
-Actor Skeleton (FE019B00)
-	Has no location
-Returning nothing
-
-Actor Skeleton (FE019B07)
-	Has no location
-Returning nothing
-
-Actor Skeleton (FE019AF7)
-	Has no location
-Returning nothing
-
-Actor Imperial Soldier (CA81D)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Imperial Soldier (CA833)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Stormcloak Soldier (CA82F)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Stormcloak Soldier (CA81A)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Imperial Soldier (CA817)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Stormcloak Soldier (CA832)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Stormcloak Soldier (CA816)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Imperial Soldier (CA830)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Imperial Soldier (CA81B)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Stormcloak Soldier (CA81C)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Novice Conjurer (1408C3DE)
-	Has location Fort Horunn
-		Found encounter zone for location, returning
-
-Actor Guard (72A8D)
-	Has location Nilheim
-		Found encounter zone for location, returning
-
-Actor  (FF00293E)
-	Has no location
-Returning nothing
-
-Actor  (FF002944)
-	Has no location
-Returning nothing
-
-Actor  (FF002948)
-	Has no location
-Returning nothing
-
-Actor  (FF00294C)
-	Has no location
-Returning nothing
-
-Actor  (FF00294F)
-	Has no location
-Returning nothing
-
-Actor  (FF002957)
-	Has no location
-Returning nothing
-
-Actor Skeleton Fighter (FE328B5F)
-	Has location Arcwind Point
-		Found encounter zone for location, returning
-
-Actor Town Dweller (11257649)
-	Has location Arnima
-		Found encounter zone for location, returning
-
-Actor Flying Fred (D9008022)
-	Has no location
-Returning nothing
-
-Actor Travelling Merchant (FF002AEA)
-	Has no location
-Returning nothing
-
-Actor Falkreath Guard (55649)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Stormcloak Soldier (55653)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Stormcloak Soldier (55654)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Thorygg Sun-Killer (77D68)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Falkreath Guard (5564A)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Falkreath Guard (6000BC1)
+Actor Long Slain Adventurer (A51879DB)
 In interior cell
-	Has location Falkreath Barracks
-		Could not find encounter zone for location
+	Has no location
 Returning nothing
 
-Actor Marigoth (2514880E)
+Actor Long Slain Adventurer (A51879D8)
 In interior cell
-	Has location Falkreath Jail
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Bandit Scout (FE03EF3D)
 	Has no location
 Returning nothing
 
-Actor Afflicted Refugee (FF002A0B)
-	Has no location
-Returning nothing
-
-Actor Valga Vinicia (3A198)
+Actor Long Slain Adventurer (A51879D3)
 In interior cell
-	Has location Dead Man's Drink
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Vahlokmir (2503E91B)
 	Has no location
 Returning nothing
-
-Actor Skeleton (CED37)
-	Has no location
-Returning nothing
-
-Actor Stormcloak Soldier (CED34)
-	Has no location
-Returning nothing
-
-Actor Elk (CED66)
-	Has no location
-Returning nothing
-
-Actor Wispmother (10C630)
-	Has no location
-Returning nothing
-
-Actor Guard (1BB23)
-	Has location Nilheim
-		Found encounter zone for location, returning
 
 Actor Rabbit (107CE0)
 	Has no location
@@ -10792,49 +10013,10 @@ Actor Goat (D1918)
 	Has no location
 Returning nothing
 
-Actor Seasoned Hunter (A0317)
-	Has location Falkreath
-		Could not find encounter zone for location
-Returning nothing
+Actor Skeleton Fighter (FE328B5F)
+	Has location Arcwind Point
+		Found encounter zone for location, returning
 
-Actor Rabbit (107CC7)
-	Has no location
-Returning nothing
-
-Actor M'Raksa (2C224CA3)
-	Has no location
-Returning nothing
-
-Actor Ri'Suen-dar (2C224CA2)
-	Has no location
-Returning nothing
-
-Actor Mhiir-do (2C224CA8)
-	Has no location
-Returning nothing
-
-Actor Bandit Scout (D6CA2)
-	Has no location
-Returning nothing
-
-Actor Bandit Scout (D6CB4)
-	Has no location
-Returning nothing
-
-Actor Afflicted Refugee (FF002413)
-	Has no location
-Returning nothing
-
-Actor Rabbit (107CC4)
-	Has no location
-Returning nothing
-
-Actor Ben Erai Fortress Guard (1D0097BB)
-	Has location Ben Erai
-		Could not find encounter zone for location
-Returning nothing
-
-Actor Ben Erai Fortress Guard (1D0097AE)
-	Has location Ben Erai
-		Could not find encounter zone for location
-Returning nothing
+Actor Guard (72A8D)
+	Has location Nilheim
+		Found encounter zone for location, returning

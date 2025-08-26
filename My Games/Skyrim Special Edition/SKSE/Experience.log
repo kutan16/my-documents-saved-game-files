@@ -1,37 +1,40 @@
-[01:00:41][info] Experience 3-4-5-0 is loading...
-[01:02:09][info] Papyrus functions registered
-[01:02:58][info] Initializing skills at level 1
-[01:02:58][info] Updating skillcap data...
-[01:02:58][info] Applying racials for NordRace
-[01:02:58][info] None: 0
-[01:02:58][info] TwoHanded: 10
-[01:02:58][info] Block: 5
-[01:02:58][info] Smithing: 5
-[01:02:58][info] HeavyArmor: 5
-[01:02:58][info] LightArmor: 5
-[01:02:58][info] Speechcraft: 5
-[01:03:00][info] Parsing file: Default.ini
-[01:03:00][info] Directory 'Data/SKSE/Plugins/Experience/Actors' parsed in 6 ms
-[01:03:00][info] Parsing file: Default.ini
-[01:03:00][info] Parsing file: GeneratedExperiencePatch.ini
-[01:03:00][info] Directory 'Data/SKSE/Plugins/Experience/Races' parsed in 17 ms
-[01:03:00][info] Experience sources initialized
-[01:03:52][info] Finished reverting data
-[01:04:31][info] Finished loading data
-[01:11:40][info] [ObjectiveState] Check the Barracks in Falkreath (kCompletedDisplayed)
-[01:12:51][info] [ObjectiveState] Speak with Marigoth in the Cemetery (kDisplayed)
-[01:15:12][info] [ObjectiveState] Find Journal - Runil's inside Bloated Man's Grotto (kDisplayed)
-[01:16:13][info] [LocationDiscovery] Grey Pine Goods (kSettlement)
-[01:23:53][info] [ObjectiveState] Speak with Marigoth in the Cemetery (kCompletedDisplayed)
-[01:23:53][info] [ObjectiveState] Retrieve Marigoth's Crystal (kDisplayed)
-[01:26:13][info] [ObjectiveState] Steal the Letter from Lod for Dengeir (kFailed)
-[01:26:13][info] [ObjectiveState] Bring the Letter from Lod to Dengeir (kFailed)
-[01:26:13][info] [ObjectiveState] Return to Siddgeir (kFailed)
-[01:26:13][info] [ObjectiveState] Deliver Berit's Ashes to Runil (kFailed)
-[01:26:13][info] [ObjectiveState] Kill the leader of Embershard (kFailed)
-[01:26:13][info] [ObjectiveState] Return to Siddgeir (kFailed)
-[01:29:39][info] Finished saving data
-[01:29:49][info] [LocationDiscovery] Lost Knife Hideout (kCave)
-[01:30:42][info] [ActorKill] Outlaw Archer (RefID:0001AEA4)
-[01:30:50][info] [ActorKill] Thug Berserker (RefID:0001AEA5)
-[01:31:45][info] [ActorKill] Outlaw Archer (RefID:0001AEA3)
+[01:52:15][info] Experience 3-4-5-0 is loading...
+[01:53:33][info] Papyrus functions registered
+[01:54:13][info] Initializing skills at level 1
+[01:54:13][info] Updating skillcap data...
+[01:54:13][info] Applying racials for NordRace
+[01:54:13][info] None: 0
+[01:54:13][info] TwoHanded: 10
+[01:54:13][info] Block: 5
+[01:54:13][info] Smithing: 5
+[01:54:13][info] HeavyArmor: 5
+[01:54:13][info] LightArmor: 5
+[01:54:13][info] Speechcraft: 5
+[01:54:14][info] Parsing file: Default.ini
+[01:54:14][info] Directory 'Data/SKSE/Plugins/Experience/Actors' parsed in 0 ms
+[01:54:14][info] Parsing file: Default.ini
+[01:54:14][info] Parsing file: GeneratedExperiencePatch.ini
+[01:54:14][info] Directory 'Data/SKSE/Plugins/Experience/Races' parsed in 7 ms
+[01:54:14][info] Experience sources initialized
+[01:54:51][info] Finished reverting data
+[01:55:13][info] Finished loading data
+[01:55:27][info] [LocationDiscovery] Lost Knife Hideout (kCave)
+[01:56:00][info] [ActorKill] Outlaw Archer (RefID:0001AEA4)
+[01:56:07][info] [ActorKill] Thug Berserker (RefID:0001AEA5)
+[01:56:34][info] [ActorKill] Outlaw Barbarian (RefID:0001CE7A)
+[01:56:45][info] [ActorKill] Bandit Champion (RefID:0001AEA2)
+[01:56:51][info] [ActorKill] Outlaw Archer (RefID:0001AEA3)
+[01:57:23][info] [ActorKill] Bandit Champion (RefID:0001AEA1)
+[01:57:50][info] [ActorKill] Bandit Scout (RefID:00049DCA)
+[01:58:01][info] [ActorKill] Outlaw Scout (RefID:000592EA)
+[01:58:28][info] Finished saving data
+[01:58:56][info] [ActorKill] Bandit Scout (RefID:0001AEA0)
+[01:58:59][info] [ActorKill] Bandit Archer (RefID:000592FC)
+[01:59:33][info] [ActorKill] Highwayman Barbarian (RefID:0001C7B6)
+[01:59:35][info] [ActorKill] Bandit Berserker (RefID:0001C7B7)
+[01:59:45][info] [ActorKill] Bandit Archer (RefID:0001C7B2)
+[02:00:35][info] [ActorKill] Outlaw Vanguard (RefID:0001C7B8)
+[02:01:01][info] [ActorKill] Bandit Archer (RefID:0001AE9F)
+[02:01:20][info] Finished saving data
+[02:02:04][info] [ActorKill] Thug Archer (RefID:0001AE9C)
+[02:02:07][info] [ActorKill] Bandit Scout (RefID:0001AE9D)

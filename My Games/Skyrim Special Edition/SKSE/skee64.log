@@ -288,151 +288,99 @@ RaceMap::CreateDefaultMap - Added default slider maps for 000FCZombieRace from N
 Reverting...
 Loading...
 Loaded Morph: EFM_Brow_Thickness - Value: -1.100000
-Loaded Morph: EFM_Brow_Height - Value: -2.090000
 Loaded Morph: CME_EyeballSize - Value: 0.410000
 Loaded Morph: EFM_Cheek_Shape - Value: -1.010000
+Loaded Morph: EFM_Brow_Height - Value: -2.090000
+Loaded Morph: EFM_Eyes_Outer_Width - Value: -0.010000
+Loaded Morph: EFM_Nose_Size - Value: -0.560000
 Loaded Morph: EFM_Brow_Width - Value: 3.000000
 Loaded Morph: NSK_CheekShape - Value: -0.010000
 Loaded Morph: EFM_Tubercle_Lower_Thickness - Value: 1.310000
-Loaded Morph: EFM_Nose_Size - Value: -0.560000
-Loaded Morph: EFM_Eyes_Outer_Width - Value: -0.010000
 Loaded Morph: CME_BrowArch - Value: 0.010000
-Loaded Morph: EFM_Eyes_Lower_Height - Value: 1.110000
-Loaded Morph: EFM_Tubercle_Upper_Width - Value: -0.710000
 Loaded Morph: CME_BrowInOut - Value: -0.850000
+Loaded Morph: EFM_Tubercle_Upper_Width - Value: -0.710000
+Loaded Morph: EFM_Eyes_Lower_Height - Value: 1.110000
 Loaded Morph: EFM_Cheek_Width - Value: -0.760000
 Loaded Morph: EFM_Jaw_Shape - Value: 0.010000
 Loaded Morph: EFM_Nose_Bridge_Depth - Value: -2.160000
 Loaded Morph: EFM_Nose_Bridge_Width - Value: -1.060000
-Loaded Morph: RANs_Weight - Value: 0.210000
 Loaded Morph: EFM_Nose_Root_Height - Value: 0.010000
+Loaded Morph: RANs_Weight - Value: 0.210000
 Loaded Morph: EFM_Nose_Root_Width - Value: -0.010000
 Loaded Morph: EFM_Nose_Tip_Height - Value: 0.160000
 Loaded Morph: EFM_Nose_Tip_Thickness - Value: -0.010000
 Loaded Morph: EFM_Nose_Width - Value: 0.010000
 Loaded Morph: EFM_Nose_Wing_Height - Value: 0.710000
 Loaded Morph: EFM_Eyes_Inner_Width - Value: 0.010000
-Loaded Morph: EFM_Nose_Wing_Width - Value: 0.710000
 Loaded Morph: EFM_Tubercle_Upper_Thickness - Value: 0.660000
+Loaded Morph: EFM_Nose_Wing_Width - Value: 0.710000
 Loaded Morph: EFM_Eyes_Size - Value: 1.260000
 Loaded Morph: EFM_Eyes_Upper_Height - Value: -0.710000
 Loaded Morph: EFM_Eyes_Inner_Thickness - Value: -1.360000
 Loaded Morph: EFM_Eyes_Lower_Shape - Value: 3.000000
 Loaded Morph: EFM_Eyes_Upper_Shape - Value: 3.000000
 Loaded Morph: EFM_Eyes_Outer_Thickness - Value: 0.930000
-Loaded Morph: EFM_Chin_Depth - Value: 1.010000
-Loaded Morph: EFM_Chin_Shape - Value: 0.660000
 Loaded Morph: CME_NoseSellionBackForward - Value: -0.560000
-Loaded Morph: EFM_Lip_Angle - Value: -0.410000
-Loaded Morph: EFM_Lip_Upper_Width - Value: -1.210000
+Loaded Morph: EFM_Chin_Shape - Value: 0.660000
+Loaded Morph: EFM_Chin_Depth - Value: 1.010000
 Loaded Morph: CME_LowerEyesHeight - Value: -0.010000
+Loaded Morph: EFM_Lip_Upper_Width - Value: -1.210000
+Loaded Morph: EFM_Lip_Angle - Value: -0.410000
 Loaded Morph: EFM_Brow_Angle - Value: 1.670000
 Loaded Morph: EFM_Lip_Lower_Width - Value: 1.110000
 Loaded Morph: EFM_Lip_Upper_Thickness - Value: 1.310000
-Loaded Morph: EFM_Lip_Width - Value: -0.010000
-Loaded Morph: EFM_Nose_Tip_Width - Value: -2.640000
 Loaded Morph: EFM_Chin_Height - Value: -0.360000
+Loaded Morph: EFM_Nose_Tip_Width - Value: -2.640000
+Loaded Morph: EFM_Lip_Width - Value: -0.010000
 Loaded Morph: EFM_Tubercle_Lower_Depth - Value: 0.410000
 Loaded Morph: EFM_Tubercle_Lower_Height - Value: -0.010000
 Loaded Morph: EFM_Tubercle_Lower_Width - Value: 1.410000
-Loaded Morph: NSK_NoseSellionWidth - Value: -0.260000
 Loaded Morph: EFM_Tubercle_Upper_Depth - Value: -1.210000
-Loaded Morph: EFM_Face_Height - Value: 0.410000
+Loaded Morph: NSK_NoseSellionWidth - Value: -0.260000
 Loaded Morph: EFM_Tubercle_Upper_Height - Value: -0.010000
+Loaded Morph: EFM_Face_Height - Value: 0.410000
 Loaded Morph: EFM_Eyes_Inner_Height - Value: -1.110000
 Loaded Morph: CME_UpperEyesHeight - Value: -0.610000
 Loaded Morph: RANs_NoseRidgeShape - Value: -0.010000
 Loaded Morph: NSK_NoseBridge - Value: -0.010000
 Loaded Morph: ECE_NoseTipWidth - Value: -0.010000
-Failed to cast skeleton.nif to geometry
-Failed to cast skeleton.nif to geometry
-Failed to cast skeleton.nif to geometry
-Failed to cast skeleton.nif to geometry
-SKEE64Serialization_Load - Loaded 192ms
+SKEE64Serialization_Load - Loaded 186ms
 MorphCache::CacheFile - Loaded meshes\actors\character\character assets\malehands.tri (15236 bytes)
+MorphCache::CacheFile - Loaded meshes\actors\character\character assets\malefeet.tri (10387 bytes)
+MorphCache::CacheFile - Loaded meshes\armor_replacer\orc\bootsmediumf.tri (3319 bytes)
+MorphCache::CacheFile - Loaded meshes\armor_replacer\orc\gauntletsheavyf.tri (5364 bytes)
+MorphCache::CacheFile - Loaded meshes\fafny stash\master thief\fb_master_thief_shoulder_f.tri (503361 bytes)
+MorphCache::CacheFile - Loaded meshes\fafny stash\master thief\fb_master_thief_scabbard_knife_f.tri (80 bytes)
+MorphCache::CacheFile - Loaded meshes\armor\amuletsandrings\arkay\arkayamuletf.tri (27096 bytes)
 MorphCache::CacheFile - Loaded meshes\fuse00\armor\perseus\perseus_female_body.tri (7518218 bytes)
 MorphCache::CacheFile - Loaded meshes\fuse00\armor\perseus\perseus_female_body_fp.tri (350704 bytes)
-MorphCache::CacheFile - Loaded meshes\armor\amuletsandrings\arkay\arkayamuletf.tri (27096 bytes)
-MorphCache::CacheFile - Loaded meshes\fafny stash\master thief\fb_master_thief_scabbard_knife_f.tri (80 bytes)
-MorphCache::CacheFile - Loaded meshes\fafny stash\master thief\fb_master_thief_shoulder_f.tri (503361 bytes)
-MorphCache::CacheFile - Loaded meshes\armor_replacer\orc\gauntletsheavyf.tri (5364 bytes)
-MorphCache::CacheFile - Loaded meshes\armor_replacer\orc\bootsmediumf.tri (3319 bytes)
 MorphCache::CacheFile - Loaded meshes\divineelegance\female\clothing\w2\lethopantsvesjacket.tri (2602716 bytes)
 MorphCache::CacheFile - Loaded meshes\divineelegance\female\clothing\w2\bootsheels.tri (29971 bytes)
 MorphCache::CacheFile - Loaded meshes\divineelegance\female\armor\manuscript\djglovesf.tri (6822 bytes)
-MorphCache::CacheFile - Loaded meshes\clothes\farmclothes01\bootsm.tri (8968 bytes)
-MorphCache::CacheFile - Loaded meshes\clothes\farmclothes01\torsom.tri (1419422 bytes)
-MorphCache::CacheFile - Loaded meshes\clothes\forswornarmor\forswornboots.tri (173892 bytes)
-MorphCache::CacheFile - Loaded meshes\armor\bandit\body1m.tri (5453863 bytes)
-MorphCache::CacheFile - Loaded meshes\clothes\farmclothes02\m\shoes.tri (3888 bytes)
-MorphCache::CacheFile - Loaded meshes\clothes\farmclothes02\m\torso.tri (1618357 bytes)
-MorphCache::CacheFile - Loaded meshes\clothes\monk\monkrobes.tri (903880 bytes)
-MorphCache::CacheFile - Loaded meshes\armor\amuletsandrings\arkay\arkayamulet.tri (74502 bytes)
-MorphCache::CacheFile - Loaded meshes\clothes\monk\monkboots.tri (17114 bytes)
-MorphCache::CacheFile - Loaded meshes\armor\studded\male\body.tri (3511131 bytes)
-MorphCache::CacheFile - Loaded meshes\armor\studded\male\boots.tri (215145 bytes)
-MorphCache::CacheFile - Loaded meshes\clothes\blacksmith\m\shoes.tri (5757 bytes)
-MorphCache::CacheFile - Loaded meshes\clothes\blacksmith\m\torso.tri (1932908 bytes)
-MorphCache::CacheFile - Loaded meshes\armor\amuletsandrings\mara\maraamuletf.tri (28721 bytes)
-MorphCache::CacheFile - Loaded meshes\clothes\blacksmith\f\torso.tri (762983 bytes)
-MorphCache::CacheFile - Loaded meshes\clothes\blacksmith\f\shoes.tri (2859 bytes)
-MorphCache::CacheFile - Loaded meshes\actors\character\character assets\femalehands.tri (645716 bytes)
-MorphCache::CacheFile - Loaded meshes\clothes\thalmor\thalmorrobesf.tri (283543 bytes)
-MorphCache::CacheFile - Loaded meshes\clothes\thalmor\thalmorglovesf.tri (10984 bytes)
-MorphCache::CacheFile - Loaded meshes\clothes\farmclothes02\f\dress.tri (722189 bytes)
-MorphCache::CacheFile - Loaded meshes\clothes\farmclothes02\f\shoes.tri (1923 bytes)
-MorphCache::CacheFile - Loaded meshes\divineelegance\female\armor\ac\rebel\wildbeast\rebel_armor_wb.tri (5792395 bytes)
-MorphCache::CacheFile - Loaded meshes\divineelegance\female\armor\ac\rebel\wildbeast\rebel_boots_wb.tri (68930 bytes)
-MorphCache::CacheFile - Loaded meshes\divineelegance\female\armor\ac\rebel\wildbeast\rebel_armlets_wb.tri (20117 bytes)
-MorphCache::CacheFile - Loaded meshes\divineelegance\female\armor\ac\rebel\wildbeast\rebel_gloves_wb.tri (3289 bytes)
-MorphCache::CacheFile - Loaded meshes\actors\character\character assets\tng\c_genitals.tri (42135 bytes)
 MorphCache::CacheFile - Loaded meshes\clothes\warlock\warlockhood_f.tri (68517 bytes)
 MorphCache::CacheFile - Loaded meshes\clothes\warlock\warlockrobes_f.tri (269358 bytes)
 MorphCache::CacheFile - Loaded meshes\clothes\warlock\warlockboots_f.tri (16573 bytes)
+MorphCache::CacheFile - Loaded meshes\actors\character\character assets\femalehands.tri (645716 bytes)
+MorphCache::CacheFile - Loaded meshes\armor\iron\male\cuirassheavy.tri (4771948 bytes)
+MorphCache::CacheFile - Loaded meshes\fafny stash\master thief\fb_master_thief_scabbard_m.tri (294649 bytes)
+MorphCache::CacheFile - Loaded meshes\clothes\warlock\warlockrobes.tri (903880 bytes)
+MorphCache::CacheFile - Loaded meshes\clothes\warlock\warlockboots.tri (17130 bytes)
+MorphCache::CacheFile - Loaded meshes\fuse00\armor\traveling mage\tmage_body_female.tri (2618429 bytes)
 MorphCache::CacheFile - Loaded meshes\actors\character\character assets\malebody.tri (2897092 bytes)
-MorphCache::CacheFile - Loaded meshes\actors\character\character assets\malefeet.tri (10387 bytes)
-MorphCache::CacheFile - Loaded meshes\clothes\wench\wenchoutfitf.tri (3909063 bytes)
-MorphCache::CacheFile - Loaded meshes\clothes\wench\wenchoutfitbootsf.tri (50048 bytes)
-MorphCache::CacheFile - Loaded meshes\clothes\merchantclothes\outfitm.tri (992594 bytes)
-MorphCache::CacheFile - Loaded meshes\clothes\merchantclothes\bootsm.tri (17197 bytes)
-MorphCache::CacheFile - Loaded meshes\actors\character\character assets\tng\r_genitals.tri (37044 bytes)
-MorphCache::CacheFile - Loaded meshes\armor\ravendier\another vampire leather armor\body01.tri (3491116 bytes)
-MorphCache::CacheFile - Loaded meshes\armor\ravendier\another vampire leather armor\gloves01.tri (122027 bytes)
-MorphCache::CacheFile - Loaded meshes\armor\ravendier\another vampire leather armor\boots01.tri (232323 bytes)
-MorphCache::CacheFile - Loaded meshes\actors\character\character assets\tng\r2_genitals.tri (67156 bytes)
-MorphCache::CacheFile - Loaded meshes\divineelegance\female\clothing\dresslong\sorceress\sorceress1.tri (5336729 bytes)
-MorphCache::CacheFile - Loaded meshes\divineelegance\female\clothing\dresslong\sorceress\shoes_sorceress3.tri (3388 bytes)
-MorphCache::CacheFile - Loaded meshes\divineelegance\female\clothing\dresslong\sorceress\sleeves_sorceress1.tri (135739 bytes)
-MorphCache::CacheFile - Loaded meshes\armor\iron\f\cuirasslight.tri (1299597 bytes)
-MorphCache::CacheFile - Loaded meshes\armor\iron\f\gauntlets.tri (41499 bytes)
-MorphCache::CacheFile - Loaded meshes\armor\iron\f\boots.tri (87341 bytes)
-MorphCache::CacheFile - Loaded meshes\armor\hide\f\cuirassmedium.tri (2025548 bytes)
-MorphCache::CacheFile - Loaded meshes\armor\hide\f\gauntletslight.tri (663831 bytes)
-MorphCache::CacheFile - Loaded meshes\actors\character\character assets\femalefeet.tri (69066 bytes)
-MorphCache::CacheFile - Loaded meshes\armor\hide\m\cuirasslight.tri (4104953 bytes)
-MorphCache::CacheFile - Loaded meshes\armor\bandit\glovesm.tri (42286 bytes)
-MorphCache::CacheFile - Loaded meshes\fafny stash\master thief\fb_master_thief_scabbard_knife_m.tri (80 bytes)
-MorphCache::CacheFile - Loaded meshes\armor\bandit\bodym.tri (2122222 bytes)
-MorphCache::CacheFile - Loaded meshes\fafny stash\master thief\fb_master_thief_shoulder_m.tri (494198 bytes)
-MorphCache::CacheFile - Loaded meshes\actors\character\character assets\tng\m_genitals.tri (62198 bytes)
-MorphCache::CacheFile - Loaded meshes\divineelegance\female\armor\riddlemaster\robe.tri (5451581 bytes)
-MorphCache::CacheFile - Loaded meshes\divineelegance\female\armor\riddlemaster\gloves.tri (888 bytes)
-MorphCache::CacheFile - Loaded meshes\divineelegance\female\armor\riddlemaster\boots.tri (109178 bytes)
 Saving...
 SKEE64Serialization_Save - Serialized string table 1ms
 SKEE64Serialization_Save - Player morph data 5ms
-SKEE64Serialization_Save - Serialized transforms 271ms
+SKEE64Serialization_Save - Serialized transforms 270ms
 SKEE64Serialization_Save - Serialized overlays 0ms
-SKEE64Serialization_Save - Serialized overrides 131ms
-SKEE64Serialization_Save - Serialized body morphs 116ms
+SKEE64Serialization_Save - Serialized overrides 128ms
+SKEE64Serialization_Save - Serialized body morphs 128ms
 SKEE64Serialization_Save - Serialized item data 0ms
-MorphCache::CacheFile - Loaded meshes\divineelegance\female\armor\syanna\syanna_outfit.tri (4247912 bytes)
-MorphCache::CacheFile - Loaded meshes\divineelegance\female\armor\syanna\syanna_gauntlets.tri (122699 bytes)
-MorphCache::CacheFile - Loaded meshes\divineelegance\female\armor\syanna\syanna_boots.tri (327306 bytes)
-MorphCache::CacheFile - Loaded meshes\divineelegance\female\armor\syanna\syanna_pauldron.tri (164308 bytes)
-MorphCache::CacheFile - Loaded meshes\clothes\warlock\warlockrobes.tri (903880 bytes)
-MorphCache::CacheFile - Loaded meshes\clothes\warlock\warlockboots.tri (17130 bytes)
-MorphCache::CacheFile - Loaded meshes\divineelegance\female\armor\silentmist\smf_fur_black.tri (959748 bytes)
-MorphCache::CacheFile - Loaded meshes\divineelegance\female\armor\atomecleather\glovesf.tri (3778 bytes)
-MorphCache::CacheFile - Loaded meshes\divineelegance\female\armor\atomecleather\bootsf.tri (23323 bytes)
-MorphCache::CacheFile - Loaded meshes\divineelegance\female\armor\atomecleather\bodyf.tri (5634647 bytes)
+MorphCache::CacheFile - Loaded meshes\dismemberingframework\officialhumanoidpack\armoraddons\naked\male_dismembered_addons.tri (541466 bytes)
+Saving...
+SKEE64Serialization_Save - Serialized string table 1ms
+SKEE64Serialization_Save - Player morph data 5ms
+SKEE64Serialization_Save - Serialized transforms 287ms
+SKEE64Serialization_Save - Serialized overlays 0ms
+SKEE64Serialization_Save - Serialized overrides 132ms
+SKEE64Serialization_Save - Serialized body morphs 126ms
+SKEE64Serialization_Save - Serialized item data 0ms
