@@ -1,85 +1,85 @@
-08/26/25 - 01:52:14.614900 [info] Loading CompassNavigationOverhaul 2.1.1.0...
-08/26/25 - 01:52:14.616996 [debug] Default Trampoline => 0B / 117B (00.00%)
-08/26/25 - 01:52:14.617010 [debug] Default Trampoline => 33B / 117B (28.21%)
-08/26/25 - 01:52:14.617015 [debug] Default Trampoline => 47B / 117B (40.17%)
-08/26/25 - 01:52:14.617029 [debug] Default Trampoline => 61B / 117B (52.14%)
-08/26/25 - 01:52:14.617044 [debug] Default Trampoline => 75B / 117B (64.10%)
-08/26/25 - 01:52:14.617054 [debug] Default Trampoline => 89B / 117B (76.07%)
-08/26/25 - 01:52:14.617064 [debug] Default Trampoline => 103B / 117B (88.03%)
-08/26/25 - 01:52:14.617073 [debug] Default Trampoline => 117B / 117B (100.00%)
-08/26/25 - 01:52:14.617083 [info] Succesfully loaded!
-08/26/25 - 01:52:16.898186 [info] Successfully registered for Infinity UI messages!
-08/26/25 - 01:54:51.335494 [info] Started loading HUD patches
-08/26/25 - 01:54:51.337763 [debug] _level0.HUDMovieBaseInstance.QuestItemList: DisplayObject
-08/26/25 - 01:54:51.337773 [debug] {
-08/26/25 - 01:54:51.337778 [debug] 	var ShowQuest: Object
-08/26/25 - 01:54:51.337782 [debug] 	var WarHorseMode: Boolean
-08/26/25 - 01:54:51.337786 [debug] 	var AddQuest: Object
-08/26/25 - 01:54:51.337791 [debug] 	var All: Boolean
-08/26/25 - 01:54:51.337795 [debug] 	var HorseMode: Boolean
-08/26/25 - 01:54:51.337799 [debug] 	var RemoveQuest: Object
-08/26/25 - 01:54:51.337803 [debug] 	var Swimming: Boolean
-08/26/25 - 01:54:51.337808 [debug] 	var Favor: Boolean
-08/26/25 - 01:54:51.337812 [debug] 	var AddToHudElements: Object
-08/26/25 - 01:54:51.337816 [debug] 	var ByAgeThenMiscellaneousQuests: Object
-08/26/25 - 01:54:51.337820 [debug] 	var maxHeight: Number
-08/26/25 - 01:54:51.337825 [debug] 	var ShowAllQuests: Object
-08/26/25 - 01:54:51.337829 [debug] 	var positionX0: Number
-08/26/25 - 01:54:51.337833 [debug] 	var StealthMode: Boolean
-08/26/25 - 01:54:51.337837 [debug] 	var Update: Object
-08/26/25 - 01:54:51.337841 [debug] 	var RemoveAllQuests: Object
-08/26/25 - 01:54:51.337846 [debug] 	var entries: Array
-08/26/25 - 01:54:51.337850 [debug] 	var QuestItemList: Object
-08/26/25 - 01:54:51.337854 [debug] 	var SetQuestSide: Object
-08/26/25 - 01:54:51.337858 [debug] 	var positionY0: Number
-08/26/25 - 01:54:51.337862 [debug] 	var SCALE: Number
-08/26/25 - 01:54:51.337867 [debug] 	var DialogueMode: Boolean
-08/26/25 - 01:54:51.337871 [debug] 	var Lock: Object
-08/26/25 - 01:54:51.337875 [debug] }
-08/26/25 - 01:54:51.337889 [debug] _level0.HUDMovieBaseInstance.QuestItemList is on (1032, 144)
-08/26/25 - 01:54:51.338223 [debug] Before replacing:
-08/26/25 - 01:54:51.338229 [debug] _level0.HUDMovieBaseInstance.CompassShoutMeterHolder.Compass: DisplayObject
-08/26/25 - 01:54:51.338234 [debug] {
-08/26/25 - 01:54:51.338239 [debug] 	var CompassFrameAlt: DisplayObject
-08/26/25 - 01:54:51.338243 [debug] 	var CompassTemperatureHolderInstance: DisplayObject
-08/26/25 - 01:54:51.338247 [debug] 	var CompassFrame: DisplayObject
-08/26/25 - 01:54:51.338251 [debug] 	var CompassMask_mc: DisplayObject
-08/26/25 - 01:54:51.338255 [debug] 	var DirectionRect: DisplayObject
-08/26/25 - 01:54:51.338260 [debug] 	var instance78: DisplayObject
-08/26/25 - 01:54:51.338265 [debug] 	var Lock: Object
-08/26/25 - 01:54:51.338270 [debug] }
-08/26/25 - 01:54:51.338283 [debug] _level0.HUDMovieBaseInstance.CompassShoutMeterHolder.Compass is on (639.35, 49.95)
-08/26/25 - 01:54:51.340026 [debug] After replacing:
-08/26/25 - 01:54:51.340033 [debug] _level0.HUDMovieBaseInstance.CompassShoutMeterHolder.Compass: DisplayObject
-08/26/25 - 01:54:51.340038 [debug] {
-08/26/25 - 01:54:51.340042 [debug] 	var CompassFrameAlt: DisplayObject
-08/26/25 - 01:54:51.340047 [debug] 	var CompassFrame: DisplayObject
-08/26/25 - 01:54:51.340051 [debug] 	var CompassTemperatureHolderInstance: DisplayObject
-08/26/25 - 01:54:51.340055 [debug] 	var CompassMask_mc: DisplayObject
-08/26/25 - 01:54:51.340059 [debug] 	var DirectionRect: DisplayObject
-08/26/25 - 01:54:51.340063 [debug] 	var FocusedMarkerInstance: DisplayObject
-08/26/25 - 01:54:51.340068 [debug] 	var COMPASS_HEADING: Number
-08/26/25 - 01:54:51.340096 [debug] 	var CompassMarkerUnknownLocation: Number
-08/26/25 - 01:54:51.340102 [debug] 	var MarkersData: Array
-08/26/25 - 01:54:51.340106 [debug] 	var MarkerList: Array
-08/26/25 - 01:54:51.340110 [debug] 	var SetFocusedMarkerInfo: Object
-08/26/25 - 01:54:51.340114 [debug] 	var CompassMarkerQuestDoor: Number
-08/26/25 - 01:54:51.340118 [debug] 	var COMPASS_GOTOANDSTOP: Number
-08/26/25 - 01:54:51.340123 [debug] 	var FocusMarker: Object
-08/26/25 - 01:54:51.340127 [debug] 	var HUDMenu: DisplayObject
-08/26/25 - 01:54:51.340131 [debug] 	var UnfocusMarker: Object
-08/26/25 - 01:54:51.340135 [debug] 	var CompassMarkerQuest: Number
-08/26/25 - 01:54:51.340140 [debug] 	var COMPASS_SCALE: Number
-08/26/25 - 01:54:51.340144 [debug] 	var SetUnits: Object
-08/26/25 - 01:54:51.340148 [debug] 	var Compass: Object
-08/26/25 - 01:54:51.340152 [debug] 	var SetMarkers: Object
-08/26/25 - 01:54:51.340156 [debug] 	var COMPASS_STRIDE: Number
-08/26/25 - 01:54:51.340160 [debug] 	var UpdateFocusedMarker: Object
-08/26/25 - 01:54:51.340164 [debug] 	var COMPASS_ALPHA: Number
-08/26/25 - 01:54:51.340169 [debug] 	var localToLocal: Object
-08/26/25 - 01:54:51.340173 [debug] 	var Lock: Object
-08/26/25 - 01:54:51.340177 [debug] }
-08/26/25 - 01:54:51.340186 [debug] _level0.HUDMovieBaseInstance.CompassShoutMeterHolder.Compass is on (639.35, 49.95)
-08/26/25 - 01:54:51.340224 [info] Finished loading HUD patches
-08/26/25 - 01:54:51.340611 [debug] QuestItemList added to HUD elements
-08/26/25 - 01:54:51.340616 [debug] Extensions initialization finished
+08/31/25 - 14:16:09.754783 [info] Loading CompassNavigationOverhaul 2.1.1.0...
+08/31/25 - 14:16:09.762290 [debug] Default Trampoline => 0B / 117B (00.00%)
+08/31/25 - 14:16:09.762315 [debug] Default Trampoline => 33B / 117B (28.21%)
+08/31/25 - 14:16:09.762321 [debug] Default Trampoline => 47B / 117B (40.17%)
+08/31/25 - 14:16:09.762337 [debug] Default Trampoline => 61B / 117B (52.14%)
+08/31/25 - 14:16:09.762353 [debug] Default Trampoline => 75B / 117B (64.10%)
+08/31/25 - 14:16:09.762362 [debug] Default Trampoline => 89B / 117B (76.07%)
+08/31/25 - 14:16:09.762372 [debug] Default Trampoline => 103B / 117B (88.03%)
+08/31/25 - 14:16:09.762382 [debug] Default Trampoline => 117B / 117B (100.00%)
+08/31/25 - 14:16:09.762392 [info] Succesfully loaded!
+08/31/25 - 14:16:16.698719 [info] Successfully registered for Infinity UI messages!
+08/31/25 - 14:19:51.673224 [info] Started loading HUD patches
+08/31/25 - 14:19:51.685427 [debug] _level0.HUDMovieBaseInstance.QuestItemList: DisplayObject
+08/31/25 - 14:19:51.685446 [debug] {
+08/31/25 - 14:19:51.685452 [debug] 	var ShowQuest: Object
+08/31/25 - 14:19:51.685456 [debug] 	var WarHorseMode: Boolean
+08/31/25 - 14:19:51.685460 [debug] 	var AddQuest: Object
+08/31/25 - 14:19:51.685465 [debug] 	var All: Boolean
+08/31/25 - 14:19:51.685469 [debug] 	var HorseMode: Boolean
+08/31/25 - 14:19:51.685473 [debug] 	var RemoveQuest: Object
+08/31/25 - 14:19:51.685477 [debug] 	var Swimming: Boolean
+08/31/25 - 14:19:51.685482 [debug] 	var Favor: Boolean
+08/31/25 - 14:19:51.685486 [debug] 	var AddToHudElements: Object
+08/31/25 - 14:19:51.685490 [debug] 	var ByAgeThenMiscellaneousQuests: Object
+08/31/25 - 14:19:51.685495 [debug] 	var maxHeight: Number
+08/31/25 - 14:19:51.685499 [debug] 	var ShowAllQuests: Object
+08/31/25 - 14:19:51.685503 [debug] 	var positionX0: Number
+08/31/25 - 14:19:51.685507 [debug] 	var StealthMode: Boolean
+08/31/25 - 14:19:51.685512 [debug] 	var Update: Object
+08/31/25 - 14:19:51.685516 [debug] 	var RemoveAllQuests: Object
+08/31/25 - 14:19:51.685520 [debug] 	var entries: Array
+08/31/25 - 14:19:51.685524 [debug] 	var QuestItemList: Object
+08/31/25 - 14:19:51.685529 [debug] 	var SetQuestSide: Object
+08/31/25 - 14:19:51.685533 [debug] 	var positionY0: Number
+08/31/25 - 14:19:51.685537 [debug] 	var SCALE: Number
+08/31/25 - 14:19:51.685541 [debug] 	var DialogueMode: Boolean
+08/31/25 - 14:19:51.685546 [debug] 	var Lock: Object
+08/31/25 - 14:19:51.685550 [debug] }
+08/31/25 - 14:19:51.685951 [debug] _level0.HUDMovieBaseInstance.QuestItemList is on (1032, 144)
+08/31/25 - 14:19:51.686445 [debug] Before replacing:
+08/31/25 - 14:19:51.686452 [debug] _level0.HUDMovieBaseInstance.CompassShoutMeterHolder.Compass: DisplayObject
+08/31/25 - 14:19:51.686456 [debug] {
+08/31/25 - 14:19:51.686461 [debug] 	var CompassFrameAlt: DisplayObject
+08/31/25 - 14:19:51.686466 [debug] 	var CompassTemperatureHolderInstance: DisplayObject
+08/31/25 - 14:19:51.686470 [debug] 	var CompassFrame: DisplayObject
+08/31/25 - 14:19:51.686474 [debug] 	var CompassMask_mc: DisplayObject
+08/31/25 - 14:19:51.686478 [debug] 	var DirectionRect: DisplayObject
+08/31/25 - 14:19:51.686482 [debug] 	var instance78: DisplayObject
+08/31/25 - 14:19:51.686489 [debug] 	var Lock: Object
+08/31/25 - 14:19:51.686493 [debug] }
+08/31/25 - 14:19:51.686509 [debug] _level0.HUDMovieBaseInstance.CompassShoutMeterHolder.Compass is on (639.35, 49.95)
+08/31/25 - 14:19:51.697345 [debug] After replacing:
+08/31/25 - 14:19:51.697356 [debug] _level0.HUDMovieBaseInstance.CompassShoutMeterHolder.Compass: DisplayObject
+08/31/25 - 14:19:51.697360 [debug] {
+08/31/25 - 14:19:51.697365 [debug] 	var CompassFrameAlt: DisplayObject
+08/31/25 - 14:19:51.697369 [debug] 	var CompassFrame: DisplayObject
+08/31/25 - 14:19:51.697373 [debug] 	var CompassTemperatureHolderInstance: DisplayObject
+08/31/25 - 14:19:51.697377 [debug] 	var CompassMask_mc: DisplayObject
+08/31/25 - 14:19:51.697381 [debug] 	var DirectionRect: DisplayObject
+08/31/25 - 14:19:51.697386 [debug] 	var FocusedMarkerInstance: DisplayObject
+08/31/25 - 14:19:51.697390 [debug] 	var COMPASS_HEADING: Number
+08/31/25 - 14:19:51.697427 [debug] 	var CompassMarkerUnknownLocation: Number
+08/31/25 - 14:19:51.697432 [debug] 	var MarkersData: Array
+08/31/25 - 14:19:51.697437 [debug] 	var MarkerList: Array
+08/31/25 - 14:19:51.697441 [debug] 	var SetFocusedMarkerInfo: Object
+08/31/25 - 14:19:51.697445 [debug] 	var CompassMarkerQuestDoor: Number
+08/31/25 - 14:19:51.697449 [debug] 	var COMPASS_GOTOANDSTOP: Number
+08/31/25 - 14:19:51.697454 [debug] 	var FocusMarker: Object
+08/31/25 - 14:19:51.697458 [debug] 	var HUDMenu: DisplayObject
+08/31/25 - 14:19:51.697462 [debug] 	var UnfocusMarker: Object
+08/31/25 - 14:19:51.697466 [debug] 	var CompassMarkerQuest: Number
+08/31/25 - 14:19:51.697470 [debug] 	var COMPASS_SCALE: Number
+08/31/25 - 14:19:51.697475 [debug] 	var SetUnits: Object
+08/31/25 - 14:19:51.697479 [debug] 	var Compass: Object
+08/31/25 - 14:19:51.697483 [debug] 	var SetMarkers: Object
+08/31/25 - 14:19:51.697487 [debug] 	var COMPASS_STRIDE: Number
+08/31/25 - 14:19:51.697491 [debug] 	var UpdateFocusedMarker: Object
+08/31/25 - 14:19:51.697496 [debug] 	var COMPASS_ALPHA: Number
+08/31/25 - 14:19:51.697500 [debug] 	var localToLocal: Object
+08/31/25 - 14:19:51.697504 [debug] 	var Lock: Object
+08/31/25 - 14:19:51.697509 [debug] }
+08/31/25 - 14:19:51.697519 [debug] _level0.HUDMovieBaseInstance.CompassShoutMeterHolder.Compass is on (639.35, 49.95)
+08/31/25 - 14:19:51.697560 [info] Finished loading HUD patches
+08/31/25 - 14:19:51.698031 [debug] QuestItemList added to HUD elements
+08/31/25 - 14:19:51.698038 [debug] Extensions initialization finished
