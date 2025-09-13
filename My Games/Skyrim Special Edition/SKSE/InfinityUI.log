@@ -1,1109 +1,746 @@
-08/31/25 - 14:16:12.496159 [info] Loading InfinityUI 2.0.1.0...
-08/31/25 - 14:16:12.501745 [debug] Default Trampoline => 0B / 84B (00.00%)
-08/31/25 - 14:16:12.501767 [debug] Default Trampoline => 31B / 84B (36.90%)
-08/31/25 - 14:16:12.501774 [debug] Default Trampoline => 39B / 84B (46.43%)
-08/31/25 - 14:16:12.501791 [debug] Default Trampoline => 70B / 84B (83.33%)
-08/31/25 - 14:16:12.501797 [debug] Default Trampoline => 84B / 84B (100.00%)
-08/31/25 - 14:16:12.501811 [info] Succesfully loaded!
-08/31/25 - 14:17:56.751971 [trace] Detected LoadingMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:17:56.752204 [debug] Patches loaded for Interface/LoadingMenu.swf: 0
-08/31/25 - 14:17:56.752215 [debug] 
-08/31/25 - 14:17:56.776753 [trace] Detected FaderMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:17:56.776810 [debug] Patches loaded for Interface/FaderMenu.swf: 0
-08/31/25 - 14:17:56.776816 [debug] 
-08/31/25 - 14:17:56.803465 [trace] Detected LoadWaitSpinner movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:17:56.803528 [debug] Patches loaded for Interface/LoadWaitSpinner.swf: 0
-08/31/25 - 14:17:56.803533 [debug] 
-08/31/25 - 14:17:58.521304 [trace] Detected KinectMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:17:58.521364 [debug] Patches loaded for Interface/KinectMenu.swf: 0
-08/31/25 - 14:17:58.521370 [debug] 
-08/31/25 - 14:19:23.025214 [trace] Detected StartMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:19:23.025295 [debug] Patches loaded for Interface/StartMenu.swf: 0
-08/31/25 - 14:19:23.025300 [debug] 
-08/31/25 - 14:19:23.162433 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:19:23.162495 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:19:23.162502 [debug] 
-08/31/25 - 14:19:23.206166 [trace] Detected Console movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:19:23.206220 [debug] Patches loaded for Interface/Console.swf: 0
-08/31/25 - 14:19:23.206225 [debug] 
-08/31/25 - 14:19:23.234516 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:19:23.234588 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:19:23.234596 [debug] 
-08/31/25 - 14:19:23.236222 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:19:23.236277 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:19:23.236283 [debug] 
-08/31/25 - 14:19:23.253335 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:19:23.253387 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:19:23.253393 [debug] 
-08/31/25 - 14:19:23.264537 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:19:23.264583 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:19:23.264588 [debug] 
-08/31/25 - 14:19:51.503284 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:19:51.503336 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:19:51.503341 [debug] 
-08/31/25 - 14:19:51.672858 [trace] Detected HUDMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:19:51.672924 [debug] The path "D:\STOCK GAME\Data\Interface\InfinityUI\HUDMenu" exists, loading instance patches...
-08/31/25 - 14:19:51.674411 [debug] Relative path is "InfinityUI\HUDMenu\HUDMovieBaseInstance\QuestItemList.swf"
-08/31/25 - 14:19:51.674428 [trace] Relative path to SWF: HUDMovieBaseInstance\QuestItemList.swf
-08/31/25 - 14:19:51.674572 [debug] Patch found at "D:\STOCK GAME\Data\Interface\InfinityUI\HUDMenu\HUDMovieBaseInstance\QuestItemList.swf"
-08/31/25 - 14:19:51.674598 [trace] Relative path to patch is: InfinityUI\HUDMenu\HUDMovieBaseInstance\QuestItemList.swf
-08/31/25 - 14:19:51.683614 [trace] New instance loaded!
-08/31/25 - 14:19:51.683639 [trace] 
-08/31/25 - 14:19:51.683657 [trace] _level0.HUDMovieBaseInstance: DisplayObject
-08/31/25 - 14:19:51.683663 [trace] {
-08/31/25 - 14:19:51.683670 [trace] 	var TutorialLockInstance: DisplayObject
-08/31/25 - 14:19:51.683713 [trace] 	var LocationLockBase: DisplayObject
-08/31/25 - 14:19:51.683720 [trace] 	var CompassShoutMeterHolder: DisplayObject
-08/31/25 - 14:19:51.683725 [trace] 	var Crosshair: DisplayObject
-08/31/25 - 14:19:51.683730 [trace] 	var StealthMeterInstance: DisplayObject
-08/31/25 - 14:19:51.683740 [trace] 	var SubtitleTextHolder: DisplayObject
-08/31/25 - 14:19:51.683748 [trace] 	var RolloverName_mc: DisplayObject
-08/31/25 - 14:19:51.683755 [trace] 	var RolloverInfo_mc: DisplayObject
-08/31/25 - 14:19:51.683760 [trace] 	var GrayBarInstance: DisplayObject
-08/31/25 - 14:19:51.683765 [trace] 	var ActivateButton: DisplayObject
-08/31/25 - 14:19:51.683771 [trace] 	var WeightTranslated: DisplayObject
-08/31/25 - 14:19:51.683776 [trace] 	var ValueTranslated: DisplayObject
-08/31/25 - 14:19:51.683781 [trace] 	var FloatingQuestMarkerInstance: DisplayObject
-08/31/25 - 14:19:51.683787 [trace] 	var FavorBackButtonBase: DisplayObject
-08/31/25 - 14:19:51.683792 [trace] 	var Health: DisplayObject
-08/31/25 - 14:19:51.683797 [trace] 	var ChargeMeterBaseAlt: DisplayObject
-08/31/25 - 14:19:51.683803 [trace] 	var Magica: DisplayObject
-08/31/25 - 14:19:51.683808 [trace] 	var Stamina: DisplayObject
-08/31/25 - 14:19:51.683813 [trace] 	var BottomLeftLockInstance: DisplayObject
-08/31/25 - 14:19:51.683819 [trace] 	var BottomRightLockInstance: DisplayObject
-08/31/25 - 14:19:51.683824 [trace] 	var ArrowInfoInstance: DisplayObject
-08/31/25 - 14:19:51.683829 [trace] 	var MessagesBlock: DisplayObject
-08/31/25 - 14:19:51.683835 [trace] 	var TimeDisplay: DisplayObject
-08/31/25 - 14:19:51.683840 [trace] 	var EnemyHealth_mc: DisplayObject
-08/31/25 - 14:19:51.683845 [trace] 	var QuestUpdateBaseInstance: DisplayObject
-08/31/25 - 14:19:51.683851 [trace] 	var TopLeftRefInstance: DisplayObject
-08/31/25 - 14:19:51.683856 [trace] 	var BottomRightRefInstance: DisplayObject
-08/31/25 - 14:19:51.683861 [trace] 	var ConfigWarning: DisplayObject
-08/31/25 - 14:19:51.683867 [trace] 	var QuestItemList: DisplayObject
-08/31/25 - 14:19:51.683872 [trace] 	var scl_fMagica: Number
-08/31/25 - 14:19:51.683878 [trace] 	var pos_fActivateNamePos: Object
-08/31/25 - 14:19:51.683883 [trace] 	var ChargeMeterFrameAnim: DisplayObject
-08/31/25 - 14:19:51.683889 [trace] 	var pos_fStealthMeterPos: Object
-08/31/25 - 14:19:51.683894 [trace] 	var MessagesBlock_mc: DisplayObject
-08/31/25 - 14:19:51.683899 [trace] 	var cfg_bShowTOD: Number
-08/31/25 - 14:19:51.683905 [trace] 	var ShoutLetterInstance: DisplayObject
-08/31/25 - 14:19:51.683910 [trace] 	var HealthBar: DisplayObject
-08/31/25 - 14:19:51.683915 [trace] 	var scl_fClock: Number
-08/31/25 - 14:19:51.683920 [trace] 	var CompassFrame: DisplayObject
-08/31/25 - 14:19:51.683926 [trace] 	var HealthPenaltyMeterB: DisplayObject
-08/31/25 - 14:19:51.683931 [trace] 	var CompassThreeSixtyX: Number
-08/31/25 - 14:19:51.683936 [trace] 	var pos_fRightChargeMeterPos: Object
-08/31/25 - 14:19:51.683942 [trace] 	var cfg_bAltStamina: Number
-08/31/25 - 14:19:51.683947 [trace] 	var ChargeMeterHolder: DisplayObject
-08/31/25 - 14:19:51.683952 [trace] 	var HealthPenaltyMeterAlt: DisplayObject
-08/31/25 - 14:19:51.683958 [trace] 	var pos_fActivateButtonPos: Object
-08/31/25 - 14:19:51.683964 [trace] 	var pos_fLeftChargeMeterPos: Object
-08/31/25 - 14:19:51.683969 [trace] 	var cfg_bPersistentClock: Number
-08/31/25 - 14:19:51.683974 [trace] 	var pos_fSubtitlePos: Object
-08/31/25 - 14:19:51.683980 [trace] 	var Stamina_mc: DisplayObject
-08/31/25 - 14:19:51.683985 [trace] 	var cfg_bAltCharge: Number
-08/31/25 - 14:19:51.683990 [trace] 	var ObjectiveUpdate: DisplayObject
-08/31/25 - 14:19:51.683996 [trace] 	var cfg_bHideEnemyHealth: Number
-08/31/25 - 14:19:51.684001 [trace] 	var scl_fHealth: Number
-08/31/25 - 14:19:51.684007 [trace] 	var Magicka_mc: DisplayObject
-08/31/25 - 14:19:51.684012 [trace] 	var pos_fHealthPos: Object
-08/31/25 - 14:19:51.684018 [trace] 	var CompassCard: DisplayObject
-08/31/25 - 14:19:51.684023 [trace] 	var StaminaPenaltyMeterAlt: DisplayObject
-08/31/25 - 14:19:51.684029 [trace] 	var cfg_bLockAnimatedLetters: Number
-08/31/25 - 14:19:51.684035 [trace] 	var cfg_bAltHealth: Number
-08/31/25 - 14:19:51.684040 [trace] 	var CompassMarkerPlayerSet: Number
-08/31/25 - 14:19:51.684045 [trace] 	var Health_mc: DisplayObject
-08/31/25 - 14:19:51.684051 [trace] 	var ShoutMeterBar: DisplayObject
-08/31/25 - 14:19:51.684056 [trace] 	var cfg_bLockMagickaMeter: Number
-08/31/25 - 14:19:51.684061 [trace] 	var cfg_bShowClock: Number
-08/31/25 - 14:19:51.684067 [trace] 	var cfg_bAltCompass: Number
-08/31/25 - 14:19:51.684072 [trace] 	var pos_fActivateBarPos: Object
-08/31/25 - 14:19:51.684077 [trace] 	var RightChargeMeter: Object
-08/31/25 - 14:19:51.684083 [trace] 	var LeftChargeMeterAlt: Object
-08/31/25 - 14:19:51.684088 [trace] 	var pos_fMessageInfoPos: Object
-08/31/25 - 14:19:51.684093 [trace] 	var cfg_bStealthTextVisible: Number
-08/31/25 - 14:19:51.684099 [trace] 	var cfg_bLockLeftChargeMeter: Number
-08/31/25 - 14:19:51.684104 [trace] 	var pos_fMagicaPos: Object
-08/31/25 - 14:19:51.684109 [trace] 	var CompassMarkerLocations: Number
-08/31/25 - 14:19:51.684115 [trace] 	var StaminaBar: DisplayObject
-08/31/25 - 14:19:51.684120 [trace] 	var cfg_bShowSeconds: Number
-08/31/25 - 14:19:51.684125 [trace] 	var cfg_bLockAltChargeMeter: Number
-08/31/25 - 14:19:51.684130 [trace] 	var cfg_bLockObjectiveText: Number
-08/31/25 - 14:19:51.684136 [trace] 	var cfg_uPersistentMeter: Number
-08/31/25 - 14:19:51.684141 [trace] 	var ShoutMeter_mc: Object
-08/31/25 - 14:19:51.684146 [trace] 	var cfg_bStealthMeterVisible: Number
-08/31/25 - 14:19:51.684152 [trace] 	var pos_fCrosshairPos: Object
-08/31/25 - 14:19:51.684157 [trace] 	var scl_fObjectiveText: Number
-08/31/25 - 14:19:51.684162 [trace] 	var scl_fLocationInfo: Number
-08/31/25 - 14:19:51.684168 [trace] 	var pos_fAltChargeMeterPos: Object
-08/31/25 - 14:19:51.684173 [trace] 	var scl_fArrowInfo: Number
-08/31/25 - 14:19:51.684178 [trace] 	var StaminaPenaltyMeter: DisplayObject
-08/31/25 - 14:19:51.684184 [trace] 	var CompassCardAlt: DisplayObject
-08/31/25 - 14:19:51.684189 [trace] 	var pos_fEnemyHealthPos: Object
-08/31/25 - 14:19:51.684195 [trace] 	var RolloverGrayBar_mc: DisplayObject
-08/31/25 - 14:19:51.684200 [trace] 	var ShoutWarning: DisplayObject
-08/31/25 - 14:19:51.684205 [trace] 	var cfg_bLockRightChargeMeter: Number
-08/31/25 - 14:19:51.684210 [trace] 	var cfg_bLockCompass: Number
-08/31/25 - 14:19:51.684216 [trace] 	var cfg_bHideEnemyMarker: Number
-08/31/25 - 14:19:51.684221 [trace] 	var scl_fSubtitle: Number
-08/31/25 - 14:19:51.684227 [trace] 	var cfg_bLockHealthMeter: Number
-08/31/25 - 14:19:51.684232 [trace] 	var scl_fEnemyHealth: Number
-08/31/25 - 14:19:51.684237 [trace] 	var StaminaMeterAnim: DisplayObject
-08/31/25 - 14:19:51.684242 [trace] 	var cfg_bLockLevelUpMeter: Number
-08/31/25 - 14:19:51.684248 [trace] 	var HealthMeterLeft: Object
-08/31/25 - 14:19:51.684253 [trace] 	var cfg_bDebug: Undefined
-08/31/25 - 14:19:51.684258 [trace] 	var scl_fCrosshair: Number
-08/31/25 - 14:19:51.684264 [trace] 	var clock: Object
-08/31/25 - 14:19:51.684269 [trace] 	var MagickaMeterAnim: DisplayObject
-08/31/25 - 14:19:51.684274 [trace] 	var pos_fLocationInfoPos: Object
-08/31/25 - 14:19:51.684280 [trace] 	var HealthBarAlt: DisplayObject
-08/31/25 - 14:19:51.684285 [trace] 	var pos_fClockPos: Object
-08/31/25 - 14:19:51.684290 [trace] 	var CompassRect: DisplayObject
-08/31/25 - 14:19:51.684296 [trace] 	var pos_fShoutLetterPos: Object
-08/31/25 - 14:19:51.684301 [trace] 	var scl_fStealthMeter: Number
-08/31/25 - 14:19:51.684306 [trace] 	var cfg_bLockEnemyHealth: Number
-08/31/25 - 14:19:51.684312 [trace] 	var CompassMarkerUndiscovered: Number
-08/31/25 - 14:19:51.684317 [trace] 	var shConfigWarning: DisplayObject
-08/31/25 - 14:19:51.684323 [trace] 	var StaminaMeter: Object
-08/31/25 - 14:19:51.684328 [trace] 	var pos_fLevelUpMeterPos: Object
-08/31/25 - 14:19:51.684333 [trace] 	var MagickaMeter: Object
-08/31/25 - 14:19:51.684339 [trace] 	var ShoutWarningAlt: DisplayObject
-08/31/25 - 14:19:51.684345 [trace] 	var CrosshairAlert: DisplayObject
-08/31/25 - 14:19:51.684352 [trace] 	var HealthPenaltyMeterA: DisplayObject
-08/31/25 - 14:19:51.684357 [trace] 	var pos_fActivateInfoPos: Object
-08/31/25 - 14:19:51.684363 [trace] 	var CompassZeroX: Number
-08/31/25 - 14:19:51.684368 [trace] 	var HealthMeterLeftAlt: Object
-08/31/25 - 14:19:51.684373 [trace] 	var CompassMarkerQuest: Number
-08/31/25 - 14:19:51.684379 [trace] 	var TemperatureMeter_mc: DisplayObject
-08/31/25 - 14:19:51.684384 [trace] 	var cfg_bLockClock: Number
-08/31/25 - 14:19:51.684389 [trace] 	var cfg_bAltArrow: Number
-08/31/25 - 14:19:51.684395 [trace] 	var TutorialHintsArtHolder: DisplayObject
-08/31/25 - 14:19:51.684400 [trace] 	var StaminaBarAlt: DisplayObject
-08/31/25 - 14:19:51.684405 [trace] 	var RolloverInfoText: DisplayObject
-08/31/25 - 14:19:51.684410 [trace] 	var FavorBackButton_mc: DisplayObject
-08/31/25 - 14:19:51.684416 [trace] 	var EnemyHealthMeter: Object
-08/31/25 - 14:19:51.684421 [trace] 	var pos_fArrowInfoPos: Object
-08/31/25 - 14:19:51.684426 [trace] 	var RightChargeMeterAlt: Object
-08/31/25 - 14:19:51.684432 [trace] 	var pos_fObjectiveTextPos: Object
-08/31/25 - 14:19:51.684437 [trace] 	var scl_fChargeMeter: Number
-08/31/25 - 14:19:51.684442 [trace] 	var ShoutMeterAlt_mc: Object
-08/31/25 - 14:19:51.684448 [trace] 	var cfg_bHideLocations: Number
-08/31/25 - 14:19:51.684453 [trace] 	var HealthMeterAnim: DisplayObject
-08/31/25 - 14:19:51.684458 [trace] 	var AnimLetterInstance: DisplayObject
-08/31/25 - 14:19:51.684463 [trace] 	var LevelUpInstance: DisplayObject
-08/31/25 - 14:19:51.684469 [trace] 	var FloatingQuestMarker_mc: DisplayObject
-08/31/25 - 14:19:51.684474 [trace] 	var CrosshairInstance: DisplayObject
-08/31/25 - 14:19:51.684479 [trace] 	var cfg_bLockLocationInfo: Number
-08/31/25 - 14:19:51.684485 [trace] 	var LeftChargeMeterAnim: DisplayObject
-08/31/25 - 14:19:51.684490 [trace] 	var scl_fMessageInfo: Number
-08/31/25 - 14:19:51.684495 [trace] 	var cfg_bLockArrowInfo: Number
-08/31/25 - 14:19:51.684500 [trace] 	var cfg_sHourFormat: String
-08/31/25 - 14:19:51.684506 [trace] 	var cfg_bDotCrosshair: Number
-08/31/25 - 14:19:51.684511 [trace] 	var RolloverText: DisplayObject
-08/31/25 - 14:19:51.684516 [trace] 	var pos_fCompassPos: Object
-08/31/25 - 14:19:51.684522 [trace] 	var _shconfig: Object
-08/31/25 - 14:19:51.684527 [trace] 	var cfg_sClockAlign: String
-08/31/25 - 14:19:51.684532 [trace] 	var LeftChargeMeter: Object
-08/31/25 - 14:19:51.684538 [trace] 	var cfg_bSyncMeterFade: Number
-08/31/25 - 14:19:51.684543 [trace] 	var pos_fStaminaPos: Object
-08/31/25 - 14:19:51.684548 [trace] 	var CompassFrameAlt: DisplayObject
-08/31/25 - 14:19:51.684554 [trace] 	var ShoutMeterBarAlt: DisplayObject
-08/31/25 - 14:19:51.684559 [trace] 	var cfg_bLockMessageInfo: Number
-08/31/25 - 14:19:51.684564 [trace] 	var cfg_bHideActivateButton: Number
-08/31/25 - 14:19:51.684569 [trace] 	var CompassTargetDataA: Array
-08/31/25 - 14:19:51.684574 [trace] 	var cfg_bHideQuest: Number
-08/31/25 - 14:19:51.684578 [trace] 	var cfg_bHideUndiscoveredLocations: Number
-08/31/25 - 14:19:51.684582 [trace] 	var LeftChargeMeterAltAnim: DisplayObject
-08/31/25 - 14:19:51.684586 [trace] 	var RightChargeMeterAnim: DisplayObject
-08/31/25 - 14:19:51.684596 [trace] 	var TutorialHintsText: DisplayObject
-08/31/25 - 14:19:51.684600 [trace] 	var RightChargeMeterAltAnim: DisplayObject
-08/31/25 - 14:19:51.684604 [trace] 	var CompassMarkerQuestDoor: Number
-08/31/25 - 14:19:51.684608 [trace] 	var pos_fAnimLetterPos: Object
-08/31/25 - 14:19:51.684613 [trace] 	var cfg_bLockStealthMeter: Number
-08/31/25 - 14:19:51.684617 [trace] 	var cfg_bLockActivatePrompt: Number
-08/31/25 - 14:19:51.684621 [trace] 	var RolloverButton_tf: DisplayObject
-08/31/25 - 14:19:51.684625 [trace] 	var bCrosshairEnabled: Boolean
-08/31/25 - 14:19:51.684630 [trace] 	var scl_fStamina: Number
-08/31/25 - 14:19:51.684634 [trace] 	var scl_fCompass: Number
-08/31/25 - 14:19:51.684638 [trace] 	var CompassMarkerEnemy: Number
-08/31/25 - 14:19:51.684642 [trace] 	var scl_fCompassMarker: Number
-08/31/25 - 14:19:51.684658 [trace] 	var MessagesInstance: DisplayObject
-08/31/25 - 14:19:51.684663 [trace] 	var cfg_bLockSubtitle: Number
-08/31/25 - 14:19:51.684668 [trace] 	var cfg_sLocationInfoAlign: String
-08/31/25 - 14:19:51.684672 [trace] 	var cfg_bLockStaminaMeter: Number
-08/31/25 - 14:19:51.684676 [trace] 	var scl_fLevelUpMeter: Number
-08/31/25 - 14:19:51.684681 [trace] 	var SubtitleText: DisplayObject
-08/31/25 - 14:19:51.684685 [trace] 	var cfgVersion: Number
-08/31/25 - 14:19:51.684689 [trace] 	var scl_fActivatePrompt: Number
-08/31/25 - 14:19:51.684693 [trace] 	var cfg_bLockCrosshair: Number
-08/31/25 - 14:19:51.684699 [trace] 	var Lock: Object
-08/31/25 - 14:19:51.684704 [trace] }
-08/31/25 - 14:19:51.684710 [trace] _level0.HUDMovieBaseInstance.QuestItemList: DisplayObject
-08/31/25 - 14:19:51.684715 [trace] {
-08/31/25 - 14:19:51.684719 [trace] 	var ShowQuest: Object
-08/31/25 - 14:19:51.684723 [trace] 	var ShowAllQuests: Object
-08/31/25 - 14:19:51.684728 [trace] 	var QuestItemList: Object
-08/31/25 - 14:19:51.684732 [trace] 	var RemoveQuest: Object
-08/31/25 - 14:19:51.684736 [trace] 	var Update: Object
-08/31/25 - 14:19:51.684740 [trace] 	var RemoveAllQuests: Object
-08/31/25 - 14:19:51.684744 [trace] 	var AddQuest: Object
-08/31/25 - 14:19:51.684749 [trace] 	var SetQuestSide: Object
-08/31/25 - 14:19:51.684753 [trace] 	var AddToHudElements: Object
-08/31/25 - 14:19:51.684757 [trace] 	var SCALE: Number
-08/31/25 - 14:19:51.684762 [trace] 	var ByAgeThenMiscellaneousQuests: Object
-08/31/25 - 14:19:51.684766 [trace] 	var Lock: Object
-08/31/25 - 14:19:51.684770 [trace] }
-08/31/25 - 14:19:51.684774 [trace] 
-08/31/25 - 14:19:51.686390 [debug] Relative path is "InfinityUI\HUDMenu\HUDMovieBaseInstance\CompassShoutMeterHolder\Compass.swf"
-08/31/25 - 14:19:51.686406 [trace] Relative path to SWF: HUDMovieBaseInstance\CompassShoutMeterHolder\Compass.swf
-08/31/25 - 14:19:51.686417 [debug] Patch found at "D:\STOCK GAME\Data\Interface\InfinityUI\HUDMenu\HUDMovieBaseInstance\CompassShoutMeterHolder\Compass.swf"
-08/31/25 - 14:19:51.686532 [trace] 
-08/31/25 - 14:19:51.686538 [trace] _level0.HUDMovieBaseInstance.CompassShoutMeterHolder: DisplayObject
-08/31/25 - 14:19:51.686542 [trace] {
-08/31/25 - 14:19:51.686547 [trace] 	var Compass: DisplayObject
-08/31/25 - 14:19:51.686551 [trace] 	var ShoutMeterInstance: DisplayObject
-08/31/25 - 14:19:51.686555 [trace] 	var ShoutMeterBarAlt: DisplayObject
-08/31/25 - 14:19:51.686560 [trace] 	var ShoutWarningInstance: DisplayObject
-08/31/25 - 14:19:51.686564 [trace] 	var ShoutWarningInstanceAlt: DisplayObject
-08/31/25 - 14:19:51.686569 [trace] 	var Lock: Object
-08/31/25 - 14:19:51.686574 [trace] }
-08/31/25 - 14:19:51.686581 [trace] _level0.HUDMovieBaseInstance.CompassShoutMeterHolder.Compass: DisplayObject
-08/31/25 - 14:19:51.686586 [trace] {
-08/31/25 - 14:19:51.686591 [trace] 	var CompassFrameAlt: DisplayObject
-08/31/25 - 14:19:51.686597 [trace] 	var CompassTemperatureHolderInstance: DisplayObject
-08/31/25 - 14:19:51.686602 [trace] 	var CompassFrame: DisplayObject
-08/31/25 - 14:19:51.686607 [trace] 	var CompassMask_mc: DisplayObject
-08/31/25 - 14:19:51.686612 [trace] 	var DirectionRect: DisplayObject
-08/31/25 - 14:19:51.686617 [trace] 	var instance78: DisplayObject
-08/31/25 - 14:19:51.686623 [trace] 	var Lock: Object
-08/31/25 - 14:19:51.686628 [trace] }
-08/31/25 - 14:19:51.686633 [trace] 
-08/31/25 - 14:19:51.686739 [trace] Original instance removed!
-08/31/25 - 14:19:51.686745 [trace] 
-08/31/25 - 14:19:51.686750 [trace] _level0.HUDMovieBaseInstance.CompassShoutMeterHolder: DisplayObject
-08/31/25 - 14:19:51.686756 [trace] {
-08/31/25 - 14:19:51.686761 [trace] 	var ShoutMeterInstance: DisplayObject
-08/31/25 - 14:19:51.686766 [trace] 	var ShoutMeterBarAlt: DisplayObject
-08/31/25 - 14:19:51.686772 [trace] 	var ShoutWarningInstance: DisplayObject
-08/31/25 - 14:19:51.686777 [trace] 	var ShoutWarningInstanceAlt: DisplayObject
-08/31/25 - 14:19:51.686782 [trace] 	var Lock: Object
-08/31/25 - 14:19:51.686788 [trace] }
-08/31/25 - 14:19:51.686793 [trace] 
-08/31/25 - 14:19:51.686807 [trace] Relative path to patch is: InfinityUI\HUDMenu\HUDMovieBaseInstance\CompassShoutMeterHolder\Compass.swf
-08/31/25 - 14:19:51.697104 [trace] New instance loaded!
-08/31/25 - 14:19:51.697124 [trace] 
-08/31/25 - 14:19:51.697134 [trace] _level0.HUDMovieBaseInstance.CompassShoutMeterHolder: DisplayObject
-08/31/25 - 14:19:51.697138 [trace] {
-08/31/25 - 14:19:51.697143 [trace] 	var ShoutMeterInstance: DisplayObject
-08/31/25 - 14:19:51.697148 [trace] 	var ShoutMeterBarAlt: DisplayObject
-08/31/25 - 14:19:51.697152 [trace] 	var ShoutWarningInstance: DisplayObject
-08/31/25 - 14:19:51.697156 [trace] 	var ShoutWarningInstanceAlt: DisplayObject
-08/31/25 - 14:19:51.697160 [trace] 	var Compass: DisplayObject
-08/31/25 - 14:19:51.697165 [trace] 	var Lock: Object
-08/31/25 - 14:19:51.697170 [trace] }
-08/31/25 - 14:19:51.697175 [trace] _level0.HUDMovieBaseInstance.CompassShoutMeterHolder.Compass: DisplayObject
-08/31/25 - 14:19:51.697179 [trace] {
-08/31/25 - 14:19:51.697183 [trace] 	var CompassFrameAlt: DisplayObject
-08/31/25 - 14:19:51.697187 [trace] 	var CompassFrame: DisplayObject
-08/31/25 - 14:19:51.697192 [trace] 	var CompassTemperatureHolderInstance: DisplayObject
-08/31/25 - 14:19:51.697196 [trace] 	var CompassMask_mc: DisplayObject
-08/31/25 - 14:19:51.697200 [trace] 	var DirectionRect: DisplayObject
-08/31/25 - 14:19:51.697210 [trace] 	var FocusedMarkerInstance: DisplayObject
-08/31/25 - 14:19:51.697215 [trace] 	var COMPASS_HEADING: Number
-08/31/25 - 14:19:51.697219 [trace] 	var CompassMarkerUnknownLocation: Number
-08/31/25 - 14:19:51.697223 [trace] 	var MarkersData: Array
-08/31/25 - 14:19:51.697227 [trace] 	var MarkerList: Array
-08/31/25 - 14:19:51.697231 [trace] 	var SetFocusedMarkerInfo: Object
-08/31/25 - 14:19:51.697236 [trace] 	var CompassMarkerQuestDoor: Number
-08/31/25 - 14:19:51.697240 [trace] 	var COMPASS_GOTOANDSTOP: Number
-08/31/25 - 14:19:51.697244 [trace] 	var FocusMarker: Object
-08/31/25 - 14:19:51.697249 [trace] 	var HUDMenu: DisplayObject
-08/31/25 - 14:19:51.697253 [trace] 	var UnfocusMarker: Object
-08/31/25 - 14:19:51.697257 [trace] 	var CompassMarkerQuest: Number
-08/31/25 - 14:19:51.697261 [trace] 	var COMPASS_SCALE: Number
-08/31/25 - 14:19:51.697266 [trace] 	var SetUnits: Object
-08/31/25 - 14:19:51.697270 [trace] 	var Compass: Object
-08/31/25 - 14:19:51.697274 [trace] 	var SetMarkers: Object
-08/31/25 - 14:19:51.697278 [trace] 	var COMPASS_STRIDE: Number
-08/31/25 - 14:19:51.697282 [trace] 	var UpdateFocusedMarker: Object
-08/31/25 - 14:19:51.697286 [trace] 	var COMPASS_ALPHA: Number
-08/31/25 - 14:19:51.697291 [trace] 	var localToLocal: Object
-08/31/25 - 14:19:51.697295 [trace] 	var Lock: Object
-08/31/25 - 14:19:51.697299 [trace] }
-08/31/25 - 14:19:51.697303 [trace] 
-08/31/25 - 14:19:51.697583 [info] Patches loaded for Interface/HUDMenu.swf: 2
-08/31/25 - 14:19:51.697588 [debug] 
-08/31/25 - 14:20:21.973643 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:20:21.973697 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:20:21.973703 [debug] 
-08/31/25 - 14:20:21.983735 [trace] Detected DurabilityMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:20:21.983797 [debug] Patches loaded for Interface/DurabilityMenu.swf: 0
-08/31/25 - 14:20:21.983804 [debug] 
-08/31/25 - 14:20:21.991656 [trace] Detected FloatingDamageV2 movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:20:21.991713 [debug] Patches loaded for Interface/FloatingDamageV2.swf: 0
-08/31/25 - 14:20:21.991720 [debug] 
-08/31/25 - 14:20:35.410381 [trace] Detected Map movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:20:35.410465 [debug] The path "D:\STOCK GAME\Data\Interface\InfinityUI\Map" exists, loading instance patches...
-08/31/25 - 14:20:35.411387 [debug] Relative path is "InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
-08/31/25 - 14:20:35.411405 [trace] Relative path to SWF: WorldMap\LocalMapMenu\IconDisplayExtension.swf
-08/31/25 - 14:20:35.411422 [debug] Patch found at "D:\STOCK GAME\Data\Interface\InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
-08/31/25 - 14:20:35.411453 [trace] Relative path to patch is: InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf
-08/31/25 - 14:20:35.419200 [trace] New instance loaded!
-08/31/25 - 14:20:35.419215 [trace] 
-08/31/25 - 14:20:35.419226 [trace] _level0.localMapFader.MapClip: DisplayObject
-08/31/25 - 14:20:35.419232 [trace] {
-08/31/25 - 14:20:35.419239 [trace] 	var LocalMapRect: DisplayObject
-08/31/25 - 14:20:35.419244 [trace] 	var Background: DisplayObject
-08/31/25 - 14:20:35.419250 [trace] 	var LocalMapHolder_mc: DisplayObject
-08/31/25 - 14:20:35.419256 [trace] 	var ClearedText: DisplayObject
-08/31/25 - 14:20:35.419261 [trace] 	var MarkerClips: DisplayObject
-08/31/25 - 14:20:35.419267 [trace] 	var markerDescriptionHolder: DisplayObject
-08/31/25 - 14:20:35.419272 [trace] 	var LocationTextClip: DisplayObject
-08/31/25 - 14:20:35.419278 [trace] 	var IconDisplayExtension: DisplayObject
-08/31/25 - 14:20:35.419283 [trace] 	var _mapImageLoader: Object
-08/31/25 - 14:20:35.419289 [trace] 	var TextureHolder: DisplayObject
-08/31/25 - 14:20:35.419294 [trace] 	var IconDisplay: Object
-08/31/25 - 14:20:35.419300 [trace] 	var _locationFinder: DisplayObject
-08/31/25 - 14:20:35.419305 [trace] 	var _bottomBar: DisplayObject
-08/31/25 - 14:20:35.419311 [trace] 	var ClearedDescription: DisplayObject
-08/31/25 - 14:20:35.419316 [trace] 	var LocationDescription: DisplayObject
-08/31/25 - 14:20:35.419323 [trace] }
-08/31/25 - 14:20:35.419329 [trace] _level0.localMapFader.MapClip.IconDisplayExtension: DisplayObject
-08/31/25 - 14:20:35.419334 [trace] {
-08/31/25 - 14:20:35.419340 [trace] 	var extraMarkerContainer: DisplayObject
-08/31/25 - 14:20:35.419345 [trace] 	var CREATE_STRIDE: Number
-08/31/25 - 14:20:35.419351 [trace] 	var CREATE_ICONTYPE: Number
-08/31/25 - 14:20:35.419356 [trace] 	var extraMarkers: Array
-08/31/25 - 14:20:35.419362 [trace] }
-08/31/25 - 14:20:35.419367 [trace] 
-08/31/25 - 14:20:35.419628 [info] Patches loaded for Interface/Map.swf: 1
-08/31/25 - 14:20:35.419634 [debug] 
-08/31/25 - 14:20:35.423109 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:20:35.423165 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:20:35.423172 [debug] 
-08/31/25 - 14:20:36.103490 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:20:36.103553 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:20:36.103559 [debug] 
-08/31/25 - 14:20:40.115501 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:20:40.115558 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:20:40.115564 [debug] 
-08/31/25 - 14:21:00.455734 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:21:00.455804 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:21:00.455811 [debug] 
-08/31/25 - 14:21:00.459554 [trace] Detected DurabilityMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:21:00.459604 [debug] Patches loaded for Interface/DurabilityMenu.swf: 0
-08/31/25 - 14:21:00.459609 [debug] 
-08/31/25 - 14:21:34.317742 [trace] Detected Map movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:21:34.317783 [debug] The path "D:\STOCK GAME\Data\Interface\InfinityUI\Map" exists, loading instance patches...
-08/31/25 - 14:21:34.318555 [debug] Relative path is "InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
-08/31/25 - 14:21:34.318567 [trace] Relative path to SWF: WorldMap\LocalMapMenu\IconDisplayExtension.swf
-08/31/25 - 14:21:34.318579 [debug] Patch found at "D:\STOCK GAME\Data\Interface\InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
-08/31/25 - 14:21:34.318597 [trace] Relative path to patch is: InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf
-08/31/25 - 14:21:34.319504 [trace] New instance loaded!
-08/31/25 - 14:21:34.319517 [trace] 
-08/31/25 - 14:21:34.319526 [trace] _level0.localMapFader.MapClip: DisplayObject
-08/31/25 - 14:21:34.319534 [trace] {
-08/31/25 - 14:21:34.319540 [trace] 	var LocalMapRect: DisplayObject
-08/31/25 - 14:21:34.319545 [trace] 	var Background: DisplayObject
-08/31/25 - 14:21:34.319549 [trace] 	var LocalMapHolder_mc: DisplayObject
-08/31/25 - 14:21:34.319553 [trace] 	var ClearedText: DisplayObject
-08/31/25 - 14:21:34.319558 [trace] 	var MarkerClips: DisplayObject
-08/31/25 - 14:21:34.319562 [trace] 	var markerDescriptionHolder: DisplayObject
-08/31/25 - 14:21:34.319566 [trace] 	var LocationTextClip: DisplayObject
-08/31/25 - 14:21:34.319570 [trace] 	var IconDisplayExtension: DisplayObject
-08/31/25 - 14:21:34.319575 [trace] 	var _mapImageLoader: Object
-08/31/25 - 14:21:34.319579 [trace] 	var TextureHolder: DisplayObject
-08/31/25 - 14:21:34.319583 [trace] 	var IconDisplay: Object
-08/31/25 - 14:21:34.319588 [trace] 	var _locationFinder: DisplayObject
-08/31/25 - 14:21:34.319592 [trace] 	var _bottomBar: DisplayObject
-08/31/25 - 14:21:34.319596 [trace] 	var ClearedDescription: DisplayObject
-08/31/25 - 14:21:34.319600 [trace] 	var LocationDescription: DisplayObject
-08/31/25 - 14:21:34.319605 [trace] }
-08/31/25 - 14:21:34.319610 [trace] _level0.localMapFader.MapClip.IconDisplayExtension: DisplayObject
-08/31/25 - 14:21:34.319614 [trace] {
-08/31/25 - 14:21:34.319619 [trace] 	var extraMarkerContainer: DisplayObject
-08/31/25 - 14:21:34.319623 [trace] 	var CREATE_STRIDE: Number
-08/31/25 - 14:21:34.319627 [trace] 	var CREATE_ICONTYPE: Number
-08/31/25 - 14:21:34.319631 [trace] 	var extraMarkers: Array
-08/31/25 - 14:21:34.319636 [trace] }
-08/31/25 - 14:21:34.319640 [trace] 
-08/31/25 - 14:21:34.319724 [info] Patches loaded for Interface/Map.swf: 1
-08/31/25 - 14:21:34.319728 [debug] 
-08/31/25 - 14:21:34.322819 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:21:34.322861 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:21:34.322866 [debug] 
-08/31/25 - 14:21:35.067051 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:21:35.067111 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:21:35.067117 [debug] 
-08/31/25 - 14:22:13.534578 [trace] Detected DialogueMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:22:13.534651 [debug] Patches loaded for Interface/DialogueMenu.swf: 0
-08/31/25 - 14:22:13.534658 [debug] 
-08/31/25 - 14:22:13.537930 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:22:13.538001 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:22:13.538007 [debug] 
-08/31/25 - 14:23:07.128062 [trace] Detected Map movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:23:07.128104 [debug] The path "D:\STOCK GAME\Data\Interface\InfinityUI\Map" exists, loading instance patches...
-08/31/25 - 14:23:07.128815 [debug] Relative path is "InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
-08/31/25 - 14:23:07.128829 [trace] Relative path to SWF: WorldMap\LocalMapMenu\IconDisplayExtension.swf
-08/31/25 - 14:23:07.128839 [debug] Patch found at "D:\STOCK GAME\Data\Interface\InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
-08/31/25 - 14:23:07.128858 [trace] Relative path to patch is: InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf
-08/31/25 - 14:23:07.129663 [trace] New instance loaded!
-08/31/25 - 14:23:07.129677 [trace] 
-08/31/25 - 14:23:07.129686 [trace] _level0.localMapFader.MapClip: DisplayObject
-08/31/25 - 14:23:07.129690 [trace] {
-08/31/25 - 14:23:07.129696 [trace] 	var LocalMapRect: DisplayObject
-08/31/25 - 14:23:07.129700 [trace] 	var Background: DisplayObject
-08/31/25 - 14:23:07.129704 [trace] 	var LocalMapHolder_mc: DisplayObject
-08/31/25 - 14:23:07.129709 [trace] 	var ClearedText: DisplayObject
-08/31/25 - 14:23:07.129713 [trace] 	var MarkerClips: DisplayObject
-08/31/25 - 14:23:07.129717 [trace] 	var markerDescriptionHolder: DisplayObject
-08/31/25 - 14:23:07.129721 [trace] 	var LocationTextClip: DisplayObject
-08/31/25 - 14:23:07.129725 [trace] 	var IconDisplayExtension: DisplayObject
-08/31/25 - 14:23:07.129734 [trace] 	var _mapImageLoader: Object
-08/31/25 - 14:23:07.129739 [trace] 	var TextureHolder: DisplayObject
-08/31/25 - 14:23:07.129743 [trace] 	var IconDisplay: Object
-08/31/25 - 14:23:07.129748 [trace] 	var _locationFinder: DisplayObject
-08/31/25 - 14:23:07.129752 [trace] 	var _bottomBar: DisplayObject
-08/31/25 - 14:23:07.129756 [trace] 	var ClearedDescription: DisplayObject
-08/31/25 - 14:23:07.129760 [trace] 	var LocationDescription: DisplayObject
-08/31/25 - 14:23:07.129765 [trace] }
-08/31/25 - 14:23:07.129770 [trace] _level0.localMapFader.MapClip.IconDisplayExtension: DisplayObject
-08/31/25 - 14:23:07.129774 [trace] {
-08/31/25 - 14:23:07.129779 [trace] 	var extraMarkerContainer: DisplayObject
-08/31/25 - 14:23:07.129783 [trace] 	var CREATE_STRIDE: Number
-08/31/25 - 14:23:07.129787 [trace] 	var CREATE_ICONTYPE: Number
-08/31/25 - 14:23:07.129791 [trace] 	var extraMarkers: Array
-08/31/25 - 14:23:07.129796 [trace] }
-08/31/25 - 14:23:07.129800 [trace] 
-08/31/25 - 14:23:07.129886 [info] Patches loaded for Interface/Map.swf: 1
-08/31/25 - 14:23:07.129890 [debug] 
-08/31/25 - 14:23:07.132416 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:23:07.132462 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:23:07.132468 [debug] 
-08/31/25 - 14:23:07.879366 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:23:07.879455 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:23:07.879469 [debug] 
-08/31/25 - 14:23:08.848289 [trace] Detected Quest_Journal movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:23:08.848354 [debug] Patches loaded for Interface/Quest_Journal.swf: 0
-08/31/25 - 14:23:08.848361 [debug] 
-08/31/25 - 14:23:23.794386 [trace] Detected Quest_Journal movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:23:23.794438 [debug] Patches loaded for Interface/Quest_Journal.swf: 0
-08/31/25 - 14:23:23.794444 [debug] 
-08/31/25 - 14:23:35.251059 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:23:35.251116 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:23:35.251122 [debug] 
-08/31/25 - 14:23:42.893495 [trace] Detected Quest_Journal movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:23:42.893548 [debug] Patches loaded for Interface/Quest_Journal.swf: 0
-08/31/25 - 14:23:42.893553 [debug] 
-08/31/25 - 14:23:52.150463 [trace] Detected Quest_Journal movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:23:52.150518 [debug] Patches loaded for Interface/Quest_Journal.swf: 0
-08/31/25 - 14:23:52.150524 [debug] 
-08/31/25 - 14:24:07.384862 [trace] Detected Map movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:24:07.384906 [debug] The path "D:\STOCK GAME\Data\Interface\InfinityUI\Map" exists, loading instance patches...
-08/31/25 - 14:24:07.385660 [debug] Relative path is "InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
-08/31/25 - 14:24:07.385673 [trace] Relative path to SWF: WorldMap\LocalMapMenu\IconDisplayExtension.swf
-08/31/25 - 14:24:07.385684 [debug] Patch found at "D:\STOCK GAME\Data\Interface\InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
-08/31/25 - 14:24:07.385702 [trace] Relative path to patch is: InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf
-08/31/25 - 14:24:07.386449 [trace] New instance loaded!
-08/31/25 - 14:24:07.386461 [trace] 
-08/31/25 - 14:24:07.386470 [trace] _level0.localMapFader.MapClip: DisplayObject
-08/31/25 - 14:24:07.386474 [trace] {
-08/31/25 - 14:24:07.386480 [trace] 	var LocalMapRect: DisplayObject
-08/31/25 - 14:24:07.386484 [trace] 	var Background: DisplayObject
-08/31/25 - 14:24:07.386488 [trace] 	var LocalMapHolder_mc: DisplayObject
-08/31/25 - 14:24:07.386493 [trace] 	var ClearedText: DisplayObject
-08/31/25 - 14:24:07.386498 [trace] 	var MarkerClips: DisplayObject
-08/31/25 - 14:24:07.386502 [trace] 	var markerDescriptionHolder: DisplayObject
-08/31/25 - 14:24:07.386509 [trace] 	var LocationTextClip: DisplayObject
-08/31/25 - 14:24:07.386515 [trace] 	var IconDisplayExtension: DisplayObject
-08/31/25 - 14:24:07.386519 [trace] 	var _mapImageLoader: Object
-08/31/25 - 14:24:07.386524 [trace] 	var TextureHolder: DisplayObject
-08/31/25 - 14:24:07.386528 [trace] 	var IconDisplay: Object
-08/31/25 - 14:24:07.386532 [trace] 	var _locationFinder: DisplayObject
-08/31/25 - 14:24:07.386537 [trace] 	var _bottomBar: DisplayObject
-08/31/25 - 14:24:07.386541 [trace] 	var ClearedDescription: DisplayObject
-08/31/25 - 14:24:07.386545 [trace] 	var LocationDescription: DisplayObject
-08/31/25 - 14:24:07.386550 [trace] }
-08/31/25 - 14:24:07.386555 [trace] _level0.localMapFader.MapClip.IconDisplayExtension: DisplayObject
-08/31/25 - 14:24:07.386559 [trace] {
-08/31/25 - 14:24:07.386564 [trace] 	var extraMarkerContainer: DisplayObject
-08/31/25 - 14:24:07.386568 [trace] 	var CREATE_STRIDE: Number
-08/31/25 - 14:24:07.386573 [trace] 	var CREATE_ICONTYPE: Number
-08/31/25 - 14:24:07.386577 [trace] 	var extraMarkers: Array
-08/31/25 - 14:24:07.386581 [trace] }
-08/31/25 - 14:24:07.386586 [trace] 
-08/31/25 - 14:24:07.386669 [info] Patches loaded for Interface/Map.swf: 1
-08/31/25 - 14:24:07.386673 [debug] 
-08/31/25 - 14:24:07.389019 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:24:07.389069 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:24:07.389076 [debug] 
-08/31/25 - 14:24:07.673765 [trace] Detected Quest_Journal movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:24:07.673818 [debug] Patches loaded for Interface/Quest_Journal.swf: 0
-08/31/25 - 14:24:07.673824 [debug] 
-08/31/25 - 14:24:07.677751 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:24:07.677795 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:24:07.677800 [debug] 
-08/31/25 - 14:24:26.970823 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:24:26.970900 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:24:26.970908 [debug] 
-08/31/25 - 14:24:26.973565 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:24:26.973626 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:24:26.973633 [debug] 
-08/31/25 - 14:24:34.275300 [trace] Detected DialogueMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:24:34.275360 [debug] Patches loaded for Interface/DialogueMenu.swf: 0
-08/31/25 - 14:24:34.275366 [debug] 
-08/31/25 - 14:24:34.277173 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:24:34.277223 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:24:34.277229 [debug] 
-08/31/25 - 14:24:46.826572 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:24:46.826627 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:24:46.826632 [debug] 
-08/31/25 - 14:24:46.829971 [trace] Detected DurabilityMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:24:46.830010 [debug] Patches loaded for Interface/DurabilityMenu.swf: 0
-08/31/25 - 14:24:46.830015 [debug] 
-08/31/25 - 14:25:15.707969 [trace] Detected DialogueMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:25:15.708026 [debug] Patches loaded for Interface/DialogueMenu.swf: 0
-08/31/25 - 14:25:15.708031 [debug] 
-08/31/25 - 14:25:15.710062 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:25:15.710107 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:25:15.710112 [debug] 
-08/31/25 - 14:25:22.965482 [trace] Detected DialogueMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:25:22.965539 [debug] Patches loaded for Interface/DialogueMenu.swf: 0
-08/31/25 - 14:25:22.965545 [debug] 
-08/31/25 - 14:25:22.967599 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:25:22.967643 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:25:22.967651 [debug] 
-08/31/25 - 14:26:00.955643 [trace] Detected DialogueMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:26:00.955700 [debug] Patches loaded for Interface/DialogueMenu.swf: 0
-08/31/25 - 14:26:00.955705 [debug] 
-08/31/25 - 14:26:00.957516 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:26:00.957560 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:26:00.957565 [debug] 
-08/31/25 - 14:26:23.444637 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:26:23.444719 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:26:23.444727 [debug] 
-08/31/25 - 14:26:23.448199 [trace] Detected DurabilityMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:26:23.448238 [debug] Patches loaded for Interface/DurabilityMenu.swf: 0
-08/31/25 - 14:26:23.448244 [debug] 
-08/31/25 - 14:26:49.900598 [trace] Detected LockpickingMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:26:49.900670 [debug] Patches loaded for Interface/LockpickingMenu.swf: 0
-08/31/25 - 14:26:49.900676 [debug] 
-08/31/25 - 14:27:02.840773 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:27:02.840829 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:27:02.840834 [debug] 
-08/31/25 - 14:27:02.844461 [trace] Detected DurabilityMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:27:02.844509 [debug] Patches loaded for Interface/DurabilityMenu.swf: 0
-08/31/25 - 14:27:02.844514 [debug] 
-08/31/25 - 14:27:22.934527 [trace] Detected TweenMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:27:22.934594 [debug] Patches loaded for Interface/TweenMenu.swf: 0
-08/31/25 - 14:27:22.934600 [debug] 
-08/31/25 - 14:27:22.937240 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:27:22.937298 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:27:22.937305 [debug] 
-08/31/25 - 14:27:24.853848 [trace] Detected InventoryMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:27:24.853914 [debug] Patches loaded for Interface/InventoryMenu.swf: 0
-08/31/25 - 14:27:24.853921 [debug] 
-08/31/25 - 14:27:24.866893 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:27:24.866948 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:27:24.866954 [debug] 
-08/31/25 - 14:27:24.868150 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:27:24.868193 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:27:24.868198 [debug] 
-08/31/25 - 14:27:57.786380 [trace] Detected TweenMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:27:57.786457 [debug] Patches loaded for Interface/TweenMenu.swf: 0
-08/31/25 - 14:27:57.786462 [debug] 
-08/31/25 - 14:27:57.788550 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:27:57.788600 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:27:57.788606 [debug] 
-08/31/25 - 14:27:58.464780 [trace] Detected InventoryMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:27:58.464833 [debug] Patches loaded for Interface/InventoryMenu.swf: 0
-08/31/25 - 14:27:58.464839 [debug] 
-08/31/25 - 14:27:58.480723 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:27:58.480776 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:27:58.480782 [debug] 
-08/31/25 - 14:27:58.482039 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:27:58.482116 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:27:58.482127 [debug] 
-08/31/25 - 14:28:37.338613 [trace] Detected LockpickingMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:28:37.338676 [debug] Patches loaded for Interface/LockpickingMenu.swf: 0
-08/31/25 - 14:28:37.338682 [debug] 
-08/31/25 - 14:28:59.823693 [trace] Detected BookMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:28:59.823772 [debug] Patches loaded for Interface/BookMenu.swf: 0
-08/31/25 - 14:28:59.823779 [debug] 
-08/31/25 - 14:28:59.829428 [trace] Detected Book movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:28:59.829478 [debug] Patches loaded for Interface/Book.swf: 0
-08/31/25 - 14:28:59.829483 [debug] 
-08/31/25 - 14:29:07.550171 [trace] Detected BookMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:29:07.550254 [debug] Patches loaded for Interface/BookMenu.swf: 0
-08/31/25 - 14:29:07.550261 [debug] 
-08/31/25 - 14:29:07.555276 [trace] Detected Book movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:29:07.555327 [debug] Patches loaded for Interface/Book.swf: 0
-08/31/25 - 14:29:07.555333 [debug] 
-08/31/25 - 14:29:20.091671 [trace] Detected BookMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:29:20.091744 [debug] Patches loaded for Interface/BookMenu.swf: 0
-08/31/25 - 14:29:20.091750 [debug] 
-08/31/25 - 14:29:20.096702 [trace] Detected Book movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:29:20.096751 [debug] Patches loaded for Interface/Book.swf: 0
-08/31/25 - 14:29:20.096756 [debug] 
-08/31/25 - 14:29:37.186020 [trace] Detected BookMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:29:37.186106 [debug] Patches loaded for Interface/BookMenu.swf: 0
-08/31/25 - 14:29:37.186112 [debug] 
-08/31/25 - 14:29:37.191341 [trace] Detected Book movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:29:37.191393 [debug] Patches loaded for Interface/Book.swf: 0
-08/31/25 - 14:29:37.191398 [debug] 
-08/31/25 - 14:30:05.956435 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:30:05.956496 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:30:05.956502 [debug] 
-08/31/25 - 14:30:05.959229 [trace] Detected DurabilityMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:30:05.959271 [debug] Patches loaded for Interface/DurabilityMenu.swf: 0
-08/31/25 - 14:30:05.959277 [debug] 
-08/31/25 - 14:30:10.485041 [trace] Detected TweenMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:30:10.485108 [debug] Patches loaded for Interface/TweenMenu.swf: 0
-08/31/25 - 14:30:10.485113 [debug] 
-08/31/25 - 14:30:10.487449 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:30:10.487511 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:30:10.487516 [debug] 
-08/31/25 - 14:30:10.866494 [trace] Detected InventoryMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:30:10.866546 [debug] Patches loaded for Interface/InventoryMenu.swf: 0
-08/31/25 - 14:30:10.866552 [debug] 
-08/31/25 - 14:30:10.882362 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:30:10.882418 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:30:10.882424 [debug] 
-08/31/25 - 14:30:10.883747 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:30:10.883794 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:30:10.883799 [debug] 
-08/31/25 - 14:30:45.965091 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:30:45.965152 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:30:45.965158 [debug] 
-08/31/25 - 14:30:45.967242 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:30:45.967301 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:30:45.967308 [debug] 
-08/31/25 - 14:30:53.234110 [trace] Detected DialogueMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:30:53.234168 [debug] Patches loaded for Interface/DialogueMenu.swf: 0
-08/31/25 - 14:30:53.234174 [debug] 
-08/31/25 - 14:30:53.235842 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:30:53.235887 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:30:53.235896 [debug] 
-08/31/25 - 14:31:10.598563 [trace] Detected Map movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:31:10.598606 [debug] The path "D:\STOCK GAME\Data\Interface\InfinityUI\Map" exists, loading instance patches...
-08/31/25 - 14:31:10.599293 [debug] Relative path is "InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
-08/31/25 - 14:31:10.599304 [trace] Relative path to SWF: WorldMap\LocalMapMenu\IconDisplayExtension.swf
-08/31/25 - 14:31:10.599316 [debug] Patch found at "D:\STOCK GAME\Data\Interface\InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
-08/31/25 - 14:31:10.599332 [trace] Relative path to patch is: InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf
-08/31/25 - 14:31:10.599977 [trace] New instance loaded!
-08/31/25 - 14:31:10.599988 [trace] 
-08/31/25 - 14:31:10.599997 [trace] _level0.localMapFader.MapClip: DisplayObject
-08/31/25 - 14:31:10.600001 [trace] {
-08/31/25 - 14:31:10.600006 [trace] 	var LocalMapRect: DisplayObject
-08/31/25 - 14:31:10.600011 [trace] 	var Background: DisplayObject
-08/31/25 - 14:31:10.600015 [trace] 	var LocalMapHolder_mc: DisplayObject
-08/31/25 - 14:31:10.600019 [trace] 	var ClearedText: DisplayObject
-08/31/25 - 14:31:10.600024 [trace] 	var MarkerClips: DisplayObject
-08/31/25 - 14:31:10.600028 [trace] 	var markerDescriptionHolder: DisplayObject
-08/31/25 - 14:31:10.600032 [trace] 	var LocationTextClip: DisplayObject
-08/31/25 - 14:31:10.600036 [trace] 	var IconDisplayExtension: DisplayObject
-08/31/25 - 14:31:10.600041 [trace] 	var _mapImageLoader: Object
-08/31/25 - 14:31:10.600045 [trace] 	var TextureHolder: DisplayObject
-08/31/25 - 14:31:10.600049 [trace] 	var IconDisplay: Object
-08/31/25 - 14:31:10.600054 [trace] 	var _locationFinder: DisplayObject
-08/31/25 - 14:31:10.600058 [trace] 	var _bottomBar: DisplayObject
-08/31/25 - 14:31:10.600062 [trace] 	var ClearedDescription: DisplayObject
-08/31/25 - 14:31:10.600066 [trace] 	var LocationDescription: DisplayObject
-08/31/25 - 14:31:10.600071 [trace] }
-08/31/25 - 14:31:10.600076 [trace] _level0.localMapFader.MapClip.IconDisplayExtension: DisplayObject
-08/31/25 - 14:31:10.600080 [trace] {
-08/31/25 - 14:31:10.600084 [trace] 	var extraMarkerContainer: DisplayObject
-08/31/25 - 14:31:10.600089 [trace] 	var CREATE_STRIDE: Number
-08/31/25 - 14:31:10.600093 [trace] 	var CREATE_ICONTYPE: Number
-08/31/25 - 14:31:10.600097 [trace] 	var extraMarkers: Array
-08/31/25 - 14:31:10.600102 [trace] }
-08/31/25 - 14:31:10.600106 [trace] 
-08/31/25 - 14:31:10.600183 [info] Patches loaded for Interface/Map.swf: 1
-08/31/25 - 14:31:10.600187 [debug] 
-08/31/25 - 14:31:10.602288 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:31:10.602330 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:31:10.602337 [debug] 
-08/31/25 - 14:31:11.387674 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:31:11.387737 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:31:11.387743 [debug] 
-08/31/25 - 14:31:15.161310 [trace] Detected SleepWaitMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:31:15.161376 [debug] Patches loaded for Interface/SleepWaitMenu.swf: 0
-08/31/25 - 14:31:15.161381 [debug] 
-08/31/25 - 14:31:15.163123 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:31:15.163190 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:31:15.163196 [debug] 
-08/31/25 - 14:31:23.491774 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:31:23.491860 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:31:23.491872 [debug] 
-08/31/25 - 14:31:23.493736 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:31:23.493792 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:31:23.493799 [debug] 
-08/31/25 - 14:31:48.962485 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:31:48.962555 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:31:48.962562 [debug] 
-08/31/25 - 14:31:48.964510 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:31:48.964558 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:31:48.964564 [debug] 
-08/31/25 - 14:32:04.147464 [trace] Detected SleepWaitMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:32:04.147573 [debug] Patches loaded for Interface/SleepWaitMenu.swf: 0
-08/31/25 - 14:32:04.147581 [debug] 
-08/31/25 - 14:32:04.149634 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:32:04.149684 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:32:04.149690 [debug] 
-08/31/25 - 14:32:10.853539 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:32:10.853603 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:32:10.853608 [debug] 
-08/31/25 - 14:32:10.855555 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:32:10.855607 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:32:10.855613 [debug] 
-08/31/25 - 14:32:39.696896 [trace] Detected SleepWaitMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:32:39.696963 [debug] Patches loaded for Interface/SleepWaitMenu.swf: 0
-08/31/25 - 14:32:39.696969 [debug] 
-08/31/25 - 14:32:39.698996 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:32:39.699051 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:32:39.699057 [debug] 
-08/31/25 - 14:32:50.045584 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:32:50.045656 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:32:50.045663 [debug] 
-08/31/25 - 14:32:50.047571 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:32:50.047617 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:32:50.047623 [debug] 
-08/31/25 - 14:32:56.976262 [trace] Detected DialogueMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:32:56.976322 [debug] Patches loaded for Interface/DialogueMenu.swf: 0
-08/31/25 - 14:32:56.976328 [debug] 
-08/31/25 - 14:32:56.978066 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:32:56.978112 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:32:56.978117 [debug] 
-08/31/25 - 14:33:09.673045 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:33:09.673102 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:33:09.673108 [debug] 
-08/31/25 - 14:33:09.676130 [trace] Detected DurabilityMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:33:09.676172 [debug] Patches loaded for Interface/DurabilityMenu.swf: 0
-08/31/25 - 14:33:09.676178 [debug] 
-08/31/25 - 14:33:16.488016 [trace] Detected DialogueMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:33:16.488108 [debug] Patches loaded for Interface/DialogueMenu.swf: 0
-08/31/25 - 14:33:16.488116 [debug] 
-08/31/25 - 14:33:16.490194 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:33:16.490243 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:33:16.490248 [debug] 
-08/31/25 - 14:33:47.684762 [trace] Detected LockpickingMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:33:47.684837 [debug] Patches loaded for Interface/LockpickingMenu.swf: 0
-08/31/25 - 14:33:47.684844 [debug] 
-08/31/25 - 14:33:56.944134 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:33:56.944195 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:33:56.944201 [debug] 
-08/31/25 - 14:33:56.946913 [trace] Detected DurabilityMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:33:56.946956 [debug] Patches loaded for Interface/DurabilityMenu.swf: 0
-08/31/25 - 14:33:56.946963 [debug] 
-08/31/25 - 14:34:04.649493 [trace] Detected Quest_Journal movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:34:04.649544 [debug] Patches loaded for Interface/Quest_Journal.swf: 0
-08/31/25 - 14:34:04.649550 [debug] 
-08/31/25 - 14:34:04.653591 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:34:04.653636 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:34:04.653642 [debug] 
-08/31/25 - 14:34:07.976571 [trace] Detected Map movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:34:07.976615 [debug] The path "D:\STOCK GAME\Data\Interface\InfinityUI\Map" exists, loading instance patches...
-08/31/25 - 14:34:07.977340 [debug] Relative path is "InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
-08/31/25 - 14:34:07.977354 [trace] Relative path to SWF: WorldMap\LocalMapMenu\IconDisplayExtension.swf
-08/31/25 - 14:34:07.977366 [debug] Patch found at "D:\STOCK GAME\Data\Interface\InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
-08/31/25 - 14:34:07.977384 [trace] Relative path to patch is: InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf
-08/31/25 - 14:34:07.978062 [trace] New instance loaded!
-08/31/25 - 14:34:07.978075 [trace] 
-08/31/25 - 14:34:07.978084 [trace] _level0.localMapFader.MapClip: DisplayObject
-08/31/25 - 14:34:07.978089 [trace] {
-08/31/25 - 14:34:07.978094 [trace] 	var LocalMapRect: DisplayObject
-08/31/25 - 14:34:07.978099 [trace] 	var Background: DisplayObject
-08/31/25 - 14:34:07.978103 [trace] 	var LocalMapHolder_mc: DisplayObject
-08/31/25 - 14:34:07.978108 [trace] 	var ClearedText: DisplayObject
-08/31/25 - 14:34:07.978112 [trace] 	var MarkerClips: DisplayObject
-08/31/25 - 14:34:07.978116 [trace] 	var markerDescriptionHolder: DisplayObject
-08/31/25 - 14:34:07.978121 [trace] 	var LocationTextClip: DisplayObject
-08/31/25 - 14:34:07.978125 [trace] 	var IconDisplayExtension: DisplayObject
-08/31/25 - 14:34:07.978130 [trace] 	var _mapImageLoader: Object
-08/31/25 - 14:34:07.978134 [trace] 	var TextureHolder: DisplayObject
-08/31/25 - 14:34:07.978138 [trace] 	var IconDisplay: Object
-08/31/25 - 14:34:07.978143 [trace] 	var _locationFinder: DisplayObject
-08/31/25 - 14:34:07.978147 [trace] 	var _bottomBar: DisplayObject
-08/31/25 - 14:34:07.978151 [trace] 	var ClearedDescription: DisplayObject
-08/31/25 - 14:34:07.978156 [trace] 	var LocationDescription: DisplayObject
-08/31/25 - 14:34:07.978161 [trace] }
-08/31/25 - 14:34:07.978166 [trace] _level0.localMapFader.MapClip.IconDisplayExtension: DisplayObject
-08/31/25 - 14:34:07.978170 [trace] {
-08/31/25 - 14:34:07.978174 [trace] 	var extraMarkerContainer: DisplayObject
-08/31/25 - 14:34:07.978179 [trace] 	var CREATE_STRIDE: Number
-08/31/25 - 14:34:07.978183 [trace] 	var CREATE_ICONTYPE: Number
-08/31/25 - 14:34:07.978187 [trace] 	var extraMarkers: Array
-08/31/25 - 14:34:07.978192 [trace] }
-08/31/25 - 14:34:07.978196 [trace] 
-08/31/25 - 14:34:07.978291 [info] Patches loaded for Interface/Map.swf: 1
-08/31/25 - 14:34:07.978296 [debug] 
-08/31/25 - 14:34:07.981681 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:34:07.981724 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:34:07.981730 [debug] 
-08/31/25 - 14:34:08.750284 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:34:08.750358 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:34:08.750369 [debug] 
-08/31/25 - 14:34:21.614922 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:34:21.614978 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:34:21.614984 [debug] 
-08/31/25 - 14:34:34.769329 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:34:34.769401 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:34:34.769410 [debug] 
-08/31/25 - 14:34:34.773171 [trace] Detected DurabilityMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:34:34.773233 [debug] Patches loaded for Interface/DurabilityMenu.swf: 0
-08/31/25 - 14:34:34.773241 [debug] 
-08/31/25 - 14:35:06.068581 [trace] Detected Map movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:35:06.068624 [debug] The path "D:\STOCK GAME\Data\Interface\InfinityUI\Map" exists, loading instance patches...
-08/31/25 - 14:35:06.069438 [debug] Relative path is "InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
-08/31/25 - 14:35:06.069451 [trace] Relative path to SWF: WorldMap\LocalMapMenu\IconDisplayExtension.swf
-08/31/25 - 14:35:06.069462 [debug] Patch found at "D:\STOCK GAME\Data\Interface\InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
-08/31/25 - 14:35:06.069482 [trace] Relative path to patch is: InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf
-08/31/25 - 14:35:06.070244 [trace] New instance loaded!
-08/31/25 - 14:35:06.070257 [trace] 
-08/31/25 - 14:35:06.070265 [trace] _level0.localMapFader.MapClip: DisplayObject
-08/31/25 - 14:35:06.070270 [trace] {
-08/31/25 - 14:35:06.070276 [trace] 	var LocalMapRect: DisplayObject
-08/31/25 - 14:35:06.070280 [trace] 	var Background: DisplayObject
-08/31/25 - 14:35:06.070285 [trace] 	var LocalMapHolder_mc: DisplayObject
-08/31/25 - 14:35:06.070289 [trace] 	var ClearedText: DisplayObject
-08/31/25 - 14:35:06.070294 [trace] 	var MarkerClips: DisplayObject
-08/31/25 - 14:35:06.070298 [trace] 	var markerDescriptionHolder: DisplayObject
-08/31/25 - 14:35:06.070302 [trace] 	var LocationTextClip: DisplayObject
-08/31/25 - 14:35:06.070307 [trace] 	var IconDisplayExtension: DisplayObject
-08/31/25 - 14:35:06.070311 [trace] 	var _mapImageLoader: Object
-08/31/25 - 14:35:06.070316 [trace] 	var TextureHolder: DisplayObject
-08/31/25 - 14:35:06.070320 [trace] 	var IconDisplay: Object
-08/31/25 - 14:35:06.070325 [trace] 	var _locationFinder: DisplayObject
-08/31/25 - 14:35:06.070329 [trace] 	var _bottomBar: DisplayObject
-08/31/25 - 14:35:06.070333 [trace] 	var ClearedDescription: DisplayObject
-08/31/25 - 14:35:06.070338 [trace] 	var LocationDescription: DisplayObject
-08/31/25 - 14:35:06.070343 [trace] }
-08/31/25 - 14:35:06.070348 [trace] _level0.localMapFader.MapClip.IconDisplayExtension: DisplayObject
-08/31/25 - 14:35:06.070352 [trace] {
-08/31/25 - 14:35:06.070357 [trace] 	var extraMarkerContainer: DisplayObject
-08/31/25 - 14:35:06.070361 [trace] 	var CREATE_STRIDE: Number
-08/31/25 - 14:35:06.070366 [trace] 	var CREATE_ICONTYPE: Number
-08/31/25 - 14:35:06.070370 [trace] 	var extraMarkers: Array
-08/31/25 - 14:35:06.070375 [trace] }
-08/31/25 - 14:35:06.070379 [trace] 
-08/31/25 - 14:35:06.070465 [info] Patches loaded for Interface/Map.swf: 1
-08/31/25 - 14:35:06.070469 [debug] 
-08/31/25 - 14:35:06.072413 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:35:06.072454 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:35:06.072460 [debug] 
-08/31/25 - 14:35:06.839622 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:35:06.839683 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:35:06.839688 [debug] 
-08/31/25 - 14:36:21.969092 [trace] Detected TweenMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:36:21.969161 [debug] Patches loaded for Interface/TweenMenu.swf: 0
-08/31/25 - 14:36:21.969167 [debug] 
-08/31/25 - 14:36:21.971255 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:36:21.971304 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:36:21.971310 [debug] 
-08/31/25 - 14:36:22.571496 [trace] Detected InventoryMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:36:22.571548 [debug] Patches loaded for Interface/InventoryMenu.swf: 0
-08/31/25 - 14:36:22.571554 [debug] 
-08/31/25 - 14:36:22.586354 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:36:22.586401 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:36:22.586466 [debug] 
-08/31/25 - 14:36:22.587677 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:36:22.587715 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:36:22.587721 [debug] 
-08/31/25 - 14:36:33.530829 [trace] Detected TweenMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:36:33.530901 [debug] Patches loaded for Interface/TweenMenu.swf: 0
-08/31/25 - 14:36:33.530907 [debug] 
-08/31/25 - 14:36:33.533065 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:36:33.533118 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:36:33.533124 [debug] 
-08/31/25 - 14:36:34.085042 [trace] Detected InventoryMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:36:34.085095 [debug] Patches loaded for Interface/InventoryMenu.swf: 0
-08/31/25 - 14:36:34.085101 [debug] 
-08/31/25 - 14:36:34.100174 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:36:34.100224 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:36:34.100230 [debug] 
-08/31/25 - 14:36:34.101611 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:36:34.101662 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:36:34.101668 [debug] 
-08/31/25 - 14:36:50.170742 [trace] Detected TweenMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:36:50.170812 [debug] Patches loaded for Interface/TweenMenu.swf: 0
-08/31/25 - 14:36:50.170818 [debug] 
-08/31/25 - 14:36:50.173090 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:36:50.173140 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:36:50.173145 [debug] 
-08/31/25 - 14:36:52.438371 [trace] Detected TweenMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:36:52.438442 [debug] Patches loaded for Interface/TweenMenu.swf: 0
-08/31/25 - 14:36:52.438448 [debug] 
-08/31/25 - 14:36:52.440538 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:36:52.440588 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:36:52.440594 [debug] 
-08/31/25 - 14:36:52.957661 [trace] Detected InventoryMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:36:52.957718 [debug] Patches loaded for Interface/InventoryMenu.swf: 0
-08/31/25 - 14:36:52.957723 [debug] 
-08/31/25 - 14:36:52.972773 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:36:52.972830 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:36:52.972838 [debug] 
-08/31/25 - 14:36:52.974151 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:36:52.974195 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:36:52.974200 [debug] 
-08/31/25 - 14:37:09.116226 [trace] Detected TweenMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:37:09.116313 [debug] Patches loaded for Interface/TweenMenu.swf: 0
-08/31/25 - 14:37:09.116320 [debug] 
-08/31/25 - 14:37:09.118749 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:37:09.118801 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:37:09.118807 [debug] 
-08/31/25 - 14:37:09.457035 [trace] Detected InventoryMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:37:09.457089 [debug] Patches loaded for Interface/InventoryMenu.swf: 0
-08/31/25 - 14:37:09.457095 [debug] 
-08/31/25 - 14:37:09.473527 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:37:09.473588 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:37:09.473596 [debug] 
-08/31/25 - 14:37:09.475161 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:37:09.475209 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:37:09.475216 [debug] 
-08/31/25 - 14:37:22.250175 [trace] Detected Quest_Journal movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:37:22.250233 [debug] Patches loaded for Interface/Quest_Journal.swf: 0
-08/31/25 - 14:37:22.250240 [debug] 
-08/31/25 - 14:37:22.253523 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:37:22.253567 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:37:22.253573 [debug] 
-08/31/25 - 14:38:25.989868 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:38:25.989926 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:38:25.989931 [debug] 
-08/31/25 - 14:39:16.542155 [trace] Detected Map movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:39:16.542199 [debug] The path "D:\STOCK GAME\Data\Interface\InfinityUI\Map" exists, loading instance patches...
-08/31/25 - 14:39:16.543291 [debug] Relative path is "InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
-08/31/25 - 14:39:16.543310 [trace] Relative path to SWF: WorldMap\LocalMapMenu\IconDisplayExtension.swf
-08/31/25 - 14:39:16.543321 [debug] Patch found at "D:\STOCK GAME\Data\Interface\InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
-08/31/25 - 14:39:16.543340 [trace] Relative path to patch is: InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf
-08/31/25 - 14:39:16.544218 [trace] New instance loaded!
-08/31/25 - 14:39:16.544232 [trace] 
-08/31/25 - 14:39:16.544242 [trace] _level0.localMapFader.MapClip: DisplayObject
-08/31/25 - 14:39:16.544247 [trace] {
-08/31/25 - 14:39:16.544252 [trace] 	var LocalMapRect: DisplayObject
-08/31/25 - 14:39:16.544256 [trace] 	var Background: DisplayObject
-08/31/25 - 14:39:16.544261 [trace] 	var LocalMapHolder_mc: DisplayObject
-08/31/25 - 14:39:16.544265 [trace] 	var ClearedText: DisplayObject
-08/31/25 - 14:39:16.544270 [trace] 	var MarkerClips: DisplayObject
-08/31/25 - 14:39:16.544274 [trace] 	var markerDescriptionHolder: DisplayObject
-08/31/25 - 14:39:16.544278 [trace] 	var LocationTextClip: DisplayObject
-08/31/25 - 14:39:16.544282 [trace] 	var IconDisplayExtension: DisplayObject
-08/31/25 - 14:39:16.544337 [trace] 	var _mapImageLoader: Object
-08/31/25 - 14:39:16.544341 [trace] 	var TextureHolder: DisplayObject
-08/31/25 - 14:39:16.544345 [trace] 	var IconDisplay: Object
-08/31/25 - 14:39:16.544351 [trace] 	var _locationFinder: DisplayObject
-08/31/25 - 14:39:16.544357 [trace] 	var _bottomBar: DisplayObject
-08/31/25 - 14:39:16.544362 [trace] 	var ClearedDescription: DisplayObject
-08/31/25 - 14:39:16.544368 [trace] 	var LocationDescription: DisplayObject
-08/31/25 - 14:39:16.544374 [trace] }
-08/31/25 - 14:39:16.544381 [trace] _level0.localMapFader.MapClip.IconDisplayExtension: DisplayObject
-08/31/25 - 14:39:16.544386 [trace] {
-08/31/25 - 14:39:16.544392 [trace] 	var extraMarkerContainer: DisplayObject
-08/31/25 - 14:39:16.544398 [trace] 	var CREATE_STRIDE: Number
-08/31/25 - 14:39:16.544403 [trace] 	var CREATE_ICONTYPE: Number
-08/31/25 - 14:39:16.544411 [trace] 	var extraMarkers: Array
-08/31/25 - 14:39:16.544421 [trace] }
-08/31/25 - 14:39:16.544426 [trace] 
-08/31/25 - 14:39:16.544517 [info] Patches loaded for Interface/Map.swf: 1
-08/31/25 - 14:39:16.544522 [debug] 
-08/31/25 - 14:39:16.546485 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:39:16.546527 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:39:16.546533 [debug] 
-08/31/25 - 14:39:17.326367 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:39:17.326430 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:39:17.326436 [debug] 
-08/31/25 - 14:39:29.694633 [trace] Detected Quest_Journal movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:39:29.694687 [debug] Patches loaded for Interface/Quest_Journal.swf: 0
-08/31/25 - 14:39:29.694693 [debug] 
-08/31/25 - 14:40:00.498660 [trace] Detected SleepWaitMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:40:00.498741 [debug] Patches loaded for Interface/SleepWaitMenu.swf: 0
-08/31/25 - 14:40:00.498751 [debug] 
-08/31/25 - 14:40:00.500762 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:40:00.500820 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:40:00.500826 [debug] 
-08/31/25 - 14:40:06.281036 [trace] Detected Map movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:40:06.281080 [debug] The path "D:\STOCK GAME\Data\Interface\InfinityUI\Map" exists, loading instance patches...
-08/31/25 - 14:40:06.281772 [debug] Relative path is "InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
-08/31/25 - 14:40:06.281783 [trace] Relative path to SWF: WorldMap\LocalMapMenu\IconDisplayExtension.swf
-08/31/25 - 14:40:06.281794 [debug] Patch found at "D:\STOCK GAME\Data\Interface\InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
-08/31/25 - 14:40:06.281812 [trace] Relative path to patch is: InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf
-08/31/25 - 14:40:06.282555 [trace] New instance loaded!
-08/31/25 - 14:40:06.282567 [trace] 
-08/31/25 - 14:40:06.282575 [trace] _level0.localMapFader.MapClip: DisplayObject
-08/31/25 - 14:40:06.282580 [trace] {
-08/31/25 - 14:40:06.282585 [trace] 	var LocalMapRect: DisplayObject
-08/31/25 - 14:40:06.282589 [trace] 	var Background: DisplayObject
-08/31/25 - 14:40:06.282594 [trace] 	var LocalMapHolder_mc: DisplayObject
-08/31/25 - 14:40:06.282598 [trace] 	var ClearedText: DisplayObject
-08/31/25 - 14:40:06.282602 [trace] 	var MarkerClips: DisplayObject
-08/31/25 - 14:40:06.282607 [trace] 	var markerDescriptionHolder: DisplayObject
-08/31/25 - 14:40:06.282611 [trace] 	var LocationTextClip: DisplayObject
-08/31/25 - 14:40:06.282615 [trace] 	var IconDisplayExtension: DisplayObject
-08/31/25 - 14:40:06.282620 [trace] 	var _mapImageLoader: Object
-08/31/25 - 14:40:06.282624 [trace] 	var TextureHolder: DisplayObject
-08/31/25 - 14:40:06.282629 [trace] 	var IconDisplay: Object
-08/31/25 - 14:40:06.282633 [trace] 	var _locationFinder: DisplayObject
-08/31/25 - 14:40:06.282637 [trace] 	var _bottomBar: DisplayObject
-08/31/25 - 14:40:06.282642 [trace] 	var ClearedDescription: DisplayObject
-08/31/25 - 14:40:06.282646 [trace] 	var LocationDescription: DisplayObject
-08/31/25 - 14:40:06.282651 [trace] }
-08/31/25 - 14:40:06.282656 [trace] _level0.localMapFader.MapClip.IconDisplayExtension: DisplayObject
-08/31/25 - 14:40:06.282660 [trace] {
-08/31/25 - 14:40:06.282665 [trace] 	var extraMarkerContainer: DisplayObject
-08/31/25 - 14:40:06.282669 [trace] 	var CREATE_STRIDE: Number
-08/31/25 - 14:40:06.282673 [trace] 	var CREATE_ICONTYPE: Number
-08/31/25 - 14:40:06.282678 [trace] 	var extraMarkers: Array
-08/31/25 - 14:40:06.282682 [trace] }
-08/31/25 - 14:40:06.282686 [trace] 
-08/31/25 - 14:40:06.282768 [info] Patches loaded for Interface/Map.swf: 1
-08/31/25 - 14:40:06.282772 [debug] 
-08/31/25 - 14:40:06.284693 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:40:06.284733 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:40:06.284739 [debug] 
-08/31/25 - 14:40:07.042168 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:40:07.042232 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:40:07.042238 [debug] 
-08/31/25 - 14:40:10.427419 [trace] Detected Quest_Journal movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:40:10.427474 [debug] Patches loaded for Interface/Quest_Journal.swf: 0
-08/31/25 - 14:40:10.427480 [debug] 
-08/31/25 - 14:40:51.676247 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:40:51.676305 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:40:51.676311 [debug] 
-08/31/25 - 14:40:53.274243 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:40:53.274297 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:40:53.274303 [debug] 
-08/31/25 - 14:40:58.786663 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:40:58.786721 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:40:58.786728 [debug] 
-08/31/25 - 14:41:08.829115 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:41:08.829174 [debug] Patches loaded for Interface/MessageBox.swf: 0
-08/31/25 - 14:41:08.829180 [debug] 
-08/31/25 - 14:41:08.832001 [trace] Detected DurabilityMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:41:08.832045 [debug] Patches loaded for Interface/DurabilityMenu.swf: 0
-08/31/25 - 14:41:08.832051 [debug] 
-08/31/25 - 14:41:39.934922 [trace] Detected TweenMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:41:39.934997 [debug] Patches loaded for Interface/TweenMenu.swf: 0
-08/31/25 - 14:41:39.935003 [debug] 
-08/31/25 - 14:41:39.937352 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:41:39.937409 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:41:39.937416 [debug] 
-08/31/25 - 14:41:40.302889 [trace] Detected InventoryMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:41:40.302946 [debug] Patches loaded for Interface/InventoryMenu.swf: 0
-08/31/25 - 14:41:40.302952 [debug] 
-08/31/25 - 14:41:40.318203 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:41:40.318256 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:41:40.318262 [debug] 
-08/31/25 - 14:41:40.319545 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:41:40.319587 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:41:40.319592 [debug] 
-08/31/25 - 14:44:05.856743 [trace] Detected SleepWaitMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:44:05.856811 [debug] Patches loaded for Interface/SleepWaitMenu.swf: 0
-08/31/25 - 14:44:05.856817 [debug] 
-08/31/25 - 14:44:05.858711 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:44:05.858760 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:44:05.858766 [debug] 
-08/31/25 - 14:45:06.428156 [trace] Detected Quest_Journal movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:45:06.428220 [debug] Patches loaded for Interface/Quest_Journal.swf: 0
-08/31/25 - 14:45:06.428226 [debug] 
-08/31/25 - 14:45:06.431303 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
-08/31/25 - 14:45:06.431348 [debug] Patches loaded for Interface/CursorMenu.swf: 0
-08/31/25 - 14:45:06.431353 [debug] 
+09/13/25 - 22:19:10.384705 [info] Loading InfinityUI 2.0.1.0...
+09/13/25 - 22:19:10.389552 [debug] Default Trampoline => 0B / 84B (00.00%)
+09/13/25 - 22:19:10.389572 [debug] Default Trampoline => 31B / 84B (36.90%)
+09/13/25 - 22:19:10.389579 [debug] Default Trampoline => 39B / 84B (46.43%)
+09/13/25 - 22:19:10.389596 [debug] Default Trampoline => 70B / 84B (83.33%)
+09/13/25 - 22:19:10.389602 [debug] Default Trampoline => 84B / 84B (100.00%)
+09/13/25 - 22:19:10.389616 [info] Succesfully loaded!
+09/13/25 - 22:21:00.631276 [trace] Detected LoadingMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:21:00.631520 [debug] Patches loaded for Interface/LoadingMenu.swf: 0
+09/13/25 - 22:21:00.631532 [debug] 
+09/13/25 - 22:21:00.656318 [trace] Detected FaderMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:21:00.656379 [debug] Patches loaded for Interface/FaderMenu.swf: 0
+09/13/25 - 22:21:00.656385 [debug] 
+09/13/25 - 22:21:00.680913 [trace] Detected LoadWaitSpinner movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:21:00.680977 [debug] Patches loaded for Interface/LoadWaitSpinner.swf: 0
+09/13/25 - 22:21:00.680983 [debug] 
+09/13/25 - 22:21:02.422249 [trace] Detected KinectMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:21:02.422330 [debug] Patches loaded for Interface/KinectMenu.swf: 0
+09/13/25 - 22:21:02.422337 [debug] 
+09/13/25 - 22:22:28.792377 [trace] Detected StartMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:22:28.792470 [debug] Patches loaded for Interface/StartMenu.swf: 0
+09/13/25 - 22:22:28.792477 [debug] 
+09/13/25 - 22:22:30.490561 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:22:30.490615 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:22:30.490621 [debug] 
+09/13/25 - 22:22:30.519789 [trace] Detected Console movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:22:30.519841 [debug] Patches loaded for Interface/Console.swf: 0
+09/13/25 - 22:22:30.519846 [debug] 
+09/13/25 - 22:22:30.546675 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:22:30.546740 [debug] Patches loaded for Interface/MessageBox.swf: 0
+09/13/25 - 22:22:30.546747 [debug] 
+09/13/25 - 22:22:30.548349 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:22:30.548399 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:22:30.548406 [debug] 
+09/13/25 - 22:22:30.564233 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:22:30.564282 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:22:30.564287 [debug] 
+09/13/25 - 22:22:30.575673 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:22:30.575719 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:22:30.575725 [debug] 
+09/13/25 - 22:23:37.547403 [trace] Detected HUDMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:23:37.547471 [debug] The path "D:\STOCK GAME\Data\Interface\InfinityUI\HUDMenu" exists, loading instance patches...
+09/13/25 - 22:23:37.548934 [debug] Relative path is "InfinityUI\HUDMenu\HUDMovieBaseInstance\QuestItemList.swf"
+09/13/25 - 22:23:37.548951 [trace] Relative path to SWF: HUDMovieBaseInstance\QuestItemList.swf
+09/13/25 - 22:23:37.549097 [debug] Patch found at "D:\STOCK GAME\Data\Interface\InfinityUI\HUDMenu\HUDMovieBaseInstance\QuestItemList.swf"
+09/13/25 - 22:23:37.549127 [trace] Relative path to patch is: InfinityUI\HUDMenu\HUDMovieBaseInstance\QuestItemList.swf
+09/13/25 - 22:23:37.558214 [trace] New instance loaded!
+09/13/25 - 22:23:37.558234 [trace] 
+09/13/25 - 22:23:37.558250 [trace] _level0.HUDMovieBaseInstance: DisplayObject
+09/13/25 - 22:23:37.558255 [trace] {
+09/13/25 - 22:23:37.558261 [trace] 	var TutorialLockInstance: DisplayObject
+09/13/25 - 22:23:37.558265 [trace] 	var LocationLockBase: DisplayObject
+09/13/25 - 22:23:37.558270 [trace] 	var CompassShoutMeterHolder: DisplayObject
+09/13/25 - 22:23:37.558274 [trace] 	var Crosshair: DisplayObject
+09/13/25 - 22:23:37.558310 [trace] 	var StealthMeterInstance: DisplayObject
+09/13/25 - 22:23:37.558316 [trace] 	var SubtitleTextHolder: DisplayObject
+09/13/25 - 22:23:37.558320 [trace] 	var RolloverName_mc: DisplayObject
+09/13/25 - 22:23:37.558324 [trace] 	var RolloverInfo_mc: DisplayObject
+09/13/25 - 22:23:37.558328 [trace] 	var GrayBarInstance: DisplayObject
+09/13/25 - 22:23:37.558332 [trace] 	var ActivateButton: DisplayObject
+09/13/25 - 22:23:37.558337 [trace] 	var WeightTranslated: DisplayObject
+09/13/25 - 22:23:37.558341 [trace] 	var ValueTranslated: DisplayObject
+09/13/25 - 22:23:37.558346 [trace] 	var FloatingQuestMarkerInstance: DisplayObject
+09/13/25 - 22:23:37.558350 [trace] 	var FavorBackButtonBase: DisplayObject
+09/13/25 - 22:23:37.558354 [trace] 	var Health: DisplayObject
+09/13/25 - 22:23:37.558358 [trace] 	var ChargeMeterBaseAlt: DisplayObject
+09/13/25 - 22:23:37.558362 [trace] 	var Magica: DisplayObject
+09/13/25 - 22:23:37.558367 [trace] 	var Stamina: DisplayObject
+09/13/25 - 22:23:37.558371 [trace] 	var BottomLeftLockInstance: DisplayObject
+09/13/25 - 22:23:37.558375 [trace] 	var BottomRightLockInstance: DisplayObject
+09/13/25 - 22:23:37.558380 [trace] 	var ArrowInfoInstance: DisplayObject
+09/13/25 - 22:23:37.558384 [trace] 	var MessagesBlock: DisplayObject
+09/13/25 - 22:23:37.558389 [trace] 	var TimeDisplay: DisplayObject
+09/13/25 - 22:23:37.558393 [trace] 	var EnemyHealth_mc: DisplayObject
+09/13/25 - 22:23:37.558397 [trace] 	var QuestUpdateBaseInstance: DisplayObject
+09/13/25 - 22:23:37.558401 [trace] 	var TopLeftRefInstance: DisplayObject
+09/13/25 - 22:23:37.558405 [trace] 	var BottomRightRefInstance: DisplayObject
+09/13/25 - 22:23:37.558410 [trace] 	var ConfigWarning: DisplayObject
+09/13/25 - 22:23:37.558414 [trace] 	var QuestItemList: DisplayObject
+09/13/25 - 22:23:37.558418 [trace] 	var scl_fMagica: Number
+09/13/25 - 22:23:37.558423 [trace] 	var pos_fActivateNamePos: Object
+09/13/25 - 22:23:37.558427 [trace] 	var ChargeMeterFrameAnim: DisplayObject
+09/13/25 - 22:23:37.558431 [trace] 	var pos_fStealthMeterPos: Object
+09/13/25 - 22:23:37.558436 [trace] 	var MessagesBlock_mc: DisplayObject
+09/13/25 - 22:23:37.558440 [trace] 	var cfg_bShowTOD: Number
+09/13/25 - 22:23:37.558444 [trace] 	var ShoutLetterInstance: DisplayObject
+09/13/25 - 22:23:37.558449 [trace] 	var HealthBar: DisplayObject
+09/13/25 - 22:23:37.558453 [trace] 	var scl_fClock: Number
+09/13/25 - 22:23:37.558457 [trace] 	var CompassFrame: DisplayObject
+09/13/25 - 22:23:37.558461 [trace] 	var HealthPenaltyMeterB: DisplayObject
+09/13/25 - 22:23:37.558466 [trace] 	var CompassThreeSixtyX: Number
+09/13/25 - 22:23:37.558470 [trace] 	var pos_fRightChargeMeterPos: Object
+09/13/25 - 22:23:37.558474 [trace] 	var cfg_bAltStamina: Number
+09/13/25 - 22:23:37.558479 [trace] 	var ChargeMeterHolder: DisplayObject
+09/13/25 - 22:23:37.558483 [trace] 	var HealthPenaltyMeterAlt: DisplayObject
+09/13/25 - 22:23:37.558487 [trace] 	var pos_fActivateButtonPos: Object
+09/13/25 - 22:23:37.558492 [trace] 	var pos_fLeftChargeMeterPos: Object
+09/13/25 - 22:23:37.558496 [trace] 	var cfg_bPersistentClock: Number
+09/13/25 - 22:23:37.558500 [trace] 	var pos_fSubtitlePos: Object
+09/13/25 - 22:23:37.558505 [trace] 	var Stamina_mc: DisplayObject
+09/13/25 - 22:23:37.558509 [trace] 	var cfg_bAltCharge: Number
+09/13/25 - 22:23:37.558513 [trace] 	var ObjectiveUpdate: DisplayObject
+09/13/25 - 22:23:37.558518 [trace] 	var cfg_bHideEnemyHealth: Number
+09/13/25 - 22:23:37.558522 [trace] 	var scl_fHealth: Number
+09/13/25 - 22:23:37.558526 [trace] 	var Magicka_mc: DisplayObject
+09/13/25 - 22:23:37.558530 [trace] 	var pos_fHealthPos: Object
+09/13/25 - 22:23:37.558535 [trace] 	var CompassCard: DisplayObject
+09/13/25 - 22:23:37.558539 [trace] 	var StaminaPenaltyMeterAlt: DisplayObject
+09/13/25 - 22:23:37.558543 [trace] 	var cfg_bLockAnimatedLetters: Number
+09/13/25 - 22:23:37.558547 [trace] 	var cfg_bAltHealth: Number
+09/13/25 - 22:23:37.558551 [trace] 	var CompassMarkerPlayerSet: Number
+09/13/25 - 22:23:37.558557 [trace] 	var Health_mc: DisplayObject
+09/13/25 - 22:23:37.558561 [trace] 	var ShoutMeterBar: DisplayObject
+09/13/25 - 22:23:37.558565 [trace] 	var cfg_bLockMagickaMeter: Number
+09/13/25 - 22:23:37.558570 [trace] 	var cfg_bShowClock: Number
+09/13/25 - 22:23:37.558574 [trace] 	var cfg_bAltCompass: Number
+09/13/25 - 22:23:37.558578 [trace] 	var pos_fActivateBarPos: Object
+09/13/25 - 22:23:37.558582 [trace] 	var RightChargeMeter: Object
+09/13/25 - 22:23:37.558587 [trace] 	var LeftChargeMeterAlt: Object
+09/13/25 - 22:23:37.558591 [trace] 	var pos_fMessageInfoPos: Object
+09/13/25 - 22:23:37.558596 [trace] 	var cfg_bStealthTextVisible: Number
+09/13/25 - 22:23:37.558600 [trace] 	var cfg_bLockLeftChargeMeter: Number
+09/13/25 - 22:23:37.558604 [trace] 	var pos_fMagicaPos: Object
+09/13/25 - 22:23:37.558609 [trace] 	var CompassMarkerLocations: Number
+09/13/25 - 22:23:37.558613 [trace] 	var StaminaBar: DisplayObject
+09/13/25 - 22:23:37.558617 [trace] 	var cfg_bShowSeconds: Number
+09/13/25 - 22:23:37.558622 [trace] 	var cfg_bLockAltChargeMeter: Number
+09/13/25 - 22:23:37.558626 [trace] 	var cfg_bLockObjectiveText: Number
+09/13/25 - 22:23:37.558630 [trace] 	var cfg_uPersistentMeter: Number
+09/13/25 - 22:23:37.558635 [trace] 	var ShoutMeter_mc: Object
+09/13/25 - 22:23:37.558639 [trace] 	var cfg_bStealthMeterVisible: Number
+09/13/25 - 22:23:37.558643 [trace] 	var pos_fCrosshairPos: Object
+09/13/25 - 22:23:37.558652 [trace] 	var scl_fObjectiveText: Number
+09/13/25 - 22:23:37.558659 [trace] 	var scl_fLocationInfo: Number
+09/13/25 - 22:23:37.558664 [trace] 	var pos_fAltChargeMeterPos: Object
+09/13/25 - 22:23:37.558668 [trace] 	var scl_fArrowInfo: Number
+09/13/25 - 22:23:37.558672 [trace] 	var StaminaPenaltyMeter: DisplayObject
+09/13/25 - 22:23:37.558677 [trace] 	var CompassCardAlt: DisplayObject
+09/13/25 - 22:23:37.558681 [trace] 	var pos_fEnemyHealthPos: Object
+09/13/25 - 22:23:37.558685 [trace] 	var RolloverGrayBar_mc: DisplayObject
+09/13/25 - 22:23:37.558689 [trace] 	var ShoutWarning: DisplayObject
+09/13/25 - 22:23:37.558694 [trace] 	var cfg_bLockRightChargeMeter: Number
+09/13/25 - 22:23:37.558698 [trace] 	var cfg_bLockCompass: Number
+09/13/25 - 22:23:37.558702 [trace] 	var cfg_bHideEnemyMarker: Number
+09/13/25 - 22:23:37.558707 [trace] 	var scl_fSubtitle: Number
+09/13/25 - 22:23:37.558711 [trace] 	var cfg_bLockHealthMeter: Number
+09/13/25 - 22:23:37.558715 [trace] 	var scl_fEnemyHealth: Number
+09/13/25 - 22:23:37.558719 [trace] 	var StaminaMeterAnim: DisplayObject
+09/13/25 - 22:23:37.558723 [trace] 	var cfg_bLockLevelUpMeter: Number
+09/13/25 - 22:23:37.558728 [trace] 	var HealthMeterLeft: Object
+09/13/25 - 22:23:37.558732 [trace] 	var cfg_bDebug: Undefined
+09/13/25 - 22:23:37.558736 [trace] 	var scl_fCrosshair: Number
+09/13/25 - 22:23:37.558740 [trace] 	var clock: Object
+09/13/25 - 22:23:37.558745 [trace] 	var MagickaMeterAnim: DisplayObject
+09/13/25 - 22:23:37.558749 [trace] 	var pos_fLocationInfoPos: Object
+09/13/25 - 22:23:37.558753 [trace] 	var HealthBarAlt: DisplayObject
+09/13/25 - 22:23:37.558757 [trace] 	var pos_fClockPos: Object
+09/13/25 - 22:23:37.558762 [trace] 	var CompassRect: DisplayObject
+09/13/25 - 22:23:37.558766 [trace] 	var pos_fShoutLetterPos: Object
+09/13/25 - 22:23:37.558770 [trace] 	var scl_fStealthMeter: Number
+09/13/25 - 22:23:37.558775 [trace] 	var cfg_bLockEnemyHealth: Number
+09/13/25 - 22:23:37.558779 [trace] 	var CompassMarkerUndiscovered: Number
+09/13/25 - 22:23:37.558783 [trace] 	var shConfigWarning: DisplayObject
+09/13/25 - 22:23:37.558787 [trace] 	var StaminaMeter: Object
+09/13/25 - 22:23:37.558792 [trace] 	var pos_fLevelUpMeterPos: Object
+09/13/25 - 22:23:37.558796 [trace] 	var MagickaMeter: Object
+09/13/25 - 22:23:37.558800 [trace] 	var ShoutWarningAlt: DisplayObject
+09/13/25 - 22:23:37.558806 [trace] 	var CrosshairAlert: DisplayObject
+09/13/25 - 22:23:37.558810 [trace] 	var HealthPenaltyMeterA: DisplayObject
+09/13/25 - 22:23:37.558815 [trace] 	var pos_fActivateInfoPos: Object
+09/13/25 - 22:23:37.558819 [trace] 	var CompassZeroX: Number
+09/13/25 - 22:23:37.558824 [trace] 	var HealthMeterLeftAlt: Object
+09/13/25 - 22:23:37.558829 [trace] 	var CompassMarkerQuest: Number
+09/13/25 - 22:23:37.558833 [trace] 	var TemperatureMeter_mc: DisplayObject
+09/13/25 - 22:23:37.558838 [trace] 	var cfg_bLockClock: Number
+09/13/25 - 22:23:37.558842 [trace] 	var cfg_bAltArrow: Number
+09/13/25 - 22:23:37.558846 [trace] 	var TutorialHintsArtHolder: DisplayObject
+09/13/25 - 22:23:37.558850 [trace] 	var StaminaBarAlt: DisplayObject
+09/13/25 - 22:23:37.558855 [trace] 	var RolloverInfoText: DisplayObject
+09/13/25 - 22:23:37.558859 [trace] 	var FavorBackButton_mc: DisplayObject
+09/13/25 - 22:23:37.558863 [trace] 	var EnemyHealthMeter: Object
+09/13/25 - 22:23:37.558867 [trace] 	var pos_fArrowInfoPos: Object
+09/13/25 - 22:23:37.558871 [trace] 	var RightChargeMeterAlt: Object
+09/13/25 - 22:23:37.558876 [trace] 	var pos_fObjectiveTextPos: Object
+09/13/25 - 22:23:37.558880 [trace] 	var scl_fChargeMeter: Number
+09/13/25 - 22:23:37.558884 [trace] 	var ShoutMeterAlt_mc: Object
+09/13/25 - 22:23:37.558888 [trace] 	var cfg_bHideLocations: Number
+09/13/25 - 22:23:37.558893 [trace] 	var HealthMeterAnim: DisplayObject
+09/13/25 - 22:23:37.558897 [trace] 	var AnimLetterInstance: DisplayObject
+09/13/25 - 22:23:37.558901 [trace] 	var LevelUpInstance: DisplayObject
+09/13/25 - 22:23:37.558905 [trace] 	var FloatingQuestMarker_mc: DisplayObject
+09/13/25 - 22:23:37.558910 [trace] 	var CrosshairInstance: DisplayObject
+09/13/25 - 22:23:37.558914 [trace] 	var cfg_bLockLocationInfo: Number
+09/13/25 - 22:23:37.558918 [trace] 	var LeftChargeMeterAnim: DisplayObject
+09/13/25 - 22:23:37.558922 [trace] 	var scl_fMessageInfo: Number
+09/13/25 - 22:23:37.558927 [trace] 	var cfg_bLockArrowInfo: Number
+09/13/25 - 22:23:37.558931 [trace] 	var cfg_sHourFormat: String
+09/13/25 - 22:23:37.558935 [trace] 	var cfg_bDotCrosshair: Number
+09/13/25 - 22:23:37.558939 [trace] 	var RolloverText: DisplayObject
+09/13/25 - 22:23:37.558944 [trace] 	var pos_fCompassPos: Object
+09/13/25 - 22:23:37.558948 [trace] 	var _shconfig: Object
+09/13/25 - 22:23:37.558952 [trace] 	var cfg_sClockAlign: String
+09/13/25 - 22:23:37.558956 [trace] 	var LeftChargeMeter: Object
+09/13/25 - 22:23:37.558961 [trace] 	var cfg_bSyncMeterFade: Number
+09/13/25 - 22:23:37.558965 [trace] 	var pos_fStaminaPos: Object
+09/13/25 - 22:23:37.558969 [trace] 	var CompassFrameAlt: DisplayObject
+09/13/25 - 22:23:37.558973 [trace] 	var ShoutMeterBarAlt: DisplayObject
+09/13/25 - 22:23:37.558978 [trace] 	var cfg_bLockMessageInfo: Number
+09/13/25 - 22:23:37.558982 [trace] 	var cfg_bHideActivateButton: Number
+09/13/25 - 22:23:37.558986 [trace] 	var CompassTargetDataA: Array
+09/13/25 - 22:23:37.558990 [trace] 	var cfg_bHideQuest: Number
+09/13/25 - 22:23:37.558995 [trace] 	var cfg_bHideUndiscoveredLocations: Number
+09/13/25 - 22:23:37.558999 [trace] 	var LeftChargeMeterAltAnim: DisplayObject
+09/13/25 - 22:23:37.559003 [trace] 	var RightChargeMeterAnim: DisplayObject
+09/13/25 - 22:23:37.559009 [trace] 	var TutorialHintsText: DisplayObject
+09/13/25 - 22:23:37.559014 [trace] 	var RightChargeMeterAltAnim: DisplayObject
+09/13/25 - 22:23:37.559018 [trace] 	var CompassMarkerQuestDoor: Number
+09/13/25 - 22:23:37.559022 [trace] 	var pos_fAnimLetterPos: Object
+09/13/25 - 22:23:37.559027 [trace] 	var cfg_bLockStealthMeter: Number
+09/13/25 - 22:23:37.559031 [trace] 	var cfg_bLockActivatePrompt: Number
+09/13/25 - 22:23:37.559035 [trace] 	var RolloverButton_tf: DisplayObject
+09/13/25 - 22:23:37.559040 [trace] 	var bCrosshairEnabled: Boolean
+09/13/25 - 22:23:37.559044 [trace] 	var scl_fStamina: Number
+09/13/25 - 22:23:37.559048 [trace] 	var scl_fCompass: Number
+09/13/25 - 22:23:37.559052 [trace] 	var CompassMarkerEnemy: Number
+09/13/25 - 22:23:37.559057 [trace] 	var scl_fCompassMarker: Number
+09/13/25 - 22:23:37.559061 [trace] 	var MessagesInstance: DisplayObject
+09/13/25 - 22:23:37.559065 [trace] 	var cfg_bLockSubtitle: Number
+09/13/25 - 22:23:37.559069 [trace] 	var cfg_sLocationInfoAlign: String
+09/13/25 - 22:23:37.559073 [trace] 	var cfg_bLockStaminaMeter: Number
+09/13/25 - 22:23:37.559090 [trace] 	var scl_fLevelUpMeter: Number
+09/13/25 - 22:23:37.559095 [trace] 	var SubtitleText: DisplayObject
+09/13/25 - 22:23:37.559100 [trace] 	var cfgVersion: Number
+09/13/25 - 22:23:37.559104 [trace] 	var scl_fActivatePrompt: Number
+09/13/25 - 22:23:37.559108 [trace] 	var cfg_bLockCrosshair: Number
+09/13/25 - 22:23:37.559114 [trace] 	var Lock: Object
+09/13/25 - 22:23:37.559118 [trace] }
+09/13/25 - 22:23:37.559124 [trace] _level0.HUDMovieBaseInstance.QuestItemList: DisplayObject
+09/13/25 - 22:23:37.559129 [trace] {
+09/13/25 - 22:23:37.559133 [trace] 	var ShowQuest: Object
+09/13/25 - 22:23:37.559138 [trace] 	var ShowAllQuests: Object
+09/13/25 - 22:23:37.559142 [trace] 	var QuestItemList: Object
+09/13/25 - 22:23:37.559146 [trace] 	var RemoveQuest: Object
+09/13/25 - 22:23:37.559150 [trace] 	var Update: Object
+09/13/25 - 22:23:37.559154 [trace] 	var RemoveAllQuests: Object
+09/13/25 - 22:23:37.559158 [trace] 	var AddQuest: Object
+09/13/25 - 22:23:37.559163 [trace] 	var SetQuestSide: Object
+09/13/25 - 22:23:37.559167 [trace] 	var AddToHudElements: Object
+09/13/25 - 22:23:37.559171 [trace] 	var SCALE: Number
+09/13/25 - 22:23:37.559175 [trace] 	var ByAgeThenMiscellaneousQuests: Object
+09/13/25 - 22:23:37.559180 [trace] 	var Lock: Object
+09/13/25 - 22:23:37.559184 [trace] }
+09/13/25 - 22:23:37.559188 [trace] 
+09/13/25 - 22:23:37.560938 [debug] Relative path is "InfinityUI\HUDMenu\HUDMovieBaseInstance\CompassShoutMeterHolder\Compass.swf"
+09/13/25 - 22:23:37.560956 [trace] Relative path to SWF: HUDMovieBaseInstance\CompassShoutMeterHolder\Compass.swf
+09/13/25 - 22:23:37.560969 [debug] Patch found at "D:\STOCK GAME\Data\Interface\InfinityUI\HUDMenu\HUDMovieBaseInstance\CompassShoutMeterHolder\Compass.swf"
+09/13/25 - 22:23:37.561112 [trace] 
+09/13/25 - 22:23:37.561119 [trace] _level0.HUDMovieBaseInstance.CompassShoutMeterHolder: DisplayObject
+09/13/25 - 22:23:37.561124 [trace] {
+09/13/25 - 22:23:37.561130 [trace] 	var Compass: DisplayObject
+09/13/25 - 22:23:37.561136 [trace] 	var ShoutMeterInstance: DisplayObject
+09/13/25 - 22:23:37.561141 [trace] 	var ShoutMeterBarAlt: DisplayObject
+09/13/25 - 22:23:37.561146 [trace] 	var ShoutWarningInstance: DisplayObject
+09/13/25 - 22:23:37.561152 [trace] 	var ShoutWarningInstanceAlt: DisplayObject
+09/13/25 - 22:23:37.561158 [trace] 	var Lock: Object
+09/13/25 - 22:23:37.561163 [trace] }
+09/13/25 - 22:23:37.561169 [trace] _level0.HUDMovieBaseInstance.CompassShoutMeterHolder.Compass: DisplayObject
+09/13/25 - 22:23:37.561174 [trace] {
+09/13/25 - 22:23:37.561180 [trace] 	var CompassFrameAlt: DisplayObject
+09/13/25 - 22:23:37.561185 [trace] 	var CompassTemperatureHolderInstance: DisplayObject
+09/13/25 - 22:23:37.561191 [trace] 	var CompassFrame: DisplayObject
+09/13/25 - 22:23:37.561196 [trace] 	var CompassMask_mc: DisplayObject
+09/13/25 - 22:23:37.561201 [trace] 	var DirectionRect: DisplayObject
+09/13/25 - 22:23:37.561206 [trace] 	var instance78: DisplayObject
+09/13/25 - 22:23:37.561212 [trace] 	var Lock: Object
+09/13/25 - 22:23:37.561217 [trace] }
+09/13/25 - 22:23:37.561222 [trace] 
+09/13/25 - 22:23:37.561332 [trace] Original instance removed!
+09/13/25 - 22:23:37.561338 [trace] 
+09/13/25 - 22:23:37.561344 [trace] _level0.HUDMovieBaseInstance.CompassShoutMeterHolder: DisplayObject
+09/13/25 - 22:23:37.561350 [trace] {
+09/13/25 - 22:23:37.561355 [trace] 	var ShoutMeterInstance: DisplayObject
+09/13/25 - 22:23:37.561361 [trace] 	var ShoutMeterBarAlt: DisplayObject
+09/13/25 - 22:23:37.561366 [trace] 	var ShoutWarningInstance: DisplayObject
+09/13/25 - 22:23:37.561371 [trace] 	var ShoutWarningInstanceAlt: DisplayObject
+09/13/25 - 22:23:37.561377 [trace] 	var Lock: Object
+09/13/25 - 22:23:37.561382 [trace] }
+09/13/25 - 22:23:37.561387 [trace] 
+09/13/25 - 22:23:37.561401 [trace] Relative path to patch is: InfinityUI\HUDMenu\HUDMovieBaseInstance\CompassShoutMeterHolder\Compass.swf
+09/13/25 - 22:23:37.573766 [trace] New instance loaded!
+09/13/25 - 22:23:37.573798 [trace] 
+09/13/25 - 22:23:37.573813 [trace] _level0.HUDMovieBaseInstance.CompassShoutMeterHolder: DisplayObject
+09/13/25 - 22:23:37.573820 [trace] {
+09/13/25 - 22:23:37.573826 [trace] 	var ShoutMeterInstance: DisplayObject
+09/13/25 - 22:23:37.573832 [trace] 	var ShoutMeterBarAlt: DisplayObject
+09/13/25 - 22:23:37.573837 [trace] 	var ShoutWarningInstance: DisplayObject
+09/13/25 - 22:23:37.573843 [trace] 	var ShoutWarningInstanceAlt: DisplayObject
+09/13/25 - 22:23:37.573848 [trace] 	var Compass: DisplayObject
+09/13/25 - 22:23:37.573854 [trace] 	var Lock: Object
+09/13/25 - 22:23:37.573860 [trace] }
+09/13/25 - 22:23:37.573866 [trace] _level0.HUDMovieBaseInstance.CompassShoutMeterHolder.Compass: DisplayObject
+09/13/25 - 22:23:37.573872 [trace] {
+09/13/25 - 22:23:37.573877 [trace] 	var CompassFrameAlt: DisplayObject
+09/13/25 - 22:23:37.573882 [trace] 	var CompassFrame: DisplayObject
+09/13/25 - 22:23:37.573888 [trace] 	var CompassTemperatureHolderInstance: DisplayObject
+09/13/25 - 22:23:37.573893 [trace] 	var CompassMask_mc: DisplayObject
+09/13/25 - 22:23:37.573898 [trace] 	var DirectionRect: DisplayObject
+09/13/25 - 22:23:37.573903 [trace] 	var FocusedMarkerInstance: DisplayObject
+09/13/25 - 22:23:37.573909 [trace] 	var COMPASS_HEADING: Number
+09/13/25 - 22:23:37.573914 [trace] 	var CompassMarkerUnknownLocation: Number
+09/13/25 - 22:23:37.573919 [trace] 	var MarkersData: Array
+09/13/25 - 22:23:37.573925 [trace] 	var MarkerList: Array
+09/13/25 - 22:23:37.573930 [trace] 	var SetFocusedMarkerInfo: Object
+09/13/25 - 22:23:37.573935 [trace] 	var CompassMarkerQuestDoor: Number
+09/13/25 - 22:23:37.573940 [trace] 	var COMPASS_GOTOANDSTOP: Number
+09/13/25 - 22:23:37.573946 [trace] 	var FocusMarker: Object
+09/13/25 - 22:23:37.573951 [trace] 	var HUDMenu: DisplayObject
+09/13/25 - 22:23:37.573956 [trace] 	var UnfocusMarker: Object
+09/13/25 - 22:23:37.573961 [trace] 	var CompassMarkerQuest: Number
+09/13/25 - 22:23:37.573966 [trace] 	var COMPASS_SCALE: Number
+09/13/25 - 22:23:37.573972 [trace] 	var SetUnits: Object
+09/13/25 - 22:23:37.573977 [trace] 	var Compass: Object
+09/13/25 - 22:23:37.573982 [trace] 	var SetMarkers: Object
+09/13/25 - 22:23:37.573987 [trace] 	var COMPASS_STRIDE: Number
+09/13/25 - 22:23:37.573992 [trace] 	var UpdateFocusedMarker: Object
+09/13/25 - 22:23:37.573998 [trace] 	var COMPASS_ALPHA: Number
+09/13/25 - 22:23:37.574003 [trace] 	var localToLocal: Object
+09/13/25 - 22:23:37.574008 [trace] 	var Lock: Object
+09/13/25 - 22:23:37.574014 [trace] }
+09/13/25 - 22:23:37.574019 [trace] 
+09/13/25 - 22:23:37.574336 [info] Patches loaded for Interface/HUDMenu.swf: 2
+09/13/25 - 22:23:37.574340 [debug] 
+09/13/25 - 22:24:06.452139 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:24:06.452221 [debug] Patches loaded for Interface/MessageBox.swf: 0
+09/13/25 - 22:24:06.452230 [debug] 
+09/13/25 - 22:24:06.462209 [trace] Detected DurabilityMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:24:06.462267 [debug] Patches loaded for Interface/DurabilityMenu.swf: 0
+09/13/25 - 22:24:06.462273 [debug] 
+09/13/25 - 22:24:06.469786 [trace] Detected FloatingDamageV2 movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:24:06.469857 [debug] Patches loaded for Interface/FloatingDamageV2.swf: 0
+09/13/25 - 22:24:06.469867 [debug] 
+09/13/25 - 22:24:47.917212 [trace] Detected Map movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:24:47.917295 [debug] The path "D:\STOCK GAME\Data\Interface\InfinityUI\Map" exists, loading instance patches...
+09/13/25 - 22:24:47.918248 [debug] Relative path is "InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
+09/13/25 - 22:24:47.918262 [trace] Relative path to SWF: WorldMap\LocalMapMenu\IconDisplayExtension.swf
+09/13/25 - 22:24:47.918277 [debug] Patch found at "D:\STOCK GAME\Data\Interface\InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
+09/13/25 - 22:24:47.918298 [trace] Relative path to patch is: InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf
+09/13/25 - 22:24:47.924827 [trace] New instance loaded!
+09/13/25 - 22:24:47.924845 [trace] 
+09/13/25 - 22:24:47.924857 [trace] _level0.localMapFader.MapClip: DisplayObject
+09/13/25 - 22:24:47.924863 [trace] {
+09/13/25 - 22:24:47.924870 [trace] 	var LocalMapRect: DisplayObject
+09/13/25 - 22:24:47.924875 [trace] 	var Background: DisplayObject
+09/13/25 - 22:24:47.924881 [trace] 	var LocalMapHolder_mc: DisplayObject
+09/13/25 - 22:24:47.924886 [trace] 	var ClearedText: DisplayObject
+09/13/25 - 22:24:47.924892 [trace] 	var MarkerClips: DisplayObject
+09/13/25 - 22:24:47.924897 [trace] 	var markerDescriptionHolder: DisplayObject
+09/13/25 - 22:24:47.924902 [trace] 	var LocationTextClip: DisplayObject
+09/13/25 - 22:24:47.924908 [trace] 	var IconDisplayExtension: DisplayObject
+09/13/25 - 22:24:47.924914 [trace] 	var _mapImageLoader: Object
+09/13/25 - 22:24:47.924919 [trace] 	var TextureHolder: DisplayObject
+09/13/25 - 22:24:47.924925 [trace] 	var IconDisplay: Object
+09/13/25 - 22:24:47.924930 [trace] 	var _locationFinder: DisplayObject
+09/13/25 - 22:24:47.924935 [trace] 	var _bottomBar: DisplayObject
+09/13/25 - 22:24:47.924941 [trace] 	var ClearedDescription: DisplayObject
+09/13/25 - 22:24:47.924946 [trace] 	var LocationDescription: DisplayObject
+09/13/25 - 22:24:47.924952 [trace] }
+09/13/25 - 22:24:47.924958 [trace] _level0.localMapFader.MapClip.IconDisplayExtension: DisplayObject
+09/13/25 - 22:24:47.924963 [trace] {
+09/13/25 - 22:24:47.924969 [trace] 	var extraMarkerContainer: DisplayObject
+09/13/25 - 22:24:47.924974 [trace] 	var CREATE_STRIDE: Number
+09/13/25 - 22:24:47.924980 [trace] 	var CREATE_ICONTYPE: Number
+09/13/25 - 22:24:47.924985 [trace] 	var extraMarkers: Array
+09/13/25 - 22:24:47.924991 [trace] }
+09/13/25 - 22:24:47.924996 [trace] 
+09/13/25 - 22:24:47.925314 [info] Patches loaded for Interface/Map.swf: 1
+09/13/25 - 22:24:47.925319 [debug] 
+09/13/25 - 22:24:47.927786 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:24:47.927832 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:24:47.927837 [debug] 
+09/13/25 - 22:24:48.605750 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:24:48.605808 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:24:48.605814 [debug] 
+09/13/25 - 22:27:49.514712 [trace] Detected Map movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:27:49.514767 [debug] The path "D:\STOCK GAME\Data\Interface\InfinityUI\Map" exists, loading instance patches...
+09/13/25 - 22:27:49.515714 [debug] Relative path is "InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
+09/13/25 - 22:27:49.515732 [trace] Relative path to SWF: WorldMap\LocalMapMenu\IconDisplayExtension.swf
+09/13/25 - 22:27:49.515746 [debug] Patch found at "D:\STOCK GAME\Data\Interface\InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
+09/13/25 - 22:27:49.515770 [trace] Relative path to patch is: InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf
+09/13/25 - 22:27:49.516592 [trace] New instance loaded!
+09/13/25 - 22:27:49.516607 [trace] 
+09/13/25 - 22:27:49.516616 [trace] _level0.localMapFader.MapClip: DisplayObject
+09/13/25 - 22:27:49.516621 [trace] {
+09/13/25 - 22:27:49.516626 [trace] 	var LocalMapRect: DisplayObject
+09/13/25 - 22:27:49.516631 [trace] 	var Background: DisplayObject
+09/13/25 - 22:27:49.516636 [trace] 	var LocalMapHolder_mc: DisplayObject
+09/13/25 - 22:27:49.516641 [trace] 	var ClearedText: DisplayObject
+09/13/25 - 22:27:49.516645 [trace] 	var MarkerClips: DisplayObject
+09/13/25 - 22:27:49.516649 [trace] 	var markerDescriptionHolder: DisplayObject
+09/13/25 - 22:27:49.516654 [trace] 	var LocationTextClip: DisplayObject
+09/13/25 - 22:27:49.516659 [trace] 	var IconDisplayExtension: DisplayObject
+09/13/25 - 22:27:49.516663 [trace] 	var _mapImageLoader: Object
+09/13/25 - 22:27:49.516668 [trace] 	var TextureHolder: DisplayObject
+09/13/25 - 22:27:49.516673 [trace] 	var IconDisplay: Object
+09/13/25 - 22:27:49.516677 [trace] 	var _locationFinder: DisplayObject
+09/13/25 - 22:27:49.516684 [trace] 	var _bottomBar: DisplayObject
+09/13/25 - 22:27:49.516689 [trace] 	var ClearedDescription: DisplayObject
+09/13/25 - 22:27:49.516694 [trace] 	var LocationDescription: DisplayObject
+09/13/25 - 22:27:49.516699 [trace] }
+09/13/25 - 22:27:49.516704 [trace] _level0.localMapFader.MapClip.IconDisplayExtension: DisplayObject
+09/13/25 - 22:27:49.516709 [trace] {
+09/13/25 - 22:27:49.516713 [trace] 	var extraMarkerContainer: DisplayObject
+09/13/25 - 22:27:49.516718 [trace] 	var CREATE_STRIDE: Number
+09/13/25 - 22:27:49.516722 [trace] 	var CREATE_ICONTYPE: Number
+09/13/25 - 22:27:49.516727 [trace] 	var extraMarkers: Array
+09/13/25 - 22:27:49.516732 [trace] }
+09/13/25 - 22:27:49.516736 [trace] 
+09/13/25 - 22:27:49.516827 [info] Patches loaded for Interface/Map.swf: 1
+09/13/25 - 22:27:49.516831 [debug] 
+09/13/25 - 22:27:49.518902 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:27:49.518947 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:27:49.518953 [debug] 
+09/13/25 - 22:27:50.276926 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:27:50.277008 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:27:50.277019 [debug] 
+09/13/25 - 22:27:58.305891 [trace] Detected BookMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:27:58.305975 [debug] Patches loaded for Interface/BookMenu.swf: 0
+09/13/25 - 22:27:58.305983 [debug] 
+09/13/25 - 22:27:58.311616 [trace] Detected Book movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:27:58.311667 [debug] Patches loaded for Interface/Book.swf: 0
+09/13/25 - 22:27:58.311674 [debug] 
+09/13/25 - 22:28:25.305545 [trace] Detected GiftMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:28:25.305612 [debug] Patches loaded for Interface/GiftMenu.swf: 0
+09/13/25 - 22:28:25.305619 [debug] 
+09/13/25 - 22:28:25.309940 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:28:25.309987 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:28:25.309993 [debug] 
+09/13/25 - 22:29:02.303507 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:29:02.303564 [debug] Patches loaded for Interface/MessageBox.swf: 0
+09/13/25 - 22:29:02.303569 [debug] 
+09/13/25 - 22:29:02.307282 [trace] Detected DurabilityMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:29:02.307339 [debug] Patches loaded for Interface/DurabilityMenu.swf: 0
+09/13/25 - 22:29:02.307345 [debug] 
+09/13/25 - 22:29:05.637468 [trace] Detected Quest_Journal movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:29:05.637548 [debug] Patches loaded for Interface/Quest_Journal.swf: 0
+09/13/25 - 22:29:05.637554 [debug] 
+09/13/25 - 22:29:05.641181 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:29:05.641237 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:29:05.641244 [debug] 
+09/13/25 - 22:29:37.153149 [trace] Detected BookMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:29:37.153221 [debug] Patches loaded for Interface/BookMenu.swf: 0
+09/13/25 - 22:29:37.153227 [debug] 
+09/13/25 - 22:29:37.158522 [trace] Detected Book movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:29:37.158575 [debug] Patches loaded for Interface/Book.swf: 0
+09/13/25 - 22:29:37.158581 [debug] 
+09/13/25 - 22:29:42.268971 [trace] Detected BookMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:29:42.269064 [debug] Patches loaded for Interface/BookMenu.swf: 0
+09/13/25 - 22:29:42.269070 [debug] 
+09/13/25 - 22:29:42.273980 [trace] Detected Book movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:29:42.274038 [debug] Patches loaded for Interface/Book.swf: 0
+09/13/25 - 22:29:42.274043 [debug] 
+09/13/25 - 22:29:47.105513 [trace] Detected BookMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:29:47.105595 [debug] Patches loaded for Interface/BookMenu.swf: 0
+09/13/25 - 22:29:47.105640 [debug] 
+09/13/25 - 22:29:47.110443 [trace] Detected Book movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:29:47.110495 [debug] Patches loaded for Interface/Book.swf: 0
+09/13/25 - 22:29:47.110501 [debug] 
+09/13/25 - 22:30:27.157024 [trace] Detected BookMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:30:27.157155 [debug] Patches loaded for Interface/BookMenu.swf: 0
+09/13/25 - 22:30:27.157163 [debug] 
+09/13/25 - 22:30:27.163441 [trace] Detected Book movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:30:27.163507 [debug] Patches loaded for Interface/Book.swf: 0
+09/13/25 - 22:30:27.163518 [debug] 
+09/13/25 - 22:31:11.174750 [trace] Detected BookMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:31:11.174851 [debug] Patches loaded for Interface/BookMenu.swf: 0
+09/13/25 - 22:31:11.174860 [debug] 
+09/13/25 - 22:31:11.179717 [trace] Detected Book movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:31:11.179767 [debug] Patches loaded for Interface/Book.swf: 0
+09/13/25 - 22:31:11.179773 [debug] 
+09/13/25 - 22:31:21.280630 [trace] Detected BookMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:31:21.280701 [debug] Patches loaded for Interface/BookMenu.swf: 0
+09/13/25 - 22:31:21.280707 [debug] 
+09/13/25 - 22:31:21.285526 [trace] Detected Book movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:31:21.285573 [debug] Patches loaded for Interface/Book.swf: 0
+09/13/25 - 22:31:21.285579 [debug] 
+09/13/25 - 22:32:03.390056 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:32:03.390114 [debug] Patches loaded for Interface/MessageBox.swf: 0
+09/13/25 - 22:32:03.390119 [debug] 
+09/13/25 - 22:32:03.393531 [trace] Detected DurabilityMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:32:03.393573 [debug] Patches loaded for Interface/DurabilityMenu.swf: 0
+09/13/25 - 22:32:03.393578 [debug] 
+09/13/25 - 22:32:08.911266 [trace] Detected Map movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:32:08.911310 [debug] The path "D:\STOCK GAME\Data\Interface\InfinityUI\Map" exists, loading instance patches...
+09/13/25 - 22:32:08.912007 [debug] Relative path is "InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
+09/13/25 - 22:32:08.912022 [trace] Relative path to SWF: WorldMap\LocalMapMenu\IconDisplayExtension.swf
+09/13/25 - 22:32:08.912034 [debug] Patch found at "D:\STOCK GAME\Data\Interface\InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
+09/13/25 - 22:32:08.912053 [trace] Relative path to patch is: InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf
+09/13/25 - 22:32:08.912955 [trace] New instance loaded!
+09/13/25 - 22:32:08.912969 [trace] 
+09/13/25 - 22:32:08.912981 [trace] _level0.localMapFader.MapClip: DisplayObject
+09/13/25 - 22:32:08.912988 [trace] {
+09/13/25 - 22:32:08.912995 [trace] 	var LocalMapRect: DisplayObject
+09/13/25 - 22:32:08.913001 [trace] 	var Background: DisplayObject
+09/13/25 - 22:32:08.913006 [trace] 	var LocalMapHolder_mc: DisplayObject
+09/13/25 - 22:32:08.913012 [trace] 	var ClearedText: DisplayObject
+09/13/25 - 22:32:08.913018 [trace] 	var MarkerClips: DisplayObject
+09/13/25 - 22:32:08.913024 [trace] 	var markerDescriptionHolder: DisplayObject
+09/13/25 - 22:32:08.913030 [trace] 	var LocationTextClip: DisplayObject
+09/13/25 - 22:32:08.913035 [trace] 	var IconDisplayExtension: DisplayObject
+09/13/25 - 22:32:08.913042 [trace] 	var _mapImageLoader: Object
+09/13/25 - 22:32:08.913047 [trace] 	var TextureHolder: DisplayObject
+09/13/25 - 22:32:08.913053 [trace] 	var IconDisplay: Object
+09/13/25 - 22:32:08.913059 [trace] 	var _locationFinder: DisplayObject
+09/13/25 - 22:32:08.913065 [trace] 	var _bottomBar: DisplayObject
+09/13/25 - 22:32:08.913070 [trace] 	var ClearedDescription: DisplayObject
+09/13/25 - 22:32:08.913076 [trace] 	var LocationDescription: DisplayObject
+09/13/25 - 22:32:08.913083 [trace] }
+09/13/25 - 22:32:08.913089 [trace] _level0.localMapFader.MapClip.IconDisplayExtension: DisplayObject
+09/13/25 - 22:32:08.913099 [trace] {
+09/13/25 - 22:32:08.913106 [trace] 	var extraMarkerContainer: DisplayObject
+09/13/25 - 22:32:08.913112 [trace] 	var CREATE_STRIDE: Number
+09/13/25 - 22:32:08.913118 [trace] 	var CREATE_ICONTYPE: Number
+09/13/25 - 22:32:08.913124 [trace] 	var extraMarkers: Array
+09/13/25 - 22:32:08.913130 [trace] }
+09/13/25 - 22:32:08.913136 [trace] 
+09/13/25 - 22:32:08.913253 [info] Patches loaded for Interface/Map.swf: 1
+09/13/25 - 22:32:08.913258 [debug] 
+09/13/25 - 22:32:08.915784 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:32:08.915835 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:32:08.915842 [debug] 
+09/13/25 - 22:32:09.661902 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:32:09.661965 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:32:09.661971 [debug] 
+09/13/25 - 22:32:13.997905 [trace] Detected Quest_Journal movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:32:13.997964 [debug] Patches loaded for Interface/Quest_Journal.swf: 0
+09/13/25 - 22:32:13.997972 [debug] 
+09/13/25 - 22:32:14.002232 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:32:14.002294 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:32:14.002301 [debug] 
+09/13/25 - 22:32:26.053811 [trace] Detected Map movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:32:26.053864 [debug] The path "D:\STOCK GAME\Data\Interface\InfinityUI\Map" exists, loading instance patches...
+09/13/25 - 22:32:26.054756 [debug] Relative path is "InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
+09/13/25 - 22:32:26.054773 [trace] Relative path to SWF: WorldMap\LocalMapMenu\IconDisplayExtension.swf
+09/13/25 - 22:32:26.054787 [debug] Patch found at "D:\STOCK GAME\Data\Interface\InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
+09/13/25 - 22:32:26.054809 [trace] Relative path to patch is: InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf
+09/13/25 - 22:32:26.055674 [trace] New instance loaded!
+09/13/25 - 22:32:26.055687 [trace] 
+09/13/25 - 22:32:26.055697 [trace] _level0.localMapFader.MapClip: DisplayObject
+09/13/25 - 22:32:26.055703 [trace] {
+09/13/25 - 22:32:26.055710 [trace] 	var LocalMapRect: DisplayObject
+09/13/25 - 22:32:26.055715 [trace] 	var Background: DisplayObject
+09/13/25 - 22:32:26.055721 [trace] 	var LocalMapHolder_mc: DisplayObject
+09/13/25 - 22:32:26.055727 [trace] 	var ClearedText: DisplayObject
+09/13/25 - 22:32:26.055733 [trace] 	var MarkerClips: DisplayObject
+09/13/25 - 22:32:26.055738 [trace] 	var markerDescriptionHolder: DisplayObject
+09/13/25 - 22:32:26.055744 [trace] 	var LocationTextClip: DisplayObject
+09/13/25 - 22:32:26.055749 [trace] 	var IconDisplayExtension: DisplayObject
+09/13/25 - 22:32:26.055755 [trace] 	var _mapImageLoader: Object
+09/13/25 - 22:32:26.055761 [trace] 	var TextureHolder: DisplayObject
+09/13/25 - 22:32:26.055766 [trace] 	var IconDisplay: Object
+09/13/25 - 22:32:26.055771 [trace] 	var _locationFinder: DisplayObject
+09/13/25 - 22:32:26.055776 [trace] 	var _bottomBar: DisplayObject
+09/13/25 - 22:32:26.055782 [trace] 	var ClearedDescription: DisplayObject
+09/13/25 - 22:32:26.055787 [trace] 	var LocationDescription: DisplayObject
+09/13/25 - 22:32:26.055794 [trace] }
+09/13/25 - 22:32:26.055800 [trace] _level0.localMapFader.MapClip.IconDisplayExtension: DisplayObject
+09/13/25 - 22:32:26.055805 [trace] {
+09/13/25 - 22:32:26.055811 [trace] 	var extraMarkerContainer: DisplayObject
+09/13/25 - 22:32:26.055816 [trace] 	var CREATE_STRIDE: Number
+09/13/25 - 22:32:26.055821 [trace] 	var CREATE_ICONTYPE: Number
+09/13/25 - 22:32:26.055827 [trace] 	var extraMarkers: Array
+09/13/25 - 22:32:26.055833 [trace] }
+09/13/25 - 22:32:26.055838 [trace] 
+09/13/25 - 22:32:26.055953 [info] Patches loaded for Interface/Map.swf: 1
+09/13/25 - 22:32:26.055959 [debug] 
+09/13/25 - 22:32:26.058251 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:32:26.058300 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:32:26.058306 [debug] 
+09/13/25 - 22:32:26.801804 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:32:26.801882 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:32:26.801890 [debug] 
+09/13/25 - 22:33:04.685154 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:33:04.685213 [debug] Patches loaded for Interface/MessageBox.swf: 0
+09/13/25 - 22:33:04.685218 [debug] 
+09/13/25 - 22:33:04.689852 [trace] Detected DurabilityMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:33:04.689907 [debug] Patches loaded for Interface/DurabilityMenu.swf: 0
+09/13/25 - 22:33:04.689912 [debug] 
+09/13/25 - 22:34:22.774858 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:34:22.774917 [debug] Patches loaded for Interface/MessageBox.swf: 0
+09/13/25 - 22:34:22.774923 [debug] 
+09/13/25 - 22:34:22.778504 [trace] Detected DurabilityMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:34:22.778551 [debug] Patches loaded for Interface/DurabilityMenu.swf: 0
+09/13/25 - 22:34:22.778556 [debug] 
+09/13/25 - 22:34:41.183722 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:34:41.183779 [debug] Patches loaded for Interface/MessageBox.swf: 0
+09/13/25 - 22:34:41.183784 [debug] 
+09/13/25 - 22:34:41.187560 [trace] Detected DurabilityMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:34:41.187613 [debug] Patches loaded for Interface/DurabilityMenu.swf: 0
+09/13/25 - 22:34:41.187619 [debug] 
+09/13/25 - 22:34:49.409937 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:34:49.409996 [debug] Patches loaded for Interface/MessageBox.swf: 0
+09/13/25 - 22:34:49.410002 [debug] 
+09/13/25 - 22:34:49.413674 [trace] Detected DurabilityMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:34:49.413723 [debug] Patches loaded for Interface/DurabilityMenu.swf: 0
+09/13/25 - 22:34:49.413729 [debug] 
+09/13/25 - 22:35:07.251135 [trace] Detected Map movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:35:07.251180 [debug] The path "D:\STOCK GAME\Data\Interface\InfinityUI\Map" exists, loading instance patches...
+09/13/25 - 22:35:07.251950 [debug] Relative path is "InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
+09/13/25 - 22:35:07.251962 [trace] Relative path to SWF: WorldMap\LocalMapMenu\IconDisplayExtension.swf
+09/13/25 - 22:35:07.251974 [debug] Patch found at "D:\STOCK GAME\Data\Interface\InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
+09/13/25 - 22:35:07.251993 [trace] Relative path to patch is: InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf
+09/13/25 - 22:35:07.252644 [trace] New instance loaded!
+09/13/25 - 22:35:07.252656 [trace] 
+09/13/25 - 22:35:07.252665 [trace] _level0.localMapFader.MapClip: DisplayObject
+09/13/25 - 22:35:07.252670 [trace] {
+09/13/25 - 22:35:07.252675 [trace] 	var LocalMapRect: DisplayObject
+09/13/25 - 22:35:07.252679 [trace] 	var Background: DisplayObject
+09/13/25 - 22:35:07.252684 [trace] 	var LocalMapHolder_mc: DisplayObject
+09/13/25 - 22:35:07.252688 [trace] 	var ClearedText: DisplayObject
+09/13/25 - 22:35:07.252692 [trace] 	var MarkerClips: DisplayObject
+09/13/25 - 22:35:07.252696 [trace] 	var markerDescriptionHolder: DisplayObject
+09/13/25 - 22:35:07.252701 [trace] 	var LocationTextClip: DisplayObject
+09/13/25 - 22:35:07.252705 [trace] 	var IconDisplayExtension: DisplayObject
+09/13/25 - 22:35:07.252710 [trace] 	var _mapImageLoader: Object
+09/13/25 - 22:35:07.252714 [trace] 	var TextureHolder: DisplayObject
+09/13/25 - 22:35:07.252718 [trace] 	var IconDisplay: Object
+09/13/25 - 22:35:07.252722 [trace] 	var _locationFinder: DisplayObject
+09/13/25 - 22:35:07.252727 [trace] 	var _bottomBar: DisplayObject
+09/13/25 - 22:35:07.252731 [trace] 	var ClearedDescription: DisplayObject
+09/13/25 - 22:35:07.252738 [trace] 	var LocationDescription: DisplayObject
+09/13/25 - 22:35:07.252744 [trace] }
+09/13/25 - 22:35:07.252749 [trace] _level0.localMapFader.MapClip.IconDisplayExtension: DisplayObject
+09/13/25 - 22:35:07.252754 [trace] {
+09/13/25 - 22:35:07.252758 [trace] 	var extraMarkerContainer: DisplayObject
+09/13/25 - 22:35:07.252762 [trace] 	var CREATE_STRIDE: Number
+09/13/25 - 22:35:07.252767 [trace] 	var CREATE_ICONTYPE: Number
+09/13/25 - 22:35:07.252771 [trace] 	var extraMarkers: Array
+09/13/25 - 22:35:07.252775 [trace] }
+09/13/25 - 22:35:07.252780 [trace] 
+09/13/25 - 22:35:07.252862 [info] Patches loaded for Interface/Map.swf: 1
+09/13/25 - 22:35:07.252866 [debug] 
+09/13/25 - 22:35:07.255414 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:35:07.255469 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:35:07.255476 [debug] 
+09/13/25 - 22:35:08.039293 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:35:08.039360 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:35:08.039367 [debug] 
+09/13/25 - 22:35:11.142927 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:35:11.142987 [debug] Patches loaded for Interface/MessageBox.swf: 0
+09/13/25 - 22:35:11.142993 [debug] 
+09/13/25 - 22:36:12.329350 [trace] Detected Quest_Journal movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:36:12.329410 [debug] Patches loaded for Interface/Quest_Journal.swf: 0
+09/13/25 - 22:36:12.329416 [debug] 
+09/13/25 - 22:36:12.333961 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:36:12.334011 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:36:12.334017 [debug] 
+09/13/25 - 22:36:38.036418 [trace] Detected Map movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:36:38.036485 [debug] The path "D:\STOCK GAME\Data\Interface\InfinityUI\Map" exists, loading instance patches...
+09/13/25 - 22:36:38.037217 [debug] Relative path is "InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
+09/13/25 - 22:36:38.037230 [trace] Relative path to SWF: WorldMap\LocalMapMenu\IconDisplayExtension.swf
+09/13/25 - 22:36:38.037241 [debug] Patch found at "D:\STOCK GAME\Data\Interface\InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf"
+09/13/25 - 22:36:38.037259 [trace] Relative path to patch is: InfinityUI\Map\WorldMap\LocalMapMenu\IconDisplayExtension.swf
+09/13/25 - 22:36:38.037946 [trace] New instance loaded!
+09/13/25 - 22:36:38.037958 [trace] 
+09/13/25 - 22:36:38.037967 [trace] _level0.localMapFader.MapClip: DisplayObject
+09/13/25 - 22:36:38.037971 [trace] {
+09/13/25 - 22:36:38.037976 [trace] 	var LocalMapRect: DisplayObject
+09/13/25 - 22:36:38.037981 [trace] 	var Background: DisplayObject
+09/13/25 - 22:36:38.037985 [trace] 	var LocalMapHolder_mc: DisplayObject
+09/13/25 - 22:36:38.037990 [trace] 	var ClearedText: DisplayObject
+09/13/25 - 22:36:38.037994 [trace] 	var MarkerClips: DisplayObject
+09/13/25 - 22:36:38.037999 [trace] 	var markerDescriptionHolder: DisplayObject
+09/13/25 - 22:36:38.038003 [trace] 	var LocationTextClip: DisplayObject
+09/13/25 - 22:36:38.038007 [trace] 	var IconDisplayExtension: DisplayObject
+09/13/25 - 22:36:38.038012 [trace] 	var _mapImageLoader: Object
+09/13/25 - 22:36:38.038016 [trace] 	var TextureHolder: DisplayObject
+09/13/25 - 22:36:38.038021 [trace] 	var IconDisplay: Object
+09/13/25 - 22:36:38.038025 [trace] 	var _locationFinder: DisplayObject
+09/13/25 - 22:36:38.038029 [trace] 	var _bottomBar: DisplayObject
+09/13/25 - 22:36:38.038033 [trace] 	var ClearedDescription: DisplayObject
+09/13/25 - 22:36:38.038038 [trace] 	var LocationDescription: DisplayObject
+09/13/25 - 22:36:38.038043 [trace] }
+09/13/25 - 22:36:38.038047 [trace] _level0.localMapFader.MapClip.IconDisplayExtension: DisplayObject
+09/13/25 - 22:36:38.038052 [trace] {
+09/13/25 - 22:36:38.038056 [trace] 	var extraMarkerContainer: DisplayObject
+09/13/25 - 22:36:38.038060 [trace] 	var CREATE_STRIDE: Number
+09/13/25 - 22:36:38.038068 [trace] 	var CREATE_ICONTYPE: Number
+09/13/25 - 22:36:38.038073 [trace] 	var extraMarkers: Array
+09/13/25 - 22:36:38.038078 [trace] }
+09/13/25 - 22:36:38.038082 [trace] 
+09/13/25 - 22:36:38.038166 [info] Patches loaded for Interface/Map.swf: 1
+09/13/25 - 22:36:38.038170 [debug] 
+09/13/25 - 22:36:38.040201 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:36:38.040245 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:36:38.040250 [debug] 
+09/13/25 - 22:36:38.784061 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:36:38.784134 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:36:38.784142 [debug] 
+09/13/25 - 22:36:49.346610 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:36:49.346668 [debug] Patches loaded for Interface/MessageBox.swf: 0
+09/13/25 - 22:36:49.346673 [debug] 
+09/13/25 - 22:36:52.157303 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:36:52.157359 [debug] Patches loaded for Interface/MessageBox.swf: 0
+09/13/25 - 22:36:52.157365 [debug] 
+09/13/25 - 22:37:09.108192 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:37:09.108249 [debug] Patches loaded for Interface/MessageBox.swf: 0
+09/13/25 - 22:37:09.108255 [debug] 
+09/13/25 - 22:37:09.112002 [trace] Detected DurabilityMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:37:09.112057 [debug] Patches loaded for Interface/DurabilityMenu.swf: 0
+09/13/25 - 22:37:09.112063 [debug] 
+09/13/25 - 22:39:12.979786 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:39:12.979848 [debug] Patches loaded for Interface/MessageBox.swf: 0
+09/13/25 - 22:39:12.979854 [debug] 
+09/13/25 - 22:39:12.983490 [trace] Detected DurabilityMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:39:12.983534 [debug] Patches loaded for Interface/DurabilityMenu.swf: 0
+09/13/25 - 22:39:12.983540 [debug] 
+09/13/25 - 22:39:14.042955 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:39:14.043014 [debug] Patches loaded for Interface/MessageBox.swf: 0
+09/13/25 - 22:39:14.043020 [debug] 
+09/13/25 - 22:39:14.946015 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:39:14.946074 [debug] Patches loaded for Interface/MessageBox.swf: 0
+09/13/25 - 22:39:14.946080 [debug] 
+09/13/25 - 22:39:14.947900 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:39:14.947959 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:39:14.947964 [debug] 
+09/13/25 - 22:39:53.666637 [trace] Detected TweenMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:39:53.666720 [debug] Patches loaded for Interface/TweenMenu.swf: 0
+09/13/25 - 22:39:53.666729 [debug] 
+09/13/25 - 22:39:53.669347 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:39:53.669403 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:39:53.669410 [debug] 
+09/13/25 - 22:39:57.326212 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:39:57.326286 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:39:57.326294 [debug] 
+09/13/25 - 22:40:01.121309 [trace] Detected RaceSex_menu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:40:01.121382 [debug] Patches loaded for Interface/RaceSex_menu.swf: 0
+09/13/25 - 22:40:01.121388 [debug] 
+09/13/25 - 22:40:04.669788 [trace] Detected MessageBox movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:40:04.669848 [debug] Patches loaded for Interface/MessageBox.swf: 0
+09/13/25 - 22:40:04.669854 [debug] 
+09/13/25 - 22:40:08.198540 [trace] Detected Quest_Journal movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:40:08.198597 [debug] Patches loaded for Interface/Quest_Journal.swf: 0
+09/13/25 - 22:40:08.198606 [debug] 
+09/13/25 - 22:40:08.201838 [trace] Detected CursorMenu movie load from: D:\STOCK GAME\Data\Interface
+09/13/25 - 22:40:08.201885 [debug] Patches loaded for Interface/CursorMenu.swf: 0
+09/13/25 - 22:40:08.201890 [debug] 

@@ -1,41 +1,25 @@
-[2025-08-31 14:16:16.324] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\customskills.json
-[2025-08-31 14:16:16.328] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"top","icon":"skills_alt","menuName":"CUSTOM SKILLS","priority":55,"skseName":"CustomSkills"}
-[2025-08-31 14:16:16.328] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\inventory.json
-[2025-08-31 14:16:16.331] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"left","icon":"inventory","menuName":"ITEMS","priority":10,"skseName":"InventoryMenu"}
-[2025-08-31 14:16:16.331] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\magic.json
-[2025-08-31 14:16:16.334] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"left","icon":"magic_alt","menuName":"MAGIC","priority":20,"skseName":"MagicMenu"}
-[2025-08-31 14:16:16.334] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\map.json
-[2025-08-31 14:16:16.337] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"bottom","icon":"map","menuName":"MAP","priority":40,"skseName":"MapMenu"}
-[2025-08-31 14:16:16.337] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\quests.json
-[2025-08-31 14:16:16.339] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"right","icon":"scroll","menuName":"QUESTS","priority":30,"skseName":"Journal Menu"}
-[2025-08-31 14:16:16.339] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\skills.json
-[2025-08-31 14:16:16.342] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"top","icon":"skills","menuName":"SKILLS","priority":50,"skseName":"StatsMenu"}
-[2025-08-31 14:16:16.342] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\wait.json
-[2025-08-31 14:16:16.345] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"bottom","icon":"hourglass","menuName":"WAIT","priority":100,"skseName":"Sleep/Wait Menu"}
-[2025-08-31 14:16:16.345] [log] [info] [Utility.cpp:82] All tween options data successfully loaded.
-[2025-08-31 14:16:16.348] [log] [info] [Utility.cpp:102] Parsing tween category names from file: DATA/interface/tweenoptions/categories/categories.json
-[2025-08-31 14:16:16.348] [log] [info] [Utility.cpp:109] Successfully loaded menu categories:
-[2025-08-31 14:16:16.348] [log] [info] [Utility.cpp:111] top: character
-[2025-08-31 14:16:16.348] [log] [info] [Utility.cpp:111] left: inventory
-[2025-08-31 14:16:16.348] [log] [info] [Utility.cpp:111] right: journal
-[2025-08-31 14:16:16.348] [log] [info] [Utility.cpp:111] bottom: world
-[2025-08-31 14:16:16.348] [log] [info] [main.cpp:44] Tween Menu is in... Player's pocket?
-[2025-08-31 14:16:20.282] [log] [info] [main.cpp:24] QuestJournalOverhaul.dll plugin not installed.
-[2025-08-31 14:20:21.955] [log] [info] [main.cpp:24] QuestJournalOverhaul.dll plugin not installed.
-[2025-08-31 14:27:22.935] [log] [info] [EventProcessor.cpp:60] Level up? false
-[2025-08-31 14:27:24.644] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
-[2025-08-31 14:27:57.786] [log] [info] [EventProcessor.cpp:60] Level up? false
-[2025-08-31 14:27:58.420] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
-[2025-08-31 14:30:10.485] [log] [info] [EventProcessor.cpp:60] Level up? false
-[2025-08-31 14:30:10.827] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
-[2025-08-31 14:36:21.969] [log] [info] [EventProcessor.cpp:60] Level up? false
-[2025-08-31 14:36:22.521] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
-[2025-08-31 14:36:33.531] [log] [info] [EventProcessor.cpp:60] Level up? false
-[2025-08-31 14:36:34.045] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
-[2025-08-31 14:36:50.171] [log] [info] [EventProcessor.cpp:60] Level up? false
-[2025-08-31 14:36:52.438] [log] [info] [EventProcessor.cpp:60] Level up? false
-[2025-08-31 14:36:52.919] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
-[2025-08-31 14:37:09.116] [log] [info] [EventProcessor.cpp:60] Level up? false
-[2025-08-31 14:37:09.417] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
-[2025-08-31 14:41:39.935] [log] [info] [EventProcessor.cpp:60] Level up? false
-[2025-08-31 14:41:40.262] [log] [info] [Utility.cpp:145] Player requested to open InventoryMenu
+[2025-09-13 22:19:14.351] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\customskills.json
+[2025-09-13 22:19:14.355] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"top","icon":"skills_alt","menuName":"CUSTOM SKILLS","priority":55,"skseName":"CustomSkills"}
+[2025-09-13 22:19:14.355] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\inventory.json
+[2025-09-13 22:19:14.358] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"left","icon":"inventory","menuName":"ITEMS","priority":10,"skseName":"InventoryMenu"}
+[2025-09-13 22:19:14.358] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\magic.json
+[2025-09-13 22:19:14.361] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"left","icon":"magic_alt","menuName":"MAGIC","priority":20,"skseName":"MagicMenu"}
+[2025-09-13 22:19:14.361] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\map.json
+[2025-09-13 22:19:14.364] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"bottom","icon":"map","menuName":"MAP","priority":40,"skseName":"MapMenu"}
+[2025-09-13 22:19:14.364] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\quests.json
+[2025-09-13 22:19:14.367] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"right","icon":"scroll","menuName":"QUESTS","priority":30,"skseName":"Journal Menu"}
+[2025-09-13 22:19:14.367] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\skills.json
+[2025-09-13 22:19:14.370] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"top","icon":"skills","menuName":"SKILLS","priority":50,"skseName":"StatsMenu"}
+[2025-09-13 22:19:14.370] [log] [info] [Utility.cpp:49] Loading tween options file: DATA/interface/tweenoptions\wait.json
+[2025-09-13 22:19:14.373] [log] [info] [Utility.cpp:69] Successfully loaded: {"category":"bottom","icon":"hourglass","menuName":"WAIT","priority":100,"skseName":"Sleep/Wait Menu"}
+[2025-09-13 22:19:14.373] [log] [info] [Utility.cpp:82] All tween options data successfully loaded.
+[2025-09-13 22:19:14.376] [log] [info] [Utility.cpp:102] Parsing tween category names from file: DATA/interface/tweenoptions/categories/categories.json
+[2025-09-13 22:19:14.376] [log] [info] [Utility.cpp:109] Successfully loaded menu categories:
+[2025-09-13 22:19:14.376] [log] [info] [Utility.cpp:111] top: character
+[2025-09-13 22:19:14.376] [log] [info] [Utility.cpp:111] left: inventory
+[2025-09-13 22:19:14.376] [log] [info] [Utility.cpp:111] right: journal
+[2025-09-13 22:19:14.376] [log] [info] [Utility.cpp:111] bottom: world
+[2025-09-13 22:19:14.376] [log] [info] [main.cpp:44] Tween Menu is in... Player's pocket?
+[2025-09-13 22:19:18.621] [log] [info] [main.cpp:24] QuestJournalOverhaul.dll plugin not installed.
+[2025-09-13 22:24:06.425] [log] [info] [main.cpp:24] QuestJournalOverhaul.dll plugin not installed.
+[2025-09-13 22:39:53.667] [log] [info] [EventProcessor.cpp:60] Level up? false

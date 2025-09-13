@@ -1,46 +1,45 @@
-[14:16:11][info] Experience 3-4-5-0 is loading...
-[14:17:56][info] Papyrus functions registered
-[14:18:45][info] Initializing skills at level 1
-[14:18:45][info] Updating skillcap data...
-[14:18:45][info] Applying racials for NordRace
-[14:18:45][info] None: 0
-[14:18:45][info] TwoHanded: 10
-[14:18:45][info] Block: 5
-[14:18:45][info] Smithing: 5
-[14:18:45][info] HeavyArmor: 5
-[14:18:45][info] LightArmor: 5
-[14:18:45][info] Speechcraft: 5
-[14:18:46][info] Parsing file: Default.ini
-[14:18:46][info] Directory 'Data/SKSE/Plugins/Experience/Actors' parsed in 6 ms
-[14:18:46][info] Parsing file: Default.ini
-[14:18:46][info] Parsing file: GeneratedExperiencePatch.ini
-[14:18:46][info] Directory 'Data/SKSE/Plugins/Experience/Races' parsed in 17 ms
-[14:18:46][info] Experience sources initialized
-[14:19:51][info] Finished reverting data
-[14:20:21][info] Finished loading data
-[14:22:20][info] [ObjectiveState] Return to Farkas (kCompletedDisplayed)
-[14:22:20][info] [QuestCompleted] CR05 (kCompanionsQuest)
-[14:22:39][info] [ObjectiveState] Intimidate Signar Iron-Blood in Frost River (kDisplayed)
-[14:22:51][info] [ObjectiveState] Kill the leader of Stony Creek Cave (kDisplayed)
-[14:23:05][info] Finished saving data
-[14:26:09][info] [ObjectiveState] Meet Fralia at her home in the evening. (kCompletedDisplayed)
-[14:26:09][info] [ObjectiveState] Find evidence of Thorald's fate (kDisplayed)
-[14:26:42][info] Finished saving data
-[14:28:07][info] Finished saving data
-[14:29:10][info] [ObjectiveState] Find evidence of Thorald's fate (kCompletedDisplayed)
-[14:29:10][info] [ObjectiveState] Deliver proof to Avulstein (kDisplayed)
-[14:32:27][info] [LocationDiscovery] Temple of Kynareth (kShrine)
-[14:33:38][info] [ObjectiveState] Deliver proof to Avulstein (kCompletedDisplayed)
-[14:33:38][info] [ObjectiveState] Find a way to release Thorald from Thalmor custody (kDisplayed)
-[14:34:35][info] [ObjectiveState] Find Amren's Family Sword inside Valtheim Towers (kFailed)
-[14:34:35][info] [ObjectiveState] Return Amren's Family Sword to Amren (kFailed)
-[14:34:36][info] [ObjectiveState] Talk to Mikael about Carlotta (kFailed)
-[14:34:36][info] [ObjectiveState] Tell Carlotta that Mikael is taken care of (kFailed)
-[14:36:16][info] Finished saving data
-[14:41:20][info] [ActorKill] Wolf (RefID:00084546)
-[14:41:20][info] [ActorKill] Wolf (RefID:00084547)
-[14:41:36][info] [LocationDiscovery] Puzzling Pillar Ruins (kGrove)
-[14:42:21][info] [LocationDiscovery] Sleeping Tree Camp (kGiantCamp)
-[14:42:34][info] Finished saving data
-[14:42:43][info] [ActorKill] Undead Wolf (RefID:01003035)
-[14:44:50][info] [ActorKill] Roo (RefID:FE9B1869)
+[22:19:09][info] Experience 3-4-5-0 is loading...
+[22:21:00][info] Papyrus functions registered
+[22:21:49][info] Initializing skills at level 1
+[22:21:49][info] Updating skillcap data...
+[22:21:49][info] Applying racials for NordRace
+[22:21:49][info] None: 0
+[22:21:49][info] TwoHanded: 10
+[22:21:49][info] Block: 5
+[22:21:49][info] Smithing: 5
+[22:21:49][info] HeavyArmor: 5
+[22:21:49][info] LightArmor: 5
+[22:21:49][info] Speechcraft: 5
+[22:21:51][info] Parsing file: Default.ini
+[22:21:51][info] Directory 'Data/SKSE/Plugins/Experience/Actors' parsed in 6 ms
+[22:21:51][info] Parsing file: Default.ini
+[22:21:51][info] Parsing file: GeneratedExperiencePatch.ini
+[22:21:51][info] Directory 'Data/SKSE/Plugins/Experience/Races' parsed in 16 ms
+[22:21:51][info] Experience sources initialized
+[22:23:37][info] Finished reverting data
+[22:24:05][info] Finished loading data
+[22:24:12][info] [ActorKill] Undead Wolf (RefID:01003035)
+[22:25:22][info] [ActorKill] Wolf (RefID:000DDDED)
+[22:26:51][info] [ActorKill] Elder Wolf (RefID:0008433C)
+[22:27:10][info] [ActorKill] Wolf (RefID:FE038C04)
+[22:27:28][info] [LocationDiscovery] Goldenhills Plantation (kFarm)
+[22:27:32][info] Finished saving data
+[22:27:34][info] [ObjectiveState] Travel to Goldenhills Plantation (kCompletedDisplayed)
+[22:27:39][info] [ActorKill] Ghost (RefID:FE038B68)
+[22:27:41][info] [ObjectiveState] Search the plantation for clues (kDisplayed)
+[22:30:27][info] [ObjectiveState] Search the plantation for clues (kCompletedDisplayed)
+[22:30:27][info] [ObjectiveState] Find evidence of Urval's guilt (kCompleted)
+[22:30:27][info] [ObjectiveState] Find the hidden laboratory (kDisplayed)
+[22:30:51][info] [ObjectiveState] Find the hidden laboratory (kCompletedDisplayed)
+[22:30:58][info] [ActorKill] Ghost (RefID:FE038D4D)
+[22:31:00][info] [ObjectiveState] Search the laboratory for clues (kDisplayed)
+[22:31:21][info] [ObjectiveState] Search the laboratory for clues (kCompletedDisplayed)
+[22:31:21][info] [ObjectiveState] Find out what happened to Rin (kDisplayed)
+[22:35:46][info] [LocationDiscovery] Rorikstead (kTown)
+[22:36:11][info] Finished saving data
+[22:38:00][info] [ActorKill] Masser (RefID:6004CD4C)
+[22:38:00][info] [ActorKill] Secunda (RefID:6004CD4A)
+[22:38:06][info] [ActorKill] Whiterun Guard (RefID:0003707C)
+[22:38:56][info] [ActorKill] Uthgerd the Unbroken (RefID:00091918)
+[22:39:30][info] [ObjectiveState] Return to where you were last defeated in Whiterun (kDisplayed)
+[22:39:30][info] [ObjectiveState] Track down the Whiterun Guard who almost killed you (kDisplayed)
