@@ -1,856 +1,832 @@
-[2025-09-19 01-06-19.308] [ info  ] FormListManipulator v1-7-0-0
-[2025-09-19 01-06-19.309] [ info  ] Runtime: Special Edition
-[2025-09-19 01-06-28.996] [ error ] Failed to dispatch message to MergeMapper
-[2025-09-19 01-06-28.996] [ info  ] MergeMapper not detected
-[2025-09-19 01-09-02.974] [ info  ] KID is installed, waiting for KID to finish distribution...
-[2025-09-19 01-09-33.247] [ info  ] Starting FLM distribution since KID is done...
-[2025-09-19 01-09-33.248] [ info  ] --------------Looking for configs--------------
-[2025-09-19 01-09-33.553] [ info  ] Found 51 configs.
-[2025-09-19 01-09-33.553] [ info  ] -Processing configs for filters & collections--
-[2025-09-19 01-09-33.562] [ info  ]     Processing Data\BAA_FL-OCF_Filters_FLM.ini...
-[2025-09-19 01-09-33.564] [ info  ]         Finished, 292 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.571] [ info  ]     Processing Data\BAB_FL-OCF_Collections_FLM.ini...
-[2025-09-19 01-09-33.572] [ error ]         Keyword OCF_ActiHeatSource_OtherLarge do not exist!
-[2025-09-19 01-09-33.572] [ error ]         Keyword OCF_FlorCarcass_Hominid do not exist!
-[2025-09-19 01-09-33.572] [ error ]         Keyword OCF_FlorOther_Food do not exist!
-[2025-09-19 01-09-33.572] [ error ]         Keyword OCF_ActiHeatSource_OtherLarge do not exist!
-[2025-09-19 01-09-33.572] [ error ]         Keyword OCF_VesselBottleDunmer do not exist!
-[2025-09-19 01-09-33.572] [ error ]         Keyword OCF_VesselBottleMead do not exist!
-[2025-09-19 01-09-33.572] [ error ]         Keyword VendorItemDrinkAlcohol do not exist!
-[2025-09-19 01-09-33.572] [ error ]         Keyword VendorItemDrinkAlcoholWeak do not exist!
-[2025-09-19 01-09-33.572] [ error ]         Keyword VendorItemDrinkNonAlcohol do not exist!
-[2025-09-19 01-09-33.572] [ error ]         Keyword VendorItemFoodEgg do not exist!
-[2025-09-19 01-09-33.572] [ error ]         Keyword VendorItemFoodFish do not exist!
-[2025-09-19 01-09-33.572] [ error ]         Keyword VendorItemFoodMeat do not exist!
-[2025-09-19 01-09-33.572] [ error ]         Keyword VendorItemFoodStew do not exist!
-[2025-09-19 01-09-33.572] [ error ]         Keyword VendorItemFoodStewSimple do not exist!
-[2025-09-19 01-09-33.572] [ error ]         Keyword OCF_MgefSpellDamage_FireShock do not exist!
-[2025-09-19 01-09-33.572] [ error ]         Keyword OCF_MgefSpellDamage_FireShockCloak do not exist!
-[2025-09-19 01-09-33.572] [ error ]         Keyword OCF_MgefSpellDamage_FireShockFrost do not exist!
-[2025-09-19 01-09-33.572] [ error ]         Keyword OCF_MgefSpellDamage_FireShockFrostCloak do not exist!
-[2025-09-19 01-09-33.572] [ error ]         Keyword OCF_MgefSpellDamage_FrostCloak do not exist!
-[2025-09-19 01-09-33.572] [ error ]         Keyword OCF_MgefSpellDamage_HolySun do not exist!
-[2025-09-19 01-09-33.572] [ error ]         Keyword OCF_MgefSpellDamage_HolySunCloak do not exist!
-[2025-09-19 01-09-33.572] [ error ]         Keyword OCF_MgefSpellDamage_SteamCloak do not exist!
-[2025-09-19 01-09-33.573] [ error ]         Keyword OCF_MiscEmptyVessel_Bucket do not exist!
-[2025-09-19 01-09-33.573] [ error ]         Keyword OCF_ActiHeatSource_OtherLarge do not exist!
-[2025-09-19 01-09-33.573] [ error ]         Keyword OCF_SpelElementArcaneFire do not exist!
-[2025-09-19 01-09-33.573] [ error ]         Keyword OCF_SpelElementAshFire do not exist!
-[2025-09-19 01-09-33.573] [ error ]         Keyword OCF_SpelElementFire do not exist!
-[2025-09-19 01-09-33.573] [ error ]         Keyword OCF_SpelElementFireShock do not exist!
-[2025-09-19 01-09-33.573] [ error ]         Keyword OCF_SpelElementFireShockFrost do not exist!
-[2025-09-19 01-09-33.573] [ error ]         Keyword OCF_SpelElementFrost do not exist!
-[2025-09-19 01-09-33.573] [ error ]         Keyword OCF_SpelElementFrostFire do not exist!
-[2025-09-19 01-09-33.573] [ error ]         Keyword OCF_SpelElementHolyLunar do not exist!
-[2025-09-19 01-09-33.573] [ error ]         Keyword OCF_SpelElementHolySun do not exist!
-[2025-09-19 01-09-33.573] [ error ]         Keyword OCF_SpelElementNecroticFire do not exist!
-[2025-09-19 01-09-33.573] [ error ]         Keyword OCF_SpelElementShock do not exist!
-[2025-09-19 01-09-33.573] [ error ]         Keyword OCF_SpelElementSteam do not exist!
-[2025-09-19 01-09-33.573] [ error ]         Keyword OCF_SpelElementWater do not exist!
-[2025-09-19 01-09-33.573] [ error ]         Keyword OCF_SpelElementWind do not exist!
-[2025-09-19 01-09-33.573] [ error ]         Keyword OCF_SpelShout do not exist!
-[2025-09-19 01-09-33.573] [ info  ]         Finished, 288 valid entries found, 39 invalid, 0 filtered out.
-[2025-09-19 01-09-33.579] [ info  ]     Processing Data\BAC_FL-OCF_AMMO_FLM.ini...
-[2025-09-19 01-09-33.579] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.585] [ info  ]     Processing Data\BAC_FL-OCF_CELL_FLM.ini...
-[2025-09-19 01-09-33.585] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.590] [ info  ]     Processing Data\BAC_FL-OCF_CONT_FLM.ini...
-[2025-09-19 01-09-33.590] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.595] [ info  ]     Processing Data\BAC_FL-OCF_DOOR_FLM.ini...
-[2025-09-19 01-09-33.595] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.600] [ info  ]     Processing Data\BAC_FL-OCF_EXPL_FLM.ini...
-[2025-09-19 01-09-33.601] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.606] [ info  ]     Processing Data\BAC_FL-OCF_HAZD_FLM.ini...
-[2025-09-19 01-09-33.606] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.612] [ info  ]     Processing Data\BAC_FL-OCF_LIGH_FLM.ini...
-[2025-09-19 01-09-33.612] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.617] [ info  ]     Processing Data\BAC_FL-OCF_MSTT_FLM.ini...
-[2025-09-19 01-09-33.617] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.622] [ info  ]     Processing Data\BAC_FL-OCF_PROJ_FLM.ini...
-[2025-09-19 01-09-33.623] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.629] [ info  ]     Processing Data\BAC_FL-OCF_STAT_FLM.ini...
-[2025-09-19 01-09-33.629] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.634] [ info  ]     Processing Data\BAC_FL-OCF_TREE_FLM.ini...
-[2025-09-19 01-09-33.637] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.642] [ info  ]     Processing Data\BAC_FL-OCF_WRLD_FLM.ini...
-[2025-09-19 01-09-33.642] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.648] [ info  ]     Processing Data\BAC_FL-OCF_WTHR_FLM.ini...
-[2025-09-19 01-09-33.648] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.653] [ info  ]     Processing Data\BBA_FL-Vanilla_AtronachForge_FLM.ini...
-[2025-09-19 01-09-33.654] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.660] [ info  ]     Processing Data\BBA_FL-Vanilla_BodyParts_FLM.ini...
-[2025-09-19 01-09-33.660] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.666] [ info  ]     Processing Data\BBA_FL-Vanilla_Critters_FLM.ini...
-[2025-09-19 01-09-33.666] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.671] [ info  ]     Processing Data\BBA_FL-Vanilla_Enchantments_FLM.ini...
-[2025-09-19 01-09-33.672] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.678] [ info  ]     Processing Data\BBA_FL-Vanilla_General_FLM.ini...
-[2025-09-19 01-09-33.679] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.684] [ info  ]     Processing Data\BBA_FL-Vanilla_Hearthfire_FLM.ini...
-[2025-09-19 01-09-33.686] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.691] [ info  ]     Processing Data\BBA_FL-Vanilla_Ignition_FLM.ini...
-[2025-09-19 01-09-33.692] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.697] [ info  ]     Processing Data\BBA_FL-Vanilla_NPCLists_FLM.ini...
-[2025-09-19 01-09-33.697] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.702] [ info  ]     Processing Data\BBA_FL-Vanilla_Planting_FLM.ini...
-[2025-09-19 01-09-33.704] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.709] [ info  ]     Processing Data\BBA_FL-Vanilla_SpiderImbuing_FLM.ini...
-[2025-09-19 01-09-33.710] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.714] [ info  ]     Processing Data\BBA_FL-Vanilla_Tools_FLM.ini...
-[2025-09-19 01-09-33.714] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.719] [ info  ]     Processing Data\BBA_FL-Vanilla_VendorItems_FLM.ini...
-[2025-09-19 01-09-33.719] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.724] [ info  ]     Processing Data\BBA_FL-Vanilla_Worldspaces_FLM.ini...
-[2025-09-19 01-09-33.724] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.729] [ info  ]     Processing Data\BCA_FL-CC_Camping_FLM.ini...
-[2025-09-19 01-09-33.729] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.734] [ info  ]     Processing Data\BCA_FL-CC_PetsSkyrim_FLM.ini...
-[2025-09-19 01-09-33.734] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.739] [ info  ]     Processing Data\BCA_FL-CC_SaintsSeducers_FLM.ini...
-[2025-09-19 01-09-33.739] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.743] [ info  ]     Processing Data\BCA_FL-CC_SurvivalMode_FLM.ini...
-[2025-09-19 01-09-33.743] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.748] [ info  ]     Processing Data\BCA_FL-Mod_BeyondSkyrimBruma_FLM.ini...
-[2025-09-19 01-09-33.748] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.753] [ info  ]     Processing Data\BCA_FL-Mod_Campfire_FLM.ini...
-[2025-09-19 01-09-33.753] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.757] [ info  ]     Processing Data\BCA_FL-Mod_CuttingRoomFloor_FLM.ini...
-[2025-09-19 01-09-33.758] [ info  ]         Finished, 9 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.762] [ info  ]     Processing Data\BCA_FL-Mod_ImmersiveInteractions_FLM.ini...
-[2025-09-19 01-09-33.762] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.767] [ info  ]     Processing Data\BCA_FL-Mod_LegacyoftheDragonborn_FLM.ini...
-[2025-09-19 01-09-33.767] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.770] [ info  ]     Processing Data\BCA_FL-Mod_SkyrimsGotTalent_FLM.ini...
-[2025-09-19 01-09-33.770] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.775] [ info  ]     Processing Data\BCA_FL-Mod_SunHelm_FLM.ini...
-[2025-09-19 01-09-33.775] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.780] [ info  ]     Processing Data\BCA_FL-Mod_TakeAPeek_FLM.ini...
-[2025-09-19 01-09-33.780] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.784] [ info  ]     Processing Data\BCA_FL-Mod_USSEP_FLM.ini...
-[2025-09-19 01-09-33.785] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.789] [ info  ]     Processing Data\BCA_FL-Mod_WetAndCold_FLM.ini...
-[2025-09-19 01-09-33.789] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.794] [ info  ]     Processing Data\FirstPersonInteractions_FLM.ini...
-[2025-09-19 01-09-33.794] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.798] [ info  ]     Processing Data\Helmet Toggle_FLM.ini...
-[2025-09-19 01-09-33.798] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.803] [ info  ]     Processing Data\SHO_ExclusionRules_Mihail_OgresAndEttins_FLM.ini...
-[2025-09-19 01-09-33.803] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.807] [ info  ]     Processing Data\SHO_ExclusionRules_Ogres_FLM.ini...
-[2025-09-19 01-09-33.807] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.812] [ info  ]     Processing Data\SHO_ExclusionRules_Sea GiantsAndIceTitans_FLM.ini...
-[2025-09-19 01-09-33.812] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.816] [ info  ]     Processing Data\WorldSpacesUnslaad_FLM.ini...
-[2025-09-19 01-09-33.816] [ info  ]         Finished, 2 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.820] [ info  ]     Processing Data\WorldSpacesVigilant_FLM.ini...
-[2025-09-19 01-09-33.820] [ info  ]         Finished, 2 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.824] [ info  ]     Processing Data\FLM\AdditionalHearthfireDolls_FLM.ini...
-[2025-09-19 01-09-33.824] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.829] [ info  ]     Processing Data\FLM\AdditionalHearthfireDollsLOTD_FLM.ini...
-[2025-09-19 01-09-33.829] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.829] [ info  ] -----------------------------------------------
-[2025-09-19 01-09-33.931] [ info  ] --------------Processing configs---------------
-[2025-09-19 01-09-33.931] [ info  ]     Processing Data\BAA_FL-OCF_Filters_FLM.ini...
-[2025-09-19 01-09-33.932] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.932] [ info  ]     Processing Data\BAB_FL-OCF_Collections_FLM.ini...
-[2025-09-19 01-09-33.934] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.934] [ info  ]     Processing Data\BAC_FL-OCF_AMMO_FLM.ini...
-[2025-09-19 01-09-33.935] [ info  ]         Finished, 13 valid entries found, 0 invalid, 8 filtered out.
-[2025-09-19 01-09-33.935] [ info  ]     Processing Data\BAC_FL-OCF_CELL_FLM.ini...
-[2025-09-19 01-09-33.935] [ error ]         Unable to find Form: zzzCHMemoryTowerBedzzzCHCharnelUltar.
-[2025-09-19 01-09-33.935] [ info  ]         Finished, 10 valid entries found, 0 invalid, 5 filtered out.
-[2025-09-19 01-09-33.935] [ info  ]     Processing Data\BAC_FL-OCF_CONT_FLM.ini...
-[2025-09-19 01-09-33.935] [ info  ]         Finished, 7 valid entries found, 0 invalid, 6 filtered out.
-[2025-09-19 01-09-33.935] [ info  ]     Processing Data\BAC_FL-OCF_DOOR_FLM.ini...
-[2025-09-19 01-09-33.935] [ info  ]         Finished, 1 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.936] [ info  ]     Processing Data\BAC_FL-OCF_EXPL_FLM.ini...
-[2025-09-19 01-09-33.936] [ error ]         Unable to find FormList: OCF_FL_EXPL_ElementSun.
-[2025-09-19 01-09-33.936] [ info  ]         Finished, 39 valid entries found, 1 invalid, 32 filtered out.
-[2025-09-19 01-09-33.937] [ info  ]     Processing Data\BAC_FL-OCF_HAZD_FLM.ini...
-[2025-09-19 01-09-33.937] [ info  ]         Finished, 20 valid entries found, 0 invalid, 11 filtered out.
-[2025-09-19 01-09-33.937] [ info  ]     Processing Data\BAC_FL-OCF_LIGH_FLM.ini...
-[2025-09-19 01-09-33.937] [ error ]         Filter  was not found!
-[2025-09-19 01-09-33.937] [warning]         Filter "#" was omitted because it is invalid.
-[2025-09-19 01-09-33.937] [ info  ]         Finished, 44 valid entries found, 1 invalid, 31 filtered out.
-[2025-09-19 01-09-33.938] [ info  ]     Processing Data\BAC_FL-OCF_MSTT_FLM.ini...
-[2025-09-19 01-09-33.938] [ info  ]         Finished, 25 valid entries found, 0 invalid, 4 filtered out.
-[2025-09-19 01-09-33.938] [ info  ]     Processing Data\BAC_FL-OCF_PROJ_FLM.ini...
-[2025-09-19 01-09-33.939] [ error ]         Unable to find FormList: OCF_FL_PROJ_ElementSun.
-[2025-09-19 01-09-33.939] [ error ]         Unable to find FormList: OCF_FL_PROJ_ElementSun.
-[2025-09-19 01-09-33.940] [ info  ]         Finished, 90 valid entries found, 2 invalid, 57 filtered out.
-[2025-09-19 01-09-33.940] [ info  ]     Processing Data\BAC_FL-OCF_STAT_FLM.ini...
-[2025-09-19 01-09-33.940] [ info  ]         Finished, 15 valid entries found, 0 invalid, 3 filtered out.
-[2025-09-19 01-09-33.940] [ info  ]     Processing Data\BAC_FL-OCF_TREE_FLM.ini...
-[2025-09-19 01-09-33.943] [ info  ]         Finished, 53 valid entries found, 0 invalid, 29 filtered out.
-[2025-09-19 01-09-33.943] [ info  ]     Processing Data\BAC_FL-OCF_WRLD_FLM.ini...
-[2025-09-19 01-09-33.944] [ info  ]         Finished, 25 valid entries found, 0 invalid, 7 filtered out.
-[2025-09-19 01-09-33.944] [ info  ]     Processing Data\BAC_FL-OCF_WTHR_FLM.ini...
-[2025-09-19 01-09-33.944] [ info  ]         Finished, 4 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.944] [ info  ]     Processing Data\BBA_FL-Vanilla_AtronachForge_FLM.ini...
-[2025-09-19 01-09-33.945] [ info  ]         Finished, 159 valid entries found, 0 invalid, 159 filtered out.
-[2025-09-19 01-09-33.945] [ info  ]     Processing Data\BBA_FL-Vanilla_BodyParts_FLM.ini...
-[2025-09-19 01-09-33.945] [ info  ]         Finished, 16 valid entries found, 0 invalid, 5 filtered out.
-[2025-09-19 01-09-33.945] [ info  ]     Processing Data\BBA_FL-Vanilla_Critters_FLM.ini...
-[2025-09-19 01-09-33.946] [ info  ]         Finished, 32 valid entries found, 0 invalid, 32 filtered out.
-[2025-09-19 01-09-33.946] [ info  ]     Processing Data\BBA_FL-Vanilla_Enchantments_FLM.ini...
-[2025-09-19 01-09-33.947] [ info  ]         Finished, 38 valid entries found, 0 invalid, 32 filtered out.
-[2025-09-19 01-09-33.947] [ info  ]     Processing Data\BBA_FL-Vanilla_General_FLM.ini...
-[2025-09-19 01-09-33.947] [ error ]         Unable to find Form: SCS_Abilities_Vanilla_Spell_Ab_NewMoonlitWaters.
-[2025-09-19 01-09-33.947] [ error ]         Unknown Group/Collection: alchKW_VendorItemDrinkAlcohol.
-[2025-09-19 01-09-33.947] [ error ]         Unknown Group/Collection: alchKW_VendorItemDrinkAlcoholWeak.
-[2025-09-19 01-09-33.947] [ error ]         Unknown Group/Collection: alchKW_VendorItemFoodEgg.
-[2025-09-19 01-09-33.947] [ error ]         Unknown Group/Collection: alchKW_VendorItemFoodFish.
-[2025-09-19 01-09-33.947] [ error ]         Unknown Group/Collection: alchKW_VendorItemFoodMeat.
-[2025-09-19 01-09-33.947] [ error ]         Unknown Group/Collection: alchKW_VendorItemDrinkAlcohol.
-[2025-09-19 01-09-33.947] [ error ]         Unknown Group/Collection: alchKW_VendorItemDrinkAlcoholWeak.
-[2025-09-19 01-09-33.948] [ error ]         Unknown Group/Collection: spelKW_OCF_SpelShout.
-[2025-09-19 01-09-33.948] [ info  ]         Finished, 67 valid entries found, 0 invalid, 25 filtered out.
-[2025-09-19 01-09-33.948] [ info  ]     Processing Data\BBA_FL-Vanilla_Hearthfire_FLM.ini...
-[2025-09-19 01-09-33.949] [ info  ]         Finished, 45 valid entries found, 0 invalid, 39 filtered out.
-[2025-09-19 01-09-33.949] [ info  ]     Processing Data\BBA_FL-Vanilla_Ignition_FLM.ini...
-[2025-09-19 01-09-33.950] [ error ]         Unknown Group/Collection: spelKW_OCF_SpelElementFire.
-[2025-09-19 01-09-33.950] [ error ]         Unknown Group/Collection: spelKW_OCF_SpelElementFireShock.
-[2025-09-19 01-09-33.950] [ error ]         Unknown Group/Collection: mgefKW_OCF_MgefSpellDamage_FireShock.
-[2025-09-19 01-09-33.950] [ error ]         Unknown Group/Collection: mgefKW_OCF_MgefSpellDamage_FireShockCloak.
-[2025-09-19 01-09-33.950] [ info  ]         Finished, 16 valid entries found, 0 invalid, 2 filtered out.
-[2025-09-19 01-09-33.950] [ info  ]     Processing Data\BBA_FL-Vanilla_NPCLists_FLM.ini...
-[2025-09-19 01-09-33.950] [ info  ]         Finished, 12 valid entries found, 0 invalid, 3 filtered out.
-[2025-09-19 01-09-33.950] [ info  ]     Processing Data\BBA_FL-Vanilla_Planting_FLM.ini...
-[2025-09-19 01-09-33.952] [ info  ]         Finished, 294 valid entries found, 0 invalid, 258 filtered out.
-[2025-09-19 01-09-33.952] [ info  ]     Processing Data\BBA_FL-Vanilla_SpiderImbuing_FLM.ini...
-[2025-09-19 01-09-33.952] [ info  ]         Finished, 40 valid entries found, 0 invalid, 36 filtered out.
-[2025-09-19 01-09-33.952] [ info  ]     Processing Data\BBA_FL-Vanilla_Tools_FLM.ini...
-[2025-09-19 01-09-33.952] [ info  ]         Finished, 4 valid entries found, 0 invalid, 1 filtered out.
-[2025-09-19 01-09-33.952] [ info  ]     Processing Data\BBA_FL-Vanilla_VendorItems_FLM.ini...
-[2025-09-19 01-09-33.952] [ info  ]         Finished, 17 valid entries found, 0 invalid, 16 filtered out.
-[2025-09-19 01-09-33.952] [ info  ]     Processing Data\BBA_FL-Vanilla_Worldspaces_FLM.ini...
-[2025-09-19 01-09-33.953] [ info  ]         Finished, 11 valid entries found, 0 invalid, 1 filtered out.
-[2025-09-19 01-09-33.953] [ info  ]     Processing Data\BCA_FL-CC_Camping_FLM.ini...
-[2025-09-19 01-09-33.953] [ info  ]         Finished, 3 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.953] [ info  ]     Processing Data\BCA_FL-CC_PetsSkyrim_FLM.ini...
-[2025-09-19 01-09-33.953] [ error ]         Unknown Group/Collection: florKW_OCF_FlorCarcass_Hominid.
-[2025-09-19 01-09-33.953] [ error ]         Unknown Group/Collection: florKW_OCF_FlorOther_Food.
-[2025-09-19 01-09-33.953] [ info  ]         Finished, 4 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.953] [ info  ]     Processing Data\BCA_FL-CC_SaintsSeducers_FLM.ini...
-[2025-09-19 01-09-33.953] [ info  ]         Finished, 2 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.953] [ info  ]     Processing Data\BCA_FL-CC_SurvivalMode_FLM.ini...
-[2025-09-19 01-09-33.953] [ info  ]         Finished, 11 valid entries found, 0 invalid, 1 filtered out.
-[2025-09-19 01-09-33.953] [ info  ]     Processing Data\BCA_FL-Mod_BeyondSkyrimBruma_FLM.ini...
-[2025-09-19 01-09-33.953] [ info  ]         Finished, 8 valid entries found, 0 invalid, 4 filtered out.
-[2025-09-19 01-09-33.954] [ info  ]     Processing Data\BCA_FL-Mod_Campfire_FLM.ini...
-[2025-09-19 01-09-33.954] [ info  ]         Finished, 19 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.954] [ info  ]     Processing Data\BCA_FL-Mod_CuttingRoomFloor_FLM.ini...
-[2025-09-19 01-09-33.954] [ info  ]         Finished, 9 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.954] [ info  ]     Processing Data\BCA_FL-Mod_ImmersiveInteractions_FLM.ini...
-[2025-09-19 01-09-33.954] [ info  ]         Finished, 17 valid entries found, 0 invalid, 1 filtered out.
-[2025-09-19 01-09-33.955] [ info  ]     Processing Data\BCA_FL-Mod_LegacyoftheDragonborn_FLM.ini...
-[2025-09-19 01-09-33.955] [ info  ]         Finished, 2 valid entries found, 0 invalid, 2 filtered out.
-[2025-09-19 01-09-33.955] [ info  ]     Processing Data\BCA_FL-Mod_SkyrimsGotTalent_FLM.ini...
-[2025-09-19 01-09-33.955] [ info  ]         Finished, 1 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.955] [ info  ]     Processing Data\BCA_FL-Mod_SunHelm_FLM.ini...
-[2025-09-19 01-09-33.955] [ error ]         Unknown Group/Collection: actiKW_OCF_ActiHeatSource_OtherLarge.
-[2025-09-19 01-09-33.955] [ error ]         Unknown Group/Collection: furnKW_OCF_ActiHeatSource_OtherLarge.
-[2025-09-19 01-09-33.955] [ error ]         Unknown Group/Collection: npcKW_OCF_ActiHeatSource_OtherLarge.
-[2025-09-19 01-09-33.955] [ info  ]         Finished, 15 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.955] [ info  ]     Processing Data\BCA_FL-Mod_TakeAPeek_FLM.ini...
-[2025-09-19 01-09-33.955] [ error ]         Unable to find Form: NorDoorMediumLoad.
-[2025-09-19 01-09-33.955] [ info  ]         Finished, 1 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.955] [ info  ]     Processing Data\BCA_FL-Mod_USSEP_FLM.ini...
-[2025-09-19 01-09-33.955] [ info  ]         Finished, 2 valid entries found, 0 invalid, 1 filtered out.
-[2025-09-19 01-09-33.955] [ info  ]     Processing Data\BCA_FL-Mod_WetAndCold_FLM.ini...
-[2025-09-19 01-09-33.955] [ error ]         Unable to find FormList: WC_BreathIgnoreList.
-[2025-09-19 01-09-33.956] [ info  ]         Finished, 0 valid entries found, 1 invalid, 0 filtered out.
-[2025-09-19 01-09-33.956] [ info  ]     Processing Data\FirstPersonInteractions_FLM.ini...
-[2025-09-19 01-09-33.956] [ error ]         Unable to find FormList: ANDR_ChoppableTreeList.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest01_LightIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest01_MediumIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest01_HeavyIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest01Dead_LightIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest01Dead_MediumIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest01Dead_HeavyIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest02_LightIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest02_MediumIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest02_HeavyIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest02Dead_LightIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest02Dead_MediumIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest02Dead_HeavyIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest03_LightIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest03_MediumIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest03_HeavyIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest03Dead_LightIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest03Dead_MediumIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest03Dead_heavyIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest04_LightIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest04_MediumIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest04_HeavyIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest04Dead_LightIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest04Dead_MediumIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest04Dead_HeavyIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest05_LightIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest05_MediumIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest05_HeavyIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest05Dead_LightIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest05Dead_MediumIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: TreePineForest05Dead_HeavyIvy.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: dtaMeadBarrel_BloodDrip01.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: dtaMeadBarrel_BloodDrip02.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: dtaMeadBarrel01.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: dtaSovLargeMeadBarrel01.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: dtaBreweryCaskLargeClosed01.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: dtaBreweryCaskLargeClosed02.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: dtaMeaderyBrewer01.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: XionFloraIceClaw.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: AP_StartroomWardrobe.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: FEC_AshPile.
-[2025-09-19 01-09-33.956] [ error ]         Unable to find Form: FEC_AcidAshPile.
-[2025-09-19 01-09-33.956] [ info  ]         Finished, 21 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.956] [ info  ]     Processing Data\Helmet Toggle_FLM.ini...
-[2025-09-19 01-09-33.957] [ info  ]         Finished, 26 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.957] [ info  ]     Processing Data\SHO_ExclusionRules_Mihail_OgresAndEttins_FLM.ini...
-[2025-09-19 01-09-33.957] [ info  ]         Finished, 19 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.957] [ info  ]     Processing Data\SHO_ExclusionRules_Ogres_FLM.ini...
-[2025-09-19 01-09-33.957] [ info  ]         Finished, 3 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.957] [ info  ]     Processing Data\SHO_ExclusionRules_Sea GiantsAndIceTitans_FLM.ini...
-[2025-09-19 01-09-33.957] [ info  ]         Finished, 16 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.957] [ info  ]     Processing Data\WorldSpacesUnslaad_FLM.ini...
-[2025-09-19 01-09-33.957] [ info  ]         Finished, 8 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.957] [ info  ]     Processing Data\WorldSpacesVigilant_FLM.ini...
-[2025-09-19 01-09-33.957] [ info  ]         Finished, 8 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.958] [ info  ]     Processing Data\FLM\AdditionalHearthfireDolls_FLM.ini...
-[2025-09-19 01-09-33.958] [ info  ]         Finished, 3 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.958] [ info  ]     Processing Data\FLM\AdditionalHearthfireDollsLOTD_FLM.ini...
-[2025-09-19 01-09-33.958] [ info  ]         Finished, 3 valid entries found, 0 invalid, 0 filtered out.
-[2025-09-19 01-09-33.958] [ info  ] Reading configs complete, 51 valid configs found, 0 invalid. 1891 valid entries found, 44 invalid, 811 filtered out.
-[2025-09-19 01-09-33.958] [ info  ] -----------------------------------------------
-[2025-09-19 01-09-33.958] [ info  ] --------------------PLANTS---------------------
-[2025-09-19 01-09-33.958] [ info  ] Total 36 new Plant added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ] -----------------------------------------------
-[2025-09-19 01-09-33.958] [ info  ] ------------------BOY'S TOYS-------------------
-[2025-09-19 01-09-33.958] [ info  ] Total 84 new Boy's Toy added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ] -----------------------------------------------
-[2025-09-19 01-09-33.958] [ info  ] ------------------GIRL'S TOYS------------------
-[2025-09-19 01-09-33.958] [ info  ] Total 83 new Girls's Toy added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ] -----------------------------------------------
-[2025-09-19 01-09-33.958] [ info  ] ------------------HAIR COLORS------------------
-[2025-09-19 01-09-33.958] [ info  ] Total 1 new Hair Color added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ] -----------------------------------------------
-[2025-09-19 01-09-33.958] [ info  ] ----------------ATRONACH FORGE-----------------
-[2025-09-19 01-09-33.958] [ info  ] Total 0 new Result added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ] -----------------------------------------------
-[2025-09-19 01-09-33.958] [ info  ] --------ATRONACH FORGE WITH SIGIL STONE--------
-[2025-09-19 01-09-33.958] [ info  ] Total 0 new Result added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ] -----------------------------------------------
-[2025-09-19 01-09-33.958] [ info  ] -------------------FORMLISTS-------------------
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_AMMO_Playable "" [FE048ACD]
-[2025-09-19 01-09-33.958] [ info  ]         5 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_LIGH_HeldElementShock "" [FE048AC4]
-[2025-09-19 01-09-33.958] [ info  ]         2 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_LIGH_HeldElementFire "" [FE048AC2]
-[2025-09-19 01-09-33.958] [ info  ]         2 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_WRLD_ExtraPlanar "" [FE048AC0]
-[2025-09-19 01-09-33.958] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_HAZD_HeatSource "" [FE048ABF]
-[2025-09-19 01-09-33.958] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_WTHR_Rain "" [FE048AA0]
-[2025-09-19 01-09-33.958] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_WTHR_Snow "" [FE048A9E]
-[2025-09-19 01-09-33.958] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_HAZD_HeatSource_Other "" [FE048A89]
-[2025-09-19 01-09-33.958] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_HAZD_HeatSource_FireMedium "" [FE048A86]
-[2025-09-19 01-09-33.958] [ info  ]         2 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_HAZD_HeatSource_Fire "" [FE048A83]
-[2025-09-19 01-09-33.958] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_AMMO_PlayableBolt "" [FE048A7F]
-[2025-09-19 01-09-33.958] [ info  ]         8 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_AMMO_PlayableArrow "" [FE048A7E]
-[2025-09-19 01-09-33.958] [ info  ]         22 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_STAT_HeatSource "" [FE048A7C]
-[2025-09-19 01-09-33.958] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_STAT_HeatSource_Other "" [FE048A7B]
-[2025-09-19 01-09-33.958] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_STAT_HeatSource_OtherSmall "" [FE048A79]
-[2025-09-19 01-09-33.958] [ info  ]         2 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_STAT_HeatSource_OtherMedium "" [FE048A78]
-[2025-09-19 01-09-33.958] [ info  ]         1 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_STAT_HeatSource_OtherLarge "" [FE048A77]
-[2025-09-19 01-09-33.958] [ info  ]         1 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_STAT_HeatSource_Fire "" [FE048A75]
-[2025-09-19 01-09-33.958] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_STAT_HeatSource_FireMedium "" [FE048A72]
-[2025-09-19 01-09-33.958] [ info  ]         2 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_STAT_HeatSource_FireLarge "" [FE048A71]
-[2025-09-19 01-09-33.958] [ info  ]         3 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_STAT_HeatSource_FireHuge "" [FE048A70]
-[2025-09-19 01-09-33.958] [ info  ]         2 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_MSTT_HeatSource "" [FE048A6F]
-[2025-09-19 01-09-33.958] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_MSTT_HeatSource_Other "" [FE048A6E]
-[2025-09-19 01-09-33.958] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_MSTT_HeatSource_OtherSmall "" [FE048A6C]
-[2025-09-19 01-09-33.958] [ info  ]         13 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_MSTT_HeatSource_Fire "" [FE048A68]
-[2025-09-19 01-09-33.958] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_MSTT_HeatSource_FireSmall "" [FE048A66]
-[2025-09-19 01-09-33.958] [ info  ]         12 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_MSTT_HeatSource_FireMedium "" [FE048A65]
-[2025-09-19 01-09-33.958] [ info  ]         22 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_MSTT_HeatSource_FireLarge "" [FE048A64]
-[2025-09-19 01-09-33.958] [ info  ]         25 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_MSTT_HeatSource_FireHuge "" [FE048A63]
-[2025-09-19 01-09-33.958] [ info  ]         11 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_LIGH_HeatSource "" [FE048A62]
-[2025-09-19 01-09-33.958] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_LIGH_HeatSource_Other "" [FE048A61]
-[2025-09-19 01-09-33.958] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_LIGH_HeatSource_Fire "" [FE048A5B]
-[2025-09-19 01-09-33.958] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_LIGH_HeatSource_FireSmall "" [FE048A59]
-[2025-09-19 01-09-33.958] [ info  ]         1 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_LIGH_HeatSource_FireMedium "" [FE048A58]
-[2025-09-19 01-09-33.958] [ info  ]         6 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_LIGH_HeatSource_FireLarge "" [FE048A57]
-[2025-09-19 01-09-33.958] [ info  ]         1 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_STAT_WoodSource "" [FE048A54]
-[2025-09-19 01-09-33.958] [ info  ]         48 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_STAT_Trap "" [FE048A53]
-[2025-09-19 01-09-33.958] [ info  ]         4 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.958] [ info  ]     FormList OCF_FL_DOOR_Trap "" [FE048A52]
-[2025-09-19 01-09-33.959] [ info  ]         3 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_PROJ_SpiderScroll "" [FE048A51]
-[2025-09-19 01-09-33.959] [ info  ]         29 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_PROJ_MagicRune "" [FE048A50]
-[2025-09-19 01-09-33.959] [ info  ]         9 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_PROJ_ElementWind "" [FE048A4F]
-[2025-09-19 01-09-33.959] [ info  ]         3 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_PROJ_ElementSteam "" [FE048A4E]
-[2025-09-19 01-09-33.959] [ info  ]         3 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_PROJ_ElementAsh "" [FE048A4D]
-[2025-09-19 01-09-33.959] [ info  ]         7 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_EXPL_ElementPoison "" [FE048A4C]
-[2025-09-19 01-09-33.959] [ info  ]         25 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_EXPL_ElementSteam "" [FE048A4B]
-[2025-09-19 01-09-33.959] [ info  ]         1 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_EXPL_ElementWater "" [FE048A4A]
-[2025-09-19 01-09-33.959] [ info  ]         1 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_EXPL_ElementShock "" [FE048A48]
-[2025-09-19 01-09-33.959] [ info  ]         20 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_EXPL_ElementFrost "" [FE048A47]
-[2025-09-19 01-09-33.959] [ info  ]         17 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_EXPL_ElementFire "" [FE048A46]
-[2025-09-19 01-09-33.959] [ info  ]         42 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_EXPL_ElementAsh "" [FE048A45]
-[2025-09-19 01-09-33.959] [ info  ]         5 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_PROJ_ElementPoison "" [FE048A43]
-[2025-09-19 01-09-33.959] [ info  ]         18 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_HAZD_ElementShock "" [FE048A42]
-[2025-09-19 01-09-33.959] [ info  ]         6 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_HAZD_ElementFrost "" [FE048A41]
-[2025-09-19 01-09-33.959] [ info  ]         9 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_HAZD_ElementPoison "" [FE048A40]
-[2025-09-19 01-09-33.959] [ info  ]         6 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_HAZD_ElementFire "" [FE048A3F]
-[2025-09-19 01-09-33.959] [ info  ]         19 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_TREE_WoodSource "" [FE048A3A]
-[2025-09-19 01-09-33.959] [ info  ]         122 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_TREE_FlorPlant_Nirnroot "" [FE048A39]
-[2025-09-19 01-09-33.959] [ info  ]         1 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_TREE_FlorPlant_Mushroom "" [FE048A38]
-[2025-09-19 01-09-33.959] [ info  ]         21 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_TREE_FlorPlant_Ingr "" [FE048A37]
-[2025-09-19 01-09-33.959] [ info  ]         230 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_TREE_FlorPlant_Food "" [FE048A36]
-[2025-09-19 01-09-33.959] [ info  ]         29 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_PROJ_ElementShock "" [FE048A32]
-[2025-09-19 01-09-33.959] [ info  ]         19 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_PROJ_ElementFrost "" [FE048A31]
-[2025-09-19 01-09-33.959] [ info  ]         25 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_PROJ_ElementFire "" [FE048A30]
-[2025-09-19 01-09-33.959] [ info  ]         32 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_PROJ_AmmoBolt "" [FE048A2B]
-[2025-09-19 01-09-33.959] [ info  ]         14 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_PROJ_AmmoArrow "" [FE048A2A]
-[2025-09-19 01-09-33.959] [ info  ]         29 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_LIGH_HeldDwemer "" [FE048A28]
-[2025-09-19 01-09-33.959] [ info  ]         2 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_LIGH_HeldTorch "" [FE048A25]
-[2025-09-19 01-09-33.959] [ info  ]         4 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_LIGH_Held "" [FE048A24]
-[2025-09-19 01-09-33.959] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_CONT_Barrel "" [FE048A22]
-[2025-09-19 01-09-33.959] [ info  ]         27 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_CELL_Oblivion "" [FE048A20]
-[2025-09-19 01-09-33.959] [ info  ]         115 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_WRLD_Test "" [FE048A1E]
-[2025-09-19 01-09-33.959] [ info  ]         9 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_PROJ_Trap "" [FE048A1D]
-[2025-09-19 01-09-33.959] [ info  ]         3 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_WTHR_Ash "" [FE048A1C]
-[2025-09-19 01-09-33.959] [ info  ]         3 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_WRLD_Oblivion "" [FE048A1B]
-[2025-09-19 01-09-33.959] [ info  ]         12 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_WRLD_Aetherius "" [FE048A1A]
-[2025-09-19 01-09-33.959] [ info  ]         1 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_WRLD_Mundus "" [FE048A19]
-[2025-09-19 01-09-33.959] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_WRLD_Mundus_Interior "" [FE048A18]
-[2025-09-19 01-09-33.959] [ info  ]         21 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_WRLD_Mundus_Exterior "" [FE048A17]
-[2025-09-19 01-09-33.959] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_WRLD_Mundus_ExteriorWilderness "" [FE048A16]
-[2025-09-19 01-09-33.959] [ info  ]         23 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList OCF_FL_WRLD_Mundus_ExteriorSettlement "" [FE048A15]
-[2025-09-19 01-09-33.959] [ info  ]         6 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList AlcoholicDrinksList "" [72EA2]
-[2025-09-19 01-09-33.959] [ info  ]         75 new Forms added, skipped 97 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList TrapGasOnEnter "" [82E15]
-[2025-09-19 01-09-33.959] [ info  ]         17 new Forms added, skipped 5 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList TrapGasOnMagicEffectApply "" [82E16]
-[2025-09-19 01-09-33.959] [ info  ]         20 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList TrapGasOnHit "" [82E17]
-[2025-09-19 01-09-33.959] [ info  ]         1 new Forms added, skipped 3 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList TrapGasMagicDrawn "" [82F6E]
-[2025-09-19 01-09-33.959] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList WhiterunBelethorsGoodsFormList "" [93AF8]
-[2025-09-19 01-09-33.959] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList WhiterunArcadiasCauldronFormList "" [93AF9]
-[2025-09-19 01-09-33.959] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList RoriksteadManorLockList "" [9E130]
-[2025-09-19 01-09-33.959] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList StonehillsGestursHouseLockList "" [9E2A0]
-[2025-09-19 01-09-33.959] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList WEHealingPotions "" [9F81D]
-[2025-09-19 01-09-33.959] [ info  ]         6 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList FavorHealingPotions "" [B15F9]
-[2025-09-19 01-09-33.959] [ info  ]         6 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList Hirelings "" [7A51F]
-[2025-09-19 01-09-33.959] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList silverItems "" [8999E]
-[2025-09-19 01-09-33.959] [ info  ]         97 new Forms added, skipped 185 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList rubies "" [8999F]
-[2025-09-19 01-09-33.959] [ info  ]         0 new Forms added, skipped 4 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList HeadPartsHumansandVampires "" [A8023]
-[2025-09-19 01-09-33.959] [ info  ]         0 new Forms added, skipped 3 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList HeadPartsHuman "" [A8026]
-[2025-09-19 01-09-33.959] [ info  ]         3 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList HeadPartsBreton "" [A802F]
-[2025-09-19 01-09-33.959] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList HeadPartsImperialandVampire "" [A8034]
-[2025-09-19 01-09-33.959] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList HeadPartsBretonandVampire "" [A8037]
-[2025-09-19 01-09-33.959] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList HeadPartsRedguard "" [A803A]
-[2025-09-19 01-09-33.959] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList HeadPartsRedguardandVampire "" [A803B]
-[2025-09-19 01-09-33.959] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList HeadPartsElder "" [A803D]
-[2025-09-19 01-09-33.959] [ info  ]         0 new Forms added, skipped 3 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList HeadPartsAllRacesMinusBeast "" [A803F]
-[2025-09-19 01-09-33.959] [ info  ]         3 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList WerewolfHateFactions "" [957F6]
-[2025-09-19 01-09-33.959] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList FFI03BearPelts "" [D9CF8]
-[2025-09-19 01-09-33.959] [ info  ]         1 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList DisintegrationMainImmunityList "" [F6534]
-[2025-09-19 01-09-33.959] [ info  ]         0 new Forms added, skipped 3 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList MorthalHighmoonHallLockList "" [F8A5E]
-[2025-09-19 01-09-33.959] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList WICastDragonBornShouts "" [FB97E]
-[2025-09-19 01-09-33.959] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.959] [ info  ]     FormList DaggersFormlist "" [1019AD]
-[2025-09-19 01-09-33.960] [ info  ]         1062 new Forms added, skipped 8 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList TutorialBlacksmithList "" [10538D]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList TrapGasWeapon "" [109E7B]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 5 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList MineOreToolsList "" [10ACC4]
-[2025-09-19 01-09-33.960] [ info  ]         9 new Forms added, skipped 17 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList woodChoppingAxes "" [10ACCC]
-[2025-09-19 01-09-33.960] [ info  ]         4 new Forms added, skipped 10 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList VendorItemsCollegeUrag "" [10C42E]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList MQ201DrinkList "" [10C706]
-[2025-09-19 01-09-33.960] [ info  ]         85 new Forms added, skipped 87 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList EnchantmentResistFire "" [10CD22]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList EnchantmentResistFrost "" [10CD23]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList EnchantmentResistShock "" [10CD24]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList EnchantmentResistMagic "" [10CD25]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList EnchantmentResistDisease "" [10CF28]
-[2025-09-19 01-09-33.960] [ info  ]         1 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList EnchantmentResistPoison "" [10CF29]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList RubyItems "" [10F616]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 4 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList SapphireItems "" [10F617]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 7 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList AmethystItems "" [10F618]
-[2025-09-19 01-09-33.960] [ info  ]         1 new Forms added, skipped 3 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList SoulGemsGreatGrandBlack "" [10F630]
-[2025-09-19 01-09-33.960] [ info  ]         31 new Forms added, skipped 6 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList EmptyBottles "" [10F73B]
-[2025-09-19 01-09-33.960] [ info  ]         18 new Forms added, skipped 5 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList SoulGemsAll "" [10F73D]
-[2025-09-19 01-09-33.960] [ info  ]         45 new Forms added, skipped 12 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList rawAnimalMeat "" [10F73E]
-[2025-09-19 01-09-33.960] [ info  ]         23 new Forms added, skipped 8 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList SoulGemsBlack "" [10F741]
-[2025-09-19 01-09-33.960] [ info  ]         13 new Forms added, skipped 2 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList rawAnimalMeat02 "" [10F74F]
-[2025-09-19 01-09-33.960] [ info  ]         23 new Forms added, skipped 8 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList SkullsHuman "" [10F750]
-[2025-09-19 01-09-33.960] [ info  ]         22 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList SoulGemsFilledGreatGrandBlack "" [10F768]
-[2025-09-19 01-09-33.960] [ info  ]         17 new Forms added, skipped 3 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList MagicStormCallNoWorkHereList "" [1717C]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList HelpManualPC "" [163]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 2 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList HelpManualXBox "" [165]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 2 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList _SHOblivionLctns "" [BF446B84]
-[2025-09-19 01-09-33.960] [ info  ]         14 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList _SHHeatSourceSmall "" [BF78511B]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList _SHHeatSourcesNormal "" [BF78511A]
-[2025-09-19 01-09-33.960] [ info  ]         5 new Forms added, skipped 25 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList _SHHeatSourcesLarge "" [BF785119]
-[2025-09-19 01-09-33.960] [ info  ]         2 new Forms added, skipped 28 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList _SHInteriorWorldSpaces "" [BF6FC5F9]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList _SHHeatSourcesAll "" [BF785118]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 77 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList _SHOblivionWorlds "" [BF446B80]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList _ShBlackBooks "" [BF4C54AC]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 7 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList _SHOblivionCells "" [BF446B82]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList DLC1VampireSpellsPowers "" [2019AD9]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 2 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList DLC1SeranaCureSpellRemovalList "" [200504F]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 17 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList DLC01SoulcairnLRodGemList "" [2002912]
-[2025-09-19 01-09-33.960] [ info  ]         16 new Forms added, skipped 4 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList SunDamageExceptionWorldSpaces "" [1000969]
-[2025-09-19 01-09-33.960] [ info  ]         15 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList OversizedSummoningExceptionWorldSpaces "" [1000999]
-[2025-09-19 01-09-33.960] [ info  ]         12 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList SunAffectingExceptionWorldSpaces "" [100099A]
-[2025-09-19 01-09-33.960] [ info  ]         15 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList RidableWorldSpaces "" [100099B]
-[2025-09-19 01-09-33.960] [ info  ]         10 new Forms added, skipped 4 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList BYOHHouseBuildingTrophyPlaceList "" [300A339]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 2 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList BYOHHouseBuildingTrophyMasterList "" [300A31D]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 2 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList BYOHRelationshipAdoptionGifts_0500 "" [3002F60]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList DLC2ExpSpiderCraftingBooksListSTATIC "" [401DA1B]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 2 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList DLC2BilgemuckFood "" [40317D1]
-[2025-09-19 01-09-33.960] [ info  ]         72 new Forms added, skipped 24 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList DLC2StalhrimMineOreToolsList "" [40385BA]
-[2025-09-19 01-09-33.960] [ info  ]         1 new Forms added, skipped 7 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList ccQDRSSE002_InteriorAreas "" [FE00F81E]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList ccQDRSSE002_TownCityLocationList "" [FE00F81C]
-[2025-09-19 01-09-33.960] [ info  ]         24 new Forms added, skipped 15 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList ccQDRSSE002_CampingAllowedWorldspaces "" [FE00F811]
-[2025-09-19 01-09-33.960] [ info  ]         8 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList Survival_OblivionCells "" [FE00E92B]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList Survival_FoodRawMeat "" [FE00E8B0]
-[2025-09-19 01-09-33.960] [ info  ]         15 new Forms added, skipped 13 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList Survival_FastTravelDragonbornBlackBooks "" [FE00E8B1]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 7 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList Survival_WarmUpObjectsList "" [FE00E8AA]
-[2025-09-19 01-09-33.960] [ info  ]         13 new Forms added, skipped 47 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList Survival_InteriorAreas "" [FE00E92F]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList Survival_OblivionAreas "" [FE00E92E]
-[2025-09-19 01-09-33.960] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.960] [ info  ]     FormList Survival_BlessingAltars "" [FE00E884]
-[2025-09-19 01-09-33.960] [ info  ]         18 new Forms added, skipped 14 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList Survival_OblivionLocations "" [FE00E92D]
-[2025-09-19 01-09-33.961] [ info  ]         14 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList UDBPPerkInvestorGlobals "" [F044D6F]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 3 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList ccBGSSSE025_EmeraldItems "" [C1B1814]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 4 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList ccBGSSSE025_GarnetItems "" [C1B1813]
-[2025-09-19 01-09-33.961] [ info  ]         1 new Forms added, skipped 3 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList ccVSVSSE002_FetchItems_Skeever "" [FE0158E4]
-[2025-09-19 01-09-33.961] [ info  ]         27 new Forms added, skipped 30 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList ccVSVSSE002_FetchItems_Rabbit "" [FE0158E0]
-[2025-09-19 01-09-33.961] [ info  ]         150 new Forms added, skipped 61 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList CYRTrapDetectTrapList "" [14083C8E]
-[2025-09-19 01-09-33.961] [ info  ]         58 new Forms added, skipped 32 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList CYRFavorJobsGatherResourcesPumpkins "" [1407CAAA]
-[2025-09-19 01-09-33.961] [ info  ]         1 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList CYRFavorFilledCommonSoulgem "" [14065147]
-[2025-09-19 01-09-33.961] [ info  ]         5 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList _Camp_ModWaterSkins "" [3505711E]
-[2025-09-19 01-09-33.961] [ info  ]         5 new Forms added, skipped 5 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList _Camp_Trees "" [3501D441]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList _Camp_HeatSources_All "" [35028F06]
-[2025-09-19 01-09-33.961] [ info  ]         2 new Forms added, skipped 68 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList _Camp_HeatSources_Fire_Medium "" [35028F03]
-[2025-09-19 01-09-33.961] [ info  ]         5 new Forms added, skipped 16 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList _Camp_HeatSources_Fire_Small "" [35028F02]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList _Camp_HeatSources_Fire "" [3502899F]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 55 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList _Camp_WorldspacesInteriors "" [350339E3]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList _Camp_HeatSources_Fire_Large "" [35028F04]
-[2025-09-19 01-09-33.961] [ info  ]         4 new Forms added, skipped 20 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList _Camp_CookingPots "" [3504123F]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 1 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList _Camp_CampingRestrictedWorldspaces "" [35039237]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList _SHO_Blacklist "" [FE9C78E5]
-[2025-09-19 01-09-33.961] [ info  ]         38 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList CRFDaedricArtifactsList "" [4001A404]
-[2025-09-19 01-09-33.961] [ info  ]         73 new Forms added, skipped 1025 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList Keyhole_DoorExceptions "" [FEAEA819]
-[2025-09-19 01-09-33.961] [ info  ]         1 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList FP_MissivesList "" [FE96384C]
-[2025-09-19 01-09-33.961] [ info  ]         11 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList FP_ContainerList "" [FE963844]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 12 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList FP_LadderList "" [FE96383F]
-[2025-09-19 01-09-33.961] [ info  ]         8 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList FP_MeadList "" [FE96383E]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList FP_TreeList "" [FE96383D]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList FP_PetList "" [FE96382E]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList FP_NirnrootList "" [FE96382B]
-[2025-09-19 01-09-33.961] [ info  ]         10 new Forms added, skipped 2 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList FP_PillarList "" [FE963826]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 8 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList FP_PuzzleOuterRingList "" [FE963825]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 6 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList FP_PuzzleMiddleRingList "" [FE963823]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 6 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList FP_PuzzleInnerRingList "" [FE963822]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 6 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList FP_BarList "" [FE963821]
-[2025-09-19 01-09-33.961] [ info  ]         1 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList FP_ClawList "" [FE963820]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 14 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList FP_ButtonList "" [FE96381F]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 3 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList FP_ChainList "" [FE96381E]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 9 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList FP_StoneList "" [FE96381D]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 13 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList AR_FormShrines "" [AF000803]
-[2025-09-19 01-09-33.961] [ info  ]         19 new Forms added, skipped 13 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList AR_Interact_PuzzleLarge "" [AF0DA349]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 6 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList AR_Interact_CustomContainers "" [AF149952]
-[2025-09-19 01-09-33.961] [ info  ]         54 new Forms added, skipped 14 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList AR_Interact_Barrels "" [AF0FDA4D]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList AR_Interact_Puzzle "" [AF0D5245]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 6 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList AR_Interact_Claw "" [AF0CB043]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 14 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList AR_Interact_PuzzleSm "" [AF0CB041]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 6 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList AR_Interact_Pillars "" [AF0CB040]
-[2025-09-19 01-09-33.961] [ info  ]         1 new Forms added, skipped 8 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList AR_Interact_Bars "" [AF0CB03F]
-[2025-09-19 01-09-33.961] [ info  ]         1 new Forms added, skipped 2 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList AR_Interact_Chains "" [AF0CB03E]
-[2025-09-19 01-09-33.961] [ info  ]         1 new Forms added, skipped 7 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList AR_Interact_Buttons "" [AF0CB03D]
-[2025-09-19 01-09-33.961] [ info  ]         5 new Forms added, skipped 3 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList AR_Interact_FloorStuff "" [AF0CB03C]
-[2025-09-19 01-09-33.961] [ info  ]         15 new Forms added, skipped 7 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList AR_ElderScrolls "" [AF03D409]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 5 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList AR_FormStones "" [AF02E104]
-[2025-09-19 01-09-33.961] [ info  ]         0 new Forms added, skipped 13 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList HT_UnsafeLocations "" [FEB56829]
-[2025-09-19 01-09-33.961] [ info  ]         19 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList HT_FollowerIgnoreList "" [FEB5681E]
-[2025-09-19 01-09-33.961] [ info  ]         7 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList HT_SafeLocations "" [FEB56801]
-[2025-09-19 01-09-33.961] [ info  ]         5 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ]     FormList _Talent_InstrumentList "" [D801012F]
-[2025-09-19 01-09-33.961] [ info  ]         1 new Forms added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ] Total 3531 new Forms added to 223 FormLists, skipped 2321 duplicates.
-[2025-09-19 01-09-33.961] [ info  ] -----------------------------------------------
-[2025-09-19 01-09-33.961] [ info  ] --------------------SUMMARY--------------------
-[2025-09-19 01-09-33.961] [ info  ] 51 valid configs, 0 invalid. 1935 total entries, 1891 valid, 44 invalid, 811 filtered out.
-[2025-09-19 01-09-33.961] [ info  ] 227 FormLists, 223 valid, 4 invalid. 5981 total Forms, 3615 unique, 45 missing, 2321 duplicates.
-[2025-09-19 01-09-33.961] [ info  ] 296 Filters added, 0 duplicates, 1 not existing/invalid.
-[2025-09-19 01-09-33.961] [ info  ] 297 Forms Collections added, 0 duplicates, 17 not existing/invalid.
-[2025-09-19 01-09-33.961] [ info  ] 0 FromLists Aliases added, 0 duplicates, 0 not existing.
-[2025-09-19 01-09-33.961] [ info  ] 8 Forms Groups added, 0 duplicates, 17 not existing/invalid.
-[2025-09-19 01-09-33.961] [ info  ] 0 new Mod Events added, skipped 0 invalid.
-[2025-09-19 01-09-33.961] [ info  ] 36 new plants added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ] 84 new Boy's Toys added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ] 83 new Girl's Toys added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ] 1 new Hair Colors added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ] 0 new Atronach Forge recipes added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ] 0 new Atronach Forge recipes with Sigil Stone added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ] 0 new Dragonborn Spider Crafting recipes added, skipped 0 duplicates.
-[2025-09-19 01-09-33.961] [ info  ] 3531 new Forms added to 223 FormLists, skipped 2321 duplicates.
-[2025-09-19 01-09-33.961] [ info  ] --------------------- ^_^ ---------------------
-[2025-09-19 01-10-39.450] [ info  ] -----------------------------------------------
-[2025-09-19 01-10-39.450] [ info  ] -----GAME LOADED - SYNCHRONIZES FORM LISTS-----
-[2025-09-19 01-10-39.450] [ info  ] 0 new plants added, skipped 36 duplicates.
-[2025-09-19 01-10-39.450] [ info  ] 0 new Boy's Toys added, skipped 84 duplicates.
-[2025-09-19 01-10-39.450] [ info  ] 0 new Girl's Toys added, skipped 83 duplicates.
-[2025-09-19 01-10-39.450] [ info  ] 0 new Hair Colors added, skipped 1 duplicates.
-[2025-09-19 01-10-39.450] [ info  ] 0 new Atronach Forge recipes added, skipped 0 duplicates.
-[2025-09-19 01-10-39.450] [ info  ] 0 new Atronach Forge recipes with Sigil Stone added, skipped 0 duplicates.
-[2025-09-19 01-10-39.450] [ info  ] 0 new Dragonborn Spider Crafting recipes added, skipped 0 duplicates.
-[2025-09-19 01-10-39.450] [ info  ] 0 new Forms added to 223 FormLists, skipped 5852 duplicates.
-[2025-09-19 01-10-39.450] [ info  ] Total 0 new Forms added, skipped 6056 duplicates.
-[2025-09-19 01-10-39.450] [ info  ] --------------------- ^_^ ---------------------
-[2025-09-19 01-13-56.182] [ info  ] -----------------------------------------------
-[2025-09-19 01-13-56.182] [ info  ] -----GAME LOADED - SYNCHRONIZES FORM LISTS-----
-[2025-09-19 01-13-56.182] [ info  ] 0 new plants added, skipped 36 duplicates.
-[2025-09-19 01-13-56.182] [ info  ] 0 new Boy's Toys added, skipped 84 duplicates.
-[2025-09-19 01-13-56.182] [ info  ] 0 new Girl's Toys added, skipped 83 duplicates.
-[2025-09-19 01-13-56.182] [ info  ] 0 new Hair Colors added, skipped 1 duplicates.
-[2025-09-19 01-13-56.182] [ info  ] 0 new Atronach Forge recipes added, skipped 0 duplicates.
-[2025-09-19 01-13-56.182] [ info  ] 0 new Atronach Forge recipes with Sigil Stone added, skipped 0 duplicates.
-[2025-09-19 01-13-56.182] [ info  ] 0 new Dragonborn Spider Crafting recipes added, skipped 0 duplicates.
-[2025-09-19 01-13-56.182] [ info  ] 0 new Forms added to 223 FormLists, skipped 5852 duplicates.
-[2025-09-19 01-13-56.182] [ info  ] Total 0 new Forms added, skipped 6056 duplicates.
-[2025-09-19 01-13-56.182] [ info  ] --------------------- ^_^ ---------------------
-[2025-09-19 01-19-39.669] [ info  ] -----------------------------------------------
-[2025-09-19 01-19-39.669] [ info  ] -----GAME LOADED - SYNCHRONIZES FORM LISTS-----
-[2025-09-19 01-19-39.669] [ info  ] 0 new plants added, skipped 36 duplicates.
-[2025-09-19 01-19-39.669] [ info  ] 0 new Boy's Toys added, skipped 84 duplicates.
-[2025-09-19 01-19-39.669] [ info  ] 0 new Girl's Toys added, skipped 83 duplicates.
-[2025-09-19 01-19-39.669] [ info  ] 0 new Hair Colors added, skipped 1 duplicates.
-[2025-09-19 01-19-39.669] [ info  ] 0 new Atronach Forge recipes added, skipped 0 duplicates.
-[2025-09-19 01-19-39.669] [ info  ] 0 new Atronach Forge recipes with Sigil Stone added, skipped 0 duplicates.
-[2025-09-19 01-19-39.669] [ info  ] 0 new Dragonborn Spider Crafting recipes added, skipped 0 duplicates.
-[2025-09-19 01-19-39.669] [ info  ] 0 new Forms added to 223 FormLists, skipped 5852 duplicates.
-[2025-09-19 01-19-39.669] [ info  ] Total 0 new Forms added, skipped 6056 duplicates.
-[2025-09-19 01-19-39.669] [ info  ] --------------------- ^_^ ---------------------
-[2025-09-19 01-23-03.335] [ info  ] -----------------------------------------------
-[2025-09-19 01-23-03.335] [ info  ] -----GAME LOADED - SYNCHRONIZES FORM LISTS-----
-[2025-09-19 01-23-03.335] [ info  ] 0 new plants added, skipped 36 duplicates.
-[2025-09-19 01-23-03.335] [ info  ] 0 new Boy's Toys added, skipped 84 duplicates.
-[2025-09-19 01-23-03.335] [ info  ] 0 new Girl's Toys added, skipped 83 duplicates.
-[2025-09-19 01-23-03.335] [ info  ] 0 new Hair Colors added, skipped 1 duplicates.
-[2025-09-19 01-23-03.335] [ info  ] 0 new Atronach Forge recipes added, skipped 0 duplicates.
-[2025-09-19 01-23-03.335] [ info  ] 0 new Atronach Forge recipes with Sigil Stone added, skipped 0 duplicates.
-[2025-09-19 01-23-03.336] [ info  ] 0 new Dragonborn Spider Crafting recipes added, skipped 0 duplicates.
-[2025-09-19 01-23-03.336] [ info  ] 0 new Forms added to 223 FormLists, skipped 5852 duplicates.
-[2025-09-19 01-23-03.336] [ info  ] Total 0 new Forms added, skipped 6056 duplicates.
-[2025-09-19 01-23-03.336] [ info  ] --------------------- ^_^ ---------------------
+[2025-09-20 17-12-38.958] [ info  ] FormListManipulator v1-7-0-0
+[2025-09-20 17-12-38.958] [ info  ] Runtime: Special Edition
+[2025-09-20 17-12-43.074] [ error ] Failed to dispatch message to MergeMapper
+[2025-09-20 17-12-43.074] [ info  ] MergeMapper not detected
+[2025-09-20 17-14-42.169] [ info  ] KID is installed, waiting for KID to finish distribution...
+[2025-09-20 17-15-05.394] [ info  ] Starting FLM distribution since KID is done...
+[2025-09-20 17-15-05.394] [ info  ] --------------Looking for configs--------------
+[2025-09-20 17-15-05.703] [ info  ] Found 51 configs.
+[2025-09-20 17-15-05.704] [ info  ] -Processing configs for filters & collections--
+[2025-09-20 17-15-05.704] [ info  ]     Processing Data\BAA_FL-OCF_Filters_FLM.ini...
+[2025-09-20 17-15-05.708] [ info  ]         Finished, 292 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.708] [ info  ]     Processing Data\BAB_FL-OCF_Collections_FLM.ini...
+[2025-09-20 17-15-05.709] [ error ]         Keyword OCF_ActiHeatSource_OtherLarge do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword OCF_FlorCarcass_Hominid do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword OCF_FlorOther_Food do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword OCF_ActiHeatSource_OtherLarge do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword OCF_VesselBottleDunmer do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword OCF_VesselBottleMead do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword VendorItemDrinkAlcohol do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword VendorItemDrinkAlcoholWeak do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword VendorItemDrinkNonAlcohol do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword VendorItemFoodEgg do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword VendorItemFoodFish do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword VendorItemFoodMeat do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword VendorItemFoodStew do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword VendorItemFoodStewSimple do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword OCF_MgefSpellDamage_FireShock do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword OCF_MgefSpellDamage_FireShockCloak do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword OCF_MgefSpellDamage_FireShockFrost do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword OCF_MgefSpellDamage_FireShockFrostCloak do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword OCF_MgefSpellDamage_FrostCloak do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword OCF_MgefSpellDamage_HolySun do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword OCF_MgefSpellDamage_HolySunCloak do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword OCF_MgefSpellDamage_SteamCloak do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword OCF_MiscEmptyVessel_Bucket do not exist!
+[2025-09-20 17-15-05.710] [ error ]         Keyword OCF_ActiHeatSource_OtherLarge do not exist!
+[2025-09-20 17-15-05.711] [ error ]         Keyword OCF_SpelElementArcaneFire do not exist!
+[2025-09-20 17-15-05.711] [ error ]         Keyword OCF_SpelElementAshFire do not exist!
+[2025-09-20 17-15-05.711] [ error ]         Keyword OCF_SpelElementFire do not exist!
+[2025-09-20 17-15-05.711] [ error ]         Keyword OCF_SpelElementFireShock do not exist!
+[2025-09-20 17-15-05.711] [ error ]         Keyword OCF_SpelElementFireShockFrost do not exist!
+[2025-09-20 17-15-05.711] [ error ]         Keyword OCF_SpelElementFrost do not exist!
+[2025-09-20 17-15-05.711] [ error ]         Keyword OCF_SpelElementFrostFire do not exist!
+[2025-09-20 17-15-05.711] [ error ]         Keyword OCF_SpelElementHolyLunar do not exist!
+[2025-09-20 17-15-05.711] [ error ]         Keyword OCF_SpelElementHolySun do not exist!
+[2025-09-20 17-15-05.711] [ error ]         Keyword OCF_SpelElementNecroticFire do not exist!
+[2025-09-20 17-15-05.711] [ error ]         Keyword OCF_SpelElementShock do not exist!
+[2025-09-20 17-15-05.711] [ error ]         Keyword OCF_SpelElementSteam do not exist!
+[2025-09-20 17-15-05.711] [ error ]         Keyword OCF_SpelElementWater do not exist!
+[2025-09-20 17-15-05.711] [ error ]         Keyword OCF_SpelElementWind do not exist!
+[2025-09-20 17-15-05.711] [ error ]         Keyword OCF_SpelShout do not exist!
+[2025-09-20 17-15-05.711] [ info  ]         Finished, 288 valid entries found, 39 invalid, 0 filtered out.
+[2025-09-20 17-15-05.712] [ info  ]     Processing Data\BAC_FL-OCF_AMMO_FLM.ini...
+[2025-09-20 17-15-05.712] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.712] [ info  ]     Processing Data\BAC_FL-OCF_CELL_FLM.ini...
+[2025-09-20 17-15-05.712] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.712] [ info  ]     Processing Data\BAC_FL-OCF_CONT_FLM.ini...
+[2025-09-20 17-15-05.712] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.713] [ info  ]     Processing Data\BAC_FL-OCF_DOOR_FLM.ini...
+[2025-09-20 17-15-05.713] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.713] [ info  ]     Processing Data\BAC_FL-OCF_EXPL_FLM.ini...
+[2025-09-20 17-15-05.713] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.713] [ info  ]     Processing Data\BAC_FL-OCF_HAZD_FLM.ini...
+[2025-09-20 17-15-05.714] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.714] [ info  ]     Processing Data\BAC_FL-OCF_LIGH_FLM.ini...
+[2025-09-20 17-15-05.714] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.714] [ info  ]     Processing Data\BAC_FL-OCF_MSTT_FLM.ini...
+[2025-09-20 17-15-05.715] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.715] [ info  ]     Processing Data\BAC_FL-OCF_PROJ_FLM.ini...
+[2025-09-20 17-15-05.716] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.716] [ info  ]     Processing Data\BAC_FL-OCF_STAT_FLM.ini...
+[2025-09-20 17-15-05.716] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.717] [ info  ]     Processing Data\BAC_FL-OCF_TREE_FLM.ini...
+[2025-09-20 17-15-05.719] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.719] [ info  ]     Processing Data\BAC_FL-OCF_WRLD_FLM.ini...
+[2025-09-20 17-15-05.719] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.719] [ info  ]     Processing Data\BAC_FL-OCF_WTHR_FLM.ini...
+[2025-09-20 17-15-05.719] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.719] [ info  ]     Processing Data\BBA_FL-Vanilla_AtronachForge_FLM.ini...
+[2025-09-20 17-15-05.720] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.720] [ info  ]     Processing Data\BBA_FL-Vanilla_BodyParts_FLM.ini...
+[2025-09-20 17-15-05.720] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.720] [ info  ]     Processing Data\BBA_FL-Vanilla_Critters_FLM.ini...
+[2025-09-20 17-15-05.721] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.721] [ info  ]     Processing Data\BBA_FL-Vanilla_Enchantments_FLM.ini...
+[2025-09-20 17-15-05.721] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.722] [ info  ]     Processing Data\BBA_FL-Vanilla_General_FLM.ini...
+[2025-09-20 17-15-05.722] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.722] [ info  ]     Processing Data\BBA_FL-Vanilla_Hearthfire_FLM.ini...
+[2025-09-20 17-15-05.724] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.724] [ info  ]     Processing Data\BBA_FL-Vanilla_Ignition_FLM.ini...
+[2025-09-20 17-15-05.724] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.724] [ info  ]     Processing Data\BBA_FL-Vanilla_NPCLists_FLM.ini...
+[2025-09-20 17-15-05.724] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.724] [ info  ]     Processing Data\BBA_FL-Vanilla_Planting_FLM.ini...
+[2025-09-20 17-15-05.726] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.726] [ info  ]     Processing Data\BBA_FL-Vanilla_SpiderImbuing_FLM.ini...
+[2025-09-20 17-15-05.726] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.726] [ info  ]     Processing Data\BBA_FL-Vanilla_Tools_FLM.ini...
+[2025-09-20 17-15-05.726] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.726] [ info  ]     Processing Data\BBA_FL-Vanilla_VendorItems_FLM.ini...
+[2025-09-20 17-15-05.726] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.727] [ info  ]     Processing Data\BBA_FL-Vanilla_Worldspaces_FLM.ini...
+[2025-09-20 17-15-05.727] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.727] [ info  ]     Processing Data\BCA_FL-CC_Camping_FLM.ini...
+[2025-09-20 17-15-05.727] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.727] [ info  ]     Processing Data\BCA_FL-CC_PetsSkyrim_FLM.ini...
+[2025-09-20 17-15-05.727] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.727] [ info  ]     Processing Data\BCA_FL-CC_SaintsSeducers_FLM.ini...
+[2025-09-20 17-15-05.727] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.727] [ info  ]     Processing Data\BCA_FL-CC_SurvivalMode_FLM.ini...
+[2025-09-20 17-15-05.727] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.727] [ info  ]     Processing Data\BCA_FL-Mod_BeyondSkyrimBruma_FLM.ini...
+[2025-09-20 17-15-05.727] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.727] [ info  ]     Processing Data\BCA_FL-Mod_Campfire_FLM.ini...
+[2025-09-20 17-15-05.728] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.728] [ info  ]     Processing Data\BCA_FL-Mod_CuttingRoomFloor_FLM.ini...
+[2025-09-20 17-15-05.728] [ info  ]         Finished, 9 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.728] [ info  ]     Processing Data\BCA_FL-Mod_ImmersiveInteractions_FLM.ini...
+[2025-09-20 17-15-05.728] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.728] [ info  ]     Processing Data\BCA_FL-Mod_LegacyoftheDragonborn_FLM.ini...
+[2025-09-20 17-15-05.728] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.728] [ info  ]     Processing Data\BCA_FL-Mod_SkyrimsGotTalent_FLM.ini...
+[2025-09-20 17-15-05.728] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.728] [ info  ]     Processing Data\BCA_FL-Mod_SunHelm_FLM.ini...
+[2025-09-20 17-15-05.728] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.729] [ info  ]     Processing Data\BCA_FL-Mod_TakeAPeek_FLM.ini...
+[2025-09-20 17-15-05.729] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.729] [ info  ]     Processing Data\BCA_FL-Mod_USSEP_FLM.ini...
+[2025-09-20 17-15-05.729] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.729] [ info  ]     Processing Data\BCA_FL-Mod_WetAndCold_FLM.ini...
+[2025-09-20 17-15-05.729] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.729] [ info  ]     Processing Data\FirstPersonInteractions_FLM.ini...
+[2025-09-20 17-15-05.729] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.729] [ info  ]     Processing Data\Helmet Toggle_FLM.ini...
+[2025-09-20 17-15-05.729] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.729] [ info  ]     Processing Data\SHO_ExclusionRules_Mihail_OgresAndEttins_FLM.ini...
+[2025-09-20 17-15-05.729] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.730] [ info  ]     Processing Data\SHO_ExclusionRules_Ogres_FLM.ini...
+[2025-09-20 17-15-05.730] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.730] [ info  ]     Processing Data\SHO_ExclusionRules_Sea GiantsAndIceTitans_FLM.ini...
+[2025-09-20 17-15-05.730] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.730] [ info  ]     Processing Data\WorldSpacesUnslaad_FLM.ini...
+[2025-09-20 17-15-05.730] [ info  ]         Finished, 2 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.730] [ info  ]     Processing Data\WorldSpacesVigilant_FLM.ini...
+[2025-09-20 17-15-05.730] [ info  ]         Finished, 2 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.730] [ info  ]     Processing Data\FLM\AdditionalHearthfireDolls_FLM.ini...
+[2025-09-20 17-15-05.730] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.730] [ info  ]     Processing Data\FLM\AdditionalHearthfireDollsLOTD_FLM.ini...
+[2025-09-20 17-15-05.730] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.730] [ info  ] -----------------------------------------------
+[2025-09-20 17-15-05.836] [ info  ] --------------Processing configs---------------
+[2025-09-20 17-15-05.836] [ info  ]     Processing Data\BAA_FL-OCF_Filters_FLM.ini...
+[2025-09-20 17-15-05.837] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.837] [ info  ]     Processing Data\BAB_FL-OCF_Collections_FLM.ini...
+[2025-09-20 17-15-05.839] [ info  ]         Finished, 0 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.839] [ info  ]     Processing Data\BAC_FL-OCF_AMMO_FLM.ini...
+[2025-09-20 17-15-05.840] [ info  ]         Finished, 13 valid entries found, 0 invalid, 8 filtered out.
+[2025-09-20 17-15-05.840] [ info  ]     Processing Data\BAC_FL-OCF_CELL_FLM.ini...
+[2025-09-20 17-15-05.840] [ error ]         Unable to find Form: zzzCHMemoryTowerBedzzzCHCharnelUltar.
+[2025-09-20 17-15-05.840] [ info  ]         Finished, 10 valid entries found, 0 invalid, 5 filtered out.
+[2025-09-20 17-15-05.841] [ info  ]     Processing Data\BAC_FL-OCF_CONT_FLM.ini...
+[2025-09-20 17-15-05.841] [ info  ]         Finished, 7 valid entries found, 0 invalid, 6 filtered out.
+[2025-09-20 17-15-05.841] [ info  ]     Processing Data\BAC_FL-OCF_DOOR_FLM.ini...
+[2025-09-20 17-15-05.841] [ info  ]         Finished, 1 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.841] [ info  ]     Processing Data\BAC_FL-OCF_EXPL_FLM.ini...
+[2025-09-20 17-15-05.841] [ error ]         Unable to find FormList: OCF_FL_EXPL_ElementSun.
+[2025-09-20 17-15-05.842] [ info  ]         Finished, 39 valid entries found, 1 invalid, 32 filtered out.
+[2025-09-20 17-15-05.842] [ info  ]     Processing Data\BAC_FL-OCF_HAZD_FLM.ini...
+[2025-09-20 17-15-05.842] [ info  ]         Finished, 20 valid entries found, 0 invalid, 11 filtered out.
+[2025-09-20 17-15-05.842] [ info  ]     Processing Data\BAC_FL-OCF_LIGH_FLM.ini...
+[2025-09-20 17-15-05.843] [ error ]         Filter  was not found!
+[2025-09-20 17-15-05.843] [warning]         Filter "#" was omitted because it is invalid.
+[2025-09-20 17-15-05.843] [ info  ]         Finished, 44 valid entries found, 1 invalid, 31 filtered out.
+[2025-09-20 17-15-05.843] [ info  ]     Processing Data\BAC_FL-OCF_MSTT_FLM.ini...
+[2025-09-20 17-15-05.843] [ info  ]         Finished, 25 valid entries found, 0 invalid, 4 filtered out.
+[2025-09-20 17-15-05.843] [ info  ]     Processing Data\BAC_FL-OCF_PROJ_FLM.ini...
+[2025-09-20 17-15-05.844] [ error ]         Unable to find FormList: OCF_FL_PROJ_ElementSun.
+[2025-09-20 17-15-05.844] [ error ]         Unable to find FormList: OCF_FL_PROJ_ElementSun.
+[2025-09-20 17-15-05.845] [ info  ]         Finished, 90 valid entries found, 2 invalid, 57 filtered out.
+[2025-09-20 17-15-05.845] [ info  ]     Processing Data\BAC_FL-OCF_STAT_FLM.ini...
+[2025-09-20 17-15-05.845] [ info  ]         Finished, 15 valid entries found, 0 invalid, 3 filtered out.
+[2025-09-20 17-15-05.845] [ info  ]     Processing Data\BAC_FL-OCF_TREE_FLM.ini...
+[2025-09-20 17-15-05.848] [ info  ]         Finished, 53 valid entries found, 0 invalid, 29 filtered out.
+[2025-09-20 17-15-05.848] [ info  ]     Processing Data\BAC_FL-OCF_WRLD_FLM.ini...
+[2025-09-20 17-15-05.849] [ info  ]         Finished, 25 valid entries found, 0 invalid, 7 filtered out.
+[2025-09-20 17-15-05.849] [ info  ]     Processing Data\BAC_FL-OCF_WTHR_FLM.ini...
+[2025-09-20 17-15-05.849] [ info  ]         Finished, 4 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.849] [ info  ]     Processing Data\BBA_FL-Vanilla_AtronachForge_FLM.ini...
+[2025-09-20 17-15-05.850] [ info  ]         Finished, 159 valid entries found, 0 invalid, 159 filtered out.
+[2025-09-20 17-15-05.850] [ info  ]     Processing Data\BBA_FL-Vanilla_BodyParts_FLM.ini...
+[2025-09-20 17-15-05.851] [ info  ]         Finished, 16 valid entries found, 0 invalid, 5 filtered out.
+[2025-09-20 17-15-05.851] [ info  ]     Processing Data\BBA_FL-Vanilla_Critters_FLM.ini...
+[2025-09-20 17-15-05.851] [ info  ]         Finished, 32 valid entries found, 0 invalid, 32 filtered out.
+[2025-09-20 17-15-05.851] [ info  ]     Processing Data\BBA_FL-Vanilla_Enchantments_FLM.ini...
+[2025-09-20 17-15-05.852] [ info  ]         Finished, 38 valid entries found, 0 invalid, 32 filtered out.
+[2025-09-20 17-15-05.852] [ info  ]     Processing Data\BBA_FL-Vanilla_General_FLM.ini...
+[2025-09-20 17-15-05.852] [ error ]         Unable to find Form: SCS_Abilities_Vanilla_Spell_Ab_NewMoonlitWaters.
+[2025-09-20 17-15-05.853] [ error ]         Unknown Group/Collection: alchKW_VendorItemDrinkAlcohol.
+[2025-09-20 17-15-05.853] [ error ]         Unknown Group/Collection: alchKW_VendorItemDrinkAlcoholWeak.
+[2025-09-20 17-15-05.853] [ error ]         Unknown Group/Collection: alchKW_VendorItemFoodEgg.
+[2025-09-20 17-15-05.853] [ error ]         Unknown Group/Collection: alchKW_VendorItemFoodFish.
+[2025-09-20 17-15-05.853] [ error ]         Unknown Group/Collection: alchKW_VendorItemFoodMeat.
+[2025-09-20 17-15-05.853] [ error ]         Unknown Group/Collection: alchKW_VendorItemDrinkAlcohol.
+[2025-09-20 17-15-05.853] [ error ]         Unknown Group/Collection: alchKW_VendorItemDrinkAlcoholWeak.
+[2025-09-20 17-15-05.853] [ error ]         Unknown Group/Collection: spelKW_OCF_SpelShout.
+[2025-09-20 17-15-05.853] [ info  ]         Finished, 67 valid entries found, 0 invalid, 25 filtered out.
+[2025-09-20 17-15-05.853] [ info  ]     Processing Data\BBA_FL-Vanilla_Hearthfire_FLM.ini...
+[2025-09-20 17-15-05.855] [ info  ]         Finished, 45 valid entries found, 0 invalid, 39 filtered out.
+[2025-09-20 17-15-05.855] [ info  ]     Processing Data\BBA_FL-Vanilla_Ignition_FLM.ini...
+[2025-09-20 17-15-05.855] [ error ]         Unknown Group/Collection: spelKW_OCF_SpelElementFire.
+[2025-09-20 17-15-05.855] [ error ]         Unknown Group/Collection: spelKW_OCF_SpelElementFireShock.
+[2025-09-20 17-15-05.855] [ error ]         Unknown Group/Collection: mgefKW_OCF_MgefSpellDamage_FireShock.
+[2025-09-20 17-15-05.855] [ error ]         Unknown Group/Collection: mgefKW_OCF_MgefSpellDamage_FireShockCloak.
+[2025-09-20 17-15-05.855] [ info  ]         Finished, 16 valid entries found, 0 invalid, 2 filtered out.
+[2025-09-20 17-15-05.855] [ info  ]     Processing Data\BBA_FL-Vanilla_NPCLists_FLM.ini...
+[2025-09-20 17-15-05.855] [ info  ]         Finished, 12 valid entries found, 0 invalid, 3 filtered out.
+[2025-09-20 17-15-05.855] [ info  ]     Processing Data\BBA_FL-Vanilla_Planting_FLM.ini...
+[2025-09-20 17-15-05.858] [ info  ]         Finished, 294 valid entries found, 0 invalid, 258 filtered out.
+[2025-09-20 17-15-05.858] [ info  ]     Processing Data\BBA_FL-Vanilla_SpiderImbuing_FLM.ini...
+[2025-09-20 17-15-05.858] [ info  ]         Finished, 40 valid entries found, 0 invalid, 36 filtered out.
+[2025-09-20 17-15-05.858] [ info  ]     Processing Data\BBA_FL-Vanilla_Tools_FLM.ini...
+[2025-09-20 17-15-05.858] [ info  ]         Finished, 4 valid entries found, 0 invalid, 1 filtered out.
+[2025-09-20 17-15-05.858] [ info  ]     Processing Data\BBA_FL-Vanilla_VendorItems_FLM.ini...
+[2025-09-20 17-15-05.858] [ info  ]         Finished, 17 valid entries found, 0 invalid, 16 filtered out.
+[2025-09-20 17-15-05.858] [ info  ]     Processing Data\BBA_FL-Vanilla_Worldspaces_FLM.ini...
+[2025-09-20 17-15-05.858] [ info  ]         Finished, 11 valid entries found, 0 invalid, 1 filtered out.
+[2025-09-20 17-15-05.859] [ info  ]     Processing Data\BCA_FL-CC_Camping_FLM.ini...
+[2025-09-20 17-15-05.859] [ info  ]         Finished, 3 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.859] [ info  ]     Processing Data\BCA_FL-CC_PetsSkyrim_FLM.ini...
+[2025-09-20 17-15-05.859] [ error ]         Unknown Group/Collection: florKW_OCF_FlorCarcass_Hominid.
+[2025-09-20 17-15-05.859] [ error ]         Unknown Group/Collection: florKW_OCF_FlorOther_Food.
+[2025-09-20 17-15-05.859] [ info  ]         Finished, 4 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.859] [ info  ]     Processing Data\BCA_FL-CC_SaintsSeducers_FLM.ini...
+[2025-09-20 17-15-05.859] [ info  ]         Finished, 2 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.859] [ info  ]     Processing Data\BCA_FL-CC_SurvivalMode_FLM.ini...
+[2025-09-20 17-15-05.859] [ info  ]         Finished, 11 valid entries found, 0 invalid, 1 filtered out.
+[2025-09-20 17-15-05.859] [ info  ]     Processing Data\BCA_FL-Mod_BeyondSkyrimBruma_FLM.ini...
+[2025-09-20 17-15-05.859] [ info  ]         Finished, 8 valid entries found, 0 invalid, 4 filtered out.
+[2025-09-20 17-15-05.859] [ info  ]     Processing Data\BCA_FL-Mod_Campfire_FLM.ini...
+[2025-09-20 17-15-05.860] [ info  ]         Finished, 19 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.860] [ info  ]     Processing Data\BCA_FL-Mod_CuttingRoomFloor_FLM.ini...
+[2025-09-20 17-15-05.860] [ info  ]         Finished, 9 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.860] [ info  ]     Processing Data\BCA_FL-Mod_ImmersiveInteractions_FLM.ini...
+[2025-09-20 17-15-05.860] [ info  ]         Finished, 17 valid entries found, 0 invalid, 1 filtered out.
+[2025-09-20 17-15-05.860] [ info  ]     Processing Data\BCA_FL-Mod_LegacyoftheDragonborn_FLM.ini...
+[2025-09-20 17-15-05.860] [ info  ]         Finished, 2 valid entries found, 0 invalid, 2 filtered out.
+[2025-09-20 17-15-05.860] [ info  ]     Processing Data\BCA_FL-Mod_SkyrimsGotTalent_FLM.ini...
+[2025-09-20 17-15-05.860] [ info  ]         Finished, 1 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.860] [ info  ]     Processing Data\BCA_FL-Mod_SunHelm_FLM.ini...
+[2025-09-20 17-15-05.861] [ error ]         Unknown Group/Collection: actiKW_OCF_ActiHeatSource_OtherLarge.
+[2025-09-20 17-15-05.861] [ error ]         Unknown Group/Collection: furnKW_OCF_ActiHeatSource_OtherLarge.
+[2025-09-20 17-15-05.861] [ error ]         Unknown Group/Collection: npcKW_OCF_ActiHeatSource_OtherLarge.
+[2025-09-20 17-15-05.861] [ info  ]         Finished, 15 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.861] [ info  ]     Processing Data\BCA_FL-Mod_TakeAPeek_FLM.ini...
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: NorDoorMediumLoad.
+[2025-09-20 17-15-05.861] [ info  ]         Finished, 1 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.861] [ info  ]     Processing Data\BCA_FL-Mod_USSEP_FLM.ini...
+[2025-09-20 17-15-05.861] [ info  ]         Finished, 2 valid entries found, 0 invalid, 1 filtered out.
+[2025-09-20 17-15-05.861] [ info  ]     Processing Data\BCA_FL-Mod_WetAndCold_FLM.ini...
+[2025-09-20 17-15-05.861] [ error ]         Unable to find FormList: WC_BreathIgnoreList.
+[2025-09-20 17-15-05.861] [ info  ]         Finished, 0 valid entries found, 1 invalid, 0 filtered out.
+[2025-09-20 17-15-05.861] [ info  ]     Processing Data\FirstPersonInteractions_FLM.ini...
+[2025-09-20 17-15-05.861] [ error ]         Unable to find FormList: ANDR_ChoppableTreeList.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest01_LightIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest01_MediumIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest01_HeavyIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest01Dead_LightIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest01Dead_MediumIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest01Dead_HeavyIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest02_LightIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest02_MediumIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest02_HeavyIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest02Dead_LightIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest02Dead_MediumIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest02Dead_HeavyIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest03_LightIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest03_MediumIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest03_HeavyIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest03Dead_LightIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest03Dead_MediumIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest03Dead_heavyIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest04_LightIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest04_MediumIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest04_HeavyIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest04Dead_LightIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest04Dead_MediumIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest04Dead_HeavyIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest05_LightIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest05_MediumIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest05_HeavyIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest05Dead_LightIvy.
+[2025-09-20 17-15-05.861] [ error ]         Unable to find Form: TreePineForest05Dead_MediumIvy.
+[2025-09-20 17-15-05.862] [ error ]         Unable to find Form: TreePineForest05Dead_HeavyIvy.
+[2025-09-20 17-15-05.862] [ error ]         Unable to find Form: dtaMeadBarrel_BloodDrip01.
+[2025-09-20 17-15-05.862] [ error ]         Unable to find Form: dtaMeadBarrel_BloodDrip02.
+[2025-09-20 17-15-05.862] [ error ]         Unable to find Form: dtaMeadBarrel01.
+[2025-09-20 17-15-05.862] [ error ]         Unable to find Form: dtaSovLargeMeadBarrel01.
+[2025-09-20 17-15-05.862] [ error ]         Unable to find Form: dtaBreweryCaskLargeClosed01.
+[2025-09-20 17-15-05.862] [ error ]         Unable to find Form: dtaBreweryCaskLargeClosed02.
+[2025-09-20 17-15-05.862] [ error ]         Unable to find Form: dtaMeaderyBrewer01.
+[2025-09-20 17-15-05.862] [ error ]         Unable to find Form: XionFloraIceClaw.
+[2025-09-20 17-15-05.862] [ error ]         Unable to find Form: AP_StartroomWardrobe.
+[2025-09-20 17-15-05.862] [ error ]         Unable to find Form: FEC_AshPile.
+[2025-09-20 17-15-05.862] [ error ]         Unable to find Form: FEC_AcidAshPile.
+[2025-09-20 17-15-05.862] [ info  ]         Finished, 21 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.862] [ info  ]     Processing Data\Helmet Toggle_FLM.ini...
+[2025-09-20 17-15-05.862] [ info  ]         Finished, 26 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.862] [ info  ]     Processing Data\SHO_ExclusionRules_Mihail_OgresAndEttins_FLM.ini...
+[2025-09-20 17-15-05.862] [ info  ]         Finished, 19 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.862] [ info  ]     Processing Data\SHO_ExclusionRules_Ogres_FLM.ini...
+[2025-09-20 17-15-05.862] [ info  ]         Finished, 3 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.862] [ info  ]     Processing Data\SHO_ExclusionRules_Sea GiantsAndIceTitans_FLM.ini...
+[2025-09-20 17-15-05.862] [ info  ]         Finished, 16 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.863] [ info  ]     Processing Data\WorldSpacesUnslaad_FLM.ini...
+[2025-09-20 17-15-05.863] [ info  ]         Finished, 8 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.863] [ info  ]     Processing Data\WorldSpacesVigilant_FLM.ini...
+[2025-09-20 17-15-05.863] [ info  ]         Finished, 8 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.863] [ info  ]     Processing Data\FLM\AdditionalHearthfireDolls_FLM.ini...
+[2025-09-20 17-15-05.863] [ info  ]         Finished, 3 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.863] [ info  ]     Processing Data\FLM\AdditionalHearthfireDollsLOTD_FLM.ini...
+[2025-09-20 17-15-05.863] [ info  ]         Finished, 3 valid entries found, 0 invalid, 0 filtered out.
+[2025-09-20 17-15-05.863] [ info  ] Reading configs complete, 51 valid configs found, 0 invalid. 1891 valid entries found, 44 invalid, 811 filtered out.
+[2025-09-20 17-15-05.863] [ info  ] -----------------------------------------------
+[2025-09-20 17-15-05.863] [ info  ] --------------------PLANTS---------------------
+[2025-09-20 17-15-05.863] [ info  ] Total 36 new Plant added, skipped 0 duplicates.
+[2025-09-20 17-15-05.863] [ info  ] -----------------------------------------------
+[2025-09-20 17-15-05.863] [ info  ] ------------------BOY'S TOYS-------------------
+[2025-09-20 17-15-05.863] [ info  ] Total 84 new Boy's Toy added, skipped 0 duplicates.
+[2025-09-20 17-15-05.863] [ info  ] -----------------------------------------------
+[2025-09-20 17-15-05.863] [ info  ] ------------------GIRL'S TOYS------------------
+[2025-09-20 17-15-05.863] [ info  ] Total 83 new Girls's Toy added, skipped 0 duplicates.
+[2025-09-20 17-15-05.863] [ info  ] -----------------------------------------------
+[2025-09-20 17-15-05.863] [ info  ] ------------------HAIR COLORS------------------
+[2025-09-20 17-15-05.863] [ info  ] Total 1 new Hair Color added, skipped 0 duplicates.
+[2025-09-20 17-15-05.863] [ info  ] -----------------------------------------------
+[2025-09-20 17-15-05.863] [ info  ] ----------------ATRONACH FORGE-----------------
+[2025-09-20 17-15-05.863] [ info  ] Total 0 new Result added, skipped 0 duplicates.
+[2025-09-20 17-15-05.863] [ info  ] -----------------------------------------------
+[2025-09-20 17-15-05.863] [ info  ] --------ATRONACH FORGE WITH SIGIL STONE--------
+[2025-09-20 17-15-05.863] [ info  ] Total 0 new Result added, skipped 0 duplicates.
+[2025-09-20 17-15-05.863] [ info  ] -----------------------------------------------
+[2025-09-20 17-15-05.863] [ info  ] -------------------FORMLISTS-------------------
+[2025-09-20 17-15-05.863] [ info  ]     FormList HelpManualPC "" [163]
+[2025-09-20 17-15-05.863] [ info  ]         0 new Forms added, skipped 2 duplicates.
+[2025-09-20 17-15-05.863] [ info  ]     FormList HelpManualXBox "" [165]
+[2025-09-20 17-15-05.863] [ info  ]         0 new Forms added, skipped 2 duplicates.
+[2025-09-20 17-15-05.863] [ info  ]     FormList _Talent_InstrumentList "" [D801012F]
+[2025-09-20 17-15-05.863] [ info  ]         1 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.863] [ info  ]     FormList OCF_FL_AMMO_Playable "" [FE048ACD]
+[2025-09-20 17-15-05.864] [ info  ]         5 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_LIGH_HeldElementShock "" [FE048AC4]
+[2025-09-20 17-15-05.864] [ info  ]         2 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_LIGH_HeldElementFire "" [FE048AC2]
+[2025-09-20 17-15-05.864] [ info  ]         2 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_WRLD_ExtraPlanar "" [FE048AC0]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_HAZD_HeatSource "" [FE048ABF]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_WTHR_Rain "" [FE048AA0]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_WTHR_Snow "" [FE048A9E]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_HAZD_HeatSource_Other "" [FE048A89]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_HAZD_HeatSource_FireMedium "" [FE048A86]
+[2025-09-20 17-15-05.864] [ info  ]         2 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_HAZD_HeatSource_Fire "" [FE048A83]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_AMMO_PlayableBolt "" [FE048A7F]
+[2025-09-20 17-15-05.864] [ info  ]         8 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_AMMO_PlayableArrow "" [FE048A7E]
+[2025-09-20 17-15-05.864] [ info  ]         22 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_STAT_HeatSource "" [FE048A7C]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_STAT_HeatSource_Other "" [FE048A7B]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_STAT_HeatSource_OtherSmall "" [FE048A79]
+[2025-09-20 17-15-05.864] [ info  ]         2 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_STAT_HeatSource_OtherMedium "" [FE048A78]
+[2025-09-20 17-15-05.864] [ info  ]         1 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_STAT_HeatSource_OtherLarge "" [FE048A77]
+[2025-09-20 17-15-05.864] [ info  ]         1 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_STAT_HeatSource_Fire "" [FE048A75]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_STAT_HeatSource_FireMedium "" [FE048A72]
+[2025-09-20 17-15-05.864] [ info  ]         2 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_STAT_HeatSource_FireLarge "" [FE048A71]
+[2025-09-20 17-15-05.864] [ info  ]         3 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_STAT_HeatSource_FireHuge "" [FE048A70]
+[2025-09-20 17-15-05.864] [ info  ]         2 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_MSTT_HeatSource "" [FE048A6F]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_MSTT_HeatSource_Other "" [FE048A6E]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_MSTT_HeatSource_OtherSmall "" [FE048A6C]
+[2025-09-20 17-15-05.864] [ info  ]         13 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_MSTT_HeatSource_Fire "" [FE048A68]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_MSTT_HeatSource_FireSmall "" [FE048A66]
+[2025-09-20 17-15-05.864] [ info  ]         12 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_MSTT_HeatSource_FireMedium "" [FE048A65]
+[2025-09-20 17-15-05.864] [ info  ]         22 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_MSTT_HeatSource_FireLarge "" [FE048A64]
+[2025-09-20 17-15-05.864] [ info  ]         25 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_MSTT_HeatSource_FireHuge "" [FE048A63]
+[2025-09-20 17-15-05.864] [ info  ]         11 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_LIGH_HeatSource "" [FE048A62]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_LIGH_HeatSource_Other "" [FE048A61]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_LIGH_HeatSource_Fire "" [FE048A5B]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_LIGH_HeatSource_FireSmall "" [FE048A59]
+[2025-09-20 17-15-05.864] [ info  ]         1 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_LIGH_HeatSource_FireMedium "" [FE048A58]
+[2025-09-20 17-15-05.864] [ info  ]         6 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_LIGH_HeatSource_FireLarge "" [FE048A57]
+[2025-09-20 17-15-05.864] [ info  ]         1 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_STAT_WoodSource "" [FE048A54]
+[2025-09-20 17-15-05.864] [ info  ]         48 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_STAT_Trap "" [FE048A53]
+[2025-09-20 17-15-05.864] [ info  ]         4 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_DOOR_Trap "" [FE048A52]
+[2025-09-20 17-15-05.864] [ info  ]         3 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_PROJ_SpiderScroll "" [FE048A51]
+[2025-09-20 17-15-05.864] [ info  ]         29 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_PROJ_MagicRune "" [FE048A50]
+[2025-09-20 17-15-05.864] [ info  ]         9 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_PROJ_ElementWind "" [FE048A4F]
+[2025-09-20 17-15-05.864] [ info  ]         3 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_PROJ_ElementSteam "" [FE048A4E]
+[2025-09-20 17-15-05.864] [ info  ]         3 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_PROJ_ElementAsh "" [FE048A4D]
+[2025-09-20 17-15-05.864] [ info  ]         7 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_EXPL_ElementPoison "" [FE048A4C]
+[2025-09-20 17-15-05.864] [ info  ]         25 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_EXPL_ElementSteam "" [FE048A4B]
+[2025-09-20 17-15-05.864] [ info  ]         1 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_EXPL_ElementWater "" [FE048A4A]
+[2025-09-20 17-15-05.864] [ info  ]         1 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_EXPL_ElementShock "" [FE048A48]
+[2025-09-20 17-15-05.864] [ info  ]         20 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_EXPL_ElementFrost "" [FE048A47]
+[2025-09-20 17-15-05.864] [ info  ]         17 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_EXPL_ElementFire "" [FE048A46]
+[2025-09-20 17-15-05.864] [ info  ]         42 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_EXPL_ElementAsh "" [FE048A45]
+[2025-09-20 17-15-05.864] [ info  ]         5 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_PROJ_ElementPoison "" [FE048A43]
+[2025-09-20 17-15-05.864] [ info  ]         18 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_HAZD_ElementShock "" [FE048A42]
+[2025-09-20 17-15-05.864] [ info  ]         6 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_HAZD_ElementFrost "" [FE048A41]
+[2025-09-20 17-15-05.864] [ info  ]         9 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_HAZD_ElementPoison "" [FE048A40]
+[2025-09-20 17-15-05.864] [ info  ]         6 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_HAZD_ElementFire "" [FE048A3F]
+[2025-09-20 17-15-05.864] [ info  ]         19 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_TREE_WoodSource "" [FE048A3A]
+[2025-09-20 17-15-05.864] [ info  ]         122 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_TREE_FlorPlant_Nirnroot "" [FE048A39]
+[2025-09-20 17-15-05.864] [ info  ]         1 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_TREE_FlorPlant_Mushroom "" [FE048A38]
+[2025-09-20 17-15-05.864] [ info  ]         21 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_TREE_FlorPlant_Ingr "" [FE048A37]
+[2025-09-20 17-15-05.864] [ info  ]         230 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_TREE_FlorPlant_Food "" [FE048A36]
+[2025-09-20 17-15-05.864] [ info  ]         29 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_PROJ_ElementShock "" [FE048A32]
+[2025-09-20 17-15-05.864] [ info  ]         19 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_PROJ_ElementFrost "" [FE048A31]
+[2025-09-20 17-15-05.864] [ info  ]         25 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_PROJ_ElementFire "" [FE048A30]
+[2025-09-20 17-15-05.864] [ info  ]         32 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_PROJ_AmmoBolt "" [FE048A2B]
+[2025-09-20 17-15-05.864] [ info  ]         14 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_PROJ_AmmoArrow "" [FE048A2A]
+[2025-09-20 17-15-05.864] [ info  ]         29 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_LIGH_HeldDwemer "" [FE048A28]
+[2025-09-20 17-15-05.864] [ info  ]         2 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_LIGH_HeldTorch "" [FE048A25]
+[2025-09-20 17-15-05.864] [ info  ]         4 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_LIGH_Held "" [FE048A24]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_CONT_Barrel "" [FE048A22]
+[2025-09-20 17-15-05.864] [ info  ]         27 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_CELL_Oblivion "" [FE048A20]
+[2025-09-20 17-15-05.864] [ info  ]         115 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_WRLD_Test "" [FE048A1E]
+[2025-09-20 17-15-05.864] [ info  ]         9 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_PROJ_Trap "" [FE048A1D]
+[2025-09-20 17-15-05.864] [ info  ]         3 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_WTHR_Ash "" [FE048A1C]
+[2025-09-20 17-15-05.864] [ info  ]         3 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_WRLD_Oblivion "" [FE048A1B]
+[2025-09-20 17-15-05.864] [ info  ]         12 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_WRLD_Aetherius "" [FE048A1A]
+[2025-09-20 17-15-05.864] [ info  ]         1 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_WRLD_Mundus "" [FE048A19]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_WRLD_Mundus_Interior "" [FE048A18]
+[2025-09-20 17-15-05.864] [ info  ]         21 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_WRLD_Mundus_Exterior "" [FE048A17]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_WRLD_Mundus_ExteriorWilderness "" [FE048A16]
+[2025-09-20 17-15-05.864] [ info  ]         23 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList OCF_FL_WRLD_Mundus_ExteriorSettlement "" [FE048A15]
+[2025-09-20 17-15-05.864] [ info  ]         6 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList AlcoholicDrinksList "" [72EA2]
+[2025-09-20 17-15-05.864] [ info  ]         75 new Forms added, skipped 97 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList TrapGasOnEnter "" [82E15]
+[2025-09-20 17-15-05.864] [ info  ]         17 new Forms added, skipped 5 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList TrapGasOnMagicEffectApply "" [82E16]
+[2025-09-20 17-15-05.864] [ info  ]         20 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList TrapGasOnHit "" [82E17]
+[2025-09-20 17-15-05.864] [ info  ]         1 new Forms added, skipped 3 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList TrapGasMagicDrawn "" [82F6E]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList WhiterunBelethorsGoodsFormList "" [93AF8]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList WhiterunArcadiasCauldronFormList "" [93AF9]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList WerewolfHateFactions "" [957F6]
+[2025-09-20 17-15-05.864] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.864] [ info  ]     FormList FFI03BearPelts "" [D9CF8]
+[2025-09-20 17-15-05.864] [ info  ]         1 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList DisintegrationMainImmunityList "" [F6534]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 3 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList MorthalHighmoonHallLockList "" [F8A5E]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList WICastDragonBornShouts "" [FB97E]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList DaggersFormlist "" [1019AD]
+[2025-09-20 17-15-05.865] [ info  ]         1062 new Forms added, skipped 8 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList RoriksteadManorLockList "" [9E130]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList StonehillsGestursHouseLockList "" [9E2A0]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList WEHealingPotions "" [9F81D]
+[2025-09-20 17-15-05.865] [ info  ]         6 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList FavorHealingPotions "" [B15F9]
+[2025-09-20 17-15-05.865] [ info  ]         6 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList Hirelings "" [7A51F]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList silverItems "" [8999E]
+[2025-09-20 17-15-05.865] [ info  ]         97 new Forms added, skipped 185 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList rubies "" [8999F]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 4 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList HeadPartsHumansandVampires "" [A8023]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 3 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList HeadPartsHuman "" [A8026]
+[2025-09-20 17-15-05.865] [ info  ]         3 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList HeadPartsBreton "" [A802F]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList HeadPartsImperialandVampire "" [A8034]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList HeadPartsBretonandVampire "" [A8037]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList HeadPartsRedguard "" [A803A]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList HeadPartsRedguardandVampire "" [A803B]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList HeadPartsElder "" [A803D]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 3 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList HeadPartsAllRacesMinusBeast "" [A803F]
+[2025-09-20 17-15-05.865] [ info  ]         3 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList TutorialBlacksmithList "" [10538D]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList TrapGasWeapon "" [109E7B]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 5 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList MineOreToolsList "" [10ACC4]
+[2025-09-20 17-15-05.865] [ info  ]         9 new Forms added, skipped 17 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList woodChoppingAxes "" [10ACCC]
+[2025-09-20 17-15-05.865] [ info  ]         4 new Forms added, skipped 10 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList VendorItemsCollegeUrag "" [10C42E]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList MQ201DrinkList "" [10C706]
+[2025-09-20 17-15-05.865] [ info  ]         85 new Forms added, skipped 87 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList EnchantmentResistFire "" [10CD22]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList EnchantmentResistFrost "" [10CD23]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList EnchantmentResistShock "" [10CD24]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList EnchantmentResistMagic "" [10CD25]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList EnchantmentResistDisease "" [10CF28]
+[2025-09-20 17-15-05.865] [ info  ]         1 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList EnchantmentResistPoison "" [10CF29]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList RubyItems "" [10F616]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 4 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList SapphireItems "" [10F617]
+[2025-09-20 17-15-05.865] [ info  ]         0 new Forms added, skipped 7 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList AmethystItems "" [10F618]
+[2025-09-20 17-15-05.865] [ info  ]         1 new Forms added, skipped 3 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList SoulGemsGreatGrandBlack "" [10F630]
+[2025-09-20 17-15-05.865] [ info  ]         31 new Forms added, skipped 6 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList EmptyBottles "" [10F73B]
+[2025-09-20 17-15-05.865] [ info  ]         18 new Forms added, skipped 5 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList SoulGemsAll "" [10F73D]
+[2025-09-20 17-15-05.865] [ info  ]         45 new Forms added, skipped 12 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList rawAnimalMeat "" [10F73E]
+[2025-09-20 17-15-05.865] [ info  ]         23 new Forms added, skipped 8 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList SoulGemsBlack "" [10F741]
+[2025-09-20 17-15-05.865] [ info  ]         13 new Forms added, skipped 2 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList rawAnimalMeat02 "" [10F74F]
+[2025-09-20 17-15-05.865] [ info  ]         23 new Forms added, skipped 8 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList SkullsHuman "" [10F750]
+[2025-09-20 17-15-05.865] [ info  ]         22 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList SoulGemsFilledGreatGrandBlack "" [10F768]
+[2025-09-20 17-15-05.865] [ info  ]         17 new Forms added, skipped 3 duplicates.
+[2025-09-20 17-15-05.865] [ info  ]     FormList MagicStormCallNoWorkHereList "" [1717C]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList DLC1VampireSpellsPowers "" [2019AD9]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 2 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList DLC1SeranaCureSpellRemovalList "" [200504F]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 17 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList DLC01SoulcairnLRodGemList "" [2002912]
+[2025-09-20 17-15-05.866] [ info  ]         16 new Forms added, skipped 4 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList SunDamageExceptionWorldSpaces "" [1000969]
+[2025-09-20 17-15-05.866] [ info  ]         15 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList OversizedSummoningExceptionWorldSpaces "" [1000999]
+[2025-09-20 17-15-05.866] [ info  ]         12 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList SunAffectingExceptionWorldSpaces "" [100099A]
+[2025-09-20 17-15-05.866] [ info  ]         15 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList RidableWorldSpaces "" [100099B]
+[2025-09-20 17-15-05.866] [ info  ]         10 new Forms added, skipped 4 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList BYOHHouseBuildingTrophyPlaceList "" [300A339]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 2 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList BYOHHouseBuildingTrophyMasterList "" [300A31D]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 2 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList BYOHRelationshipAdoptionGifts_0500 "" [3002F60]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList DLC2ExpSpiderCraftingBooksListSTATIC "" [401DA1B]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 2 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList DLC2BilgemuckFood "" [40317D1]
+[2025-09-20 17-15-05.866] [ info  ]         72 new Forms added, skipped 24 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList DLC2StalhrimMineOreToolsList "" [40385BA]
+[2025-09-20 17-15-05.866] [ info  ]         1 new Forms added, skipped 7 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList _SHHeatSourcesNormal "" [BF78511A]
+[2025-09-20 17-15-05.866] [ info  ]         5 new Forms added, skipped 25 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList _ShBlackBooks "" [BF4C54AC]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 7 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList _SHInteriorWorldSpaces "" [BF6FC5F9]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList _SHHeatSourcesLarge "" [BF785119]
+[2025-09-20 17-15-05.866] [ info  ]         2 new Forms added, skipped 28 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList _SHOblivionWorlds "" [BF446B80]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList _SHOblivionLctns "" [BF446B84]
+[2025-09-20 17-15-05.866] [ info  ]         14 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList _SHHeatSourceSmall "" [BF78511B]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList _SHOblivionCells "" [BF446B82]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList _SHHeatSourcesAll "" [BF785118]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 77 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList ccQDRSSE002_InteriorAreas "" [FE00F81E]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList ccQDRSSE002_TownCityLocationList "" [FE00F81C]
+[2025-09-20 17-15-05.866] [ info  ]         24 new Forms added, skipped 15 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList ccQDRSSE002_CampingAllowedWorldspaces "" [FE00F811]
+[2025-09-20 17-15-05.866] [ info  ]         8 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList Survival_OblivionCells "" [FE00E92B]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList Survival_FoodRawMeat "" [FE00E8B0]
+[2025-09-20 17-15-05.866] [ info  ]         15 new Forms added, skipped 13 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList Survival_FastTravelDragonbornBlackBooks "" [FE00E8B1]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 7 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList Survival_WarmUpObjectsList "" [FE00E8AA]
+[2025-09-20 17-15-05.866] [ info  ]         13 new Forms added, skipped 47 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList Survival_InteriorAreas "" [FE00E92F]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList Survival_OblivionAreas "" [FE00E92E]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList Survival_BlessingAltars "" [FE00E884]
+[2025-09-20 17-15-05.866] [ info  ]         18 new Forms added, skipped 14 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList Survival_OblivionLocations "" [FE00E92D]
+[2025-09-20 17-15-05.866] [ info  ]         14 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList UDBPPerkInvestorGlobals "" [F044D6F]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 3 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList ccBGSSSE025_EmeraldItems "" [C1B1814]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 4 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList ccBGSSSE025_GarnetItems "" [C1B1813]
+[2025-09-20 17-15-05.866] [ info  ]         1 new Forms added, skipped 3 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList ccVSVSSE002_FetchItems_Skeever "" [FE0158E4]
+[2025-09-20 17-15-05.866] [ info  ]         27 new Forms added, skipped 30 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList ccVSVSSE002_FetchItems_Rabbit "" [FE0158E0]
+[2025-09-20 17-15-05.866] [ info  ]         150 new Forms added, skipped 61 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList CYRTrapDetectTrapList "" [14083C8E]
+[2025-09-20 17-15-05.866] [ info  ]         58 new Forms added, skipped 32 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList CYRFavorJobsGatherResourcesPumpkins "" [1407CAAA]
+[2025-09-20 17-15-05.866] [ info  ]         1 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList CYRFavorFilledCommonSoulgem "" [14065147]
+[2025-09-20 17-15-05.866] [ info  ]         5 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList _Camp_ModWaterSkins "" [3505711E]
+[2025-09-20 17-15-05.866] [ info  ]         5 new Forms added, skipped 5 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList _Camp_Trees "" [3501D441]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList _Camp_HeatSources_All "" [35028F06]
+[2025-09-20 17-15-05.866] [ info  ]         2 new Forms added, skipped 68 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList _Camp_HeatSources_Fire_Medium "" [35028F03]
+[2025-09-20 17-15-05.866] [ info  ]         5 new Forms added, skipped 16 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList _Camp_HeatSources_Fire_Small "" [35028F02]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList _Camp_HeatSources_Fire "" [3502899F]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 55 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList _Camp_WorldspacesInteriors "" [350339E3]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList _Camp_HeatSources_Fire_Large "" [35028F04]
+[2025-09-20 17-15-05.866] [ info  ]         4 new Forms added, skipped 20 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList _Camp_CookingPots "" [3504123F]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 1 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList _Camp_CampingRestrictedWorldspaces "" [35039237]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList _SHO_Blacklist "" [FE9C78E5]
+[2025-09-20 17-15-05.866] [ info  ]         38 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList CRFDaedricArtifactsList "" [4001A404]
+[2025-09-20 17-15-05.866] [ info  ]         73 new Forms added, skipped 1025 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList FP_MissivesList "" [FE96384C]
+[2025-09-20 17-15-05.866] [ info  ]         11 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList FP_ContainerList "" [FE963844]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 12 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList FP_LadderList "" [FE96383F]
+[2025-09-20 17-15-05.866] [ info  ]         8 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList FP_MeadList "" [FE96383E]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList FP_TreeList "" [FE96383D]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList FP_PetList "" [FE96382E]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList FP_NirnrootList "" [FE96382B]
+[2025-09-20 17-15-05.866] [ info  ]         10 new Forms added, skipped 2 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList FP_PillarList "" [FE963826]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 8 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList FP_PuzzleOuterRingList "" [FE963825]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 6 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList FP_PuzzleMiddleRingList "" [FE963823]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 6 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList FP_PuzzleInnerRingList "" [FE963822]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 6 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList FP_BarList "" [FE963821]
+[2025-09-20 17-15-05.866] [ info  ]         1 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList FP_ClawList "" [FE963820]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 14 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList FP_ButtonList "" [FE96381F]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 3 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList FP_ChainList "" [FE96381E]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 9 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList FP_StoneList "" [FE96381D]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 13 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList AR_FormShrines "" [AF000803]
+[2025-09-20 17-15-05.866] [ info  ]         19 new Forms added, skipped 13 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList AR_Interact_PuzzleLarge "" [AF0DA349]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 6 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList AR_Interact_CustomContainers "" [AF149952]
+[2025-09-20 17-15-05.866] [ info  ]         54 new Forms added, skipped 14 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList AR_Interact_Barrels "" [AF0FDA4D]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList AR_Interact_Puzzle "" [AF0D5245]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 6 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList AR_Interact_Claw "" [AF0CB043]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 14 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList AR_Interact_PuzzleSm "" [AF0CB041]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 6 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList AR_Interact_Pillars "" [AF0CB040]
+[2025-09-20 17-15-05.866] [ info  ]         1 new Forms added, skipped 8 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList AR_Interact_Bars "" [AF0CB03F]
+[2025-09-20 17-15-05.866] [ info  ]         1 new Forms added, skipped 2 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList AR_Interact_Chains "" [AF0CB03E]
+[2025-09-20 17-15-05.866] [ info  ]         1 new Forms added, skipped 7 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList AR_Interact_Buttons "" [AF0CB03D]
+[2025-09-20 17-15-05.866] [ info  ]         5 new Forms added, skipped 3 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList AR_Interact_FloorStuff "" [AF0CB03C]
+[2025-09-20 17-15-05.866] [ info  ]         15 new Forms added, skipped 7 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList AR_ElderScrolls "" [AF03D409]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 5 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList AR_FormStones "" [AF02E104]
+[2025-09-20 17-15-05.866] [ info  ]         0 new Forms added, skipped 13 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList HT_UnsafeLocations "" [FEB56829]
+[2025-09-20 17-15-05.866] [ info  ]         19 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList HT_FollowerIgnoreList "" [FEB5681E]
+[2025-09-20 17-15-05.866] [ info  ]         7 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList HT_SafeLocations "" [FEB56801]
+[2025-09-20 17-15-05.866] [ info  ]         5 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ]     FormList Keyhole_DoorExceptions "" [FEAEA819]
+[2025-09-20 17-15-05.866] [ info  ]         1 new Forms added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ] Total 3531 new Forms added to 223 FormLists, skipped 2321 duplicates.
+[2025-09-20 17-15-05.866] [ info  ] -----------------------------------------------
+[2025-09-20 17-15-05.866] [ info  ] --------------------SUMMARY--------------------
+[2025-09-20 17-15-05.866] [ info  ] 51 valid configs, 0 invalid. 1935 total entries, 1891 valid, 44 invalid, 811 filtered out.
+[2025-09-20 17-15-05.866] [ info  ] 227 FormLists, 223 valid, 4 invalid. 5981 total Forms, 3615 unique, 45 missing, 2321 duplicates.
+[2025-09-20 17-15-05.866] [ info  ] 296 Filters added, 0 duplicates, 1 not existing/invalid.
+[2025-09-20 17-15-05.866] [ info  ] 297 Forms Collections added, 0 duplicates, 17 not existing/invalid.
+[2025-09-20 17-15-05.866] [ info  ] 0 FromLists Aliases added, 0 duplicates, 0 not existing.
+[2025-09-20 17-15-05.866] [ info  ] 8 Forms Groups added, 0 duplicates, 17 not existing/invalid.
+[2025-09-20 17-15-05.866] [ info  ] 0 new Mod Events added, skipped 0 invalid.
+[2025-09-20 17-15-05.866] [ info  ] 36 new plants added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ] 84 new Boy's Toys added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ] 83 new Girl's Toys added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ] 1 new Hair Colors added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ] 0 new Atronach Forge recipes added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ] 0 new Atronach Forge recipes with Sigil Stone added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ] 0 new Dragonborn Spider Crafting recipes added, skipped 0 duplicates.
+[2025-09-20 17-15-05.866] [ info  ] 3531 new Forms added to 223 FormLists, skipped 2321 duplicates.
+[2025-09-20 17-15-05.867] [ info  ] --------------------- ^_^ ---------------------
+[2025-09-20 17-15-41.029] [ info  ] -----------------------------------------------
+[2025-09-20 17-15-41.029] [ info  ] -----GAME LOADED - SYNCHRONIZES FORM LISTS-----
+[2025-09-20 17-15-41.029] [ info  ] 0 new plants added, skipped 36 duplicates.
+[2025-09-20 17-15-41.029] [ info  ] 0 new Boy's Toys added, skipped 84 duplicates.
+[2025-09-20 17-15-41.029] [ info  ] 0 new Girl's Toys added, skipped 83 duplicates.
+[2025-09-20 17-15-41.029] [ info  ] 0 new Hair Colors added, skipped 1 duplicates.
+[2025-09-20 17-15-41.029] [ info  ] 0 new Atronach Forge recipes added, skipped 0 duplicates.
+[2025-09-20 17-15-41.029] [ info  ] 0 new Atronach Forge recipes with Sigil Stone added, skipped 0 duplicates.
+[2025-09-20 17-15-41.029] [ info  ] 0 new Dragonborn Spider Crafting recipes added, skipped 0 duplicates.
+[2025-09-20 17-15-41.029] [ info  ] 0 new Forms added to 223 FormLists, skipped 5852 duplicates.
+[2025-09-20 17-15-41.029] [ info  ] Total 0 new Forms added, skipped 6056 duplicates.
+[2025-09-20 17-15-41.029] [ info  ] --------------------- ^_^ ---------------------
+[2025-09-20 17-18-18.093] [ info  ] -----------------------------------------------
+[2025-09-20 17-18-18.093] [ info  ] -----GAME LOADED - SYNCHRONIZES FORM LISTS-----
+[2025-09-20 17-18-18.093] [ info  ] 0 new plants added, skipped 36 duplicates.
+[2025-09-20 17-18-18.093] [ info  ] 0 new Boy's Toys added, skipped 84 duplicates.
+[2025-09-20 17-18-18.093] [ info  ] 0 new Girl's Toys added, skipped 83 duplicates.
+[2025-09-20 17-18-18.093] [ info  ] 0 new Hair Colors added, skipped 1 duplicates.
+[2025-09-20 17-18-18.093] [ info  ] 0 new Atronach Forge recipes added, skipped 0 duplicates.
+[2025-09-20 17-18-18.093] [ info  ] 0 new Atronach Forge recipes with Sigil Stone added, skipped 0 duplicates.
+[2025-09-20 17-18-18.093] [ info  ] 0 new Dragonborn Spider Crafting recipes added, skipped 0 duplicates.
+[2025-09-20 17-18-18.093] [ info  ] 0 new Forms added to 223 FormLists, skipped 5852 duplicates.
+[2025-09-20 17-18-18.093] [ info  ] Total 0 new Forms added, skipped 6056 duplicates.
+[2025-09-20 17-18-18.093] [ info  ] --------------------- ^_^ ---------------------

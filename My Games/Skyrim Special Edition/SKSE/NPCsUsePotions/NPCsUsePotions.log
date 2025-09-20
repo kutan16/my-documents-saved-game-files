@@ -1,157 +1,143 @@
-main.cpp(144): [info] [         2ms] [SKSEPlugin_Load]              Game Version: 1-5-97-0
-main.cpp(146): [info] [         2ms] [SKSEPlugin_Load]              NPCsUsePotions v3-3-0-0
-Settings.cpp(37): [info] [      3363ms] [RequestAPIs]                  
-Settings.cpp(40): [info] [      3363ms] [RequestAPIs]                  Trying to get True Directional Movement API
-Settings.cpp(43): [info] [      3363ms] [RequestAPIs]                  Acquired True Directional Movement API
-Settings.cpp(52): [info] [    162274ms] [InitGameStuff]                Load Game Stuff
-Settings.cpp(87): [info] [    162276ms] [InitGameStuff]                Finished
-SettingsLoadSave.cpp(141): [info] [    162289ms] [Load]                         Setting: Potions:           EnableHealthRestoration 1
-SettingsLoadSave.cpp(143): [info] [    162289ms] [Load]                         Setting: Potions:           EnableMagickaRestoration 1
-SettingsLoadSave.cpp(145): [info] [    162289ms] [Load]                         Setting: Potions:           EnableStaminaRestoration 1
-SettingsLoadSave.cpp(147): [info] [    162289ms] [Load]                         Setting: Potions:           AllowDetrimentalEffects 0
-SettingsLoadSave.cpp(149): [info] [    162289ms] [Load]                         Setting: Potions:           HandleWeaponSheathedAsOutOfCombat 1
-SettingsLoadSave.cpp(155): [info] [    162289ms] [Load]                         Setting: Potions:           HealthThresholdPercent 0.500000
-SettingsLoadSave.cpp(160): [info] [    162289ms] [Load]                         Setting: Potions:           MagickaThresholdPercent 0.500000
-SettingsLoadSave.cpp(165): [info] [    162289ms] [Load]                         Setting: Potions:           StaminaThresholdPercent 0.500000
-SettingsLoadSave.cpp(167): [info] [    162289ms] [Load]                         Setting: Potions:           UsePotionChance 100
-SettingsLoadSave.cpp(174): [info] [    162289ms] [Load]                         Setting: Potions:           ProhibitedEffects 0
-SettingsLoadSave.cpp(178): [info] [    162289ms] [Load]                         Setting: Poisons:           EnablePoisonUsage 1
-SettingsLoadSave.cpp(180): [info] [    162289ms] [Load]                         Setting: Poisons:           AllowPositiveEffects 0
-SettingsLoadSave.cpp(182): [info] [    162289ms] [Load]                         Setting: Poisons:           DontUseWithWeaponsSheathed 1
-SettingsLoadSave.cpp(184): [info] [    162289ms] [Load]                         Setting: Poisons:           DontUseAgainst100PoisonResist 1
-SettingsLoadSave.cpp(186): [info] [    162289ms] [Load]                         Setting: Poisons:           EnemyLevelScalePlayerLevel 0.800000
-SettingsLoadSave.cpp(188): [info] [    162289ms] [Load]                         Setting: Poisons:           FightingNPCsNumberThreshold 5
-SettingsLoadSave.cpp(190): [info] [    162289ms] [Load]                         Setting: Poisons:           UsePoisonChance 100
-SettingsLoadSave.cpp(192): [info] [    162289ms] [Load]                         Setting: Poisons:           Dosage 1
-SettingsLoadSave.cpp(198): [info] [    162289ms] [Load]                         Setting: Poisons:           ProhibitedEffects 0
-SettingsLoadSave.cpp(202): [info] [    162289ms] [Load]                         Setting: Fortify Potions:   EnableFortifyPotionUsage 1
-SettingsLoadSave.cpp(204): [info] [    162289ms] [Load]                         Setting: Fortify Potions:   DontUseWithWeaponsSheathed 1
-SettingsLoadSave.cpp(206): [info] [    162289ms] [Load]                         Setting: Fortify Potions:   EnemyLevelScalePlayerLevelFortify 0.800000
-SettingsLoadSave.cpp(208): [info] [    162289ms] [Load]                         Setting: Fortify Potions:   FightingNPCsNumberThresholdFortify 5
-SettingsLoadSave.cpp(210): [info] [    162289ms] [Load]                         Setting: Fortify Potions:   UseFortifyPotionChance 100
-SettingsLoadSave.cpp(214): [info] [    162289ms] [Load]                         Setting: Food:              EnableFoodUsage 1
-SettingsLoadSave.cpp(216): [info] [    162289ms] [Load]                         Setting: Food:              AllowDetrimentalEffects 0
-SettingsLoadSave.cpp(218): [info] [    162289ms] [Load]                         Setting: Food:              OnlyAllowFoodAtCombatStart 0
-SettingsLoadSave.cpp(220): [info] [    162289ms] [Load]                         Setting: Food:              DisableFollowers 0
-SettingsLoadSave.cpp(222): [info] [    162289ms] [Load]                         Setting: Food:              DontUseWithWeaponsSheathed 0
-SettingsLoadSave.cpp(228): [info] [    162289ms] [Load]                         Setting: Food:           ProhibitedEffects 0
-SettingsLoadSave.cpp(232): [info] [    162289ms] [Load]                         Setting: Player:            EnablePlayerPotions 0
-SettingsLoadSave.cpp(234): [info] [    162289ms] [Load]                         Setting: Player:            EnablePlayerPoisonUsage 0
-SettingsLoadSave.cpp(236): [info] [    162290ms] [Load]                         Setting: Player:            EnablePlayerFortifyPotionUsage 0
-SettingsLoadSave.cpp(238): [info] [    162290ms] [Load]                         Setting: Player:            EnablePlayerFoodUsage 0
-SettingsLoadSave.cpp(241): [info] [    162290ms] [Load]                         Setting: Player:            UseFavoritedItemsOnly 0
-SettingsLoadSave.cpp(243): [info] [    162290ms] [Load]                         Setting: Player:            DontUseFavoritedItems 0
-SettingsLoadSave.cpp(247): [info] [    162290ms] [Load]                         Setting: Player:            DontEatRawFood 0
-SettingsLoadSave.cpp(249): [info] [    162290ms] [Load]                         Setting: Player:            DontDrinkAlcohol 0
-SettingsLoadSave.cpp(253): [info] [    162290ms] [Load]                         Setting: usage:             DisableItemUsageWhileStaggered 0
-SettingsLoadSave.cpp(255): [info] [    162290ms] [Load]                         Setting: usage:             DisableNonFollowerNPCs 0
-SettingsLoadSave.cpp(257): [info] [    162290ms] [Load]                         Setting: usage:             DisableOutOfCombatProcessing 0
-SettingsLoadSave.cpp(259): [info] [    162290ms] [Load]                         Setting: usage:             DisableItemUsageForExcludedNPCs 0
-SettingsLoadSave.cpp(261): [info] [    162290ms] [Load]                         Setting: usage:             GlobalItemCooldown 1000
-SettingsLoadSave.cpp(266): [info] [    162290ms] [Load]                         Setting: Distribution:      DistributePotions 1
-SettingsLoadSave.cpp(268): [info] [    162290ms] [Load]                         Setting: Distribution:      DistributePoisons 1
-SettingsLoadSave.cpp(270): [info] [    162290ms] [Load]                         Setting: Distribution:      DistributeFood 1
-SettingsLoadSave.cpp(272): [info] [    162290ms] [Load]                         Setting: Distribution:      DistributeFortifyPotions 1
-SettingsLoadSave.cpp(274): [info] [    162290ms] [Load]                         Setting: Distribution:      DistributeCustomItems 1
-SettingsLoadSave.cpp(277): [info] [    162290ms] [Load]                         Setting: Distribution:      LevelEasy 20
-SettingsLoadSave.cpp(279): [info] [    162290ms] [Load]                         Setting: Distribution:      LevelNormal 35
-SettingsLoadSave.cpp(281): [info] [    162290ms] [Load]                         Setting: Distribution:      LevelDifficult 50
-SettingsLoadSave.cpp(283): [info] [    162290ms] [Load]                         Setting: Distribution:      LevelInsane 70
-SettingsLoadSave.cpp(286): [info] [    162290ms] [Load]                         Setting: Distribution:      GameDifficultyScaling 0
-SettingsLoadSave.cpp(289): [info] [    162290ms] [Load]                         Setting: Distribution:      MaxMagnitudeWeak 30
-SettingsLoadSave.cpp(291): [info] [    162290ms] [Load]                         Setting: Distribution:      MaxMagnitudeStandard 60
-SettingsLoadSave.cpp(293): [info] [    162290ms] [Load]                         Setting: Distribution:      MaxMagnitudePotent 150
-SettingsLoadSave.cpp(296): [info] [    162290ms] [Load]                         Setting: Distribution:      StyleScalingPrimary 1.200000
-SettingsLoadSave.cpp(298): [info] [    162290ms] [Load]                         Setting: Distribution:      StyleScalingSecondary 1.100000
-SettingsLoadSave.cpp(301): [info] [    162290ms] [Load]                         Setting: Distribution:      ProbabilityScaling 1.000000
-SettingsLoadSave.cpp(305): [info] [    162290ms] [Load]                         Setting: Removal:           RemoveItemsOnDeath 1
-SettingsLoadSave.cpp(307): [info] [    162290ms] [Load]                         Setting: Removal:           ChanceToRemoveItem 90
-SettingsLoadSave.cpp(309): [info] [    162290ms] [Load]                         Setting: Removal:           MaxItemsLeftAfterRemoval 2
-SettingsLoadSave.cpp(313): [info] [    162290ms] [Load]                         Setting: Whitelist Mode:    EnableWhitelistItems 0
-SettingsLoadSave.cpp(315): [info] [    162290ms] [Load]                         Setting: Whitelist Mode:    EnableWhitelistNPCs 0
-SettingsLoadSave.cpp(319): [info] [    162290ms] [Load]                         Setting: Fixes:             ApplySkillBoostPerks 1
-SettingsLoadSave.cpp(321): [info] [    162290ms] [Load]                         Setting: Fixes:             ForceFixPotionSounds 1
-SettingsLoadSave.cpp(325): [info] [    162290ms] [Load]                         Setting: System:            CycleWaitTime 1000
-SettingsLoadSave.cpp(327): [info] [    162290ms] [Load]                         Setting: System:            MaxDuration 10000
-SettingsLoadSave.cpp(329): [info] [    162290ms] [Load]                         Setting: System:            MaxFortifyDuration 180000
-SettingsLoadSave.cpp(331): [info] [    162290ms] [Load]                         Setting: System:            AlternateNPCRegistration 0
-SettingsLoadSave.cpp(335): [info] [    162290ms] [Load]                         Setting: Compatibility:     DisableCreaturesWithoutRules 1
-SettingsLoadSave.cpp(339): [info] [    162290ms] [Load]                         Setting: Compatibility:     EnableAnimatedPoisons 1
-SettingsLoadSave.cpp(341): [info] [    162290ms] [Load]                         Setting: Compatibility:     UseAnimatedPoisonsDosageSystem 0
-SettingsLoadSave.cpp(345): [info] [    162290ms] [Load]                         Setting: Compatibility:     EnableAnimatedPotions 1
-SettingsLoadSave.cpp(350): [info] [    162290ms] [Load]                         Setting: Debug:             EnableLogging 0
-SettingsLoadSave.cpp(353): [info] [    162290ms] [Load]                         Setting: Debug:             EnableLoadLogging 0
-SettingsLoadSave.cpp(356): [info] [    162290ms] [Load]                         Setting: Debug:             LogLevel 0
-SettingsLoadSave.cpp(359): [info] [    162290ms] [Load]                         Setting: Debug:             EnableProfiling 0
-SettingsLoadSave.cpp(362): [info] [    162290ms] [Load]                         Setting: Debug:             ProfileLevel 0
-SettingsLoadSave.cpp(365): [info] [    162290ms] [Load]                         Setting: Debug:             CheckActorWithoutRules 0
-SettingsLoadSave.cpp(368): [info] [    162290ms] [Load]                         Setting: Debug:             CalculateCellRules 0
-SettingsLoadSave.cpp(370): [info] [    162290ms] [Load]                         Setting: Debug:             CalculateAllCellOnStartup 0
-SettingsLoadSave.cpp(377): [info] [    162290ms] [Load]                         Setting: Debug:             RemoveItemsBeforeDist 0
-SettingsLoadSave.cpp(379): [info] [    162290ms] [Load]                         Setting: Debug:             RemoveItemsStartup 0
-SettingsLoadSave.cpp(381): [info] [    162290ms] [Load]                         Setting: Debug:             RemoveItemsStartup_OnlyExcluded 0
-main.cpp(102): [info] [    162292ms] [MessageHandler]               Settings loaded
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Default_Alcohol_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Default_Attachments_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Default_Bosses_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Default_Class_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Default_Exclusions_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Default_FortPot_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Default_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Default_Poison_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Default_PoisonDosage_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Default_Whitelist_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Apothecary_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Bruma_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Falskaar_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_GrayCowlOfNocturnal_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Inigo_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_MidwoodIsle_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Mihail_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Sunhelm_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_ToolsOfKagrenac_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Triumvirate_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Vigilant_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_WheelsOfLull_NUP_DIST.ini
-Settings.cpp(154): [info] [    162326ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Wyrmstooth_NUP_DIST.ini
-main.cpp(107): [info] [    162705ms] [MessageHandler]               Distribution configuration loaded
-main.cpp(118): [info] [    162741ms] [MessageHandler]               Items classified
-Game.cpp(53): [info] [    162741ms] [RegisterForLoadCallback]      
-Game.cpp(89): [info] [    162741ms] [RegisterForRevertCallback]    
-Game.cpp(71): [info] [    162741ms] [RegisterForSaveCallback]      
-Game.cpp(53): [info] [    162741ms] [RegisterForLoadCallback]      
-Game.cpp(89): [info] [    162741ms] [RegisterForRevertCallback]    
-Game.cpp(71): [info] [    162741ms] [RegisterForSaveCallback]      
-Game.cpp(53): [info] [    162741ms] [RegisterForLoadCallback]      
-Game.cpp(89): [info] [    162741ms] [RegisterForRevertCallback]    
-Game.cpp(71): [info] [    162741ms] [RegisterForSaveCallback]      
-main.cpp(126): [info] [    162741ms] [MessageHandler]               Registered Events
-Console.h(56): [info] [    162741ms] [Register]                     Registered console command: NPCsUsePotionStats (nupstats)
-Console.h(108): [info] [    162741ms] [Register]                     Registered console command: NPCsUsePotionsReset (nupreset)
-main.cpp(129): [info] [    162741ms] [MessageHandler]               Registered Console Commands
-Game.cpp(41): [info] [    217056ms] [RevertCallback]               Reverting game
-Game.cpp(48): [info] [    217067ms] [RevertCallback]               end
-Game.cpp(17): [info] [    257340ms] [LoadCallback]                 Load game callback
-Game.cpp(24): [info] [    257478ms] [LoadCallback]                 end
-Game.cpp(29): [info] [    309651ms] [SaveCallback]                 Saving game
-Game.cpp(36): [info] [    309675ms] [SaveCallback]                 end
-Game.cpp(29): [info] [    411344ms] [SaveCallback]                 Saving game
-Game.cpp(36): [info] [    411371ms] [SaveCallback]                 end
-Game.cpp(41): [info] [    450972ms] [RevertCallback]               Reverting game
-Game.cpp(48): [info] [    450983ms] [RevertCallback]               end
-Game.cpp(17): [info] [    454086ms] [LoadCallback]                 Load game callback
-Game.cpp(24): [info] [    454222ms] [LoadCallback]                 end
-Game.cpp(41): [info] [    776862ms] [RevertCallback]               Reverting game
-Game.cpp(48): [info] [    776873ms] [RevertCallback]               end
-Game.cpp(17): [info] [    797449ms] [LoadCallback]                 Load game callback
-Game.cpp(24): [info] [    797606ms] [LoadCallback]                 end
-Game.cpp(41): [info] [    982151ms] [RevertCallback]               Reverting game
-Game.cpp(48): [info] [    982162ms] [RevertCallback]               end
-Game.cpp(17): [info] [   1001201ms] [LoadCallback]                 Load game callback
-Game.cpp(24): [info] [   1001360ms] [LoadCallback]                 end
-Game.cpp(29): [info] [   1378154ms] [SaveCallback]                 Saving game
-Game.cpp(36): [info] [   1378179ms] [SaveCallback]                 end
-Game.cpp(29): [info] [   1967187ms] [SaveCallback]                 Saving game
-Game.cpp(36): [info] [   1967217ms] [SaveCallback]                 end
-Game.cpp(29): [info] [   2107558ms] [SaveCallback]                 Saving game
-Game.cpp(36): [info] [   2107587ms] [SaveCallback]                 end
+main.cpp(144): [info] [         1ms] [SKSEPlugin_Load]              Game Version: 1-5-97-0
+main.cpp(146): [info] [         1ms] [SKSEPlugin_Load]              NPCsUsePotions v3-3-0-0
+Settings.cpp(37): [info] [       650ms] [RequestAPIs]                  
+Settings.cpp(40): [info] [       650ms] [RequestAPIs]                  Trying to get True Directional Movement API
+Settings.cpp(43): [info] [       650ms] [RequestAPIs]                  Acquired True Directional Movement API
+Settings.cpp(52): [info] [    123064ms] [InitGameStuff]                Load Game Stuff
+Settings.cpp(87): [info] [    123065ms] [InitGameStuff]                Finished
+SettingsLoadSave.cpp(141): [info] [    123065ms] [Load]                         Setting: Potions:           EnableHealthRestoration 1
+SettingsLoadSave.cpp(143): [info] [    123065ms] [Load]                         Setting: Potions:           EnableMagickaRestoration 1
+SettingsLoadSave.cpp(145): [info] [    123065ms] [Load]                         Setting: Potions:           EnableStaminaRestoration 1
+SettingsLoadSave.cpp(147): [info] [    123065ms] [Load]                         Setting: Potions:           AllowDetrimentalEffects 0
+SettingsLoadSave.cpp(149): [info] [    123065ms] [Load]                         Setting: Potions:           HandleWeaponSheathedAsOutOfCombat 1
+SettingsLoadSave.cpp(155): [info] [    123065ms] [Load]                         Setting: Potions:           HealthThresholdPercent 0.500000
+SettingsLoadSave.cpp(160): [info] [    123065ms] [Load]                         Setting: Potions:           MagickaThresholdPercent 0.500000
+SettingsLoadSave.cpp(165): [info] [    123065ms] [Load]                         Setting: Potions:           StaminaThresholdPercent 0.500000
+SettingsLoadSave.cpp(167): [info] [    123065ms] [Load]                         Setting: Potions:           UsePotionChance 100
+SettingsLoadSave.cpp(174): [info] [    123065ms] [Load]                         Setting: Potions:           ProhibitedEffects 0
+SettingsLoadSave.cpp(178): [info] [    123065ms] [Load]                         Setting: Poisons:           EnablePoisonUsage 1
+SettingsLoadSave.cpp(180): [info] [    123065ms] [Load]                         Setting: Poisons:           AllowPositiveEffects 0
+SettingsLoadSave.cpp(182): [info] [    123065ms] [Load]                         Setting: Poisons:           DontUseWithWeaponsSheathed 1
+SettingsLoadSave.cpp(184): [info] [    123065ms] [Load]                         Setting: Poisons:           DontUseAgainst100PoisonResist 1
+SettingsLoadSave.cpp(186): [info] [    123065ms] [Load]                         Setting: Poisons:           EnemyLevelScalePlayerLevel 0.800000
+SettingsLoadSave.cpp(188): [info] [    123065ms] [Load]                         Setting: Poisons:           FightingNPCsNumberThreshold 5
+SettingsLoadSave.cpp(190): [info] [    123065ms] [Load]                         Setting: Poisons:           UsePoisonChance 100
+SettingsLoadSave.cpp(192): [info] [    123065ms] [Load]                         Setting: Poisons:           Dosage 1
+SettingsLoadSave.cpp(198): [info] [    123065ms] [Load]                         Setting: Poisons:           ProhibitedEffects 0
+SettingsLoadSave.cpp(202): [info] [    123065ms] [Load]                         Setting: Fortify Potions:   EnableFortifyPotionUsage 1
+SettingsLoadSave.cpp(204): [info] [    123065ms] [Load]                         Setting: Fortify Potions:   DontUseWithWeaponsSheathed 1
+SettingsLoadSave.cpp(206): [info] [    123065ms] [Load]                         Setting: Fortify Potions:   EnemyLevelScalePlayerLevelFortify 0.800000
+SettingsLoadSave.cpp(208): [info] [    123065ms] [Load]                         Setting: Fortify Potions:   FightingNPCsNumberThresholdFortify 5
+SettingsLoadSave.cpp(210): [info] [    123065ms] [Load]                         Setting: Fortify Potions:   UseFortifyPotionChance 100
+SettingsLoadSave.cpp(214): [info] [    123065ms] [Load]                         Setting: Food:              EnableFoodUsage 1
+SettingsLoadSave.cpp(216): [info] [    123065ms] [Load]                         Setting: Food:              AllowDetrimentalEffects 0
+SettingsLoadSave.cpp(218): [info] [    123065ms] [Load]                         Setting: Food:              OnlyAllowFoodAtCombatStart 0
+SettingsLoadSave.cpp(220): [info] [    123065ms] [Load]                         Setting: Food:              DisableFollowers 0
+SettingsLoadSave.cpp(222): [info] [    123065ms] [Load]                         Setting: Food:              DontUseWithWeaponsSheathed 0
+SettingsLoadSave.cpp(228): [info] [    123065ms] [Load]                         Setting: Food:           ProhibitedEffects 0
+SettingsLoadSave.cpp(232): [info] [    123065ms] [Load]                         Setting: Player:            EnablePlayerPotions 0
+SettingsLoadSave.cpp(234): [info] [    123065ms] [Load]                         Setting: Player:            EnablePlayerPoisonUsage 0
+SettingsLoadSave.cpp(236): [info] [    123065ms] [Load]                         Setting: Player:            EnablePlayerFortifyPotionUsage 0
+SettingsLoadSave.cpp(238): [info] [    123065ms] [Load]                         Setting: Player:            EnablePlayerFoodUsage 0
+SettingsLoadSave.cpp(241): [info] [    123065ms] [Load]                         Setting: Player:            UseFavoritedItemsOnly 0
+SettingsLoadSave.cpp(243): [info] [    123065ms] [Load]                         Setting: Player:            DontUseFavoritedItems 0
+SettingsLoadSave.cpp(247): [info] [    123065ms] [Load]                         Setting: Player:            DontEatRawFood 0
+SettingsLoadSave.cpp(249): [info] [    123065ms] [Load]                         Setting: Player:            DontDrinkAlcohol 0
+SettingsLoadSave.cpp(253): [info] [    123065ms] [Load]                         Setting: usage:             DisableItemUsageWhileStaggered 0
+SettingsLoadSave.cpp(255): [info] [    123065ms] [Load]                         Setting: usage:             DisableNonFollowerNPCs 0
+SettingsLoadSave.cpp(257): [info] [    123065ms] [Load]                         Setting: usage:             DisableOutOfCombatProcessing 0
+SettingsLoadSave.cpp(259): [info] [    123065ms] [Load]                         Setting: usage:             DisableItemUsageForExcludedNPCs 0
+SettingsLoadSave.cpp(261): [info] [    123065ms] [Load]                         Setting: usage:             GlobalItemCooldown 1000
+SettingsLoadSave.cpp(266): [info] [    123065ms] [Load]                         Setting: Distribution:      DistributePotions 1
+SettingsLoadSave.cpp(268): [info] [    123065ms] [Load]                         Setting: Distribution:      DistributePoisons 1
+SettingsLoadSave.cpp(270): [info] [    123065ms] [Load]                         Setting: Distribution:      DistributeFood 1
+SettingsLoadSave.cpp(272): [info] [    123065ms] [Load]                         Setting: Distribution:      DistributeFortifyPotions 1
+SettingsLoadSave.cpp(274): [info] [    123065ms] [Load]                         Setting: Distribution:      DistributeCustomItems 1
+SettingsLoadSave.cpp(277): [info] [    123065ms] [Load]                         Setting: Distribution:      LevelEasy 20
+SettingsLoadSave.cpp(279): [info] [    123065ms] [Load]                         Setting: Distribution:      LevelNormal 35
+SettingsLoadSave.cpp(281): [info] [    123065ms] [Load]                         Setting: Distribution:      LevelDifficult 50
+SettingsLoadSave.cpp(283): [info] [    123065ms] [Load]                         Setting: Distribution:      LevelInsane 70
+SettingsLoadSave.cpp(286): [info] [    123065ms] [Load]                         Setting: Distribution:      GameDifficultyScaling 0
+SettingsLoadSave.cpp(289): [info] [    123065ms] [Load]                         Setting: Distribution:      MaxMagnitudeWeak 30
+SettingsLoadSave.cpp(291): [info] [    123065ms] [Load]                         Setting: Distribution:      MaxMagnitudeStandard 60
+SettingsLoadSave.cpp(293): [info] [    123065ms] [Load]                         Setting: Distribution:      MaxMagnitudePotent 150
+SettingsLoadSave.cpp(296): [info] [    123065ms] [Load]                         Setting: Distribution:      StyleScalingPrimary 1.200000
+SettingsLoadSave.cpp(298): [info] [    123065ms] [Load]                         Setting: Distribution:      StyleScalingSecondary 1.100000
+SettingsLoadSave.cpp(301): [info] [    123065ms] [Load]                         Setting: Distribution:      ProbabilityScaling 1.000000
+SettingsLoadSave.cpp(305): [info] [    123065ms] [Load]                         Setting: Removal:           RemoveItemsOnDeath 1
+SettingsLoadSave.cpp(307): [info] [    123065ms] [Load]                         Setting: Removal:           ChanceToRemoveItem 90
+SettingsLoadSave.cpp(309): [info] [    123065ms] [Load]                         Setting: Removal:           MaxItemsLeftAfterRemoval 2
+SettingsLoadSave.cpp(313): [info] [    123065ms] [Load]                         Setting: Whitelist Mode:    EnableWhitelistItems 0
+SettingsLoadSave.cpp(315): [info] [    123065ms] [Load]                         Setting: Whitelist Mode:    EnableWhitelistNPCs 0
+SettingsLoadSave.cpp(319): [info] [    123065ms] [Load]                         Setting: Fixes:             ApplySkillBoostPerks 1
+SettingsLoadSave.cpp(321): [info] [    123065ms] [Load]                         Setting: Fixes:             ForceFixPotionSounds 1
+SettingsLoadSave.cpp(325): [info] [    123065ms] [Load]                         Setting: System:            CycleWaitTime 1000
+SettingsLoadSave.cpp(327): [info] [    123065ms] [Load]                         Setting: System:            MaxDuration 10000
+SettingsLoadSave.cpp(329): [info] [    123066ms] [Load]                         Setting: System:            MaxFortifyDuration 180000
+SettingsLoadSave.cpp(331): [info] [    123066ms] [Load]                         Setting: System:            AlternateNPCRegistration 0
+SettingsLoadSave.cpp(335): [info] [    123066ms] [Load]                         Setting: Compatibility:     DisableCreaturesWithoutRules 1
+SettingsLoadSave.cpp(339): [info] [    123066ms] [Load]                         Setting: Compatibility:     EnableAnimatedPoisons 1
+SettingsLoadSave.cpp(341): [info] [    123066ms] [Load]                         Setting: Compatibility:     UseAnimatedPoisonsDosageSystem 0
+SettingsLoadSave.cpp(345): [info] [    123066ms] [Load]                         Setting: Compatibility:     EnableAnimatedPotions 1
+SettingsLoadSave.cpp(350): [info] [    123066ms] [Load]                         Setting: Debug:             EnableLogging 0
+SettingsLoadSave.cpp(353): [info] [    123066ms] [Load]                         Setting: Debug:             EnableLoadLogging 0
+SettingsLoadSave.cpp(356): [info] [    123066ms] [Load]                         Setting: Debug:             LogLevel 0
+SettingsLoadSave.cpp(359): [info] [    123066ms] [Load]                         Setting: Debug:             EnableProfiling 0
+SettingsLoadSave.cpp(362): [info] [    123066ms] [Load]                         Setting: Debug:             ProfileLevel 0
+SettingsLoadSave.cpp(365): [info] [    123066ms] [Load]                         Setting: Debug:             CheckActorWithoutRules 0
+SettingsLoadSave.cpp(368): [info] [    123066ms] [Load]                         Setting: Debug:             CalculateCellRules 0
+SettingsLoadSave.cpp(370): [info] [    123066ms] [Load]                         Setting: Debug:             CalculateAllCellOnStartup 0
+SettingsLoadSave.cpp(377): [info] [    123066ms] [Load]                         Setting: Debug:             RemoveItemsBeforeDist 0
+SettingsLoadSave.cpp(379): [info] [    123066ms] [Load]                         Setting: Debug:             RemoveItemsStartup 0
+SettingsLoadSave.cpp(381): [info] [    123066ms] [Load]                         Setting: Debug:             RemoveItemsStartup_OnlyExcluded 0
+main.cpp(102): [info] [    123066ms] [MessageHandler]               Settings loaded
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Default_Alcohol_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Default_Attachments_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Default_Bosses_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Default_Class_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Default_Exclusions_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Default_FortPot_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Default_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Default_Poison_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Default_PoisonDosage_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Default_Whitelist_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Apothecary_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Bruma_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Falskaar_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_GrayCowlOfNocturnal_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Inigo_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_MidwoodIsle_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Mihail_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Sunhelm_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_ToolsOfKagrenac_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Triumvirate_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Vigilant_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_WheelsOfLull_NUP_DIST.ini
+Settings.cpp(154): [info] [    123095ms] [LoadDistrConfig]              found Distribution configuration file: Data\SKSE\Plugins\NPCsUsePotions_Wyrmstooth_NUP_DIST.ini
+main.cpp(107): [info] [    123375ms] [MessageHandler]               Distribution configuration loaded
+main.cpp(118): [info] [    123408ms] [MessageHandler]               Items classified
+Game.cpp(53): [info] [    123408ms] [RegisterForLoadCallback]      
+Game.cpp(89): [info] [    123408ms] [RegisterForRevertCallback]    
+Game.cpp(71): [info] [    123408ms] [RegisterForSaveCallback]      
+Game.cpp(53): [info] [    123408ms] [RegisterForLoadCallback]      
+Game.cpp(89): [info] [    123408ms] [RegisterForRevertCallback]    
+Game.cpp(71): [info] [    123408ms] [RegisterForSaveCallback]      
+Game.cpp(53): [info] [    123408ms] [RegisterForLoadCallback]      
+Game.cpp(89): [info] [    123408ms] [RegisterForRevertCallback]    
+Game.cpp(71): [info] [    123408ms] [RegisterForSaveCallback]      
+main.cpp(126): [info] [    123408ms] [MessageHandler]               Registered Events
+Console.h(56): [info] [    123408ms] [Register]                     Registered console command: NPCsUsePotionStats (nupstats)
+Console.h(108): [info] [    123409ms] [Register]                     Registered console command: NPCsUsePotionsReset (nupreset)
+main.cpp(129): [info] [    123409ms] [MessageHandler]               Registered Console Commands
+Game.cpp(41): [info] [    173949ms] [RevertCallback]               Reverting game
+Game.cpp(48): [info] [    173960ms] [RevertCallback]               end
+Game.cpp(17): [info] [    180895ms] [LoadCallback]                 Load game callback
+Game.cpp(24): [info] [    181049ms] [LoadCallback]                 end
+Game.cpp(41): [info] [    322609ms] [RevertCallback]               Reverting game
+Game.cpp(48): [info] [    322621ms] [RevertCallback]               end
+Game.cpp(41): [info] [    332775ms] [RevertCallback]               Reverting game
+Game.cpp(48): [info] [    332786ms] [RevertCallback]               end
+Game.cpp(17): [info] [    337960ms] [LoadCallback]                 Load game callback
+Game.cpp(24): [info] [    338100ms] [LoadCallback]                 end
+Game.cpp(41): [info] [    374526ms] [RevertCallback]               Reverting game
+Game.cpp(48): [info] [    374537ms] [RevertCallback]               end

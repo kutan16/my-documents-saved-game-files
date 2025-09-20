@@ -1,24 +1,24 @@
-[09/19/25 01:06:17][info](Logger.hpp:148) Logger init - Skyrim Special Edition 1-5-97-0
-[09/19/25 01:06:17][info](main.cpp:36) CombatPathingRevolution v0.3.0.0 loaded
-[09/19/25 01:06:24][info](Advance_Hook.h:80) CombatPathing::AdvanceRadiusHook::InstallHook Done!
-[09/19/25 01:06:24][info](Advance_Hook.h:91) CombatPathing::AdvanceInterruptHook::InstallHook Done!
-[09/19/25 01:06:24][info](Backoff_Hook.h:43) CombatPathing::BackoffStartHook::InstallHook Done!
-[09/19/25 01:06:24][info](Backoff_Hook.h:57) CombatPathing::BackoffChanceHook::InstallHook Done!
-[09/19/25 01:06:24][info](Circling_Hook.h:22) CombatPathing::CirclingChanceHook::InstallHook Done!
-[09/19/25 01:06:24][info](Circling_Hook.h:42) CombatPathing::AdvanceToCircleHook::InstallHook Done!
-[09/19/25 01:06:24][info](Circling_Hook.h:63) CombatPathing::CircleAngleHook1::InstallHook Done!
-[09/19/25 01:06:24][info](Circling_Hook.h:120) CombatPathing::CircleAngleHook2::InstallHook Done!
-[09/19/25 01:06:24][info](Circling_Hook.h:156) CombatPathing::CircleAngleHook3::InstallHook Done!
-[09/19/25 01:06:24][info](Circling_Hook.h:172) CombatPathing::CircleViewConeHook::InstallHook Done!
-[09/19/25 01:06:24][info](Fallback_Hook.h:18) CombatPathing::FallbackDistanceHook1::InstallHook Done!
-[09/19/25 01:06:24][info](Fallback_Hook.h:64) CombatPathing::FallbackDistanceHook2::InstallHook Done!
-[09/19/25 01:06:24][info](Fallback_Hook.h:79) CombatPathing::FallbackWaitTimeHook1::InstallHook Done!
-[09/19/25 01:06:24][info](Fallback_Hook.h:123) CombatPathing::FallbackWaitTimeHook2::InstallHook Done!
-[09/19/25 01:06:24][info](hooks.h:11) Installing animation event hook...
-[09/19/25 01:06:24][info](hooks.h:16) ...animation event hook installed
-[09/19/25 01:09:01][info](Settings.h:19) Setting:"EnableDebugLog" is false
-[09/19/25 01:09:01][info](Settings.h:19) Setting:"fCombatFallbackChanceMin" is 0
-[09/19/25 01:09:01][info](Settings.h:19) Setting:"fCombatFallbackChanceMax" is 0.75
-[09/19/25 01:09:01][info](Settings.h:19) Setting:"fCombatCircleChanceMin" is 0.15
-[09/19/25 01:09:01][info](Settings.h:19) Setting:"fCombatCircleChanceMax" is 0.95
-[09/19/25 01:09:01][info](Settings.h:19) Setting:"fCombatCircleAnglePlayerMult" is 1
+[09/20/25 17:12:37][info](Logger.hpp:148) Logger init - Skyrim Special Edition 1-5-97-0
+[09/20/25 17:12:37][info](main.cpp:36) CombatPathingRevolution v0.3.0.0 loaded
+[09/20/25 17:12:40][info](Advance_Hook.h:80) CombatPathing::AdvanceRadiusHook::InstallHook Done!
+[09/20/25 17:12:40][info](Advance_Hook.h:91) CombatPathing::AdvanceInterruptHook::InstallHook Done!
+[09/20/25 17:12:40][info](Backoff_Hook.h:43) CombatPathing::BackoffStartHook::InstallHook Done!
+[09/20/25 17:12:40][info](Backoff_Hook.h:57) CombatPathing::BackoffChanceHook::InstallHook Done!
+[09/20/25 17:12:40][info](Circling_Hook.h:22) CombatPathing::CirclingChanceHook::InstallHook Done!
+[09/20/25 17:12:40][info](Circling_Hook.h:42) CombatPathing::AdvanceToCircleHook::InstallHook Done!
+[09/20/25 17:12:40][info](Circling_Hook.h:63) CombatPathing::CircleAngleHook1::InstallHook Done!
+[09/20/25 17:12:40][info](Circling_Hook.h:120) CombatPathing::CircleAngleHook2::InstallHook Done!
+[09/20/25 17:12:40][info](Circling_Hook.h:156) CombatPathing::CircleAngleHook3::InstallHook Done!
+[09/20/25 17:12:40][info](Circling_Hook.h:172) CombatPathing::CircleViewConeHook::InstallHook Done!
+[09/20/25 17:12:40][info](Fallback_Hook.h:18) CombatPathing::FallbackDistanceHook1::InstallHook Done!
+[09/20/25 17:12:40][info](Fallback_Hook.h:64) CombatPathing::FallbackDistanceHook2::InstallHook Done!
+[09/20/25 17:12:40][info](Fallback_Hook.h:79) CombatPathing::FallbackWaitTimeHook1::InstallHook Done!
+[09/20/25 17:12:40][info](Fallback_Hook.h:123) CombatPathing::FallbackWaitTimeHook2::InstallHook Done!
+[09/20/25 17:12:40][info](hooks.h:11) Installing animation event hook...
+[09/20/25 17:12:40][info](hooks.h:16) ...animation event hook installed
+[09/20/25 17:14:41][info](Settings.h:19) Setting:"EnableDebugLog" is false
+[09/20/25 17:14:41][info](Settings.h:19) Setting:"fCombatFallbackChanceMin" is 0
+[09/20/25 17:14:41][info](Settings.h:19) Setting:"fCombatFallbackChanceMax" is 0.75
+[09/20/25 17:14:41][info](Settings.h:19) Setting:"fCombatCircleChanceMin" is 0.15
+[09/20/25 17:14:41][info](Settings.h:19) Setting:"fCombatCircleChanceMax" is 0.95
+[09/20/25 17:14:41][info](Settings.h:19) Setting:"fCombatCircleAnglePlayerMult" is 1

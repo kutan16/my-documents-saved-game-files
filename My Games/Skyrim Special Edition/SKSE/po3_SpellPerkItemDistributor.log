@@ -1,736 +1,709 @@
-[01:06:22:942] po3_SpellPerkItemDistributor v7.2.0.1597
-[01:06:22:943] Game version : 1-5-97-0
-[01:06:27:933] ### DEPENDENCIES #################################
-[01:06:27:933] powerofthree's Tweaks (po3_tweaks) detected : true
-[01:06:27:933] ### INI ##########################################
-[01:06:28:234] 132 matching inis found
-[01:06:28:234] 	INI : Data\3DNPC_BODY_RSV_DISTR.ini
-[01:06:28:243] 	INI : Data\3DNPC_HEAD_RSV_DISTR.ini
-[01:06:28:249] 	INI : Data\ABB_KW-OCF_NPC_DISTR.ini
-[01:06:28:254] 	INI : Data\AbyssForNPCs_DISTR.ini
-[01:06:28:258] 	INI : Data\AbyssLoot_DISTR.ini
-[01:06:28:262] 	INI : Data\AbyssNPC_DISTR.ini
-[01:06:28:267] 	INI : Data\Aetherius_DISTR.ini
-[01:06:28:273] 	INI : Data\Amalee_DISTR.ini
-[01:06:28:279] 	INI : Data\AncientBloodII_DISTR.ini
-[01:06:28:284] 	INI : Data\Animals Swim_DISTR.ini
-[01:06:28:287] 	INI : Data\Anum-la_DISTR.ini
-[01:06:28:293] 	INI : Data\ApocalypseSpellsForNPCs_DISTR.ini
-[01:06:28:301] 	INI : Data\Apothecary_DISTR.ini
-[01:06:28:307] 	INI : Data\ArclightLoot_DISTR.ini
-[01:06:28:310] 	INI : Data\ArclightNPC_DISTR.ini
-[01:06:28:313] 	INI : Data\AstralMagic2SpellsForNPCs_DISTR.ini
-[01:06:28:320] 	INI : Data\BandagesforNPCs_DISTR.ini
-[01:06:28:325] 	INI : Data\CoachmenV_DISTRI.ini
-[01:06:28:329] 	INI : Data\DNPCsBB_DISTR.ini
-[01:06:28:333] 	INI : Data\DNPCsBlanketScarf_DISTR.ini
-[01:06:28:339] 	INI : Data\DNPCsChordophones_DISTR.ini
-[01:06:28:343] 	INI : Data\DNPCsDruidBackpack_DISTR.ini
-[01:06:28:348] 	INI : Data\DNPCsFishingGear_DISTR.ini
-[01:06:28:353] 	INI : Data\Dagri'Lon_DISTR.ini
-[01:06:28:359] 	INI : Data\DesecrationForNPCs_DISTR.ini
-[01:06:28:362] 	INI : Data\DirtandBlood__DISTR.ini
-[01:06:28:369] 	INI : Data\DragonsFallDown_DISTR.ini
-[01:06:28:374] 	INI : Data\DynamicBlockHit_DISTR.ini
-[01:06:28:379] 	INI : Data\EEOS_EX_Apocalypse_DISTR.ini
-[01:06:28:387] 	INI : Data\EEOS_EX_Mysticism_DISTR.ini
-[01:06:28:392] 	INI : Data\EEOS_EX_Perks_DISTR.ini
-[01:06:28:397] 	INI : Data\EEOS_EX_Shouts_DISTR.ini
-[01:06:28:403] 	INI : Data\EEOS_EX_Thunderchild_DISTR.ini
-[01:06:28:410] 	INI : Data\EEOS_EX_Triumvirate_DISTR.ini
-[01:06:28:416] 	INI : Data\ElementalDestructionMagicReduxSpellsForNPCs_DISTR.ini
-[01:06:28:423] 	INI : Data\Elytra ENB Light_DISTR.ini
-[01:06:28:426] 	INI : Data\EquipSpellTomesNELRtoNPCs_DISTR.ini
-[01:06:28:431] 	INI : Data\Footprints_BeyondSkyrimBruma_DISTR.ini
-[01:06:28:438] 	INI : Data\Footprints_DISTR.ini
-[01:06:28:446] 	INI : Data\Ghostlight_DISTR.ini
-[01:06:28:451] 	INI : Data\Goldenhills_DISTRI.ini
-[01:06:28:454] 	INI : Data\HeelsFix_DISTR.ini
-[01:06:28:457] 	INI : Data\Helmet Toggle_DISTR.ini
-[01:06:28:465] 	INI : Data\Immersive Death Cycle_DISTR.ini
-[01:06:28:471] 	INI : Data\Immersive Equipping Animations_DISTR.ini
-[01:06:28:478] 	INI : Data\JS Emissive Eyes SE - DraugrMCO_DISTR.ini
-[01:06:28:481] 	INI : Data\JS Emissive Eyes SE - Johnskyrim_DISTR.ini
-[01:06:28:486] 	INI : Data\KS Dragon Overhaul 2_DISTR.ini
-[01:06:28:493] 	INI : Data\KYE_DraugrMCO_DISTR.ini
-[01:06:28:501] 	INI : Data\KatanaPractical_DISTRI.ini
-[01:06:28:506] 	INI : Data\Lightpower_DISTR.ini
-[01:06:28:512] 	INI : Data\Morndas_DISTR.ini
-[01:06:28:518] 	INI : Data\Mysticism Conjuration_DISTR.ini
-[01:06:28:527] 	INI : Data\Mysticism Destruction_DISTR.ini
-[01:06:28:536] 	INI : Data\Mysticism Restoration_DISTR.ini
-[01:06:28:545] 	INI : Data\MysticismSpellsForNPCsNew_DISTR.ini
-[01:06:28:553] 	INI : Data\NPC No Block Exhaustion_DISTR.ini
-[01:06:28:558] 	INI : Data\NPC_Trap_Safety_DISTR.ini
-[01:06:28:565] 	INI : Data\NPCs Take Cover__DISTR.ini
-[01:06:28:572] 	INI : Data\NPCs_Wear_Amulets_Of_Mara_DISTR.ini
-[01:06:28:576] 	INI : Data\PotionsForNPCs_DISTR.ini
-[01:06:28:583] 	INI : Data\ProjectAhoTribunalIntegrationSPID_DISTR.ini
-[01:06:28:589] 	INI : Data\Qa'Dojo_DISTR.ini
-[01:06:28:595] 	INI : Data\RASS - Visual Effects_DISTR.ini
-[01:06:28:602] 	INI : Data\RSVAsianBreton_DISTR.ini
-[01:06:28:607] 	INI : Data\RSVAsianImperial_DISTR.ini
-[01:06:28:611] 	INI : Data\RSVAsianNord_DISTR.ini
-[01:06:28:614] 	INI : Data\RSVAsianRedguard_DISTR.ini
-[01:06:28:618] 	INI : Data\RSVBnPteeth_DISTR.ini
-[01:06:28:623] 	INI : Data\RSVFantasyAltmerF_DISTR.ini
-[01:06:28:628] 	INI : Data\RSVFantasyAltmerM_DISTR.ini
-[01:06:28:632] 	INI : Data\RSVFantasyBosmerF_DISTR.ini
-[01:06:28:636] 	INI : Data\RSVFantasyBosmerM_DISTR.ini
-[01:06:28:640] 	INI : Data\RSVFantasyDunmerF_DISTR.ini
-[01:06:28:644] 	INI : Data\RSVFantasyDunmerM_DISTR.ini
-[01:06:28:648] 	INI : Data\RSVFantasyOrsimerF_DISTR.ini
-[01:06:28:652] 	INI : Data\RSVFantasyOrsimerM_DISTR.ini
-[01:06:28:655] 	INI : Data\RSVHeadNormals_DISTR.ini
-[01:06:28:660] 	INI : Data\RSVVampireBeast_DISTR.ini
-[01:06:28:663] 	INI : Data\RSV_DISTR.ini
-[01:06:28:668] 	INI : Data\Reanimated Detector_DISTR.ini
-[01:06:28:673] 	INI : Data\Rumarin_DISTR.ini
-[01:06:28:679] 	INI : Data\SekiroCombat_II_DISTR.ini
-[01:06:28:685] 	INI : Data\Silentroll_DISTR.ini
-[01:06:28:692] 	INI : Data\SimplestHorses_DISTR.ini
-[01:06:28:696] 	INI : Data\Sonders_Keyword_Distribution_SPID_DISTR.ini
-[01:06:28:702] 	INI : Data\Sprites or Specters ENB Light_DISTR.ini
-[01:06:28:706] 	INI : Data\StormCallingMagicForNPCs_DISTR.ini
-[01:06:28:711] 	INI : Data\StrangeRunes_DISTR.ini
-[01:06:28:717] 	INI : Data\TSOS_BODYFULL_RSV_DISTR.ini
-[01:06:28:724] 	INI : Data\TSOS_HEAD_RSV_DISTR.ini
-[01:06:28:731] 	INI : Data\Taunt Your Enemies_DISTR.ini
-[01:06:28:735] 	INI : Data\Thaumaturgy_DISTR.ini
-[01:06:28:740] 	INI : Data\ThunderchildShoutsForNPCs_DISTR.ini
-[01:06:28:746] 	INI : Data\TriumvirateShadowSpellsForNPCs_DISTR.ini
-[01:06:28:752] 	INI : Data\UNDKeywords_DISTR.ini
-[01:06:28:756] 	INI : Data\Use Those Blankets_DISTR.ini
-[01:06:28:760] 	INI : Data\Valgus_DISTR.ini
-[01:06:28:766] 	INI : Data\ValravnSPIDUncloak_DISTR.ini
-[01:06:28:772] 	INI : Data\VanillaShoutsForNPCs_DISTR.ini
-[01:06:28:779] 	INI : Data\Vokriinator Black_DISTR.ini
-[01:06:28:787] 	INI : Data\VulcanoForNPCs_DISTR.ini
-[01:06:28:791] 	INI : Data\VulcanoLoot_DISTR.ini
-[01:06:28:795] 	INI : Data\VulcanoNPC_DISTR.ini
-[01:06:28:799] 	INI : Data\WK_Enemies_DISTR.ini
-[01:06:28:804] 	INI : Data\WetAndCold_Gear_DISTR.ini
-[01:06:28:812] 	INI : Data\ZZZZ 1. GENERAL_BANDITS_DISTRIBUTION_DISTR.ini
-[01:06:28:820] 	INI : Data\ZZZZ 2. GENERAL_VAMPIRES_DISTRIBUTION_DISTR.ini
-[01:06:28:825] 	INI : Data\ZZZZ 3. GENERAL_MAGES_DISTRIBUTION_DISTR.ini
-[01:06:28:832] 	INI : Data\ZZZZ 4. GENERAL_MISC_DISTRIBUTION_DISTR.ini
-[01:06:28:838] 	INI : Data\ZZZZ 5. SPECIFIC_DISTRIBUTION_DISTR.ini.ini
-[01:06:28:844] 	INI : Data\Zora_DISTR.ini
-[01:06:28:851] 	INI : Data\blockenchantments_DISTR.ini
-[01:06:28:858] 	INI : Data\dD - Enhanced Blood Main__DISTR.ini
-[01:06:28:865] 	INI : Data\evgnnsmp_BLANK_DISTR.ini
-[01:06:28:872] 	INI : Data\rmb_a_guards_shared_DISTR.ini
-[01:06:28:877] 	INI : Data\rmb_a_sons_of_skyrim_guards_DISTR.ini
-[01:06:28:882] 	INI : Data\rmb_a_sons_of_skyrim_named_DISTR.ini
-[01:06:28:888] 	INI : Data\rmb_a_sons_of_skyrim_stormcloaks_DISTR.ini
-[01:06:28:893] 	INI : Data\rmb_kw_0_core_DISTR.ini
-[01:06:28:901] 	INI : Data\rmb_kw_1_factions_DISTR.ini
-[01:06:28:909] 	INI : Data\rmb_kw_1_jobs_DISTR.ini
-[01:06:28:916] 	INI : Data\rmb_kw_1_skill_levels_DISTR.ini
-[01:06:28:923] 	INI : Data\rmb_kw_2_combat_styles_DISTR.ini
-[01:06:28:927] 	INI : Data\rmb_kw_2_types_DISTR.ini
-[01:06:28:932] 	INI : Data\rmb_kw_3_classes_DISTR.ini
-[01:06:28:936] 	INI : Data\rmb_kw_3_forsworn_classes_DISTR.ini
-[01:06:28:941] 	INI : Data\rmb_kw_6_outfits_DISTR.ini
-[01:06:28:946] 	INI : Data\rmb_kw_7_outfits_bandits_DISTR.ini
-[01:06:28:950] 	INI : Data\rmb_kw_z_deprecated_DISTR.ini
-[01:06:28:954] 	INI : Data\shadowscale_DISTR.ini
-[01:06:28:957] 	INI : Data\zzMiraak-RSV-Exclusion_DISTR.ini
-[01:06:28:963] ### HOOKS ########################################
-[01:06:28:963] Installed actor load hooks
-[01:06:28:963] 🧥Outfit Manager
-[01:06:28:963] 		📝Registered for struct RE::TESFormDeleteEvent.
-[01:06:28:963] 		📝Registered for struct RE::TESDeathEvent.
-[01:06:28:963] 		🪝Installed InitItemImpl hook.
-[01:06:28:963] 		🪝Installed ShouldBackgroundClone hook.
-[01:06:28:963] 		🪝Installed Load3D hook.
-[01:06:28:963] 		🪝Installed Resurrect hook.
-[01:06:28:963] 		🪝Installed ResetReference hook.
-[01:06:28:963] 		🪝Installed SetOutfit hook.
-[01:06:28:963] 💀Death Distribution
-[01:06:28:963] 		📝Registered for struct RE::TESDeathEvent.
-[01:06:28:963] 		🪝Installed ShouldBackgroundClone hook.
-[01:06:29:002] ### MERGES #######################################
-[01:06:29:002] Failed to dispatch message to MergeMapper
-[01:06:29:002] INFO - MergeMapper not detected
-[01:09:34:342] ### LOOKUP #######################################
-[01:09:34:342] Keyword
-[01:09:34:354] 		[WetAndCold_Gear_DISTR.ini] Filter [0x800] (Nolvus Awakening Combat Scaling Overhaul - Boss.esp) SKIP - formID doesn't exist
-[01:09:34:354] 		[ZZZZ 1. GENERAL_BANDITS_DISTRIBUTION_DISTR.ini] Filter (PenetratorFaction) SKIP - editorID doesn't exist
-[01:09:34:381] Faction
-[01:09:34:381] Perk
-[01:09:34:381] 	[KYE_DraugrMCO_DISTR.ini] [0x843] (know_your_enemy_redux.esp) FAIL - formID doesn't exist
-[01:09:34:381] 	[KYE_DraugrMCO_DISTR.ini] [0x832] (know_your_enemy_redux.esp) FAIL - formID doesn't exist
-[01:09:34:381] 	[KYE_DraugrMCO_DISTR.ini] [0x83F] (know_your_enemy_redux.esp) FAIL - formID doesn't exist
-[01:09:34:382] 	[KYE_DraugrMCO_DISTR.ini] [0x841] (know_your_enemy_redux.esp) FAIL - formID doesn't exist
-[01:09:34:383] 	[Vokriinator Black_DISTR.ini] [0x62] (Vokriinator Black.esp) FAIL - formID doesn't exist
-[01:09:34:383] 	[Vokriinator Black_DISTR.ini] [0x63] (Vokriinator Black.esp) FAIL - formID doesn't exist
-[01:09:34:385] Shout
-[01:09:34:386] Package
-[01:09:34:386] Outfit
-[01:09:34:390] Skin
-[01:09:34:390] Item
-[01:09:34:404] 		[Mysticism Restoration_DISTR.ini] Filter (NONE) SKIP - editorID doesn't exist
-[01:09:34:408] 		[MysticismSpellsForNPCsNew_DISTR.ini] Filter (25) SKIP - editorID doesn't exist
-[01:09:34:410] 	Sorting keywords...
-[01:09:34:417] 		INFO - TEETHmissing [KYWD:FF002240] and TEETHgap [KYWD:FF002243] may depend on each other. Distribution might not work as expected.
-[01:09:34:417] 			Full path: TEETHmissing [KYWD:FF002240] -> TEETHgap [KYWD:FF002243] -> TEETHmissing [KYWD:FF002240]
-[01:09:34:417] 		INFO - TEETHmissing [KYWD:FF002240] and TEETHwhite [KYWD:FF002244] may depend on each other. Distribution might not work as expected.
-[01:09:34:417] 			Full path: TEETHmissing [KYWD:FF002240] -> TEETHwhite [KYWD:FF002244] -> TEETHmissing [KYWD:FF002240]
-[01:09:34:418] 		INFO - TEETHheavyyellow [KYWD:FF00223C] and TEETHmissing [KYWD:FF002240] may depend on each other. Distribution might not work as expected.
-[01:09:34:418] 			Full path: TEETHheavyyellow [KYWD:FF00223C] -> TEETHmissing [KYWD:FF002240] -> TEETHheavyyellow [KYWD:FF00223C]
-[01:09:34:418] 		INFO - TEETHheavyyellow [KYWD:FF00223C] and TEETHgap [KYWD:FF002243] may depend on each other. Distribution might not work as expected.
-[01:09:34:418] 			Full path: TEETHheavyyellow [KYWD:FF00223C] -> TEETHgap [KYWD:FF002243] -> TEETHheavyyellow [KYWD:FF00223C]
-[01:09:34:418] 		INFO - TEETHheavyyellow [KYWD:FF00223C] and TEETHwhite [KYWD:FF002244] may depend on each other. Distribution might not work as expected.
-[01:09:34:418] 			Full path: TEETHheavyyellow [KYWD:FF00223C] -> TEETHwhite [KYWD:FF002244] -> TEETHheavyyellow [KYWD:FF00223C]
-[01:09:34:436] 		INFO - isFactionGuardMorthal [KYWD:FF0022C9] is referencing itself.
-[01:09:34:437] 		INFO - isFactionGuardWinterhold [KYWD:FF0022CE] is referencing itself.
-[01:09:34:448] 	Sorted keywords: 
-[01:09:34:448] 		RSVignore3 [KYWD:FF002234]
-[01:09:34:448] 		RSVignore2 [KYWD:FF002235]
-[01:09:34:448] 		OCF_ActiHeatSource_FireMedium [KYWD:FF0021F1]
-[01:09:34:448] 		ks_DiverseDragonCollection_KYWD [KYWD:9B2AED64]
-[01:09:34:448] 		AshBreath_KYWD [KYWD:FE7A880C]
-[01:09:34:448] 		EnergyBreath_KYWD [KYWD:FE7A880D]
-[01:09:34:448] 		LeechBreath_KYWD [KYWD:FE7A880E]
-[01:09:34:448] 		LunarBreath_KYWD [KYWD:FE7A880F]
-[01:09:34:448] 		NapalmBreath_KYWD [KYWD:FE7A8810]
-[01:09:34:448] 		FireBreath_KYWD [KYWD:FE7A8811]
-[01:09:34:448] 		FrostBreath_KYWD [KYWD:FE7A8812]
-[01:09:34:448] 		NecromanticBreath_KYWD [KYWD:FE7A8813]
-[01:09:34:448] 		PlagueBreath_KYWD [KYWD:FE7A8814]
-[01:09:34:448] 		SandBreath_KYWD [KYWD:FE7A8815]
-[01:09:34:448] 		SteamBreath_KYWD [KYWD:FE7A8816]
-[01:09:34:448] 		VampiricBreath_KYWD [KYWD:FE7A8817]
-[01:09:34:448] 		ks_DragonFireType_KYWD [KYWD:9B2AED61]
-[01:09:34:448] 		ks_DragonFrostType_KYWD [KYWD:9B2AED62]
-[01:09:34:448] 		ks_DragonShockType_KYWD [KYWD:9B2EB969]
-[01:09:34:448] 		ks_DragonNoFlight_KYWD [KYWD:9B2B3E65]
-[01:09:34:448] 		TEETHdremora [KYWD:FF002237]
-[01:09:34:448] 		TEETHsharp [KYWD:FF002239]
-[01:09:34:448] 		TEETHtoothless [KYWD:FF002242]
-[01:09:34:448] 		RSVafflicted [KYWD:FF00224B]
-[01:09:34:448] 		RSVelder [KYWD:FF00224C]
-[01:09:34:448] 		RSVdremora [KYWD:FF00224D]
-[01:09:34:448] 		RSVsnow [KYWD:FF00224E]
-[01:09:34:448] 		RSVwerebear [KYWD:FF00224F]
-[01:09:34:448] 		RSVnord [KYWD:FF002250]
-[01:09:34:448] 		RSVimperial [KYWD:FF002252]
-[01:09:34:448] 		RSVredguard [KYWD:FF002253]
-[01:09:34:448] 		RSVdarkelf [KYWD:FF002254]
-[01:09:34:448] 		RSVhighelf [KYWD:FF002255]
-[01:09:34:448] 		RSVwoodelf [KYWD:FF002256]
-[01:09:34:448] 		RSVorc [KYWD:FF002257]
-[01:09:34:448] 		RSVignore [KYWD:FE2F3A0B]
-[01:09:34:448] 		SH_UniqueHorseKWD [KYWD:FEAE0DD5]
-[01:09:34:448] 		PlayerKeyword [KYWD:00099306]
-[01:09:34:448] 		ElderNPC [KYWD:FE960D80]
-[01:09:34:448] 		UND_ExcludeDodge [KYWD:FEA3F810]
-[01:09:34:448] 		WK_ActorTypeWind [KYWD:FF002269]
-[01:09:34:448] 		ActorTypeNobandit [KYWD:FF00226F]
-[01:09:34:448] 		ActorTypeNomage [KYWD:FF002271]
-[01:09:34:448] 		isPotentialFollower [KYWD:FF002276]
-[01:09:34:448] 		isCurrentFollower [KYWD:FF002277]
-[01:09:34:448] 		RaceAltmer [KYWD:FF002279]
-[01:09:34:448] 		RaceArgonian [KYWD:FF00227A]
-[01:09:34:448] 		RaceBosmer [KYWD:FF00227B]
-[01:09:34:448] 		RaceBreton [KYWD:FF00227C]
-[01:09:34:448] 		RaceDunmer [KYWD:FF00227D]
-[01:09:34:448] 		RaceImperial [KYWD:FF00227E]
-[01:09:34:448] 		RaceKhajiit [KYWD:FF00227F]
-[01:09:34:448] 		RaceNord [KYWD:FF002280]
-[01:09:34:448] 		RaceOrsimer [KYWD:FF002281]
-[01:09:34:448] 		RaceRedguard [KYWD:FF002282]
-[01:09:34:448] 		RaceElder [KYWD:FF002283]
-[01:09:34:448] 		RaceSnowElf [KYWD:FF002284]
-[01:09:34:448] 		RaceVampire [KYWD:FF002285]
-[01:09:34:448] 		isCreatureVamp2 [KYWD:FF00228F]
-[01:09:34:448] 		isCreatureWereCreature [KYWD:FF002292]
-[01:09:34:448] 		isFactionPenitus [KYWD:FF00229D]
-[01:09:34:448] 		isFactionImperial [KYWD:FF00229E]
-[01:09:34:448] 		isImperialCommander [KYWD:FF00229F]
-[01:09:34:448] 		isFactionStormcloak [KYWD:FF0022A0]
-[01:09:34:448] 		isStormcloakCommander [KYWD:FF0022A1]
-[01:09:34:448] 		isFactionThalmor [KYWD:FF0022A2]
-[01:09:34:448] 		isFactionAlikr [KYWD:FF0022A3]
-[01:09:34:448] 		isFactionBandit [KYWD:FF0022A4]
-[01:09:34:448] 		isFactionNecromancer [KYWD:FF0022A5]
-[01:09:34:448] 		isFactionSilverhand [KYWD:FF0022A6]
-[01:09:34:448] 		isFactionBlackBlood [KYWD:FF0022A7]
-[01:09:34:448] 		isFactionBloodHorker [KYWD:FF0022A8]
-[01:09:34:448] 		isFactionBrokenOar [KYWD:FF0022A9]
-[01:09:34:448] 		isFactionWarlock [KYWD:FF0022AA]
-[01:09:34:448] 		isFactionForsworn [KYWD:FF0022AB]
-[01:09:34:448] 		isFactionCrimeEastmarch [KYWD:FF0022AC]
-[01:09:34:448] 		isFactionCrimeFalkreath [KYWD:FF0022AD]
-[01:09:34:448] 		isFactionCrimeHaafingar [KYWD:FF0022AE]
-[01:09:34:448] 		isFactionCrimeHjaalmarch [KYWD:FF0022AF]
-[01:09:34:448] 		isFactionCrimePale [KYWD:FF0022B0]
-[01:09:34:448] 		isFactionCrimeReach [KYWD:FF0022B1]
-[01:09:34:448] 		isFactionCrimeRift [KYWD:FF0022B2]
-[01:09:34:448] 		isFactionCrimeWhiterun [KYWD:FF0022B3]
-[01:09:34:448] 		isFactionCrimeWinterhold [KYWD:FF0022B4]
-[01:09:34:448] 		isFactionCrimeImperial [KYWD:FF0022B5]
-[01:09:34:448] 		isFactionCrimeStormcloaks [KYWD:FF0022B6]
-[01:09:34:448] 		isFactionCrimeKhajiitCaravans [KYWD:FF0022B7]
-[01:09:34:448] 		isFactionCrimeOrcs [KYWD:FF0022B8]
-[01:09:34:448] 		isFactionCrimeThievesGuild [KYWD:FF0022B9]
-[01:09:34:448] 		isFactionDialogueGuard [KYWD:FF0022BA]
-[01:09:34:448] 		isFactionDialogueSoldier [KYWD:FF0022BB]
-[01:09:34:448] 		isFactionGuardDawnstar [KYWD:FF0022C6]
-[01:09:34:448] 		isFactionGuardFalkreath [KYWD:FF0022C7]
-[01:09:34:448] 		isFactionGuardMarkarth [KYWD:FF0022C8]
-[01:09:34:448] 		isFactionGuardMorthal [KYWD:FF0022C9]
-[01:09:34:448] 		isFactionGuardRiften [KYWD:FF0022CA]
-[01:09:34:448] 		isFactionGuardSolitude [KYWD:FF0022CB]
-[01:09:34:448] 		isFactionGuardWhiterun [KYWD:FF0022CC]
-[01:09:34:448] 		isFactionGuardWindhelm [KYWD:FF0022CD]
-[01:09:34:448] 		isFactionGuardWinterhold [KYWD:FF0022CE]
-[01:09:34:448] 		isFactionDawnguard [KYWD:FF0022D8]
-[01:09:34:449] 		isFactionCrimeVampire [KYWD:FF0022D9]
-[01:09:34:449] 		isFactionVampire [KYWD:FF0022DA]
-[01:09:34:449] 		isFactionVampireThrall [KYWD:FF0022DB]
-[01:09:34:449] 		isFactionVampireMinions [KYWD:FF0022DC]
-[01:09:34:449] 		isFactionSoulCairn [KYWD:FF0022DD]
-[01:09:34:449] 		isFactionSolstheimBandit [KYWD:FF0022DE]
-[01:09:34:449] 		isFactionSolstheimCultist [KYWD:FF0022DF]
-[01:09:34:449] 		isFactionRavenRockGuard [KYWD:FF0022E0]
-[01:09:34:449] 		isFactionPillarBuilder [KYWD:FF0022E1]
-[01:09:34:449] 		isFactionHagraven [KYWD:FF0022E3]
-[01:09:34:449] 		isFactionVigilantStendarr [KYWD:FF0022E4]
-[01:09:34:449] 		isFactionNorthwatch [KYWD:FF0022E5]
-[01:09:34:449] 		isFactionPrey [KYWD:FF0022E6]
-[01:09:34:449] 		JobAnimalTrainer [KYWD:FF0022E7]
-[01:09:34:449] 		JobApothecary [KYWD:0002CDC0]
-[01:09:34:449] 		JobBard [KYWD:FF0022E8]
-[01:09:34:449] 		JobBlacksmith [KYWD:00013F08]
-[01:09:34:449] 		JobCarriage [KYWD:FF0022E9]
-[01:09:34:449] 		JobCourtWizard [KYWD:00044A4B]
-[01:09:34:449] 		JobFarmer [KYWD:0001D9E5]
-[01:09:34:449] 		JobFence [KYWD:FF0022EA]
-[01:09:34:449] 		JobFletcher [KYWD:000361B9]
-[01:09:34:449] 		JobGuardCaptain [KYWD:FF0022EB]
-[01:09:34:449] 		JobHostler [KYWD:0002CDBE]
-[01:09:34:449] 		JobHousecarl [KYWD:0002CDBF]
-[01:09:34:449] 		JobHunter [KYWD:0001E6FA]
-[01:09:34:449] 		JobInnkeeper [KYWD:00013F09]
-[01:09:34:449] 		JobInnServer [KYWD:FF0022EC]
-[01:09:34:449] 		JobJarl [KYWD:0002B35C]
-[01:09:34:449] 		JobJeweler [KYWD:FF0022ED]
-[01:09:34:449] 		JobJusticiar [KYWD:FF0022EE]
-[01:09:34:449] 		JobLumberjack [KYWD:0001D9E6]
-[01:09:34:449] 		JobMerchant [KYWD:0001BDA2]
-[01:09:34:449] 		JobMiner [KYWD:000332C0]
-[01:09:34:449] 		JobMisc [KYWD:00038ADD]
-[01:09:34:449] 		JobOrcChief [KYWD:00023DD7]
-[01:09:34:449] 		JobOrcWiseWoman [KYWD:00023DD8]
-[01:09:34:449] 		JobPriest [KYWD:00039221]
-[01:09:34:449] 		JobRentRoom [KYWD:FF0022EF]
-[01:09:34:449] 		JobSpellVendor [KYWD:000361BA]
-[01:09:34:449] 		JobSteward [KYWD:0002EBE3]
-[01:09:34:449] 		JobStreetVendor [KYWD:FF0022F0]
-[01:09:34:449] 		JobTailor [KYWD:FF0022F1]
-[01:09:34:449] 		JobTrainerAlchemy [KYWD:FF0022F2]
-[01:09:34:449] 		JobTrainerAlteration [KYWD:FF0022F3]
-[01:09:34:449] 		JobTrainerBlock [KYWD:FF0022F4]
-[01:09:34:449] 		JobTrainerConjuration [KYWD:FF0022F5]
-[01:09:34:449] 		JobTrainerDestruction [KYWD:FF0022F6]
-[01:09:34:449] 		JobTrainerEnchanting [KYWD:FF0022F7]
-[01:09:34:449] 		JobTrainer [KYWD:FF0022F8]
-[01:09:34:449] 		JobTrainerHeavyArmor [KYWD:FF0022F9]
-[01:09:34:449] 		JobTrainerIllusion [KYWD:FF0022FA]
-[01:09:34:449] 		JobTrainerLightArmor [KYWD:FF0022FB]
-[01:09:34:449] 		JobTrainerLockpicking [KYWD:FF0022FC]
-[01:09:34:449] 		JobTrainerMarksman [KYWD:FF0022FD]
-[01:09:34:449] 		JobTrainerOneHanded [KYWD:FF0022FE]
-[01:09:34:449] 		JobTrainerPickpocket [KYWD:FF0022FF]
-[01:09:34:449] 		JobTrainerRestoration [KYWD:FF002300]
-[01:09:34:449] 		JobTrainerSmithing [KYWD:FF002301]
-[01:09:34:449] 		JobTrainerSneak [KYWD:FF002302]
-[01:09:34:449] 		JobTrainerSpeechcraft [KYWD:FF002303]
-[01:09:34:449] 		JobTrainerTwoHanded [KYWD:FF002304]
-[01:09:34:449] 		isJailer [KYWD:FF002307]
-[01:09:34:449] 		isMasterLightArmor [KYWD:FF002308]
-[01:09:34:449] 		isExpertLightArmor [KYWD:FF002309]
-[01:09:34:449] 		isAdeptLightArmor [KYWD:FF00230A]
-[01:09:34:449] 		isApprenticeLightArmor [KYWD:FF00230B]
-[01:09:34:449] 		isMasterHeavyArmor [KYWD:FF00230C]
-[01:09:34:449] 		isExpertHeavyArmor [KYWD:FF00230D]
-[01:09:34:449] 		isAdeptHeavyArmor [KYWD:FF00230E]
-[01:09:34:449] 		isApprenticeHeavyArmor [KYWD:FF00230F]
-[01:09:34:449] 		isMasterBlock [KYWD:FF002310]
-[01:09:34:449] 		isExpertBlock [KYWD:FF002311]
-[01:09:34:449] 		isAdeptBlock [KYWD:FF002312]
-[01:09:34:449] 		isApprenticeBlock [KYWD:FF002313]
-[01:09:34:449] 		isMasterMarksman [KYWD:FF002314]
-[01:09:34:449] 		isExpertMarksman [KYWD:FF002315]
-[01:09:34:449] 		isAdeptMarksman [KYWD:FF002316]
-[01:09:34:449] 		isApprenticeMarksman [KYWD:FF002317]
-[01:09:34:449] 		isMasterTwoHanded [KYWD:FF002318]
-[01:09:34:449] 		isExpertTwoHanded [KYWD:FF002319]
-[01:09:34:449] 		isAdeptTwoHanded [KYWD:FF00231A]
-[01:09:34:449] 		isApprenticeTwoHanded [KYWD:FF00231B]
-[01:09:34:449] 		isMasterOneHanded [KYWD:FF00231C]
-[01:09:34:449] 		isExpertOneHanded [KYWD:FF00231D]
-[01:09:34:449] 		isAdeptOneHanded [KYWD:FF00231E]
-[01:09:34:449] 		isApprenticeOneHanded [KYWD:FF00231F]
-[01:09:34:449] 		isMasterAlteration [KYWD:FF002320]
-[01:09:34:449] 		isExpertAlteration [KYWD:FF002321]
-[01:09:34:449] 		isAdeptAlteration [KYWD:FF002322]
-[01:09:34:449] 		isApprenticeAlteration [KYWD:FF002323]
-[01:09:34:449] 		isMasterConjuration [KYWD:FF002324]
-[01:09:34:449] 		isExpertConjuration [KYWD:FF002325]
-[01:09:34:449] 		isAdeptConjuration [KYWD:FF002326]
-[01:09:34:449] 		isApprenticeConjuration [KYWD:FF002327]
-[01:09:34:449] 		isMasterDestruction [KYWD:FF002328]
-[01:09:34:449] 		isExpertDestruction [KYWD:FF002329]
-[01:09:34:449] 		isAdeptDestruction [KYWD:FF00232A]
-[01:09:34:449] 		isApprenticeDestruction [KYWD:FF00232B]
-[01:09:34:449] 		isMasterIllusion [KYWD:FF00232C]
-[01:09:34:449] 		isExpertIllusion [KYWD:FF00232D]
-[01:09:34:449] 		isAdeptIllusion [KYWD:FF00232E]
-[01:09:34:449] 		isApprenticeIllusion [KYWD:FF00232F]
-[01:09:34:449] 		isMasterRestoration [KYWD:FF002330]
-[01:09:34:449] 		isExpertRestoration [KYWD:FF002331]
-[01:09:34:449] 		isAdeptRestoration [KYWD:FF002332]
-[01:09:34:449] 		isApprenticeRestoration [KYWD:FF002333]
-[01:09:34:449] 		ActorCSBoss [KYWD:FF002338]
-[01:09:34:449] 		ActorCSTank [KYWD:FF002339]
-[01:09:34:449] 		ActorCSMage [KYWD:FF00233A]
-[01:09:34:449] 		ActorCSMissile [KYWD:FF00233B]
-[01:09:34:449] 		ActorCSMelee [KYWD:FF00233C]
-[01:09:34:449] 		ActorMagicTypeFire [KYWD:FF002340]
-[01:09:34:449] 		ActorMagicTypeIce [KYWD:FF002341]
-[01:09:34:449] 		ActorMagicTypeStorm [KYWD:FF002343]
-[01:09:34:449] 		ActorClassMelee [KYWD:FF002348]
-[01:09:34:449] 		ActorClassRanged [KYWD:FF002349]
-[01:09:34:449] 		ActorClassHybrid [KYWD:FF00234A]
-[01:09:34:449] 		ActorClassWizard [KYWD:FF00234B]
-[01:09:34:449] 		ActorClassMageWarlockAll [KYWD:FF00234C]
-[01:09:34:449] 		ActorClassMageWitchAll [KYWD:FF00234D]
-[01:09:34:449] 		ActorClassMageCollegeGuard [KYWD:FF002353]
-[01:09:34:449] 		isClassBanditOneHanded_REQ [KYWD:FF002357]
-[01:09:34:449] 		isClassBanditTwoHanded_REQ [KYWD:FF002358]
-[01:09:34:449] 		isClassBanditRanged_REQ [KYWD:FF002359]
-[01:09:34:449] 		isOREO [KYWD:FF00235A]
-[01:09:34:449] 		outfitDaedric [KYWD:FF002364]
-[01:09:34:449] 		outfitDraugr [KYWD:FF002365]
-[01:09:34:449] 		outfitDwarven [KYWD:FF002366]
-[01:09:34:449] 		outfitHasNoHelmet [KYWD:FF002367]
-[01:09:34:449] 		outfitDwarvenSimple [KYWD:FF002368]
-[01:09:34:449] 		outfitEbony [KYWD:FF002369]
-[01:09:34:449] 		outfitEbonyHasNoHelmet [KYWD:FF00236A]
-[01:09:34:449] 		outfitEbonySimple [KYWD:FF00236B]
-[01:09:34:449] 		outfitElven [KYWD:FF00236C]
-[01:09:34:449] 		outfitElvenSimple [KYWD:FF00236D]
-[01:09:34:449] 		outfitElvenGilded [KYWD:FF00236E]
-[01:09:34:449] 		outfitElvenGildedSimple [KYWD:FF00236F]
-[01:09:34:449] 		outfitHide [KYWD:FF002370]
-[01:09:34:449] 		outfitHideSimple [KYWD:FF002371]
-[01:09:34:449] 		outfitIron [KYWD:FF002372]
-[01:09:34:449] 		outfitIronHide [KYWD:FF002373]
-[01:09:34:449] 		outfitIronBanded [KYWD:FF002374]
-[01:09:34:449] 		outfitHasNoShield [KYWD:FF002375]
-[01:09:34:449] 		outfitLeather [KYWD:FF002376]
-[01:09:34:449] 		outfitLeatherSimple [KYWD:FF002377]
-[01:09:34:449] 		outfitOrcish [KYWD:FF002378]
-[01:09:34:449] 		outfitOrcishStronghold [KYWD:FF002379]
-[01:09:34:449] 		outfitScaledA [KYWD:FF00237A]
-[01:09:34:449] 		outfitScaledASimple [KYWD:FF00237B]
-[01:09:34:449] 		outfitScaledB [KYWD:FF00237C]
-[01:09:34:449] 		outfitScaledBSimple [KYWD:FF00237D]
-[01:09:34:449] 		outfitSteel [KYWD:FF00237E]
-[01:09:34:449] 		outfitSteelPlate [KYWD:FF00237F]
-[01:09:34:449] 		outfitSteelPlateBalgruuf [KYWD:FF002380]
-[01:09:34:449] 		outfitStudded [KYWD:FF002381]
-[01:09:34:449] 		outfitStuddedSimple [KYWD:FF002382]
-[01:09:34:449] 		outfitClothesSleep [KYWD:FF002383]
-[01:09:34:449] 		outfitClothesFarm [KYWD:FF002384]
-[01:09:34:449] 		outfitClothesFarmHide [KYWD:FF002385]
-[01:09:34:449] 		outfitClothesMerchant [KYWD:FF002386]
-[01:09:34:449] 		outfitClothesMiner [KYWD:FF002387]
-[01:09:34:449] 		outfitClothesFine [KYWD:FF002388]
-[01:09:34:449] 		outfitStormcloak [KYWD:FF002389]
-[01:09:34:449] 		outfitSonsOfficer [KYWD:FF00238A]
-[01:09:34:449] 		outfitSonsOfficerBear [KYWD:FF00238B]
-[01:09:34:449] 		outfitSonsSoldierCaptive [KYWD:FF00238C]
-[01:09:34:449] 		outfitSonsSoldierCaptiveNoCuffs [KYWD:FF00238D]
-[01:09:34:449] 		outfitImperialHeavy [KYWD:FF00238E]
-[01:09:34:449] 		outfitImperialHeavyOfficer [KYWD:FF00238F]
-[01:09:34:449] 		outfitImperialOfficer [KYWD:FF002390]
-[01:09:34:449] 		outfitImperialLight [KYWD:FF002391]
-[01:09:34:449] 		outfitImperialStudded [KYWD:FF002392]
-[01:09:34:449] 		outfitImperialLightMixed [KYWD:FF002393]
-[01:09:34:449] 		outfitImperialJusticiar [KYWD:FF002394]
-[01:09:34:449] 		outfitImperialArcher [KYWD:FF002395]
-[01:09:34:449] 		outfitImperialWhiterunSiege [KYWD:FF002396]
-[01:09:34:449] 		outfitPenitus [KYWD:FF002397]
-[01:09:34:449] 		outfitVigilantOfStendarr [KYWD:FF002398]
-[01:09:34:449] 		outfitVigilantOfStendarrRobes [KYWD:FF002399]
-[01:09:34:449] 		outfitThalmorArmor [KYWD:FF00239A]
-[01:09:34:449] 		outfitThalmorRobes [KYWD:FF00239B]
-[01:09:34:449] 		outfitGuardFalkreath [KYWD:FF00239C]
-[01:09:34:449] 		outfitGuardHaafingar [KYWD:FF00239D]
-[01:09:34:449] 		outfitGuardHjaalmarch [KYWD:FF00239E]
-[01:09:34:449] 		outfitGuardRift [KYWD:FF00239F]
-[01:09:34:449] 		outiftHasNoShield [KYWD:FF0023A0]
-[01:09:34:449] 		outfitGuardPale [KYWD:FF0023A1]
-[01:09:34:449] 		outfitGuardWhiterun [KYWD:FF0023A2]
-[01:09:34:449] 		outfitGuardReach [KYWD:FF0023A3]
-[01:09:34:449] 		outfitGuardWindhelm [KYWD:FF0023A4]
-[01:09:34:449] 		outfitGuardWinterhold [KYWD:FF0023A5]
-[01:09:34:449] 		outfitCompanion [KYWD:FF0023A6]
-[01:09:34:449] 		outfitCompanionSimple [KYWD:FF0023A7]
-[01:09:34:449] 		outfitDawnguardAny [KYWD:FF0023A8]
-[01:09:34:449] 		outfitDawnguardHeavy [KYWD:FF0023A9]
-[01:09:34:449] 		outfitDawnguardLight [KYWD:FF0023AA]
-[01:09:34:450] 		outfitVampire [KYWD:FF0023AB]
-[01:09:34:450] 		outfitVampireVolkihar [KYWD:FF0023AC]
-[01:09:34:450] 		outfitVampireVolkiharClothes [KYWD:FF0023AD]
-[01:09:34:450] 		outfitVampireBoss [KYWD:FF0023AE]
-[01:09:34:450] 		outfitNecromancer [KYWD:FF0023AF]
-[01:09:34:450] 		outfitWerewolfEbony [KYWD:FF0023B0]
-[01:09:34:450] 		outiftWerewolfHide [KYWD:FF0023B1]
-[01:09:34:450] 		outiftWerewolfIronBandedOutfit [KYWD:FF0023B2]
-[01:09:34:450] 		outiftWerewolfOrcishOutfit [KYWD:FF0023B3]
-[01:09:34:450] 		outiftWerewolfScaledOutfit [KYWD:FF0023B4]
-[01:09:34:450] 		outiftWerewolfSteelOutfit [KYWD:FF0023B5]
-[01:09:34:450] 		outiftWerewolfSteelPlateOutfit [KYWD:FF0023B6]
-[01:09:34:450] 		outiftWerewolfStuddedOutfit [KYWD:FF0023B7]
-[01:09:34:450] 		outfitBanditMissile [KYWD:FF0023B8]
-[01:09:34:450] 		outfitBanditMelee [KYWD:FF0023B9]
-[01:09:34:450] 		outfitShield20 [KYWD:FF0023BA]
-[01:09:34:450] 		outfitBanditMeleeHeavy [KYWD:FF0023BB]
-[01:09:34:450] 		outfitBanditBoss [KYWD:FF0023BC]
-[01:09:34:450] 		outfitBanditMage [KYWD:FF0023BD]
-[01:09:34:450] 		outfitBanditHeavyBoss [KYWD:FF0023BE]
-[01:09:34:450] 		outfitBanditHeavyBossMagic [KYWD:FF0023BF]
-[01:09:34:450] 		outfitBanditLightBoss [KYWD:FF0023C0]
-[01:09:34:450] 		outfitBanditHeavy [KYWD:FF0023C1]
-[01:09:34:450] 		outfitBanditLight [KYWD:FF0023C2]
-[01:09:34:450] 		outfitForswornMelee [KYWD:FF0023C3]
-[01:09:34:450] 		outfitForswornMissile [KYWD:FF0023C4]
-[01:09:34:450] 		outfitForswornMagic [KYWD:FF0023C5]
-[01:09:34:450] 		outfitForswornBoss [KYWD:FF0023C6]
-[01:09:34:450] 		outfitForswornBriarheart [KYWD:FF0023C7]
-[01:09:34:450] 		outfitForswornBriarheartMagic [KYWD:FF0023C8]
-[01:09:34:450] 		outfitForswornBriarheartHybrid [KYWD:FF0023C9]
-[01:09:34:450] 		outfitForswornHelmet [KYWD:FF0023CA]
-[01:09:34:450] 		outfitForswornHood [KYWD:FF0023CB]
-[01:09:34:450] 		outfitSkeletonShield [KYWD:FF0023CC]
-[01:09:34:450] 		outfitWitch [KYWD:FF0023CD]
-[01:09:34:450] 		outfitBanditMeleeNoShield [KYWD:FF0023CE]
-[01:09:34:450] 		outfitBanditMeleeHeavyNoShield [KYWD:FF0023CF]
-[01:09:34:450] 		outfitBanditMeleeShield20 [KYWD:FF0023D0]
-[01:09:34:450] 		outfitBanditMeleeHeavyShield [KYWD:FF0023D1]
-[01:09:34:450] 		outfitBanditBossNoShield [KYWD:FF0023D2]
-[01:09:34:450] 		outfitBanditBossShield [KYWD:FF0023D3]
-[01:09:34:450] 		outfitBanditHeavyNoShield [KYWD:FF0023D4]
-[01:09:34:450] 		outfitCompanionNoHelmet [KYWD:FF0023D5]
-[01:09:34:450] 		outfitDwarvenNoHelmet [KYWD:FF0023D6]
-[01:09:34:450] 		outfitEbonyNoHelmet [KYWD:FF0023D7]
-[01:09:34:450] 		outfitElvenNoHelmet [KYWD:FF0023D8]
-[01:09:34:450] 		outfitElvenGildedNoHelmet [KYWD:FF0023D9]
-[01:09:34:450] 		outfitIronNoHelmet [KYWD:FF0023DA]
-[01:09:34:450] 		outfitIronHideNoHelmet [KYWD:FF0023DB]
-[01:09:34:450] 		outfitIronBandedNoHelmet [KYWD:FF0023DC]
-[01:09:34:450] 		outfitLeatherNoHelmet [KYWD:FF0023DD]
-[01:09:34:450] 		outfitOrcishNoHelmet [KYWD:FF0023DE]
-[01:09:34:450] 		outfitOrcishStrongholdNoHelmet [KYWD:FF0023DF]
-[01:09:34:450] 		outfitOrcishStrongholdShieldNoHelmet [KYWD:FF0023E0]
-[01:09:34:450] 		outfitScaledANoHelmet [KYWD:FF0023E1]
-[01:09:34:450] 		outfitScaledBNoHelmet [KYWD:FF0023E2]
-[01:09:34:450] 		outfitSteelNoHelmet [KYWD:FF0023E3]
-[01:09:34:450] 		outfitSteelPlateNoHelmet [KYWD:FF0023E4]
-[01:09:34:450] 		outfitStormcloakNoHelmet [KYWD:FF0023E5]
-[01:09:34:450] 		outfitSonsOfficerNoHelmet [KYWD:FF0023E6]
-[01:09:34:450] 		outfitSonsSoldierNoHelmet [KYWD:FF0023E7]
-[01:09:34:450] 		outfitImperialOfficerNoHelmet [KYWD:FF0023E8]
-[01:09:34:450] 		outfitImperialSoldierNoHelmet [KYWD:FF0023E9]
-[01:09:34:450] 		outfitImperialLightNoShield [KYWD:FF0023EA]
-[01:09:34:450] 		outfitImperialStuddedNoHelmet [KYWD:FF0023EB]
-[01:09:34:450] 		outfitPenitusNoHelmet [KYWD:FF0023EC]
-[01:09:34:450] 		outfitThalmorArmorNoHelmet [KYWD:FF0023ED]
-[01:09:34:450] 		outfitVigilantOfStendarrHood [KYWD:FF0023EE]
-[01:09:34:450] 		outfitVigilantOfStendarrNoHelmet [KYWD:FF0023EF]
-[01:09:34:450] 		ks_ModedDragon_KYWD [KYWD:9B2AED5D]
-[01:09:34:450] 		TEETHfangs [KYWD:FF002238]
-[01:09:34:450] 		TEETHheavygold [KYWD:FF00223D]
-[01:09:34:450] 		RSVbreton [KYWD:FF002251]
-[01:09:34:450] 		RSVmale [KYWD:FF00225B]
-[01:09:34:450] 		RSVfemale [KYWD:FF00225C]
-[01:09:34:450] 		SH_NotHorseKWD [KYWD:FEAE0DD7]
-[01:09:34:450] 		WK_ActorTypeFire [KYWD:FF002261]
-[01:09:34:450] 		WK_ActorTypeOgre [KYWD:FF002263]
-[01:09:34:450] 		WK_ActorTypeShock [KYWD:FF002267]
-[01:09:34:450] 		WK_ClassBandit [KYWD:FF00226A]
-[01:09:34:450] 		WK_ClassSummoner [KYWD:FF00226C]
-[01:09:34:450] 		isExcludeSoS [KYWD:FF002272]
-[01:09:34:450] 		isCreatureAtro [KYWD:FF002286]
-[01:09:34:450] 		isCreatureDraugr [KYWD:FF002287]
-[01:09:34:450] 		isCreatureDwe [KYWD:FF002288]
-[01:09:34:450] 		isCreatureFalmer [KYWD:FF002289]
-[01:09:34:450] 		isCreatureGhost [KYWD:FF00228A]
-[01:09:34:450] 		isCreatureGob [KYWD:FF00228B]
-[01:09:34:450] 		isCreatureSpriggan [KYWD:FF00228C]
-[01:09:34:450] 		isCreatureThrall [KYWD:FF00228D]
-[01:09:34:450] 		isCreatureVamp [KYWD:FF00228E]
-[01:09:34:450] 		isCreatureWerewolf [KYWD:FF002290]
-[01:09:34:450] 		isCreatureWerebear [KYWD:FF002291]
-[01:09:34:450] 		isCreatureZom [KYWD:FF002293]
-[01:09:34:450] 		isFactionGuard [KYWD:FF0022BC]
-[01:09:34:450] 		isFactionHaknir [KYWD:FF0022E2]
-[01:09:34:450] 		ActorClassTypeTank [KYWD:FF00233D]
-[01:09:34:450] 		ActorMagicTypeAtro [KYWD:FF00233F]
-[01:09:34:450] 		ActorMagicTypeNecromancy [KYWD:FF002342]
-[01:09:34:450] 		ActorClassMageWizardAll [KYWD:FF00234E]
-[01:09:34:450] 		ActorClassTypeBoss [KYWD:FF00233E]
-[01:09:34:450] 		isForswornBriar [KYWD:FF00235B]
-[01:09:34:450] 		isForswornForager [KYWD:FF00235C]
-[01:09:34:450] 		isForswornLooter [KYWD:FF00235D]
-[01:09:34:450] 		isForswornPillager [KYWD:FF00235E]
-[01:09:34:450] 		isForswornRaider [KYWD:FF00235F]
-[01:09:34:450] 		isForswornRavager [KYWD:FF002360]
-[01:09:34:450] 		isForswornReclaimer [KYWD:FF002361]
-[01:09:34:450] 		isForswornWarlord [KYWD:FF002362]
-[01:09:34:450] 		OCF_ActiHeatSource_Other [KYWD:FF002219]
-[01:09:34:450] 		OCF_ActiHeatSource_Fire [KYWD:FF002218]
-[01:09:34:450] 		OCF_ActiHeatSource [KYWD:FF00221A]
-[01:09:34:450] 		TEETHgold [KYWD:FF00223E]
-[01:09:34:450] 		RSVvampirebeast [KYWD:FF00224A]
-[01:09:34:450] 		WK_ActorTypeDisease [KYWD:FF00225F]
-[01:09:34:450] 		WK_ActorTypePoison [KYWD:FF002266]
-[01:09:34:450] 		WK_ActorTypeWater [KYWD:FF002268]
-[01:09:34:450] 		WK_ClassMage [KYWD:FF00226B]
-[01:09:34:450] 		WK_ClassNecromancer [KYWD:FF00226D]
-[01:09:34:450] 		isSkipGlobal [KYWD:FF002278]
-[01:09:34:450] 		Rank01 [KYWD:FF002294]
-[01:09:34:450] 		Rank02 [KYWD:FF002295]
-[01:09:34:450] 		Rank03 [KYWD:FF002296]
-[01:09:34:450] 		Rank04 [KYWD:FF002297]
-[01:09:34:450] 		Rank05 [KYWD:FF002298]
-[01:09:34:450] 		Rank06 [KYWD:FF002299]
-[01:09:34:450] 		Rank07 [KYWD:FF00229A]
-[01:09:34:450] 		Rank08 [KYWD:FF00229B]
-[01:09:34:450] 		Rank09 [KYWD:FF00229C]
-[01:09:34:450] 		isFactionGuardHoldEastmarch [KYWD:FF0022BD]
-[01:09:34:450] 		isFactionGuardHoldFalkreath [KYWD:FF0022BE]
-[01:09:34:450] 		isFactionGuardHoldHaafingar [KYWD:FF0022BF]
-[01:09:34:450] 		isFactionGuardHoldHjaalmarch [KYWD:FF0022C0]
-[01:09:34:450] 		isFactionGuardHoldPale [KYWD:FF0022C1]
-[01:09:34:450] 		isFactionGuardHoldReach [KYWD:FF0022C2]
-[01:09:34:450] 		isFactionGuardHoldRift [KYWD:FF0022C3]
-[01:09:34:450] 		isFactionGuardHoldWhiterun [KYWD:FF0022C4]
-[01:09:34:450] 		isFactionGuardHoldWinterhold [KYWD:FF0022C5]
-[01:09:34:450] 		isFactionGuardTownMinorWhiterun [KYWD:FF0022CF]
-[01:09:34:450] 		isFactionGuardTownMinorRift [KYWD:FF0022D0]
-[01:09:34:450] 		isFactionGuardTownMinorHaafingar [KYWD:FF0022D1]
-[01:09:34:450] 		isFactionGuardTownMinorHjaalmarch [KYWD:FF0022D2]
-[01:09:34:450] 		isFactionGuardTownMinorEastmarch [KYWD:FF0022D3]
-[01:09:34:450] 		isFactionGuardTownMinorReach [KYWD:FF0022D4]
-[01:09:34:450] 		isFactionGuardTownMinorPale [KYWD:FF0022D5]
-[01:09:34:450] 		ActorWeaponTypeOneHanded [KYWD:FF002344]
-[01:09:34:450] 		ActorWeaponTypeTwoHanded [KYWD:FF002345]
-[01:09:34:450] 		ActorWeaponTypeCrossbow [KYWD:FF002347]
-[01:09:34:450] 		ActorClassMageFire [KYWD:FF00234F]
-[01:09:34:450] 		ActorClassMageIce [KYWD:FF002350]
-[01:09:34:450] 		ActorClassMageNecromancy [KYWD:FF002351]
-[01:09:34:450] 		ActorClassMageStorm [KYWD:FF002352]
-[01:09:34:450] 		isClassRanged [KYWD:FF002356]
-[01:09:34:450] 		TEETHheavybloody [KYWD:FF00223A]
-[01:09:34:450] 		RSVvampire [KYWD:FF002258]
-[01:09:34:450] 		WK_ActorTypeBlood [KYWD:FF00225D]
-[01:09:34:450] 		WK_ActorTypeFrost [KYWD:FF002262]
-[01:09:34:450] 		WK_ActorTypeGoblin [KYWD:FF002264]
-[01:09:34:450] 		WK_ActorTypeHoly [KYWD:FF002265]
-[01:09:34:450] 		WK_ClassWarlock [KYWD:FF00226E]
-[01:09:34:450] 		ActorWeaponTypeBow [KYWD:FF002346]
-[01:09:34:450] 		isClassMelee [KYWD:FF002355]
-[01:09:34:450] 		TEETHbloody [KYWD:FF00223B]
-[01:09:34:450] 		TEETHyellowmissing [KYWD:FF00223F]
-[01:09:34:450] 		TEETHrotten [KYWD:FF002241]
-[01:09:34:450] 		RSVmer [KYWD:FF002259]
-[01:09:34:450] 		RSVman [KYWD:FF00225A]
-[01:09:34:450] 		_WetExcludeRainGear [KYWD:521739A9]
-[01:09:34:450] 		_WetExcludeSurvivalGear [KYWD:521739AA]
-[01:09:34:450] 		RSVyoung [KYWD:FF002248]
-[01:09:34:450] 		RSVold [KYWD:FF002249]
-[01:09:34:450] 		WK_ActorTypeDark [KYWD:FF00225E]
-[01:09:34:450] 		WK_ActorTypeEarth [KYWD:FF002260]
-[01:09:34:450] 		_WetExcludeColdGear [KYWD:521739A8]
-[01:09:34:450] 		isMasterMagic [KYWD:FF002334]
-[01:09:34:450] 		isSummon [KYWD:FF002275]
-[01:09:34:450] 		isExpertMagic [KYWD:FF002335]
-[01:09:34:450] 		isAdeptMagic [KYWD:FF002336]
-[01:09:34:450] 		isApprenticeMagic [KYWD:FF002337]
-[01:09:34:450] 		RSVasian [KYWD:FF002236]
-[01:09:34:450] 		RSVfantasymer [KYWD:FF002247]
-[01:09:34:450] 		isForswornBasic [KYWD:FF002363]
-[01:09:34:450] 		TEETHheavyyellow [KYWD:FF00223C]
-[01:09:34:450] 		TEETHmissing [KYWD:FF002240]
-[01:09:34:450] 		isClassMage [KYWD:FF002354]
-[01:09:34:450] 		TEETHgap [KYWD:FF002243]
-[01:09:34:450] 		TEETHwhite [KYWD:FF002244]
-[01:09:34:450] 		TEETHcrocked [KYWD:FF002245]
-[01:09:34:450] 		isCivilWarSoldierSons [KYWD:FF0022D6]
-[01:09:34:450] 		isCivilWarSoldierImperial [KYWD:FF0022D7]
-[01:09:34:450] 		TEETHlightyellow [KYWD:FF002246]
-[01:09:34:450] 		IsHuman [KYWD:FF002274]
-[01:09:34:451] 		isOutfitSoS [KYWD:FF002273]
-[01:09:34:451] 		isTrainer [KYWD:FF002305]
-[01:09:34:451] 		HasJob [KYWD:FF002306]
-[01:09:34:451] 	Keyword resolution took 38100μs / 38ms
-[01:09:34:452] ### PROCESSING ###################################
-[01:09:34:452] Registered 916/917 Keywords
-[01:09:34:452] Registered 2/2 Factions
-[01:09:34:452] Registered 922/923 Spells
-[01:09:34:452] Registered 237/237 Perks
-[01:09:34:452] Registered 70/70 Shouts
-[01:09:34:452] Registered 16/16 Packages
-[01:09:34:452] Registered 1528/1528 Outfits
-[01:09:34:452] Registered 10/10 Skins
-[01:09:34:452] Registered 14/14 Items
-[01:09:34:452] Lookup took 109113μs / 109ms
-[01:09:34:452] Item
-[01:09:34:453] ### ON DEATH #####################################
-[01:09:34:453] Registered 3/3 Items
-[01:09:34:453] ### HOOKS ########################################
-[01:09:34:453] Installed leveled distribution hooks
-[01:09:34:453] ### EVENTS #######################################
-[01:09:34:453] Registered Distribution Manager for struct RE::TESFormDeleteEvent
-[01:09:34:453] Registered class PCLevelMult::Manager
-[01:11:48:662] Dying [ACHR:00105987] (Base: "Rabbit" [NPC_:FF0008F0])
-[01:14:44:808] Dying GuardWhiterunImperialFarms [ACHR:0001B5E3] (Base: "Whiterun Guard" [NPC_:FF002442])
-[01:14:49:453] Dying [ACHR:FF0024AA] (Base: Player "Paladin Regina" [NPC_:00000007])
-[01:15:01:591] Dying GuardBattleBornFarmImperial2 [ACHR:0001B5DF] (Base: "Whiterun Guard" [NPC_:FF002440])
-[01:17:56:463] Dying [ACHR:FF002B02] (Base: Player "Paladin Regina" [NPC_:00000007])
-[01:18:52:106] Dying [ACHR:FF002B10] (Base: Player "Paladin Regina" [NPC_:00000007])
-[01:18:53:573] Dying GuardWhiterunImperialPatrolNightRef2 [ACHR:0003706E] (Base: "Whiterun Guard" [NPC_:FF0024EC])
-[01:28:06:538] Dying [ACHR:00108331] (Base: "Mudcrab" [NPC_:FF002B81])
-[01:29:33:355] Dying [ACHR:000844A5] (Base: "Frostbite Spider" [NPC_:FF002AB8])
-[01:29:34:350] Dying [ACHR:FE7E68AC] (Base: mihaildismemberthosemudcrabs_NPC "Mudcrab" [NPC_:FE7E6802])
-[01:32:28:542] Dying [ACHR:FF002682] (Base: SummonAtronachFrost "Frost Atronach" [NPC_:000204C1])
-[01:36:01:715] Dying [ACHR:0010832E] (Base: "Mudcrab" [NPC_:FF0028BB])
-[01:36:09:834] Dying [ACHR:FE7E68B1] (Base: mihaildismemberthosemudcrabs_NPC "Mudcrab" [NPC_:FE7E6802])
-[01:36:36:037] Dying [ACHR:FE7E68AF] (Base: mihaildismemberthosemudcrabs_NPC "Mudcrab" [NPC_:FE7E6802])
-[01:37:16:530] Dying [ACHR:000844D4] (Base: "Deer" [NPC_:FF002BA2])
-[01:38:55:721] Dying [ACHR:FE7E68A0] (Base: mihaildismemberthosemudcrabs_NPC "Mudcrab" [NPC_:FE7E6802])
-[01:38:57:680] Dying [ACHR:FE7CF895] (Base: mihailgravehag2 "Grave Hag" [NPC_:FE7CF88B])
-[01:39:04:331] Dying [ACHR:FE7E68A2] (Base: mihaildismemberthosemudcrabs_NPC "Mudcrab" [NPC_:FE7E6802])
-[01:39:24:176] Dying [ACHR:001059C3] (Base: "Mudcrab" [NPC_:FF000927])
-[01:39:26:474] Dying [ACHR:FE7D4863] (Base: mihail_grummite_mage_demented2b "Demented Mage" [NPC_:FE7D4834])
-[01:39:29:879] Dying [ACHR:0010832C] (Base: "Mudcrab" [NPC_:FF002B86])
-[01:40:02:605] Dying [ACHR:FE7E68A3] (Base: mihaildismemberthosemudcrabs_NPC "Mudcrab" [NPC_:FE7E6802])
-[01:40:08:321] Dying [ACHR:000C260C] (Base: EncMudcrabMedium "Mudcrab" [NPC_:000E4010])
-[01:40:11:721] Dying [ACHR:FE7CD81B] (Base: mihailfoglingswamp "Swamp Fogling" [NPC_:FE7CD809])
-[01:40:22:776] Dying [ACHR:FE813D89] (Base: "Frostbite Spider" [NPC_:FF002AE6])
-[01:40:25:856] Dying [ACHR:FE7CD81A] (Base: mihailfoglingswamp "Swamp Fogling" [NPC_:FE7CD809])
-[01:40:28:154] Dying [ACHR:000C260F] (Base: EncMudcrabLarge "Mudcrab" [NPC_:000E4011])
-[01:40:32:944] Dying [ACHR:FE7E68F1] (Base: mihaildismemberthosemudcrabs_NPC "Mudcrab" [NPC_:FE7E6802])
-[01:40:36:523] Dying [ACHR:000C260D] (Base: EncMudcrabMedium "Mudcrab" [NPC_:000E4010])
-[01:40:41:826] Dying [ACHR:FE7CD81C] (Base: mihailfoglingswamp "Swamp Fogling" [NPC_:FE7CD809])
-[01:40:52:471] Dying [ACHR:000844AA] (Base: "Frostbite Spider" [NPC_:FF002AFC])
-[01:41:02:174] Dying [ACHR:FE7E689D] (Base: mihaildismemberthosemudcrabs_NPC "Mudcrab" [NPC_:FE7E6802])
-[01:41:03:253] Dying [ACHR:001071AE] (Base: "Mudcrab" [NPC_:FF002A82])
-[01:41:08:768] Dying [ACHR:00108327] (Base: "Mudcrab" [NPC_:FF002A7D])
-[01:41:23:876] Dying [ACHR:FE7E68A1] (Base: mihaildismemberthosemudcrabs_NPC "Mudcrab" [NPC_:FE7E6802])
+[17:12:39:961] po3_SpellPerkItemDistributor v7.2.0.1597
+[17:12:39:961] Game version : 1-5-97-0
+[17:12:42:729] ### DEPENDENCIES #################################
+[17:12:42:729] powerofthree's Tweaks (po3_tweaks) detected : true
+[17:12:42:729] ### INI ##########################################
+[17:12:43:039] 132 matching inis found
+[17:12:43:040] 	INI : Data\3DNPC_BODY_RSV_DISTR.ini
+[17:12:43:040] 	INI : Data\3DNPC_HEAD_RSV_DISTR.ini
+[17:12:43:040] 	INI : Data\ABB_KW-OCF_NPC_DISTR.ini
+[17:12:43:040] 	INI : Data\AbyssForNPCs_DISTR.ini
+[17:12:43:040] 	INI : Data\AbyssLoot_DISTR.ini
+[17:12:43:041] 	INI : Data\AbyssNPC_DISTR.ini
+[17:12:43:041] 	INI : Data\Aetherius_DISTR.ini
+[17:12:43:041] 	INI : Data\Amalee_DISTR.ini
+[17:12:43:041] 	INI : Data\AncientBloodII_DISTR.ini
+[17:12:43:041] 	INI : Data\Animals Swim_DISTR.ini
+[17:12:43:041] 	INI : Data\Anum-la_DISTR.ini
+[17:12:43:041] 	INI : Data\ApocalypseSpellsForNPCs_DISTR.ini
+[17:12:43:042] 	INI : Data\Apothecary_DISTR.ini
+[17:12:43:042] 	INI : Data\ArclightLoot_DISTR.ini
+[17:12:43:042] 	INI : Data\ArclightNPC_DISTR.ini
+[17:12:43:042] 	INI : Data\AstralMagic2SpellsForNPCs_DISTR.ini
+[17:12:43:043] 	INI : Data\BandagesforNPCs_DISTR.ini
+[17:12:43:043] 	INI : Data\CoachmenV_DISTRI.ini
+[17:12:43:043] 	INI : Data\DNPCsBB_DISTR.ini
+[17:12:43:043] 	INI : Data\DNPCsBlanketScarf_DISTR.ini
+[17:12:43:043] 	INI : Data\DNPCsChordophones_DISTR.ini
+[17:12:43:043] 	INI : Data\DNPCsDruidBackpack_DISTR.ini
+[17:12:43:043] 	INI : Data\DNPCsFishingGear_DISTR.ini
+[17:12:43:043] 	INI : Data\Dagri'Lon_DISTR.ini
+[17:12:43:044] 	INI : Data\DesecrationForNPCs_DISTR.ini
+[17:12:43:044] 	INI : Data\DirtandBlood__DISTR.ini
+[17:12:43:044] 	INI : Data\DragonsFallDown_DISTR.ini
+[17:12:43:044] 	INI : Data\DynamicBlockHit_DISTR.ini
+[17:12:43:044] 	INI : Data\EEOS_EX_Apocalypse_DISTR.ini
+[17:12:43:045] 	INI : Data\EEOS_EX_Mysticism_DISTR.ini
+[17:12:43:045] 	INI : Data\EEOS_EX_Perks_DISTR.ini
+[17:12:43:046] 	INI : Data\EEOS_EX_Shouts_DISTR.ini
+[17:12:43:046] 	INI : Data\EEOS_EX_Thunderchild_DISTR.ini
+[17:12:43:046] 	INI : Data\EEOS_EX_Triumvirate_DISTR.ini
+[17:12:43:046] 	INI : Data\ElementalDestructionMagicReduxSpellsForNPCs_DISTR.ini
+[17:12:43:046] 	INI : Data\Elytra ENB Light_DISTR.ini
+[17:12:43:047] 	INI : Data\EquipSpellTomesNELRtoNPCs_DISTR.ini
+[17:12:43:047] 	INI : Data\Footprints_BeyondSkyrimBruma_DISTR.ini
+[17:12:43:047] 	INI : Data\Footprints_DISTR.ini
+[17:12:43:047] 	INI : Data\Ghostlight_DISTR.ini
+[17:12:43:047] 	INI : Data\Goldenhills_DISTRI.ini
+[17:12:43:047] 	INI : Data\HeelsFix_DISTR.ini
+[17:12:43:047] 	INI : Data\Helmet Toggle_DISTR.ini
+[17:12:43:048] 	INI : Data\Immersive Death Cycle_DISTR.ini
+[17:12:43:048] 	INI : Data\Immersive Equipping Animations_DISTR.ini
+[17:12:43:048] 	INI : Data\JS Emissive Eyes SE - DraugrMCO_DISTR.ini
+[17:12:43:048] 	INI : Data\JS Emissive Eyes SE - Johnskyrim_DISTR.ini
+[17:12:43:048] 	INI : Data\KS Dragon Overhaul 2_DISTR.ini
+[17:12:43:048] 	INI : Data\KYE_DraugrMCO_DISTR.ini
+[17:12:43:048] 	INI : Data\KatanaPractical_DISTRI.ini
+[17:12:43:049] 	INI : Data\Lightpower_DISTR.ini
+[17:12:43:049] 	INI : Data\Morndas_DISTR.ini
+[17:12:43:049] 	INI : Data\Mysticism Conjuration_DISTR.ini
+[17:12:43:049] 	INI : Data\Mysticism Destruction_DISTR.ini
+[17:12:43:050] 	INI : Data\Mysticism Restoration_DISTR.ini
+[17:12:43:051] 	INI : Data\MysticismSpellsForNPCsNew_DISTR.ini
+[17:12:43:052] 	INI : Data\NPC No Block Exhaustion_DISTR.ini
+[17:12:43:052] 	INI : Data\NPC_Trap_Safety_DISTR.ini
+[17:12:43:052] 	INI : Data\NPCs Take Cover__DISTR.ini
+[17:12:43:052] 	INI : Data\NPCs_Wear_Amulets_Of_Mara_DISTR.ini
+[17:12:43:052] 	INI : Data\PotionsForNPCs_DISTR.ini
+[17:12:43:052] 	INI : Data\ProjectAhoTribunalIntegrationSPID_DISTR.ini
+[17:12:43:053] 	INI : Data\Qa'Dojo_DISTR.ini
+[17:12:43:053] 	INI : Data\RASS - Visual Effects_DISTR.ini
+[17:12:43:053] 	INI : Data\RSVAsianBreton_DISTR.ini
+[17:12:43:053] 	INI : Data\RSVAsianImperial_DISTR.ini
+[17:12:43:053] 	INI : Data\RSVAsianNord_DISTR.ini
+[17:12:43:053] 	INI : Data\RSVAsianRedguard_DISTR.ini
+[17:12:43:053] 	INI : Data\RSVBnPteeth_DISTR.ini
+[17:12:43:054] 	INI : Data\RSVFantasyAltmerF_DISTR.ini
+[17:12:43:054] 	INI : Data\RSVFantasyAltmerM_DISTR.ini
+[17:12:43:054] 	INI : Data\RSVFantasyBosmerF_DISTR.ini
+[17:12:43:054] 	INI : Data\RSVFantasyBosmerM_DISTR.ini
+[17:12:43:054] 	INI : Data\RSVFantasyDunmerF_DISTR.ini
+[17:12:43:054] 	INI : Data\RSVFantasyDunmerM_DISTR.ini
+[17:12:43:055] 	INI : Data\RSVFantasyOrsimerF_DISTR.ini
+[17:12:43:055] 	INI : Data\RSVFantasyOrsimerM_DISTR.ini
+[17:12:43:055] 	INI : Data\RSVHeadNormals_DISTR.ini
+[17:12:43:055] 	INI : Data\RSVVampireBeast_DISTR.ini
+[17:12:43:055] 	INI : Data\RSV_DISTR.ini
+[17:12:43:055] 	INI : Data\Reanimated Detector_DISTR.ini
+[17:12:43:055] 	INI : Data\Rumarin_DISTR.ini
+[17:12:43:055] 	INI : Data\SekiroCombat_II_DISTR.ini
+[17:12:43:056] 	INI : Data\Silentroll_DISTR.ini
+[17:12:43:056] 	INI : Data\SimplestHorses_DISTR.ini
+[17:12:43:056] 	INI : Data\Sonders_Keyword_Distribution_SPID_DISTR.ini
+[17:12:43:056] 	INI : Data\Sprites or Specters ENB Light_DISTR.ini
+[17:12:43:056] 	INI : Data\StormCallingMagicForNPCs_DISTR.ini
+[17:12:43:056] 	INI : Data\StrangeRunes_DISTR.ini
+[17:12:43:056] 	INI : Data\TSOS_BODYFULL_RSV_DISTR.ini
+[17:12:43:057] 	INI : Data\TSOS_HEAD_RSV_DISTR.ini
+[17:12:43:057] 	INI : Data\Taunt Your Enemies_DISTR.ini
+[17:12:43:057] 	INI : Data\Thaumaturgy_DISTR.ini
+[17:12:43:057] 	INI : Data\ThunderchildShoutsForNPCs_DISTR.ini
+[17:12:43:058] 	INI : Data\TriumvirateShadowSpellsForNPCs_DISTR.ini
+[17:12:43:058] 	INI : Data\UNDKeywords_DISTR.ini
+[17:12:43:058] 	INI : Data\Use Those Blankets_DISTR.ini
+[17:12:43:058] 	INI : Data\Valgus_DISTR.ini
+[17:12:43:058] 	INI : Data\ValravnSPIDUncloak_DISTR.ini
+[17:12:43:058] 	INI : Data\VanillaShoutsForNPCs_DISTR.ini
+[17:12:43:058] 	INI : Data\Vokriinator Black_DISTR.ini
+[17:12:43:059] 	INI : Data\VulcanoForNPCs_DISTR.ini
+[17:12:43:059] 	INI : Data\VulcanoLoot_DISTR.ini
+[17:12:43:059] 	INI : Data\VulcanoNPC_DISTR.ini
+[17:12:43:059] 	INI : Data\WK_Enemies_DISTR.ini
+[17:12:43:060] 	INI : Data\WetAndCold_Gear_DISTR.ini
+[17:12:43:060] 	INI : Data\ZZZZ 1. GENERAL_BANDITS_DISTRIBUTION_DISTR.ini
+[17:12:43:062] 	INI : Data\ZZZZ 2. GENERAL_VAMPIRES_DISTRIBUTION_DISTR.ini
+[17:12:43:063] 	INI : Data\ZZZZ 3. GENERAL_MAGES_DISTRIBUTION_DISTR.ini
+[17:12:43:064] 	INI : Data\ZZZZ 4. GENERAL_MISC_DISTRIBUTION_DISTR.ini
+[17:12:43:065] 	INI : Data\ZZZZ 5. SPECIFIC_DISTRIBUTION_DISTR.ini.ini
+[17:12:43:066] 	INI : Data\Zora_DISTR.ini
+[17:12:43:066] 	INI : Data\blockenchantments_DISTR.ini
+[17:12:43:066] 	INI : Data\dD - Enhanced Blood Main__DISTR.ini
+[17:12:43:066] 	INI : Data\evgnnsmp_BLANK_DISTR.ini
+[17:12:43:066] 	INI : Data\rmb_a_guards_shared_DISTR.ini
+[17:12:43:066] 	INI : Data\rmb_a_sons_of_skyrim_guards_DISTR.ini
+[17:12:43:067] 	INI : Data\rmb_a_sons_of_skyrim_named_DISTR.ini
+[17:12:43:067] 	INI : Data\rmb_a_sons_of_skyrim_stormcloaks_DISTR.ini
+[17:12:43:067] 	INI : Data\rmb_kw_0_core_DISTR.ini
+[17:12:43:067] 	INI : Data\rmb_kw_1_factions_DISTR.ini
+[17:12:43:068] 	INI : Data\rmb_kw_1_jobs_DISTR.ini
+[17:12:43:068] 	INI : Data\rmb_kw_1_skill_levels_DISTR.ini
+[17:12:43:068] 	INI : Data\rmb_kw_2_combat_styles_DISTR.ini
+[17:12:43:068] 	INI : Data\rmb_kw_2_types_DISTR.ini
+[17:12:43:068] 	INI : Data\rmb_kw_3_classes_DISTR.ini
+[17:12:43:069] 	INI : Data\rmb_kw_3_forsworn_classes_DISTR.ini
+[17:12:43:069] 	INI : Data\rmb_kw_6_outfits_DISTR.ini
+[17:12:43:069] 	INI : Data\rmb_kw_7_outfits_bandits_DISTR.ini
+[17:12:43:070] 	INI : Data\rmb_kw_z_deprecated_DISTR.ini
+[17:12:43:070] 	INI : Data\shadowscale_DISTR.ini
+[17:12:43:070] 	INI : Data\zzMiraak-RSV-Exclusion_DISTR.ini
+[17:12:43:070] ### HOOKS ########################################
+[17:12:43:070] Installed actor load hooks
+[17:12:43:070] 🧥Outfit Manager
+[17:12:43:070] 		📝Registered for struct RE::TESFormDeleteEvent.
+[17:12:43:070] 		📝Registered for struct RE::TESDeathEvent.
+[17:12:43:070] 		🪝Installed InitItemImpl hook.
+[17:12:43:070] 		🪝Installed ShouldBackgroundClone hook.
+[17:12:43:070] 		🪝Installed Load3D hook.
+[17:12:43:070] 		🪝Installed Resurrect hook.
+[17:12:43:070] 		🪝Installed ResetReference hook.
+[17:12:43:070] 		🪝Installed SetOutfit hook.
+[17:12:43:070] 💀Death Distribution
+[17:12:43:070] 		📝Registered for struct RE::TESDeathEvent.
+[17:12:43:070] 		🪝Installed ShouldBackgroundClone hook.
+[17:12:43:077] ### MERGES #######################################
+[17:12:43:077] Failed to dispatch message to MergeMapper
+[17:12:43:077] INFO - MergeMapper not detected
+[17:15:05:973] ### LOOKUP #######################################
+[17:15:05:973] Keyword
+[17:15:05:980] 		[WetAndCold_Gear_DISTR.ini] Filter [0x800] (Nolvus Awakening Combat Scaling Overhaul - Boss.esp) SKIP - formID doesn't exist
+[17:15:05:980] 		[ZZZZ 1. GENERAL_BANDITS_DISTRIBUTION_DISTR.ini] Filter (PenetratorFaction) SKIP - editorID doesn't exist
+[17:15:06:009] Faction
+[17:15:06:009] Perk
+[17:15:06:009] 	[KYE_DraugrMCO_DISTR.ini] [0x843] (know_your_enemy_redux.esp) FAIL - formID doesn't exist
+[17:15:06:009] 	[KYE_DraugrMCO_DISTR.ini] [0x832] (know_your_enemy_redux.esp) FAIL - formID doesn't exist
+[17:15:06:009] 	[KYE_DraugrMCO_DISTR.ini] [0x83F] (know_your_enemy_redux.esp) FAIL - formID doesn't exist
+[17:15:06:009] 	[KYE_DraugrMCO_DISTR.ini] [0x841] (know_your_enemy_redux.esp) FAIL - formID doesn't exist
+[17:15:06:010] 	[Vokriinator Black_DISTR.ini] [0x62] (Vokriinator Black.esp) FAIL - formID doesn't exist
+[17:15:06:010] 	[Vokriinator Black_DISTR.ini] [0x63] (Vokriinator Black.esp) FAIL - formID doesn't exist
+[17:15:06:012] Shout
+[17:15:06:013] Package
+[17:15:06:014] Outfit
+[17:15:06:017] Skin
+[17:15:06:018] Item
+[17:15:06:031] 		[Mysticism Restoration_DISTR.ini] Filter (NONE) SKIP - editorID doesn't exist
+[17:15:06:034] 		[MysticismSpellsForNPCsNew_DISTR.ini] Filter (25) SKIP - editorID doesn't exist
+[17:15:06:035] 	Sorting keywords...
+[17:15:06:041] 		INFO - TEETHmissing [KYWD:FF002241] and TEETHgap [KYWD:FF002244] may depend on each other. Distribution might not work as expected.
+[17:15:06:041] 			Full path: TEETHmissing [KYWD:FF002241] -> TEETHgap [KYWD:FF002244] -> TEETHmissing [KYWD:FF002241]
+[17:15:06:041] 		INFO - TEETHmissing [KYWD:FF002241] and TEETHwhite [KYWD:FF002245] may depend on each other. Distribution might not work as expected.
+[17:15:06:041] 			Full path: TEETHmissing [KYWD:FF002241] -> TEETHwhite [KYWD:FF002245] -> TEETHmissing [KYWD:FF002241]
+[17:15:06:041] 		INFO - TEETHheavyyellow [KYWD:FF00223D] and TEETHmissing [KYWD:FF002241] may depend on each other. Distribution might not work as expected.
+[17:15:06:042] 			Full path: TEETHheavyyellow [KYWD:FF00223D] -> TEETHmissing [KYWD:FF002241] -> TEETHheavyyellow [KYWD:FF00223D]
+[17:15:06:042] 		INFO - TEETHheavyyellow [KYWD:FF00223D] and TEETHgap [KYWD:FF002244] may depend on each other. Distribution might not work as expected.
+[17:15:06:042] 			Full path: TEETHheavyyellow [KYWD:FF00223D] -> TEETHgap [KYWD:FF002244] -> TEETHheavyyellow [KYWD:FF00223D]
+[17:15:06:042] 		INFO - TEETHheavyyellow [KYWD:FF00223D] and TEETHwhite [KYWD:FF002245] may depend on each other. Distribution might not work as expected.
+[17:15:06:042] 			Full path: TEETHheavyyellow [KYWD:FF00223D] -> TEETHwhite [KYWD:FF002245] -> TEETHheavyyellow [KYWD:FF00223D]
+[17:15:06:061] 		INFO - isFactionGuardMorthal [KYWD:FF0022CA] is referencing itself.
+[17:15:06:061] 		INFO - isFactionGuardWinterhold [KYWD:FF0022CF] is referencing itself.
+[17:15:06:076] 	Sorted keywords: 
+[17:15:06:076] 		RSVignore3 [KYWD:FF002235]
+[17:15:06:076] 		RSVignore2 [KYWD:FF002236]
+[17:15:06:076] 		OCF_ActiHeatSource_FireMedium [KYWD:FF0021F2]
+[17:15:06:076] 		ks_DiverseDragonCollection_KYWD [KYWD:9B2AED64]
+[17:15:06:076] 		AshBreath_KYWD [KYWD:FE7A880C]
+[17:15:06:076] 		EnergyBreath_KYWD [KYWD:FE7A880D]
+[17:15:06:076] 		LeechBreath_KYWD [KYWD:FE7A880E]
+[17:15:06:076] 		LunarBreath_KYWD [KYWD:FE7A880F]
+[17:15:06:076] 		NapalmBreath_KYWD [KYWD:FE7A8810]
+[17:15:06:076] 		FireBreath_KYWD [KYWD:FE7A8811]
+[17:15:06:076] 		FrostBreath_KYWD [KYWD:FE7A8812]
+[17:15:06:076] 		NecromanticBreath_KYWD [KYWD:FE7A8813]
+[17:15:06:076] 		PlagueBreath_KYWD [KYWD:FE7A8814]
+[17:15:06:076] 		SandBreath_KYWD [KYWD:FE7A8815]
+[17:15:06:076] 		SteamBreath_KYWD [KYWD:FE7A8816]
+[17:15:06:076] 		VampiricBreath_KYWD [KYWD:FE7A8817]
+[17:15:06:076] 		ks_DragonFireType_KYWD [KYWD:9B2AED61]
+[17:15:06:076] 		ks_DragonFrostType_KYWD [KYWD:9B2AED62]
+[17:15:06:076] 		ks_DragonShockType_KYWD [KYWD:9B2EB969]
+[17:15:06:076] 		ks_DragonNoFlight_KYWD [KYWD:9B2B3E65]
+[17:15:06:076] 		TEETHdremora [KYWD:FF002238]
+[17:15:06:076] 		TEETHsharp [KYWD:FF00223A]
+[17:15:06:076] 		TEETHtoothless [KYWD:FF002243]
+[17:15:06:076] 		RSVafflicted [KYWD:FF00224C]
+[17:15:06:076] 		RSVelder [KYWD:FF00224D]
+[17:15:06:076] 		RSVdremora [KYWD:FF00224E]
+[17:15:06:076] 		RSVsnow [KYWD:FF00224F]
+[17:15:06:076] 		RSVwerebear [KYWD:FF002250]
+[17:15:06:076] 		RSVnord [KYWD:FF002251]
+[17:15:06:076] 		RSVimperial [KYWD:FF002253]
+[17:15:06:076] 		RSVredguard [KYWD:FF002254]
+[17:15:06:076] 		RSVdarkelf [KYWD:FF002255]
+[17:15:06:076] 		RSVhighelf [KYWD:FF002256]
+[17:15:06:076] 		RSVwoodelf [KYWD:FF002257]
+[17:15:06:076] 		RSVorc [KYWD:FF002258]
+[17:15:06:076] 		RSVignore [KYWD:FE2F3A0B]
+[17:15:06:076] 		SH_UniqueHorseKWD [KYWD:FEAE0DD5]
+[17:15:06:076] 		PlayerKeyword [KYWD:00099306]
+[17:15:06:076] 		ElderNPC [KYWD:FE960D80]
+[17:15:06:076] 		UND_ExcludeDodge [KYWD:FEA3F810]
+[17:15:06:076] 		WK_ActorTypeWind [KYWD:FF00226A]
+[17:15:06:076] 		ActorTypeNobandit [KYWD:FF002270]
+[17:15:06:076] 		ActorTypeNomage [KYWD:FF002272]
+[17:15:06:076] 		isPotentialFollower [KYWD:FF002277]
+[17:15:06:076] 		isCurrentFollower [KYWD:FF002278]
+[17:15:06:076] 		RaceAltmer [KYWD:FF00227A]
+[17:15:06:076] 		RaceArgonian [KYWD:FF00227B]
+[17:15:06:076] 		RaceBosmer [KYWD:FF00227C]
+[17:15:06:076] 		RaceBreton [KYWD:FF00227D]
+[17:15:06:076] 		RaceDunmer [KYWD:FF00227E]
+[17:15:06:076] 		RaceImperial [KYWD:FF00227F]
+[17:15:06:076] 		RaceKhajiit [KYWD:FF002280]
+[17:15:06:076] 		RaceNord [KYWD:FF002281]
+[17:15:06:076] 		RaceOrsimer [KYWD:FF002282]
+[17:15:06:076] 		RaceRedguard [KYWD:FF002283]
+[17:15:06:076] 		RaceElder [KYWD:FF002284]
+[17:15:06:076] 		RaceSnowElf [KYWD:FF002285]
+[17:15:06:076] 		RaceVampire [KYWD:FF002286]
+[17:15:06:077] 		isCreatureVamp2 [KYWD:FF002290]
+[17:15:06:077] 		isCreatureWereCreature [KYWD:FF002293]
+[17:15:06:077] 		isFactionPenitus [KYWD:FF00229E]
+[17:15:06:077] 		isFactionImperial [KYWD:FF00229F]
+[17:15:06:077] 		isImperialCommander [KYWD:FF0022A0]
+[17:15:06:077] 		isFactionStormcloak [KYWD:FF0022A1]
+[17:15:06:077] 		isStormcloakCommander [KYWD:FF0022A2]
+[17:15:06:077] 		isFactionThalmor [KYWD:FF0022A3]
+[17:15:06:077] 		isFactionAlikr [KYWD:FF0022A4]
+[17:15:06:077] 		isFactionBandit [KYWD:FF0022A5]
+[17:15:06:077] 		isFactionNecromancer [KYWD:FF0022A6]
+[17:15:06:077] 		isFactionSilverhand [KYWD:FF0022A7]
+[17:15:06:077] 		isFactionBlackBlood [KYWD:FF0022A8]
+[17:15:06:077] 		isFactionBloodHorker [KYWD:FF0022A9]
+[17:15:06:077] 		isFactionBrokenOar [KYWD:FF0022AA]
+[17:15:06:077] 		isFactionWarlock [KYWD:FF0022AB]
+[17:15:06:077] 		isFactionForsworn [KYWD:FF0022AC]
+[17:15:06:077] 		isFactionCrimeEastmarch [KYWD:FF0022AD]
+[17:15:06:077] 		isFactionCrimeFalkreath [KYWD:FF0022AE]
+[17:15:06:077] 		isFactionCrimeHaafingar [KYWD:FF0022AF]
+[17:15:06:077] 		isFactionCrimeHjaalmarch [KYWD:FF0022B0]
+[17:15:06:077] 		isFactionCrimePale [KYWD:FF0022B1]
+[17:15:06:077] 		isFactionCrimeReach [KYWD:FF0022B2]
+[17:15:06:077] 		isFactionCrimeRift [KYWD:FF0022B3]
+[17:15:06:077] 		isFactionCrimeWhiterun [KYWD:FF0022B4]
+[17:15:06:077] 		isFactionCrimeWinterhold [KYWD:FF0022B5]
+[17:15:06:077] 		isFactionCrimeImperial [KYWD:FF0022B6]
+[17:15:06:077] 		isFactionCrimeStormcloaks [KYWD:FF0022B7]
+[17:15:06:077] 		isFactionCrimeKhajiitCaravans [KYWD:FF0022B8]
+[17:15:06:077] 		isFactionCrimeOrcs [KYWD:FF0022B9]
+[17:15:06:077] 		isFactionCrimeThievesGuild [KYWD:FF0022BA]
+[17:15:06:077] 		isFactionDialogueGuard [KYWD:FF0022BB]
+[17:15:06:077] 		isFactionDialogueSoldier [KYWD:FF0022BC]
+[17:15:06:077] 		isFactionGuardDawnstar [KYWD:FF0022C7]
+[17:15:06:077] 		isFactionGuardFalkreath [KYWD:FF0022C8]
+[17:15:06:077] 		isFactionGuardMarkarth [KYWD:FF0022C9]
+[17:15:06:077] 		isFactionGuardMorthal [KYWD:FF0022CA]
+[17:15:06:077] 		isFactionGuardRiften [KYWD:FF0022CB]
+[17:15:06:077] 		isFactionGuardSolitude [KYWD:FF0022CC]
+[17:15:06:077] 		isFactionGuardWhiterun [KYWD:FF0022CD]
+[17:15:06:077] 		isFactionGuardWindhelm [KYWD:FF0022CE]
+[17:15:06:077] 		isFactionGuardWinterhold [KYWD:FF0022CF]
+[17:15:06:077] 		isFactionDawnguard [KYWD:FF0022D9]
+[17:15:06:077] 		isFactionCrimeVampire [KYWD:FF0022DA]
+[17:15:06:077] 		isFactionVampire [KYWD:FF0022DB]
+[17:15:06:077] 		isFactionVampireThrall [KYWD:FF0022DC]
+[17:15:06:077] 		isFactionVampireMinions [KYWD:FF0022DD]
+[17:15:06:077] 		isFactionSoulCairn [KYWD:FF0022DE]
+[17:15:06:077] 		isFactionRavenRockGuard [KYWD:FF0022E1]
+[17:15:06:077] 		isFactionPillarBuilder [KYWD:FF0022E2]
+[17:15:06:077] 		isFactionHagraven [KYWD:FF0022E4]
+[17:15:06:077] 		isFactionNorthwatch [KYWD:FF0022E6]
+[17:15:06:077] 		isFactionPrey [KYWD:FF0022E7]
+[17:15:06:077] 		JobAnimalTrainer [KYWD:FF0022E8]
+[17:15:06:077] 		JobApothecary [KYWD:0002CDC0]
+[17:15:06:077] 		JobBlacksmith [KYWD:00013F08]
+[17:15:06:077] 		JobCarriage [KYWD:FF0022EA]
+[17:15:06:077] 		JobCourtWizard [KYWD:00044A4B]
+[17:15:06:077] 		JobFarmer [KYWD:0001D9E5]
+[17:15:06:077] 		JobFence [KYWD:FF0022EB]
+[17:15:06:077] 		JobFletcher [KYWD:000361B9]
+[17:15:06:077] 		JobGuardCaptain [KYWD:FF0022EC]
+[17:15:06:077] 		JobHostler [KYWD:0002CDBE]
+[17:15:06:077] 		JobHousecarl [KYWD:0002CDBF]
+[17:15:06:077] 		JobHunter [KYWD:0001E6FA]
+[17:15:06:077] 		JobInnkeeper [KYWD:00013F09]
+[17:15:06:077] 		JobInnServer [KYWD:FF0022ED]
+[17:15:06:077] 		JobJarl [KYWD:0002B35C]
+[17:15:06:077] 		JobJeweler [KYWD:FF0022EE]
+[17:15:06:077] 		JobJusticiar [KYWD:FF0022EF]
+[17:15:06:077] 		JobLumberjack [KYWD:0001D9E6]
+[17:15:06:077] 		JobMerchant [KYWD:0001BDA2]
+[17:15:06:077] 		JobMiner [KYWD:000332C0]
+[17:15:06:077] 		JobMisc [KYWD:00038ADD]
+[17:15:06:077] 		JobOrcChief [KYWD:00023DD7]
+[17:15:06:077] 		JobOrcWiseWoman [KYWD:00023DD8]
+[17:15:06:077] 		JobPriest [KYWD:00039221]
+[17:15:06:077] 		JobRentRoom [KYWD:FF0022F0]
+[17:15:06:077] 		JobSpellVendor [KYWD:000361BA]
+[17:15:06:077] 		JobSteward [KYWD:0002EBE3]
+[17:15:06:077] 		isFactionSolstheimBandit [KYWD:FF0022DF]
+[17:15:06:077] 		isFactionSolstheimCultist [KYWD:FF0022E0]
+[17:15:06:077] 		isFactionVigilantStendarr [KYWD:FF0022E5]
+[17:15:06:077] 		JobBard [KYWD:FF0022E9]
+[17:15:06:077] 		JobStreetVendor [KYWD:FF0022F1]
+[17:15:06:077] 		JobTailor [KYWD:FF0022F2]
+[17:15:06:077] 		JobTrainerAlchemy [KYWD:FF0022F3]
+[17:15:06:077] 		JobTrainerAlteration [KYWD:FF0022F4]
+[17:15:06:077] 		JobTrainerBlock [KYWD:FF0022F5]
+[17:15:06:077] 		JobTrainerConjuration [KYWD:FF0022F6]
+[17:15:06:077] 		JobTrainerDestruction [KYWD:FF0022F7]
+[17:15:06:077] 		JobTrainerEnchanting [KYWD:FF0022F8]
+[17:15:06:077] 		JobTrainer [KYWD:FF0022F9]
+[17:15:06:077] 		JobTrainerHeavyArmor [KYWD:FF0022FA]
+[17:15:06:077] 		JobTrainerIllusion [KYWD:FF0022FB]
+[17:15:06:077] 		JobTrainerLightArmor [KYWD:FF0022FC]
+[17:15:06:077] 		JobTrainerLockpicking [KYWD:FF0022FD]
+[17:15:06:077] 		JobTrainerMarksman [KYWD:FF0022FE]
+[17:15:06:077] 		JobTrainerOneHanded [KYWD:FF0022FF]
+[17:15:06:077] 		JobTrainerPickpocket [KYWD:FF002300]
+[17:15:06:077] 		JobTrainerRestoration [KYWD:FF002301]
+[17:15:06:077] 		JobTrainerSmithing [KYWD:FF002302]
+[17:15:06:077] 		JobTrainerSneak [KYWD:FF002303]
+[17:15:06:077] 		JobTrainerSpeechcraft [KYWD:FF002304]
+[17:15:06:077] 		JobTrainerTwoHanded [KYWD:FF002305]
+[17:15:06:077] 		isJailer [KYWD:FF002308]
+[17:15:06:077] 		isMasterLightArmor [KYWD:FF002309]
+[17:15:06:077] 		isExpertLightArmor [KYWD:FF00230A]
+[17:15:06:077] 		isAdeptLightArmor [KYWD:FF00230B]
+[17:15:06:077] 		isApprenticeLightArmor [KYWD:FF00230C]
+[17:15:06:077] 		isMasterHeavyArmor [KYWD:FF00230D]
+[17:15:06:077] 		isExpertHeavyArmor [KYWD:FF00230E]
+[17:15:06:077] 		isAdeptHeavyArmor [KYWD:FF00230F]
+[17:15:06:077] 		isApprenticeHeavyArmor [KYWD:FF002310]
+[17:15:06:077] 		isMasterBlock [KYWD:FF002311]
+[17:15:06:077] 		isExpertBlock [KYWD:FF002312]
+[17:15:06:077] 		isAdeptBlock [KYWD:FF002313]
+[17:15:06:077] 		isApprenticeBlock [KYWD:FF002314]
+[17:15:06:077] 		isMasterMarksman [KYWD:FF002315]
+[17:15:06:077] 		isExpertMarksman [KYWD:FF002316]
+[17:15:06:077] 		isAdeptMarksman [KYWD:FF002317]
+[17:15:06:077] 		isApprenticeMarksman [KYWD:FF002318]
+[17:15:06:077] 		isMasterTwoHanded [KYWD:FF002319]
+[17:15:06:077] 		isExpertTwoHanded [KYWD:FF00231A]
+[17:15:06:077] 		isAdeptTwoHanded [KYWD:FF00231B]
+[17:15:06:077] 		isApprenticeTwoHanded [KYWD:FF00231C]
+[17:15:06:077] 		isMasterOneHanded [KYWD:FF00231D]
+[17:15:06:077] 		isExpertOneHanded [KYWD:FF00231E]
+[17:15:06:077] 		isAdeptOneHanded [KYWD:FF00231F]
+[17:15:06:077] 		isApprenticeOneHanded [KYWD:FF002320]
+[17:15:06:077] 		isMasterAlteration [KYWD:FF002321]
+[17:15:06:077] 		isExpertAlteration [KYWD:FF002322]
+[17:15:06:077] 		isAdeptAlteration [KYWD:FF002323]
+[17:15:06:077] 		isApprenticeAlteration [KYWD:FF002324]
+[17:15:06:077] 		isMasterConjuration [KYWD:FF002325]
+[17:15:06:077] 		isExpertConjuration [KYWD:FF002326]
+[17:15:06:077] 		isAdeptConjuration [KYWD:FF002327]
+[17:15:06:077] 		isApprenticeConjuration [KYWD:FF002328]
+[17:15:06:077] 		isMasterDestruction [KYWD:FF002329]
+[17:15:06:077] 		isExpertDestruction [KYWD:FF00232A]
+[17:15:06:077] 		isAdeptDestruction [KYWD:FF00232B]
+[17:15:06:077] 		isApprenticeDestruction [KYWD:FF00232C]
+[17:15:06:077] 		isMasterIllusion [KYWD:FF00232D]
+[17:15:06:077] 		isExpertIllusion [KYWD:FF00232E]
+[17:15:06:077] 		isAdeptIllusion [KYWD:FF00232F]
+[17:15:06:077] 		isApprenticeIllusion [KYWD:FF002330]
+[17:15:06:077] 		isMasterRestoration [KYWD:FF002331]
+[17:15:06:077] 		isExpertRestoration [KYWD:FF002332]
+[17:15:06:077] 		isAdeptRestoration [KYWD:FF002333]
+[17:15:06:077] 		isApprenticeRestoration [KYWD:FF002334]
+[17:15:06:077] 		ActorCSBoss [KYWD:FF002339]
+[17:15:06:077] 		ActorCSTank [KYWD:FF00233A]
+[17:15:06:077] 		ActorCSMage [KYWD:FF00233B]
+[17:15:06:077] 		ActorCSMissile [KYWD:FF00233C]
+[17:15:06:077] 		ActorCSMelee [KYWD:FF00233D]
+[17:15:06:077] 		ActorMagicTypeFire [KYWD:FF002341]
+[17:15:06:077] 		ActorMagicTypeIce [KYWD:FF002342]
+[17:15:06:077] 		ActorMagicTypeStorm [KYWD:FF002344]
+[17:15:06:077] 		ActorClassMelee [KYWD:FF002349]
+[17:15:06:077] 		ActorClassRanged [KYWD:FF00234A]
+[17:15:06:077] 		ActorClassHybrid [KYWD:FF00234B]
+[17:15:06:077] 		ActorClassWizard [KYWD:FF00234C]
+[17:15:06:077] 		ActorClassMageWarlockAll [KYWD:FF00234D]
+[17:15:06:077] 		ActorClassMageWitchAll [KYWD:FF00234E]
+[17:15:06:077] 		ActorClassMageCollegeGuard [KYWD:FF002354]
+[17:15:06:077] 		isClassBanditOneHanded_REQ [KYWD:FF002358]
+[17:15:06:077] 		isClassBanditTwoHanded_REQ [KYWD:FF002359]
+[17:15:06:077] 		isClassBanditRanged_REQ [KYWD:FF00235A]
+[17:15:06:077] 		isOREO [KYWD:FF00235B]
+[17:15:06:077] 		outfitDaedric [KYWD:FF002365]
+[17:15:06:077] 		outfitDraugr [KYWD:FF002366]
+[17:15:06:077] 		outfitDwarven [KYWD:FF002367]
+[17:15:06:077] 		outfitHasNoHelmet [KYWD:FF002368]
+[17:15:06:077] 		outfitDwarvenSimple [KYWD:FF002369]
+[17:15:06:077] 		outfitEbony [KYWD:FF00236A]
+[17:15:06:077] 		outfitEbonyHasNoHelmet [KYWD:FF00236B]
+[17:15:06:077] 		outfitEbonySimple [KYWD:FF00236C]
+[17:15:06:077] 		outfitElven [KYWD:FF00236D]
+[17:15:06:077] 		outfitElvenSimple [KYWD:FF00236E]
+[17:15:06:077] 		outfitElvenGilded [KYWD:FF00236F]
+[17:15:06:077] 		outfitElvenGildedSimple [KYWD:FF002370]
+[17:15:06:077] 		outfitHide [KYWD:FF002371]
+[17:15:06:077] 		outfitHideSimple [KYWD:FF002372]
+[17:15:06:077] 		outfitIron [KYWD:FF002373]
+[17:15:06:077] 		outfitIronHide [KYWD:FF002374]
+[17:15:06:077] 		outfitIronBanded [KYWD:FF002375]
+[17:15:06:077] 		outfitHasNoShield [KYWD:FF002376]
+[17:15:06:078] 		outfitLeather [KYWD:FF002377]
+[17:15:06:078] 		outfitLeatherSimple [KYWD:FF002378]
+[17:15:06:078] 		outfitOrcish [KYWD:FF002379]
+[17:15:06:078] 		outfitOrcishStronghold [KYWD:FF00237A]
+[17:15:06:078] 		outfitScaledA [KYWD:FF00237B]
+[17:15:06:078] 		outfitScaledASimple [KYWD:FF00237C]
+[17:15:06:078] 		outfitScaledB [KYWD:FF00237D]
+[17:15:06:078] 		outfitScaledBSimple [KYWD:FF00237E]
+[17:15:06:078] 		outfitSteel [KYWD:FF00237F]
+[17:15:06:078] 		outfitSteelPlate [KYWD:FF002380]
+[17:15:06:078] 		outfitSteelPlateBalgruuf [KYWD:FF002381]
+[17:15:06:078] 		outfitStudded [KYWD:FF002382]
+[17:15:06:078] 		outfitStuddedSimple [KYWD:FF002383]
+[17:15:06:078] 		outfitClothesSleep [KYWD:FF002384]
+[17:15:06:078] 		outfitClothesFarm [KYWD:FF002385]
+[17:15:06:078] 		outfitClothesFarmHide [KYWD:FF002386]
+[17:15:06:078] 		outfitClothesMerchant [KYWD:FF002387]
+[17:15:06:078] 		outfitClothesMiner [KYWD:FF002388]
+[17:15:06:078] 		outfitClothesFine [KYWD:FF002389]
+[17:15:06:078] 		outfitStormcloak [KYWD:FF00238A]
+[17:15:06:078] 		outfitSonsOfficer [KYWD:FF00238B]
+[17:15:06:078] 		outfitSonsOfficerBear [KYWD:FF00238C]
+[17:15:06:078] 		outfitSonsSoldierCaptive [KYWD:FF00238D]
+[17:15:06:078] 		outfitSonsSoldierCaptiveNoCuffs [KYWD:FF00238E]
+[17:15:06:078] 		outfitImperialHeavy [KYWD:FF00238F]
+[17:15:06:078] 		outfitImperialHeavyOfficer [KYWD:FF002390]
+[17:15:06:078] 		outfitImperialOfficer [KYWD:FF002391]
+[17:15:06:078] 		outfitImperialLight [KYWD:FF002392]
+[17:15:06:078] 		outfitImperialStudded [KYWD:FF002393]
+[17:15:06:078] 		outfitImperialLightMixed [KYWD:FF002394]
+[17:15:06:078] 		outfitImperialJusticiar [KYWD:FF002395]
+[17:15:06:078] 		outfitImperialArcher [KYWD:FF002396]
+[17:15:06:078] 		outfitImperialWhiterunSiege [KYWD:FF002397]
+[17:15:06:078] 		outfitPenitus [KYWD:FF002398]
+[17:15:06:078] 		outfitVigilantOfStendarr [KYWD:FF002399]
+[17:15:06:078] 		outfitVigilantOfStendarrRobes [KYWD:FF00239A]
+[17:15:06:078] 		outfitThalmorArmor [KYWD:FF00239B]
+[17:15:06:078] 		outfitThalmorRobes [KYWD:FF00239C]
+[17:15:06:078] 		outfitGuardFalkreath [KYWD:FF00239D]
+[17:15:06:078] 		outfitGuardHaafingar [KYWD:FF00239E]
+[17:15:06:078] 		outfitGuardHjaalmarch [KYWD:FF00239F]
+[17:15:06:078] 		outfitGuardRift [KYWD:FF0023A0]
+[17:15:06:078] 		outiftHasNoShield [KYWD:FF0023A1]
+[17:15:06:078] 		outfitGuardPale [KYWD:FF0023A2]
+[17:15:06:078] 		outfitGuardWhiterun [KYWD:FF0023A3]
+[17:15:06:078] 		outfitGuardReach [KYWD:FF0023A4]
+[17:15:06:078] 		outfitGuardWindhelm [KYWD:FF0023A5]
+[17:15:06:078] 		outfitGuardWinterhold [KYWD:FF0023A6]
+[17:15:06:078] 		outfitCompanion [KYWD:FF0023A7]
+[17:15:06:078] 		outfitCompanionSimple [KYWD:FF0023A8]
+[17:15:06:078] 		outfitDawnguardAny [KYWD:FF0023A9]
+[17:15:06:078] 		outfitDawnguardHeavy [KYWD:FF0023AA]
+[17:15:06:078] 		outfitDawnguardLight [KYWD:FF0023AB]
+[17:15:06:078] 		outfitVampire [KYWD:FF0023AC]
+[17:15:06:078] 		outfitVampireVolkihar [KYWD:FF0023AD]
+[17:15:06:078] 		outfitVampireVolkiharClothes [KYWD:FF0023AE]
+[17:15:06:078] 		outfitVampireBoss [KYWD:FF0023AF]
+[17:15:06:078] 		outfitNecromancer [KYWD:FF0023B0]
+[17:15:06:078] 		outfitWerewolfEbony [KYWD:FF0023B1]
+[17:15:06:078] 		outiftWerewolfHide [KYWD:FF0023B2]
+[17:15:06:078] 		outiftWerewolfIronBandedOutfit [KYWD:FF0023B3]
+[17:15:06:078] 		outiftWerewolfOrcishOutfit [KYWD:FF0023B4]
+[17:15:06:078] 		outiftWerewolfScaledOutfit [KYWD:FF0023B5]
+[17:15:06:078] 		outiftWerewolfSteelOutfit [KYWD:FF0023B6]
+[17:15:06:078] 		outiftWerewolfSteelPlateOutfit [KYWD:FF0023B7]
+[17:15:06:078] 		outiftWerewolfStuddedOutfit [KYWD:FF0023B8]
+[17:15:06:078] 		outfitBanditMissile [KYWD:FF0023B9]
+[17:15:06:078] 		outfitBanditMelee [KYWD:FF0023BA]
+[17:15:06:078] 		outfitShield20 [KYWD:FF0023BB]
+[17:15:06:078] 		outfitBanditMeleeHeavy [KYWD:FF0023BC]
+[17:15:06:078] 		outfitBanditBoss [KYWD:FF0023BD]
+[17:15:06:078] 		outfitBanditMage [KYWD:FF0023BE]
+[17:15:06:078] 		outfitBanditHeavyBoss [KYWD:FF0023BF]
+[17:15:06:078] 		outfitBanditLightBoss [KYWD:FF0023C1]
+[17:15:06:078] 		outfitBanditHeavy [KYWD:FF0023C2]
+[17:15:06:078] 		outfitBanditLight [KYWD:FF0023C3]
+[17:15:06:078] 		outfitForswornMelee [KYWD:FF0023C4]
+[17:15:06:078] 		outfitForswornMissile [KYWD:FF0023C5]
+[17:15:06:078] 		outfitForswornMagic [KYWD:FF0023C6]
+[17:15:06:078] 		outfitBanditHeavyBossMagic [KYWD:FF0023C0]
+[17:15:06:078] 		outfitForswornBoss [KYWD:FF0023C7]
+[17:15:06:078] 		outfitForswornBriarheart [KYWD:FF0023C8]
+[17:15:06:078] 		outfitForswornBriarheartMagic [KYWD:FF0023C9]
+[17:15:06:078] 		outfitForswornBriarheartHybrid [KYWD:FF0023CA]
+[17:15:06:078] 		outfitForswornHelmet [KYWD:FF0023CB]
+[17:15:06:078] 		outfitForswornHood [KYWD:FF0023CC]
+[17:15:06:078] 		outfitSkeletonShield [KYWD:FF0023CD]
+[17:15:06:078] 		outfitWitch [KYWD:FF0023CE]
+[17:15:06:078] 		outfitBanditMeleeNoShield [KYWD:FF0023CF]
+[17:15:06:078] 		outfitBanditMeleeHeavyNoShield [KYWD:FF0023D0]
+[17:15:06:078] 		outfitBanditMeleeShield20 [KYWD:FF0023D1]
+[17:15:06:078] 		outfitBanditMeleeHeavyShield [KYWD:FF0023D2]
+[17:15:06:078] 		outfitBanditBossNoShield [KYWD:FF0023D3]
+[17:15:06:078] 		outfitBanditBossShield [KYWD:FF0023D4]
+[17:15:06:078] 		outfitBanditHeavyNoShield [KYWD:FF0023D5]
+[17:15:06:078] 		outfitCompanionNoHelmet [KYWD:FF0023D6]
+[17:15:06:078] 		outfitDwarvenNoHelmet [KYWD:FF0023D7]
+[17:15:06:078] 		outfitEbonyNoHelmet [KYWD:FF0023D8]
+[17:15:06:078] 		outfitElvenNoHelmet [KYWD:FF0023D9]
+[17:15:06:078] 		outfitElvenGildedNoHelmet [KYWD:FF0023DA]
+[17:15:06:078] 		outfitIronNoHelmet [KYWD:FF0023DB]
+[17:15:06:078] 		outfitIronHideNoHelmet [KYWD:FF0023DC]
+[17:15:06:078] 		outfitIronBandedNoHelmet [KYWD:FF0023DD]
+[17:15:06:078] 		outfitLeatherNoHelmet [KYWD:FF0023DE]
+[17:15:06:078] 		outfitOrcishNoHelmet [KYWD:FF0023DF]
+[17:15:06:078] 		outfitOrcishStrongholdNoHelmet [KYWD:FF0023E0]
+[17:15:06:078] 		outfitOrcishStrongholdShieldNoHelmet [KYWD:FF0023E1]
+[17:15:06:078] 		outfitScaledANoHelmet [KYWD:FF0023E2]
+[17:15:06:078] 		outfitScaledBNoHelmet [KYWD:FF0023E3]
+[17:15:06:078] 		outfitSteelNoHelmet [KYWD:FF0023E4]
+[17:15:06:078] 		outfitSteelPlateNoHelmet [KYWD:FF0023E5]
+[17:15:06:078] 		outfitStormcloakNoHelmet [KYWD:FF0023E6]
+[17:15:06:078] 		outfitSonsOfficerNoHelmet [KYWD:FF0023E7]
+[17:15:06:078] 		outfitSonsSoldierNoHelmet [KYWD:FF0023E8]
+[17:15:06:078] 		outfitImperialOfficerNoHelmet [KYWD:FF0023E9]
+[17:15:06:078] 		outfitImperialSoldierNoHelmet [KYWD:FF0023EA]
+[17:15:06:078] 		outfitImperialLightNoShield [KYWD:FF0023EB]
+[17:15:06:078] 		outfitImperialStuddedNoHelmet [KYWD:FF0023EC]
+[17:15:06:078] 		outfitPenitusNoHelmet [KYWD:FF0023ED]
+[17:15:06:078] 		outfitThalmorArmorNoHelmet [KYWD:FF0023EE]
+[17:15:06:078] 		outfitVigilantOfStendarrHood [KYWD:FF0023EF]
+[17:15:06:078] 		outfitVigilantOfStendarrNoHelmet [KYWD:FF0023F0]
+[17:15:06:078] 		ks_ModedDragon_KYWD [KYWD:9B2AED5D]
+[17:15:06:078] 		TEETHfangs [KYWD:FF002239]
+[17:15:06:078] 		TEETHheavygold [KYWD:FF00223E]
+[17:15:06:078] 		RSVbreton [KYWD:FF002252]
+[17:15:06:078] 		RSVmale [KYWD:FF00225C]
+[17:15:06:078] 		RSVfemale [KYWD:FF00225D]
+[17:15:06:078] 		SH_NotHorseKWD [KYWD:FEAE0DD7]
+[17:15:06:078] 		WK_ActorTypeFire [KYWD:FF002262]
+[17:15:06:078] 		WK_ActorTypeOgre [KYWD:FF002264]
+[17:15:06:078] 		WK_ActorTypeShock [KYWD:FF002268]
+[17:15:06:078] 		WK_ClassBandit [KYWD:FF00226B]
+[17:15:06:078] 		WK_ClassSummoner [KYWD:FF00226D]
+[17:15:06:078] 		isExcludeSoS [KYWD:FF002273]
+[17:15:06:078] 		isCreatureAtro [KYWD:FF002287]
+[17:15:06:078] 		isCreatureDraugr [KYWD:FF002288]
+[17:15:06:078] 		isCreatureDwe [KYWD:FF002289]
+[17:15:06:078] 		isCreatureFalmer [KYWD:FF00228A]
+[17:15:06:078] 		isCreatureGhost [KYWD:FF00228B]
+[17:15:06:078] 		isCreatureGob [KYWD:FF00228C]
+[17:15:06:078] 		isCreatureSpriggan [KYWD:FF00228D]
+[17:15:06:078] 		isCreatureThrall [KYWD:FF00228E]
+[17:15:06:078] 		isCreatureVamp [KYWD:FF00228F]
+[17:15:06:078] 		isCreatureWerewolf [KYWD:FF002291]
+[17:15:06:078] 		isCreatureWerebear [KYWD:FF002292]
+[17:15:06:078] 		isCreatureZom [KYWD:FF002294]
+[17:15:06:078] 		isFactionGuard [KYWD:FF0022BD]
+[17:15:06:078] 		isFactionHaknir [KYWD:FF0022E3]
+[17:15:06:078] 		ActorClassTypeTank [KYWD:FF00233E]
+[17:15:06:078] 		ActorMagicTypeAtro [KYWD:FF002340]
+[17:15:06:078] 		ActorMagicTypeNecromancy [KYWD:FF002343]
+[17:15:06:078] 		ActorClassMageWizardAll [KYWD:FF00234F]
+[17:15:06:078] 		ActorClassTypeBoss [KYWD:FF00233F]
+[17:15:06:078] 		isForswornBriar [KYWD:FF00235C]
+[17:15:06:078] 		isForswornForager [KYWD:FF00235D]
+[17:15:06:078] 		isForswornLooter [KYWD:FF00235E]
+[17:15:06:078] 		isForswornPillager [KYWD:FF00235F]
+[17:15:06:078] 		isForswornRaider [KYWD:FF002360]
+[17:15:06:078] 		isForswornRavager [KYWD:FF002361]
+[17:15:06:078] 		isForswornReclaimer [KYWD:FF002362]
+[17:15:06:078] 		isForswornWarlord [KYWD:FF002363]
+[17:15:06:078] 		OCF_ActiHeatSource_Fire [KYWD:FF002219]
+[17:15:06:078] 		OCF_ActiHeatSource_Other [KYWD:FF00221A]
+[17:15:06:078] 		OCF_ActiHeatSource [KYWD:FF00221B]
+[17:15:06:078] 		TEETHgold [KYWD:FF00223F]
+[17:15:06:078] 		RSVvampirebeast [KYWD:FF00224B]
+[17:15:06:078] 		WK_ActorTypeDisease [KYWD:FF002260]
+[17:15:06:078] 		WK_ActorTypePoison [KYWD:FF002267]
+[17:15:06:078] 		WK_ActorTypeWater [KYWD:FF002269]
+[17:15:06:078] 		WK_ClassMage [KYWD:FF00226C]
+[17:15:06:078] 		WK_ClassNecromancer [KYWD:FF00226E]
+[17:15:06:078] 		isSkipGlobal [KYWD:FF002279]
+[17:15:06:078] 		Rank01 [KYWD:FF002295]
+[17:15:06:078] 		Rank02 [KYWD:FF002296]
+[17:15:06:078] 		Rank03 [KYWD:FF002297]
+[17:15:06:078] 		Rank04 [KYWD:FF002298]
+[17:15:06:078] 		Rank05 [KYWD:FF002299]
+[17:15:06:078] 		Rank06 [KYWD:FF00229A]
+[17:15:06:078] 		Rank07 [KYWD:FF00229B]
+[17:15:06:078] 		Rank08 [KYWD:FF00229C]
+[17:15:06:078] 		Rank09 [KYWD:FF00229D]
+[17:15:06:078] 		isFactionGuardHoldEastmarch [KYWD:FF0022BE]
+[17:15:06:078] 		isFactionGuardHoldFalkreath [KYWD:FF0022BF]
+[17:15:06:078] 		isFactionGuardHoldHaafingar [KYWD:FF0022C0]
+[17:15:06:078] 		isFactionGuardHoldHjaalmarch [KYWD:FF0022C1]
+[17:15:06:078] 		isFactionGuardHoldPale [KYWD:FF0022C2]
+[17:15:06:078] 		isFactionGuardHoldReach [KYWD:FF0022C3]
+[17:15:06:078] 		isFactionGuardHoldRift [KYWD:FF0022C4]
+[17:15:06:078] 		isFactionGuardHoldWhiterun [KYWD:FF0022C5]
+[17:15:06:078] 		isFactionGuardHoldWinterhold [KYWD:FF0022C6]
+[17:15:06:078] 		isFactionGuardTownMinorWhiterun [KYWD:FF0022D0]
+[17:15:06:078] 		isFactionGuardTownMinorRift [KYWD:FF0022D1]
+[17:15:06:078] 		isFactionGuardTownMinorHaafingar [KYWD:FF0022D2]
+[17:15:06:078] 		isFactionGuardTownMinorHjaalmarch [KYWD:FF0022D3]
+[17:15:06:078] 		isFactionGuardTownMinorEastmarch [KYWD:FF0022D4]
+[17:15:06:078] 		isFactionGuardTownMinorReach [KYWD:FF0022D5]
+[17:15:06:078] 		isFactionGuardTownMinorPale [KYWD:FF0022D6]
+[17:15:06:078] 		ActorWeaponTypeOneHanded [KYWD:FF002345]
+[17:15:06:079] 		ActorWeaponTypeTwoHanded [KYWD:FF002346]
+[17:15:06:079] 		ActorWeaponTypeCrossbow [KYWD:FF002348]
+[17:15:06:079] 		ActorClassMageFire [KYWD:FF002350]
+[17:15:06:079] 		ActorClassMageIce [KYWD:FF002351]
+[17:15:06:079] 		ActorClassMageNecromancy [KYWD:FF002352]
+[17:15:06:079] 		ActorClassMageStorm [KYWD:FF002353]
+[17:15:06:079] 		isClassRanged [KYWD:FF002357]
+[17:15:06:079] 		TEETHheavybloody [KYWD:FF00223B]
+[17:15:06:079] 		RSVvampire [KYWD:FF002259]
+[17:15:06:079] 		WK_ActorTypeBlood [KYWD:FF00225E]
+[17:15:06:079] 		WK_ActorTypeFrost [KYWD:FF002263]
+[17:15:06:079] 		WK_ActorTypeGoblin [KYWD:FF002265]
+[17:15:06:079] 		WK_ActorTypeHoly [KYWD:FF002266]
+[17:15:06:079] 		WK_ClassWarlock [KYWD:FF00226F]
+[17:15:06:079] 		ActorWeaponTypeBow [KYWD:FF002347]
+[17:15:06:079] 		isClassMelee [KYWD:FF002356]
+[17:15:06:079] 		TEETHbloody [KYWD:FF00223C]
+[17:15:06:079] 		TEETHyellowmissing [KYWD:FF002240]
+[17:15:06:079] 		TEETHrotten [KYWD:FF002242]
+[17:15:06:079] 		RSVmer [KYWD:FF00225A]
+[17:15:06:079] 		RSVman [KYWD:FF00225B]
+[17:15:06:079] 		_WetExcludeRainGear [KYWD:521739A9]
+[17:15:06:079] 		_WetExcludeSurvivalGear [KYWD:521739AA]
+[17:15:06:079] 		RSVyoung [KYWD:FF002249]
+[17:15:06:079] 		RSVold [KYWD:FF00224A]
+[17:15:06:079] 		WK_ActorTypeDark [KYWD:FF00225F]
+[17:15:06:079] 		WK_ActorTypeEarth [KYWD:FF002261]
+[17:15:06:079] 		_WetExcludeColdGear [KYWD:521739A8]
+[17:15:06:079] 		isMasterMagic [KYWD:FF002335]
+[17:15:06:079] 		isSummon [KYWD:FF002276]
+[17:15:06:079] 		isExpertMagic [KYWD:FF002336]
+[17:15:06:079] 		isAdeptMagic [KYWD:FF002337]
+[17:15:06:079] 		isApprenticeMagic [KYWD:FF002338]
+[17:15:06:079] 		RSVasian [KYWD:FF002237]
+[17:15:06:079] 		RSVfantasymer [KYWD:FF002248]
+[17:15:06:079] 		isForswornBasic [KYWD:FF002364]
+[17:15:06:079] 		TEETHheavyyellow [KYWD:FF00223D]
+[17:15:06:079] 		TEETHmissing [KYWD:FF002241]
+[17:15:06:079] 		isClassMage [KYWD:FF002355]
+[17:15:06:079] 		TEETHgap [KYWD:FF002244]
+[17:15:06:079] 		TEETHwhite [KYWD:FF002245]
+[17:15:06:079] 		TEETHcrocked [KYWD:FF002246]
+[17:15:06:079] 		isCivilWarSoldierSons [KYWD:FF0022D7]
+[17:15:06:079] 		isCivilWarSoldierImperial [KYWD:FF0022D8]
+[17:15:06:079] 		TEETHlightyellow [KYWD:FF002247]
+[17:15:06:079] 		IsHuman [KYWD:FF002275]
+[17:15:06:079] 		isOutfitSoS [KYWD:FF002274]
+[17:15:06:079] 		isTrainer [KYWD:FF002306]
+[17:15:06:079] 		HasJob [KYWD:FF002307]
+[17:15:06:079] 	Keyword resolution took 41335μs / 41ms
+[17:15:06:080] ### PROCESSING ###################################
+[17:15:06:080] Registered 916/917 Keywords
+[17:15:06:080] Registered 2/2 Factions
+[17:15:06:080] Registered 922/923 Spells
+[17:15:06:080] Registered 237/237 Perks
+[17:15:06:080] Registered 70/70 Shouts
+[17:15:06:080] Registered 16/16 Packages
+[17:15:06:080] Registered 1528/1528 Outfits
+[17:15:06:080] Registered 10/10 Skins
+[17:15:06:080] Registered 14/14 Items
+[17:15:06:080] Lookup took 106376μs / 106ms
+[17:15:06:080] Item
+[17:15:06:081] ### ON DEATH #####################################
+[17:15:06:081] Registered 3/3 Items
+[17:15:06:081] ### HOOKS ########################################
+[17:15:06:081] Installed leveled distribution hooks
+[17:15:06:081] ### EVENTS #######################################
+[17:15:06:081] Registered Distribution Manager for struct RE::TESFormDeleteEvent
+[17:15:06:081] Registered class PCLevelMult::Manager
+[17:17:33:529] Dying [ACHR:FF002B7A] (Base: mihailgravelordservant "Gravelord Servant" [NPC_:FE7D6829])
+[17:17:41:782] Dying [ACHR:FF002BAE] (Base: mihailgravelordservant "Gravelord Servant" [NPC_:FE7D6829])
+[17:17:41:783] Dying [ACHR:FF002BB0] (Base: mihailgravelordservantNOSHIELD "Gravelord Servant" [NPC_:FE7D682A])
+[17:17:43:573] Dying [ACHR:FF002BB5] (Base: Player "Paladin Regina" [NPC_:00000007])
+[17:17:48:296] Dying [ACHR:FF002BB4] (Base: mihailgravelordservant "Gravelord Servant" [NPC_:FE7D6829])
+[17:18:27:322] Dying [ACHR:FF002436] (Base: mihailgravelordservant "Gravelord Servant" [NPC_:FE7D6829])
+[17:18:36:255] Dying [ACHR:FF002AD4] (Base: mihailgravelordservantNOSHIELD "Gravelord Servant" [NPC_:FE7D682A])
+[17:18:39:420] Dying [ACHR:FF002AD2] (Base: Player "Paladin Regina" [NPC_:00000007])

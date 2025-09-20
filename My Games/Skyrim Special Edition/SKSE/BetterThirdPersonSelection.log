@@ -1,34 +1,34 @@
-[01:06:16.787] [ 476 ] [I] BetterThirdPersonSelection v1-0-0-0
-[01:06:24.984] [ 476 ] [I] BTPS: API is being requested, version 0
-[01:06:24.984] [ 476 ] [I] BTPS: API request successful
-[01:09:01.390] [175212] [I] BTPS applying hooks...
-[01:09:01.390] [175212] [I] BTPS applying ActivateHook
-[01:09:01.390] [175212] [I] BTPS applying SelectionHook
-[01:09:01.390] [175212] [I] BTPS applying HorseBackHook
-[01:09:01.390] [175212] [I] BTPS finished applying hooks...
-[01:09:01.391] [175212] [I] BTPS: successfully registered SelectionWidgetMenu
-[01:09:01.391] [175212] [I] BTPS: registering DebugOverlayMenu...
-[01:09:01.391] [175212] [I] BTPS: successfully registered DebugOverlayMenu
-[01:09:01.391] [175212] [I] BTPS: successfully registered MenuOpenCloseEventHandler
-[01:09:01.391] [175212] [I] BTPS: compat - found QuickLootEE
-[01:09:01.391] [175212] [I] BTPS: compat - found TrueDirectionalMovement
-[01:09:01.391] [175212] [I] BTPS: compat - found TrueHUD
-[01:09:01.391] [175212] [I] BTPS: TrueHUD interface request successful - V3
-[01:09:01.392] [175212] [I] BTPS: overriding QuickLootRE/EE/NG hooks
-[01:09:01.392] [175212] [I] BTPS: Registered BetterThirdPersonSelection_MCM class
-[01:09:01.392] [175212] [I] BTPS: successfully registered Papyrus data
-[01:09:01.394] [175212] [I] BTPS: finished reading settings
-[01:09:01.402] [175212] [I] BTPS: finished reading ObjectOverrides 'Data/MCM/Config/BetterThirdPersonSelection/Overrides/Overrides_Default.toml'
-[01:09:01.407] [175212] [I] BTPS: finished reading ObjectOverrides 'Data/MCM/Config/BetterThirdPersonSelection/Overrides/Overrides.toml'
-[01:09:01.408] [174400] [I] BTPS: DebugAPI::CacheMenuData
-[01:09:01.413] [175212] [I] BTPS: finished reading filter preset file 'Data/MCM/Config/BetterThirdPersonSelection/Filters/FilterPresets_Default.toml'
-[01:09:01.418] [175212] [I] BTPS: finished reading filter preset file 'Data/MCM/Config/BetterThirdPersonSelection/Filters/FilterPresets.toml'
-[01:09:01.423] [175212] [I] BTPS: finished reading FilterStates.json
-[01:09:01.423] [175212] [I] BTPS: successfully enabled InputHandler
-[01:09:42.696] [ 476 ] [I] BTPS: SelectionWidgetMenu loaded flash
-[01:10:39.463] [174400] [I] BTPS: compat - found MoreHUD
-[01:10:39.463] [174400] [I] BTPS: successfully initialized SelectionWidget UI values
-[01:10:39.464] [174400] [I] Missing "$EverywhereFont" glyph ' ' (0xa0) in "_level0.mc_SelectionWidget.ActivateButtonInstance.Text".
+[17:12:37.868] [202072] [I] BetterThirdPersonSelection v1-0-0-0
+[17:12:40.272] [202072] [I] BTPS: API is being requested, version 0
+[17:12:40.272] [202072] [I] BTPS: API request successful
+[17:14:41.250] [200548] [I] BTPS applying hooks...
+[17:14:41.250] [200548] [I] BTPS applying ActivateHook
+[17:14:41.250] [200548] [I] BTPS applying SelectionHook
+[17:14:41.250] [200548] [I] BTPS applying HorseBackHook
+[17:14:41.251] [200548] [I] BTPS finished applying hooks...
+[17:14:41.251] [200548] [I] BTPS: successfully registered SelectionWidgetMenu
+[17:14:41.251] [200548] [I] BTPS: registering DebugOverlayMenu...
+[17:14:41.251] [200548] [I] BTPS: successfully registered DebugOverlayMenu
+[17:14:41.251] [200548] [I] BTPS: successfully registered MenuOpenCloseEventHandler
+[17:14:41.251] [200548] [I] BTPS: compat - found QuickLootEE
+[17:14:41.251] [200548] [I] BTPS: compat - found TrueDirectionalMovement
+[17:14:41.251] [200548] [I] BTPS: compat - found TrueHUD
+[17:14:41.251] [200548] [I] BTPS: TrueHUD interface request successful - V3
+[17:14:41.251] [200548] [I] BTPS: overriding QuickLootRE/EE/NG hooks
+[17:14:41.251] [200548] [I] BTPS: Registered BetterThirdPersonSelection_MCM class
+[17:14:41.251] [200548] [I] BTPS: successfully registered Papyrus data
+[17:14:41.252] [200548] [I] BTPS: finished reading settings
+[17:14:41.252] [200548] [I] BTPS: finished reading ObjectOverrides 'Data/MCM/Config/BetterThirdPersonSelection/Overrides/Overrides_Default.toml'
+[17:14:41.253] [200548] [I] BTPS: finished reading ObjectOverrides 'Data/MCM/Config/BetterThirdPersonSelection/Overrides/Overrides.toml'
+[17:14:41.253] [200548] [I] BTPS: finished reading filter preset file 'Data/MCM/Config/BetterThirdPersonSelection/Filters/FilterPresets_Default.toml'
+[17:14:41.253] [200548] [I] BTPS: finished reading filter preset file 'Data/MCM/Config/BetterThirdPersonSelection/Filters/FilterPresets.toml'
+[17:14:41.253] [200548] [I] BTPS: finished reading FilterStates.json
+[17:14:41.253] [200548] [I] BTPS: successfully enabled InputHandler
+[17:14:41.261] [207964] [I] BTPS: DebugAPI::CacheMenuData
+[17:15:08.925] [202072] [I] BTPS: SelectionWidgetMenu loaded flash
+[17:15:41.036] [207964] [I] BTPS: compat - found MoreHUD
+[17:15:41.036] [207964] [I] BTPS: successfully initialized SelectionWidget UI values
+[17:15:41.036] [207964] [I] Missing "$EverywhereFont" glyph ' ' (0xa0) in "_level0.mc_SelectionWidget.ActivateButtonInstance.Text".
 Font has 267 glyphs, ranges 0x9-0xa, 0xd, 0x20-0x7e, 0xa1-0xff, 0x106-0x107 (truncated).
 Search log: 
    Searching for font: "$EverywhereFont" [Device]

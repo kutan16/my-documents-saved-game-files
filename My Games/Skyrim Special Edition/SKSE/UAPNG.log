@@ -1,44 +1,9 @@
-[2025-09-19 01:06:24.670] [log] [info] [Logger.cpp:24] Name of the plugin is UAPNG.
-[2025-09-19 01:06:24.670] [log] [info] [Logger.cpp:25] Version of the plugin is 2.8.0.0.
-[2025-09-19 01:09:38.955] [log] [info] [equip_object_override.cpp:63] Ultimate Potion Animation NG - Hook Installed
-[2025-09-19 01:09:38.955] [log] [info] [plugin.cpp:11] Ultimate Potion Animation NG - Plugin Ready
-[2025-09-19 01:10:39.565] [log] [info] [plugin.cpp:29] Ultimate Potion Animation NG - Post Load Game
-[2025-09-19 01:10:39.565] [log] [info] [plugin.cpp:30] Settings loaded: iMovementType: 1, bEnableNotifications: false, bEnableSpamPotions: false
-[2025-09-19 01:13:56.223] [log] [info] [plugin.cpp:29] Ultimate Potion Animation NG - Post Load Game
-[2025-09-19 01:13:56.223] [log] [info] [plugin.cpp:30] Settings loaded: iMovementType: 1, bEnableNotifications: false, bEnableSpamPotions: false
-[2025-09-19 01:14:42.892] [log] [info] [function_library.cpp:367] -----------------Logging AnimObject Path----------------------
-[2025-09-19 01:14:42.892] [log] [info] [function_library.cpp:368] Updated AnimObject model path does not exist: Data\meshes\AnimObjects\DwaSpPotion12b.nif
-[2025-09-19 01:14:43.729] [log] [info] [animation_event_sink.cpp:36] Processing potion animation event for Actor: 'Whiterun Guard'
-[2025-09-19 01:16:22.796] [log] [info] [animation_event_sink.cpp:36] Processing potion animation event for Actor: 'Whiterun Guard'
-[2025-09-19 01:16:24.636] [log] [info] [animation_event_sink.cpp:92] AnimationEventSink deleted.
-[2025-09-19 01:17:51.881] [log] [info] [animation_event_sink.cpp:36] Processing potion animation event for Actor: 'Whiterun Guard'
-[2025-09-19 01:17:52.881] [log] [info] [animation_event_sink.cpp:36] Processing potion animation event for Actor: 'Whiterun Guard'
-[2025-09-19 01:17:53.719] [log] [info] [animation_event_sink.cpp:92] AnimationEventSink deleted.
-[2025-09-19 01:17:54.691] [log] [info] [animation_event_sink.cpp:92] AnimationEventSink deleted.
-[2025-09-19 01:18:03.074] [log] [info] [function_library.cpp:367] -----------------Logging AnimObject Path----------------------
-[2025-09-19 01:18:03.074] [log] [info] [function_library.cpp:368] Updated AnimObject model path does not exist: Data\meshes\AnimObjects\DwaSpPotion12b.nif
-[2025-09-19 01:18:04.339] [log] [info] [animation_event_sink.cpp:36] Processing potion animation event for Actor: 'Skjor'
-[2025-09-19 01:18:07.913] [log] [info] [animation_event_sink.cpp:36] Processing potion animation event for Actor: 'Whiterun Guard'
-[2025-09-19 01:18:08.028] [log] [info] [animation_event_sink.cpp:92] AnimationEventSink deleted.
-[2025-09-19 01:18:09.775] [log] [info] [animation_event_sink.cpp:92] AnimationEventSink deleted.
-[2025-09-19 01:18:10.230] [log] [info] [animation_event_sink.cpp:36] Processing potion animation event for Actor: 'Whiterun Guard'
-[2025-09-19 01:19:39.718] [log] [warning] [animation_event_sink.cpp:59] Error ++++++++++++++++++++++ CleanupAnimationEvent Failed: eventSink or eventSink->a_actor is null.
-[2025-09-19 01:19:39.718] [log] [warning] [animation_event_sink.cpp:59] Error ++++++++++++++++++++++ CleanupAnimationEvent Failed: eventSink or eventSink->a_actor is null.
-[2025-09-19 01:19:39.718] [log] [info] [plugin.cpp:29] Ultimate Potion Animation NG - Post Load Game
-[2025-09-19 01:19:39.718] [log] [info] [plugin.cpp:30] Settings loaded: iMovementType: 1, bEnableNotifications: false, bEnableSpamPotions: false
-[2025-09-19 01:22:29.307] [log] [info] [function_library.cpp:367] -----------------Logging AnimObject Path----------------------
-[2025-09-19 01:22:29.307] [log] [info] [function_library.cpp:368] Updated AnimObject model path does not exist: Data\meshes\AnimObjects\DwaSpPotion12b.nif
-[2025-09-19 01:22:30.348] [log] [info] [animation_event_sink.cpp:36] Processing potion animation event for Actor: 'Morthal Guard'
-[2025-09-19 01:22:32.149] [log] [info] [animation_event_sink.cpp:92] AnimationEventSink deleted.
-[2025-09-19 01:23:03.376] [log] [info] [plugin.cpp:29] Ultimate Potion Animation NG - Post Load Game
-[2025-09-19 01:23:03.376] [log] [info] [plugin.cpp:30] Settings loaded: iMovementType: 1, bEnableNotifications: false, bEnableSpamPotions: false
-[2025-09-19 01:26:49.858] [log] [info] [animation_event_sink.cpp:36] Processing potion animation event for Actor: 'Falion'
-[2025-09-19 01:26:51.729] [log] [info] [animation_event_sink.cpp:92] AnimationEventSink deleted.
-[2025-09-19 01:26:53.925] [log] [info] [animation_event_sink.cpp:36] Processing potion animation event for Actor: 'Falion'
-[2025-09-19 01:26:55.741] [log] [info] [animation_event_sink.cpp:92] AnimationEventSink deleted.
-[2025-09-19 01:29:31.935] [log] [info] [animation_event_sink.cpp:36] Processing potion animation event for Actor: 'Falion'
-[2025-09-19 01:29:33.776] [log] [info] [animation_event_sink.cpp:92] AnimationEventSink deleted.
-[2025-09-19 01:38:02.413] [log] [info] [animation_event_sink.cpp:36] Processing potion animation event for Actor: 'Demented Mage'
-[2025-09-19 01:38:04.244] [log] [info] [animation_event_sink.cpp:92] AnimationEventSink deleted.
-[2025-09-19 01:39:15.498] [log] [info] [animation_event_sink.cpp:36] Processing potion animation event for Actor: 'Idgrod The Younger'
-[2025-09-19 01:39:17.784] [log] [info] [animation_event_sink.cpp:92] AnimationEventSink deleted.
+[2025-09-20 17:12:40.223] [log] [info] [Logger.cpp:24] Name of the plugin is UAPNG.
+[2025-09-20 17:12:40.223] [log] [info] [Logger.cpp:25] Version of the plugin is 2.8.0.0.
+[2025-09-20 17:15:07.772] [log] [info] [equip_object_override.cpp:63] Ultimate Potion Animation NG - Hook Installed
+[2025-09-20 17:15:07.772] [log] [info] [plugin.cpp:11] Ultimate Potion Animation NG - Plugin Ready
+[2025-09-20 17:15:41.079] [log] [info] [plugin.cpp:29] Ultimate Potion Animation NG - Post Load Game
+[2025-09-20 17:15:41.079] [log] [info] [plugin.cpp:30] Settings loaded: iMovementType: 1, bEnableNotifications: false, bEnableSpamPotions: false
+[2025-09-20 17:18:18.136] [log] [info] [plugin.cpp:29] Ultimate Potion Animation NG - Post Load Game
+[2025-09-20 17:18:18.136] [log] [info] [plugin.cpp:30] Settings loaded: iMovementType: 1, bEnableNotifications: false, bEnableSpamPotions: false
+[2025-09-20 17:18:36.925] [log] [info] [animation_event_sink.cpp:92] AnimationEventSink deleted.

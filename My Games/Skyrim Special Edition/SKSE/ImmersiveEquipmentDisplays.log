@@ -12,44 +12,44 @@ Querying SKSE interfaces..
 [Init] Installing engine extensions..
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_RemoveAllBipedParts(void)] Writing..
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_RemoveAllBipedParts(void)] OK
-[EngineExtensions] [IED::EngineExtensions::Install_REFR_GarbageCollector] Installed @0x7FF7253AA0C5
-[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_Resurrect(void)] Detoured Character::Resurrect @0x7FF72645DA40:0xAB
-[EngineExtensions] [IED::EngineExtensions::Install_Actor_Resurrect] Installed reanimate hook @0x7FF725434C2F
-[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_3DEvents(void)] Detoured Actor::Release3D @0x7FF726455640:0x6B
-[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_3DEvents(void)] Detoured Character::Release3D @0x7FF72645DA40:0x6B
-[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_3DEvents(void)] Detoured PlayerCharacter::Release3D @0x7FF7264635E0:0x6B
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Actor>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::SetBaseActorValue @0x7FF7264560C0:0x4
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Actor>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::ModActorValue @0x7FF7264560C0:0x5
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Actor>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::RestoreActorValue @0x7FF7264560C0:0x6
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Character>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::SetBaseActorValue @0x7FF72645E4D0:0x4
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Character>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::ModActorValue @0x7FF72645E4D0:0x5
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Character>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::RestoreActorValue @0x7FF72645E4D0:0x6
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class PlayerCharacter>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::SetBaseActorValue @0x7FF726464098:0x4
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class PlayerCharacter>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::ModActorValue @0x7FF726464098:0x5
-[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class PlayerCharacter>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::RestoreActorValue @0x7FF726464098:0x6
-[EngineExtensions] [IED::EngineExtensions::Install_Armor_Update] Installed @0x7FF725164301
+[EngineExtensions] [IED::EngineExtensions::Install_REFR_GarbageCollector] Installed @0x7FF6B0ABA0C5
+[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_Resurrect(void)] Detoured Character::Resurrect @0x7FF6B1B6DA40:0xAB
+[EngineExtensions] [IED::EngineExtensions::Install_Actor_Resurrect] Installed reanimate hook @0x7FF6B0B44C2F
+[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_3DEvents(void)] Detoured Actor::Release3D @0x7FF6B1B65640:0x6B
+[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_3DEvents(void)] Detoured Character::Release3D @0x7FF6B1B6DA40:0x6B
+[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Actor_3DEvents(void)] Detoured PlayerCharacter::Release3D @0x7FF6B1B735E0:0x6B
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Actor>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::SetBaseActorValue @0x7FF6B1B660C0:0x4
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Actor>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::ModActorValue @0x7FF6B1B660C0:0x5
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Actor>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::RestoreActorValue @0x7FF6B1B660C0:0x6
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Character>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::SetBaseActorValue @0x7FF6B1B6E4D0:0x4
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Character>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::ModActorValue @0x7FF6B1B6E4D0:0x5
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class Character>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::RestoreActorValue @0x7FF6B1B6E4D0:0x6
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class PlayerCharacter>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::SetBaseActorValue @0x7FF6B1B74098:0x4
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class PlayerCharacter>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::ModActorValue @0x7FF6B1B74098:0x5
+[EngineExtensions] [void __cdecl IED::EngineExtensions::AVThunk<class PlayerCharacter>::Install(const class IAL::Address<unsigned __int64> &)] Detoured ActorValueOwner::RestoreActorValue @0x7FF6B1B74098:0x6
+[EngineExtensions] [IED::EngineExtensions::Install_Armor_Update] Installed @0x7FF6B0874301
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_CreateWeaponNodes(void)] Writing..
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_CreateWeaponNodes(void)] OK
-[EngineExtensions] [IED::EngineExtensions::Install_PostLoad3DHooks] Installed reference clone 3D hook @0x7FF72508FD62
-[EngineExtensions] [IED::EngineExtensions::Install_PostLoad3DHooks] Installed player load 3D hook @0x7FF7254A015E
+[EngineExtensions] [IED::EngineExtensions::Install_PostLoad3DHooks] Installed reference clone 3D hook @0x7FF6B079FD62
+[EngineExtensions] [IED::EngineExtensions::Install_PostLoad3DHooks] Installed player load 3D hook @0x7FF6B0BB015E
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_SetWeapAdjAnimVar(void) const] Writing..
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_SetWeapAdjAnimVar(void) const] OK
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_WeaponAdjustDisable(void)] Writing..
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_WeaponAdjustDisable(void)] OK
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_UpdateReferenceBehaviorGraphs(void) const] Writing..
 [EngineExtensions] [Patch] [void __cdecl IED::EngineExtensions::Install_UpdateReferenceBehaviorGraphs(void) const] OK
-[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF72507EA99 [TESObjectCELL_unk_178]
-[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF7254B75A5 [PlayerCharacter_unk_205]
-[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF7254ADADC [PlayerCharacter_RefreshLights]
-[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF7253D761B [Actor_Update]
-[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Lighting(void)] Detoured PlayerCharacter::UpdateRefLight @0x7FF7264635E0:0x55
+[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF6B078EA99 [TESObjectCELL_unk_178]
+[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF6B0BC75A5 [PlayerCharacter_unk_205]
+[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF6B0BBDADC [PlayerCharacter_RefreshLights]
+[EngineExtensions] [IED::EngineExtensions::Install_Lighting] Installed @0x7FF6B0AE761B [Actor_Update]
+[EngineExtensions] [void __cdecl IED::EngineExtensions::Install_Lighting(void)] Detoured PlayerCharacter::UpdateRefLight @0x7FF6B1B735E0:0x55
 [Init] Initializing render driver..
 [Init] Installing priority input hook..
 [Init] Initializing UI driver..
 [Init] Graphical user interface enabled
 [Init] Initializing controller input handlers..
 [Init] Early initialization done
-Loaded, trampolines: branch:[236/336] codegen:[130/384] IAL:[26 ms]
+Loaded, trampolines: branch:[236/336] codegen:[130/384] IAL:[25 ms]
 [Controller] Found SDS interface [SimpleDualSheath 1.5.7, interface ver: 2]
 [Render] IED::Drivers::Render::InitializeD3D: Sending event
 [StyleProfileManager] Loaded 14 profile(s)
@@ -83,29 +83,8 @@ Loaded, trampolines: branch:[236/336] codegen:[130/384] IAL:[26 ms]
 [Controller] OM: background clone (player/npc): 2 / 2
 [Controller] Data loaded, entered running state
 [Controller] Reverting..
-IED::Data::resolve_form: discarding deleted form FF0029F7 [62]
-IED::Data::resolve_form: discarding deleted form FF0029FB [62]
-IED::Data::resolve_form: discarding deleted form FF002A86 [62]
-IED::Data::resolve_form: discarding deleted form FF002A80 [62]
-IED::Data::resolve_form: discarding deleted form FF002A83 [62]
-IED::Data::resolve_form: discarding deleted form FF002A9E [62]
-[Controller] ISerializationBase::ReadRecord [IEDD]: 4 record(s), 0.027401s [131030/3253283]
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.025596s [130537/3244449 r:0.04]
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.026865s [130834/3244629 r:0.04]
+[Controller] ISerializationBase::ReadRecord [IEDD]: 4 record(s), 0.033317s [152435/3912499]
 [Controller] Reverting..
-IED::Data::resolve_form: discarding deleted form FF002AB7 [62]
-[Controller] ISerializationBase::ReadRecord [IEDD]: 4 record(s), 0.025615s [130834/3244629]
 [Controller] Reverting..
-IED::Data::resolve_form: discarding deleted form FF0029F7 [62]
-IED::Data::resolve_form: discarding deleted form FF0029FB [62]
-IED::Data::resolve_form: discarding deleted form FF002A86 [62]
-IED::Data::resolve_form: discarding deleted form FF002A80 [62]
-IED::Data::resolve_form: discarding deleted form FF002A83 [62]
-IED::Data::resolve_form: discarding deleted form FF002A9E [62]
-[Controller] ISerializationBase::ReadRecord [IEDD]: 4 record(s), 0.027912s [131030/3253283]
+[Controller] ISerializationBase::ReadRecord [IEDD]: 4 record(s), 0.029366s [152435/3912499]
 [Controller] Reverting..
-IED::Data::resolve_form: discarding deleted form FF002AB7 [62]
-[Controller] ISerializationBase::ReadRecord [IEDD]: 4 record(s), 0.028168s [130834/3244629]
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.027061s [133795/3316873 r:0.04]
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.028452s [136017/3410121 r:0.04]
-[Controller] ISerializationBase::WriteRecord [IEDD]: 4 record(s), 0.028282s [139279/3541087 r:0.04]

@@ -1,6 +1,190 @@
-[2025-09-19 01:06:17.428] [Global] [info] [476] [main.cpp:57] Log Level: trace
-[2025-09-19 01:06:17.428] [Global] [info] [476] [main.cpp:222] NOTE: This is not a crashlog. Crashlogs have the name crash-[TIMESTAMP].log
-[2025-09-19 01:06:17.428] [Global] [info] [476] [main.cpp:223] CrashLogger 1.15.0.0 Oct 12 2024 11:33:37 is loading...
-[2025-09-19 01:06:17.429] [Global] [info] [476] [CrashHandler.cpp:596] installed crash handlers
-[2025-09-19 01:06:17.429] [Global] [info] [476] [CrashHandler.cpp:599] Crash Logs will be written to C:\Users\Kutan\Documents\My Games\Skyrim Special Edition\SKSE
-[2025-09-19 01:06:17.429] [Global] [info] [476] [main.cpp:230] CrashLogger has finished loading.
+[2025-09-20 17:12:37.994] [Global] [info] [202072] [main.cpp:57] Log Level: trace
+[2025-09-20 17:12:37.994] [Global] [info] [202072] [main.cpp:222] NOTE: This is not a crashlog. Crashlogs have the name crash-[TIMESTAMP].log
+[2025-09-20 17:12:37.994] [Global] [info] [202072] [main.cpp:223] CrashLogger 1.15.0.0 Oct 12 2024 11:33:37 is loading...
+[2025-09-20 17:12:37.994] [Global] [info] [202072] [CrashHandler.cpp:596] installed crash handlers
+[2025-09-20 17:12:37.994] [Global] [info] [202072] [CrashHandler.cpp:599] Crash Logs will be written to C:\Users\Kutan\Documents\My Games\Skyrim Special Edition\SKSE
+[2025-09-20 17:12:37.994] [Global] [info] [202072] [main.cpp:230] CrashLogger has finished loading.
+[2025-09-20 17:19:01.512] [Global] [info] [207964] [PdbHandler.cpp:353] Symcache not found at c:\symcache
+[2025-09-20 17:19:01.512] [Global] [info] [207964] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/data/SKSE/Plugins/MainMenuCustomizer.dll+0013FA3 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.527] [Global] [info] [207964] [PdbHandler.cpp:386] Successfully opened pdb for dll D:/STOCK GAME/data/SKSE/Plugins/MainMenuCustomizer.dll+0013FA3
+[2025-09-20 17:19:01.537] [Global] [info] [207964] [PdbHandler.cpp:132] Demangling word: ?ProcessEvent@KeyEventManager@cmm@@UEAA?AW4BSEventNotifyControl@RE@@PEBQEAVInputEvent@4@PEAV?$BSTEventSource@PEAVInputEvent@RE@@@4@@Z
+[2025-09-20 17:19:01.537] [Global] [info] [207964] [PdbHandler.cpp:146] Demangled result: cmm::KeyEventManager::cessEvent const volatile
+[2025-09-20 17:19:01.537] [Global] [info] [207964] [PdbHandler.cpp:172] Found potential replacement word: ProcessEvent
+[2025-09-20 17:19:01.548] [Global] [info] [207964] [PdbHandler.cpp:271] Symbol returning:  W:\Skyrim\Projekty\SKSE\Main Menu Customizer\src\Customizer\KeyEventManager.hpp:34 cmm::KeyEventManager::cessEvent const volatile (mangled: ?ProcessEvent@KeyEventManager@cmm@@UEAA?AW4BSEventNotifyControl@RE@@PEBQEAVInputEvent@4@PEAV?$BSTEventSource@PEAVInputEvent@RE@@@4@@Z)
+[2025-09-20 17:19:01.548] [Global] [info] [207964] [PdbHandler.cpp:428] Public symbol found for D:/STOCK GAME/data/SKSE/Plugins/MainMenuCustomizer.dll+0013FA3:  W:\Skyrim\Projekty\SKSE\Main Menu Customizer\src\Customizer\KeyEventManager.hpp:34 cmm::KeyEventManager::cessEvent const volatile (mangled: ?ProcessEvent@KeyEventManager@cmm@@UEAA?AW4BSEventNotifyControl@RE@@PEBQEAVInputEvent@4@PEAV?$BSTEventSource@PEAVInputEvent@RE@@@4@@Z)
+[2025-09-20 17:19:01.699] [Global] [info] [207964] [PdbHandler.cpp:314] Failed to initialize COM library for dll D:/STOCK GAME/data/SKSE/Plugins/MainMenuCustomizer.dll+0013FA3	Cannot change thread mode after it is set.
+[2025-09-20 17:19:01.699] [Global] [info] [207964] [PdbHandler.cpp:314] Failed to initialize COM library for dll D:/STOCK GAME/SkyrimSE.exe+0C15F75	Cannot change thread mode after it is set.
+[2025-09-20 17:19:01.699] [Global] [info] [207964] [PdbHandler.cpp:314] Failed to initialize COM library for dll D:/STOCK GAME/data/SKSE/Plugins/ImmersiveEquipmentDisplays.dll+000D247	Cannot change thread mode after it is set.
+[2025-09-20 17:19:01.699] [Global] [info] [207964] [PdbHandler.cpp:314] Failed to initialize COM library for dll D:/STOCK GAME/data/SKSE/Plugins/OpenAnimationReplacer.dll+0134253	Cannot change thread mode after it is set.
+[2025-09-20 17:19:01.699] [Global] [info] [207964] [PdbHandler.cpp:314] Failed to initialize COM library for dll D:/STOCK GAME/data/SKSE/Plugins/po3_DialogueHistory.dll+004B2C8	Cannot change thread mode after it is set.
+[2025-09-20 17:19:01.699] [Global] [info] [207964] [PdbHandler.cpp:314] Failed to initialize COM library for dll D:/STOCK GAME/data/SKSE/Plugins/STB_Widgets.dll+001F4CE	Cannot change thread mode after it is set.
+[2025-09-20 17:19:01.699] [Global] [info] [207964] [PdbHandler.cpp:314] Failed to initialize COM library for dll D:/STOCK GAME/SkyrimSE.exe+0C15130	Cannot change thread mode after it is set.
+[2025-09-20 17:19:01.699] [Global] [info] [207964] [PdbHandler.cpp:314] Failed to initialize COM library for dll D:/STOCK GAME/SkyrimSE.exe+063FC57	Cannot change thread mode after it is set.
+[2025-09-20 17:19:01.699] [Global] [info] [207964] [PdbHandler.cpp:314] Failed to initialize COM library for dll D:/STOCK GAME/SkyrimSE.exe+0576D4C	Cannot change thread mode after it is set.
+[2025-09-20 17:19:01.699] [Global] [info] [207964] [PdbHandler.cpp:314] Failed to initialize COM library for dll D:/STOCK GAME/SkyrimSE.exe+0C0D6BD	Cannot change thread mode after it is set.
+[2025-09-20 17:19:01.699] [Global] [info] [207964] [PdbHandler.cpp:314] Failed to initialize COM library for dll C:/WINDOWS/System32/KERNEL32.DLL+002E8D7	Cannot change thread mode after it is set.
+[2025-09-20 17:19:01.699] [Global] [info] [207964] [PdbHandler.cpp:314] Failed to initialize COM library for dll C:/WINDOWS/SYSTEM32/ntdll.dll+0008D9C	Cannot change thread mode after it is set.
+[2025-09-20 17:19:01.699] [Global] [info] [207964] [Introspection.cpp:1572] Found unhandled type:	(ButtonEvent*)	.?AVButtonEvent@@
+[2025-09-20 17:19:01.699] [Global] [info] [207964] [Introspection.cpp:1572] Found unhandled type:	(ButtonEvent*)	.?AVIDEvent@@
+[2025-09-20 17:19:01.699] [Global] [info] [207964] [Introspection.cpp:1572] Found unhandled type:	(ButtonEvent*)	.?AVInputEvent@@
+[2025-09-20 17:19:01.699] [Global] [info] [205488] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVMainMenu@@
+[2025-09-20 17:19:01.699] [Global] [info] [205488] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVIMenu@@
+[2025-09-20 17:19:01.699] [Global] [info] [205488] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVFxDelegateHandler@@
+[2025-09-20 17:19:01.699] [Global] [info] [205488] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AV?$GRefCountBase@VFxDelegateHandler@@$01@@
+[2025-09-20 17:19:01.699] [Global] [info] [205488] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AV?$GRefCountBaseStatImpl@VGRefCountImpl@@$01@@
+[2025-09-20 17:19:01.699] [Global] [info] [205488] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVGRefCountImpl@@
+[2025-09-20 17:19:01.699] [Global] [info] [205488] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVGRefCountImplCore@@
+[2025-09-20 17:19:01.699] [Global] [info] [205488] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AV?$BSTEventSink@VBSSystemEvent@@@@
+[2025-09-20 17:19:01.699] [Global] [info] [205488] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AV?$BSTEventSink@VBSSaveDataEvent@@@@
+[2025-09-20 17:19:01.699] [Global] [info] [205488] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVGFxFunctionHandler@@
+[2025-09-20 17:19:01.699] [Global] [info] [205488] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AV?$GRefCountBase@VGFxFunctionHandler@@$01@@
+[2025-09-20 17:19:01.699] [Global] [info] [205488] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AV?$GRefCountBaseStatImpl@VGRefCountImpl@@$01@@
+[2025-09-20 17:19:01.699] [Global] [info] [205488] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVGRefCountImpl@@
+[2025-09-20 17:19:01.699] [Global] [info] [205488] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVGRefCountImplCore@@
+[2025-09-20 17:19:01.700] [Global] [info] [207480] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/data/SKSE/Plugins/MainMenuCustomizer.dll+01E7DA2 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.704] [Global] [info] [207480] [PdbHandler.cpp:386] Successfully opened pdb for dll D:/STOCK GAME/data/SKSE/Plugins/MainMenuCustomizer.dll+01E7DA2
+[2025-09-20 17:19:01.709] [Global] [info] [207480] [PdbHandler.cpp:132] Demangling word: ??_C@_09JDDCPHDA@Main?5Menu@
+[2025-09-20 17:19:01.709] [Global] [info] [207480] [PdbHandler.cpp:146] Demangled result: UNKNOWN
+[2025-09-20 17:19:01.710] [Global] [info] [207480] [PdbHandler.cpp:271] Symbol returning:  ??_C@_09JDDCPHDA@Main?5Menu@_1E7DA2
+[2025-09-20 17:19:01.710] [Global] [info] [207480] [PdbHandler.cpp:428] Public symbol found for D:/STOCK GAME/data/SKSE/Plugins/MainMenuCustomizer.dll+01E7DA2:  ??_C@_09JDDCPHDA@Main?5Menu@_1E7DA2
+[2025-09-20 17:19:01.711] [Global] [info] [169952] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+2F27400 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.719] [Global] [info] [169952] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+2F27400	Unable to locate PDB
+[2025-09-20 17:19:01.719] [Global] [info] [207964] [Introspection.cpp:1572] Found unhandled type:	(ButtonEvent*)	.?AVButtonEvent@@
+[2025-09-20 17:19:01.719] [Global] [info] [207964] [Introspection.cpp:1572] Found unhandled type:	(ButtonEvent*)	.?AVIDEvent@@
+[2025-09-20 17:19:01.719] [Global] [info] [207964] [Introspection.cpp:1572] Found unhandled type:	(ButtonEvent*)	.?AVInputEvent@@
+[2025-09-20 17:19:01.719] [Global] [info] [207480] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVMainMenu@@
+[2025-09-20 17:19:01.719] [Global] [info] [207480] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVIMenu@@
+[2025-09-20 17:19:01.719] [Global] [info] [207480] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVFxDelegateHandler@@
+[2025-09-20 17:19:01.719] [Global] [info] [207480] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AV?$GRefCountBase@VFxDelegateHandler@@$01@@
+[2025-09-20 17:19:01.719] [Global] [info] [207480] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AV?$GRefCountBaseStatImpl@VGRefCountImpl@@$01@@
+[2025-09-20 17:19:01.719] [Global] [info] [207480] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVGRefCountImpl@@
+[2025-09-20 17:19:01.719] [Global] [info] [207480] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVGRefCountImplCore@@
+[2025-09-20 17:19:01.719] [Global] [info] [207480] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AV?$BSTEventSink@VBSSystemEvent@@@@
+[2025-09-20 17:19:01.719] [Global] [info] [210180] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVMainMenu@@
+[2025-09-20 17:19:01.719] [Global] [info] [210180] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVIMenu@@
+[2025-09-20 17:19:01.719] [Global] [info] [207480] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AV?$BSTEventSink@VBSSaveDataEvent@@@@
+[2025-09-20 17:19:01.719] [Global] [info] [207480] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVGFxFunctionHandler@@
+[2025-09-20 17:19:01.719] [Global] [info] [207480] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AV?$GRefCountBase@VGFxFunctionHandler@@$01@@
+[2025-09-20 17:19:01.719] [Global] [info] [207480] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AV?$GRefCountBaseStatImpl@VGRefCountImpl@@$01@@
+[2025-09-20 17:19:01.719] [Global] [info] [207480] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVGRefCountImpl@@
+[2025-09-20 17:19:01.719] [Global] [info] [207480] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVGRefCountImplCore@@
+[2025-09-20 17:19:01.719] [Global] [info] [210180] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVFxDelegateHandler@@
+[2025-09-20 17:19:01.719] [Global] [info] [210180] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AV?$GRefCountBase@VFxDelegateHandler@@$01@@
+[2025-09-20 17:19:01.719] [Global] [info] [210180] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AV?$GRefCountBaseStatImpl@VGRefCountImpl@@$01@@
+[2025-09-20 17:19:01.719] [Global] [info] [210180] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVGRefCountImpl@@
+[2025-09-20 17:19:01.719] [Global] [info] [210180] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVGRefCountImplCore@@
+[2025-09-20 17:19:01.719] [Global] [info] [210180] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AV?$BSTEventSink@VBSSystemEvent@@@@
+[2025-09-20 17:19:01.719] [Global] [info] [210180] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AV?$BSTEventSink@VBSSaveDataEvent@@@@
+[2025-09-20 17:19:01.719] [Global] [info] [210180] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVGFxFunctionHandler@@
+[2025-09-20 17:19:01.719] [Global] [info] [210180] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AV?$GRefCountBase@VGFxFunctionHandler@@$01@@
+[2025-09-20 17:19:01.719] [Global] [info] [210180] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AV?$GRefCountBaseStatImpl@VGRefCountImpl@@$01@@
+[2025-09-20 17:19:01.719] [Global] [info] [210180] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVGRefCountImpl@@
+[2025-09-20 17:19:01.719] [Global] [info] [210180] [Introspection.cpp:1572] Found unhandled type:	(MainMenu*)	.?AVGRefCountImplCore@@
+[2025-09-20 17:19:01.719] [Global] [info] [207448] [Introspection.cpp:1572] Found unhandled type:	(ButtonEvent*)	.?AVButtonEvent@@
+[2025-09-20 17:19:01.719] [Global] [info] [207448] [Introspection.cpp:1572] Found unhandled type:	(ButtonEvent*)	.?AVIDEvent@@
+[2025-09-20 17:19:01.719] [Global] [info] [207448] [Introspection.cpp:1572] Found unhandled type:	(ButtonEvent*)	.?AVInputEvent@@
+[2025-09-20 17:19:01.719] [Global] [info] [190480] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AVServingThread@JobListManager@@
+[2025-09-20 17:19:01.719] [Global] [info] [203192] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AVServingThread@JobListManager@@
+[2025-09-20 17:19:01.719] [Global] [info] [203192] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AVBSThread@@
+[2025-09-20 17:19:01.719] [Global] [info] [190480] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AVBSThread@@
+[2025-09-20 17:19:01.719] [Global] [info] [190480] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AU?$BSTSingletonSDM@VServingThread@JobListManager@@UBSTSingletonSDMOpStaticBuffer@@@@
+[2025-09-20 17:19:01.719] [Global] [info] [164928] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AVServingThread@JobListManager@@
+[2025-09-20 17:19:01.719] [Global] [info] [181556] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AVServingThread@JobListManager@@
+[2025-09-20 17:19:01.719] [Global] [info] [181556] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AVBSThread@@
+[2025-09-20 17:19:01.719] [Global] [info] [181556] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AU?$BSTSingletonSDM@VServingThread@JobListManager@@UBSTSingletonSDMOpStaticBuffer@@@@
+[2025-09-20 17:19:01.719] [Global] [info] [181556] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AU?$BSTSingletonSDMBase@U?$BSTSDMTraits@VServingThread@JobListManager@@U?$BSTSingletonSDMOpStaticBuffer@VServingThread@JobListManager@@@@@@@@
+[2025-09-20 17:19:01.720] [Global] [info] [181556] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AU?$BSTSDMTraits@VServingThread@JobListManager@@U?$BSTSingletonSDMOpStaticBuffer@VServingThread@JobListManager@@@@@@
+[2025-09-20 17:19:01.720] [Global] [info] [181556] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AU?$BSTSingletonSDMOpStaticBuffer@VServingThread@JobListManager@@@@
+[2025-09-20 17:19:01.720] [Global] [info] [164928] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AVBSThread@@
+[2025-09-20 17:19:01.720] [Global] [info] [164928] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AU?$BSTSingletonSDM@VServingThread@JobListManager@@UBSTSingletonSDMOpStaticBuffer@@@@
+[2025-09-20 17:19:01.720] [Global] [info] [164928] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AU?$BSTSingletonSDMBase@U?$BSTSDMTraits@VServingThread@JobListManager@@U?$BSTSingletonSDMOpStaticBuffer@VServingThread@JobListManager@@@@@@@@
+[2025-09-20 17:19:01.720] [Global] [info] [164928] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AU?$BSTSDMTraits@VServingThread@JobListManager@@U?$BSTSingletonSDMOpStaticBuffer@VServingThread@JobListManager@@@@@@
+[2025-09-20 17:19:01.720] [Global] [info] [164928] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AU?$BSTSingletonSDMOpStaticBuffer@VServingThread@JobListManager@@@@
+[2025-09-20 17:19:01.719] [Global] [info] [203192] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AU?$BSTSingletonSDM@VServingThread@JobListManager@@UBSTSingletonSDMOpStaticBuffer@@@@
+[2025-09-20 17:19:01.720] [Global] [info] [203192] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AU?$BSTSingletonSDMBase@U?$BSTSDMTraits@VServingThread@JobListManager@@U?$BSTSingletonSDMOpStaticBuffer@VServingThread@JobListManager@@@@@@@@
+[2025-09-20 17:19:01.720] [Global] [info] [203192] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AU?$BSTSDMTraits@VServingThread@JobListManager@@U?$BSTSingletonSDMOpStaticBuffer@VServingThread@JobListManager@@@@@@
+[2025-09-20 17:19:01.720] [Global] [info] [203192] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AU?$BSTSingletonSDMOpStaticBuffer@VServingThread@JobListManager@@@@
+[2025-09-20 17:19:01.719] [Global] [info] [190480] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AU?$BSTSingletonSDMBase@U?$BSTSDMTraits@VServingThread@JobListManager@@U?$BSTSingletonSDMOpStaticBuffer@VServingThread@JobListManager@@@@@@@@
+[2025-09-20 17:19:01.720] [Global] [info] [190480] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AU?$BSTSDMTraits@VServingThread@JobListManager@@U?$BSTSingletonSDMOpStaticBuffer@VServingThread@JobListManager@@@@@@
+[2025-09-20 17:19:01.720] [Global] [info] [190480] [Introspection.cpp:1572] Found unhandled type:	(JobListManager::ServingThread*)	.?AU?$BSTSingletonSDMOpStaticBuffer@VServingThread@JobListManager@@@@
+[2025-09-20 17:19:01.720] [Global] [info] [169952] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/data/SKSE/Plugins/AutoInputSwitch.dll+000D1EB with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.721] [Global] [info] [169952] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/data/SKSE/Plugins/AutoInputSwitch.dll+000D1EB	Unable to locate PDB
+[2025-09-20 17:19:01.722] [Global] [info] [208164] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+2F27400 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.722] [Global] [info] [208164] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+2F27400	Unable to locate PDB
+[2025-09-20 17:19:01.723] [Global] [info] [207444] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+2F27400 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.724] [Global] [info] [207444] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+2F27400	Unable to locate PDB
+[2025-09-20 17:19:01.724] [Global] [info] [209752] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+2F27448 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.725] [Global] [info] [209752] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+2F27448	Unable to locate PDB
+[2025-09-20 17:19:01.726] [Global] [info] [196140] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+0C15F75 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.726] [Global] [info] [196140] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+0C15F75	Unable to locate PDB
+[2025-09-20 17:19:01.727] [Global] [info] [203104] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+2F27448 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.728] [Global] [info] [203104] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+2F27448	Unable to locate PDB
+[2025-09-20 17:19:01.728] [Global] [info] [205488] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+2F27400 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.729] [Global] [info] [205488] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+2F27400	Unable to locate PDB
+[2025-09-20 17:19:01.729] [Global] [info] [207964] [PdbHandler.cpp:314] Failed to initialize COM library for dll D:/STOCK GAME/SkyrimSE.exe+2F27400	Cannot change thread mode after it is set.
+[2025-09-20 17:19:01.730] [Global] [info] [208516] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/data/SKSE/Plugins/ImmersiveEquipmentDisplays.dll+000D247 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.731] [Global] [info] [208516] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/data/SKSE/Plugins/ImmersiveEquipmentDisplays.dll+000D247	Unable to locate PDB
+[2025-09-20 17:19:01.731] [Global] [info] [210020] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+2F27400 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.732] [Global] [info] [210020] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+2F27400	Unable to locate PDB
+[2025-09-20 17:19:01.733] [Global] [info] [208688] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+2F27400 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.734] [Global] [info] [208688] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+2F27400	Unable to locate PDB
+[2025-09-20 17:19:01.734] [Global] [info] [209592] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/data/SKSE/Plugins/OpenAnimationReplacer.dll+0134253 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.744] [Global] [info] [209592] [PdbHandler.cpp:386] Successfully opened pdb for dll D:/STOCK GAME/data/SKSE/Plugins/OpenAnimationReplacer.dll+0134253
+[2025-09-20 17:19:01.749] [Global] [info] [209592] [PdbHandler.cpp:132] Demangling word: ?InputFunc@UIHooks@Hooks@@CAXPEAV?$BSTEventSource@PEAVInputEvent@RE@@@RE@@PEBQEAVInputEvent@4@@Z
+[2025-09-20 17:19:01.749] [Global] [info] [209592] [PdbHandler.cpp:146] Demangled result: Hooks::UIHooks::utFunc
+[2025-09-20 17:19:01.749] [Global] [info] [209592] [PdbHandler.cpp:172] Found potential replacement word: InputFunc
+[2025-09-20 17:19:01.749] [Global] [info] [209592] [PdbHandler.cpp:184] Found potential truncatedPart: utFunc
+[2025-09-20 17:19:01.752] [Global] [info] [209592] [PdbHandler.cpp:271] Symbol returning:  F:\dev\OpenAnimationReplacer\src\Hooks.cpp:594 Hooks::UIHooks::InputFunc (mangled: ?InputFunc@UIHooks@Hooks@@CAXPEAV?$BSTEventSource@PEAVInputEvent@RE@@@RE@@PEBQEAVInputEvent@4@@Z)
+[2025-09-20 17:19:01.752] [Global] [info] [209592] [PdbHandler.cpp:428] Public symbol found for D:/STOCK GAME/data/SKSE/Plugins/OpenAnimationReplacer.dll+0134253:  F:\dev\OpenAnimationReplacer\src\Hooks.cpp:594 Hooks::UIHooks::InputFunc (mangled: ?InputFunc@UIHooks@Hooks@@CAXPEAV?$BSTEventSource@PEAVInputEvent@RE@@@RE@@PEBQEAVInputEvent@4@@Z)
+[2025-09-20 17:19:01.753] [Global] [info] [175868] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+2F27400 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.754] [Global] [info] [175868] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+2F27400	Unable to locate PDB
+[2025-09-20 17:19:01.755] [Global] [info] [206980] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+2F27400 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.756] [Global] [info] [206980] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+2F27400	Unable to locate PDB
+[2025-09-20 17:19:01.756] [Global] [info] [208604] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+2F27400 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.757] [Global] [info] [208604] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+2F27400	Unable to locate PDB
+[2025-09-20 17:19:01.758] [Global] [info] [207480] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/data/SKSE/Plugins/po3_DialogueHistory.dll+004B2C8 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.771] [Global] [info] [207480] [PdbHandler.cpp:386] Successfully opened pdb for dll D:/STOCK GAME/data/SKSE/Plugins/po3_DialogueHistory.dll+004B2C8
+[2025-09-20 17:19:01.778] [Global] [info] [207480] [PdbHandler.cpp:132] Demangling word: ?thunk@ProcessInputQueue@Hooks@@SAXPEAV?$BSTEventSource@PEAVInputEvent@RE@@@RE@@PEBQEAVInputEvent@4@@Z
+[2025-09-20 17:19:01.778] [Global] [info] [207480] [PdbHandler.cpp:146] Demangled result: Hooks::ProcessInputQueue::unk
+[2025-09-20 17:19:01.778] [Global] [info] [207480] [PdbHandler.cpp:172] Found potential replacement word: thunk
+[2025-09-20 17:19:01.778] [Global] [info] [207480] [PdbHandler.cpp:184] Found potential truncatedPart: unk
+[2025-09-20 17:19:01.779] [Global] [info] [207480] [PdbHandler.cpp:271] Symbol returning:  D:\a\DialogueHistory\DialogueHistory\src\Hooks.cpp:22 Hooks::ProcessInputQueue::thunk (mangled: ?thunk@ProcessInputQueue@Hooks@@SAXPEAV?$BSTEventSource@PEAVInputEvent@RE@@@RE@@PEBQEAVInputEvent@4@@Z) D:\a\DialogueHistory\DialogueHistory\src\Hooks.cpp:34 Hooks::ProcessInputQueue::thunk (mangled: ?thunk@ProcessInputQueue@Hooks@@SAXPEAV?$BSTEventSource@PEAVInputEvent@RE@@@RE@@PEBQEAVInputEvent@4@@Z)
+[2025-09-20 17:19:01.780] [Global] [info] [207480] [PdbHandler.cpp:428] Public symbol found for D:/STOCK GAME/data/SKSE/Plugins/po3_DialogueHistory.dll+004B2C8:  D:\a\DialogueHistory\DialogueHistory\src\Hooks.cpp:22 Hooks::ProcessInputQueue::thunk (mangled: ?thunk@ProcessInputQueue@Hooks@@SAXPEAV?$BSTEventSource@PEAVInputEvent@RE@@@RE@@PEBQEAVInputEvent@4@@Z) D:\a\DialogueHistory\DialogueHistory\src\Hooks.cpp:34 Hooks::ProcessInputQueue::thunk (mangled: ?thunk@ProcessInputQueue@Hooks@@SAXPEAV?$BSTEventSource@PEAVInputEvent@RE@@@RE@@PEBQEAVInputEvent@4@@Z)
+[2025-09-20 17:19:01.780] [Global] [info] [205860] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+2F27400 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.781] [Global] [info] [205860] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+2F27400	Unable to locate PDB
+[2025-09-20 17:19:01.782] [Global] [info] [209724] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/data/SKSE/Plugins/dmenu.dll+0008DD2 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.783] [Global] [info] [209724] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/data/SKSE/Plugins/dmenu.dll+0008DD2	Unable to locate PDB
+[2025-09-20 17:19:01.784] [Global] [info] [208292] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/data/SKSE/Plugins/STB_Widgets.dll+001F4CE with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.785] [Global] [info] [208292] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/data/SKSE/Plugins/STB_Widgets.dll+001F4CE	Unable to locate PDB
+[2025-09-20 17:19:01.786] [Global] [info] [208256] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+2F27480 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.786] [Global] [info] [208256] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+2F27480	Unable to locate PDB
+[2025-09-20 17:19:01.787] [Global] [info] [201860] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+2F27400 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.788] [Global] [info] [201860] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+2F27400	Unable to locate PDB
+[2025-09-20 17:19:01.788] [Global] [info] [209728] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+0C15130 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.789] [Global] [info] [209728] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+0C15130	Unable to locate PDB
+[2025-09-20 17:19:01.790] [Global] [info] [207292] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+2F272D0 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.790] [Global] [info] [207292] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+2F272D0	Unable to locate PDB
+[2025-09-20 17:19:01.791] [Global] [info] [184996] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+2F27480 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.792] [Global] [info] [184996] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+2F27480	Unable to locate PDB
+[2025-09-20 17:19:01.792] [Global] [info] [209720] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+3028490 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.793] [Global] [info] [209720] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+3028490	Unable to locate PDB
+[2025-09-20 17:19:01.794] [Global] [info] [137828] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+063FC57 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.795] [Global] [info] [137828] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+063FC57	Unable to locate PDB
+[2025-09-20 17:19:01.796] [Global] [info] [210180] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+2F26601 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.796] [Global] [info] [210180] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+2F26601	Unable to locate PDB
+[2025-09-20 17:19:01.797] [Global] [info] [203740] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+2F26601 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.798] [Global] [info] [203740] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+2F26601	Unable to locate PDB
+[2025-09-20 17:19:01.798] [Global] [info] [205112] [PdbHandler.cpp:370] Attempting to find pdb for C:/WINDOWS/System32/KERNELBASE.dll+00BF88B with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.799] [Global] [info] [205112] [PdbHandler.cpp:374] Failed to open pdb for dll C:/WINDOWS/System32/KERNELBASE.dll+00BF88B	Unable to locate PDB
+[2025-09-20 17:19:01.800] [Global] [info] [188004] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+0576D4C with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.800] [Global] [info] [188004] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+0576D4C	Unable to locate PDB
+[2025-09-20 17:19:01.801] [Global] [info] [205328] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+3028490 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.802] [Global] [info] [205328] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+3028490	Unable to locate PDB
+[2025-09-20 17:19:01.802] [Global] [info] [207448] [PdbHandler.cpp:370] Attempting to find pdb for D:/STOCK GAME/SkyrimSE.exe+0C0D6BD with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.803] [Global] [info] [207448] [PdbHandler.cpp:374] Failed to open pdb for dll D:/STOCK GAME/SkyrimSE.exe+0C0D6BD	Unable to locate PDB
+[2025-09-20 17:19:01.804] [Global] [info] [209988] [PdbHandler.cpp:370] Attempting to find pdb for C:/WINDOWS/System32/KERNEL32.DLL+002E8D7 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.804] [Global] [info] [209988] [PdbHandler.cpp:374] Failed to open pdb for dll C:/WINDOWS/System32/KERNEL32.DLL+002E8D7	Unable to locate PDB
+[2025-09-20 17:19:01.805] [Global] [info] [207564] [PdbHandler.cpp:370] Attempting to find pdb for C:/WINDOWS/SYSTEM32/ntdll.dll+0008D9C with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.806] [Global] [info] [207564] [PdbHandler.cpp:374] Failed to open pdb for dll C:/WINDOWS/SYSTEM32/ntdll.dll+0008D9C	Unable to locate PDB
+[2025-09-20 17:19:01.807] [Global] [info] [175716] [PdbHandler.cpp:370] Attempting to find pdb for C:/WINDOWS/System32/KERNELBASE.dll+0119D90 with path Data/SKSE/Plugins
+[2025-09-20 17:19:01.807] [Global] [info] [175716] [PdbHandler.cpp:374] Failed to open pdb for dll C:/WINDOWS/System32/KERNELBASE.dll+0119D90	Unable to locate PDB

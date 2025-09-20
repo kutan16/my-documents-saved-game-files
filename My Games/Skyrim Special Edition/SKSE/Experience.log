@@ -1,61 +1,44 @@
-[01:06:18][info] Experience 3-4-5-0 is loading...
-[01:08:09][info] Papyrus functions registered
-[01:09:01][info] Initializing skills at level 1
-[01:09:01][info] Updating skillcap data...
-[01:09:01][info] Applying racials for NordRace
-[01:09:01][info] None: 0
-[01:09:01][info] TwoHanded: 10
-[01:09:01][info] Block: 5
-[01:09:01][info] Smithing: 5
-[01:09:01][info] HeavyArmor: 5
-[01:09:01][info] LightArmor: 5
-[01:09:01][info] Speechcraft: 5
-[01:09:02][info] Parsing file: Default.ini
-[01:09:02][info] Directory 'Data/SKSE/Plugins/Experience/Actors' parsed in 8 ms
-[01:09:02][info] Parsing file: Default.ini
-[01:09:02][info] Parsing file: GeneratedExperiencePatch.ini
-[01:09:02][info] Directory 'Data/SKSE/Plugins/Experience/Races' parsed in 20 ms
-[01:09:02][info] Experience sources initialized
-[01:09:58][info] Finished reverting data
-[01:10:38][info] Finished loading data
-[01:11:24][info] [ObjectiveState] Return to Idgrod (kFailed)
-[01:11:25][info] [ObjectiveState] Deliver Note from Idgrod to Danica (kFailed)
-[01:11:31][info] Finished saving data
-[01:13:12][info] Finished saving data
-[01:13:52][info] Finished reverting data
-[01:13:55][info] Finished loading data
-[01:14:44][info] [ActorKill] Whiterun Guard (RefID:0001B5E3)
-[01:15:01][info] [ActorKill] Whiterun Guard (RefID:0001B5DF)
-[01:16:14][info] [ObjectiveState] Return to Honningbrew Meadery in Whiterun Hold, where you were defeated (kDisplayed)
-[01:16:54][info] [ObjectiveState] Retrieve your possessions (kDisplayed)
-[01:18:25][info] [ObjectiveState] Return to where you were last defeated in Whiterun (kDisplayed)
-[01:18:25][info] [ObjectiveState] Track down the Whiterun Guard who almost killed you (kDisplayed)
-[01:18:53][info] [ActorKill] Whiterun Guard (RefID:0003706E)
-[01:19:11][info] [ObjectiveState] Return to Whiterun Jail in Whiterun Hold, where you were defeated (kDisplayed)
-[01:19:11][info] [ObjectiveState] Track down the Whiterun Guard who almost killed you (kDisplayed)
-[01:19:18][info] Finished reverting data
-[01:19:39][info] Finished loading data
-[01:22:27][info] [QuestCompleted] VC01 (kSideQuest)
-[01:22:27][info] [ObjectiveState] Wait for Falion to complete the ritual (kCompleted)
-[01:22:43][info] Finished reverting data
-[01:23:02][info] Finished loading data
-[01:23:10][info] [QuestCompleted] VC01 (kSideQuest)
-[01:23:10][info] [ObjectiveState] Wait for Falion to complete the ritual (kCompleted)
-[01:24:04][info] [LocationDiscovery] Highmoon Hall (kMorthalCastle)
-[01:25:50][info] [LocationDiscovery] Thaumaturgist's Hut (kSettlement)
-[01:26:37][info] [ObjectiveState] Deliver Note from Idgrod to Danica (kDisplayed)
-[01:26:48][info] [LocationDiscovery] Moorside Inn (kSettlement)
-[01:28:07][info] [ObjectiveState] Read "Seeking: Mercenaries" (kDisplayed)
-[01:29:19][info] Finished saving data
-[01:36:01][info] [ActorKill] Mudcrab (RefID:0010832E)
-[01:36:09][info] [ActorKill] Mudcrab (RefID:FE7E68B1)
-[01:36:29][info] [LocationDiscovery] Falion's House (kSettlement)
-[01:37:18][info] [LocationDiscovery] Marshdeep Lumber Mill (kWoodMill)
-[01:39:08][info] Finished saving data
-[01:39:26][info] [ActorKill] Demented Mage (RefID:FE7D4863)
-[01:40:24][info] [LocationDiscovery] Summoning Stones (kAltar)
-[01:40:24][info] [LocationDiscovery] Summoning Stones (kNordicDwelling)
-[01:41:02][info] [ActorKill] Mudcrab (RefID:FE7E689D)
-[01:41:03][info] [ActorKill] Mudcrab (RefID:001071AE)
-[01:41:09][info] [LocationDiscovery] Altar to Baan Dar (kShrine)
-[01:41:29][info] Finished saving data
+[17:12:38][info] Experience 3-4-5-0 is loading...
+[17:14:01][info] Papyrus functions registered
+[17:14:41][info] Initializing skills at level 1
+[17:14:41][info] Updating skillcap data...
+[17:14:41][info] Applying racials for NordRace
+[17:14:41][info] None: 0
+[17:14:41][info] TwoHanded: 10
+[17:14:41][info] Block: 5
+[17:14:41][info] Smithing: 5
+[17:14:41][info] HeavyArmor: 5
+[17:14:41][info] LightArmor: 5
+[17:14:41][info] Speechcraft: 5
+[17:14:42][info] Parsing file: Default.ini
+[17:14:42][info] Directory 'Data/SKSE/Plugins/Experience/Actors' parsed in 0 ms
+[17:14:42][info] Parsing file: Default.ini
+[17:14:42][info] Parsing file: GeneratedExperiencePatch.ini
+[17:14:42][info] Directory 'Data/SKSE/Plugins/Experience/Races' parsed in 8 ms
+[17:14:42][info] Experience sources initialized
+[17:15:33][info] Finished reverting data
+[17:15:40][info] Finished loading data
+[17:18:02][info] Initializing skills at level 17
+[17:18:02][info] Updating skillcap data...
+[17:18:02][info] Applying racials for BretonRace
+[17:18:02][info] None: 0
+[17:18:02][info] Alchemy: 5
+[17:18:02][info] Speechcraft: 5
+[17:18:02][info] Alteration: 10
+[17:18:02][info] Conjuration: 5
+[17:18:02][info] Illusion: 5
+[17:18:02][info] Restoration: 5
+[17:18:02][info] Finished reverting data
+[17:18:12][info] Finished reverting data
+[17:18:17][info] Finished loading data
+[17:18:54][info] Initializing skills at level 17
+[17:18:54][info] Updating skillcap data...
+[17:18:54][info] Applying racials for BretonRace
+[17:18:54][info] None: 0
+[17:18:54][info] Alchemy: 5
+[17:18:54][info] Speechcraft: 5
+[17:18:54][info] Alteration: 10
+[17:18:54][info] Conjuration: 5
+[17:18:54][info] Illusion: 5
+[17:18:54][info] Restoration: 5
+[17:18:54][info] Finished reverting data
