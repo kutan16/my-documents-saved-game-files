@@ -1,0 +1,2093 @@
+Log: Log file open, 26/09/2025 23:32:41
+Log: GPsyonixBuildID 250909.54128.495700
+Log: Command line: 
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Log:  ... running in INSTALLED mode
+Warning: Warning, Unknown language extension . Defaulting to INT
+Init: Language extension: INT
+Init: Language extension: INT
+DevConfig: GConfig::LoadFile associated file:  ..\..\TAGame\Config\TAUI.ini
+Init: Version: 250909.54128.495700
+Init: Compiled (64-bit): Sep  9 2025 15:32:00
+Init: Command line: 
+Init: Base directory: E:\SteamLibrary\steamapps\common\rocketleague\Binaries\Win64\
+[0000.76] Log: Purging 30-day cache '..\..\TAGame\Cache\WebCache\*.*'...
+[0001.30] Log: Purging 3-day cache 'E:\SteamLibrary\steamapps\common\rocketleague\Binaries\Win64\..\..\TAGame\Logs\*.log'...
+[0001.32] Init: Computer: DESKTOP-7CKDBO1
+[0001.32] Init: User: Kutan
+[0001.32] Init: CPU Page size=4096, Processors=12
+[0001.32] Init: High frequency timer resolution =10.000000 MHz
+[0001.32] Init: Memory total: Physical=31.2GB (32GB approx) Pagefile=86.2GB Virtual=131072.0GB
+[0001.32] Init: Presizing for 138000 objects not considered by GC, pre-allocating 0 bytes.
+[0001.32] Init: Object subsystem initialized
+[0001.36] Log: Using feature set PrimeUpdate56
+[0001.44] Log: FOnlineSubsystemEOS: EOS version = 1.18.0.0-45084530
+[0001.52] Log: Steam Client API initialized 1
+[0001.62] Log: Steam Game Server API initialized 1
+[0001.81] Log: Found D3D11 adapter 0: NVIDIA GeForce RTX 4090
+[0001.81] Log: Adapter has 24142MB of dedicated video memory, 0MB of dedicated system memory, and 15954MB of shared system memory
+[0001.89] Log: Found D3D11 adapter 1: AMD Radeon(TM) Graphics
+[0001.89] Log: Adapter has 485MB of dedicated video memory, 0MB of dedicated system memory, and 15954MB of shared system memory
+[0002.05] Log: Found D3D11 adapter 2: NVIDIA GeForce RTX 4090
+[0002.05] Log: Adapter has 24142MB of dedicated video memory, 0MB of dedicated system memory, and 15954MB of shared system memory
+[0002.06] Log: Found D3D11 adapter 3: Microsoft Basic Render Driver
+[0002.06] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 15954MB of shared system memory
+[0002.07] Log: Shader platform (RHI): PC-D3D-SM5
+[0002.13] Breadcrumbs: Startup_PreInit: 2.126
+[0002.15] Breadcrumbs: Startup_LoadGlobalShaders: 0.027
+[0005.77] Log: ProductDatabase_TA::InitProductLabels  0.01 sec total.
+[0005.80] Log: ProductDatabase_TA::UpdateAvailableProducts  0.03 sec total.
+[0005.80] Breadcrumbs: Startup_LoadScriptPackages: 3.651
+[0006.30] Breadcrumbs: Startup_LoadNonNativePackages: 0.497
+[0006.31] Log: 155828 objects as part of root set at end of initial load.
+[0006.31] Log: 0 out of 0 bytes used by permanent object pool.
+[0006.31] Log: ShaderCache load stats: AccumLoadSeconds=(2.130) ShadersLoaded=(431182) Duplicates=(27654)
+[0006.31] Log: Initializing Engine...
+[0006.31] Log: BuildID: -1459478734 from GPsyonixBuildID
+[0006.37] SystemSettings: Loading PC Settings
+[0006.38] Breadcrumbs: Startup_BuildGuidCache: 0.079
+[0006.40] Log: Running hardware survey...
+[0006.40] Log: Wwise(R) SDK Version 2023.1.11 Build 8682. Copyright (c) 2006-2012 Audiokinetic Inc. / All Rights Reserved.
+[0006.60] Log: OS: Microsoft Windows 11 Home Single Language  (26100)
+[0006.60] Log: WinSAT: 8.9 [9.3 CPU, 9.9 2D, 9.9 3D, 9.3 Mem, 8.9 Disk]
+[0006.60] Log: Processor: AMD Ryzen 5 7600X 6-Core Processor              (AMD64 Family 25 Model 97 Stepping 2) 6 Cores, 12 Threads
+[0006.60] Breadcrumbs: Startup_ClientInit: 0.221
+[0007.35] Log: Memory: 16.00GB
+[0007.35] Log: Memory: 16.00GB
+[0007.35] Log: VideoController: SudoMaker Virtual Display Adapter (1.10.9.289)
+[0007.35] Log: VideoController: AMD Radeon(TM) Graphics (32.0.11016.3)
+[0007.35] Log: VideoController: NVIDIA GeForce RTX 4090 (32.0.15.8129)
+[0007.35] Log: Network Adapter: Realtek Gaming 2.5GbE Family Controller
+[0007.35] Log: Network Adapter: Wintun Userspace Tunnel
+[0007.35] Log: Network Adapter: Wintun Userspace Tunnel
+[0007.35] Log: Disk C: 56.59GB free of 231.93GB
+[0007.35] Log: Disk D: 303.03GB free of 1863.00GB
+[0007.35] Log: Disk E: 267.62GB free of 931.50GB
+[0007.35] Log: Disk F: 110.45GB free of 931.50GB
+[0007.35] Log: Disk G: 1484.95GB free of 1907.71GB
+[0007.35] Log: Sound Device: AMD High Definition Audio Device
+[0007.35] Log: Sound Device: CORSAIR HS80 RGB Wireless Gaming Headset
+[0007.35] Log: Sound Device: NVIDIA High Definition Audio
+[0007.35] Log: Sound Device: Realtek High Definition Audio
+[0007.35] Log: Sound Device: Steam Streaming Microphone
+[0007.35] Log: Sound Device: Steam Streaming Speakers
+[0007.35] Log: Sound Device: NVIDIA Virtual Audio Device (Wave Extensible) (WDM)
+[0007.35] Log: Sound Device: ASUS Utility
+[0007.35] Log: Hardware survey complete in 0.58 seconds.
+[0007.35] Log: Detected 1 GPUs for rendering
+[0009.02] Breadcrumbs: Startup_CreateViewport: 2.422
+[0009.02] DevOnline: Created named interface (RecentPlayersList) of type (Engine.OnlineRecentPlayersList)
+[0009.02] Log: Initializing Steamworks
+[0009.04] DevOnline: Steam ID: 76561198026543789
+[0009.04] DevOnline: Steam universe: PUBLIC
+[0009.04] DevOnline: Steam appid: 252950
+[0009.04] DevOnline: Steam IsSubscribed: 1
+[0009.04] DevOnline: Steam IsLowViolence: 0
+[0009.04] DevOnline: Steam IsCybercafe: 0
+[0009.04] DevOnline: Steam IsVACBanned: 0
+[0009.04] DevOnline: Steam IP country: IN
+[0009.04] DevOnline: Steam official server time: 1758909770
+[0009.04] DevOnline: Steam Cloud quota: 979157 / 100000000
+[0009.04] DevOnline: Steam original app owner: 76561198026543789
+[0009.04] DevOnline: Logged in as 'Lock'
+[0009.05] VoiceChat: The desired playback sample rate is 11000.
+[0009.05] ScriptLog: PsyNet using environment DBE_Production Prod
+[0009.05] PsyNet: PsyNetConnection_X_0 disabled OSCS_ServiceUnavailable
+[0009.05] PsyNetStaticData: HandleCacheExpired
+[0009.05] PsyNetStaticData: HandleGetURL URL=(https://config.psynet.gg/v2/Config/BattleCars/-1459478734/Prod/Steam/INT/)
+[0009.05] PsyNetStaticData: Blocking sync start
+[0009.06] DevOnline: WebRequest_X_0 SEND: https://config.psynet.gg/v2/Config/BattleCars/-1459478734/Prod/Steam/INT/
+[0010.03] DevOnline: WebRequest_X_0 RECV: 200 
+[0010.03] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9jb25maWcucHN5bmV0LmdnL3YyL0NvbmZpZy9CYXR0bGVDYXJzLy0xNDU5NDc4NzM0L1Byb2QvU3RlYW0vSU5ULw==) wrote 460422 bytes to memory
+[0010.03] PsyNetStaticData: Blocking sync complete. Elapsed=0.9787
+[0010.03] PsyNetStaticData: HandleDataChanged
+[0010.04] DevOnline: EOS Platform CacheDirectory=C:\Users\Kutan\AppData\Local\Rocket League\
+[0010.05] DevOnline: EOSSDK-LogEOSIntegratedPlatform: Steam sanitizer disabled reason: EOS_IntegratedPlatform_Steam_Options.SteamMinorVersion Required to be at least 45.
+[0010.18] DevOnline: EOSSDK-LogEOSUI: Hot key event ignored because there are no known users.
+[0010.21] DevOnline: EOSSDK-LogEOSRTC: EOS_RTCAudio_GetAudioInputDevicesCount is deprecated. Use EOS_RTCAudio_QueryInputDevicesInformation with EOS_RTCAudio_GetInputDevicesCount instead.
+[0010.42] DevOnline: EOSSDK-LogEOSRTC: EOS_RTCAudio_GetAudioInputDeviceByIndex is deprecated. Use EOS_RTCAudio_QueryInputDevicesInformation with EOS_RTCAudio_CopyInputDeviceInformationByIndex instead.
+[0010.42] DevOnline: EOSSDK-LogEOSRTC: EOS_RTCAudio_GetAudioOutputDevicesCount is deprecated. Use EOS_RTCAudio_QueryOutputDevicesInformation with EOS_RTCAudio_GetOutputDevicesCount instead.
+[0010.42] DevOnline: EOSSDK-LogEOSRTC: EOS_RTCAudio_GetAudioOutputDeviceByIndex is deprecated. Use EOS_RTCAudio_QueryOutputDevicesInformation with EOS_RTCAudio_CopyOutputDeviceInformationByIndex instead.
+[0010.42] EOSGameClips: EOSGameClips: Activate called successfully.
+[0010.42] EOSGameClips: EOSGameClips: Audio initialized successfully.
+[0010.42] EOSGameClips: EOSGameClips: Subscribed to game clips status events successfully.
+[0010.42] EOSGameClips: EOSGameClips: Subscribed to user status events successfully.
+[0010.42] EOSGameClips: EOSGameClips: Successfully initialized!
+[0010.43] ScriptWarning: ScriptWarning, Assertion failed, line 36
+	ContentConfig_TA Transient.Untitled_0.ContentConfig
+	Function ProjectX.ContentConfig_X:Apply:01D5
+Script call stack:
+	Function ProjectX.OnlineConfigDispatcher_X:ApplyConfigObject
+	Function TAGame.ContentConfig_TA:Apply
+	Function ProjectX.ContentConfig_X:Apply
+
+[0010.43] ScriptWarning: ScriptWarning, Assertion failed, line 36
+	ContentConfig_TA Transient.Untitled_0.ContentConfig
+	Function ProjectX.ContentConfig_X:Apply:01D5
+Script call stack:
+	Function ProjectX.OnlineConfigDispatcher_X:ApplyConfigObject
+	Function TAGame.ContentConfig_TA:Apply
+	Function ProjectX.ContentConfig_X:Apply
+
+[0010.43] ScriptWarning: ScriptWarning, Assertion failed, line 36
+	ContentConfig_TA Transient.Untitled_0.ContentConfig
+	Function ProjectX.ContentConfig_X:Apply:01D5
+Script call stack:
+	Function ProjectX.OnlineConfigDispatcher_X:ApplyConfigObject
+	Function TAGame.ContentConfig_TA:Apply
+	Function ProjectX.ContentConfig_X:Apply
+
+[0010.43] ScriptWarning: ScriptWarning, Assertion failed, line 36
+	ContentConfig_TA Transient.Untitled_0.ContentConfig
+	Function ProjectX.ContentConfig_X:Apply:01D5
+Script call stack:
+	Function ProjectX.OnlineConfigDispatcher_X:ApplyConfigObject
+	Function TAGame.ContentConfig_TA:Apply
+	Function ProjectX.ContentConfig_X:Apply
+
+[0010.47] Log: ProductDatabase_TA::UpdateAvailableProducts  0.04 sec total.
+[0011.23] Log: ProductDatabase_TA::InitProductLabels  0.01 sec total.
+[0011.23] PsyNet: PsyNetConnection_X_0 enabled
+[0011.25] PsyNetStaticData: UpdateCacheTimerEnabled CacheTimer.bEnabled=(True)
+[0011.25] EOSGameClips: Construct Constructed EOSGameClipsManager_TA. Self=(EOSGameClipsManager_TA_0)
+[0011.25] AuthPsyNetVerbose: New auth error. Error 'OSCS_NotConnected'
+[0011.25] AuthPsyNetVerbose: OnlinePlayerAuthentication_TA_0 None Unknown|0|0 Logout
+[0011.25] PsyNet: PsyNetConnection_X_1 disabled OSCS_NotConnected
+[0011.25] AuthPsyNetVerbose: PsyNet connection status changed. Error 'OSCS_NotConnected'
+[0011.25] AuthPsyNetVerbose: New auth error. Error 'OSCS_NotConnected'
+[0011.25] AuthPsyNetVerbose: OnlinePlayerAuthentication_TA_0 LoggedOut Unknown|0|0 Logout
+[0011.25] AuthPlatformCritical: Initiating auth. Player num '0', Name '', Password length '0'
+[0011.25] DevOnline: Logged in as 'Lock'
+[0011.25] AuthPlatformCritical: Login status changed for player '0' to 'LS_LoggedIn'
+[0011.25] AuthPlatformVerbose: Login attempt concluded
+[0011.25] PsyNet: PsyNetConnection_X_1 enabled
+[0011.25] AuthPsyNetVerbose: PsyNet connection status changed. Error 'None'
+[0011.25] AuthPsyNetVerbose: Transitioning to state 'RequestAuthCode'
+[0011.25] AuthPsyNetCritical: Requesting auth ticket from platform for 'Steam|76561198026543789|0'
+[0011.25] DevOnline: Issuing request for auth session ticket
+[0011.25] DevOnline: Successfully set the friend join URL: 
+[0011.25] Party: HandleLocalPlayerLoginStatusChanged PlayerName=Lock PlayerID=Steam|76561198026543789|0 LoginStatus=LS_LoggedIn IsPrimary=True IsInParty=False
+[0011.26] SaveGame: Load Player.ControllerId=(0) SaveFileName=(..\..\TAGame\SaveData\DBE_Production\76561198026543789.save)
+[0011.27] Breadcrumbs: Startup_InitOnlineSubsystem: 2.245
+[0011.27] DevNet: Browse: MENU_Main_p
+[0011.27] Log: LoadMap: MENU_Main_p
+[0011.28] Exit: XAudio2 Device shut down.
+[0011.31] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_GFxMenu_SF.upk
+[0011.40] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_MainMenu_SF.upk
+[0011.41] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_StartMenu_SF.upk
+[0011.47] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MainMenu_SF.upk
+[0011.52] Log: Game class is 'GameInfo_GFxMenu_TA'
+[0011.55] Log: Bringing World menu_main_p.TheWorld up for play (0) at 2025.09.26-23.32.52
+[0011.55] Log: Flushing async loaders.
+[0011.82] Log: Flushed async loaders.
+[0011.83] Log: Bringing up level for play took: 0.296502
+[0012.21] DevOnline: DiscordCreate FAILED= 4
+[0012.21] DevOnline: Set rich presence to: Main Menu data: Menu
+[0012.21] Log: ########### Finished loading level: 0.938735 seconds
+[0012.66] Breadcrumbs: Startup_Browse: 1.391
+[0012.66] Log: Initializing Engine Completed
+[0012.66] Breadcrumbs: Startup_Total: 12.663
+[0012.70] AuthPsyNetCritical: Platform auth ticket completed with success 'True'
+[0012.70] AuthPsyNetVerbose: Transitioning to state 'WaitForEOS'
+[0012.70] AuthPsyNetCritical: Waiting for EOS initialization
+[0012.70] AuthPsyNetCritical: EOS initialization received
+[0012.70] AuthPsyNetVerbose: Transitioning to state 'RequestEpicAuthCode'
+[0012.70] AuthEpicCritical: Sending auth request for player '76561198026543789'
+[0012.70] AuthEpicCritical: Initiating login for player '76561198026543789'
+[0012.70] ScriptLog: HandleBlockListStatusCreated Status=(PlatformBlockListStatus_0) ControllerId=(0)
+[0012.70] AuthEpicCritical: Sending Eos login request with Credentials '{Version '4', Id Length '0', Token Length '516', Type 'EOS_LCT_ExternalAuth', SystemAuthCredentialsOptions null? 'Null', ExternalType 'EOS_ECT_STEAM_SESSION_TICKET'}'
+[0012.70] DevOnline: WebRequest_X_1 SEND: https://rl-cdn.psyonix.com/SpecialEvent/Images/Sonic/Sonic_EventInGame_EventScreen_Logo_78ayd.png
+[0012.70] DevOnline: WebRequest_X_2 SEND: https://rl-cdn.psyonix.com/SpecialEvent/Images/Sonic/Sonic_EventInGame_EventScreen_87dfayt.jpg
+[0012.70] DevOnline: WebRequest_X_3 SEND: https://rl-cdn.psyonix.com/LogoImages/S20/rl_season20-logo_EN_1024x1024.png
+[0012.70] DevOnline: EOSSDK-LogEOSIntegratedPlatform: Steam version does not support string sanitization. Minimum version required = 1.45
+[0012.82] SaveGame: HandleDataLoaded Result.Code=(BasicLoadResult_Success)
+[0012.84] ScriptLog: NetworkSave_TA_0 ApplySettings ReplicationRate=60 NetSpeed=15000 InputRate=60
+[0013.26] SaveData: Profile_TA_0 OnLoaded LocalID=(0)
+[0013.26] SaveData: Profile_TA_1 OnLoaded LocalID=(1)
+[0013.27] ScriptLog: GetDLCProducts, UnlockedDLCList=SuperSonic,Revenge,Wasteland,body_charged
+[0014.07] ScriptLog: GetDLCProducts, UnlockedDLCList=SuperSonic,Revenge,Wasteland,body_charged
+[0014.07] SaveGame: LocalPlayer_TA_0 HandleSaveDataLoaded 
+[0014.10] Log: 
+
+
+BakkesMod loaded
+
+
+[0014.59] FTECritical: [GFx] Changed active tutorial from 'null' to 'NONE'. Tutorial active? 'false', New checkpoint active? 'false'
+[0014.59] FTEVerbose: Checkpoint 'None' attempted completion while the FTE isn't active!
+[0014.61] Log: Flushing async loaders.
+[0015.28] Log: Flushed async loaders.
+[0015.65] Warning: Warning, Material body_lionsmane.MAT_Lionsmane_Temp missing bUsedWithStaticLighting=True!
+[0015.65] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0015.67] XPGatedPlaylists: Not currently in a party.
+[0015.67] DevOnline: Obtained steam user stats, user: 76561198026543789
+[0015.68] DevOnline: EOSSDK-LogEOSGameClips: Recording supported and available.
+[0015.68] EOSGameClips: EOSGameClips: Availability changed from Pending to Available.
+[0022.39] Log: Detected new XInput controller 0
+[0022.71] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.006872s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[0.284784s] MaxExecutionTime=[0.000381s] TicksCount=[5] ExpectedTicksCount=[1000]
+[0022.80] DevOnline: WebRequest_X_1 RECV: 200 
+[0022.80] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU3BlY2lhbEV2ZW50L0ltYWdlcy9Tb25pYy9Tb25pY19FdmVudEluR2FtZV9FdmVudFNjcmVlbl9Mb2dvXzc4YXlkLnBuZw==) wrote 20873 bytes to memory
+[0022.81] DevOnline: WebRequest_X_3 RECV: 304 
+[0022.85] DevOnline: WebRequest_X_2 RECV: 200 
+[0022.86] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU3BlY2lhbEV2ZW50L0ltYWdlcy9Tb25pYy9Tb25pY19FdmVudEluR2FtZV9FdmVudFNjcmVlbl84N2RmYXl0LmpwZw==) wrote 769637 bytes to memory
+[0023.20] Log: Flushing async loaders.
+[0023.25] Log: Flushed async loaders.
+[0024.12] AuthEpicCritical: Eos login result 'EOS_Success' for player '0'
+[0024.54] AuthEpicCritical: Connect login result 'EOS_Success' for player '29102162b92948868b021454382b618a', local num '0'
+[0024.54] FTEVerbose: [GFx] EULA sync started, waiting for response.
+[0024.54] DevOnline: WebRequest_X_4 SEND: https://eulatracking-public-service-prod06.ol.epicgames.com/eulatracking/api/eos/v1/agreements/rocket_league/identities/29102162b92948868b021454382b618a?locale=en
+[0024.54] AuthEpicCritical: Login status changed for player '0' to 'LS_LoggedIn'
+[0024.54] AuthPsyNetCritical: Epic auth ticket completed for '29102162b92948868b021454382b618a' with error 'None'
+[0024.54] AuthPsyNetVerbose: Transitioning to state 'SendLoginRequest'
+[0024.54] AuthPsyNetCritical: Sending login RPC for player '76561198026543789' Auth ticket required? 'True'
+[0024.54] AuthPsyNetCritical: Primary player ID? 'Steam|76561198026543789|0' Logging In PlayerID '76561198026543789'
+[0024.54] AuthEpicVerbose: Requesting cabined status for player '0'
+[0024.54] DevOnline: WebRequest_X_5 SEND: https://api.epicgames.dev/epic/id/v1/accounts?accountId=29102162b92948868b021454382b618a
+[0024.54] PsyNet: HTTP send ID=PsyNetMessage_X_0 Message=PsyNetMessage_X_0
+[0024.54] DevOnline: WebRequest_X_6 SEND: https://api.rlpp.psynet.gg/rpc/Auth/AuthPlayer/v2
+[0024.64] XPGatedPlaylists: Not currently in a party.
+[0026.04] DevOnline: WebRequest_X_6 RECV: 200 
+[0026.04] PsyNet: HTTP recv ID=PsyNetMessage_X_0 Message=PsyNetMessage_X_1
+[0026.04] DevOnline: EOSSDK-LogEOSIntegratedPlatform: FIntegratedSteamSanitizer: Sanitizer is implemented for this platform, but steam sanitizer not initialized. Falling back to generic sanitizer
+[0026.04] DevOnline: EOSSDK-LogEOSIntegratedPlatform: FIntegratedSteamSanitizer: Sanitizer is implemented for this platform, but steam sanitizer not initialized. Falling back to generic sanitizer
+[0026.04] Log: RPC Error (failure): Service=Filters/FilterContent, Type=NotLoggedInToPsynet, Code=-1, Message=Timed out waiting for login to Psynet
+[0026.04] AuthPsyNetCritical: PsyNet auth RPC succeeded for player '76561198026543789'
+[0026.04] AuthPsyNetVerbose: Transitioning to state 'LoggedIn'
+[0026.04] AuthPsyNetCritical: Login successful for player '76561198026543789'
+[0026.04] Auth: OnlinePlayer_TA_0 OnlinePlayerAuthentication_TA_0 HandleAuthLoginChange Auth.bLoggedIn=(True)
+[0026.04] PsyNet: Enabling PerCon
+[0026.04] PsyNet: PsyNetConnection_X_1 SetAuthorized bAuthorized=True
+[0026.04] RankedReconnect: LocalPlayer_TA_0.CheckForRankedReconnect() bOpenedStartMenu=(False) IsMenuLevel=(True) bLoggedIn=(True) IsPrimaryPlayer=(True) RankedReconnectAvailable=(False) EpochTime=(0) EpochNow=(1758909786) TimeSince=(1758909786) ReconnectTimeoutSeconds=(900) Reservation=()
+[0026.15] XPGatedPlaylists: Not currently in a party.
+[0026.35] DevOnline: WebRequest_X_5 RECV: 200 
+[0026.35] AuthEpicVerbose: Cabined request completed for user '0' with result 'False', Error 'None'
+[0026.35] ScriptLog: ChatFilterManager HandleSaveLoaded: [Error: Type:None] 
+[0026.35] ScriptLog: ChatFilterManager: Updating Permissions for player LocalPlayer_TA_0
+[0026.35] ScriptLog: ChatFilterManager: Updating MostRestrictiveVoiceFilter [Save: ChatFilter_None] [Current: ChatFilter_All
+[0026.35] ScriptLog: ChatFilterManager: Updating Permissions for player LocalPlayer_TA_0
+[0026.35] ScriptLog: ChatFilterManager: Updating MostRestrictiveVoiceFilter [Save: ChatFilter_None] [Current: ChatFilter_All
+[0026.35] AuthEpicVerbose: [GFx] Epic flow completed 'false'
+[0026.35] FTEVerbose: [GFx] Checked FTE progress before a primary player is set
+[0026.35] FTEVerbose: [GFx] Checked FTE progress before a primary player is set
+[0026.45] XPGatedPlaylists: Not currently in a party.
+[0026.53] PsyNet: PsyNetMessengerWebSocket_X_0 Connected
+[0026.53] PsyNet: PsyNetConnection_X_1 UpdateConnectionState bConnected=(True) bFreshConnection=(True)
+[0026.53] DevOnline: WebRequest_X_7 SEND: https://api.kws.ol.epicgames.com/v1/epic-settings/public/users/29102162b92948868b021454382b618a/values?game=rl
+[0026.53] DevOnline: EOSSDK-LogEOSRTC: EOS_RTCAudio_SetAudioInputSettings is deprecated. Use EOS_RTCAudio_SetInputDeviceSettings instead.
+[0026.53] DevOnline: EOSSDK-LogEOSRTC: EOS_RTCAudio_SetAudioOutputSettings is deprecated. Use EOS_RTCAudio_SetOutputDeviceSettings instead.
+[0026.53] DevOnline: WebRequest_X_8 SEND: https://api.epicgames.dev/epic/friends/v1/29102162b92948868b021454382b618a/blocklist
+[0026.53] DevOnline: PlayerDataStorage_QueryFileList: Beginning to query files. User=(29102162b92948868b021454382b618a)
+[0026.53] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 SetPsyNetConnection InPsyNetConnection=(PsyNetConnection_X_1)
+[0026.53] PsyNet: PsyNetConnection_X_1 UpdateConnectionState bPerConConnected=(True)
+[0026.56] Vanity: All Vanity Queries Complete
+[0026.70] DevOnline: WebRequest_X_4 RECV: 204 
+[0026.70] Log: Failed to parse JSON: offset:'0' 'The document is empty.'
+[0026.70] Log: UJSONSerializer_X::DecodeObject() Failed: Object=EulaTextResponse Transient.EulaTextResponse_0
+Json:
+
+[0026.70] DevOnline: WebRequest_X_9 SEND: https://eulatracking-public-service-prod06.ol.epicgames.com/eulatracking/api/eos/v1/agreements/rocket_league?locale=en
+[0026.70] FTEVerbose: [GFx] EULA sync response received.
+[0026.78] EOSVoice: HandleFriendsListChanged
+[0026.79] Log: [HandleVoiceModerationAgreementCallback] EpicAccountId=29102162b92948868b021454382b618a bIsAccepted=0 bHasResponse=1 bNewAgreement=0
+[0026.85] DevOnline: WebRequest_X_8 RECV: 200 
+[0026.88] ScriptLog: ListenForBlockListDownloaded PrimaryStatus=(PlatformBlockListStatus_0) PrimaryStatus.DownloadStatus=(EB_Pending)
+[0027.08] DevOnline: WebRequest_X_10 SEND: https://rl-cdn.psyonix.com/ChallengeBanners/NUX_Popup_Octane.png
+[0027.08] DevOnline: WebRequest_X_11 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Play.jpg
+[0027.08] DevOnline: WebRequest_X_12 SEND: https://rl-cdn.psyonix.com/SpecialEvent/Images/Sonic/Sonic_EventInGame_EventWidget_78yadg87.png
+[0027.08] DevOnline: WebRequest_X_13 SEND: https://rl-cdn.psyonix.com/SpecialEvent/Images/Sonic/Sonic_EventInGame_Dashboard_78adfg6y.png
+[0027.08] DevOnline: WebRequest_X_14 SEND: https://rl-cdn.psyonix.com/ChallengeBanners/RL_S20_Challenge_reward_Boost_89dsya.png
+[0027.08] DevOnline: WebRequest_X_15 SEND: https://rl-cdn.psyonix.com/ChallengeBanners/RL_S20_Dashboard_sv98c.png
+[0027.10] DevOnline: WebRequest_X_16 SEND: https://rl-cdn.psyonix.com/Playlists/Images/rl_event_mode_bg_heatseeker.jpg
+[0027.10] DevOnline: WebRequest_X_17 SEND: https://rl-cdn.psyonix.com/Playlists/Images/Sonic_Playlist_RightJustified_V3_87yads.jpg
+[0027.11] DevOnline: WebRequest_X_10 RECV: 304 
+[0027.13] DevOnline: WebRequest_X_11 RECV: 304 
+[0027.14] DevOnline: WebRequest_X_16 RECV: 304 
+[0027.17] DevOnline: WebRequest_X_14 RECV: 304 
+[0027.18] DevOnline: WebRequest_X_12 RECV: 200 
+[0027.18] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU3BlY2lhbEV2ZW50L0ltYWdlcy9Tb25pYy9Tb25pY19FdmVudEluR2FtZV9FdmVudFdpZGdldF83OHlhZGc4Ny5wbmc=) wrote 288037 bytes to memory
+[0027.23] DevOnline: WebRequest_X_13 RECV: 200 
+[0027.24] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU3BlY2lhbEV2ZW50L0ltYWdlcy9Tb25pYy9Tb25pY19FdmVudEluR2FtZV9EYXNoYm9hcmRfNzhhZGZnNnkucG5n) wrote 671271 bytes to memory
+[0027.24] DevOnline: WebRequest_X_15 RECV: 304 
+[0027.27] DevOnline: WebRequest_X_17 RECV: 200 
+[0027.29] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vUGxheWxpc3RzL0ltYWdlcy9Tb25pY19QbGF5bGlzdF9SaWdodEp1c3RpZmllZF9WM184N3lhZHMuanBn) wrote 886653 bytes to memory
+[0027.39] DevOnline: WebRequest_X_9 RECV: 200 
+[0027.48] DevOnline: EOSSDK-LogEOSIntegratedPlatform: FIntegratedSteamSanitizer: Sanitizer is implemented for this platform, but steam sanitizer not initialized. Falling back to generic sanitizer
+[0027.49] EOSVoice: HandleFriendsListChanged
+[0027.50] ScriptLog: HandleStatusChanged PrimaryStatus.DownloadStatus=(EB_Success) ControllerId=(0)
+[0027.59] DevOnline: WebRequest_X_7 RECV: 200 
+[0027.59] ScriptLog: Setting.Namespace: chat, Setting.SettingName: enhanced-text-reporting
+[0027.59] ScriptLog: Setting.Namespace: chat, Setting.SettingName: enhanced-voice-reporting
+[0027.59] EOSPermissions: NS=chat SN=enhanced-voice-reporting PL=null EL=null DV=prefer-not-recording IV=0
+[0027.59] ScriptLog: Setting.Namespace: chat, Setting.SettingName: filter-out-mature-language
+[0027.59] ScriptLog: Setting.Namespace: chat, Setting.SettingName: text
+[0027.59] EOSPermissions: NS=chat SN=text PL=null EL=null DV=0 IV=0
+[0027.59] ScriptLog: Setting.Namespace: chat, Setting.SettingName: voice
+[0027.59] EOSPermissions: NS=chat SN=voice PL=null EL=null DV=0 IV=0
+[0027.59] ScriptLog: Setting.Namespace: prm, Setting.SettingName: experience
+[0027.59] ScriptLog: Setting.Namespace: prm, Setting.SettingName: marketing
+[0027.59] EOSPermissions: NS=prm SN=marketing PL=null EL=True DV=True IV=True
+[0027.59] ScriptLog: Setting.Namespace: profile, Setting.SettingName: p2p-trading
+[0027.59] ScriptLog: Setting.Namespace: profile, Setting.SettingName: require-pin-to-add-friend
+[0027.59] EOSPermissions: NS=profile SN=require-pin-to-add-friend PL=null EL=null DV=False IV=False
+[0027.59] ScriptLog: Setting.Namespace: profile, Setting.SettingName: spoken-stem
+[0027.59] ScriptLog: Setting.Namespace: profile, Setting.SettingName: show-row-modal
+[0027.59] ScriptLog: Setting.Namespace: stats, Setting.SettingName: show-in-leaderboard
+[0027.59] DevOnline: WebRequest_X_18 SEND: https://api.epicgames.dev/epic/friends/v1/29102162b92948868b021454382b618a/outgoing
+[0027.60] ScriptLog: RegionPinger_X_0 PingRegions ("13.244.210.99:8703","43.198.110.221:8755","35.76.207.159:8717","13.203.70.38:8703","18.138.212.50:8732","3.26.126.62:8713","18.156.254.169:8843","13.49.152.70:8798","3.249.98.81:8745","18.170.203.171:8775","15.237.0.83:8779","15.184.41.182:8714","15.229.128.15:8719","44.197.167.20:8720","3.142.62.192:8748","18.88.24.29:8765","3.101.92.122:8724","44.234.100.244:8740")
+[0027.75] EOSVoice: HandleFriendsListChanged
+[0027.79] DevOnline: PlayerDataStorage_QueryFileList: Finished querying files. User=(29102162b92948868b021454382b618a) Success=(1)
+[0027.79] DevOnline: PlayerDataStorage_ReadFile: Beginning to download file. User=(29102162b92948868b021454382b618a) FileName=(RLSaveData)
+[0027.90] DevOnline: EOSSDK-LogEOSIntegratedPlatform: FIntegratedSteamSanitizer: Sanitizer is implemented for this platform, but steam sanitizer not initialized. Falling back to generic sanitizer
+[0027.90] DevOnline: EOSSDK-LogEOSIntegratedPlatform: FIntegratedSteamSanitizer: Sanitizer is implemented for this platform, but steam sanitizer not initialized. Falling back to generic sanitizer
+[0027.91] DevOnline: EOSSDK-LogEOSUI: Social Overlay: HandleFriendsStateUpdateRequest - Sanitized display name is not set!
+[0027.92] DevOnline: WebRequest_X_18 RECV: 200 
+[0027.92] DevOnline: EOSSDK-LogEOSIntegratedPlatform: FIntegratedSteamSanitizer: Sanitizer is implemented for this platform, but steam sanitizer not initialized. Falling back to generic sanitizer
+[0028.36] DevOnline: PlayerDataStorage_ReadFile: File download complete. User=(29102162b92948868b021454382b618a) FileName=(RLSaveData) Success=(1)
+[0028.37] EOSSync: HandleFileReadComplete LocalSaveTick: 41571
+[0028.37] EOSSync: HandleFileReadComplete OnlineSaveTick: 41572
+[0028.37] ScriptLog: NetworkSave_TA_1 ApplySettings ReplicationRate=60 NetSpeed=15000 InputRate=60
+[0028.37] ScriptLog: ChatFilterManager: Updating Permissions for player LocalPlayer_TA_0
+[0028.37] ScriptLog: ChatFilterManager: Updating MostRestrictiveVoiceFilter [Save: ChatFilter_None] [Current: ChatFilter_All
+[0028.37] ScriptLog: ChatFilterManager: Updating Permissions for player LocalPlayer_TA_0
+[0028.37] ScriptLog: ChatFilterManager: Updating MostRestrictiveVoiceFilter [Save: ChatFilter_None] [Current: ChatFilter_All
+[0028.43] Log: FSaveDataExportTask(0) wrote 4345907 bytes to memory
+[0028.43] Log: SaveGameDataAsync game thread time: 46 ms
+[0028.46] Log: Resetting full product sync timestamp because these productIDs were not found: 617 668 1017 
+[0028.46] ScriptLog: NewProductIDs128: 
+[0028.47] ScriptLog: GetDLCProducts, UnlockedDLCList=SuperSonic,Revenge,Wasteland,body_charged
+[0029.08] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789_2.save
+[0029.08] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789_1.save] Result:[1]
+[0029.08] AuthEpicVerbose: Epic save data loaded
+[0029.08] AuthEpicVerbose: [GFx] Epic login changed. m_uiState:StartMenu bPromptParentalConsent:false bPromptToChoosePrimaryAccount:false bEpicSaveDataLoaded:true bPlatformLinked:true
+[0029.08] ScriptLog: GetDLCProducts, UnlockedDLCList=SuperSonic,Revenge,Wasteland,body_charged
+[0029.09] DevOnline: WebRequest_X_19 SEND: https://rl-cdn.psyonix.com/Legal/PC/PrivacyPolicy/INT.txt
+[0029.09] DevOnline: WebRequest_X_20 SEND: https://rl-cdn.psyonix.com/Legal/PC/ToS/INT.txt
+[0029.09] DevOnline: WebRequest_X_21 SEND: https://rl-cdn.psyonix.com/Legal/PC/SCT/INT.txt
+[0029.09] DevOnline: WebRequest_X_22 SEND: https://rl-cdn.psyonix.com/Legal/PC/PaymentServices/INT.txt
+[0029.14] DevOnline: WebRequest_X_19 RECV: 304 
+[0029.14] DevOnline: WebRequest_X_22 RECV: 304 
+[0029.17] DevOnline: WebRequest_X_21 RECV: 304 
+[0029.18] DevOnline: WebRequest_X_20 RECV: 304 
+[0029.25] Matchmaking: All Regions Pinged: USE (1.0000),USC (1.0000),USW (1.0000),EU (1.0000),ASC (1.0000),ASM (1.0000),JPN (1.0000),ME (1.0000),OCE (1.0000),SAF (1.0000),SAM (1.0000),IND (1.0000),SAF1 (0.2419),ASC1 (0.0932),JPN1 (0.1343),IND1 (0.0353),ASM1 (0.0930),OCE1 (0.1586),EU5 (0.2156),EU1 (0.2114),EU3 (0.2071),EU7 (0.2028),EU9 (0.1985),ME1 (0.1943),SAM1 (0.1897),USE1 (0.1855),USE3 (0.1813),USC1 (0.1772),USW1 (0.1273),USW3 (0.1229)
+[0029.25] Log: FCacheExportTask(..\..\TAGame\Cache\RegionCache.cache) wrote 1713 bytes to memory
+[0030.19] EOSVoice: HandleFriendsListChanged
+[0031.08] DevOnline: EOSSDK-LogEOSIntegratedPlatform: FIntegratedSteamSanitizer: Sanitizer is implemented for this platform, but steam sanitizer not initialized. Falling back to generic sanitizer
+[0031.84] DevOnline: WebRequest_X_23 SEND: https://api.epicgames.dev/epic/friends/v1/29102162b92948868b021454382b618a/friends/29102162b92948868b021454382b618a
+[0032.15] DevOnline: WebRequest_X_23 RECV: 400 {"errorCode":"errors.com.epicgames.friends.invalid_friendship","errorMessage":"Users cannot be friends with themselves","messageVars":[],"numericErrorCode":14001,"originatingService":"friends","intent":"prod"}
+[0032.15] Log: WebRequest_X_23 type: HTTPError, message: {"errorCode":"errors.com.epicgames.friends.invalid_friendship","errorMessage":"Users cannot be friends with themselves","messageVars":[],"numericErrorCode":14001,"originatingService":"friends","intent":"prod"}
+[0032.15] ScriptLog: EOS: HTTP request failed with error: Users cannot be friends with themselves (errors.com.epicgames.friends.invalid_friendship)
+[0032.71] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.001477s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[0.660978s] MaxExecutionTime=[0.000083s] TicksCount=[2188] ExpectedTicksCount=[1000]
+[0034.17] Log: Assigning XInput controller to 0
+[0034.35] DevOnline: Set rich presence to: Main Menu data: Menu
+[0034.35] Legacy: State Set
+[0034.35] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '2', Legacy state '3'
+[0034.35] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0034.35] FTE: Starting Group:Prime_LegalText at Checkpoint:FTE_PrimaryPlayerIsXboxGuest
+[0034.35] FTE: CompleteCheckpoint GroupName=(Prime_LegalText) CheckpointName=(FTE_PrimaryPlayerIsXboxGuest)
+[0034.35] FTE: Moving to Checkpoint:FTE_PrivacyPolicy
+[0034.35] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '2', Legacy state '3'
+[0034.35] FTEDev: Trying to start FTE Group Prime_InitialStartup while another Group Prime_LegalText is active
+[0034.35] FTE: CompleteCheckpoint GroupName=(Prime_LegalText) CheckpointName=(FTE_PrivacyPolicy)
+[0034.35] FTE: Moving to Checkpoint:FTE_EulaText
+[0034.36] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '2', Legacy state '3'
+[0034.36] FTEDev: Trying to start FTE Group Prime_InitialStartup while another Group Prime_LegalText is active
+[0034.36] Eula: RequiresAcceptance? EulaConfig?.bRequiresAcceptance=(True) GetUISave()?.Contains('bAcceptedOfflineEULA')=(True) Eula.SyncState=(LSS_Accepted)
+[0034.36] FTE: CompleteCheckpoint GroupName=(Prime_LegalText) CheckpointName=(FTE_EulaText)
+[0034.36] FTE: CompleteActiveGroup GroupName:Prime_LegalText
+[0034.36] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '2', Legacy state '3'
+[0034.36] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0034.36] FTEDev: Group Prime_CarSelect Is not meant for users of type FTESave.LegacyGroupType=(LGT_LegacyUser)
+[0034.36] FTEDev: Group Prime_FreeToPlayTutorial_1 Is not meant for users of type FTESave.LegacyGroupType=(LGT_LegacyUser)
+[0034.36] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '2', Legacy state '3'
+[0034.36] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0034.36] FTEDev: Group Prime_CarSelect Is not meant for users of type FTESave.LegacyGroupType=(LGT_LegacyUser)
+[0034.36] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '2', Legacy state '3'
+[0034.36] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0034.36] FTEDev: Group Prime_CarSelect Is not meant for users of type FTESave.LegacyGroupType=(LGT_LegacyUser)
+[0034.36] FTEDev: Group Prime_FreeToPlayTutorial_1 Is not meant for users of type FTESave.LegacyGroupType=(LGT_LegacyUser)
+[0034.36] FTECritical: [GFx] Changed active tutorial from 'null' to 'NONE'. Tutorial active? 'false', New checkpoint active? 'false'
+[0034.36] FTEVerbose: Checkpoint 'None' attempted completion while the FTE isn't active!
+[0034.36] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '2', Legacy state '3'
+[0034.36] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0034.36] FTEDev: Group Prime_CarSelect Is not meant for users of type FTESave.LegacyGroupType=(LGT_LegacyUser)
+[0034.36] FTEDev: Group Prime_FreeToPlayTutorial_1 Is not meant for users of type FTESave.LegacyGroupType=(LGT_LegacyUser)
+[0034.36] Eula: RequiresAcceptance? EulaConfig?.bRequiresAcceptance=(True) GetUISave()?.Contains('bAcceptedOfflineEULA')=(True) Eula.SyncState=(LSS_Accepted)
+[0034.36] AuthEpicVerbose: [GFx] Epic login changed. m_uiState:MainMenu bPromptParentalConsent:false bPromptToChoosePrimaryAccount:false bEpicSaveDataLoaded:true bPlatformLinked:true
+[0034.36] FTEDev: Group Prime_MatchComplete Is not meant for users of type FTESave.LegacyGroupType=(LGT_LegacyUser)
+[0034.39] RankedReconnect: LocalPlayer_TA_0.CheckForRankedReconnect() bOpenedStartMenu=(True) IsMenuLevel=(True) bLoggedIn=(True) IsPrimaryPlayer=(True) RankedReconnectAvailable=(False) EpochTime=(0) EpochNow=(1758909796) TimeSince=(1758909796) ReconnectTimeoutSeconds=(900) Reservation=()
+[0034.39] MTX: ConditionalClaimEntitlements bAllowEntitlements=(True) bClaimingEntitlements=(False) bEntitlementsDirty=(True) PsyNetConnected=(True) SplitscreenID=(0) bMtxCodeExpired=(False)
+[0034.39] MTX: HandleMtxCode bSuccess=True
+[0034.39] Online: TryToPlayOnline ControllerID=(-1)
+[0034.41] ThankYouMessage: Thank You message already shown to the player
+[0034.42] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0034.42] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[0034.44] DevOnline: WebRequest_X_24 SEND: https://rl-cdn.psyonix.com/Blog/Images/RL_U56_SonicLTE_3panel_672x840.png
+[0034.44] DevOnline: WebRequest_X_25 SEND: https://rl-cdn.psyonix.com/Blog/Images/RL_S20_3panel_Hero_672x840.png
+[0034.46] DevOnline: WebRequest_X_26 SEND: https://rl-cdn.psyonix.com/Blog/Images/RL_S20_3panel_Key_672x840%20(1).png
+[0034.50] Log: FSaveDataExportTask(0) wrote 4345914 bytes to memory
+[0034.50] Log: SaveGameDataAsync game thread time: 32 ms
+[0034.52] DevOnline: WebRequest_X_26 RECV: 304 
+[0034.53] DevOnline: WebRequest_X_24 RECV: 200 
+[0034.53] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vQmxvZy9JbWFnZXMvUkxfVTU2X1NvbmljTFRFXzNwYW5lbF82NzJ4ODQwLnBuZw==) wrote 668766 bytes to memory
+[0034.53] DevOnline: WebRequest_X_25 RECV: 200 
+[0034.54] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vQmxvZy9JbWFnZXMvUkxfUzIwXzNwYW5lbF9IZXJvXzY3Mng4NDAucG5n) wrote 800835 bytes to memory
+[0034.54] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789.save
+[0034.54] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789_2.save] Result:[1]
+[0034.94] MTX: HandleClaimSuccess Products=0
+[0036.37] Prime24121: StartSearch.PreferredRegions.Length 2
+[0036.37] Matchmaking: OnlineGameMatchmaking_X_0 OnlineGameMatchmaking_X -> PingRegions
+[0036.37] Matchmaking: OnlineGameMatchmaking_X_0 PingRegions -> Searching
+[0036.37] Prime24121: HandleRegionsPinged.PreferredRegions.Length 2
+[0036.37] Matchmaking: OnlineGameMatchmaking_X::RecordStart
+[0036.37] Matchmaking: Pre-divide PartyLeaderMMR: 93.4851
+[0036.37] Matchmaking: Post-divide PartyLeaderMMR: 46.7425
+[0036.37] Matchmaking: PartyLeaderTier=(16)
+[0036.37] Matchmaking: StartMatchmaking at 2025-09-26 18:03:18 in IND1,ASM1 for playlists 13,11 on game server 
+[0036.37] Matchmaking: Creating RPC_StartMatchmaking_X
+[0036.37] Matchmaking: PreferredRegions.Length=(2) PreferredPlaylists.Length=(2) Party.GetOrderedPartyMemberIDs().Length=(1)
+[0036.37] Matchmaking: SecondsSearching=(0) CurrentServerID=() bDisableCrossplay=(False) bIgnoreSkill=(False)
+[0036.69] Matchmaking: Matchmaking RPC succeeded.
+[0036.69] Matchmaking: EstimatedQueueTime=(31.0000)
+[0037.02] Online: TryToUseUGC ControllerID=(-1)
+[0037.02] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0037.02] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[0037.06] Online: TryToPlayOnlineAndUseUGC ControllerID=(-1)
+[0037.07] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0037.07] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[0037.20] Online: TryToPlayOnlineAndUseUGC ControllerID=(-1)
+[0037.20] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0037.20] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[0037.36] Log: FUniqueNetId::FromString - could not parse ''
+[0037.36] Log: FUniqueNetId::FromString - could not parse ''
+[0037.36] Log: FUniqueNetId::FromString - could not parse ''
+[0037.36] Log: FUniqueNetId::FromString - could not parse ''
+[0037.36] Log: FUniqueNetId::FromString - could not parse ''
+[0037.36] Log: FUniqueNetId::FromString - could not parse ''
+[0037.36] Log: FUniqueNetId::FromString - could not parse ''
+[0037.36] Log: FUniqueNetId::FromString - could not parse ''
+[0037.49] Log: FUniqueNetId::FromString - could not parse ''
+[0038.05] Log: FSaveDataExportTask(0) wrote 3017 bytes to memory
+[0038.05] Log: SaveGameDataAsync game thread time: 0 ms
+[0038.06] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\Training\0110000103f352ad\Downloaded\Temp(1).Tem] Result:[1]
+[0038.07] DevNet: Browse: beach_night_p?Game=TAGame.GameInfo_TrainingEditor_TA?Offline?LoadSave=Downloaded\Temp(1)?Playtest
+[0038.15] Log: FSaveDataExportTask(0) wrote 4345914 bytes to memory
+[0038.15] Log: SaveGameDataAsync game thread time: 32 ms
+[0038.15] Log: Flushing async loaders.
+[0038.15] Log: Flushed async loaders.
+[0038.15] Log: LoadMap: beach_night_p?Game=TAGame.GameInfo_TrainingEditor_TA?Offline?LoadSave=Downloaded\Temp(1)?Playtest
+[0038.18] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0038.20] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789_1.save
+[0038.20] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789.save] Result:[1]
+[0038.45] DevOnline: PsyNet Flush End
+[0038.60] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_TrainingEditor_SF.upk
+[0038.71] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_XP_SF.upk
+[0038.73] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFx_XPProgressMenu_SF.upk
+[0038.77] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_EndGameMenu_SF.upk
+[0038.82] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_WinnerMenu_SF.upk
+[0038.84] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameScoreboard_SF.upk
+[0038.86] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameMenu_SF.upk
+[0038.88] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_HudMatchInfo_SF.upk
+[0038.91] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_Hud_SF.upk
+[0038.95] Log: Game class is 'GameInfo_TrainingEditor_TA'
+[0038.95] Log: Octree Warning (AddPrimitive): StaticMeshActor_SMC_33 (Owner: beach_night_p.TheWorld:PersistentLevel.MeshCollector0) Outside World.
+[0038.95] Log: Octree Warning (AddPrimitive): StaticMeshActor_SMC_722 (Owner: beach_night_p.TheWorld:PersistentLevel.MeshCollector0) Outside World.
+[0038.95] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0038.95] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0038.95] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0038.95] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0038.95] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0038.95] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0038.95] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0038.95] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0038.95] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0038.95] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0038.95] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0038.95] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0038.95] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0038.95] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0038.95] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0038.95] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0038.95] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0038.99] Log: Bringing World beach_night_p.TheWorld up for play (0) at 2025.09.26-23.33.20
+[0038.99] Log: Flushing async loaders.
+[0039.49] Log: Flushed async loaders.
+[0039.49] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0039.49] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0039.49] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0039.49] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0039.49] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0039.50] MatchBroadcast: Init bBroadcastMatch=(False) MatchLog=(None)
+[0039.50] ScriptLog: MatchTypeClass=(MatchType_Tutorial_TA)
+[0039.60] LTM: SettingsType=(CustomMatchSettingsType_PrivateMatch)
+[0039.60] LTM: SettingsType=(CustomMatchSettingsType_PrivateMatch) InSettingsType=(CustomMatchSettingsType_LocalMatch)
+[0039.60] Log: Bringing up level for play took: 0.654390
+[0039.75] DevOnline: Set rich presence to: In Training data: Tutorial
+[0039.75] Log: ########### Finished loading level: 1.592145 seconds
+[0039.76] DevOnline: Set rich presence to: In BakkesMod custom training data: In BakkesMod custom training
+[0039.76] EOSVoice: Not requesting voice token, no MatchGUID
+[0041.11] Vanity: All Vanity Queries Complete
+[0042.71] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.001037s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[1.068729s] MaxExecutionTime=[0.000059s] TicksCount=[3105] ExpectedTicksCount=[1000]
+[0043.91] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ReserveConnection ReservationID=(984379338AAB4519A39DFF9DCEF56D3D) ConnectionID=(eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJiZDE1ZjJkNDcyOWY0YmNmOTA5OGM1ZGFkZGIzNmNjZCIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMEZCREYzOTA2Mjg1MkE4ODAtVGFrdW1pIiwiaWF0IjoxNzU4OTA5ODA1LCJuYmYiOjE3NTg5MDk4MDUsImV4cCI6MTc1ODkyNDIwNX0.jaqMBjG8jVuHw_Ce4cwfVEqjDo2d0WYiuTOBbpGhrQzlz318Y85xW1dg7kbV4gBGMiZoLmCC4rFE9txvUWhZ7Q)
+[0043.91] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(ClientReservationMessage_X) Message.ReservationID=(984379338AAB4519A39DFF9DCEF56D3D)
+[0043.91] CheckReservation: Received game server from notification (v3) Message.Reservation=((ServerName="IND1-0FBDF39062852A880-Takumi",Playlist=11,Region="IND",ReservationID="984379338AAB4519A39DFF9DCEF56D3D",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJiZDE1ZjJkNDcyOWY0YmNmOTA5OGM1ZGFkZGIzNmNjZCIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMEZCREYzOTA2Mjg1MkE4ODAtVGFrdW1pIiwiaWF0IjoxNzU4OTA5ODA1LCJuYmYiOjE3NTg5MDk4MDUsImV4cCI6MTc1ODkyNDIwNX0.jaqMBjG8jVuHw_Ce4cwfVEqjDo2d0WYiuTOBbpGhrQzlz318Y85xW1dg7kbV4gBGMiZoLmCC4rFE9txvUWhZ7Q",JoinName="VULHDC3LDGQR6J5Q",JoinPassword="Q4HVDCLXJIT0BASX"))
+[0043.91] JoinGame: StartJoin Reservation=((ServerName="IND1-0FBDF39062852A880-Takumi",Playlist=11,Region="IND",ReservationID="984379338AAB4519A39DFF9DCEF56D3D",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJiZDE1ZjJkNDcyOWY0YmNmOTA5OGM1ZGFkZGIzNmNjZCIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMEZCREYzOTA2Mjg1MkE4ODAtVGFrdW1pIiwiaWF0IjoxNzU4OTA5ODA1LCJuYmYiOjE3NTg5MDk4MDUsImV4cCI6MTc1ODkyNDIwNX0.jaqMBjG8jVuHw_Ce4cwfVEqjDo2d0WYiuTOBbpGhrQzlz318Y85xW1dg7kbV4gBGMiZoLmCC4rFE9txvUWhZ7Q",JoinName="VULHDC3LDGQR6J5Q",JoinPassword="Q4HVDCLXJIT0BASX")) JoinSettings=((PlaylistId=11))
+[0043.91] DevOnline: Successfully set the friend join URL: 
+[0043.91] JoinGame: GotoJoinGameState OnlineGameJoinGame_TA -> VerifyPrivileges
+[0043.91] Online: TryToPlayOnline ControllerID=(-1)
+[0043.91] Matchmaking: OnlineGameMatchmaking_X_0 Searching -> Joining
+[0043.91] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0043.92] JoinGame: GotoJoinGameState VerifyPrivileges -> ReservingServerForMatchmaking
+[0043.92] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 SendMessageToServer Message=(AddReservationMessagePublic_X_0)
+[0043.92] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0044.80] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(ReservationsWaitingMessage_X) Message.ReservationID=(984379338AAB4519A39DFF9DCEF56D3D)
+[0044.80] JoinGame: Waiting for more players to add reservations
+[0044.80] Party: HandleServerReserved (Reservation=(ServerName="IND1-0FBDF39062852A880-Takumi",Playlist=11,Region="IND",ReservationID="984379338AAB4519A39DFF9DCEF56D3D",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJiZDE1ZjJkNDcyOWY0YmNmOTA5OGM1ZGFkZGIzNmNjZCIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMEZCREYzOTA2Mjg1MkE4ODAtVGFrdW1pIiwiaWF0IjoxNzU4OTA5ODA1LCJuYmYiOjE3NTg5MDk4MDUsImV4cCI6MTc1ODkyNDIwNX0.jaqMBjG8jVuHw_Ce4cwfVEqjDo2d0WYiuTOBbpGhrQzlz318Y85xW1dg7kbV4gBGMiZoLmCC4rFE9txvUWhZ7Q",JoinName="VULHDC3LDGQR6J5Q",JoinPassword="Q4HVDCLXJIT0BASX"),JoinCredentials="VULHDC3LDGQR6J5Q:Q4HVDCLXJIT0BASX")
+[0044.80] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0045.82] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(ReservationsReadyMessage_X) Message.ReservationID=(984379338AAB4519A39DFF9DCEF56D3D)
+[0045.82] DevNet: Add Network Encryption {PlayerID=Steam|76561198026543789|0 Key={Key=5115224FF534BA864AD0777A9679B24D1EF5CAA187E58FFEFEFA955FB2953C2A IV=16046C41A74FED6502C969FB8D4A3E3A HMAC=774BDF52293CE324770EDEC2364FBAED9D862CA0F59DE922F57791125F3611B3 Session=CF027FBABE854C56CF8D60BDF8CC4F8F}}
+[0045.82] DevOnline: Successfully set the friend join URL: 
+[0045.82] Party: HandleServerReserved (Reservation=(ServerName="IND1-0FBDF39062852A880-Takumi",Playlist=11,Region="IND",ReservationID="984379338AAB4519A39DFF9DCEF56D3D",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJiZDE1ZjJkNDcyOWY0YmNmOTA5OGM1ZGFkZGIzNmNjZCIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMEZCREYzOTA2Mjg1MkE4ODAtVGFrdW1pIiwiaWF0IjoxNzU4OTA5ODA1LCJuYmYiOjE3NTg5MDk4MDUsImV4cCI6MTc1ODkyNDIwNX0.jaqMBjG8jVuHw_Ce4cwfVEqjDo2d0WYiuTOBbpGhrQzlz318Y85xW1dg7kbV4gBGMiZoLmCC4rFE9txvUWhZ7Q",JoinName="VULHDC3LDGQR6J5Q",JoinPassword="Q4HVDCLXJIT0BASX"),PingURL="13.232.213.195:8713",GameURL="13.232.213.195:7713",JoinCredentials="VULHDC3LDGQR6J5Q:Q4HVDCLXJIT0BASX")
+[0045.82] JoinGame: GotoJoinGameState ReservingServerForMatchmaking -> JoinCountdown
+[0045.82] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 SendMessageToServer Message=(PingMessage_X_0)
+[0045.82] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0046.43] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(PingMessage_X) Message.ReservationID=(984379338AAB4519A39DFF9DCEF56D3D)
+[0046.44] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0047.35] DevOnline: Set rich presence to: In BakkesMod custom training data: In BakkesMod custom training
+[0048.82] JoinGame: GotoJoinGameState JoinCountdown -> OpeningLoadingScreen
+[0048.83] RankedReconnect: OnlineGameJoinGame_TA_0::OpeningLoadingScreen.BeginState()
+[0048.83] RankedReconnect: LocalPlayer_TA_0.UpdateRankedReconnect() RankedTeamDoubles True 4 False
+[0048.83] RankedReconnect: RankedReconnectSave_TA_0.SetRankedReconnect() Server=((Reservation=(ServerName="IND1-0FBDF39062852A880-Takumi",Playlist=11,Region="IND",ReservationID="984379338AAB4519A39DFF9DCEF56D3D",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJiZDE1ZjJkNDcyOWY0YmNmOTA5OGM1ZGFkZGIzNmNjZCIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMEZCREYzOTA2Mjg1MkE4ODAtVGFrdW1pIiwiaWF0IjoxNzU4OTA5ODA1LCJuYmYiOjE3NTg5MDk4MDUsImV4cCI6MTc1ODkyNDIwNX0.jaqMBjG8jVuHw_Ce4cwfVEqjDo2d0WYiuTOBbpGhrQzlz318Y85xW1dg7kbV4gBGMiZoLmCC4rFE9txvUWhZ7Q",JoinName="VULHDC3LDGQR6J5Q",JoinPassword="Q4HVDCLXJIT0BASX"),PingURL="13.232.213.195:8713",GameURL="13.232.213.195:7713",JoinCredentials="VULHDC3LDGQR6J5Q:Q4HVDCLXJIT0BASX")) EpochNow=(1758909810)
+[0048.83] DevNet: Browse: JoinGameTransition?game=TAGame.GameInfo_Transition_TA?Offline?LoadSave=Downloaded\Temp(1)?Playtest
+[0048.89] Log: FSaveDataExportTask(0) wrote 4346821 bytes to memory
+[0048.89] Log: SaveGameDataAsync game thread time: 31 ms
+[0048.90] Log: LoadMap: JoinGameTransition?game=TAGame.GameInfo_Transition_TA?Offline?LoadSave=Downloaded\Temp(1)?Playtest
+[0048.90] EOSVoice: Not requesting voice token, no MatchGUID
+[0048.92] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0048.97] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789_2.save
+[0048.97] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789_1.save] Result:[1]
+[0049.18] DevOnline: PsyNet Flush End
+[0049.21] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Transition_SF.upk
+[0049.21] Log: Game class is 'GameInfo_Transition_TA'
+[0049.22] Log: Bringing World JoinGameTransition.TheWorld up for play (0) at 2025.09.26-23.33.30
+[0049.22] Log: Bringing up level for play took: 0.003147
+[0049.22] JoinGame: GotoJoinGameState OpeningLoadingScreen -> JoiningNewServer
+[0049.22] DevNet: SetProgress, MessageType=1, Title=, Message=Connecting...
+[0049.22] Log: ########### Finished loading level: 0.319274 seconds
+[0049.22] DevNet: Browse: 13.232.213.195:7713/MENU_Main_p?Name=Lock
+[0049.22] DevNet: Game client on port 7713, rate 15000
+[0049.22] NetComeGo: TcpipConnection_0 13.232.213.195:7713 using encryption {Key=5115224FF534BA864AD0777A9679B24D1EF5CAA187E58FFEFEFA955FB2953C2A IV=16046C41A74FED6502C969FB8D4A3E3A HMAC=774BDF52293CE324770EDEC2364FBAED9D862CA0F59DE922F57791125F3611B3 Session=CF027FBABE854C56CF8D60BDF8CC4F8F}
+[0049.22] NetComeGo: SEND first packet Length=80 CRC=1842099482
+[0049.26] NetComeGo: TcpipConnection_0 RECV first packet IP=13.232.213.195:7713 Length=15 CRC=1600425919 HandshakeStatus=0 bUseSessionUID=1 InSessionUID=(0 0 0) SessionUID=(0 0 0)
+[0049.26] NetComeGo: Client set SessionUID to: 233 173 252
+[0049.42] DevNet: Welcomed by server (Level: NeoTokyo_Standard_P, Game: TAGame.GameInfo_Soccar_TA, GameTags: )
+[0049.46] Log: FSaveDataExportTask(0) wrote 4346821 bytes to memory
+[0049.46] Log: SaveGameDataAsync game thread time: 31 ms
+[0049.46] Log: Flushing async loaders.
+[0049.47] Log: Flushed async loaders.
+[0049.47] Log: LoadMap: 13.232.213.195:7713/NeoTokyo_Standard_P?Name=Lock?game=TAGame.GameInfo_Soccar_TA
+[0049.48] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0049.52] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789.save
+[0049.52] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789_2.save] Result:[1]
+[0049.74] DevOnline: PsyNet Flush End
+[0049.76] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Soccar_SF.upk
+[0049.79] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_XP_SF.upk
+[0049.80] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFx_XPProgressMenu_SF.upk
+[0049.82] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_EndGameMenu_SF.upk
+[0049.86] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_WinnerMenu_SF.upk
+[0049.87] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameScoreboard_SF.upk
+[0049.87] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameMenu_SF.upk
+[0049.89] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_HudMatchInfo_SF.upk
+[0049.91] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_Hud_SF.upk
+[0050.23] Log: Bringing World NeoTokyo_Standard_P.TheWorld up for play (0) at 2025.09.26-23.33.31
+[0050.23] Log: Bringing up level for play took: 0.072914
+[0050.34] JoinGame: OnJoinGameComplete bSuccess=(True) FailReason=()
+[0050.34] JoinGame: GotoJoinGameState JoiningNewServer -> None
+[0050.34] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 Close
+[0050.34] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 CloseConnection Connection.ConnectionID=(eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJiZDE1ZjJkNDcyOWY0YmNmOTA5OGM1ZGFkZGIzNmNjZCIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMEZCREYzOTA2Mjg1MkE4ODAtVGFrdW1pIiwiaWF0IjoxNzU4OTA5ODA1LCJuYmYiOjE3NTg5MDk4MDUsImV4cCI6MTc1ODkyNDIwNX0.jaqMBjG8jVuHw_Ce4cwfVEqjDo2d0WYiuTOBbpGhrQzlz318Y85xW1dg7kbV4gBGMiZoLmCC4rFE9txvUWhZ7Q)
+[0050.34] Matchmaking: OnlineGameMatchmaking_X_0 Joining -> None
+[0050.34] Log: ########### Finished loading level: 0.876048 seconds
+[0050.51] ScriptLog: Client InputRate=60
+[0050.51] DevNet: PlayerController_TA_2 setplayer LocalPlayer_TA_0
+[0050.51] PsyNetStaticData: UpdateCacheTimerEnabled CacheTimer.bEnabled=(False)
+[0050.51] MatchBroadcast: Init bBroadcastMatch=(False) MatchLog=(None)
+[0050.54] ScriptLog: MatchGUID: 18F18F4E11F09B03A127AE985CEED59D
+[0050.54] DevOnline: Set rich presence to: Doubles in Neo Tokyo data: Playlist-11
+[0050.66] LTM: SettingsType=(CustomMatchSettingsType_PrivateMatch)
+[0050.70] EOSVoice: AlertVoiceError: VoiceModerationEULANotAccepted
+[0051.25] ScriptLog: Uncached PlatformId for Epic|3a70a1026afc476cae7cd134cc24b772|0
+[0051.25] NetworkInputBuffer: Hitch detected! 549.5948ms
+[0051.64] DevOnline: EOSSDK-LogEOSIntegratedPlatform: FIntegratedSteamSanitizer: Sanitizer is implemented for this platform, but steam sanitizer not initialized. Falling back to generic sanitizer
+[0051.85] DevOnline: EOSSDK-LogEOSIntegratedPlatform: FIntegratedSteamSanitizer: Sanitizer is implemented for this platform, but steam sanitizer not initialized. Falling back to generic sanitizer
+[0052.71] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.001367s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[0.604738s] MaxExecutionTime=[0.000235s] TicksCount=[2472] ExpectedTicksCount=[1000]
+[0052.75] Vanity: All Vanity Queries Complete
+[0063.41] DevOnline: Set rich presence to: InGame 0:0 [4:59 remaining] data: InGame 0:0 [4:59 remaining]
+[0068.71] DevOnline: Set rich presence to: InGame 0:1 [4:54 remaining] data: InGame 0:1 [4:54 remaining]
+[0072.32] EOSGameClips: EOSGameClips: Currently recording: false
+[0084.00] DevOnline: WebRequest_X_27 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[0085.27] NetworkInputBuffer: Hitch detected! 215.3931ms
+[0085.82] DevOnline: WebRequest_X_27 RECV: 204 
+[0088.96] DevOnline: Set rich presence to: InGame 0:1 [4:45 remaining] data: InGame 0:1 [4:45 remaining]
+[0092.71] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.000521s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[0.215800s] MaxExecutionTime=[0.000107s] TicksCount=[5178] ExpectedTicksCount=[1000]
+[0103.94] DevOnline: Set rich presence to: InGame 0:1 [4:30 remaining] data: InGame 0:1 [4:30 remaining]
+[0109.60] DevOnline: Set rich presence to: InGame 1:1 [4:25 remaining] data: InGame 1:1 [4:25 remaining]
+[0113.19] EOSGameClips: EOSGameClips: Currently recording: false
+[0138.51] DevOnline: Set rich presence to: InGame 1:1 [4:15 remaining] data: InGame 1:1 [4:15 remaining]
+[0144.00] DevOnline: WebRequest_X_28 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[0144.28] DevOnline: WebRequest_X_28 RECV: 204 
+[0153.48] DevOnline: Set rich presence to: InGame 1:1 [4:00 remaining] data: InGame 1:1 [4:00 remaining]
+[0168.48] DevOnline: Set rich presence to: InGame 1:1 [3:45 remaining] data: InGame 1:1 [3:45 remaining]
+[0183.48] DevOnline: Set rich presence to: InGame 1:1 [3:30 remaining] data: InGame 1:1 [3:30 remaining]
+[0198.47] DevOnline: Set rich presence to: InGame 1:1 [3:15 remaining] data: InGame 1:1 [3:15 remaining]
+[0204.00] DevOnline: WebRequest_X_29 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[0204.28] DevOnline: WebRequest_X_29 RECV: 204 
+[0213.47] DevOnline: Set rich presence to: InGame 1:1 [3:00 remaining] data: InGame 1:1 [3:00 remaining]
+[0217.12] DevOnline: Set rich presence to: InGame 2:1 [2:57 remaining] data: InGame 2:1 [2:57 remaining]
+[0220.72] EOSGameClips: EOSGameClips: Currently recording: false
+[0244.03] DevOnline: Set rich presence to: InGame 2:1 [2:45 remaining] data: InGame 2:1 [2:45 remaining]
+[0259.04] DevOnline: Set rich presence to: InGame 2:1 [2:30 remaining] data: InGame 2:1 [2:30 remaining]
+[0262.01] Party: HandlePlayerInvited bAccepted=(False) InLobbyId:'Steam-109775245086438129' FriendId:'Steam|76561199778133312|0'
+[0264.00] DevOnline: WebRequest_X_30 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[0264.28] DevOnline: WebRequest_X_30 RECV: 204 
+[0264.68] DevOnline: Set rich presence to: InGame 3:1 [2:25 remaining] data: InGame 3:1 [2:25 remaining]
+[0268.25] EOSGameClips: EOSGameClips: Currently recording: false
+[0293.83] DevOnline: Set rich presence to: InGame 3:1 [2:15 remaining] data: InGame 3:1 [2:15 remaining]
+[0308.82] DevOnline: Set rich presence to: InGame 3:1 [2:00 remaining] data: InGame 3:1 [2:00 remaining]
+[0323.82] DevOnline: Set rich presence to: InGame 3:1 [1:45 remaining] data: InGame 3:1 [1:45 remaining]
+[0324.00] DevOnline: WebRequest_X_31 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[0324.28] DevOnline: WebRequest_X_31 RECV: 204 
+[0338.83] DevOnline: Set rich presence to: InGame 3:1 [1:30 remaining] data: InGame 3:1 [1:30 remaining]
+[0353.85] DevOnline: Set rich presence to: InGame 3:1 [1:15 remaining] data: InGame 3:1 [1:15 remaining]
+[0368.18] DevOnline: Set rich presence to: InGame 4:1 [1:01 remaining] data: InGame 4:1 [1:01 remaining]
+[0371.77] EOSGameClips: EOSGameClips: Currently recording: false
+[0384.00] DevOnline: WebRequest_X_32 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[0384.28] DevOnline: WebRequest_X_32 RECV: 204 
+[0388.36] DevOnline: Set rich presence to: InGame 4:1 [1:00 remaining] data: InGame 4:1 [1:00 remaining]
+[0391.49] DevOnline: Set rich presence to: InGame 4:2 [0:57 remaining] data: InGame 4:2 [0:57 remaining]
+[0395.10] EOSGameClips: EOSGameClips: Currently recording: false
+[0422.91] DevOnline: Set rich presence to: InGame 4:2 [0:45 remaining] data: InGame 4:2 [0:45 remaining]
+[0427.44] DevOnline: Set rich presence to: InGame 4:3 [0:41 remaining] data: InGame 4:3 [0:41 remaining]
+[0431.04] EOSGameClips: EOSGameClips: Currently recording: false
+[0444.00] DevOnline: WebRequest_X_33 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[0444.28] DevOnline: WebRequest_X_33 RECV: 204 
+[0457.46] DevOnline: Set rich presence to: InGame 4:3 [0:30 remaining] data: InGame 4:3 [0:30 remaining]
+[0472.44] DevOnline: Set rich presence to: InGame 4:3 [0:15 remaining] data: InGame 4:3 [0:15 remaining]
+[0504.00] DevOnline: WebRequest_X_34 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[0504.28] DevOnline: WebRequest_X_34 RECV: 204 
+[0504.36] DevOnline: Set rich presence to: InGame 4:4 [0:00 remaining] data: InGame 4:4 [0:00 remaining]
+[0507.98] EOSGameClips: EOSGameClips: Currently recording: false
+[0523.87] DevOnline: Set rich presence to: InGame 4:4 [Overtime 0:01] data: InGame 4:4 [Overtime 0:01]
+[0538.86] DevOnline: Set rich presence to: InGame 4:4 [Overtime 0:16] data: InGame 4:4 [Overtime 0:16]
+[0553.87] DevOnline: Set rich presence to: InGame 4:4 [Overtime 0:31] data: InGame 4:4 [Overtime 0:31]
+[0564.00] DevOnline: WebRequest_X_35 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[0564.28] DevOnline: WebRequest_X_35 RECV: 204 
+[0568.86] DevOnline: Set rich presence to: InGame 4:4 [Overtime 0:46] data: InGame 4:4 [Overtime 0:46]
+[0573.37] DevOnline: Set rich presence to: InGame 5:4 [Overtime 0:50] data: InGame 5:4 [Overtime 0:50]
+[0576.97] EOSGameClips: EOSGameClips: Currently recording: false
+[0579.72] XPProgression: GFxHUD_TA.HandleGameStateChanged Current player match score = 934, UniqueId=(Steam|76561198026543789|0), with total match time = 366.4363 seconds, with total net time = 366.4363seconds
+[0579.72] Party: Ranked Game Finished, Clear party member server
+[0579.72] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0579.78] DevOnline: PlayerDataStorage_WriteFile: Beginning to upload file. User=(29102162b92948868b021454382b618a) FileName=(RLSaveData)
+[0580.14] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Challenges/PlayerProgress 
+[0580.16] XPProgression: SaveData_TA.HandleRewardDropNotification PsyNetService_RewardDropReceived_TA returned Total XP Earned = 4440.0000, in match with ID = 18F18F4E11F09B03A127AE985CEED59D , Current player match score = 934, UniqueId=(Steam|76561198026543789|0), with total match time = 366.4363 seconds, with total net time = 366.4363seconds
+[0580.16] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Reward/RewardResult 
+[0580.49] Prime24121: StartSearch.PreferredRegions.Length 2
+[0580.49] Matchmaking: OnlineGameMatchmaking_X_0 OnlineGameMatchmaking_X -> PingRegions
+[0580.79] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[0581.09] ScriptLog: RegionPinger_X_1 PingRegions ("13.232.213.195:8752","18.138.212.50:8741","18.162.209.15:8707","44.234.100.244:8758","3.101.99.46:8743","35.76.40.118:8709","3.26.123.251:8710","18.88.3.57:8794","3.129.130.237:8759","3.237.213.75:8756","15.228.29.120:8762","15.184.42.206:8777","15.237.31.195:8799","18.168.42.210:8772","34.244.167.40:8752","13.50.42.217:8795","18.156.252.136:8715","13.244.193.9:8736")
+[0581.74] Log: FSaveDataExportTask(0) wrote 4345864 bytes to memory
+[0581.75] Log: SaveGameDataAsync game thread time: 31 ms
+[0581.78] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0581.78] NetComeGo: TcpipConnection_0 Control channel closed, reason=Disconnect command
+[0581.78] DevNet: URL: Adding default option Name=Lock
+[0581.78] DevNet: Browse: MENU_Main_p?closed?Name=Lock
+[0581.78] Log: Failed; returning to Entry
+[0581.82] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789_1.save
+[0581.82] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789.save] Result:[1]
+[0581.82] Log: LoadMap: MENU_Main_p?closed?Name=Lock
+[0581.82] PsyNetStaticData: HandleCacheExpired
+[0581.82] PsyNetStaticData: UpdateCacheTimerEnabled CacheTimer.bEnabled=(True)
+[0581.82] DevOnline: UnregisterRemoteTalker(0x0110000103F352AD) returned 0x00000000
+[0581.82] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[0581.82] DevOnline: UnregisterRemoteTalker(0x011000011AA4EF6C) returned 0x00000000
+[0581.82] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[0581.82] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[0581.82] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[0581.82] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[0581.82] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[0581.84] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0582.10] DevOnline: PsyNet Flush End
+[0582.12] NetComeGo: Close TcpipConnection_0 13.232.213.195:7713 26/09/2025 23:42:23 'UNetConnection::CleanUp'
+[0582.12] NetComeGo: TcpipConnection_0 Control channel null, Sending unstable close to 13.232.213.195:7713 on temporary Control channel.
+[0582.12] Exit: TcpNetDriver_0 shut down
+[0582.14] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_GFxMenu_SF.upk
+[0582.15] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_MainMenu_SF.upk
+[0582.15] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_StartMenu_SF.upk
+[0582.21] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MainMenu_SF.upk
+[0582.25] Log: Game class is 'GameInfo_GFxMenu_TA'
+[0582.26] Log: Bringing World menu_main_p.TheWorld up for play (0) at 2025.09.26-23.42.23
+[0582.26] Log: Flushing async loaders.
+[0582.47] Log: Flushed async loaders.
+[0582.47] DevOnline: UnregisterLocalTalker(0) returned 0x00000000
+[0582.47] DevOnline: Successfully set the friend join URL: 
+[0582.47] Log: Bringing up level for play took: 0.225263
+[0582.56] DevOnline: Set rich presence to: Main Menu data: Menu
+[0582.56] Log: ########### Finished loading level: 0.745099 seconds
+[0582.57] DevOnline: WebRequest_X_36 SEND: https://config.psynet.gg/v2/Config/BattleCars/-1459478734/Prod/Steam/INT/
+[0582.57] Log: Flushing async loaders.
+[0582.94] Log: Flushed async loaders.
+[0583.25] Warning: Warning, Material body_lionsmane.MAT_Lionsmane_Temp missing bUsedWithStaticLighting=True!
+[0583.25] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0583.26] DevOnline: PlayerDataStorage_WriteFile: File transfer is already in progress. Aborting write for User=(29102162b92948868b021454382b618a) FileName=(RLSaveData)
+[0583.26] ScriptWarning: ScriptWarning, Something went wrong uploading save data 29102162b92948868b021454382b618a RLSaveData
+	EOSOnlineStorageUploader_TA Transient.SaveData_TA_1:EOSOnlineStorageUploader_TA_0
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData:07A8
+Script call stack:
+	Function TAGame.SaveData_TA:HandlePostMapChange
+	Function TAGame.SaveData_TA:UploadSaveData
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData
+
+[0583.54] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.778379s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[0.963493s] MaxExecutionTime=[0.000209s] TicksCount=[5397] ExpectedTicksCount=[1077]
+[0583.54] Eula: RequiresAcceptance? EulaConfig?.bRequiresAcceptance=(True) GetUISave()?.Contains('bAcceptedOfflineEULA')=(True) Eula.SyncState=(LSS_Accepted)
+[0583.54] AuthEpicVerbose: [GFx] Epic login changed. m_uiState:MainMenu bPromptParentalConsent:false bPromptToChoosePrimaryAccount:false bEpicSaveDataLoaded:false bPlatformLinked:false
+[0583.54] FTEDev: Group Prime_MatchComplete Is not meant for users of type FTESave.LegacyGroupType=(LGT_LegacyUser)
+[0583.54] FTEDev: Group Prime_MatchComplete Is not meant for users of type FTESave.LegacyGroupType=(LGT_LegacyUser)
+[0583.73] Online: TryToPlayOnline ControllerID=(-1)
+[0583.74] ThankYouMessage: Thank You message already shown to the player
+[0583.76] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0583.76] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[0583.76] Vanity: All Vanity Queries Complete
+[0583.90] DevOnline: WebRequest_X_36 RECV: 304 
+[0583.92] Matchmaking: All Regions Pinged: IND1 (0.0398),ASM1 (0.0657),ASC1 (0.1076),USW3 (0.2467),USW1 (0.2572),JPN1 (0.1571),OCE1 (0.1819),USC1 (0.2630),USE3 (0.2918),USE1 (0.2968),SAM1 (0.3810),ME1 (0.3531),EU9 (0.2516),EU7 (0.2671),EU3 (0.2807),EU1 (0.2881),EU5 (0.2755),SAF1 (0.4184),JPN (1.0000),ASC (1.0000),ASM (1.0000),EU (1.0000),IND (1.0000),ME (1.0000),OCE (1.0000),SAF (1.0000),SAM (1.0000),USC (1.0000),USE (1.0000),USW (1.0000)
+[0583.92] Log: FCacheExportTask(..\..\TAGame\Cache\RegionCache.cache) wrote 1713 bytes to memory
+[0583.92] Matchmaking: OnlineGameMatchmaking_X_0 PingRegions -> Searching
+[0583.92] Prime24121: HandleRegionsPinged.PreferredRegions.Length 2
+[0583.92] Matchmaking: OnlineGameMatchmaking_X::RecordStart
+[0583.92] Matchmaking: Pre-divide PartyLeaderMMR: 94.2276
+[0583.92] Matchmaking: Post-divide PartyLeaderMMR: 47.1138
+[0583.92] Matchmaking: PartyLeaderTier=(16)
+[0583.92] Matchmaking: StartMatchmaking at 2025-09-26 18:12:25 in IND1,ASM1 for playlists 13,11 on game server 
+[0583.92] Matchmaking: Creating RPC_StartMatchmaking_X
+[0583.92] Matchmaking: PreferredRegions.Length=(2) PreferredPlaylists.Length=(2) Party.GetOrderedPartyMemberIDs().Length=(1)
+[0583.92] Matchmaking: SecondsSearching=(3) CurrentServerID=() bDisableCrossplay=(False) bIgnoreSkill=(False)
+[0584.23] Matchmaking: Matchmaking RPC succeeded.
+[0584.23] Matchmaking: EstimatedQueueTime=(74.0000)
+[0584.48] DevOnline: PlayerDataStorage_WriteFile: File upload complete. User=(29102162b92948868b021454382b618a) FileName=(RLSaveData) Success=(1)
+[0584.90] Log: Flushing async loaders.
+[0584.93] Log: Flushed async loaders.
+[0585.71] Log: FSaveDataExportTask(0) wrote 4345864 bytes to memory
+[0585.71] Log: SaveGameDataAsync game thread time: 31 ms
+[0585.75] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789_2.save
+[0585.75] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789_1.save] Result:[1]
+[0590.50] Online: TryToPlayOnline ControllerID=(-1)
+[0590.50] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0590.50] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[0592.48] Loadout: Could not find package for asset title_generic_T_SF
+[0592.89] ScriptWarning: ScriptWarning, AntennaComponent_TA_0 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend02
+	AntennaComponent_TA menu_premiumgarage.TheWorld:PersistentLevel.CarPreviewActor_TA_1.AntennaComponent_TA_0
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0592.89] ScriptWarning: ScriptWarning, AntennaComponent_TA_0 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend03
+	AntennaComponent_TA menu_premiumgarage.TheWorld:PersistentLevel.CarPreviewActor_TA_1.AntennaComponent_TA_0
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0592.89] ScriptWarning: ScriptWarning, AntennaComponent_TA_0 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend04
+	AntennaComponent_TA menu_premiumgarage.TheWorld:PersistentLevel.CarPreviewActor_TA_1.AntennaComponent_TA_0
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0592.89] ScriptWarning: ScriptWarning, AntennaComponent_TA_1 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend02
+	AntennaComponent_TA MENU_Main_Trap.TheWorld:PersistentLevel.CarPreviewActor_TA_0.AntennaComponent_TA_1
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0592.89] ScriptWarning: ScriptWarning, AntennaComponent_TA_1 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend03
+	AntennaComponent_TA MENU_Main_Trap.TheWorld:PersistentLevel.CarPreviewActor_TA_0.AntennaComponent_TA_1
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0592.89] ScriptWarning: ScriptWarning, AntennaComponent_TA_1 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend04
+	AntennaComponent_TA MENU_Main_Trap.TheWorld:PersistentLevel.CarPreviewActor_TA_0.AntennaComponent_TA_1
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0593.26] ThankYouMessage: Thank You message already shown to the player
+[0593.54] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.000668s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[0.184549s] MaxExecutionTime=[0.000107s] TicksCount=[5478] ExpectedTicksCount=[1000]
+[0593.71] Online: TryToPlayOnline ControllerID=(-1)
+[0593.71] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0593.71] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[0596.12] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Reward/RewardResult 
+[0596.12] ScriptLog: GetDLCProducts, UnlockedDLCList=SuperSonic,Revenge,Wasteland,body_charged
+[0596.14] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Challenges/PlayerProgress 
+[0597.04] Log: FSaveDataExportTask(0) wrote 4346327 bytes to memory
+[0597.04] Log: SaveGameDataAsync game thread time: 32 ms
+[0597.08] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789.save
+[0597.08] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789_2.save] Result:[1]
+[0598.63] Loadout: Could not find package for asset title_generic_T_SF
+[0599.08] ScriptWarning: ScriptWarning, AntennaComponent_TA_2 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend02
+	AntennaComponent_TA menu_premiumgarage.TheWorld:PersistentLevel.CarPreviewActor_TA_1.AntennaComponent_TA_2
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0599.08] ScriptWarning: ScriptWarning, AntennaComponent_TA_2 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend03
+	AntennaComponent_TA menu_premiumgarage.TheWorld:PersistentLevel.CarPreviewActor_TA_1.AntennaComponent_TA_2
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0599.08] ScriptWarning: ScriptWarning, AntennaComponent_TA_2 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend04
+	AntennaComponent_TA menu_premiumgarage.TheWorld:PersistentLevel.CarPreviewActor_TA_1.AntennaComponent_TA_2
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0599.08] ScriptWarning: ScriptWarning, AntennaComponent_TA_3 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend02
+	AntennaComponent_TA MENU_Main_Trap.TheWorld:PersistentLevel.CarPreviewActor_TA_0.AntennaComponent_TA_3
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0599.08] ScriptWarning: ScriptWarning, AntennaComponent_TA_3 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend03
+	AntennaComponent_TA MENU_Main_Trap.TheWorld:PersistentLevel.CarPreviewActor_TA_0.AntennaComponent_TA_3
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0599.08] ScriptWarning: ScriptWarning, AntennaComponent_TA_3 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend04
+	AntennaComponent_TA MENU_Main_Trap.TheWorld:PersistentLevel.CarPreviewActor_TA_0.AntennaComponent_TA_3
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0599.29] ThankYouMessage: Thank You message already shown to the player
+[0602.73] Online: TryToUseUGC ControllerID=(-1)
+[0602.73] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0602.73] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[0602.77] Online: TryToPlayOnlineAndUseUGC ControllerID=(-1)
+[0602.79] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0602.79] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[0603.08] Log: FUniqueNetId::FromString - could not parse ''
+[0603.08] Log: FUniqueNetId::FromString - could not parse ''
+[0603.08] Log: FUniqueNetId::FromString - could not parse ''
+[0603.08] Log: FUniqueNetId::FromString - could not parse ''
+[0603.08] Log: FUniqueNetId::FromString - could not parse ''
+[0603.08] Log: FUniqueNetId::FromString - could not parse ''
+[0603.08] Log: FUniqueNetId::FromString - could not parse ''
+[0603.08] Log: FUniqueNetId::FromString - could not parse ''
+[0603.26] Online: TryToPlayOnlineAndUseUGC ControllerID=(-1)
+[0603.26] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0603.26] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[0603.32] Vanity: All Vanity Queries Complete
+[0603.51] Vanity: All Vanity Queries Complete
+[0603.54] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.000491s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[0.100421s] MaxExecutionTime=[0.000061s] TicksCount=[5468] ExpectedTicksCount=[1000]
+[0603.87] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ReserveConnection ReservationID=(F1145789F3ED4449B838A2DED1EDB79C) ConnectionID=(eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI3Y2NkMjI3ZDg2M2Q0ZGU4YjZkNTA5ZWNlNTY5ZDRhMyIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMDRFQ0ZERkNEQ0Q2OTcyRjctVG9ybWVudCIsImlhdCI6MTc1ODkxMDM2NSwibmJmIjoxNzU4OTEwMzY1LCJleHAiOjE3NTg5MjQ3NjV9.pv6HYuW4zEhsOG2hNkwIqws2WM3lwkzCu7bUcUOAIsGYtFdqGEpcYXX0IE-zb_wiiZAq3Jb47lBV9ur1GTBm8Q)
+[0603.87] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(ClientReservationMessage_X) Message.ReservationID=(F1145789F3ED4449B838A2DED1EDB79C)
+[0603.87] CheckReservation: Received game server from notification (v3) Message.Reservation=((ServerName="IND1-04ECFDFCDCD6972F7-Torment",Playlist=11,Region="IND",ReservationID="F1145789F3ED4449B838A2DED1EDB79C",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI3Y2NkMjI3ZDg2M2Q0ZGU4YjZkNTA5ZWNlNTY5ZDRhMyIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMDRFQ0ZERkNEQ0Q2OTcyRjctVG9ybWVudCIsImlhdCI6MTc1ODkxMDM2NSwibmJmIjoxNzU4OTEwMzY1LCJleHAiOjE3NTg5MjQ3NjV9.pv6HYuW4zEhsOG2hNkwIqws2WM3lwkzCu7bUcUOAIsGYtFdqGEpcYXX0IE-zb_wiiZAq3Jb47lBV9ur1GTBm8Q",JoinName="ZTPGBDBWN5M4XOJX",JoinPassword="SIRMZ5L8PXH6KG29"))
+[0603.87] JoinGame: StartJoin Reservation=((ServerName="IND1-04ECFDFCDCD6972F7-Torment",Playlist=11,Region="IND",ReservationID="F1145789F3ED4449B838A2DED1EDB79C",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI3Y2NkMjI3ZDg2M2Q0ZGU4YjZkNTA5ZWNlNTY5ZDRhMyIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMDRFQ0ZERkNEQ0Q2OTcyRjctVG9ybWVudCIsImlhdCI6MTc1ODkxMDM2NSwibmJmIjoxNzU4OTEwMzY1LCJleHAiOjE3NTg5MjQ3NjV9.pv6HYuW4zEhsOG2hNkwIqws2WM3lwkzCu7bUcUOAIsGYtFdqGEpcYXX0IE-zb_wiiZAq3Jb47lBV9ur1GTBm8Q",JoinName="ZTPGBDBWN5M4XOJX",JoinPassword="SIRMZ5L8PXH6KG29")) JoinSettings=((PlaylistId=11))
+[0603.87] DevOnline: Successfully set the friend join URL: 
+[0603.87] JoinGame: GotoJoinGameState OnlineGameJoinGame_TA -> VerifyPrivileges
+[0603.87] Online: TryToPlayOnline ControllerID=(-1)
+[0603.87] Matchmaking: OnlineGameMatchmaking_X_0 Searching -> Joining
+[0603.87] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0603.87] JoinGame: GotoJoinGameState VerifyPrivileges -> ReservingServerForMatchmaking
+[0603.87] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 SendMessageToServer Message=(AddReservationMessagePublic_X_1)
+[0603.87] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0604.60] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(ReservationsWaitingMessage_X) Message.ReservationID=(F1145789F3ED4449B838A2DED1EDB79C)
+[0604.60] JoinGame: Waiting for more players to add reservations
+[0604.60] Party: HandleServerReserved (Reservation=(ServerName="IND1-04ECFDFCDCD6972F7-Torment",Playlist=11,Region="IND",ReservationID="F1145789F3ED4449B838A2DED1EDB79C",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI3Y2NkMjI3ZDg2M2Q0ZGU4YjZkNTA5ZWNlNTY5ZDRhMyIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMDRFQ0ZERkNEQ0Q2OTcyRjctVG9ybWVudCIsImlhdCI6MTc1ODkxMDM2NSwibmJmIjoxNzU4OTEwMzY1LCJleHAiOjE3NTg5MjQ3NjV9.pv6HYuW4zEhsOG2hNkwIqws2WM3lwkzCu7bUcUOAIsGYtFdqGEpcYXX0IE-zb_wiiZAq3Jb47lBV9ur1GTBm8Q",JoinName="ZTPGBDBWN5M4XOJX",JoinPassword="SIRMZ5L8PXH6KG29"),JoinCredentials="ZTPGBDBWN5M4XOJX:SIRMZ5L8PXH6KG29")
+[0604.60] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0605.10] DevNet: URL: Adding default option Name=Lock
+[0605.11] DevNet: URL: Adding default option Name=Lock
+[0605.11] DevNet: Browse: beach_night_p?Game=TAGame.GameInfo_TrainingEditor_TA?Offline?LoadSave=Downloaded\Temp(1)?Playtest?Name=Lock
+[0605.17] Log: FSaveDataExportTask(0) wrote 4346327 bytes to memory
+[0605.17] Log: SaveGameDataAsync game thread time: 31 ms
+[0605.18] Log: Flushing async loaders.
+[0605.18] Log: Flushed async loaders.
+[0605.18] Log: LoadMap: beach_night_p?Game=TAGame.GameInfo_TrainingEditor_TA?Offline?LoadSave=Downloaded\Temp(1)?Playtest?Name=Lock
+[0605.22] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789_1.save
+[0605.22] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0605.23] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789.save] Result:[1]
+[0605.47] DevOnline: PsyNet Flush End
+[0605.62] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_TrainingEditor_SF.upk
+[0605.67] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_XP_SF.upk
+[0605.68] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFx_XPProgressMenu_SF.upk
+[0605.70] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_EndGameMenu_SF.upk
+[0605.74] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_WinnerMenu_SF.upk
+[0605.76] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameScoreboard_SF.upk
+[0605.76] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameMenu_SF.upk
+[0605.78] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_HudMatchInfo_SF.upk
+[0605.79] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_Hud_SF.upk
+[0605.82] Log: Game class is 'GameInfo_TrainingEditor_TA'
+[0605.82] Log: Octree Warning (AddPrimitive): StaticMeshActor_SMC_33 (Owner: beach_night_p.TheWorld:PersistentLevel.MeshCollector0) Outside World.
+[0605.82] Log: Octree Warning (AddPrimitive): StaticMeshActor_SMC_722 (Owner: beach_night_p.TheWorld:PersistentLevel.MeshCollector0) Outside World.
+[0605.82] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0605.82] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0605.82] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0605.82] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0605.82] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0605.82] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0605.82] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0605.82] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0605.82] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0605.82] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0605.82] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0605.82] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0605.82] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0605.82] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0605.82] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0605.82] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0605.82] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0605.85] Log: Bringing World beach_night_p.TheWorld up for play (0) at 2025.09.26-23.42.47
+[0605.85] Log: Flushing async loaders.
+[0606.19] Log: Flushed async loaders.
+[0606.19] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0606.19] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0606.19] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0606.19] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0606.19] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0606.20] MatchBroadcast: Init bBroadcastMatch=(False) MatchLog=(None)
+[0606.20] ScriptLog: MatchTypeClass=(MatchType_Tutorial_TA)
+[0606.25] LTM: SettingsType=(CustomMatchSettingsType_PrivateMatch)
+[0606.25] LTM: SettingsType=(CustomMatchSettingsType_PrivateMatch) InSettingsType=(CustomMatchSettingsType_LocalMatch)
+[0606.25] Log: Bringing up level for play took: 0.429612
+[0606.32] DevOnline: Set rich presence to: In Training data: Tutorial
+[0606.32] Log: ########### Finished loading level: 1.138676 seconds
+[0606.33] DevOnline: Set rich presence to: In BakkesMod custom training data: In BakkesMod custom training
+[0606.33] EOSVoice: Not requesting voice token, no MatchGUID
+[0606.44] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(ReservationsReadyMessage_X) Message.ReservationID=(F1145789F3ED4449B838A2DED1EDB79C)
+[0606.44] DevNet: Add Network Encryption {PlayerID=Steam|76561198026543789|0 Key={Key=2B68CC0F669EDB40B6254F59609AF11325B179B7931057209988EF0500AFAB55 IV=06E6F43D6EC66EF04BA6BC32F361E5CC HMAC=18FB2370C9F6C249B5ED7372D058C4FCF7E9D7F9A83275BE8AE045EE5C2A0D37 Session=88876D741405DA887D9FA52DC6F900C7}}
+[0606.44] DevOnline: Successfully set the friend join URL: 
+[0606.44] Party: HandleServerReserved (Reservation=(ServerName="IND1-04ECFDFCDCD6972F7-Torment",Playlist=11,Region="IND",ReservationID="F1145789F3ED4449B838A2DED1EDB79C",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI3Y2NkMjI3ZDg2M2Q0ZGU4YjZkNTA5ZWNlNTY5ZDRhMyIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMDRFQ0ZERkNEQ0Q2OTcyRjctVG9ybWVudCIsImlhdCI6MTc1ODkxMDM2NSwibmJmIjoxNzU4OTEwMzY1LCJleHAiOjE3NTg5MjQ3NjV9.pv6HYuW4zEhsOG2hNkwIqws2WM3lwkzCu7bUcUOAIsGYtFdqGEpcYXX0IE-zb_wiiZAq3Jb47lBV9ur1GTBm8Q",JoinName="ZTPGBDBWN5M4XOJX",JoinPassword="SIRMZ5L8PXH6KG29"),PingURL="3.111.214.54:8753",GameURL="3.111.214.54:7753",JoinCredentials="ZTPGBDBWN5M4XOJX:SIRMZ5L8PXH6KG29")
+[0606.44] JoinGame: GotoJoinGameState ReservingServerForMatchmaking -> JoinCountdown
+[0606.44] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 SendMessageToServer Message=(PingMessage_X_2)
+[0606.58] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0606.81] Log: Flushing async loaders.
+[0606.82] Log: Flushed async loaders.
+[0606.84] Vanity: All Vanity Queries Complete
+[0607.43] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(PingMessage_X) Message.ReservationID=(F1145789F3ED4449B838A2DED1EDB79C)
+[0607.43] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0609.33] JoinGame: GotoJoinGameState JoinCountdown -> OpeningLoadingScreen
+[0609.33] RankedReconnect: OnlineGameJoinGame_TA_0::OpeningLoadingScreen.BeginState()
+[0609.33] RankedReconnect: LocalPlayer_TA_0.UpdateRankedReconnect() RankedTeamDoubles True 4 False
+[0609.33] RankedReconnect: RankedReconnectSave_TA_0.SetRankedReconnect() Server=((Reservation=(ServerName="IND1-04ECFDFCDCD6972F7-Torment",Playlist=11,Region="IND",ReservationID="F1145789F3ED4449B838A2DED1EDB79C",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI3Y2NkMjI3ZDg2M2Q0ZGU4YjZkNTA5ZWNlNTY5ZDRhMyIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMDRFQ0ZERkNEQ0Q2OTcyRjctVG9ybWVudCIsImlhdCI6MTc1ODkxMDM2NSwibmJmIjoxNzU4OTEwMzY1LCJleHAiOjE3NTg5MjQ3NjV9.pv6HYuW4zEhsOG2hNkwIqws2WM3lwkzCu7bUcUOAIsGYtFdqGEpcYXX0IE-zb_wiiZAq3Jb47lBV9ur1GTBm8Q",JoinName="ZTPGBDBWN5M4XOJX",JoinPassword="SIRMZ5L8PXH6KG29"),PingURL="3.111.214.54:8753",GameURL="3.111.214.54:7753",JoinCredentials="ZTPGBDBWN5M4XOJX:SIRMZ5L8PXH6KG29")) EpochNow=(1758910370)
+[0609.33] DevNet: Browse: JoinGameTransition?game=TAGame.GameInfo_Transition_TA?Offline?LoadSave=Downloaded\Temp(1)?Playtest?Name=Lock
+[0609.40] Log: FSaveDataExportTask(0) wrote 4347290 bytes to memory
+[0609.40] Log: SaveGameDataAsync game thread time: 30 ms
+[0609.40] Log: LoadMap: JoinGameTransition?game=TAGame.GameInfo_Transition_TA?Offline?LoadSave=Downloaded\Temp(1)?Playtest?Name=Lock
+[0609.40] EOSVoice: Not requesting voice token, no MatchGUID
+[0609.42] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0609.47] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789_2.save
+[0609.47] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789_1.save] Result:[1]
+[0609.68] DevOnline: PsyNet Flush End
+[0609.71] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Transition_SF.upk
+[0609.72] Log: Game class is 'GameInfo_Transition_TA'
+[0609.72] Log: Bringing World JoinGameTransition.TheWorld up for play (0) at 2025.09.26-23.42.50
+[0609.72] Log: Bringing up level for play took: 0.003011
+[0609.72] JoinGame: GotoJoinGameState OpeningLoadingScreen -> JoiningNewServer
+[0609.72] DevNet: SetProgress, MessageType=1, Title=, Message=Connecting...
+[0609.72] Log: ########### Finished loading level: 0.320040 seconds
+[0609.72] DevNet: Browse: 3.111.214.54:7753/MENU_Main_p?Name=Lock
+[0609.72] DevNet: Game client on port 7753, rate 15000
+[0609.72] NetComeGo: TcpipConnection_1 3.111.214.54:7753 using encryption {Key=2B68CC0F669EDB40B6254F59609AF11325B179B7931057209988EF0500AFAB55 IV=06E6F43D6EC66EF04BA6BC32F361E5CC HMAC=18FB2370C9F6C249B5ED7372D058C4FCF7E9D7F9A83275BE8AE045EE5C2A0D37 Session=88876D741405DA887D9FA52DC6F900C7}
+[0609.72] NetComeGo: SEND first packet Length=80 CRC=-782071776
+[0609.78] NetComeGo: TcpipConnection_1 RECV first packet IP=3.111.214.54:7753 Length=15 CRC=-619539078 HandshakeStatus=0 bUseSessionUID=1 InSessionUID=(0 0 0) SessionUID=(0 0 0)
+[0609.78] NetComeGo: Client set SessionUID to: 91 107 93
+[0609.93] DevNet: Welcomed by server (Level: CHN_Stadium_Day_P, Game: TAGame.GameInfo_Soccar_TA, GameTags: )
+[0609.97] Log: FSaveDataExportTask(0) wrote 4347290 bytes to memory
+[0609.97] Log: SaveGameDataAsync game thread time: 32 ms
+[0609.97] Log: Flushing async loaders.
+[0609.98] Log: Flushed async loaders.
+[0609.98] Log: LoadMap: 3.111.214.54:7753/CHN_Stadium_Day_P?Name=Lock?game=TAGame.GameInfo_Soccar_TA
+[0609.99] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0610.02] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789.save
+[0610.02] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789_2.save] Result:[1]
+[0610.24] DevOnline: PsyNet Flush End
+[0610.25] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Soccar_SF.upk
+[0610.29] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_XP_SF.upk
+[0610.29] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFx_XPProgressMenu_SF.upk
+[0610.31] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_EndGameMenu_SF.upk
+[0610.35] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_WinnerMenu_SF.upk
+[0610.36] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameScoreboard_SF.upk
+[0610.36] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameMenu_SF.upk
+[0610.38] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_HudMatchInfo_SF.upk
+[0610.40] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_Hud_SF.upk
+[0610.92] Log: Bringing World CHN_Stadium_Day_P.TheWorld up for play (0) at 2025.09.26-23.42.52
+[0610.92] Log: Bringing up level for play took: 0.056661
+[0611.03] JoinGame: OnJoinGameComplete bSuccess=(True) FailReason=()
+[0611.03] JoinGame: GotoJoinGameState JoiningNewServer -> None
+[0611.03] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 Close
+[0611.03] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 CloseConnection Connection.ConnectionID=(eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI3Y2NkMjI3ZDg2M2Q0ZGU4YjZkNTA5ZWNlNTY5ZDRhMyIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMDRFQ0ZERkNEQ0Q2OTcyRjctVG9ybWVudCIsImlhdCI6MTc1ODkxMDM2NSwibmJmIjoxNzU4OTEwMzY1LCJleHAiOjE3NTg5MjQ3NjV9.pv6HYuW4zEhsOG2hNkwIqws2WM3lwkzCu7bUcUOAIsGYtFdqGEpcYXX0IE-zb_wiiZAq3Jb47lBV9ur1GTBm8Q)
+[0611.03] Matchmaking: OnlineGameMatchmaking_X_0 Joining -> None
+[0611.04] Log: ########### Finished loading level: 1.056040 seconds
+[0611.71] ScriptLog: Client InputRate=60
+[0611.71] DevNet: PlayerController_TA_5 setplayer LocalPlayer_TA_0
+[0611.71] PsyNetStaticData: UpdateCacheTimerEnabled CacheTimer.bEnabled=(False)
+[0611.71] MatchBroadcast: Init bBroadcastMatch=(False) MatchLog=(None)
+[0611.74] ScriptLog: Uncached PlatformId for Epic|8a456cdc8e5d4f22a23bf18514d88207|0
+[0611.83] ScriptLog: MatchGUID: 66C1EF6A11F09B04CCE01496B78C084D
+[0611.83] DevOnline: Set rich presence to: Doubles in Forbidden Temple (Day) data: Playlist-11
+[0611.83] ScriptLog: Uncached PlatformId for Epic|62bf4522364a467b9a76021a5dff35fb|0
+[0611.83] ScriptLog: Uncached PlatformId for Epic|272cabfe0db84248a251f5d479f76213|0
+[0612.40] LTM: SettingsType=(CustomMatchSettingsType_PrivateMatch)
+[0612.47] Log: Flushing async loaders.
+[0612.48] Log: Flushed async loaders.
+[0612.48] EOSVoice: AlertVoiceError: VoiceModerationEULANotAccepted
+[0612.51] Vanity: All Vanity Queries Complete
+[0613.54] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.001516s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[0.112303s] MaxExecutionTime=[0.000246s] TicksCount=[1979] ExpectedTicksCount=[1000]
+[0622.58] DevOnline: Set rich presence to: InGame 0:0 [4:59 remaining] data: InGame 0:0 [4:59 remaining]
+[0626.89] DevOnline: WebRequest_X_37 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[0627.17] DevOnline: WebRequest_X_37 RECV: 204 
+[0636.59] DevOnline: Set rich presence to: InGame 0:0 [4:45 remaining] data: InGame 0:0 [4:45 remaining]
+[0651.58] DevOnline: Set rich presence to: InGame 0:0 [4:30 remaining] data: InGame 0:0 [4:30 remaining]
+[0654.30] DevOnline: Set rich presence to: InGame 1:0 [4:28 remaining] data: InGame 1:0 [4:28 remaining]
+[0657.88] EOSGameClips: EOSGameClips: Currently recording: false
+[0676.67] DevOnline: Set rich presence to: InGame 1:0 [4:15 remaining] data: InGame 1:0 [4:15 remaining]
+[0686.89] DevOnline: WebRequest_X_38 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[0687.17] DevOnline: WebRequest_X_38 RECV: 204 
+[0687.51] DevOnline: Set rich presence to: InGame 2:0 [4:05 remaining] data: InGame 2:0 [4:05 remaining]
+[0691.07] EOSGameClips: EOSGameClips: Currently recording: false
+[0691.98] NetworkInputBuffer: Hitch detected! 111.8164ms
+[0693.55] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.000314s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[0.116259s] MaxExecutionTime=[0.000206s] TicksCount=[4284] ExpectedTicksCount=[1000]
+[0702.09] DevOnline: Set rich presence to: InGame 2:0 [4:00 remaining] data: InGame 2:0 [4:00 remaining]
+[0717.10] DevOnline: Set rich presence to: InGame 2:0 [3:45 remaining] data: InGame 2:0 [3:45 remaining]
+[0732.08] DevOnline: Set rich presence to: InGame 2:0 [3:30 remaining] data: InGame 2:0 [3:30 remaining]
+[0746.89] DevOnline: WebRequest_X_39 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[0747.09] DevOnline: Set rich presence to: InGame 2:0 [3:15 remaining] data: InGame 2:0 [3:15 remaining]
+[0747.17] DevOnline: WebRequest_X_39 RECV: 204 
+[0762.09] DevOnline: Set rich presence to: InGame 2:0 [3:00 remaining] data: InGame 2:0 [3:00 remaining]
+[0777.12] DevOnline: Set rich presence to: InGame 2:0 [2:45 remaining] data: InGame 2:0 [2:45 remaining]
+[0792.09] DevOnline: Set rich presence to: InGame 2:0 [2:30 remaining] data: InGame 2:0 [2:30 remaining]
+[0806.89] DevOnline: WebRequest_X_40 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[0807.09] DevOnline: Set rich presence to: InGame 2:0 [2:15 remaining] data: InGame 2:0 [2:15 remaining]
+[0807.17] DevOnline: WebRequest_X_40 RECV: 204 
+[0822.09] DevOnline: Set rich presence to: InGame 2:0 [2:00 remaining] data: InGame 2:0 [2:00 remaining]
+[0823.62] DevOnline: Set rich presence to: InGame 2:1 [1:59 remaining] data: InGame 2:1 [1:59 remaining]
+[0827.24] EOSGameClips: EOSGameClips: Currently recording: false
+[0847.10] DevOnline: Set rich presence to: InGame 2:1 [1:45 remaining] data: InGame 2:1 [1:45 remaining]
+[0862.13] DevOnline: Set rich presence to: InGame 2:1 [1:30 remaining] data: InGame 2:1 [1:30 remaining]
+[0866.89] DevOnline: WebRequest_X_41 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[0867.17] DevOnline: WebRequest_X_41 RECV: 204 
+[0877.11] DevOnline: Set rich presence to: InGame 2:1 [1:15 remaining] data: InGame 2:1 [1:15 remaining]
+[0892.10] DevOnline: Set rich presence to: InGame 2:1 [1:00 remaining] data: InGame 2:1 [1:00 remaining]
+[0907.10] DevOnline: Set rich presence to: InGame 2:1 [0:45 remaining] data: InGame 2:1 [0:45 remaining]
+[0922.09] DevOnline: Set rich presence to: InGame 2:1 [0:30 remaining] data: InGame 2:1 [0:30 remaining]
+[0926.89] DevOnline: WebRequest_X_42 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[0927.17] DevOnline: WebRequest_X_42 RECV: 204 
+[0937.10] DevOnline: Set rich presence to: InGame 2:1 [0:15 remaining] data: InGame 2:1 [0:15 remaining]
+[0957.74] XPProgression: GFxHUD_TA.HandleGameStateChanged Current player match score = 451, UniqueId=(Steam|76561198026543789|0), with total match time = 305.6411 seconds, with total net time = 305.6411seconds
+[0957.74] Party: Ranked Game Finished, Clear party member server
+[0957.74] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0958.16] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Challenges/PlayerProgress 
+[0958.19] XPProgression: SaveData_TA.HandleRewardDropNotification PsyNetService_RewardDropReceived_TA returned Total XP Earned = 3976.0000, in match with ID = 66C1EF6A11F09B04CCE01496B78C084D , Current player match score = 451, UniqueId=(Steam|76561198026543789|0), with total match time = 305.6411 seconds, with total net time = 305.6411seconds
+[0958.20] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Reward/RewardResult 
+[0958.40] Prime24121: StartSearch.PreferredRegions.Length 2
+[0958.40] Matchmaking: OnlineGameMatchmaking_X_0 OnlineGameMatchmaking_X -> PingRegions
+[0958.65] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[0958.90] Log: FSaveDataExportTask(0) wrote 4346517 bytes to memory
+[0958.90] Log: SaveGameDataAsync game thread time: 31 ms
+[0958.94] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789_1.save
+[0958.95] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789.save] Result:[1]
+[0959.00] ScriptLog: RegionPinger_X_2 PingRegions ("3.111.214.54:8725","18.138.212.50:8704","43.198.110.221:8715","44.234.185.51:8704","3.101.178.231:8780","35.76.206.22:8732","3.26.122.222:8731","18.88.9.44:8701","3.142.58.105:8735","3.237.161.200:8717","15.229.129.101:8776","15.184.40.137:8704","15.236.255.82:8912","18.168.53.113:8705","108.129.117.70:8733","13.50.37.103:8792","18.157.17.18:8937","13.244.193.196:8715")
+[0959.07] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[0959.61] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0959.61] NetComeGo: TcpipConnection_1 Control channel closed, reason=Disconnect command
+[0959.61] DevNet: URL: Adding default option Name=Lock
+[0959.61] DevNet: Browse: MENU_Main_p?closed?Name=Lock
+[0959.61] Log: Failed; returning to Entry
+[0959.69] Log: FSaveDataExportTask(0) wrote 4346517 bytes to memory
+[0959.69] Log: SaveGameDataAsync game thread time: 31 ms
+[0959.69] Log: LoadMap: MENU_Main_p?closed?Name=Lock
+[0959.70] PsyNetStaticData: HandleCacheExpired
+[0959.70] PsyNetStaticData: UpdateCacheTimerEnabled CacheTimer.bEnabled=(True)
+[0959.70] DevOnline: UnregisterRemoteTalker(0x0110000103F352AD) returned 0x00000000
+[0959.70] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[0959.70] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[0959.70] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[0959.70] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[0959.70] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[0959.70] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[0959.71] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0959.73] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789_2.save
+[0959.73] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789_1.save] Result:[1]
+[0959.98] DevOnline: PsyNet Flush End
+[0960.00] NetComeGo: Close TcpipConnection_1 3.111.214.54:7753 26/09/2025 23:48:41 'UNetConnection::CleanUp'
+[0960.00] NetComeGo: TcpipConnection_1 Control channel null, Sending unstable close to 3.111.214.54:7753 on temporary Control channel.
+[0960.00] Exit: TcpNetDriver_1 shut down
+[0960.02] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_GFxMenu_SF.upk
+[0960.03] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_MainMenu_SF.upk
+[0960.04] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_StartMenu_SF.upk
+[0960.09] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MainMenu_SF.upk
+[0960.13] Log: Game class is 'GameInfo_GFxMenu_TA'
+[0960.14] Log: Bringing World menu_main_p.TheWorld up for play (0) at 2025.09.26-23.48.41
+[0960.14] Log: Flushing async loaders.
+[0960.35] Log: Flushed async loaders.
+[0960.36] DevOnline: UnregisterLocalTalker(0) returned 0x00000000
+[0960.36] DevOnline: Successfully set the friend join URL: 
+[0960.36] Log: Bringing up level for play took: 0.228460
+[0960.45] DevOnline: Set rich presence to: Main Menu data: Menu
+[0960.45] Log: ########### Finished loading level: 0.759517 seconds
+[0960.46] DevOnline: WebRequest_X_43 SEND: https://config.psynet.gg/v2/Config/BattleCars/-1459478734/Prod/Steam/INT/
+[0960.46] Log: Flushing async loaders.
+[0960.84] Log: Flushed async loaders.
+[0961.13] Warning: Warning, Material body_lionsmane.MAT_Lionsmane_Temp missing bUsedWithStaticLighting=True!
+[0961.13] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0961.38] Eula: RequiresAcceptance? EulaConfig?.bRequiresAcceptance=(True) GetUISave()?.Contains('bAcceptedOfflineEULA')=(True) Eula.SyncState=(LSS_Accepted)
+[0961.38] AuthEpicVerbose: [GFx] Epic login changed. m_uiState:MainMenu bPromptParentalConsent:false bPromptToChoosePrimaryAccount:false bEpicSaveDataLoaded:false bPlatformLinked:false
+[0961.38] FTEDev: Group Prime_MatchComplete Is not meant for users of type FTESave.LegacyGroupType=(LGT_LegacyUser)
+[0961.39] FTEDev: Group Prime_MatchComplete Is not meant for users of type FTESave.LegacyGroupType=(LGT_LegacyUser)
+[0961.57] Online: TryToPlayOnline ControllerID=(-1)
+[0961.59] ThankYouMessage: Thank You message already shown to the player
+[0961.61] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0961.61] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[0961.61] Vanity: All Vanity Queries Complete
+[0961.79] DevOnline: WebRequest_X_43 RECV: 304 
+[0961.84] Matchmaking: All Regions Pinged: IND1 (0.0366),ASM1 (0.0620),ASC1 (0.1134),USW3 (0.2554),USW1 (0.2633),JPN1 (0.1383),OCE1 (0.1515),USC1 (0.2618),USE3 (0.2841),USE1 (0.3359),SAM1 (0.4036),ME1 (0.3477),EU9 (0.2733),EU7 (0.2755),EU3 (0.2702),EU1 (0.2821),EU5 (0.2582),SAF1 (0.4194),JPN (1.0000),ASC (1.0000),ASM (1.0000),EU (1.0000),IND (1.0000),ME (1.0000),OCE (1.0000),SAF (1.0000),SAM (1.0000),USC (1.0000),USE (1.0000),USW (1.0000)
+[0961.84] Log: FCacheExportTask(..\..\TAGame\Cache\RegionCache.cache) wrote 1713 bytes to memory
+[0961.84] Matchmaking: OnlineGameMatchmaking_X_0 PingRegions -> Searching
+[0961.84] Prime24121: HandleRegionsPinged.PreferredRegions.Length 2
+[0961.84] Matchmaking: OnlineGameMatchmaking_X::RecordStart
+[0961.84] Matchmaking: Pre-divide PartyLeaderMMR: 94.9265
+[0961.84] Matchmaking: Post-divide PartyLeaderMMR: 47.4632
+[0961.84] Matchmaking: PartyLeaderTier=(16)
+[0961.84] Matchmaking: StartMatchmaking at 2025-09-26 18:18:43 in IND1,ASM1 for playlists 13,11 on game server 
+[0961.84] Matchmaking: Creating RPC_StartMatchmaking_X
+[0961.84] Matchmaking: PreferredRegions.Length=(2) PreferredPlaylists.Length=(2) Party.GetOrderedPartyMemberIDs().Length=(1)
+[0961.84] Matchmaking: SecondsSearching=(3) CurrentServerID=() bDisableCrossplay=(False) bIgnoreSkill=(False)
+[0962.14] Matchmaking: Matchmaking RPC succeeded.
+[0962.14] Matchmaking: EstimatedQueueTime=(90.0000)
+[0962.46] DevOnline: PlayerDataStorage_WriteFile: Beginning to upload file. User=(29102162b92948868b021454382b618a) FileName=(RLSaveData)
+[0962.75] Log: Flushing async loaders.
+[0962.78] Log: Flushed async loaders.
+[0963.58] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.001038s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[0.186272s] MaxExecutionTime=[0.000225s] TicksCount=[3151] ExpectedTicksCount=[1000]
+[0966.11] DevOnline: PlayerDataStorage_WriteFile: File upload complete. User=(29102162b92948868b021454382b618a) FileName=(RLSaveData) Success=(1)
+[0968.08] Online: TryToPlayOnline ControllerID=(-1)
+[0968.08] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0968.08] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[0969.64] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ReserveConnection ReservationID=(F2F6BBA77E81497CB84056F87511E8D8) ConnectionID=(eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI3NTg0NDU1OWU1Yzk0MDBhYWY4OTZmZDY3ODVhNGU1NiIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMEI4QjM2MDYwOEU5MzNBNTktUGFzY2FsIiwiaWF0IjoxNzU4OTEwNzMxLCJuYmYiOjE3NTg5MTA3MzEsImV4cCI6MTc1ODkyNTEzMX0.KGOxstMjNzy4kCc0l0VrXCmLtZRqoCrAvxR-Zzy9UeR0-EltLK90-A5h96E4T3Sfw9D0GBq2Zlo2ANND4bCnng)
+[0969.64] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(ClientReservationMessage_X) Message.ReservationID=(F2F6BBA77E81497CB84056F87511E8D8)
+[0969.64] CheckReservation: Received game server from notification (v3) Message.Reservation=((ServerName="IND1-0B8B360608E933A59-Pascal",Playlist=13,Region="IND",ReservationID="F2F6BBA77E81497CB84056F87511E8D8",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI3NTg0NDU1OWU1Yzk0MDBhYWY4OTZmZDY3ODVhNGU1NiIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMEI4QjM2MDYwOEU5MzNBNTktUGFzY2FsIiwiaWF0IjoxNzU4OTEwNzMxLCJuYmYiOjE3NTg5MTA3MzEsImV4cCI6MTc1ODkyNTEzMX0.KGOxstMjNzy4kCc0l0VrXCmLtZRqoCrAvxR-Zzy9UeR0-EltLK90-A5h96E4T3Sfw9D0GBq2Zlo2ANND4bCnng",JoinName="FDGJ3R0MITIN8UTN",JoinPassword="DHCX9US9OATQUNC0"))
+[0969.64] JoinGame: StartJoin Reservation=((ServerName="IND1-0B8B360608E933A59-Pascal",Playlist=13,Region="IND",ReservationID="F2F6BBA77E81497CB84056F87511E8D8",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI3NTg0NDU1OWU1Yzk0MDBhYWY4OTZmZDY3ODVhNGU1NiIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMEI4QjM2MDYwOEU5MzNBNTktUGFzY2FsIiwiaWF0IjoxNzU4OTEwNzMxLCJuYmYiOjE3NTg5MTA3MzEsImV4cCI6MTc1ODkyNTEzMX0.KGOxstMjNzy4kCc0l0VrXCmLtZRqoCrAvxR-Zzy9UeR0-EltLK90-A5h96E4T3Sfw9D0GBq2Zlo2ANND4bCnng",JoinName="FDGJ3R0MITIN8UTN",JoinPassword="DHCX9US9OATQUNC0")) JoinSettings=((PlaylistId=13))
+[0969.64] DevOnline: Successfully set the friend join URL: 
+[0969.64] JoinGame: GotoJoinGameState OnlineGameJoinGame_TA -> VerifyPrivileges
+[0969.64] Online: TryToPlayOnline ControllerID=(-1)
+[0969.64] Matchmaking: OnlineGameMatchmaking_X_0 Searching -> Joining
+[0969.64] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0969.64] JoinGame: GotoJoinGameState VerifyPrivileges -> ReservingServerForMatchmaking
+[0969.64] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 SendMessageToServer Message=(AddReservationMessagePublic_X_2)
+[0969.64] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0969.75] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Reward/RewardResult 
+[0969.78] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Challenges/PlayerProgress 
+[0970.24] Log: FSaveDataExportTask(0) wrote 4346517 bytes to memory
+[0970.24] Log: SaveGameDataAsync game thread time: 31 ms
+[0970.29] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789.save
+[0970.29] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789_2.save] Result:[1]
+[0970.38] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(ReservationsWaitingMessage_X) Message.ReservationID=(F2F6BBA77E81497CB84056F87511E8D8)
+[0970.38] JoinGame: Waiting for more players to add reservations
+[0970.38] Party: HandleServerReserved (Reservation=(ServerName="IND1-0B8B360608E933A59-Pascal",Playlist=13,Region="IND",ReservationID="F2F6BBA77E81497CB84056F87511E8D8",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI3NTg0NDU1OWU1Yzk0MDBhYWY4OTZmZDY3ODVhNGU1NiIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMEI4QjM2MDYwOEU5MzNBNTktUGFzY2FsIiwiaWF0IjoxNzU4OTEwNzMxLCJuYmYiOjE3NTg5MTA3MzEsImV4cCI6MTc1ODkyNTEzMX0.KGOxstMjNzy4kCc0l0VrXCmLtZRqoCrAvxR-Zzy9UeR0-EltLK90-A5h96E4T3Sfw9D0GBq2Zlo2ANND4bCnng",JoinName="FDGJ3R0MITIN8UTN",JoinPassword="DHCX9US9OATQUNC0"),JoinCredentials="FDGJ3R0MITIN8UTN:DHCX9US9OATQUNC0")
+[0970.38] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0971.78] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(ReservationsReadyMessage_X) Message.ReservationID=(F2F6BBA77E81497CB84056F87511E8D8)
+[0971.78] DevNet: Add Network Encryption {PlayerID=Steam|76561198026543789|0 Key={Key=1017FCC33FCC71F7AA6F8E045E3DE5148E3EE0C34AC8B380C85C5E4CC73FC727 IV=BF81E0C262ABE96231BF4BE9BEAFA910 HMAC=55A2D2ADC136958457317673EEFF81E0EF5E9B66A50ED5599F3502E803756D19 Session=5A5AD4DAAB1DAF24B8090A3582A60CCC}}
+[0971.78] DevOnline: Successfully set the friend join URL: 
+[0971.78] Party: HandleServerReserved (Reservation=(ServerName="IND1-0B8B360608E933A59-Pascal",Playlist=13,Region="IND",ReservationID="F2F6BBA77E81497CB84056F87511E8D8",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI3NTg0NDU1OWU1Yzk0MDBhYWY4OTZmZDY3ODVhNGU1NiIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMEI4QjM2MDYwOEU5MzNBNTktUGFzY2FsIiwiaWF0IjoxNzU4OTEwNzMxLCJuYmYiOjE3NTg5MTA3MzEsImV4cCI6MTc1ODkyNTEzMX0.KGOxstMjNzy4kCc0l0VrXCmLtZRqoCrAvxR-Zzy9UeR0-EltLK90-A5h96E4T3Sfw9D0GBq2Zlo2ANND4bCnng",JoinName="FDGJ3R0MITIN8UTN",JoinPassword="DHCX9US9OATQUNC0"),PingURL="13.233.199.221:8732",GameURL="13.233.199.221:7732",JoinCredentials="FDGJ3R0MITIN8UTN:DHCX9US9OATQUNC0")
+[0971.78] JoinGame: GotoJoinGameState ReservingServerForMatchmaking -> JoinCountdown
+[0971.78] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 SendMessageToServer Message=(PingMessage_X_4)
+[0971.78] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0972.45] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(PingMessage_X) Message.ReservationID=(F2F6BBA77E81497CB84056F87511E8D8)
+[0972.46] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0972.97] ScriptWarning: ScriptWarning, AntennaComponent_TA_4 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend02
+	AntennaComponent_TA menu_premiumgarage.TheWorld:PersistentLevel.CarPreviewActor_TA_1.AntennaComponent_TA_4
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0972.97] ScriptWarning: ScriptWarning, AntennaComponent_TA_4 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend03
+	AntennaComponent_TA menu_premiumgarage.TheWorld:PersistentLevel.CarPreviewActor_TA_1.AntennaComponent_TA_4
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0972.97] ScriptWarning: ScriptWarning, AntennaComponent_TA_4 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend04
+	AntennaComponent_TA menu_premiumgarage.TheWorld:PersistentLevel.CarPreviewActor_TA_1.AntennaComponent_TA_4
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0972.97] ScriptWarning: ScriptWarning, AntennaComponent_TA_5 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend02
+	AntennaComponent_TA MENU_Main_Trap.TheWorld:PersistentLevel.CarPreviewActor_TA_0.AntennaComponent_TA_5
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0972.97] ScriptWarning: ScriptWarning, AntennaComponent_TA_5 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend03
+	AntennaComponent_TA MENU_Main_Trap.TheWorld:PersistentLevel.CarPreviewActor_TA_0.AntennaComponent_TA_5
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0972.97] ScriptWarning: ScriptWarning, AntennaComponent_TA_5 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend04
+	AntennaComponent_TA MENU_Main_Trap.TheWorld:PersistentLevel.CarPreviewActor_TA_0.AntennaComponent_TA_5
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0973.22] ScriptWarning: ScriptWarning, AntennaComponent_TA_6 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend02
+	AntennaComponent_TA menu_premiumgarage.TheWorld:PersistentLevel.CarPreviewActor_TA_1.AntennaComponent_TA_6
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0973.22] ScriptWarning: ScriptWarning, AntennaComponent_TA_6 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend03
+	AntennaComponent_TA menu_premiumgarage.TheWorld:PersistentLevel.CarPreviewActor_TA_1.AntennaComponent_TA_6
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0973.22] ScriptWarning: ScriptWarning, AntennaComponent_TA_6 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend04
+	AntennaComponent_TA menu_premiumgarage.TheWorld:PersistentLevel.CarPreviewActor_TA_1.AntennaComponent_TA_6
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0973.22] ScriptWarning: ScriptWarning, AntennaComponent_TA_7 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend02
+	AntennaComponent_TA MENU_Main_Trap.TheWorld:PersistentLevel.CarPreviewActor_TA_0.AntennaComponent_TA_7
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0973.22] ScriptWarning: ScriptWarning, AntennaComponent_TA_7 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend03
+	AntennaComponent_TA MENU_Main_Trap.TheWorld:PersistentLevel.CarPreviewActor_TA_0.AntennaComponent_TA_7
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0973.22] ScriptWarning: ScriptWarning, AntennaComponent_TA_7 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend04
+	AntennaComponent_TA MENU_Main_Trap.TheWorld:PersistentLevel.CarPreviewActor_TA_0.AntennaComponent_TA_7
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[0973.27] ThankYouMessage: Thank You message already shown to the player
+[0973.35] Loadout: Could not find package for asset title_generic_T_SF
+[0973.58] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.004371s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[0.138699s] MaxExecutionTime=[0.000063s] TicksCount=[5302] ExpectedTicksCount=[1000]
+[0974.78] JoinGame: GotoJoinGameState JoinCountdown -> OpeningLoadingScreen
+[0974.78] RankedReconnect: OnlineGameJoinGame_TA_0::OpeningLoadingScreen.BeginState()
+[0974.78] RankedReconnect: LocalPlayer_TA_0.UpdateRankedReconnect() RankedStandard True 6 False
+[0974.78] RankedReconnect: RankedReconnectSave_TA_0.SetRankedReconnect() Server=((Reservation=(ServerName="IND1-0B8B360608E933A59-Pascal",Playlist=13,Region="IND",ReservationID="F2F6BBA77E81497CB84056F87511E8D8",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI3NTg0NDU1OWU1Yzk0MDBhYWY4OTZmZDY3ODVhNGU1NiIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMEI4QjM2MDYwOEU5MzNBNTktUGFzY2FsIiwiaWF0IjoxNzU4OTEwNzMxLCJuYmYiOjE3NTg5MTA3MzEsImV4cCI6MTc1ODkyNTEzMX0.KGOxstMjNzy4kCc0l0VrXCmLtZRqoCrAvxR-Zzy9UeR0-EltLK90-A5h96E4T3Sfw9D0GBq2Zlo2ANND4bCnng",JoinName="FDGJ3R0MITIN8UTN",JoinPassword="DHCX9US9OATQUNC0"),PingURL="13.233.199.221:8732",GameURL="13.233.199.221:7732",JoinCredentials="FDGJ3R0MITIN8UTN:DHCX9US9OATQUNC0")) EpochNow=(1758910736)
+[0974.78] DevNet: Browse: JoinGameTransition?Name=Lock?game=TAGame.GameInfo_Transition_TA
+[0974.85] Log: FSaveDataExportTask(0) wrote 4347424 bytes to memory
+[0974.85] Log: SaveGameDataAsync game thread time: 32 ms
+[0974.86] Log: LoadMap: JoinGameTransition?Name=Lock?game=TAGame.GameInfo_Transition_TA
+[0974.89] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0974.92] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789_1.save
+[0974.92] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789.save] Result:[1]
+[0975.15] DevOnline: PsyNet Flush End
+[0975.18] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Transition_SF.upk
+[0975.18] Log: Game class is 'GameInfo_Transition_TA'
+[0975.24] Log: Bringing World JoinGameTransition.TheWorld up for play (0) at 2025.09.26-23.48.56
+[0975.24] Log: Bringing up level for play took: 0.063278
+[0975.24] JoinGame: GotoJoinGameState OpeningLoadingScreen -> JoiningNewServer
+[0975.24] DevNet: SetProgress, MessageType=1, Title=, Message=Connecting...
+[0975.24] Log: ########### Finished loading level: 0.387050 seconds
+[0975.24] DevNet: Browse: 13.233.199.221:7732/MENU_Main_p?Name=Lock
+[0975.24] DevNet: Game client on port 7732, rate 15000
+[0975.24] NetComeGo: TcpipConnection_2 13.233.199.221:7732 using encryption {Key=1017FCC33FCC71F7AA6F8E045E3DE5148E3EE0C34AC8B380C85C5E4CC73FC727 IV=BF81E0C262ABE96231BF4BE9BEAFA910 HMAC=55A2D2ADC136958457317673EEFF81E0EF5E9B66A50ED5599F3502E803756D19 Session=5A5AD4DAAB1DAF24B8090A3582A60CCC}
+[0975.24] NetComeGo: SEND first packet Length=80 CRC=563487308
+[0975.30] NetComeGo: TcpipConnection_2 RECV first packet IP=13.233.199.221:7732 Length=15 CRC=1702442626 HandshakeStatus=0 bUseSessionUID=1 InSessionUID=(0 0 0) SessionUID=(0 0 0)
+[0975.30] NetComeGo: Client set SessionUID to: 173 130 251
+[0975.47] DevNet: Welcomed by server (Level: street_p, Game: TAGame.GameInfo_Soccar_TA, GameTags: )
+[0975.51] Log: FSaveDataExportTask(0) wrote 4347424 bytes to memory
+[0975.51] Log: SaveGameDataAsync game thread time: 32 ms
+[0975.51] Log: Flushing async loaders.
+[0975.52] Log: Flushed async loaders.
+[0975.52] Log: LoadMap: 13.233.199.221:7732/street_p?Name=Lock?game=TAGame.GameInfo_Soccar_TA
+[0975.53] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0975.58] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789_2.save
+[0975.58] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789_1.save] Result:[1]
+[0975.79] DevOnline: PsyNet Flush End
+[0975.80] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Soccar_SF.upk
+[0975.83] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_XP_SF.upk
+[0975.84] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFx_XPProgressMenu_SF.upk
+[0975.86] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_EndGameMenu_SF.upk
+[0975.90] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_WinnerMenu_SF.upk
+[0975.91] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameScoreboard_SF.upk
+[0975.91] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameMenu_SF.upk
+[0975.93] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_HudMatchInfo_SF.upk
+[0975.95] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_Hud_SF.upk
+[0976.65] Log: Bringing World street_p.TheWorld up for play (0) at 2025.09.26-23.48.57
+[0976.65] Log: Bringing up level for play took: 0.325794
+[0976.76] JoinGame: OnJoinGameComplete bSuccess=(True) FailReason=()
+[0976.76] JoinGame: GotoJoinGameState JoiningNewServer -> None
+[0976.76] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 Close
+[0976.76] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 CloseConnection Connection.ConnectionID=(eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI3NTg0NDU1OWU1Yzk0MDBhYWY4OTZmZDY3ODVhNGU1NiIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMEI4QjM2MDYwOEU5MzNBNTktUGFzY2FsIiwiaWF0IjoxNzU4OTEwNzMxLCJuYmYiOjE3NTg5MTA3MzEsImV4cCI6MTc1ODkyNTEzMX0.KGOxstMjNzy4kCc0l0VrXCmLtZRqoCrAvxR-Zzy9UeR0-EltLK90-A5h96E4T3Sfw9D0GBq2Zlo2ANND4bCnng)
+[0976.76] Matchmaking: OnlineGameMatchmaking_X_0 Joining -> None
+[0976.76] Log: ########### Finished loading level: 1.244571 seconds
+[0977.54] ScriptLog: Client InputRate=60
+[0977.54] DevNet: PlayerController_TA_7 setplayer LocalPlayer_TA_0
+[0977.54] PsyNetStaticData: UpdateCacheTimerEnabled CacheTimer.bEnabled=(False)
+[0977.54] MatchBroadcast: Init bBroadcastMatch=(False) MatchLog=(None)
+[0977.57] ScriptLog: MatchGUID: 40C50DA011F09B05122F89846FD9AA21
+[0977.57] ScriptLog: Uncached PlatformId for Epic|0a1eeccbb6ea4cfd95835c0c91cfa941|0
+[0977.66] DevOnline: Set rich presence to: Standard in Sovereign Heights data: Playlist-13
+[0978.09] LTM: SettingsType=(CustomMatchSettingsType_PrivateMatch)
+[0978.16] Log: Flushing async loaders.
+[0978.17] Log: Flushed async loaders.
+[0978.17] EOSVoice: AlertVoiceError: VoiceModerationEULANotAccepted
+[0978.17] ScriptLog: Uncached PlatformId for Epic|272cabfe0db84248a251f5d479f76213|0
+[0978.17] Warning: Failed to find streaming level object associated with 'SeqAct_MultiLevelStreaming street_p.TheWorld:PersistentLevel.Main_Sequence.SeqAct_MultiLevelStreaming_0'
+[0978.42] NetworkInputBuffer: Hitch detected! 204.4678ms
+[0978.82] NetworkInputBuffer: Hitch detected! 109.4360ms
+[0978.82] DevOnline: EOSSDK-LogEOSIntegratedPlatform: FIntegratedSteamSanitizer: Sanitizer is implemented for this platform, but steam sanitizer not initialized. Falling back to generic sanitizer
+[0979.31] DevOnline: EOSSDK-LogEOSIntegratedPlatform: FIntegratedSteamSanitizer: Sanitizer is implemented for this platform, but steam sanitizer not initialized. Falling back to generic sanitizer
+[0980.05] Vanity: All Vanity Queries Complete
+[0983.59] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.003929s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[0.119809s] MaxExecutionTime=[0.000282s] TicksCount=[1246] ExpectedTicksCount=[1000]
+[0989.18] DevOnline: WebRequest_X_44 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[0989.52] DevOnline: WebRequest_X_44 RECV: 204 
+[0990.34] DevOnline: Set rich presence to: InGame 0:0 [4:59 remaining] data: InGame 0:0 [4:59 remaining]
+[1004.34] DevOnline: Set rich presence to: InGame 0:0 [4:45 remaining] data: InGame 0:0 [4:45 remaining]
+[1016.39] DevOnline: Set rich presence to: InGame 1:0 [4:33 remaining] data: InGame 1:0 [4:33 remaining]
+[1019.99] EOSGameClips: EOSGameClips: Currently recording: false
+[1036.69] DevOnline: Set rich presence to: InGame 1:0 [4:30 remaining] data: InGame 1:0 [4:30 remaining]
+[1041.75] DevOnline: Set rich presence to: InGame 1:1 [4:25 remaining] data: InGame 1:1 [4:25 remaining]
+[1045.34] EOSGameClips: EOSGameClips: Currently recording: false
+[1049.18] DevOnline: WebRequest_X_45 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[1049.46] DevOnline: WebRequest_X_45 RECV: 204 
+[1068.82] DevOnline: Set rich presence to: InGame 1:1 [4:15 remaining] data: InGame 1:1 [4:15 remaining]
+[1083.83] DevOnline: Set rich presence to: InGame 1:1 [4:00 remaining] data: InGame 1:1 [4:00 remaining]
+[1098.84] DevOnline: Set rich presence to: InGame 1:1 [3:45 remaining] data: InGame 1:1 [3:45 remaining]
+[1109.18] DevOnline: WebRequest_X_46 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[1109.46] DevOnline: WebRequest_X_46 RECV: 204 
+[1113.82] DevOnline: Set rich presence to: InGame 1:1 [3:30 remaining] data: InGame 1:1 [3:30 remaining]
+[1128.82] DevOnline: Set rich presence to: InGame 1:1 [3:15 remaining] data: InGame 1:1 [3:15 remaining]
+[1143.82] DevOnline: Set rich presence to: InGame 1:1 [3:00 remaining] data: InGame 1:1 [3:00 remaining]
+[1158.83] DevOnline: Set rich presence to: InGame 1:1 [2:45 remaining] data: InGame 1:1 [2:45 remaining]
+[1169.18] DevOnline: WebRequest_X_47 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[1169.47] DevOnline: WebRequest_X_47 RECV: 204 
+[1173.84] DevOnline: Set rich presence to: InGame 1:1 [2:30 remaining] data: InGame 1:1 [2:30 remaining]
+[1188.82] DevOnline: Set rich presence to: InGame 1:1 [2:15 remaining] data: InGame 1:1 [2:15 remaining]
+[1203.82] DevOnline: Set rich presence to: InGame 1:1 [2:00 remaining] data: InGame 1:1 [2:00 remaining]
+[1218.82] DevOnline: Set rich presence to: InGame 1:1 [1:45 remaining] data: InGame 1:1 [1:45 remaining]
+[1219.88] DevOnline: Set rich presence to: InGame 1:2 [1:44 remaining] data: InGame 1:2 [1:44 remaining]
+[1223.47] EOSGameClips: EOSGameClips: Currently recording: false
+[1229.18] DevOnline: WebRequest_X_48 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[1229.46] DevOnline: WebRequest_X_48 RECV: 204 
+[1253.25] DevOnline: Set rich presence to: InGame 1:2 [1:30 remaining] data: InGame 1:2 [1:30 remaining]
+[1268.25] DevOnline: Set rich presence to: InGame 1:2 [1:15 remaining] data: InGame 1:2 [1:15 remaining]
+[1283.29] DevOnline: Set rich presence to: InGame 1:2 [1:00 remaining] data: InGame 1:2 [1:00 remaining]
+[1289.18] DevOnline: WebRequest_X_49 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[1289.46] DevOnline: WebRequest_X_49 RECV: 204 
+[1298.26] DevOnline: Set rich presence to: InGame 1:2 [0:45 remaining] data: InGame 1:2 [0:45 remaining]
+[1302.02] DevOnline: Set rich presence to: InGame 1:3 [0:42 remaining] data: InGame 1:3 [0:42 remaining]
+[1305.61] EOSGameClips: EOSGameClips: Currently recording: false
+[1306.60] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[1313.40] XPProgression: GFxHUD_TA.HandleGameStateChanged Current player match score = 136, UniqueId=(Steam|76561198026543789|0), with total match time = 258.7693 seconds, with total net time = 258.7693seconds
+[1313.40] Party: Ranked Game Finished, Clear party member server
+[1313.40] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[1313.81] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Challenges/PlayerProgress 
+[1313.83] XPProgression: SaveData_TA.HandleRewardDropNotification PsyNetService_RewardDropReceived_TA returned Total XP Earned = 1560.0000, in match with ID = 40C50DA011F09B05122F89846FD9AA21 , Current player match score = 136, UniqueId=(Steam|76561198026543789|0), with total match time = 258.7693 seconds, with total net time = 258.7693seconds
+[1313.83] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Reward/RewardResult 
+[1313.93] Rewards: ClientGiveOnlineReward Lock Product=((ProductID=7173,InstanceID=(UpperBits=9681231243798268184,LowerBits=13285234292746883902),SeriesID=4,Attributes=((Key="Blueprint",Value="3691"),(Key="Quality",Value="Rare"),(Key="Certified",Value="8"),(Key="BlueprintCost",Value="50"),(Key="CertifiedValue",Value="0"))))
+[1313.93] ScriptLog: GetDLCProducts, UnlockedDLCList=SuperSonic,Revenge,Wasteland,body_charged
+[1315.03] Prime24121: StartSearch.PreferredRegions.Length 2
+[1315.03] Matchmaking: OnlineGameMatchmaking_X_0 OnlineGameMatchmaking_X -> PingRegions
+[1315.27] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[1315.63] ScriptLog: RegionPinger_X_3 PingRegions ("13.201.78.80:8712","18.138.212.50:8757","43.198.110.221:8700","44.234.83.199:8823","3.101.178.231:8789","35.76.206.22:8754","3.26.123.251:8751","18.88.24.29:8756","3.144.52.182:8711","3.237.111.185:8771","15.228.27.72:8753","16.24.9.5:8796","15.237.30.245:8877","18.133.99.47:8874","18.201.57.26:8788","13.50.36.94:8761","18.157.12.67:8775","13.244.193.9:8712")
+[1316.16] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[1316.16] NetComeGo: TcpipConnection_2 Control channel closed, reason=Disconnect command
+[1316.16] DevNet: URL: Adding default option Name=Lock
+[1316.16] DevNet: Browse: MENU_Main_p?closed?Name=Lock
+[1316.16] Log: Failed; returning to Entry
+[1316.23] Log: FSaveDataExportTask(0) wrote 4347228 bytes to memory
+[1316.23] Log: SaveGameDataAsync game thread time: 31 ms
+[1316.23] Log: LoadMap: MENU_Main_p?closed?Name=Lock
+[1316.24] DevOnline: UnregisterRemoteTalker(0x011000010B78547F) returned 0x00000000
+[1316.24] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[1316.24] DevOnline: UnregisterRemoteTalker(0x0110000103F352AD) returned 0x00000000
+[1316.24] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[1316.24] PsyNetStaticData: HandleCacheExpired
+[1316.24] PsyNetStaticData: UpdateCacheTimerEnabled CacheTimer.bEnabled=(True)
+[1316.24] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[1316.24] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[1316.24] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[1316.24] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[1316.24] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[1316.24] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[1316.24] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[1316.24] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[1316.25] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[1316.31] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789.save
+[1316.31] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789_2.save] Result:[1]
+[1316.52] DevOnline: PsyNet Flush End
+[1316.54] NetComeGo: Close TcpipConnection_2 13.233.199.221:7732 26/09/2025 23:54:37 'UNetConnection::CleanUp'
+[1316.54] NetComeGo: TcpipConnection_2 Control channel null, Sending unstable close to 13.233.199.221:7732 on temporary Control channel.
+[1316.54] Exit: TcpNetDriver_2 shut down
+[1316.57] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_GFxMenu_SF.upk
+[1316.58] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_MainMenu_SF.upk
+[1316.58] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_StartMenu_SF.upk
+[1316.63] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MainMenu_SF.upk
+[1316.67] Log: Game class is 'GameInfo_GFxMenu_TA'
+[1316.68] Log: Bringing World menu_main_p.TheWorld up for play (0) at 2025.09.26-23.54.37
+[1316.68] Log: Flushing async loaders.
+[1316.90] Log: Flushed async loaders.
+[1316.90] DevOnline: UnregisterLocalTalker(0) returned 0x00000000
+[1316.90] DevOnline: Successfully set the friend join URL: 
+[1316.90] Log: Bringing up level for play took: 0.231300
+[1317.00] DevOnline: Set rich presence to: Main Menu data: Menu
+[1317.00] Log: ########### Finished loading level: 0.761827 seconds
+[1317.01] DevOnline: PlayerDataStorage_WriteFile: Beginning to upload file. User=(29102162b92948868b021454382b618a) FileName=(RLSaveData)
+[1317.01] DevOnline: WebRequest_X_50 SEND: https://config.psynet.gg/v2/Config/BattleCars/-1459478734/Prod/Steam/INT/
+[1317.01] Log: Flushing async loaders.
+[1317.40] Log: Flushed async loaders.
+[1317.66] Warning: Warning, Material body_lionsmane.MAT_Lionsmane_Temp missing bUsedWithStaticLighting=True!
+[1317.66] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[1317.68] DevOnline: PlayerDataStorage_WriteFile: File transfer is already in progress. Aborting write for User=(29102162b92948868b021454382b618a) FileName=(RLSaveData)
+[1317.68] ScriptWarning: ScriptWarning, Something went wrong uploading save data 29102162b92948868b021454382b618a RLSaveData
+	EOSOnlineStorageUploader_TA Transient.SaveData_TA_1:EOSOnlineStorageUploader_TA_0
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData:07A8
+Script call stack:
+	Function TAGame.SaveData_TA:HandlePostMapChange
+	Function TAGame.SaveData_TA:UploadSaveData
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData
+
+[1317.89] Eula: RequiresAcceptance? EulaConfig?.bRequiresAcceptance=(True) GetUISave()?.Contains('bAcceptedOfflineEULA')=(True) Eula.SyncState=(LSS_Accepted)
+[1317.89] AuthEpicVerbose: [GFx] Epic login changed. m_uiState:MainMenu bPromptParentalConsent:false bPromptToChoosePrimaryAccount:false bEpicSaveDataLoaded:false bPlatformLinked:false
+[1317.89] FTEDev: Group Prime_MatchComplete Is not meant for users of type FTESave.LegacyGroupType=(LGT_LegacyUser)
+[1317.89] FTEDev: Group Prime_MatchComplete Is not meant for users of type FTESave.LegacyGroupType=(LGT_LegacyUser)
+[1318.07] Online: TryToPlayOnline ControllerID=(-1)
+[1318.09] ThankYouMessage: Thank You message already shown to the player
+[1318.10] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[1318.10] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[1318.10] Vanity: All Vanity Queries Complete
+[1318.25] DevOnline: WebRequest_X_50 RECV: 304 
+[1318.52] Matchmaking: All Regions Pinged: IND1 (0.0478),ASM1 (0.0636),ASC1 (0.1232),USW3 (0.2693),USW1 (0.2533),JPN1 (0.1346),OCE1 (0.1622),USC1 (0.2746),USE3 (0.3040),USE1 (0.3107),SAM1 (0.3945),ME1 (0.3404),EU9 (0.2574),EU7 (0.2673),EU3 (0.2697),EU1 (0.2871),EU5 (0.2731),SAF1 (0.4076),JPN (1.0000),ASC (1.0000),ASM (1.0000),EU (1.0000),IND (1.0000),ME (1.0000),OCE (1.0000),SAF (1.0000),SAM (1.0000),USC (1.0000),USE (1.0000),USW (1.0000)
+[1318.52] Log: FCacheExportTask(..\..\TAGame\Cache\RegionCache.cache) wrote 1713 bytes to memory
+[1318.52] Matchmaking: OnlineGameMatchmaking_X_0 PingRegions -> Searching
+[1318.52] Prime24121: HandleRegionsPinged.PreferredRegions.Length 2
+[1318.52] Matchmaking: OnlineGameMatchmaking_X::RecordStart
+[1318.52] Matchmaking: Pre-divide PartyLeaderMMR: 94.0595
+[1318.52] Matchmaking: Post-divide PartyLeaderMMR: 47.0297
+[1318.52] Matchmaking: PartyLeaderTier=(16)
+[1318.52] Matchmaking: StartMatchmaking at 2025-09-26 18:24:40 in IND1,ASM1 for playlists 13,11 on game server 
+[1318.52] Matchmaking: Creating RPC_StartMatchmaking_X
+[1318.52] Matchmaking: PreferredRegions.Length=(2) PreferredPlaylists.Length=(2) Party.GetOrderedPartyMemberIDs().Length=(1)
+[1318.52] Matchmaking: SecondsSearching=(3) CurrentServerID=() bDisableCrossplay=(False) bIgnoreSkill=(False)
+[1318.87] Matchmaking: Matchmaking RPC succeeded.
+[1318.87] Matchmaking: EstimatedQueueTime=(37.0000)
+[1319.19] Log: FSaveDataExportTask(0) wrote 4347228 bytes to memory
+[1319.19] Log: SaveGameDataAsync game thread time: 31 ms
+[1319.23] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789_1.save
+[1319.24] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789.save] Result:[1]
+[1319.25] Matchmaking: OnlineGameMatchmaking_X_0::Searching.Cancel()
+[1319.25] Matchmaking: OnlineGameMatchmaking_X_0 Searching -> None
+[1319.29] Log: Flushing async loaders.
+[1319.32] Log: Flushed async loaders.
+[1321.60] DevOnline: PlayerDataStorage_WriteFile: File upload complete. User=(29102162b92948868b021454382b618a) FileName=(RLSaveData) Success=(1)
+[1323.68] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.000389s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[0.176511s] MaxExecutionTime=[0.000102s] TicksCount=[4977] ExpectedTicksCount=[1000]
+[1349.91] DevOnline: WebRequest_X_51 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[1350.19] DevOnline: WebRequest_X_51 RECV: 204 
+[1408.98] Prime24121: StartSearch.PreferredRegions.Length 2
+[1408.98] Matchmaking: OnlineGameMatchmaking_X_0 OnlineGameMatchmaking_X -> PingRegions
+[1409.55] ScriptLog: RegionPinger_X_4 PingRegions ("3.110.221.162:8755","18.138.212.50:8752","18.162.209.15:8727","44.234.103.224:8819","3.101.178.231:8725","35.76.207.159:8754","3.26.123.251:8735","18.88.25.4:8729","3.144.53.46:8747","3.237.127.79:8821","15.228.139.27:8782","15.184.14.91:8743","15.237.31.231:8871","18.170.208.131:8895","34.241.70.218:8752","13.49.164.139:8802","18.157.20.127:8727","13.244.194.184:8730")
+[1409.91] DevOnline: WebRequest_X_52 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[1410.18] DevOnline: WebRequest_X_52 RECV: 204 
+[1410.53] Matchmaking: All Regions Pinged: IND1 (0.0351),ASM1 (0.0648),ASC1 (0.1029),USW3 (0.2685),USW1 (0.2365),JPN1 (0.1421),OCE1 (0.1704),USC1 (0.2726),USE3 (0.2784),USE1 (0.2970),SAM1 (0.3790),ME1 (0.3470),EU9 (0.2637),EU7 (0.2718),EU3 (0.2732),EU1 (0.2797),EU5 (0.2571),SAF1 (0.4062),JPN (1.0000),ASC (1.0000),ASM (1.0000),EU (1.0000),IND (1.0000),ME (1.0000),OCE (1.0000),SAF (1.0000),SAM (1.0000),USC (1.0000),USE (1.0000),USW (1.0000)
+[1410.53] Log: FCacheExportTask(..\..\TAGame\Cache\RegionCache.cache) wrote 1713 bytes to memory
+[1410.53] Matchmaking: OnlineGameMatchmaking_X_0 PingRegions -> Searching
+[1410.53] Prime24121: HandleRegionsPinged.PreferredRegions.Length 2
+[1410.53] Matchmaking: OnlineGameMatchmaking_X::RecordStart
+[1410.53] Matchmaking: Pre-divide PartyLeaderMMR: 94.0595
+[1410.53] Matchmaking: Post-divide PartyLeaderMMR: 47.0297
+[1410.53] Matchmaking: PartyLeaderTier=(16)
+[1410.53] Matchmaking: StartMatchmaking at 2025-09-26 18:26:12 in IND1,ASM1 for playlists 13,11 on game server 
+[1410.53] Matchmaking: Creating RPC_StartMatchmaking_X
+[1410.53] Matchmaking: PreferredRegions.Length=(2) PreferredPlaylists.Length=(2) Party.GetOrderedPartyMemberIDs().Length=(1)
+[1410.53] Matchmaking: SecondsSearching=(1) CurrentServerID=() bDisableCrossplay=(False) bIgnoreSkill=(False)
+[1410.83] Matchmaking: Matchmaking RPC succeeded.
+[1410.83] Matchmaking: EstimatedQueueTime=(81.0000)
+[1414.97] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ReserveConnection ReservationID=(E43AB6BB49A048538117B1241101DAD8) ConnectionID=(eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTk5M2Q0MDgwOTk0ZTk0OGI4ZDY3MDdkMWZiMjY4ZSIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMEMyRUU1QTQ3REE1ODFGMzItWmVuaXRoIiwiaWF0IjoxNzU4OTExMTc2LCJuYmYiOjE3NTg5MTExNzYsImV4cCI6MTc1ODkyNTU3Nn0.54sgNiQzVPrKc0Mrkm6A7MoK1dpM88XvUEm_7ubCbCSnjPhURgwr5zgYm7u6Nhklo8rK22SI3oo9Dw1G_luqLQ)
+[1414.97] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(ClientReservationMessage_X) Message.ReservationID=(E43AB6BB49A048538117B1241101DAD8)
+[1414.97] CheckReservation: Received game server from notification (v3) Message.Reservation=((ServerName="IND1-0C2EE5A47DA581F32-Zenith",Playlist=11,Region="IND",ReservationID="E43AB6BB49A048538117B1241101DAD8",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTk5M2Q0MDgwOTk0ZTk0OGI4ZDY3MDdkMWZiMjY4ZSIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMEMyRUU1QTQ3REE1ODFGMzItWmVuaXRoIiwiaWF0IjoxNzU4OTExMTc2LCJuYmYiOjE3NTg5MTExNzYsImV4cCI6MTc1ODkyNTU3Nn0.54sgNiQzVPrKc0Mrkm6A7MoK1dpM88XvUEm_7ubCbCSnjPhURgwr5zgYm7u6Nhklo8rK22SI3oo9Dw1G_luqLQ",JoinName="MZ4OK1OBXMVS4NRF",JoinPassword="S7I735V98RG0SW84"))
+[1414.97] JoinGame: StartJoin Reservation=((ServerName="IND1-0C2EE5A47DA581F32-Zenith",Playlist=11,Region="IND",ReservationID="E43AB6BB49A048538117B1241101DAD8",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTk5M2Q0MDgwOTk0ZTk0OGI4ZDY3MDdkMWZiMjY4ZSIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMEMyRUU1QTQ3REE1ODFGMzItWmVuaXRoIiwiaWF0IjoxNzU4OTExMTc2LCJuYmYiOjE3NTg5MTExNzYsImV4cCI6MTc1ODkyNTU3Nn0.54sgNiQzVPrKc0Mrkm6A7MoK1dpM88XvUEm_7ubCbCSnjPhURgwr5zgYm7u6Nhklo8rK22SI3oo9Dw1G_luqLQ",JoinName="MZ4OK1OBXMVS4NRF",JoinPassword="S7I735V98RG0SW84")) JoinSettings=((PlaylistId=11))
+[1414.97] DevOnline: Successfully set the friend join URL: 
+[1414.97] JoinGame: GotoJoinGameState OnlineGameJoinGame_TA -> VerifyPrivileges
+[1414.97] Online: TryToPlayOnline ControllerID=(-1)
+[1414.97] Matchmaking: OnlineGameMatchmaking_X_0 Searching -> Joining
+[1414.97] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[1414.97] JoinGame: GotoJoinGameState VerifyPrivileges -> ReservingServerForMatchmaking
+[1414.97] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 SendMessageToServer Message=(AddReservationMessagePublic_X_3)
+[1414.97] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[1415.81] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(ReservationsWaitingMessage_X) Message.ReservationID=(E43AB6BB49A048538117B1241101DAD8)
+[1415.81] JoinGame: Waiting for more players to add reservations
+[1415.81] Party: HandleServerReserved (Reservation=(ServerName="IND1-0C2EE5A47DA581F32-Zenith",Playlist=11,Region="IND",ReservationID="E43AB6BB49A048538117B1241101DAD8",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTk5M2Q0MDgwOTk0ZTk0OGI4ZDY3MDdkMWZiMjY4ZSIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMEMyRUU1QTQ3REE1ODFGMzItWmVuaXRoIiwiaWF0IjoxNzU4OTExMTc2LCJuYmYiOjE3NTg5MTExNzYsImV4cCI6MTc1ODkyNTU3Nn0.54sgNiQzVPrKc0Mrkm6A7MoK1dpM88XvUEm_7ubCbCSnjPhURgwr5zgYm7u6Nhklo8rK22SI3oo9Dw1G_luqLQ",JoinName="MZ4OK1OBXMVS4NRF",JoinPassword="S7I735V98RG0SW84"),JoinCredentials="MZ4OK1OBXMVS4NRF:S7I735V98RG0SW84")
+[1415.81] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[1416.92] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(ReservationsReadyMessage_X) Message.ReservationID=(E43AB6BB49A048538117B1241101DAD8)
+[1416.92] DevNet: Add Network Encryption {PlayerID=Steam|76561198026543789|0 Key={Key=C7EEF23A6FF23F071BBB48D3C353D1C822092D11DA27A78F536CBB63A1A2A97A IV=94CFDE81639F953B52A81F983357E304 HMAC=5788FA2477D034C769614B2795FE32ECF441E273F6DA9CFD18C11B6BEB8E7B2B Session=DA56CD420CDE56F9F8050DFBDF761ED5}}
+[1416.92] DevOnline: Successfully set the friend join URL: 
+[1416.92] Party: HandleServerReserved (Reservation=(ServerName="IND1-0C2EE5A47DA581F32-Zenith",Playlist=11,Region="IND",ReservationID="E43AB6BB49A048538117B1241101DAD8",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTk5M2Q0MDgwOTk0ZTk0OGI4ZDY3MDdkMWZiMjY4ZSIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMEMyRUU1QTQ3REE1ODFGMzItWmVuaXRoIiwiaWF0IjoxNzU4OTExMTc2LCJuYmYiOjE3NTg5MTExNzYsImV4cCI6MTc1ODkyNTU3Nn0.54sgNiQzVPrKc0Mrkm6A7MoK1dpM88XvUEm_7ubCbCSnjPhURgwr5zgYm7u6Nhklo8rK22SI3oo9Dw1G_luqLQ",JoinName="MZ4OK1OBXMVS4NRF",JoinPassword="S7I735V98RG0SW84"),PingURL="13.203.70.38:8725",GameURL="13.203.70.38:7725",JoinCredentials="MZ4OK1OBXMVS4NRF:S7I735V98RG0SW84")
+[1416.92] JoinGame: GotoJoinGameState ReservingServerForMatchmaking -> JoinCountdown
+[1416.92] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 SendMessageToServer Message=(PingMessage_X_6)
+[1416.92] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[1417.56] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=(PingMessage_X) Message.ReservationID=(E43AB6BB49A048538117B1241101DAD8)
+[1417.57] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[1419.92] JoinGame: GotoJoinGameState JoinCountdown -> OpeningLoadingScreen
+[1419.92] RankedReconnect: OnlineGameJoinGame_TA_0::OpeningLoadingScreen.BeginState()
+[1419.92] RankedReconnect: LocalPlayer_TA_0.UpdateRankedReconnect() RankedTeamDoubles True 4 False
+[1419.92] RankedReconnect: RankedReconnectSave_TA_0.SetRankedReconnect() Server=((Reservation=(ServerName="IND1-0C2EE5A47DA581F32-Zenith",Playlist=11,Region="IND",ReservationID="E43AB6BB49A048538117B1241101DAD8",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTk5M2Q0MDgwOTk0ZTk0OGI4ZDY3MDdkMWZiMjY4ZSIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMEMyRUU1QTQ3REE1ODFGMzItWmVuaXRoIiwiaWF0IjoxNzU4OTExMTc2LCJuYmYiOjE3NTg5MTExNzYsImV4cCI6MTc1ODkyNTU3Nn0.54sgNiQzVPrKc0Mrkm6A7MoK1dpM88XvUEm_7ubCbCSnjPhURgwr5zgYm7u6Nhklo8rK22SI3oo9Dw1G_luqLQ",JoinName="MZ4OK1OBXMVS4NRF",JoinPassword="S7I735V98RG0SW84"),PingURL="13.203.70.38:8725",GameURL="13.203.70.38:7725",JoinCredentials="MZ4OK1OBXMVS4NRF:S7I735V98RG0SW84")) EpochNow=(1758911182)
+[1419.92] DevNet: Browse: JoinGameTransition?Name=Lock?game=TAGame.GameInfo_Transition_TA
+[1419.99] Log: FSaveDataExportTask(0) wrote 4348135 bytes to memory
+[1419.99] Log: SaveGameDataAsync game thread time: 31 ms
+[1419.99] Log: LoadMap: JoinGameTransition?Name=Lock?game=TAGame.GameInfo_Transition_TA
+[1420.02] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[1420.05] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789_2.save
+[1420.05] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789_1.save] Result:[1]
+[1420.29] DevOnline: PsyNet Flush End
+[1420.36] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Transition_SF.upk
+[1420.37] Log: Game class is 'GameInfo_Transition_TA'
+[1420.37] Log: Bringing World JoinGameTransition.TheWorld up for play (0) at 2025.09.26-23.56.21
+[1420.37] Log: Bringing up level for play took: 0.003004
+[1420.37] JoinGame: GotoJoinGameState OpeningLoadingScreen -> JoiningNewServer
+[1420.37] DevNet: SetProgress, MessageType=1, Title=, Message=Connecting...
+[1420.37] Log: ########### Finished loading level: 0.381098 seconds
+[1420.37] DevNet: Browse: 13.203.70.38:7725/MENU_Main_p?Name=Lock
+[1420.37] DevNet: Game client on port 7725, rate 15000
+[1420.37] NetComeGo: TcpipConnection_3 13.203.70.38:7725 using encryption {Key=C7EEF23A6FF23F071BBB48D3C353D1C822092D11DA27A78F536CBB63A1A2A97A IV=94CFDE81639F953B52A81F983357E304 HMAC=5788FA2477D034C769614B2795FE32ECF441E273F6DA9CFD18C11B6BEB8E7B2B Session=DA56CD420CDE56F9F8050DFBDF761ED5}
+[1420.37] NetComeGo: SEND first packet Length=80 CRC=186390058
+[1420.43] NetComeGo: TcpipConnection_3 RECV first packet IP=13.203.70.38:7725 Length=15 CRC=-1776933924 HandshakeStatus=0 bUseSessionUID=1 InSessionUID=(0 0 0) SessionUID=(0 0 0)
+[1420.43] NetComeGo: Client set SessionUID to: 144 211 41
+[1420.62] DevNet: Welcomed by server (Level: cs_day_p, Game: TAGame.GameInfo_Soccar_TA, GameTags: )
+[1420.66] Log: FSaveDataExportTask(0) wrote 4348135 bytes to memory
+[1420.66] Log: SaveGameDataAsync game thread time: 33 ms
+[1420.66] Log: Flushing async loaders.
+[1420.67] Log: Flushed async loaders.
+[1420.67] Log: LoadMap: 13.203.70.38:7725/cs_day_p?Name=Lock?game=TAGame.GameInfo_Soccar_TA
+[1420.68] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[1420.72] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789.save
+[1420.72] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789_2.save] Result:[1]
+[1420.94] DevOnline: PsyNet Flush End
+[1420.95] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Soccar_SF.upk
+[1420.98] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_XP_SF.upk
+[1420.99] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFx_XPProgressMenu_SF.upk
+[1421.01] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_EndGameMenu_SF.upk
+[1421.04] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_WinnerMenu_SF.upk
+[1421.06] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameScoreboard_SF.upk
+[1421.06] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameMenu_SF.upk
+[1421.08] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_HudMatchInfo_SF.upk
+[1421.10] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_Hud_SF.upk
+[1421.46] Log: Bringing World cs_day_p.TheWorld up for play (0) at 2025.09.26-23.56.22
+[1421.46] Log: Bringing up level for play took: 0.023292
+[1421.57] JoinGame: OnJoinGameComplete bSuccess=(True) FailReason=()
+[1421.57] JoinGame: GotoJoinGameState JoiningNewServer -> None
+[1421.57] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 Close
+[1421.57] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 CloseConnection Connection.ConnectionID=(eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTk5M2Q0MDgwOTk0ZTk0OGI4ZDY3MDdkMWZiMjY4ZSIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IlN0ZWFtfDc2NTYxMTk4MDI2NTQzNzg5fDAiLCJzZXJ2ZXJfbmFtZSI6IklORDEtMEMyRUU1QTQ3REE1ODFGMzItWmVuaXRoIiwiaWF0IjoxNzU4OTExMTc2LCJuYmYiOjE3NTg5MTExNzYsImV4cCI6MTc1ODkyNTU3Nn0.54sgNiQzVPrKc0Mrkm6A7MoK1dpM88XvUEm_7ubCbCSnjPhURgwr5zgYm7u6Nhklo8rK22SI3oo9Dw1G_luqLQ)
+[1421.58] Matchmaking: OnlineGameMatchmaking_X_0 Joining -> None
+[1421.58] Log: ########### Finished loading level: 0.909094 seconds
+[1421.92] ScriptLog: Client InputRate=60
+[1421.92] DevNet: PlayerController_TA_9 setplayer LocalPlayer_TA_0
+[1421.92] PsyNetStaticData: UpdateCacheTimerEnabled CacheTimer.bEnabled=(False)
+[1421.92] MatchBroadcast: Init bBroadcastMatch=(False) MatchLog=(None)
+[1421.94] ScriptLog: MatchGUID: 4A1C9FC011F09B067C9447A03B5C4973
+[1421.95] DevOnline: Set rich presence to: Doubles in Champions Field (Day) data: Playlist-11
+[1422.04] ScriptLog: Uncached PlatformId for Epic|272cabfe0db84248a251f5d479f76213|0
+[1422.04] ScriptLog: Uncached PlatformId for Epic|575fd75ae1ab44a5bb4964cda664fdcf|0
+[1422.29] LTM: SettingsType=(CustomMatchSettingsType_PrivateMatch)
+[1422.35] Log: Flushing async loaders.
+[1422.35] Log: Flushed async loaders.
+[1422.35] ScriptLog: Uncached PlatformId for Epic|b40258284fce44cba82dff0e4b1a9069|0
+[1422.36] EOSVoice: AlertVoiceError: VoiceModerationEULANotAccepted
+[1422.39] Vanity: All Vanity Queries Complete
+[1422.53] NetworkInputBuffer: Hitch detected! 133.6670ms
+[1422.93] DevOnline: WebRequest_X_53 SEND: https://rl-cdn.psyonix.com/Ads/Prod/234.CIUKL53E/201.jpg
+[1423.14] DevOnline: WebRequest_X_53 RECV: 200 
+[1423.15] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vQWRzL1Byb2QvMjM0LkNJVUtMNTNFLzIwMS5qcGc=) wrote 560716 bytes to memory
+[1423.27] DevOnline: WebRequest_X_54 SEND: https://rl-cdn.psyonix.com/Ads/Prod/234.CIUKL53E/202.jpg
+[1423.32] DevOnline: WebRequest_X_54 RECV: 200 
+[1423.33] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vQWRzL1Byb2QvMjM0LkNJVUtMNTNFLzIwMi5qcGc=) wrote 790601 bytes to memory
+[1423.69] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.001464s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[0.159300s] MaxExecutionTime=[0.000310s] TicksCount=[4469] ExpectedTicksCount=[1000]
+[1432.58] DevOnline: Set rich presence to: InGame 0:0 [4:59 remaining] data: InGame 0:0 [4:59 remaining]
+[1446.57] DevOnline: Set rich presence to: InGame 0:0 [4:45 remaining] data: InGame 0:0 [4:45 remaining]
+[1456.53] DevOnline: Set rich presence to: InGame 1:0 [4:36 remaining] data: InGame 1:0 [4:36 remaining]
+[1460.13] EOSGameClips: EOSGameClips: Currently recording: false
+[1470.56] DevOnline: WebRequest_X_55 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[1470.84] DevOnline: WebRequest_X_55 RECV: 204 
+[1473.90] DevOnline: Set rich presence to: InGame 1:0 [4:30 remaining] data: InGame 1:0 [4:30 remaining]
+[1488.90] DevOnline: Set rich presence to: InGame 1:0 [4:15 remaining] data: InGame 1:0 [4:15 remaining]
+[1501.29] DevOnline: Set rich presence to: InGame 1:1 [4:03 remaining] data: InGame 1:1 [4:03 remaining]
+[1504.87] EOSGameClips: EOSGameClips: Currently recording: false
+[1515.34] DevOnline: Set rich presence to: InGame 1:1 [4:00 remaining] data: InGame 1:1 [4:00 remaining]
+[1530.33] DevOnline: Set rich presence to: InGame 1:1 [3:45 remaining] data: InGame 1:1 [3:45 remaining]
+[1530.56] DevOnline: WebRequest_X_56 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[1530.84] DevOnline: WebRequest_X_56 RECV: 204 
+[1545.34] DevOnline: Set rich presence to: InGame 1:1 [3:30 remaining] data: InGame 1:1 [3:30 remaining]
+[1560.35] DevOnline: Set rich presence to: InGame 1:1 [3:15 remaining] data: InGame 1:1 [3:15 remaining]
+[1575.34] DevOnline: Set rich presence to: InGame 1:1 [3:00 remaining] data: InGame 1:1 [3:00 remaining]
+[1590.34] DevOnline: Set rich presence to: InGame 1:1 [2:45 remaining] data: InGame 1:1 [2:45 remaining]
+[1590.56] DevOnline: WebRequest_X_57 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[1590.84] DevOnline: WebRequest_X_57 RECV: 204 
+[1595.30] DevOnline: Set rich presence to: InGame 1:2 [2:41 remaining] data: InGame 1:2 [2:41 remaining]
+[1598.91] EOSGameClips: EOSGameClips: Currently recording: false
+[1616.52] DevOnline: Set rich presence to: InGame 1:3 [2:35 remaining] data: InGame 1:3 [2:35 remaining]
+[1620.11] EOSGameClips: EOSGameClips: Currently recording: false
+[1631.42] DevOnline: Set rich presence to: InGame 1:3 [2:30 remaining] data: InGame 1:3 [2:30 remaining]
+[1641.86] NetworkInputBuffer: Hitch detected! 1019.1650ms
+[1643.71] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.005268s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[1.026699s] MaxExecutionTime=[0.000036s] TicksCount=[4015] ExpectedTicksCount=[1000]
+[1645.00] NetworkInputBuffer: Hitch detected! 1100.2197ms
+[1645.00] DevNet: Bad connection: IP=13.203.70.38:7725 Name=Lock State=3 Ping=0.589841 ReceiveTime=0.000000 AckTime=0.000000
+[1646.43] DevOnline: Set rich presence to: InGame 1:3 [2:15 remaining] data: InGame 1:3 [2:15 remaining]
+[1651.88] DevOnline: WebRequest_X_58 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[1652.16] DevOnline: WebRequest_X_58 RECV: 204 
+[1653.71] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.001491s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[1.105958s] MaxExecutionTime=[0.000098s] TicksCount=[3372] ExpectedTicksCount=[1000]
+[1661.42] DevOnline: Set rich presence to: InGame 1:3 [2:00 remaining] data: InGame 1:3 [2:00 remaining]
+[1676.41] DevOnline: Set rich presence to: InGame 1:3 [1:45 remaining] data: InGame 1:3 [1:45 remaining]
+[1691.42] DevOnline: Set rich presence to: InGame 1:3 [1:30 remaining] data: InGame 1:3 [1:30 remaining]
+[1706.43] DevOnline: Set rich presence to: InGame 1:3 [1:15 remaining] data: InGame 1:3 [1:15 remaining]
+[1711.88] DevOnline: WebRequest_X_59 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[1712.16] DevOnline: WebRequest_X_59 RECV: 204 
+[1721.41] DevOnline: Set rich presence to: InGame 1:3 [1:00 remaining] data: InGame 1:3 [1:00 remaining]
+[1736.41] DevOnline: Set rich presence to: InGame 1:3 [0:45 remaining] data: InGame 1:3 [0:45 remaining]
+[1751.41] DevOnline: Set rich presence to: InGame 1:3 [0:30 remaining] data: InGame 1:3 [0:30 remaining]
+[1766.43] DevOnline: Set rich presence to: InGame 1:3 [0:15 remaining] data: InGame 1:3 [0:15 remaining]
+[1771.88] DevOnline: WebRequest_X_60 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[1772.16] DevOnline: WebRequest_X_60 RECV: 204 
+[1782.12] XPProgression: GFxHUD_TA.HandleGameStateChanged Current player match score = 485, UniqueId=(Steam|76561198026543789|0), with total match time = 300.0468 seconds, with total net time = 300.0468seconds
+[1782.12] Party: Ranked Game Finished, Clear party member server
+[1782.12] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[1782.40] SplitScreen: Press Start ControllerId=0 Player=LocalPlayer_TA_0
+[1782.56] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Challenges/PlayerProgress 
+[1782.58] XPProgression: SaveData_TA.HandleRewardDropNotification PsyNetService_RewardDropReceived_TA returned Total XP Earned = 1848.0000, in match with ID = 4A1C9FC011F09B067C9447A03B5C4973 , Current player match score = 485, UniqueId=(Steam|76561198026543789|0), with total match time = 300.7048 seconds, with total net time = 300.7048seconds
+[1782.58] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Reward/RewardResult 
+[1783.25] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[1783.25] NetComeGo: TcpipConnection_3 Control channel closed, reason=Disconnect command
+[1783.25] DevNet: URL: Adding default option Name=Lock
+[1783.25] DevNet: Browse: MENU_Main_p?closed?Name=Lock
+[1783.25] Log: Failed; returning to Entry
+[1783.32] Log: FSaveDataExportTask(0) wrote 4347296 bytes to memory
+[1783.32] Log: SaveGameDataAsync game thread time: 32 ms
+[1783.33] Log: LoadMap: MENU_Main_p?closed?Name=Lock
+[1783.33] PsyNetStaticData: HandleCacheExpired
+[1783.33] PsyNetStaticData: UpdateCacheTimerEnabled CacheTimer.bEnabled=(True)
+[1783.33] DevOnline: UnregisterRemoteTalker(0x0110000103F352AD) returned 0x00000000
+[1783.33] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[1783.33] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[1783.33] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[1783.33] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[1783.33] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[1783.33] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[1783.33] DevOnline: Unknown remote talker specified to UnregisterRemoteTalker()
+[1783.35] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[1783.38] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789_1.save
+[1783.38] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789.save] Result:[1]
+[1783.60] DevOnline: PsyNet Flush End
+[1783.63] NetComeGo: Close TcpipConnection_3 13.203.70.38:7725 27/09/2025 00:02:24 'UNetConnection::CleanUp'
+[1783.63] NetComeGo: TcpipConnection_3 Control channel null, Sending unstable close to 13.203.70.38:7725 on temporary Control channel.
+[1783.63] Exit: TcpNetDriver_3 shut down
+[1783.66] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_GFxMenu_SF.upk
+[1783.67] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_MainMenu_SF.upk
+[1783.67] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_StartMenu_SF.upk
+[1783.73] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MainMenu_SF.upk
+[1783.78] Log: Game class is 'GameInfo_GFxMenu_TA'
+[1783.80] Log: Bringing World menu_main_p.TheWorld up for play (0) at 2025.09.27-00.02.25
+[1783.80] Log: Flushing async loaders.
+[1784.02] Log: Flushed async loaders.
+[1784.03] DevOnline: UnregisterLocalTalker(0) returned 0x00000000
+[1784.03] DevOnline: Successfully set the friend join URL: 
+[1784.03] Log: Bringing up level for play took: 0.250430
+[1784.13] DevOnline: Set rich presence to: Main Menu data: Menu
+[1784.13] Log: ########### Finished loading level: 0.805224 seconds
+[1784.14] DevOnline: WebRequest_X_61 SEND: https://config.psynet.gg/v2/Config/BattleCars/-1459478734/Prod/Steam/INT/
+[1784.15] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.420170s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[0.899055s] MaxExecutionTime=[0.000044s] TicksCount=[4863] ExpectedTicksCount=[1042]
+[1784.17] Log: Flushing async loaders.
+[1784.57] Log: Flushed async loaders.
+[1784.84] Warning: Warning, Material body_lionsmane.MAT_Lionsmane_Temp missing bUsedWithStaticLighting=True!
+[1784.84] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[1785.11] Eula: RequiresAcceptance? EulaConfig?.bRequiresAcceptance=(True) GetUISave()?.Contains('bAcceptedOfflineEULA')=(True) Eula.SyncState=(LSS_Accepted)
+[1785.11] AuthEpicVerbose: [GFx] Epic login changed. m_uiState:MainMenu bPromptParentalConsent:false bPromptToChoosePrimaryAccount:false bEpicSaveDataLoaded:false bPlatformLinked:false
+[1785.11] FTEDev: Group Prime_MatchComplete Is not meant for users of type FTESave.LegacyGroupType=(LGT_LegacyUser)
+[1785.12] FTEDev: Group Prime_MatchComplete Is not meant for users of type FTESave.LegacyGroupType=(LGT_LegacyUser)
+[1785.29] DevOnline: PlayerDataStorage_WriteFile: Beginning to upload file. User=(29102162b92948868b021454382b618a) FileName=(RLSaveData)
+[1785.32] Online: TryToPlayOnline ControllerID=(-1)
+[1785.34] ThankYouMessage: Thank You message already shown to the player
+[1785.36] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[1785.36] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[1785.36] Vanity: All Vanity Queries Complete
+[1785.51] DevOnline: WebRequest_X_61 RECV: 304 
+[1786.49] Log: Flushing async loaders.
+[1786.52] Log: Flushed async loaders.
+[1787.19] Online: TryToPlayOnline ControllerID=(-1)
+[1787.19] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[1787.19] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[1788.74] Loadout: Could not find package for asset title_generic_T_SF
+[1789.20] DevOnline: PlayerDataStorage_WriteFile: File upload complete. User=(29102162b92948868b021454382b618a) FileName=(RLSaveData) Success=(1)
+[1789.93] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Reward/RewardResult 
+[1789.93] ScriptLog: GetDLCProducts, UnlockedDLCList=SuperSonic,Revenge,Wasteland,body_charged
+[1789.96] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Challenges/PlayerProgress 
+[1791.16] Log: FSaveDataExportTask(0) wrote 4347759 bytes to memory
+[1791.16] Log: SaveGameDataAsync game thread time: 31 ms
+[1791.20] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789_2.save
+[1791.20] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789_1.save] Result:[1]
+[1792.19] ThankYouMessage: Thank You message already shown to the player
+[1792.90] Online: TryToPlayOnline ControllerID=(-1)
+[1792.90] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[1792.90] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[1794.15] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.000179s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[0.207162s] MaxExecutionTime=[0.000073s] TicksCount=[4083] ExpectedTicksCount=[1000]
+[1794.93] Loadout: Could not find package for asset title_generic_T_SF
+[1795.41] ScriptWarning: ScriptWarning, AntennaComponent_TA_8 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend02
+	AntennaComponent_TA menu_premiumgarage.TheWorld:PersistentLevel.CarPreviewActor_TA_1.AntennaComponent_TA_8
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[1795.41] ScriptWarning: ScriptWarning, AntennaComponent_TA_8 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend03
+	AntennaComponent_TA menu_premiumgarage.TheWorld:PersistentLevel.CarPreviewActor_TA_1.AntennaComponent_TA_8
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[1795.41] ScriptWarning: ScriptWarning, AntennaComponent_TA_8 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend04
+	AntennaComponent_TA menu_premiumgarage.TheWorld:PersistentLevel.CarPreviewActor_TA_1.AntennaComponent_TA_8
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[1795.41] ScriptWarning: ScriptWarning, AntennaComponent_TA_9 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend02
+	AntennaComponent_TA MENU_Main_Trap.TheWorld:PersistentLevel.CarPreviewActor_TA_0.AntennaComponent_TA_9
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[1795.41] ScriptWarning: ScriptWarning, AntennaComponent_TA_9 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend03
+	AntennaComponent_TA MENU_Main_Trap.TheWorld:PersistentLevel.CarPreviewActor_TA_0.AntennaComponent_TA_9
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[1795.41] ScriptWarning: ScriptWarning, AntennaComponent_TA_9 Body_Octane_PremiumSkin_SK Could not find skel control single bone Bend04
+	AntennaComponent_TA MENU_Main_Trap.TheWorld:PersistentLevel.CarPreviewActor_TA_0.AntennaComponent_TA_9
+	Function TAGame.AntennaComponent_TA:InitAntenna:0190
+Script call stack:
+	Function TAGame.ProductLoader_TA:HandleAssetLoaded
+	Function TAGame.ProductLoader_TA:OnAllAssetsLoaded
+	Function TAGame.CarPreviewActor_TA:HandleAllProductsLoaded
+	Function TAGame.CarPreviewActor_TA:InitComponents
+	Function TAGame.CarMeshComponent_TA:SetLoadout
+	Function TAGame.CarMeshComponent_TA:InitAttachments
+	Function TAGame.CarMeshComponentBase_TA:AttachOrnament
+	Function TAGame.AntennaComponent_TA:InitAntenna
+
+[1797.31] Party: HandlePlayerInvited bAccepted=(False) InLobbyId:'Steam-109775245086438129' FriendId:'Steam|76561199778133312|0'
+[1806.04] ThankYouMessage: Thank You message already shown to the player
+[1806.15] Loadout: Could not find package for asset title_generic_T_SF
+[1807.87] Online: TryToPlayOnline ControllerID=(-1)
+[1807.87] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[1807.87] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[1808.50] DevOnline: WebRequest_X_62 SEND: https://rl-cdn.psyonix.com/ShopImages/Sonic/SonicLTE_ShopThumbNail1_9u8fahd.jpg
+[1808.50] DevOnline: WebRequest_X_63 SEND: https://rl-cdn.psyonix.com/ShopImages/Sonic/SonicLTE_ShopThumbNail3_a078v9sy.jpg
+[1808.50] DevOnline: WebRequest_X_64 SEND: https://rl-cdn.psyonix.com/ShopImages/Sonic/SonicLTE_ShopThumbNail2_fda9gu.jpg
+[1808.50] DevOnline: WebRequest_X_65 SEND: https://rl-cdn.psyonix.com/ShopImages/Sonic/SonicLTE_ShopThumbNail5_978ygaf0.jpg
+[1808.50] DevOnline: WebRequest_X_66 SEND: https://rl-cdn.psyonix.com/ShopImages/Puma/OWxACMilan/RL_OffWhite_thumbnail_Nimbus_oifwn.jpg
+[1808.50] DevOnline: WebRequest_X_67 SEND: https://rl-cdn.psyonix.com/ShopImages/Puma/OWxACMilan/RL_OffWhite_thumbnail_GE_ifwje.jpg
+[1808.50] DevOnline: WebRequest_X_68 SEND: https://rl-cdn.psyonix.com/ShopImages/Puma/OWxACMilan/RL_OffWhite_thumbnail_Decal_ofewd.jpg
+[1808.50] DevOnline: WebRequest_X_69 SEND: https://rl-cdn.psyonix.com/ShopImages/Puma/OWxACMilan/RL_OffWhite_thumbnail_Wheel_oiwjf.jpg
+[1808.50] DevOnline: WebRequest_X_70 SEND: https://rl-cdn.psyonix.com/ShopImages/Puma/OWxACMilan/RL_OffWhite_thumbnail_Boost_ushf.jpg
+[1808.50] DevOnline: WebRequest_X_71 SEND: https://rl-cdn.psyonix.com/ShopImages/Puma/OWxACMilan/RL_OffWhite_thumbnail_Trail_ijwwf.jpg
+[1808.50] DevOnline: WebRequest_X_72 SEND: https://rl-cdn.psyonix.com/ShopImages/CreditBundles/S20/S20_2500_9sdauh.jpg
+[1808.50] DevOnline: WebRequest_X_73 SEND: https://rl-cdn.psyonix.com/ShopImages/CreditBundles/S20/S20_2000_98ag-yv.jpg
+[1808.50] DevOnline: WebRequest_X_74 SEND: https://rl-cdn.psyonix.com/ShopImages/CreditBundles/S20/S20_1500_a98fyu.jpg
+[1808.50] DevOnline: WebRequest_X_75 SEND: https://rl-cdn.psyonix.com/ShopImages/CreditBundles/S20/S20_1000_98syhf.jpg
+[1808.89] DevOnline: WebRequest_X_71 RECV: 200 
+[1808.89] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU2hvcEltYWdlcy9QdW1hL09XeEFDTWlsYW4vUkxfT2ZmV2hpdGVfdGh1bWJuYWlsX1RyYWlsX2lqd3dmLmpwZw==) wrote 257903 bytes to memory
+[1808.91] DevOnline: WebRequest_X_73 RECV: 200 
+[1808.91] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU2hvcEltYWdlcy9DcmVkaXRCdW5kbGVzL1MyMC9TMjBfMjAwMF85OGFnLXl2LmpwZw==) wrote 108304 bytes to memory
+[1808.91] DevOnline: WebRequest_X_65 RECV: 200 
+[1808.92] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU2hvcEltYWdlcy9Tb25pYy9Tb25pY0xURV9TaG9wVGh1bWJOYWlsNV85Nzh5Z2FmMC5qcGc=) wrote 278459 bytes to memory
+[1808.94] DevOnline: WebRequest_X_64 RECV: 200 
+[1808.94] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU2hvcEltYWdlcy9Tb25pYy9Tb25pY0xURV9TaG9wVGh1bWJOYWlsMl9mZGE5Z3UuanBn) wrote 216436 bytes to memory
+[1808.95] DevOnline: WebRequest_X_63 RECV: 200 
+[1808.95] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU2hvcEltYWdlcy9Tb25pYy9Tb25pY0xURV9TaG9wVGh1bWJOYWlsM19hMDc4djlzeS5qcGc=) wrote 243031 bytes to memory
+[1808.96] DevOnline: WebRequest_X_66 RECV: 200 
+[1808.96] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU2hvcEltYWdlcy9QdW1hL09XeEFDTWlsYW4vUkxfT2ZmV2hpdGVfdGh1bWJuYWlsX05pbWJ1c19vaWZ3bi5qcGc=) wrote 230714 bytes to memory
+[1808.97] DevOnline: WebRequest_X_69 RECV: 200 
+[1808.97] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU2hvcEltYWdlcy9QdW1hL09XeEFDTWlsYW4vUkxfT2ZmV2hpdGVfdGh1bWJuYWlsX1doZWVsX29pd2pmLmpwZw==) wrote 194723 bytes to memory
+[1808.98] DevOnline: WebRequest_X_68 RECV: 200 
+[1808.98] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU2hvcEltYWdlcy9QdW1hL09XeEFDTWlsYW4vUkxfT2ZmV2hpdGVfdGh1bWJuYWlsX0RlY2FsX29mZXdkLmpwZw==) wrote 228032 bytes to memory
+[1808.99] DevOnline: WebRequest_X_67 RECV: 200 
+[1808.99] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU2hvcEltYWdlcy9QdW1hL09XeEFDTWlsYW4vUkxfT2ZmV2hpdGVfdGh1bWJuYWlsX0dFX2lmd2plLmpwZw==) wrote 240930 bytes to memory
+[1808.99] DevOnline: WebRequest_X_72 RECV: 200 
+[1808.99] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU2hvcEltYWdlcy9DcmVkaXRCdW5kbGVzL1MyMC9TMjBfMjUwMF85c2RhdWguanBn) wrote 119753 bytes to memory
+[1809.02] DevOnline: WebRequest_X_62 RECV: 200 
+[1809.03] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU2hvcEltYWdlcy9Tb25pYy9Tb25pY0xURV9TaG9wVGh1bWJOYWlsMV85dThmYWhkLmpwZw==) wrote 172280 bytes to memory
+[1809.24] DevOnline: WebRequest_X_75 RECV: 200 
+[1809.24] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU2hvcEltYWdlcy9DcmVkaXRCdW5kbGVzL1MyMC9TMjBfMTAwMF85OHN5aGYuanBn) wrote 101508 bytes to memory
+[1809.26] DevOnline: WebRequest_X_70 RECV: 200 
+[1809.26] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU2hvcEltYWdlcy9QdW1hL09XeEFDTWlsYW4vUkxfT2ZmV2hpdGVfdGh1bWJuYWlsX0Jvb3N0X3VzaGYuanBn) wrote 193997 bytes to memory
+[1809.28] DevOnline: WebRequest_X_74 RECV: 200 
+[1809.28] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU2hvcEltYWdlcy9DcmVkaXRCdW5kbGVzL1MyMC9TMjBfMTUwMF9hOThmeXUuanBn) wrote 133497 bytes to memory
+[1814.15] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.000210s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[0.170261s] MaxExecutionTime=[0.000045s] TicksCount=[5439] ExpectedTicksCount=[1000]
+[1819.03] DevOnline: PlayerDataStorage_WriteFile: Beginning to upload file. User=(29102162b92948868b021454382b618a) FileName=(RLSaveData)
+[1821.76] ScriptWarning: ScriptWarning, Accessed None 'Catalogue'
+	GFxData_Shops_TA Transient.GFxData_Shops_TA_4
+	Function TAGame.GFxData_Shops_TA:UpdateShopCache:008F
+Script call stack:
+	Function TAGame.GFxData_Shops_TA:SetShopViewed
+	Function TAGame.GFxData_Shops_TA:UpdateShopCache
+
+[1821.76] ScriptWarning: ScriptWarning, Accessed None 'Catalogue'
+	GFxData_Shops_TA Transient.GFxData_Shops_TA_4
+	Function TAGame.GFxData_Shops_TA:SetShopViewed:003C
+Script call stack:
+	Function TAGame.GFxData_Shops_TA:SetShopViewed
+
+[1822.19] DevOnline: PlayerDataStorage_WriteFile: File upload complete. User=(29102162b92948868b021454382b618a) FileName=(RLSaveData) Success=(1)
+[1822.93] ScriptWarning: ScriptWarning, Accessed None 'Catalogue'
+	GFxData_Shops_TA Transient.GFxData_Shops_TA_4
+	Function TAGame.GFxData_Shops_TA:UpdateShopCache:008F
+Script call stack:
+	Function TAGame.GFxData_Shops_TA:SetShopViewed
+	Function TAGame.GFxData_Shops_TA:UpdateShopCache
+
+[1822.93] ScriptWarning: ScriptWarning, Accessed None 'Catalogue'
+	GFxData_Shops_TA Transient.GFxData_Shops_TA_4
+	Function TAGame.GFxData_Shops_TA:SetShopViewed:003C
+Script call stack:
+	Function TAGame.GFxData_Shops_TA:SetShopViewed
+
+[1824.15] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.000739s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[0.150225s] MaxExecutionTime=[0.000058s] TicksCount=[4477] ExpectedTicksCount=[1000]
+[1826.54] ThankYouMessage: Thank You message already shown to the player
+[1828.38] Log: FSaveDataExportTask(0) wrote 4352166 bytes to memory
+[1828.38] Log: SaveGameDataAsync game thread time: 31 ms
+[1828.42] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789.save
+[1828.42] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789_2.save] Result:[1]
+[1829.83] ThankYouMessage: Thank You message already shown to the player
+[1832.72] DevOnline: WebRequest_X_76 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1459478734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|29102162b92948868b021454382b618a|||Steam|76561198026543789|0&SessionID=4AB5D3FB4E890422DCF9EABFC3C841E6
+[1834.53] DevOnline: WebRequest_X_76 RECV: 204 
+[1835.57] ThankYouMessage: Thank You message already shown to the player
+[1837.79] Log: Closing by request
+[1837.79] Log: appRequestExit(0)
+[1837.91] DevOnline: PlayerDataStorage_WriteFile: Beginning to upload file. User=(29102162b92948868b021454382b618a) FileName=(RLSaveData)
+[1840.85] DevOnline: PlayerDataStorage_WriteFile: File upload complete. User=(29102162b92948868b021454382b618a) FileName=(RLSaveData) Success=(1)
+[1840.85] Matchmaking: OnlineGameMatchmaking_X_0 OnlineGameMatchmaking_X -> None
+[1840.85] Matchmaking: OnlineGameTourMatchmaking_TA_0 OnlineGameTourMatchmaking_TA -> None
+[1840.88] Log: FSaveDataExportTask(0) wrote 4352169 bytes to memory
+[1840.88] Log: SaveGameDataAsync game thread time: 31 ms
+[1840.89] DevOnline: PsyNet Flush Start TimeoutSeconds=0.500000
+[1841.23] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789_1.save
+[1841.23] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789.save] Result:[1]
+[1841.23] DevOnline: PsyNet Flush End
+[1841.25] Exit: Preparing to exit.
+[1841.33] Exit: Game engine shut down
+[1842.48] Exit: Windows client shut down
+[1842.49] Exit: AK Audio shut down.
+[1849.57] Exit: Object subsystem successfully closed.
+[1849.57] DevOnline: EOSSDK-LogEOSUI: Social Overlay: browser was closed. Reopening...
+[1849.57] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[15.421796s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[8.719068s] MaxExecutionTime=[0.000100s] TicksCount=[787967] ExpectedTicksCount=[1542]
+[1852.13] Exit: Exiting.
+[1852.13] Log: Log file closed, 27/09/2025 00:03:33
