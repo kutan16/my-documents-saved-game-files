@@ -1,0 +1,113 @@
+[10/04/2025 02:24:10][Error] - [All] [Verifier] Started verification
+UnityEngine.Color:get_yellow()
+Awaken.Utility.Debugging.InitLoggerProxy:TriggerQueuedLogs()
+
+
+[10/04/2025 02:24:16][Warning] - <-----  Initialization step [ApplicationScene init]: Started  ----->
+
+
+[10/04/2025 02:24:16][Warning] - <-----  Initializing Cloud with SteamCloudService  ----->
+
+
+[10/04/2025 02:24:16][Warning] - <-----  Init Game Language: Russian (ru), loading tables.  ----->
+
+
+[10/04/2025 02:24:16][Warning] - <-----  Loading localization table Story  ----->
+
+
+[10/04/2025 02:24:16][Error] - OperationException : Failed to initialize localization, could not preload string tables.
+
+
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass63_0:<remove_CompletedTypeless>b__0(AsyncOperationHandle`1)
+DelegateList`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass63_0:<remove_CompletedTypeless>b__0(AsyncOperationHandle`1)
+DelegateList`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass63_0:<remove_CompletedTypeless>b__0(AsyncOperationHandle`1)
+DelegateList`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, String)
+DelegateList`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass63_0:<remove_CompletedTypeless>b__0(AsyncOperationHandle`1)
+DelegateList`1:Invoke(T)
+UnityEngine.Localization.Settings.LocalizedDatabase`2:GetTable(TableReference, Locale)
+Awaken.TG.Main.Scenes.SceneConstructors.<InitCloud>d__25:MoveNext()
+Awaken.TG.Main.Scenes.SceneConstructors.<InitAll>d__22:MoveNext()
+Awaken.TG.Main.Scenes.SceneConstructors.ApplicationScene:Start()
+
+
+[10/04/2025 02:24:16][Warning] - <-----  Loading localization table Prefabs  ----->
+
+
+[10/04/2025 02:24:16][Warning] - <-----  Loading localization table Overrides  ----->
+
+
+[10/04/2025 02:24:16][Warning] - <-----  Loading localization table LocTerms  ----->
+
+
+[10/04/2025 02:24:16][Warning] - <-----  Loading localization table KeyBindings  ----->
+
+
+[10/04/2025 02:24:16][Warning] - <-----  Loading localization table Tags  ----->
+
+
+[10/04/2025 02:24:16][Warning] - [Important] Loaded Mods [Awaken.TG.Assets.Modding.Mod[]]:
+	
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Awaken.ECS.DrakeRenderer.Authoring.DrakeRendererEntitiesManager:CreateArchetype(DrakeRendererArchetypeKey, EntityManager)
+Awaken.Utility.Assets.Modding.ModManager:.ctor()
+Awaken.TG.Assets.Modding.ModService:.ctor()
+Awaken.TG.Main.Scenes.SceneConstructors.<InitializeServices>d__29:MoveNext()
+Awaken.TG.Main.Scenes.SceneConstructors.<InitAll>d__22:MoveNext()
+Awaken.TG.Main.Scenes.SceneConstructors.ApplicationScene:Start()
+
+
+[10/04/2025 02:24:17][Warning] - <-----  Set keyboard layout to: QWERTY  ----->
+
+
+[10/04/2025 02:24:17][Error] - GetTableEntryARRealSync failed to find FALLBACK table LocTerms (for key KeyBind/Forward), it will load the fallback table now (with WaitForCompletion).
+UnityEngine.Localization.Settings.LocalizedDatabase`2:GetTableEntryARRealSync(TableReference, TableEntryReference, Locale, FallbackBehavior)
+Awaken.Utility.LocalizationHelper:GetTableEntry(String, Locale)
+Awaken.Utility.LocalizationHelper:Translate(String, Locale, Boolean)
+Awaken.TG.Utility.RichTextUtil:GetTranslation(String)
+Awaken.TG.Utility.RichTextUtil:Translate(String)
+Awaken.TG.Main.Settings.Options.KeyBindingOption:.ctor(ControllerType, InputAction, ActionElementMap, Guid)
+Awaken.TG.Main.Settings.Controls.GameControls:InitOptions(Int32)
+Awaken.TG.Main.Settings.SettingsMaster:OnInitialize()
+Awaken.TG.MVC.World:Initialize(T, Type[])
+Awaken.TG.MVC.World:Add(T)
+Awaken.TG.Main.Scenes.SceneConstructors.<InitializeWorld>d__30:MoveNext()
+Awaken.TG.Main.Scenes.SceneConstructors.<InitAll>d__22:MoveNext()
+Awaken.TG.Main.Scenes.SceneConstructors.<InitializeServices>d__29:MoveNext()
+Awaken.TG.MVC.Domains.<InitAllSceneReferences>d__54:MoveNext()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+
+[10/04/2025 02:24:17][Warning] - <-----  Loading save 'MetaData_AutoSave_1' from version '1.05.002'  ----->
+
+
+[10/04/2025 02:24:17][Warning] - <-----  Loading save 'MetaData_Slot_2' from version '1.05.002'  ----->
+
+
+[10/04/2025 02:24:17][Warning] - <-----  Initialization step [ApplicationScene init]: Completed  ----->
+
+
+[10/04/2025 02:24:18][Warning] - <-----  Starting game with version: [1.1.0c] 1.13.003  ----->
+
+
+[10/04/2025 02:26:20][Warning] - <-----  [Verifier] SUCCESS  ----->
+
+
+[10/04/2025 02:26:46][Warning] - <-----  [Fixing Missing NG+ Saves] Save Search Prepare  ----->
+
+
+[10/04/2025 02:26:47][Warning] - <-----  Waiting for templates to load  ----->
+
+
+[10/04/2025 02:26:49][Warning] - <-----  All templates loaded  ----->
+
+
+[10/04/2025 02:26:49][Warning] - <-----  [Fixing Missing NG+ Saves] Save Search Start  ----->
+
+
+[10/04/2025 02:26:49][Warning] - <-----  [Fixing Missing NG+ Saves] Save Search Ended - found 0 saves from 2.  ----->
+
+

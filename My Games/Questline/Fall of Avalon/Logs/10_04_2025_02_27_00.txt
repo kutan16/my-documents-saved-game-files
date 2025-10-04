@@ -1,0 +1,155 @@
+[10/04/2025 02:27:04][Error] - [All] [Verifier] Version already verified: bedcf2429a194ececacfd574743d8547acfdb0d1
+UnityEngine.Color:get_yellow()
+Awaken.Utility.Debugging.InitLoggerProxy:TriggerQueuedLogs()
+
+
+[10/04/2025 02:27:08][Warning] - <-----  Initialization step [ApplicationScene init]: Started  ----->
+
+
+[10/04/2025 02:27:08][Warning] - <-----  Initializing Cloud with SteamCloudService  ----->
+
+
+[10/04/2025 02:27:08][Warning] - <-----  Init Game Language: English (en), loading tables.  ----->
+
+
+[10/04/2025 02:27:08][Warning] - <-----  Loading localization table Story  ----->
+
+
+[10/04/2025 02:27:08][Warning] - <-----  Loading localization table Prefabs  ----->
+
+
+[10/04/2025 02:27:08][Warning] - <-----  Loading localization table Overrides  ----->
+
+
+[10/04/2025 02:27:08][Warning] - <-----  Loading localization table LocTerms  ----->
+
+
+[10/04/2025 02:27:08][Warning] - <-----  Loading localization table KeyBindings  ----->
+
+
+[10/04/2025 02:27:08][Warning] - <-----  Loading localization table Tags  ----->
+
+
+[10/04/2025 02:27:08][Warning] - [Important] Loaded Mods [Awaken.TG.Assets.Modding.Mod[]]:
+	
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Awaken.ECS.DrakeRenderer.Authoring.DrakeRendererEntitiesManager:CreateArchetype(DrakeRendererArchetypeKey, EntityManager)
+Awaken.Utility.Assets.Modding.ModManager:.ctor()
+Awaken.TG.Assets.Modding.ModService:.ctor()
+Awaken.TG.Main.Scenes.SceneConstructors.<InitializeServices>d__29:MoveNext()
+Awaken.TG.Main.Scenes.SceneConstructors.<InitAll>d__22:MoveNext()
+Awaken.TG.Main.Scenes.SceneConstructors.ApplicationScene:Start()
+
+
+[10/04/2025 02:27:08][Warning] - <-----  Set keyboard layout to: QWERTY  ----->
+
+
+[10/04/2025 02:27:08][Warning] - <-----  Loading save 'MetaData_AutoSave_1' from version '1.05.002'  ----->
+
+
+[10/04/2025 02:27:08][Warning] - <-----  Loading save 'MetaData_Slot_2' from version '1.05.002'  ----->
+
+
+[10/04/2025 02:27:08][Warning] - <-----  Initialization step [ApplicationScene init]: Completed  ----->
+
+
+[10/04/2025 02:27:08][Warning] - <-----  Starting game with version: [1.1.0c] 1.13.003  ----->
+
+
+[10/04/2025 02:28:07][Error] - Dimensions of color surface ("GammaImage") do not match dimensions of depth surface ("CameraDepthStencil_3440x1440_D32_SFloat_S8_UInt_Tex2DArray"): (1920, 1080) != (3440, 1440)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+
+
+---- Entered loop with log ----
+Dimensions of color surface ("GammaImage") do not match dimensions of depth surface ("CameraDepthStencil_3440x1440_D32_SFloat_S8_UInt_Tex2DArray"): (1920, 1080) != (3440, 1440)
+
+[10/04/2025 02:28:27][Warning] - <-----  Starting new game: Prologue_Jail  ----->
+
+
+[10/04/2025 02:28:29][Warning] - <-----  Dropping TitleScreen  ----->
+
+
+[10/04/2025 02:28:29][Warning] - <-----  Dropping {save_slot}  ----->
+
+
+[10/04/2025 02:28:29][Warning] - <-----  Unloaded all previous scenes  ----->
+
+
+[10/04/2025 02:28:29][Warning] - <-----  Waiting for templates to load  ----->
+
+
+[10/04/2025 02:28:32][Warning] - <-----  All templates loaded  ----->
+
+
+[10/04/2025 02:28:34][Error] - Value of name 'Distortion' was not found
+Awaken.TG.Main.Settings.Controllers.BoolVfxPropertyQuality:ApplyProperty(VisualEffect, Boolean)
+Awaken.TG.Main.Settings.Controllers.VfxPropertyByQualityController:SettingChanged(Setting)
+Awaken.TG.MVC.View:Initialize(Services, IModel)
+Awaken.TG.MVC.World:BindView(IModel, View, Boolean, Boolean, Boolean)
+Awaken.TG.Main.Settings.Controllers.StartDependentView`1:<AsyncAwake>b__2_1(T)
+Awaken.TG.MVC.ModelUtils:DoForFirstModelOfType(Action`1, IListenerOwner)
+Awaken.TG.Main.Settings.Controllers.<AsyncAwake>d__2:MoveNext()
+Awaken.TG.Main.Settings.Controllers.StartDependentView`1:Awake()
+
+
+[10/04/2025 02:28:34][Warning] - <-----  Initialized hero  ----->
+
+
+[10/04/2025 02:28:34][Warning] - BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "WaterSurfaces_Small/LakeParent/Lake"
+
+
+[10/04/2025 02:28:35][Warning] - <-----  Initialization step [MapScene init 'Prologue_Jail']: Started  ----->
+
+
+[10/04/2025 02:28:35][Warning] - <-----  Initialization step [4 frame delay]: Started  ----->
+
+
+[10/04/2025 02:28:35][Warning] - <-----  Initialization step [MapScene init 'Prologue_Jail']: Completed  ----->
+
+
+[10/04/2025 02:28:35][Warning] - [Important] LocationReference is not set, returning empty list
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Awaken.ECS.DrakeRenderer.Authoring.DrakeRendererEntitiesManager:CreateArchetype(DrakeRendererArchetypeKey, EntityManager)
+Awaken.TG.Main.Locations.<MatchingLocations>d__37:MoveNext()
+System.Linq.Buffer`1:.ctor(IEnumerable`1)
+Awaken.TG.Main.Locations.Actions.Attachments.LogicEmitterActionBase`1:get_Locations()
+Awaken.TG.Main.Locations.Actions.Attachments.<LateInit>d__20:MoveNext()
+Awaken.TG.Main.Fights.Utils.<DelayFrame>d__8:MoveNext()
+Cysharp.Threading.Tasks.DelayFramePromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+
+
+[10/04/2025 02:28:35][Error] - [Important] Logic Emitter 1121136 has no Locations
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Awaken.ECS.DrakeRenderer.Authoring.DrakeRendererEntitiesManager:CreateArchetype(DrakeRendererArchetypeKey, EntityManager)
+Awaken.TG.Main.Locations.Actions.Attachments.<LateInit>d__20:MoveNext()
+Awaken.TG.Main.Fights.Utils.<DelayFrame>d__8:MoveNext()
+Cysharp.Threading.Tasks.DelayFramePromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+
+
+[10/04/2025 02:28:36][Warning] - <-----  Loading: Finalizing  ----->
+
+
+[10/04/2025 02:28:36][Warning] - <-----  Loaded: Scene(Prologue_Jail)  ----->
+
+
+[10/04/2025 02:28:36][Warning] - Adding null Transform to TransformAccessArray will result in degraded performance.
+Awaken.Kandra.Managers.VisibilityCullingManager:Register(UInt32, RendererData&, UInt32)
+Awaken.Kandra.KandraRendererManager:FinalizeRegistration()
+
+
+---- Entered loop with log ----
+Adding null Transform to TransformAccessArray will result in degraded performance.
+
+[10/04/2025 02:28:38][Warning] - <-----  Loading: fps stable  ----->
+
+
+[10/04/2025 02:28:38][Warning] - <-----  Loading: Completed  ----->
+
+
+[10/04/2025 02:28:38][Warning] - <-----  Loading: Fully discarded  ----->
+
+
