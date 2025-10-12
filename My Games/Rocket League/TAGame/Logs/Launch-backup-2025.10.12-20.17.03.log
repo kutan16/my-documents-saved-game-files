@@ -1,0 +1,312 @@
+Log: Log file open, 11/10/2025 21:32:20
+Log: GPsyonixBuildID 250925.56937.497573
+Log: Command line: 
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Log:  ... running in INSTALLED mode
+Warning: Warning, Unknown language extension . Defaulting to INT
+Init: Language extension: INT
+Init: Language extension: INT
+DevConfig: GConfig::LoadFile associated file:  ..\..\TAGame\Config\TAUI.ini
+Init: Version: 250925.56937.497573
+Init: Compiled (64-bit): Sep 25 2025 16:07:05
+Init: Command line: 
+Init: Base directory: E:\SteamLibrary\steamapps\common\rocketleague\Binaries\Win64\
+[0000.72] Log: Purging 30-day cache '..\..\TAGame\Cache\WebCache\*.*'...
+[0000.72] Log: Purging 3-day cache 'E:\SteamLibrary\steamapps\common\rocketleague\Binaries\Win64\..\..\TAGame\Logs\*.log'...
+[0000.73] Init: Computer: DESKTOP-7CKDBO1
+[0000.73] Init: User: Kutan
+[0000.73] Init: CPU Page size=4096, Processors=12
+[0000.73] Init: High frequency timer resolution =10.000000 MHz
+[0000.73] Init: Memory total: Physical=31.2GB (32GB approx) Pagefile=86.7GB Virtual=131072.0GB
+[0000.73] Init: Presizing for 138000 objects not considered by GC, pre-allocating 0 bytes.
+[0000.73] Init: Object subsystem initialized
+[0000.77] Log: Using feature set PrimeUpdate56
+[0000.77] Log: FOnlineSubsystemEOS: EOS version = 1.18.0.0-45084530
+[0000.81] Log: Steam Client API initialized 1
+[0000.89] Log: Steam Game Server API initialized 1
+[0001.06] Log: Found D3D11 adapter 0: NVIDIA GeForce RTX 4090
+[0001.06] Log: Adapter has 24142MB of dedicated video memory, 0MB of dedicated system memory, and 15954MB of shared system memory
+[0001.12] Log: Found D3D11 adapter 1: AMD Radeon(TM) Graphics
+[0001.12] Log: Adapter has 485MB of dedicated video memory, 0MB of dedicated system memory, and 15954MB of shared system memory
+[0001.26] Log: Found D3D11 adapter 2: NVIDIA GeForce RTX 4090
+[0001.26] Log: Adapter has 24142MB of dedicated video memory, 0MB of dedicated system memory, and 15954MB of shared system memory
+[0001.29] Log: Found D3D11 adapter 3: Microsoft Basic Render Driver
+[0001.29] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 15954MB of shared system memory
+[0001.29] Log: Shader platform (RHI): PC-D3D-SM5
+[0001.34] Breadcrumbs: Startup_PreInit: 1.340
+[0001.35] Breadcrumbs: Startup_LoadGlobalShaders: 0.014
+[0004.67] Log: ProductDatabase_TA::InitProductLabels  0.01 sec total.
+[0004.70] Log: ProductDatabase_TA::UpdateAvailableProducts  0.03 sec total.
+[0004.71] Breadcrumbs: Startup_LoadScriptPackages: 3.352
+[0005.14] Breadcrumbs: Startup_LoadNonNativePackages: 0.437
+[0005.15] Log: 155967 objects as part of root set at end of initial load.
+[0005.15] Log: 0 out of 0 bytes used by permanent object pool.
+[0005.15] Log: ShaderCache load stats: AccumLoadSeconds=(2.053) ShadersLoaded=(431272) Duplicates=(27654)
+[0005.15] Log: Initializing Engine...
+[0005.15] Log: BuildID: -1420458078 from GPsyonixBuildID
+[0005.21] SystemSettings: Loading PC Settings
+[0005.22] Breadcrumbs: Startup_BuildGuidCache: 0.077
+[0005.24] Log: Running hardware survey...
+[0005.24] Log: Wwise(R) SDK Version 2023.1.11 Build 8682. Copyright (c) 2006-2012 Audiokinetic Inc. / All Rights Reserved.
+[0005.30] Log: OS: Microsoft Windows 11 Home Single Language  (26100)
+[0005.30] Breadcrumbs: Startup_ClientInit: 0.080
+[0006.02] Log: WinSAT: 8.9 [9.3 CPU, 9.9 2D, 9.9 3D, 9.3 Mem, 8.9 Disk]
+[0006.02] Log: Processor: AMD Ryzen 5 7600X 6-Core Processor              (AMD64 Family 25 Model 97 Stepping 2) 6 Cores, 12 Threads
+[0006.02] Log: Memory: 16.00GB
+[0006.02] Log: Memory: 16.00GB
+[0006.02] Log: VideoController: SudoMaker Virtual Display Adapter (1.10.9.289)
+[0006.02] Log: VideoController: AMD Radeon(TM) Graphics (32.0.11016.3)
+[0006.02] Log: VideoController: NVIDIA GeForce RTX 4090 (32.0.15.8142)
+[0006.02] Log: Network Adapter: Realtek Gaming 2.5GbE Family Controller
+[0006.02] Log: Network Adapter: Wintun Userspace Tunnel
+[0006.02] Log: Network Adapter: Wintun Userspace Tunnel
+[0006.02] Log: Disk C: 225.74GB free of 400.00GB
+[0006.02] Log: Disk D: 289.26GB free of 1863.00GB
+[0006.02] Log: Disk E: 1321.08GB free of 1863.00GB
+[0006.02] Log: Disk F: 211.62GB free of 931.50GB
+[0006.02] Log: Disk G: 1827.02GB free of 1863.00GB
+[0006.02] Log: Disk H: 384.24GB free of 530.56GB
+[0006.02] Log: Sound Device: AMD High Definition Audio Device
+[0006.02] Log: Sound Device: CORSAIR HS80 RGB Wireless Gaming Headset
+[0006.02] Log: Sound Device: NVIDIA High Definition Audio
+[0006.02] Log: Sound Device: Realtek High Definition Audio
+[0006.02] Log: Sound Device: Steam Streaming Microphone
+[0006.02] Log: Sound Device: Steam Streaming Speakers
+[0006.02] Log: Sound Device: NVIDIA Virtual Audio Device (Wave Extensible) (WDM)
+[0006.02] Log: Sound Device: ASUS Utility
+[0006.02] Log: Hardware survey complete in 0.59 seconds.
+[0006.02] Log: Detected 1 GPUs for rendering
+[0007.47] Breadcrumbs: Startup_CreateViewport: 2.167
+[0007.47] DevOnline: Created named interface (RecentPlayersList) of type (Engine.OnlineRecentPlayersList)
+[0007.47] Log: Initializing Steamworks
+[0007.48] DevOnline: Steam ID: 76561198026543789
+[0007.48] DevOnline: Steam universe: PUBLIC
+[0007.48] DevOnline: Steam appid: 252950
+[0007.48] DevOnline: Steam IsSubscribed: 1
+[0007.48] DevOnline: Steam IsLowViolence: 0
+[0007.48] DevOnline: Steam IsCybercafe: 0
+[0007.48] DevOnline: Steam IsVACBanned: 0
+[0007.48] DevOnline: Steam IP country: IN
+[0007.48] DevOnline: Steam official server time: 1760198545
+[0007.48] DevOnline: Steam Cloud quota: 952885 / 100000000
+[0007.48] DevOnline: Steam original app owner: 76561198026543789
+[0007.48] DevOnline: Logged in as 'Lock'
+[0007.48] VoiceChat: The desired playback sample rate is 11000.
+[0007.48] ScriptLog: PsyNet using environment DBE_Production Prod
+[0007.49] PsyNet: PsyNetConnection_X_0 disabled OSCS_ServiceUnavailable
+[0007.49] PsyNetStaticData: HandleCacheExpired
+[0007.49] PsyNetStaticData: HandleGetURL URL=(https://config.psynet.gg/v2/Config/BattleCars/-1420458078/Prod/Steam/INT/)
+[0007.49] PsyNetStaticData: Blocking sync start
+[0007.49] DevOnline: WebRequest_X_0 SEND: https://config.psynet.gg/v2/Config/BattleCars/-1420458078/Prod/Steam/INT/
+[0007.85] DevOnline: WebRequest_X_0 RECV: 304 
+[0007.85] PsyNetStaticData: Blocking sync complete. Elapsed=0.3663
+[0007.85] PsyNetStaticData: HandleDataChanged
+[0007.86] DevOnline: EOS Platform CacheDirectory=C:\Users\Kutan\AppData\Local\Rocket League\
+[0007.86] DevOnline: EOSSDK-LogEOSIntegratedPlatform: Steam sanitizer disabled reason: EOS_IntegratedPlatform_Steam_Options.SteamMinorVersion Required to be at least 45.
+[0007.93] DevOnline: EOSSDK-LogEOSUI: Hot key event ignored because there are no known users.
+[0007.94] DevOnline: EOSSDK-LogEOSRTC: EOS_RTCAudio_GetAudioInputDevicesCount is deprecated. Use EOS_RTCAudio_QueryInputDevicesInformation with EOS_RTCAudio_GetInputDevicesCount instead.
+[0008.07] DevOnline: EOSSDK-LogEOSRTC: EOS_RTCAudio_GetAudioInputDeviceByIndex is deprecated. Use EOS_RTCAudio_QueryInputDevicesInformation with EOS_RTCAudio_CopyInputDeviceInformationByIndex instead.
+[0008.07] DevOnline: EOSSDK-LogEOSRTC: EOS_RTCAudio_GetAudioOutputDevicesCount is deprecated. Use EOS_RTCAudio_QueryOutputDevicesInformation with EOS_RTCAudio_GetOutputDevicesCount instead.
+[0008.07] DevOnline: EOSSDK-LogEOSRTC: EOS_RTCAudio_GetAudioOutputDeviceByIndex is deprecated. Use EOS_RTCAudio_QueryOutputDevicesInformation with EOS_RTCAudio_CopyOutputDeviceInformationByIndex instead.
+[0008.07] EOSGameClips: EOSGameClips: Activate called successfully.
+[0008.07] EOSGameClips: EOSGameClips: Audio initialized successfully.
+[0008.07] EOSGameClips: EOSGameClips: Subscribed to game clips status events successfully.
+[0008.07] EOSGameClips: EOSGameClips: Subscribed to user status events successfully.
+[0008.07] EOSGameClips: EOSGameClips: Successfully initialized!
+[0008.07] ScriptWarning: ScriptWarning, Assertion failed, line 36
+	ContentConfig_TA Transient.Untitled_0.ContentConfig
+	Function ProjectX.ContentConfig_X:Apply:01D5
+Script call stack:
+	Function ProjectX.OnlineConfigDispatcher_X:ApplyConfigObject
+	Function TAGame.ContentConfig_TA:Apply
+	Function ProjectX.ContentConfig_X:Apply
+
+[0008.07] ScriptWarning: ScriptWarning, Assertion failed, line 36
+	ContentConfig_TA Transient.Untitled_0.ContentConfig
+	Function ProjectX.ContentConfig_X:Apply:01D5
+Script call stack:
+	Function ProjectX.OnlineConfigDispatcher_X:ApplyConfigObject
+	Function TAGame.ContentConfig_TA:Apply
+	Function ProjectX.ContentConfig_X:Apply
+
+[0008.07] ScriptWarning: ScriptWarning, Assertion failed, line 36
+	ContentConfig_TA Transient.Untitled_0.ContentConfig
+	Function ProjectX.ContentConfig_X:Apply:01D5
+Script call stack:
+	Function ProjectX.OnlineConfigDispatcher_X:ApplyConfigObject
+	Function TAGame.ContentConfig_TA:Apply
+	Function ProjectX.ContentConfig_X:Apply
+
+[0008.07] ScriptWarning: ScriptWarning, Assertion failed, line 36
+	ContentConfig_TA Transient.Untitled_0.ContentConfig
+	Function ProjectX.ContentConfig_X:Apply:01D5
+Script call stack:
+	Function ProjectX.OnlineConfigDispatcher_X:ApplyConfigObject
+	Function TAGame.ContentConfig_TA:Apply
+	Function ProjectX.ContentConfig_X:Apply
+
+[0008.10] Log: ProductDatabase_TA::UpdateAvailableProducts  0.03 sec total.
+[0008.57] Log: ProductDatabase_TA::InitProductLabels  0.01 sec total.
+[0008.57] PsyNet: PsyNetConnection_X_0 enabled
+[0008.59] PsyNetStaticData: UpdateCacheTimerEnabled CacheTimer.bEnabled=(True)
+[0008.59] EOSGameClips: Construct Constructed EOSGameClipsManager_TA. Self=(EOSGameClipsManager_TA_0)
+[0008.59] AuthPsyNetVerbose: New auth error. Error 'OSCS_NotConnected'
+[0008.59] AuthPsyNetVerbose: OnlinePlayerAuthentication_TA_0 None Unknown|0|0 Logout
+[0008.59] PsyNet: PsyNetConnection_X_1 disabled OSCS_NotConnected
+[0008.59] AuthPsyNetVerbose: PsyNet connection status changed. Error 'OSCS_NotConnected'
+[0008.59] AuthPsyNetVerbose: New auth error. Error 'OSCS_NotConnected'
+[0008.59] AuthPsyNetVerbose: OnlinePlayerAuthentication_TA_0 LoggedOut Unknown|0|0 Logout
+[0008.59] AuthPlatformCritical: Initiating auth. Player num '0', Name '', Password length '0'
+[0008.59] DevOnline: Logged in as 'Lock'
+[0008.59] AuthPlatformCritical: Login status changed for player '0' to 'LS_LoggedIn'
+[0008.59] AuthPlatformVerbose: Login attempt concluded
+[0008.59] PsyNet: PsyNetConnection_X_1 enabled
+[0008.59] AuthPsyNetVerbose: PsyNet connection status changed. Error 'None'
+[0008.59] AuthPsyNetVerbose: Transitioning to state 'RequestAuthCode'
+[0008.59] AuthPsyNetCritical: Requesting auth ticket from platform for 'Steam|76561198026543789|0'
+[0008.59] DevOnline: Issuing request for auth session ticket
+[0008.59] DevOnline: Successfully set the friend join URL: 
+[0008.59] Party: HandleLocalPlayerLoginStatusChanged PlayerName=Lock PlayerID=Steam|76561198026543789|0 LoginStatus=LS_LoggedIn IsPrimary=True IsInParty=False
+[0008.59] SaveGame: Load Player.ControllerId=(0) SaveFileName=(..\..\TAGame\SaveData\DBE_Production\76561198026543789.save)
+[0008.61] Breadcrumbs: Startup_InitOnlineSubsystem: 1.141
+[0008.61] DevNet: Browse: MENU_Main_p
+[0008.61] Log: LoadMap: MENU_Main_p
+[0008.61] Exit: XAudio2 Device shut down.
+[0008.63] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_GFxMenu_SF.upk
+[0008.65] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_MainMenu_SF.upk
+[0008.65] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_StartMenu_SF.upk
+[0008.70] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MainMenu_SF.upk
+[0008.74] Log: Game class is 'GameInfo_GFxMenu_TA'
+[0008.76] Log: Bringing World menu_main_p.TheWorld up for play (0) at 2025.10.11-21.32.28
+[0008.76] Log: Flushing async loaders.
+[0008.98] Log: Flushed async loaders.
+[0008.98] Log: Bringing up level for play took: 0.230681
+[0008.98] PartyChallenge: UpdateChallengeProgressForCompetitive bChallengesComplete=(True)
+[0009.20] DevOnline: DiscordCreate FAILED= 4
+[0009.20] DevOnline: Set rich presence to: Main Menu data: Menu
+[0009.20] Log: ########### Finished loading level: 0.590472 seconds
+[0009.21] Breadcrumbs: Startup_Browse: 0.604
+[0009.21] Log: Initializing Engine Completed
+[0009.21] Breadcrumbs: Startup_Total: 9.214
+[0009.24] AuthPsyNetCritical: Platform auth ticket completed with success 'True'
+[0009.24] AuthPsyNetVerbose: Transitioning to state 'WaitForEOS'
+[0009.24] AuthPsyNetCritical: Waiting for EOS initialization
+[0009.24] AuthPsyNetCritical: EOS initialization received
+[0009.24] AuthPsyNetVerbose: Transitioning to state 'RequestEpicAuthCode'
+[0009.24] AuthEpicCritical: Sending auth request for player '76561198026543789'
+[0009.24] AuthEpicCritical: Initiating login for player '76561198026543789'
+[0009.24] ScriptLog: HandleBlockListStatusCreated Status=(PlatformBlockListStatus_0) ControllerId=(0)
+[0009.24] AuthEpicCritical: Sending Eos login request with Credentials '{Version '4', Id Length '0', Token Length '516', Type 'EOS_LCT_ExternalAuth', SystemAuthCredentialsOptions null? 'Null', ExternalType 'EOS_ECT_STEAM_SESSION_TICKET'}'
+[0009.24] DevOnline: WebRequest_X_1 SEND: https://rl-cdn.psyonix.com/SpecialEvent/Images/67/67_event_log_uieww.png
+[0009.24] DevOnline: WebRequest_X_2 SEND: https://rl-cdn.psyonix.com/SpecialEvent/Images/67/RL_67_Weekend_LTE_EventScreen_pue9hf.jpg
+[0009.24] DevOnline: WebRequest_X_3 SEND: https://rl-cdn.psyonix.com/LogoImages/S20/rl_season20-logo_EN_1024x1024.png
+[0009.24] DevOnline: EOSSDK-LogEOSIntegratedPlatform: Steam version does not support string sanitization. Minimum version required = 1.45
+[0009.31] SaveGame: HandleDataLoaded Result.Code=(BasicLoadResult_Success)
+[0009.32] ScriptLog: NetworkSave_TA_0 ApplySettings ReplicationRate=60 NetSpeed=15000 InputRate=60
+[0009.53] SaveData: Profile_TA_0 OnLoaded LocalID=(0)
+[0009.53] SaveData: Profile_TA_1 OnLoaded LocalID=(1)
+[0009.53] ScriptLog: GetDLCProducts, UnlockedDLCList=SuperSonic,Revenge,Wasteland,body_charged
+[0010.03] ScriptLog: GetDLCProducts, UnlockedDLCList=SuperSonic,Revenge,Wasteland,body_charged
+[0010.03] SaveGame: LocalPlayer_TA_0 HandleSaveDataLoaded 
+[0010.05] Log: 
+
+
+BakkesMod loaded
+
+
+[0010.29] FTECritical: [GFx] Changed active tutorial from 'null' to 'NONE'. Tutorial active? 'false', New checkpoint active? 'false'
+[0010.29] FTEVerbose: Checkpoint 'None' attempted completion while the FTE isn't active!
+[0010.30] Log: Flushing async loaders.
+[0010.76] Log: Flushed async loaders.
+[0011.06] Warning: Warning, Material body_lionsmane.MAT_Lionsmane_Temp missing bUsedWithStaticLighting=True!
+[0011.06] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0011.07] Log: Detected new XInput controller 0
+[0011.07] XPGatedPlaylists: Not currently in a party.
+[0011.07] DevOnline: Obtained steam user stats, user: 76561198026543789
+[0011.09] DevOnline: EOSSDK-LogEOSGameClips: Recording supported and available.
+[0011.09] EOSGameClips: EOSGameClips: Availability changed from Pending to Available.
+[0011.34] DevOnline: WebRequest_X_3 RECV: 304 
+[0011.36] DevOnline: WebRequest_X_2 RECV: 304 
+[0011.39] DevOnline: WebRequest_X_1 RECV: 304 
+[0012.68] Log: Flushing async loaders.
+[0012.72] Log: Flushed async loaders.
+[0014.19] AuthEpicCritical: Eos login result 'EOS_Success' for player '0'
+[0014.62] AuthEpicCritical: Connect login result 'EOS_Success' for player '29102162b92948868b021454382b618a', local num '0'
+[0014.62] FTEVerbose: [GFx] EULA sync started, waiting for response.
+[0014.62] DevOnline: WebRequest_X_4 SEND: https://eulatracking-public-service-prod06.ol.epicgames.com/eulatracking/api/eos/v1/agreements/rocket_league/identities/29102162b92948868b021454382b618a?locale=en
+[0014.62] AuthEpicCritical: Login status changed for player '0' to 'LS_LoggedIn'
+[0014.62] AuthPsyNetCritical: Epic auth ticket completed for '29102162b92948868b021454382b618a' with error 'None'
+[0014.62] AuthPsyNetVerbose: Transitioning to state 'SendLoginRequest'
+[0014.62] AuthPsyNetCritical: Sending login RPC for player '76561198026543789' Auth ticket required? 'True'
+[0014.62] AuthPsyNetCritical: Primary player ID? 'Steam|76561198026543789|0' Logging In PlayerID '76561198026543789'
+[0014.62] AuthEpicVerbose: Requesting cabined status for player '0'
+[0014.62] DevOnline: WebRequest_X_5 SEND: https://api.epicgames.dev/epic/id/v1/accounts?accountId=29102162b92948868b021454382b618a
+[0014.62] PsyNet: HTTP send ID=PsyNetMessage_X_0 Message=PsyNetMessage_X_0
+[0014.62] DevOnline: WebRequest_X_6 SEND: https://api.rlpp.psynet.gg/rpc/Auth/AuthPlayer/v2
+[0014.72] XPGatedPlaylists: Not currently in a party.
+[0015.26] DevOnline: EOSSDK-LogEOSIntegratedPlatform: FIntegratedSteamSanitizer: Sanitizer is implemented for this platform, but steam sanitizer not initialized. Falling back to generic sanitizer
+[0015.32] Log: Assigning XInput controller to 0
+[0015.34] DevOnline: EOSSDK-LogEOSIntegratedPlatform: FIntegratedSteamSanitizer: Sanitizer is implemented for this platform, but steam sanitizer not initialized. Falling back to generic sanitizer
+[0016.20] DevOnline: WebRequest_X_5 RECV: 200 
+[0016.20] AuthEpicVerbose: Cabined request completed for user '0' with result 'False', Error 'None'
+[0016.20] ScriptLog: ChatFilterManager HandleSaveLoaded: [Error: Type:None] 
+[0016.20] ScriptLog: ChatFilterManager: Updating Permissions for player LocalPlayer_TA_0
+[0016.20] ScriptLog: ChatFilterManager: Updating MostRestrictiveVoiceFilter [Save: ChatFilter_None] [Current: ChatFilter_All
+[0016.20] ScriptLog: ChatFilterManager: Updating Permissions for player LocalPlayer_TA_0
+[0016.20] ScriptLog: ChatFilterManager: Updating MostRestrictiveVoiceFilter [Save: ChatFilter_None] [Current: ChatFilter_All
+[0016.20] AuthEpicVerbose: [GFx] Epic flow completed 'false'
+[0016.20] FTEVerbose: [GFx] Checked FTE progress before a primary player is set
+[0016.20] FTEVerbose: [GFx] Checked FTE progress before a primary player is set
+[0016.23] Log: [HandleVoiceModerationAgreementCallback] EpicAccountId=29102162b92948868b021454382b618a bIsAccepted=0 bHasResponse=1 bNewAgreement=0
+[0016.29] XPGatedPlaylists: Not currently in a party.
+[0016.31] DevOnline: WebRequest_X_4 RECV: 204 
+[0016.31] Log: Failed to parse JSON: offset:'0' 'The document is empty.'
+[0016.31] Log: UJSONSerializer_X::DecodeObject() Failed: Object=EulaTextResponse Transient.EulaTextResponse_0
+Json:
+
+[0016.31] DevOnline: WebRequest_X_7 SEND: https://eulatracking-public-service-prod06.ol.epicgames.com/eulatracking/api/eos/v1/agreements/rocket_league?locale=en
+[0016.31] FTEVerbose: [GFx] EULA sync response received.
+[0016.54] DevOnline: Set rich presence to: Main Menu data: Menu
+[0016.54] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '2', Legacy state '1'
+[0016.54] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0016.54] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '2', Legacy state '1'
+[0016.54] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0016.54] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '2', Legacy state '1'
+[0016.54] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0016.54] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '2', Legacy state '1'
+[0016.54] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0016.54] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '2', Legacy state '1'
+[0016.54] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0017.05] DevOnline: WebRequest_X_7 RECV: 200 
+[0018.76] DevOnline: EOSSDK-LogEOSIntegratedPlatform: FIntegratedSteamSanitizer: Sanitizer is implemented for this platform, but steam sanitizer not initialized. Falling back to generic sanitizer
+[0019.24] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[10.002186s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[1.851434s] MaxExecutionTime=[0.000380s] TicksCount=[2366] ExpectedTicksCount=[1000]
+[0019.62] DevOnline: EOSSDK-LogEOSIntegratedPlatform: FIntegratedSteamSanitizer: Sanitizer is implemented for this platform, but steam sanitizer not initialized. Falling back to generic sanitizer
+[0019.62] DevOnline: EOSSDK-LogEOSIntegratedPlatform: FIntegratedSteamSanitizer: Sanitizer is implemented for this platform, but steam sanitizer not initialized. Falling back to generic sanitizer
+[0019.63] DevOnline: EOSSDK-LogEOSUI: Social Overlay: HandleFriendsStateUpdateRequest - Sanitized display name is not set!
+[0019.75] DevOnline: EOSSDK-LogEOSIntegratedPlatform: FIntegratedSteamSanitizer: Sanitizer is implemented for this platform, but steam sanitizer not initialized. Falling back to generic sanitizer
+[0019.75] DevOnline: EOSSDK-LogEOSIntegratedPlatform: FIntegratedSteamSanitizer: Sanitizer is implemented for this platform, but steam sanitizer not initialized. Falling back to generic sanitizer
+[0021.07] Log: RPC Error (failure): Service=Filters/FilterContent, Type=NotLoggedInToPsynet, Code=-1, Message=Timed out waiting for login to Psynet
+[0024.72] Log: RPC Error (failure): Service=Filters/FilterContent, Type=NotLoggedInToPsynet, Code=-1, Message=Timed out waiting for login to Psynet
+[0034.48] ScriptLog: ChatFilterManager: Updating Permissions for player LocalPlayer_TA_0
+[0034.48] ScriptLog: ChatFilterManager: Updating MostRestrictiveVoiceFilter [Save: ChatFilter_None] [Current: ChatFilter_All
+[0034.52] Log: FSaveDataExportTask(0) wrote 4359028 bytes to memory
+[0034.52] Log: SaveGameDataAsync game thread time: 36 ms
+[0034.52] Log: All Windows Closed
+[0034.52] Log: appRequestExit(0)
+[0034.56] Matchmaking: OnlineGameMatchmaking_X_0 OnlineGameMatchmaking_X -> None
+[0034.56] Matchmaking: OnlineGameTourMatchmaking_TA_0 OnlineGameTourMatchmaking_TA -> None
+[0034.56] DevOnline: PsyNet Flush Start TimeoutSeconds=0.500000
+[0035.08] DevOnline: PsyNet Flush End
+[0035.09] Exit: Preparing to exit.
+[0035.21] Exit: Game engine shut down
+[0035.21] Exit: Windows client shut down
+[0035.24] Exit: AK Audio shut down.
+[0044.05] Log: Deleting old save file ..\..\TAGame\SaveData\DBE_Production\76561198026543789_2.save
+[0044.05] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveData\DBE_Production\76561198026543789_1.save] Result:[1]
+[0044.05] Exit: Object subsystem successfully closed.
+[0044.06] DevOnline: EOSSDK-LogEOSUI: Social Overlay: browser was closed. Reopening...
+[0044.06] DevOnline: EOSSDK-LogEOSRTC: TickTracker Tick is delayed. TimePeriod=[14.810834s]  TickIntervalThreshold=[0.100000s] MaxTickInterval=[9.637085s] MaxExecutionTime=[0.000044s] TicksCount=[1029] ExpectedTicksCount=[1481]
+[0044.77] DevOnline: EOSSDK-LogEOSOverlay: Overlay not ready to load <Redacted>, WidgetManager=0, TickThread=1, RenderProcess=1, GraphicsReady=0
+[0044.77] DevOnline: EOSSDK-LogEOSUI: Social Overlay: Load not ready. will retry in 10.000000s.
+[0046.07] Exit: Exiting.
+[0046.07] Log: Log file closed, 11/10/2025 21:33:05
