@@ -1,0 +1,659 @@
+[10/13/2025 01:11:39][Error] - [All] [Verifier] Version already verified: bedcf2429a194ececacfd574743d8547acfdb0d1
+UnityEngine.Color:get_yellow()
+Awaken.Utility.Debugging.InitLoggerProxy:TriggerQueuedLogs()
+
+
+[10/13/2025 01:11:43][Warning] - <-----  Initialization step [ApplicationScene init]: Started  ----->
+
+
+[10/13/2025 01:11:43][Warning] - <-----  Initializing Cloud with SteamCloudService  ----->
+
+
+[10/13/2025 01:11:43][Warning] - <-----  Init Game Language: English (en), loading tables.  ----->
+
+
+[10/13/2025 01:11:43][Warning] - <-----  Loading localization table Story  ----->
+
+
+[10/13/2025 01:11:43][Warning] - <-----  Loading localization table Prefabs  ----->
+
+
+[10/13/2025 01:11:43][Warning] - <-----  Loading localization table Overrides  ----->
+
+
+[10/13/2025 01:11:43][Warning] - <-----  Loading localization table LocTerms  ----->
+
+
+[10/13/2025 01:11:43][Warning] - <-----  Loading localization table KeyBindings  ----->
+
+
+[10/13/2025 01:11:43][Warning] - <-----  Loading localization table Tags  ----->
+
+
+[10/13/2025 01:11:43][Warning] - [Important] Loaded Mods [Awaken.TG.Assets.Modding.Mod[]]:
+	
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Awaken.ECS.DrakeRenderer.Authoring.DrakeRendererEntitiesManager:CreateArchetype(DrakeRendererArchetypeKey, EntityManager)
+Awaken.Utility.Assets.Modding.ModManager:.ctor()
+Awaken.TG.Assets.Modding.ModService:.ctor()
+Awaken.TG.Main.Scenes.SceneConstructors.<InitializeServices>d__29:MoveNext()
+Awaken.TG.Main.Scenes.SceneConstructors.<InitAll>d__22:MoveNext()
+Awaken.TG.Main.Scenes.SceneConstructors.ApplicationScene:Start()
+
+
+[10/13/2025 01:11:43][Warning] - <-----  Set keyboard layout to: QWERTY  ----->
+
+
+[10/13/2025 01:11:43][Warning] - <-----  Loading save 'MetaData_AutoSave_1' from version '1.05.002'  ----->
+
+
+[10/13/2025 01:11:43][Warning] - <-----  Loading save 'MetaData_Slot_2' from version '1.05.002'  ----->
+
+
+[10/13/2025 01:11:43][Warning] - <-----  Initialization step [ApplicationScene init]: Completed  ----->
+
+
+[10/13/2025 01:11:43][Warning] - <-----  Starting game with version: [1.1.0c] 1.13.003  ----->
+
+
+[10/13/2025 01:11:48][Warning] - <-----  Loading 'Slot_2' from 'TitleScreen Continue'  ----->
+
+
+[10/13/2025 01:11:50][Warning] - <-----  Dropping TitleScreen  ----->
+
+
+[10/13/2025 01:11:50][Warning] - <-----  Dropping {save_slot}  ----->
+
+
+[10/13/2025 01:11:50][Warning] - <-----  Dropped previous domains  ----->
+
+
+[10/13/2025 01:11:50][Warning] - <-----  Unloaded all previous scenes  ----->
+
+
+[10/13/2025 01:11:50][Warning] - <-----  Waiting for templates to load  ----->
+
+
+[10/13/2025 01:11:53][Warning] - <-----  All templates loaded  ----->
+
+
+[10/13/2025 01:11:55][Error] - Value of name 'Distortion' was not found
+Awaken.TG.Main.Settings.Controllers.BoolVfxPropertyQuality:ApplyProperty(VisualEffect, Boolean)
+Awaken.TG.Main.Settings.Controllers.VfxPropertyByQualityController:SettingChanged(Setting)
+Awaken.TG.MVC.View:Initialize(Services, IModel)
+Awaken.TG.MVC.World:BindView(IModel, View, Boolean, Boolean, Boolean)
+Awaken.TG.Main.Settings.Controllers.StartDependentView`1:<AsyncAwake>b__2_1(T)
+Awaken.TG.MVC.ModelUtils:DoForFirstModelOfType(Action`1, IListenerOwner)
+Awaken.TG.Main.Settings.Controllers.<AsyncAwake>d__2:MoveNext()
+Awaken.TG.Main.Settings.Controllers.StartDependentView`1:Awake()
+
+
+[10/13/2025 01:11:55][Warning] - <-----  Loading save 'Gameplay' from version '1.05.002'  ----->
+
+
+[10/13/2025 01:11:55][Error] - [Critical] Model Hero:0:GamepadEffects:0 doesn't exist, but loading is continued
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Awaken.ECS.Elevator.SpawnChains_00000128$PostfixBurstDelegate:BeginInvoke(PrefabsDatas&, EntityManager&, AsyncCallback, Object)
+Awaken.TG.MVC.Serialization.SaveReader:ReadModel(T&)
+Awaken.TG.MVC.Serialization.SaveReader:Read(ModelElements&)
+Awaken.TG.MVC.Model:Deserialize(UInt16&, SaveReader)
+Awaken.TG.Main.Heroes.Hero:Deserialize(UInt16&, SaveReader)
+Awaken.TG.Main.Saving.LoadSystem:LoadModelContents(SaveReader, List`1, PatcherService, Version, SaveReaderContext)
+Awaken.TG.Main.Saving.LoadSystem:Deserialize(Domain, Stream, List`1&)
+Awaken.TG.Main.Saving.LoadSave:LoadFromCache(Domain)
+Awaken.TG.Main.Scenes.SceneConstructors.GameplayConstructor:RestoreGameplay(SaveSlot, Boolean)
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingTypes.FullLoading:OnComplete(IMapScene)
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingTypes.<>c__DisplayClass10_0:<EnumerateSceneLoading>b__2()
+Awaken.TG.MVC.Domains.SceneService:SceneLoaded(SceneReference)
+Awaken.TG.Main.Scenes.SceneConstructors.MapScene:Start()
+
+
+[10/13/2025 01:11:55][Warning] - <-----  Restored hero  ----->
+
+
+[10/13/2025 01:11:56][Warning] - BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "WaterSurfaces_Small/LakeParent/Lake"
+
+
+[10/13/2025 01:11:57][Warning] - <-----  Initialization step [MapScene init 'Prologue_Jail']: Started  ----->
+
+
+[10/13/2025 01:11:57][Warning] - <-----  Loading save 'Prologue_Jail' from version '1.05.002'  ----->
+
+
+[10/13/2025 01:11:58][Warning] - <-----  Initialization step [4 frame delay]: Started  ----->
+
+
+[10/13/2025 01:11:58][Warning] - <-----  Initialization step [MapScene init 'Prologue_Jail']: Completed  ----->
+
+
+[10/13/2025 01:11:58][Warning] - [Important] LocationReference is not set, returning empty list
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Awaken.ECS.DrakeRenderer.Authoring.DrakeRendererEntitiesManager:CreateArchetype(DrakeRendererArchetypeKey, EntityManager)
+Awaken.TG.Main.Locations.<MatchingLocations>d__37:MoveNext()
+System.Linq.Buffer`1:.ctor(IEnumerable`1)
+Awaken.TG.Main.Locations.Actions.Attachments.LogicEmitterActionBase`1:get_Locations()
+Awaken.TG.Main.Locations.Actions.Attachments.<LateInit>d__20:MoveNext()
+Awaken.TG.Main.Fights.Utils.<DelayFrame>d__8:MoveNext()
+Cysharp.Threading.Tasks.DelayFramePromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+
+
+[10/13/2025 01:11:58][Error] - [Important] Logic Emitter 1120358 has no Locations
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Awaken.ECS.DrakeRenderer.Authoring.DrakeRendererEntitiesManager:CreateArchetype(DrakeRendererArchetypeKey, EntityManager)
+Awaken.TG.Main.Locations.Actions.Attachments.<LateInit>d__20:MoveNext()
+Awaken.TG.Main.Fights.Utils.<DelayFrame>d__8:MoveNext()
+Cysharp.Threading.Tasks.DelayFramePromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+
+
+[10/13/2025 01:11:58][Warning] - <-----  Loading: Finalizing  ----->
+
+
+[10/13/2025 01:11:58][Error] - [Important] Patcher108_110 shouldn't modify position. Hero is not on a correct scene.
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Awaken.ECS.DrakeRenderer.Authoring.DrakeRendererEntitiesManager:CreateArchetype(DrakeRendererArchetypeKey, EntityManager)
+Awaken.TG.Main.Utility.Patchers.Patcher_RestoreOnFastTravelOrSpawn:ShouldModifyRestorationPosition()
+Awaken.TG.Main.Utility.Patchers.Patcher_RestoreOnFastTravelOrSpawn:<BeforeDeserializedModel>b__5_0(SceneReference)
+Awaken.TG.MVC.Events.LimitedEventListener`1:InvokeWith(Object)
+Awaken.TG.MVC.Events.EventSystem:Trigger(IEventSource, IEvent`2, TPayload)
+Awaken.TG.MVC.Events.EventSystem:Trigger(IEventSource, IEvent`2, TPayload)
+Awaken.TG.MVC.Events.EventSystem:Trigger(IEventSource, IEvent`2, TPayload)
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingTypes.<EnumerateSceneLoading>d__10:MoveNext()
+System.Linq.WhereEnumerableIterator`1:MoveNext()
+Awaken.TG.MVC.Domains.<SynchronousLoadControl>d__15:MoveNext()
+Cysharp.Threading.Tasks.NextFramePromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+
+
+[10/13/2025 01:11:58][Warning] - <-----  Loaded: , Scene(Prologue_Jail)  ----->
+
+
+[10/13/2025 01:11:58][Warning] - Adding null Transform to TransformAccessArray will result in degraded performance.
+Awaken.Kandra.Managers.VisibilityCullingManager:Register(UInt32, RendererData&, UInt32)
+Awaken.Kandra.KandraRendererManager:FinalizeRegistration()
+
+
+---- Entered loop with log ----
+Adding null Transform to TransformAccessArray will result in degraded performance.
+
+[10/13/2025 01:12:00][Warning] - <-----  Loading: fps stable  ----->
+
+
+[10/13/2025 01:12:01][Warning] - <-----  Loading: Completed  ----->
+
+
+[10/13/2025 01:12:01][Warning] - <-----  Loading: Fully discarded  ----->
+
+
+---- Entered loop with log ----
+Adding null Transform to TransformAccessArray will result in degraded performance.
+
+[10/13/2025 01:12:42][Exception] - NullReferenceException: Object reference not set to an instance of an object.
+Awaken.TG.Main.Heroes.CharacterSheet.Items.Equipment.VCEquipmentSlotBase.Handle (Awaken.TG.MVC.UI.Events.UIEvent evt) (at <00000000000000000000000000000000>:0)
+Awaken.TG.MVC.UI.Handlers.Focuses.Focus.HandleNaviActionByUIAware (Awaken.TG.MVC.UI.IUIAware aware, Awaken.TG.MVC.UI.Events.UINaviAction navi) (at <00000000000000000000000000000000>:0)
+Awaken.TG.MVC.UI.Handlers.Focuses.Focus.HandleNaviAction (Awaken.TG.MVC.UI.Events.UINaviAction naviAction) (at <00000000000000000000000000000000>:0)
+Awaken.TG.MVC.UI.GameUI.GetFirstNotIgnoredEventDeliveryDataOrDefault (Awaken.TG.MVC.UI.Events.UIEvent uiEvent, System.Collections.Generic.IReadOnlyList`1[T] stack) (at <00000000000000000000000000000000>:0)
+Awaken.TG.MVC.UI.GameUI.DeliverEvent (Awaken.TG.MVC.UI.Events.UIEvent uiEvent, UnityEngine.Event unityEvent, System.Collections.Generic.IReadOnlyList`1[T] stack) (at <00000000000000000000000000000000>:0)
+Awaken.TG.MVC.UI.GameUI.DeliverReInputEvent (Rewired.InputAction action, Awaken.TG.MVC.UI.Events.UIAction eventToDeliver) (at <00000000000000000000000000000000>:0)
+Awaken.TG.MVC.UI.GameUI.UpdateRewiredActions (Rewired.Player player) (at <00000000000000000000000000000000>:0)
+Awaken.TG.MVC.UI.GameUI.UpdateReInput () (at <00000000000000000000000000000000>:0)
+Awaken.TG.MVC.UI.GameUI.OnUpdate (System.Single deltaTime) (at <00000000000000000000000000000000>:0)
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI.<EndLoadingTransition>g__LoadingHash|67_1 () (at <00000000000000000000000000000000>:0)
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI.<EndLoadingTransition>g__LoadingHash|67_1 () (at <00000000000000000000000000000000>:0)
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI.<EndLoadingTransition>g__LoadingHash|67_1 () (at <00000000000000000000000000000000>:0)
+UnityEngine.Debug:LogException(Exception)
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+
+
+---- Entered loop with log ----
+NullReferenceException: Object reference not set to an instance of an object.
+
+[10/13/2025 01:12:49][Warning] - <-----  [Blocker] Entering SaveBlocker for Hero:0. World cannot be saved until this blocker is removed.  ----->
+
+
+[10/13/2025 01:12:49][Error] - [Critical] Material Mat_Female_Body_Plague_01 is already original Fpp_Body (Awaken.Kandra.KandraRenderer)
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Awaken.ECS.Elevator.SpawnChains_00000128$PostfixBurstDelegate:BeginInvoke(PrefabsDatas&, EntityManager&, AsyncCallback, Object)
+Awaken.Kandra.KandraRenderer:UseOriginalMaterial(Int32)
+Awaken.TG.Main.Character.Features.MaterialBasedBodyFeature:Release(Boolean)
+Awaken.TG.Main.Character.Features.<>c:<HideTaskInternal>b__107_0(BodyFeature)
+System.Linq.WhereSelectEnumerableIterator`2:MoveNext()
+Cysharp.Threading.Tasks.Internal.ArrayPoolUtil:Materialize(IEnumerable`1)
+Cysharp.Threading.Tasks.UniTask:WhenAll(IEnumerable`1)
+Awaken.TG.Main.Character.Features.<HideTaskInternal>d__107:MoveNext()
+Awaken.TG.Main.Character.Features.BodyFeatures:HideTaskInternal()
+Awaken.TG.Main.Heroes.Combat.<LoadBodyPrefab>d__293:MoveNext()
+Awaken.TG.Main.Heroes.Combat.VHeroController:LoadBodyPrefab()
+Awaken.TG.Main.Heroes.Combat.<TryReloadBodyWithEquips>d__294:MoveNext()
+Awaken.TG.Main.Heroes.Combat.VHeroController:TryReloadBodyWithEquips()
+Awaken.TG.Main.Heroes.Combat.<ChangeHeroPerspective>d__291:MoveNext()
+Awaken.TG.Main.Heroes.Combat.VHeroController:ChangeHeroPerspective(Boolean)
+Awaken.TG.Main.Heroes.VHeroKeys:Handle(UIEvent)
+Awaken.TG.Main.Heroes.PlayerInput:HandleRegisteredPlayerInputs(UIEvent, UIEventDelivery)
+Awaken.TG.Main.Heroes.PlayerInput:AfterDelivery(UIEventDelivery)
+Awaken.TG.MVC.UI.GameUI:PerformDelivery(UIResult, UIEvent, Event, IUIAware)
+Awaken.TG.MVC.UI.GameUI:DeliverEvent(UIEvent, Event, IReadOnlyList`1)
+Awaken.TG.MVC.UI.GameUI:DeliverReInputEvent(InputAction, UIAction)
+Awaken.TG.MVC.UI.GameUI:UpdateRewiredActions(Player)
+Awaken.TG.MVC.UI.GameUI:UpdateReInput()
+Awaken.TG.MVC.UI.GameUI:OnUpdate(Single)
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+
+
+[10/13/2025 01:12:49][Warning] - <-----  [Blocker] Exiting SaveBlocker for Hero:0. World can now be saved again if no other blockers are present.  ----->
+
+
+[10/13/2025 01:12:49][Error] - [Critical] Material Mat_Female_Body_Tint(Clone) is instanced but will be changed to new original Mesh_BaseHuman_Body (Awaken.Kandra.KandraRenderer)
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Awaken.ECS.Elevator.SpawnChains_00000128$PostfixBurstDelegate:BeginInvoke(PrefabsDatas&, EntityManager&, AsyncCallback, Object)
+Awaken.Kandra.KandraRenderer:UseOriginalMaterial(Int32, Material)
+Awaken.TG.Main.Character.Features.BodyFeatures:ApplyCustomBodyMaterials(BodyStateMaterials)
+Awaken.TG.Main.Character.Features.<ChangeBodyState>d__124:MoveNext()
+Awaken.TG.Main.Character.Features.BodyFeatures:ChangeBodyState(GeneralBodyState)
+Awaken.TG.VisualScripts.Units.Story.<>c__DisplayClass0_1:<Definition>b__2()
+Awaken.TG.Main.Heroes.Hero:OnVisualLoaded(Action)
+Awaken.TG.VisualScripts.Units.Story.<>c__DisplayClass0_0:<Definition>b__1(Flow)
+Awaken.TG.VisualScripts.Units.<>c__DisplayClass5_0:<DefineSimpleAction>b__0(Flow)
+Unity.VisualScripting.Flow:InvokeDelegate(ControlInput)
+Unity.VisualScripting.Flow:Invoke(ControlOutput)
+Awaken.TG.VisualScripts.Units.Utils.SafeGraph:RunRethrow(AutoDisposableFlow, ControlOutput)
+Awaken.TG.VisualScripts.Units.Utils.SafeGraph:Run(AutoDisposableFlow, ControlOutput)
+Awaken.TG.MVC.Events.EventSystem:Trigger(IEventSource, IEvent`2, TPayload)
+Awaken.TG.MVC.Events.EventSystem:Trigger(IEventSource, IEvent`2, TPayload)
+Awaken.TG.MVC.Events.EventSystem:Trigger(IEventSource, IEvent`2, TPayload)
+Awaken.TG.MVC.ModelExtensions:Trigger(TSource, Event`2, TPayload)
+Awaken.TG.Main.Heroes.Combat.<ChangeHeroPerspective>d__291:MoveNext()
+Awaken.TG.Main.Heroes.Combat.<TryReloadBodyWithEquips>d__294:MoveNext()
+Cysharp.Threading.Tasks.WhenAllPromise:TryInvokeContinuation(WhenAllPromise, Awaiter&)
+Cysharp.Threading.Tasks.<>c:<.ctor>b__3_0(Object)
+Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`2:SetResult(T)
+Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1:SetResult(T)
+Awaken.TG.Main.Locations.Mobs.<EquipTask>d__13:MoveNext()
+Awaken.TG.Main.Locations.Mobs.<EquipAfterLoaded>d__21:MoveNext()
+Cysharp.Threading.Tasks.DelayFramePromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+
+
+[10/13/2025 01:12:49][Error] - [Critical] Material Mat_Female_Head_Tint(Clone) is instanced but will be changed to new original Mesh_BaseHuman_Head (Awaken.Kandra.KandraRenderer)
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Awaken.ECS.Elevator.SpawnChains_00000128$PostfixBurstDelegate:BeginInvoke(PrefabsDatas&, EntityManager&, AsyncCallback, Object)
+Awaken.Kandra.KandraRenderer:UseOriginalMaterial(Int32, Material)
+Awaken.TG.Main.Character.Features.BodyFeatures:ApplyCustomBodyMaterials(BodyStateMaterials)
+Awaken.TG.Main.Character.Features.<ChangeBodyState>d__124:MoveNext()
+Awaken.TG.Main.Character.Features.BodyFeatures:ChangeBodyState(GeneralBodyState)
+Awaken.TG.VisualScripts.Units.Story.<>c__DisplayClass0_1:<Definition>b__2()
+Awaken.TG.Main.Heroes.Hero:OnVisualLoaded(Action)
+Awaken.TG.VisualScripts.Units.Story.<>c__DisplayClass0_0:<Definition>b__1(Flow)
+Awaken.TG.VisualScripts.Units.<>c__DisplayClass5_0:<DefineSimpleAction>b__0(Flow)
+Unity.VisualScripting.Flow:InvokeDelegate(ControlInput)
+Unity.VisualScripting.Flow:Invoke(ControlOutput)
+Awaken.TG.VisualScripts.Units.Utils.SafeGraph:RunRethrow(AutoDisposableFlow, ControlOutput)
+Awaken.TG.VisualScripts.Units.Utils.SafeGraph:Run(AutoDisposableFlow, ControlOutput)
+Awaken.TG.MVC.Events.EventSystem:Trigger(IEventSource, IEvent`2, TPayload)
+Awaken.TG.MVC.Events.EventSystem:Trigger(IEventSource, IEvent`2, TPayload)
+Awaken.TG.MVC.Events.EventSystem:Trigger(IEventSource, IEvent`2, TPayload)
+Awaken.TG.MVC.ModelExtensions:Trigger(TSource, Event`2, TPayload)
+Awaken.TG.Main.Heroes.Combat.<ChangeHeroPerspective>d__291:MoveNext()
+Awaken.TG.Main.Heroes.Combat.<TryReloadBodyWithEquips>d__294:MoveNext()
+Cysharp.Threading.Tasks.WhenAllPromise:TryInvokeContinuation(WhenAllPromise, Awaiter&)
+Cysharp.Threading.Tasks.<>c:<.ctor>b__3_0(Object)
+Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`2:SetResult(T)
+Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1:SetResult(T)
+Awaken.TG.Main.Locations.Mobs.<EquipTask>d__13:MoveNext()
+Awaken.TG.Main.Locations.Mobs.<EquipAfterLoaded>d__21:MoveNext()
+Cysharp.Threading.Tasks.DelayFramePromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+
+
+---- Entered loop with log ----
+<-----  [Blocker] Entering SaveBlocker for Hero:0. World cannot be saved until this blocker is removed.  ----->
+
+[10/13/2025 01:12:56][Error] - [Critical] Material Mat_Female_Head_Plague_01 is already original Mesh_BaseHuman_Head (Awaken.Kandra.KandraRenderer)
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Awaken.ECS.Elevator.SpawnChains_00000128$PostfixBurstDelegate:BeginInvoke(PrefabsDatas&, EntityManager&, AsyncCallback, Object)
+Awaken.Kandra.KandraRenderer:UseOriginalMaterial(Int32)
+Awaken.TG.Main.Character.Features.MaterialBasedBodyFeature:Release(Boolean)
+Awaken.TG.Main.Character.Features.<>c:<HideTaskInternal>b__107_0(BodyFeature)
+System.Linq.WhereSelectEnumerableIterator`2:MoveNext()
+Cysharp.Threading.Tasks.Internal.ArrayPoolUtil:Materialize(IEnumerable`1)
+Cysharp.Threading.Tasks.UniTask:WhenAll(IEnumerable`1)
+Awaken.TG.Main.Character.Features.<HideTaskInternal>d__107:MoveNext()
+Awaken.TG.Main.Character.Features.BodyFeatures:HideTaskInternal()
+Awaken.TG.Main.Heroes.Combat.<LoadBodyPrefab>d__293:MoveNext()
+Awaken.TG.Main.Heroes.Combat.VHeroController:LoadBodyPrefab()
+Awaken.TG.Main.Heroes.Combat.<TryReloadBodyWithEquips>d__294:MoveNext()
+Awaken.TG.Main.Heroes.Combat.VHeroController:TryReloadBodyWithEquips()
+Awaken.TG.Main.Heroes.Combat.<ChangeHeroPerspective>d__291:MoveNext()
+Awaken.TG.Main.Heroes.Combat.VHeroController:ChangeHeroPerspective(Boolean)
+Awaken.TG.Main.Heroes.VHeroKeys:Handle(UIEvent)
+Awaken.TG.Main.Heroes.PlayerInput:HandleRegisteredPlayerInputs(UIEvent, UIEventDelivery)
+Awaken.TG.Main.Heroes.PlayerInput:AfterDelivery(UIEventDelivery)
+Awaken.TG.MVC.UI.GameUI:PerformDelivery(UIResult, UIEvent, Event, IUIAware)
+Awaken.TG.MVC.UI.GameUI:DeliverEvent(UIEvent, Event, IReadOnlyList`1)
+Awaken.TG.MVC.UI.GameUI:DeliverReInputEvent(InputAction, UIAction)
+Awaken.TG.MVC.UI.GameUI:UpdateRewiredActions(Player)
+Awaken.TG.MVC.UI.GameUI:UpdateReInput()
+Awaken.TG.MVC.UI.GameUI:OnUpdate(Single)
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+
+
+---- Entered loop with log ----
+[Critical] Material Mat_Female_Head_Plague_01 is already original Mesh_BaseHuman_Head (Awaken.Kandra.KandraRenderer)
+
+[10/13/2025 01:12:56][Error] - [Critical] Material Mat_Female_Body_Plague_01 is already original Mesh_BaseHuman_Body (Awaken.Kandra.KandraRenderer)
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Awaken.ECS.Elevator.SpawnChains_00000128$PostfixBurstDelegate:BeginInvoke(PrefabsDatas&, EntityManager&, AsyncCallback, Object)
+Awaken.Kandra.KandraRenderer:UseOriginalMaterial(Int32)
+Awaken.TG.Main.Character.Features.MaterialBasedBodyFeature:Release(Boolean)
+Awaken.TG.Main.Character.Features.<>c:<HideTaskInternal>b__107_0(BodyFeature)
+System.Linq.WhereSelectEnumerableIterator`2:MoveNext()
+Cysharp.Threading.Tasks.Internal.ArrayPoolUtil:Materialize(IEnumerable`1)
+Cysharp.Threading.Tasks.UniTask:WhenAll(IEnumerable`1)
+Awaken.TG.Main.Character.Features.<HideTaskInternal>d__107:MoveNext()
+Awaken.TG.Main.Character.Features.BodyFeatures:HideTaskInternal()
+Awaken.TG.Main.Heroes.Combat.<LoadBodyPrefab>d__293:MoveNext()
+Awaken.TG.Main.Heroes.Combat.VHeroController:LoadBodyPrefab()
+Awaken.TG.Main.Heroes.Combat.<TryReloadBodyWithEquips>d__294:MoveNext()
+Awaken.TG.Main.Heroes.Combat.VHeroController:TryReloadBodyWithEquips()
+Awaken.TG.Main.Heroes.Combat.<ChangeHeroPerspective>d__291:MoveNext()
+Awaken.TG.Main.Heroes.Combat.VHeroController:ChangeHeroPerspective(Boolean)
+Awaken.TG.Main.Heroes.VHeroKeys:Handle(UIEvent)
+Awaken.TG.Main.Heroes.PlayerInput:HandleRegisteredPlayerInputs(UIEvent, UIEventDelivery)
+Awaken.TG.Main.Heroes.PlayerInput:AfterDelivery(UIEventDelivery)
+Awaken.TG.MVC.UI.GameUI:PerformDelivery(UIResult, UIEvent, Event, IUIAware)
+Awaken.TG.MVC.UI.GameUI:DeliverEvent(UIEvent, Event, IReadOnlyList`1)
+Awaken.TG.MVC.UI.GameUI:DeliverReInputEvent(InputAction, UIAction)
+Awaken.TG.MVC.UI.GameUI:UpdateRewiredActions(Player)
+Awaken.TG.MVC.UI.GameUI:UpdateReInput()
+Awaken.TG.MVC.UI.GameUI:OnUpdate(Single)
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+
+
+---- Entered loop with log ----
+[Critical] Material Mat_Female_Body_Plague_01 is already original Mesh_BaseHuman_Body (Awaken.Kandra.KandraRenderer)
+
+[10/13/2025 01:12:56][Warning] - [Important] Trying to uncull a culler that was not culled
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Awaken.ECS.DrakeRenderer.Authoring.DrakeRendererEntitiesManager:CreateArchetype(DrakeRendererArchetypeKey, EntityManager)
+Awaken.Kandra.KandraTrisCullee:Uncull(KandraTrisCuller)
+Awaken.Kandra.KandraTrisCuller:OnDestroy()
+
+
+[10/13/2025 01:12:56][Warning] - <-----  [Blocker] Exiting SaveBlocker for Hero:0. World can now be saved again if no other blockers are present.  ----->
+
+
+[10/13/2025 01:13:04][Warning] - Adding null Transform to TransformAccessArray will result in degraded performance.
+MagicaCloth2.TransformManager:AddTransform(Int32, Int32)
+MagicaCloth2.ColliderManager:Register(ClothProcess)
+MagicaCloth2.<RuntimeBuildAsync>d__9:MoveNext()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+
+---- Entered loop with log ----
+Adding null Transform to TransformAccessArray will result in degraded performance.
+
+[10/13/2025 01:14:13][Warning] - Fmod event guid is not set
+UnityEngine.Debug:LogWarning(Object)
+FMODUnity.RuntimeManager:TryGetEventDescription(GUID, EventDescription&, EventDebugData)
+Awaken.TG.Main.AudioSystem.FMODManager:PlayOneShot(GUID, Vector3, ICollection`1, EventDebugData)
+Awaken.TG.Main.AudioSystem.FMODManager:PlayOneShot(EventReference, Vector3, ICollection`1, Object)
+Awaken.TG.Main.UI.Popup.VReadableObjectPopupUI:OnFullyInitialized()
+Awaken.TG.MVC.World:BindView(IModel, View, Boolean, Boolean, Boolean)
+Awaken.TG.MVC.World:SpawnViewFromPrefab(IModel, Type, GameObject, Boolean, Boolean, Transform, Boolean)
+Awaken.TG.Main.Stories.Story:InitView(Story, Type)
+Awaken.TG.Main.Stories.Story:InitStory(Story, StoryBookmark, Type)
+Awaken.TG.Main.Stories.Story:FinishStartStoryDeferred(StoryConfig, Story)
+Awaken.TG.Main.Stories.Story:StartStory(StoryConfig)
+Awaken.TG.Main.Locations.Actions.ReadAction:OnStart(Hero, IInteractableWithHero)
+Awaken.TG.Main.Locations.Actions.AbstractHeroAction`1:StartInteraction(Hero, IInteractableWithHero)
+Awaken.TG.Main.Heroes.Interactions.HeroInteraction:StartInteraction(Hero, IInteractableWithHero, IHeroAction&)
+Awaken.TG.Main.Heroes.Interactions.HeroInteractionUI:Handle(UIEvent)
+Awaken.TG.Main.Heroes.PlayerInput:HandleRegisteredPlayerInputs(UIEvent, UIEventDelivery)
+Awaken.TG.Main.Heroes.PlayerInput:AfterDelivery(UIEventDelivery)
+Awaken.TG.MVC.UI.GameUI:PerformDelivery(UIResult, UIEvent, Event, IUIAware)
+Awaken.TG.MVC.UI.GameUI:DeliverEvent(UIEvent, Event, IReadOnlyList`1)
+Awaken.TG.MVC.UI.GameUI:DeliverReInputEvent(InputAction, UIAction)
+Awaken.TG.MVC.UI.GameUI:UpdateRewiredActions(Player)
+Awaken.TG.MVC.UI.GameUI:UpdateReInput()
+Awaken.TG.MVC.UI.GameUI:OnUpdate(Single)
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+
+
+---- Entered loop with log ----
+Fmod event guid is not set
+
+[10/13/2025 01:17:14][Warning] - <-----  Save AutoSave_3  ----->
+
+
+[10/13/2025 01:17:14][Error] - Dimensions of color surface ("TempBuffer 2211 320x180") do not match dimensions of depth surface ("CameraDepthStencil_3440x1440_D32_SFloat_S8_UInt_Tex2DArray_Dynamic"): (320, 180) != (3440, 1440)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+Awaken.TG.Utility.Cameras.<Render>d__9:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.WaitForEndOfFramePromise:System.Collections.IEnumerator.MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+
+[10/13/2025 01:17:14][Warning] - <-----  Save MetaData_AutoSave_3  ----->
+
+
+---- Entered loop with log ----
+Fmod event guid is not set
+
+[10/13/2025 01:19:12][Warning] - Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+Awaken.TG.Main.Heroes.Combat.CharacterWeapon:ProcessUpdate(Single)
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+Awaken.TG.Main.Scenes.SceneConstructors.MapScene:LateUpdate()
+
+
+---- Entered loop with log ----
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+
+[10/13/2025 01:20:28][Warning] - <-----  Save AutoSave_4  ----->
+
+
+[10/13/2025 01:20:28][Error] - Dimensions of color surface ("TempBuffer 3200 320x180") do not match dimensions of depth surface ("CameraDepthStencil_3440x1440_D32_SFloat_S8_UInt_Tex2DArray_Dynamic"): (320, 180) != (3440, 1440)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+Awaken.TG.Utility.Cameras.<Render>d__9:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.WaitForEndOfFramePromise:System.Collections.IEnumerator.MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+
+[10/13/2025 01:20:28][Warning] - <-----  Save MetaData_AutoSave_4  ----->
+
+
+[10/13/2025 01:20:39][Warning] - Fmod event guid is not set
+UnityEngine.Debug:LogWarning(Object)
+FMODUnity.RuntimeManager:TryGetEventDescription(GUID, EventDescription&, EventDebugData)
+Awaken.TG.Main.AudioSystem.FMODManager:PlayOneShot(GUID, Vector3, ICollection`1, EventDebugData)
+Awaken.TG.Main.AudioSystem.FMODManager:PlayOneShot(EventReference, Vector3, ICollection`1, Object)
+Awaken.TG.Main.UI.Popup.VReadableObjectPopupUI:OnFullyInitialized()
+Awaken.TG.MVC.World:BindView(IModel, View, Boolean, Boolean, Boolean)
+Awaken.TG.MVC.World:SpawnViewFromPrefab(IModel, Type, GameObject, Boolean, Boolean, Transform, Boolean)
+Awaken.TG.Main.Stories.Story:InitView(Story, Type)
+Awaken.TG.Main.Stories.Story:InitStory(Story, StoryBookmark, Type)
+Awaken.TG.Main.Stories.Story:FinishStartStoryDeferred(StoryConfig, Story)
+Awaken.TG.Main.Stories.Story:StartStory(StoryConfig)
+Awaken.TG.Main.Locations.Actions.ReadAction:OnStart(Hero, IInteractableWithHero)
+Awaken.TG.Main.Locations.Actions.AbstractHeroAction`1:StartInteraction(Hero, IInteractableWithHero)
+Awaken.TG.Main.Heroes.Interactions.HeroInteraction:StartInteraction(Hero, IInteractableWithHero, IHeroAction&)
+Awaken.TG.Main.Heroes.Interactions.HeroInteractionUI:Handle(UIEvent)
+Awaken.TG.Main.Heroes.PlayerInput:HandleRegisteredPlayerInputs(UIEvent, UIEventDelivery)
+Awaken.TG.Main.Heroes.PlayerInput:AfterDelivery(UIEventDelivery)
+Awaken.TG.MVC.UI.GameUI:PerformDelivery(UIResult, UIEvent, Event, IUIAware)
+Awaken.TG.MVC.UI.GameUI:DeliverEvent(UIEvent, Event, IReadOnlyList`1)
+Awaken.TG.MVC.UI.GameUI:DeliverReInputEvent(InputAction, UIAction)
+Awaken.TG.MVC.UI.GameUI:UpdateRewiredActions(Player)
+Awaken.TG.MVC.UI.GameUI:UpdateReInput()
+Awaken.TG.MVC.UI.GameUI:OnUpdate(Single)
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+
+
+[10/13/2025 01:20:50][Warning] - Adding null Transform to TransformAccessArray will result in degraded performance.
+MagicaCloth2.TransformManager:AddTransform(Int32, Int32)
+MagicaCloth2.ColliderManager:Register(ClothProcess)
+MagicaCloth2.<RuntimeBuildAsync>d__9:MoveNext()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+
+---- Entered loop with log ----
+Adding null Transform to TransformAccessArray will result in degraded performance.
+
+[10/13/2025 01:21:28][Warning] - [Important] Trying to uncull a culler that was not culled
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Awaken.ECS.DrakeRenderer.Authoring.DrakeRendererEntitiesManager:CreateArchetype(DrakeRendererArchetypeKey, EntityManager)
+Awaken.Kandra.KandraTrisCullee:Uncull(KandraTrisCuller)
+Awaken.Kandra.KandraTrisCuller:OnDestroy()
+
+
+---- Entered loop with log ----
+Adding null Transform to TransformAccessArray will result in degraded performance.
+
+[10/13/2025 01:22:40][Warning] - <-----  [Blocker] Entering SaveBlocker for Hero:0. World cannot be saved until this blocker is removed.  ----->
+
+
+[10/13/2025 01:22:40][Error] - [Critical] Material Mat_Female_Body_Plague_01 is already original Fpp_Body (Awaken.Kandra.KandraRenderer)
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Awaken.ECS.Elevator.SpawnChains_00000128$PostfixBurstDelegate:BeginInvoke(PrefabsDatas&, EntityManager&, AsyncCallback, Object)
+Awaken.Kandra.KandraRenderer:UseOriginalMaterial(Int32)
+Awaken.TG.Main.Character.Features.MaterialBasedBodyFeature:Release(Boolean)
+Awaken.TG.Main.Character.Features.<>c:<HideTaskInternal>b__107_0(BodyFeature)
+System.Linq.WhereSelectEnumerableIterator`2:MoveNext()
+Cysharp.Threading.Tasks.Internal.ArrayPoolUtil:Materialize(IEnumerable`1)
+Cysharp.Threading.Tasks.UniTask:WhenAll(IEnumerable`1)
+Awaken.TG.Main.Character.Features.<HideTaskInternal>d__107:MoveNext()
+Awaken.TG.Main.Character.Features.BodyFeatures:HideTaskInternal()
+Awaken.TG.Main.Heroes.Combat.<LoadBodyPrefab>d__293:MoveNext()
+Awaken.TG.Main.Heroes.Combat.VHeroController:LoadBodyPrefab()
+Awaken.TG.Main.Heroes.Combat.<TryReloadBodyWithEquips>d__294:MoveNext()
+Awaken.TG.Main.Heroes.Combat.VHeroController:TryReloadBodyWithEquips()
+Awaken.TG.Main.Heroes.Combat.<ChangeHeroPerspective>d__291:MoveNext()
+Awaken.TG.Main.Heroes.Combat.VHeroController:ChangeHeroPerspective(Boolean)
+Awaken.TG.Main.Heroes.VHeroKeys:Handle(UIEvent)
+Awaken.TG.Main.Heroes.PlayerInput:HandleRegisteredPlayerInputs(UIEvent, UIEventDelivery)
+Awaken.TG.Main.Heroes.PlayerInput:AfterDelivery(UIEventDelivery)
+Awaken.TG.MVC.UI.GameUI:PerformDelivery(UIResult, UIEvent, Event, IUIAware)
+Awaken.TG.MVC.UI.GameUI:DeliverEvent(UIEvent, Event, IReadOnlyList`1)
+Awaken.TG.MVC.UI.GameUI:DeliverReInputEvent(InputAction, UIAction)
+Awaken.TG.MVC.UI.GameUI:UpdateRewiredActions(Player)
+Awaken.TG.MVC.UI.GameUI:UpdateReInput()
+Awaken.TG.MVC.UI.GameUI:OnUpdate(Single)
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+
+
+---- Entered loop with log ----
+[Important] Trying to uncull a culler that was not culled
+
+[10/13/2025 01:22:40][Warning] - <-----  [Blocker] Exiting SaveBlocker for Hero:0. World can now be saved again if no other blockers are present.  ----->
+
+
+---- Entered loop with log ----
+<-----  [Blocker] Entering SaveBlocker for Hero:0. World cannot be saved until this blocker is removed.  ----->
+
+[10/13/2025 01:22:41][Error] - [Critical] Material Mat_Male_Body_Base_Hero(Clone) is instanced but will be changed to new original Fpp_Body (Awaken.Kandra.KandraRenderer)
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Awaken.ECS.Elevator.SpawnChains_00000128$PostfixBurstDelegate:BeginInvoke(PrefabsDatas&, EntityManager&, AsyncCallback, Object)
+Awaken.Kandra.KandraRenderer:UseOriginalMaterial(Int32, Material)
+Awaken.TG.Main.Character.Features.BodyFeatures:ApplyCustomBodyMaterials(BodyStateMaterials)
+Awaken.TG.Main.Character.Features.<ChangeBodyState>d__124:MoveNext()
+Awaken.TG.Main.Character.Features.BodyFeatures:ChangeBodyState(GeneralBodyState)
+Awaken.TG.VisualScripts.Units.Story.<>c__DisplayClass0_1:<Definition>b__2()
+Awaken.TG.Main.Heroes.Hero:OnVisualLoaded(Action)
+Awaken.TG.VisualScripts.Units.Story.<>c__DisplayClass0_0:<Definition>b__1(Flow)
+Awaken.TG.VisualScripts.Units.<>c__DisplayClass5_0:<DefineSimpleAction>b__0(Flow)
+Unity.VisualScripting.Flow:InvokeDelegate(ControlInput)
+Unity.VisualScripting.Flow:Invoke(ControlOutput)
+Awaken.TG.VisualScripts.Units.Utils.SafeGraph:RunRethrow(AutoDisposableFlow, ControlOutput)
+Awaken.TG.VisualScripts.Units.Utils.SafeGraph:Run(AutoDisposableFlow, ControlOutput)
+Awaken.TG.MVC.Events.EventSystem:Trigger(IEventSource, IEvent`2, TPayload)
+Awaken.TG.MVC.Events.EventSystem:Trigger(IEventSource, IEvent`2, TPayload)
+Awaken.TG.MVC.Events.EventSystem:Trigger(IEventSource, IEvent`2, TPayload)
+Awaken.TG.MVC.ModelExtensions:Trigger(TSource, Event`2, TPayload)
+Awaken.TG.Main.Heroes.Combat.<ChangeHeroPerspective>d__291:MoveNext()
+Awaken.TG.Main.Heroes.Combat.<TryReloadBodyWithEquips>d__294:MoveNext()
+Cysharp.Threading.Tasks.WhenAllPromise:TryInvokeContinuation(WhenAllPromise, Awaiter&)
+Cysharp.Threading.Tasks.<>c:<.ctor>b__3_0(Object)
+Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`2:SetResult(T)
+Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1:SetResult(T)
+Awaken.TG.Main.Locations.Mobs.<EquipTask>d__13:MoveNext()
+Awaken.TG.Main.Locations.Mobs.<EquipAfterLoaded>d__21:MoveNext()
+Cysharp.Threading.Tasks.DelayFramePromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+
+
+[10/13/2025 01:22:53][Warning] - Adding null Transform to TransformAccessArray will result in degraded performance.
+MagicaCloth2.TransformManager:AddTransform(Int32, Int32)
+MagicaCloth2.ColliderManager:Register(ClothProcess)
+MagicaCloth2.<RuntimeBuildAsync>d__9:MoveNext()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+
+---- Entered loop with log ----
+Adding null Transform to TransformAccessArray will result in degraded performance.
+
+[10/13/2025 01:23:41][Warning] - Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+Awaken.TG.Main.Heroes.Combat.CharacterWeapon:ProcessUpdate(Single)
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+Awaken.TG.Main.UI.TitleScreen.Loading.LoadingScreenUI:<EndLoadingTransition>g__LoadingHash|67_1()
+Awaken.TG.Main.Scenes.SceneConstructors.MapScene:LateUpdate()
+
+
+---- Entered loop with log ----
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+
+[10/13/2025 01:24:02][Warning] - <-----  Save AutoSave_1  ----->
+
+
+[10/13/2025 01:24:02][Error] - Dimensions of color surface ("TempBuffer 4595 320x180") do not match dimensions of depth surface ("CameraDepthStencil_3440x1440_D32_SFloat_S8_UInt_Tex2DArray_Dynamic"): (320, 180) != (3440, 1440)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+Awaken.TG.Utility.Cameras.<Render>d__9:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.WaitForEndOfFramePromise:System.Collections.IEnumerator.MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+
+[10/13/2025 01:24:02][Warning] - <-----  Save MetaData_AutoSave_1  ----->
+
+
+[10/13/2025 01:24:08][Warning] - Adding null Transform to TransformAccessArray will result in degraded performance.
+MagicaCloth2.TransformManager:AddTransform(Int32, Int32)
+MagicaCloth2.ColliderManager:Register(ClothProcess)
+MagicaCloth2.<RuntimeBuildAsync>d__9:MoveNext()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+
+---- Entered loop with log ----
+Adding null Transform to TransformAccessArray will result in degraded performance.
+
+[10/13/2025 01:25:37][Warning] - <-----  Save Slot_5  ----->
+
+
+[10/13/2025 01:25:37][Error] - Dimensions of color surface ("TempBuffer 4912 320x180") do not match dimensions of depth surface ("CameraDepthStencil_3440x1440_D32_SFloat_S8_UInt_Tex2DArray_Dynamic"): (320, 180) != (3440, 1440)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+Awaken.TG.Utility.Cameras.<Render>d__9:MoveNext()
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.WaitForEndOfFramePromise:System.Collections.IEnumerator.MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+
+[10/13/2025 01:25:37][Warning] - <-----  Save MetaData_Slot_5  ----->
+
+

@@ -1,0 +1,65 @@
+[10/13/2025 01:09:30][Error] - [All] [Verifier] Version already verified: bedcf2429a194ececacfd574743d8547acfdb0d1
+UnityEngine.Color:get_yellow()
+Awaken.Utility.Debugging.InitLoggerProxy:TriggerQueuedLogs()
+
+
+[10/13/2025 01:09:35][Warning] - <-----  Initialization step [ApplicationScene init]: Started  ----->
+
+
+[10/13/2025 01:09:35][Warning] - <-----  Initializing Cloud with SteamCloudService  ----->
+
+
+[10/13/2025 01:09:35][Warning] - <-----  Init Game Language: English (en), loading tables.  ----->
+
+
+[10/13/2025 01:09:35][Warning] - <-----  Loading localization table Story  ----->
+
+
+[10/13/2025 01:09:35][Warning] - <-----  Loading localization table Prefabs  ----->
+
+
+[10/13/2025 01:09:35][Warning] - <-----  Loading localization table Overrides  ----->
+
+
+[10/13/2025 01:09:35][Warning] - <-----  Loading localization table LocTerms  ----->
+
+
+[10/13/2025 01:09:35][Warning] - <-----  Loading localization table KeyBindings  ----->
+
+
+[10/13/2025 01:09:35][Warning] - <-----  Loading localization table Tags  ----->
+
+
+[10/13/2025 01:09:35][Warning] - [Important] Loaded Mods [Awaken.TG.Assets.Modding.Mod[]]:
+	
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Awaken.ECS.DrakeRenderer.Authoring.DrakeRendererEntitiesManager:CreateArchetype(DrakeRendererArchetypeKey, EntityManager)
+Awaken.Utility.Assets.Modding.ModManager:.ctor()
+Awaken.TG.Assets.Modding.ModService:.ctor()
+Awaken.TG.Main.Scenes.SceneConstructors.<InitializeServices>d__29:MoveNext()
+Awaken.TG.Main.Scenes.SceneConstructors.<InitAll>d__22:MoveNext()
+Awaken.TG.Main.Scenes.SceneConstructors.ApplicationScene:Start()
+
+
+[10/13/2025 01:09:35][Warning] - <-----  Set keyboard layout to: QWERTY  ----->
+
+
+[10/13/2025 01:09:35][Warning] - <-----  Loading save 'MetaData_AutoSave_1' from version '1.05.002'  ----->
+
+
+[10/13/2025 01:09:35][Warning] - <-----  Loading save 'MetaData_Slot_2' from version '1.05.002'  ----->
+
+
+[10/13/2025 01:09:35][Warning] - <-----  Initialization step [ApplicationScene init]: Completed  ----->
+
+
+[10/13/2025 01:09:36][Warning] - <-----  Starting game with version: [1.1.0c] 1.13.003  ----->
+
+
+[10/13/2025 01:09:59][Error] - Dimensions of color surface ("GammaImage") do not match dimensions of depth surface ("CameraDepthStencil_3440x1440_D32_SFloat_S8_UInt_Tex2DArray_Dynamic"): (1920, 1080) != (3440, 1440)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+
+
+---- Entered loop with log ----
+Dimensions of color surface ("GammaImage") do not match dimensions of depth surface ("CameraDepthStencil_3440x1440_D32_SFloat_S8_UInt_Tex2DArray_Dynamic"): (1920, 1080) != (3440, 1440)
+
