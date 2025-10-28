@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>AB347AC843E9CE025CF1CBAC0377EBA8</ExecutionGuid>
+		<CrashGUID>UECC-Windows-C74FE33E40BF17413E8429A1A456A4F9_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Crash</CrashType>
+		<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffffffffffff</ErrorMessage>
+		<CrashReporterMessage />
+		<CrashReporterMessage>Attended</CrashReporterMessage>
+		<ProcessId>133824</ProcessId>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsWithDebugInfo>true</IsWithDebugInfo>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-Cronos</GameName>
+		<ExecutableName>Cronos-Win64-Shipping</ExecutableName>
+		<BuildConfiguration>Shipping</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformFullName>Win64 [Windows 11 (24H2) [10.0.26100.6899]  64b]</PlatformFullName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.5.4-323631+++Titan+Stable</EngineVersion>
+		<EngineCompatibleVersion>5.5.4-323631+++Titan+Stable</EngineCompatibleVersion>
+		<CommandLine>Cronos</CommandLine>
+		<LanguageLCID>9</LanguageLCID>
+		<AppDefaultLocale>en-IN</AppDefaultLocale>
+		<BuildVersion>++Titan+Stable-CL-323631</BuildVersion>
+		<Symbols>**Titan*Stable-CL-323631-Win64-Shipping</Symbols>
+		<IsUERelease>true</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>D:/Installed Games/Cronos The New Dawn/Cronos/Binaries/Win64/</BaseDir>
+		<RootDir>D:/Installed Games/Cronos The New Dawn/</RootDir>
+		<MachineId>FC7CA17D49668F1191355E9EE3E20277</MachineId>
+		<LoginId>fc7ca17d49668f1191355e9ee3e20277</LoginId>
+		<EpicAccountId>29102162b92948868b021454382b618a</EpicAccountId>
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>6</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+		<Misc.CPUBrand>AMD Ryzen 5 7600X 6-Core Processor</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 4090</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 11 (24H2) [10.0.26100.6899]</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<Misc.AnticheatProvider />
+		<MemoryStats.TotalPhysical>33458536448</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>93588078592</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack>Cronos_Win64_Shipping
+Cronos_Win64_Shipping
+Cronos_Win64_Shipping
+Cronos_Win64_Shipping
+Cronos_Win64_Shipping
+Cronos_Win64_Shipping
+Cronos_Win64_Shipping
+Cronos_Win64_Shipping
+Cronos_Win64_Shipping
+Cronos_Win64_Shipping
+Cronos_Win64_Shipping
+kernel32
+ntdll</CallStack>
+		<PCallStack>
+
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 156197d 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 156b9bf 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 1565792 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 170f1dc 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 411aaff 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 410e671 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 411372c 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 41137aa 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 411467d 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 411c314 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 80e7a16 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</PCallStack>
+		<PCallStackHash>4FC477143B7170A532DB58221DD659E2CC6F7D6F</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 162394 
+steam_api64 0x00007ffeceeb0000 + 1edd1 
+KERNELBASE 0x00007fff9c9d0000 + 5b989 
+KERNELBASE 0x00007fff9c9d0000 + 5a73b 
+steam_api64 0x00007ffeceeb0000 + 1e2b0 
+steam_api64 0x00007ffeceeb0000 + 1e893 
+KERNELBASE 0x00007fff9c9d0000 + 4a7f6 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12b08b5 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12b62b3 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 811826e 
+VCRUNTIME140 0x00007fff82760000 + f47f 
+ntdll 0x00007fff9f840000 + 16632f 
+ntdll 0x00007fff9f840000 + 12327 
+ntdll 0x00007fff9f840000 + 165c6e 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 156197d 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 156b9bf 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 1565792 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 170f1dc 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 411aaff 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 410e671 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 411372c 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 41137aa 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 411467d 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 411c314 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 80e7a16 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>95068</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 117696e 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>142520</ThreadID>
+				<ThreadName>BackgroundThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 117696e 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>143848</ThreadID>
+				<ThreadName>BackgroundThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10edd72 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 110113d 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10e7eb1 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 1176b64 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>117280</ThreadID>
+				<ThreadName>Foreground Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10edd72 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 110113d 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10e7eb1 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 1176b64 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>79084</ThreadID>
+				<ThreadName>Background Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10edd72 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 110113d 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10e7eb1 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 1176b64 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>143416</ThreadID>
+				<ThreadName>Foreground Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10edd72 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10fdaf2 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10e7eaa 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 1176b64 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>142408</ThreadID>
+				<ThreadName>Foreground Worker (Standby #0)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10edd72 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 110113d 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10e7eb1 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 1176b64 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>142660</ThreadID>
+				<ThreadName>Background Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10edd72 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 110113d 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10e7eb1 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 1176b64 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>144388</ThreadID>
+				<ThreadName>Background Worker #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 162274 
+ntdll 0x00007fff9f840000 + cef34 
+KERNELBASE 0x00007fff9c9d0000 + 3e7a1 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 1176ad1 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>144392</ThreadID>
+				<ThreadName>FHeartBeatThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 33caadc 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>133112</ThreadID>
+				<ThreadName>FMediaTicker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 162744 
+KERNELBASE 0x00007fff9c9d0000 + 39333 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 7d3abb7 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 7d389fd 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 18fd209 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 18fcb3e 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 18fcba6 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>123068</ThreadID>
+				<ThreadName>HttpManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 46fe7c6 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>144924</ThreadID>
+				<ThreadName>OnlineAsyncTaskThreadSteam DefaultInstance</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 165844 
+ntdll 0x00007fff9f840000 + 9c1c3 
+KERNELBASE 0x00007fff9c9d0000 + e0a68 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 122342c 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 11001df 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10fff9c 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 126c696 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 1176b64 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11612</ThreadID>
+				<ThreadName>OutputDeviceRedirector</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 117696e 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>111832</ThreadID>
+				<ThreadName>IOThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 117696e 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>139152</ThreadID>
+				<ThreadName>IOThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 117696e 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>144804</ThreadID>
+				<ThreadName>IOThreadPool #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 117696e 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>26840</ThreadID>
+				<ThreadName>IOThreadPool #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 222bec2 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>29196</ThreadID>
+				<ThreadName>IoService</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 11b9852 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>127860</ThreadID>
+				<ThreadName>IoDispatcher</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 2ba3b05 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>142992</ThreadID>
+				<ThreadName>RHIInterruptThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 2ba3b05 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>143000</ThreadID>
+				<ThreadName>RHISubmissionThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10edd72 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 110113d 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10e7eb1 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 1176b64 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>143008</ThreadID>
+				<ThreadName>Background Worker #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10fa9ff 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 2d5854b 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>143016</ThreadID>
+				<ThreadName>RHIThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10fa9ff 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 2d57e02 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 2d585b7 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>143024</ThreadID>
+				<ThreadName>RenderThread 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 162274 
+ntdll 0x00007fff9f840000 + cef34 
+KERNELBASE 0x00007fff9c9d0000 + 3e7a1 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12b9bac 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 2d586b7 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>143028</ThreadID>
+				<ThreadName>RTHeartBeat 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10edd72 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 110113d 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10e7eb1 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 1176b64 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>143044</ThreadID>
+				<ThreadName>Background Worker #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10edd72 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 110113d 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10e7eb1 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 1176b64 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>143040</ThreadID>
+				<ThreadName>Background Worker #5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10edd72 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 110113d 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10e7eb1 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 1176b64 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>143036</ThreadID>
+				<ThreadName>Background Worker #6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10edd72 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 110113d 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10e7eb1 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 1176b64 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>143056</ThreadID>
+				<ThreadName>Background Worker #7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 117696e 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>146252</ThreadID>
+				<ThreadName>PSOPrecompilePool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 117696e 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>146256</ThreadID>
+				<ThreadName>PSOPrecompilePool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 117696e 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>146260</ThreadID>
+				<ThreadName>PSOPrecompilePool #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 117696e 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>146264</ThreadID>
+				<ThreadName>PSOPrecompilePool #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 117696e 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>146268</ThreadID>
+				<ThreadName>PSOPrecompilePool #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 117696e 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>146272</ThreadID>
+				<ThreadName>PSOPrecompilePool #5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 117696e 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>146196</ThreadID>
+				<ThreadName>PSOPrecompilePool #6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 117696e 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>146280</ThreadID>
+				<ThreadName>PSOPrecompilePool #7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 117696e 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>146172</ThreadID>
+				<ThreadName>PSOPrecompilePool #8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 6c2f219 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 6c2bd5d 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 6c31af3 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>145104</ThreadID>
+				<ThreadName>Electra::ExecAsync</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10edd72 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10fd9f6 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 10e7eaa 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 1176b64 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>115336</ThreadID>
+				<ThreadName>Background Worker (Standby #0)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 13a2011 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 13a1fde 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 1367d20 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>146236</ThreadID>
+				<ThreadName>FAsyncLoadingThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 162274 
+ntdll 0x00007fff9f840000 + cef34 
+KERNELBASE 0x00007fff9c9d0000 + 3e7a1 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12b9bac 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 3fd00c5 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>146240</ThreadID>
+				<ThreadName>ScreenSaverInhibitor</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 2137fb7 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>142724</ThreadID>
+				<ThreadName>AudioMixerNullCallbackThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff9f840000 + 161c74 
+KERNELBASE 0x00007fff9c9d0000 + 32a5f 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb117 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 2138224 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 213812e 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bba37 
+Cronos-Win64-Shipping 0x00007ff6406d0000 + 12bb809 
+KERNEL32 0x00007fff9dd10000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>127652</ThreadID>
+				<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638972455985630000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<CPUBrand>AMD Ryzen 5 7600X 6-Core Processor</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>D:\Installed Games\Cronos The New Dawn\Cronos\Binaries\Win64\Cronos-Win64-Shipping.exe
+D:\Installed Games\Cronos The New Dawn\Cronos\Binaries\Win64\Galaxy64.dll
+D:\Installed Games\Cronos The New Dawn\Cronos\Binaries\Win64\DML\DirectML.dll
+D:\Installed Games\Cronos The New Dawn\Engine\Plugins\NNE\NNERuntimeORT\Binaries\ThirdParty\Onnxruntime\Win64\onnxruntime.dll
+D:\Installed Games\Cronos The New Dawn\Cronos\Plugins\XeSS\Binaries\ThirdParty\Win64\libxess_fg.dll
+D:\Installed Games\Cronos The New Dawn\Cronos\Plugins\XeSS\Binaries\ThirdParty\Win64\libxess.dll
+D:\Installed Games\Cronos The New Dawn\Cronos\Plugins\DLSS\Binaries\ThirdParty\Win64\nvngx_dlssd.dll
+D:\Installed Games\Cronos The New Dawn\Cronos\Plugins\DLSS\Binaries\ThirdParty\Win64\nvngx_dlss.dll
+D:\Installed Games\Cronos The New Dawn\Engine\Plugins\Media\AppleProResMedia\Binaries\ThirdParty\Win64\ProResToolbox.dll
+D:\Installed Games\Cronos The New Dawn\Engine\Binaries\ThirdParty\Windows\XAudio2_9\x64\xaudio2_9redist.dll
+D:\Installed Games\Cronos The New Dawn\Cronos\Plugins\XeSS\Binaries\ThirdParty\Win64\libxell.dll
+D:\Installed Games\Cronos The New Dawn\Cronos\Plugins\StreamlineCore\Binaries\ThirdParty\Win64\nvngx_dlssg.dll
+D:\Installed Games\Cronos The New Dawn\Cronos\Binaries\Win64\amd_fidelityfx_dx12.dll
+D:\Installed Games\Cronos The New Dawn\Cronos\Plugins\StreamlineCore\Binaries\ThirdParty\Win64\nvngx_deepdvc.dll
+D:\Installed Games\Cronos The New Dawn\Engine\Binaries\ThirdParty\NVIDIA\NVaftermath\Win64\GFSDK_Aftermath_Lib.x64.dll
+D:\Installed Games\Cronos The New Dawn\Engine\Binaries\Win64\EOSSDK-Win64-Shipping.dll
+D:\Installed Games\Cronos The New Dawn\Engine\Binaries\ThirdParty\Steamworks\Steamv157\Win64\steam_api64.dll
+D:\Installed Games\Cronos The New Dawn\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+D:\Installed Games\Cronos The New Dawn\Cronos\Binaries\Win64\dxgi.dll
+D:\Installed Games\Cronos The New Dawn\Cronos\Binaries\Win64\OpenColorIO_2_3.dll
+D:\Installed Games\Cronos The New Dawn\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbis_64.dll
+D:\Installed Games\Cronos The New Dawn\Cronos\Plugins\StreamlineCore\Binaries\ThirdParty\Win64\sl.interposer.dll
+D:\Installed Games\Cronos The New Dawn\Cronos\Binaries\Win64\renodx-cronosthenewdawn.addon64
+D:\Installed Games\Cronos The New Dawn\Engine\Binaries\ThirdParty\NVIDIA\GPUDirect\Win64\dvp.dll
+D:\Installed Games\Cronos The New Dawn\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015\libogg_64.dll
+D:\Installed Games\Cronos The New Dawn\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbisfile_64.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformIsRunningWine>false</PlatformIsRunningWine>
+		<IsRunningOnBattery>false</IsRunningOnBattery>
+		<DriveStats.Project.Name>D:/Installed Games/Cronos The New Dawn/Cronos/Binaries/Win64/</DriveStats.Project.Name>
+		<DriveStats.Project.Type>NVMe</DriveStats.Project.Type>
+		<DriveStats.Project.FreeSpaceKb>144078244</DriveStats.Project.FreeSpaceKb>
+		<DriveStats.PersistentDownload.Name>C:/Users/Kutan/AppData/Local/Cronos/Saved/PersistentDownloadDir</DriveStats.PersistentDownload.Name>
+		<DriveStats.PersistentDownload.Type>NVMe</DriveStats.PersistentDownload.Type>
+		<DriveStats.PersistentDownload.FreeSpaceKb>232904668</DriveStats.PersistentDownload.FreeSpaceKb>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+		<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+		<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+		<RHI.D3DDebug>false</RHI.D3DDebug>
+		<RHI.DRED>false</RHI.DRED>
+		<RHI.DREDMarkersOnly>false</RHI.DREDMarkersOnly>
+		<RHI.DREDContext>false</RHI.DREDContext>
+		<RHI.Aftermath>true</RHI.Aftermath>
+		<RHI.RHIName>D3D12</RHI.RHIName>
+		<RHI.AdapterName>NVIDIA GeForce RTX 4090</RHI.AdapterName>
+		<RHI.UserDriverVersion>581.42</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>32.0.15.8142</RHI.InternalDriverVersion>
+		<RHI.DriverDate>9-22-2025</RHI.DriverDate>
+		<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+		<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+		<RHI.DeviceId>2684</RHI.DeviceId>
+		<DeviceProfile.Name>Windows</DeviceProfile.Name>
+		<Platform.AppHasFocus>true</Platform.AppHasFocus>
+	</EngineData>
+	<GameData>
+</GameData>
+</FGenericCrashContext>
